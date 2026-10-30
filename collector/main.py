@@ -244,6 +244,13 @@ def enrich_records(records):
         cached = cache_items.get(item["id"])
         if cached and cached.get("fingerprint") == fingerprint and cached.get("editorial"):
             item.update(cached["editorial"])
+        elif cached and cached.get("fingerprint") == fingerprint and cached.get("retry_after"):
+            try:
+                if datetime.fromisoformat(cached["retry_after"]) > datetime.now(timezone.utc):
+                    continue
+            except ValueError:
+                pass
+            candidates.append((item, fingerprint))
         else:
             candidates.append((item, fingerprint))
 
@@ -274,6 +281,11 @@ def enrich_records(records):
             cache_changed = True
         except Exception as exc:
             print(f"WARN Gemini editorial for {item.get('id')}: {exc}")
+            cache_items[item["id"]] = {
+                "fingerprint": fingerprint,
+                "retry_after": (datetime.now(timezone.utc) + timedelta(hours=6)).isoformat()
+            }
+            cache_changed = True
             item.setdefault("editorial_level", "raw_feed")
             item.setdefault("editorial_status", "raw")
     for item in records:
