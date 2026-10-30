@@ -108,7 +108,28 @@ function saveItem(id){const a=get(SAVED_KEY,[]),s=String(id);put(SAVED_KEY,a.inc
 function hideItem(id){put(HIDDEN_KEY,[...get(HIDDEN_KEY,[]),String(id)]);render();toast('Contenuto nascosto: il feed si adatterà')}
 
 // Enforce a single active player across every section and card.
-document.addEventListener('play',e=>{if(e.target&&e.target.tagName==='AUDIO'){document.querySelectorAll('audio').forEach(a=>{if(a!==e.target)a.pause()})}},true);
+// Single-playback controller: pause every other media element before allowing a new one.
+(function(){
+  let activeMedia=null;
+  function enforceSinglePlayback(event){
+    const current=event.target;
+    if(!current || !current.matches || !current.matches('audio,video')) return;
+    document.querySelectorAll('audio,video').forEach(media=>{
+      if(media!==current && !media.paused){
+        media.pause();
+      }
+    });
+    activeMedia=current;
+  }
+  document.addEventListener('play',enforceSinglePlayback,true);
+  document.addEventListener('playing',enforceSinglePlayback,true);
+  document.addEventListener('pause',event=>{
+    if(event.target===activeMedia) activeMedia=null;
+  },true);
+  document.addEventListener('ended',event=>{
+    if(event.target===activeMedia) activeMedia=null;
+  },true);
+})();
 
 function bindDynamic(){document.body.onclick=e=>{const nav=e.target.closest('[data-view]');if(nav){setView(nav.dataset.view);return}const topic=e.target.closest('[data-topic]');if(topic){activeTopic=topic.dataset.topic;render();return}const sv=e.target.closest('[data-save]');if(sv){saveItem(sv.dataset.save);return}const hv=e.target.closest('[data-hide]');if(hv){hideItem(hv.dataset.hide);return}const iv=e.target.closest('[data-interest]');if(iv){iv.classList.toggle('selected');return}};document.body.addEventListener('click',e=>{const c=e.target.closest('.card');if(c&&c.dataset.id&&!e.target.closest('button,a')){const h=get(HISTORY_KEY,[]),id=String(c.dataset.id);put(HISTORY_KEY,[...h.filter(x=>x!==id),id].slice(-50))}})}
 
