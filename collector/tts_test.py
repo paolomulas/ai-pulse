@@ -1,5 +1,6 @@
 """Generate one cached Italian AI Pulse voice sample with Gemini TTS."""
 import base64
+import hashlib
 import json
 import os
 from datetime import datetime, timezone
@@ -35,6 +36,11 @@ def main():
         and x.get("editorial", {}).get("it")
         and not x.get("ttsAudioUrl")
     ]
+    candidates.sort(key=lambda x: (
+        0 if x.get("editorial_level") == "editors_pick" else 1,
+        -int(x.get("relevance_score", 0)),
+        x.get("publishedAt") or ""
+    ))
     if not candidates:
         print("No eligible AI Curated Italian news item")
         return
@@ -44,6 +50,7 @@ def main():
     transcript = ". ".join(filter(None, [
         it.get("title", ""), it.get("summary", ""), it.get("why_it_matters", "")
     ]))[:5000]
+    transcript_hash = hashlib.sha256(transcript.encode("utf-8")).hexdigest()
     payload = {
         "model": MODEL,
         "input": [{
@@ -85,10 +92,15 @@ def main():
     item["ttsAudioUrl"] = f"https://raw.githubusercontent.com/paolomulas/ai-pulse/main/public/audio/{filename}"
     item["ttsModel"] = MODEL
     item["ttsVoice"] = "Kore"
+    item["ttsLanguage"] = "it"
+    item["ttsContentHash"] = transcript_hash
+    item["ttsGeneratedAt"] = datetime.now(timezone.utc).isoformat()
+    item["ttsBytes"] = len(wav)
     FEED.write_text(json.dumps(feed, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     STATE.write_text(json.dumps({
         "date": today, "generated": True, "item_id": item["id"],
-        "model": MODEL, "voice": "Kore", "language": "it", "bytes": len(wav)
+        "model": MODEL, "voice": "Kore", "language": "it", "bytes": len(wav),
+        "content_sha256": transcript_hash, "filename": filename
     }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Generated {filename}: {len(wav)} bytes")
 
