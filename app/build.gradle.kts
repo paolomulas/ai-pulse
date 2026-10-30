@@ -6,13 +6,13 @@ plugins {
 
 android {
     namespace = "com.aipulse.app"
-    compileSdk = 35
+    compileSdk = 36
     defaultConfig {
         applicationId = "com.aipulse.app"
         minSdk = 26
-        targetSdk = 35
-        versionCode = 2
-        versionName = "0.2.1"
+        targetSdk = 36
+        versionCode = 3
+        versionName = "0.3.0"
     }
     buildFeatures { compose = true }
     compileOptions {
@@ -31,6 +31,7 @@ dependencies {
     implementation("androidx.compose.material:material-icons-extended")
     implementation("androidx.navigation:navigation-compose:2.8.5")
     implementation("androidx.lifecycle:lifecycle-runtime-compose:2.8.7")
+    implementation("androidx.core:core-ktx:1.15.0")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0")
     debugImplementation("androidx.compose.ui:ui-tooling")
 }
