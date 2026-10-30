@@ -218,7 +218,7 @@ private fun PulseScreen() {
                     Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
                         Text("LINGUA", color = Muted, fontSize = 9.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.sp)
                         Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
-                            listOf("it" to "🇮🇹 IT", "en" to "🇬🇧 EN", "es" to "🇪🇸 ES", "zh-CN" to "🇨🇳 中文").forEach { (code, label) ->
+                            listOf("it" to "🇮🇹 IT", "en" to "🇬🇧 EN", "es" to "🇪🇸 ES", "zh-CN" to "🇨🇳 中文", "de" to "🇩🇪 DE").forEach { (code, label) ->
                                 FilterChip(selected = language == code, onClick = { language = code }, label = { Text(label, fontSize = 10.sp) })
                             }
                         }
@@ -307,7 +307,7 @@ private fun PulseScreen() {
                         Text(displaySummary, color = Muted, fontSize = 13.sp, lineHeight = 19.sp, maxLines = 5, overflow = TextOverflow.Ellipsis)
                         if (!displayWhy.isNullOrBlank()) {
                             Spacer(Modifier.height(9.dp))
-                            Text(if (language == "it") "PERCHÉ È INTERESSANTE" else "WHY IT MATTERS", color = Terra, fontSize = 9.sp, fontWeight = FontWeight.Bold, letterSpacing = 0.8.sp)
+                            Text(when (language) { "it" -> "PERCHÉ È INTERESSANTE"; "de" -> "WARUM DAS WICHTIG IST"; else -> "WHY IT MATTERS" }, color = Terra, fontSize = 9.sp, fontWeight = FontWeight.Bold, letterSpacing = 0.8.sp)
                             Text(displayWhy, color = Ink, fontSize = 12.sp, lineHeight = 17.sp)
                         }
                         if (story.editorialLevel == "editors_pick" && story.editorPickReason.isNotBlank()) {
