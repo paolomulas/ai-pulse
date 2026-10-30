@@ -106,7 +106,7 @@ private fun PulseScreen() {
         filter == "Tutto" ||
             (filter == "News" && it.type == "news") ||
             (filter == "GitHub" && it.type == "github") ||
-            (filter == "Speak Up" && it.type == "speak_up" || filter == "Speak Up" && it.type == "Speak Up")
+            (filter == "Speak Up" && it.type in listOf("speak_up", "Speak Up"))
     }
 
     MaterialTheme(colorScheme = lightColorScheme(
