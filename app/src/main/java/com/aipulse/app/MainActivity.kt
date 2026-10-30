@@ -51,7 +51,10 @@ private data class Story(
     val type: String,
     val duration: String = "",
     val language: String = "en",
-    val podcastCategory: String = "frontier"
+    val podcastCategory: String = "frontier",
+    val editorial: JSONObject? = null,
+    val editorialLevel: String = "raw_feed",
+    val editorPickReason: String = ""
 )
 
 private val demoStories = listOf(
@@ -95,7 +98,10 @@ private suspend fun loadFeed(): List<Story> = withContext(Dispatchers.IO) {
                         type = type,
                         duration = item.optString("duration"),
                         language = item.optString("language", "en"),
-                        podcastCategory = item.optString("podcastCategory", "frontier")
+                        podcastCategory = item.optString("podcastCategory", "frontier"),
+                        editorial = item.optJSONObject("editorial"),
+                        editorialLevel = item.optString("editorial_level", "raw_feed"),
+                        editorPickReason = item.optString("editor_pick_reason")
                     )
                 )
             }
@@ -115,6 +121,8 @@ class MainActivity : ComponentActivity() {
 @Composable
 private fun PulseScreen() {
     var filter by remember { mutableStateOf("Tutto") }
+    var language by remember { mutableStateOf("it") }
+    var levelFilter by remember { mutableStateOf("all") }
     var liveStories by remember { mutableStateOf<List<Story>>(emptyList()) }
     var isLoading by remember { mutableStateOf(true) }
     val context = LocalContext.current
@@ -139,10 +147,11 @@ private fun PulseScreen() {
     val sourceStories = if (live) liveStories else demoStories
     val filters = listOf("Tutto", "News", "GitHub", "Speak Up")
     val visible = sourceStories.filter {
-        filter == "Tutto" ||
+        (filter == "Tutto" ||
             (filter == "News" && it.type == "news") ||
             (filter == "GitHub" && it.type == "github") ||
-            (filter == "Speak Up" && it.type == "speak_up")
+            (filter == "Speak Up" && it.type == "speak_up")) &&
+            (levelFilter == "all" || it.editorialLevel == levelFilter)
     }
 
     MaterialTheme(colorScheme = lightColorScheme(
@@ -181,6 +190,22 @@ private fun PulseScreen() {
                     Row(horizontalArrangement = Arrangement.spacedBy(7.dp)) {
                         filters.forEach { f ->
                             FilterChip(selected = filter == f, onClick = { filter = f }, label = { Text(f, fontSize = 11.sp) })
+                        }
+                    }
+                }
+                item {
+                    Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                        Text("LINGUA", color = Muted, fontSize = 9.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.sp)
+                        Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+                            listOf("it" to "🇮🇹 IT", "en" to "🇬🇧 EN", "es" to "🇪🇸 ES", "zh-CN" to "🇨🇳 中文").forEach { (code, label) ->
+                                FilterChip(selected = language == code, onClick = { language = code }, label = { Text(label, fontSize = 10.sp) })
+                            }
+                        }
+                        Text("LIVELLO EDITORIALE", color = Muted, fontSize = 9.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.sp)
+                        Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+                            listOf("all" to "Tutti", "raw_feed" to "Raw", "ai_curated" to "Curated", "editors_pick" to "Pick").forEach { (code, label) ->
+                                FilterChip(selected = levelFilter == code, onClick = { levelFilter = code }, label = { Text(label, fontSize = 10.sp) })
+                            }
                         }
                     }
                 }
@@ -243,9 +268,27 @@ private fun PulseScreen() {
                             Text(story.source.uppercase() + if (story.duration.isNotBlank()) " · ${story.duration}" else "", color = Sage, fontSize = 10.sp, fontWeight = FontWeight.Bold, letterSpacing = 0.8.sp)
                             Spacer(Modifier.height(5.dp))
                         }
-                        Text(story.title, color = Ink, fontSize = 18.sp, lineHeight = 23.sp, fontWeight = FontWeight.SemiBold)
+                        val localized = story.editorial?.optJSONObject(language) ?: story.editorial?.optJSONObject("it")
+                        val curated = localized != null && story.editorialLevel != "raw_feed"
+                        val displayTitle = if (curated) localized?.optString("title")?.takeIf { it.isNotBlank() } ?: story.title else story.title
+                        val displaySummary = if (curated) localized?.optString("summary")?.takeIf { it.isNotBlank() } ?: story.summary else story.summary
+                        val displayWhy = if (curated) localized?.optString("why_it_matters")?.takeIf { it.isNotBlank() } else null
+                        Surface(color = if (story.editorialLevel == "editors_pick") Ink else Warm, shape = RoundedCornerShape(30.dp)) {
+                            Row(Modifier.padding(horizontal = 9.dp, vertical = 5.dp), verticalAlignment = Alignment.CenterVertically) {
+                                Icon(if (story.editorialLevel == "editors_pick") Icons.Default.Star else Icons.Default.AutoAwesome, null, tint = if (story.editorialLevel == "editors_pick") Color(0xFFF2D69A) else Terra, modifier = Modifier.size(12.dp))
+                                Spacer(Modifier.width(5.dp))
+                                Text(when (story.editorialLevel) { "editors_pick" -> "EDITOR'S PICK"; "ai_curated" -> "AI CURATED"; else -> "RAW FEED" }, color = if (story.editorialLevel == "editors_pick") Color(0xFFF2D69A) else Terra, fontSize = 9.sp, fontWeight = FontWeight.Bold, letterSpacing = 0.8.sp)
+                            }
+                        }
+                        Spacer(Modifier.height(9.dp))
+                        Text(displayTitle, color = Ink, fontSize = 18.sp, lineHeight = 23.sp, fontWeight = FontWeight.SemiBold)
                         Spacer(Modifier.height(7.dp))
-                        Text(story.summary, color = Muted, fontSize = 13.sp, lineHeight = 19.sp, maxLines = 4, overflow = TextOverflow.Ellipsis)
+                        Text(displaySummary, color = Muted, fontSize = 13.sp, lineHeight = 19.sp, maxLines = 5, overflow = TextOverflow.Ellipsis)
+                        if (!displayWhy.isNullOrBlank()) {
+                            Spacer(Modifier.height(9.dp))
+                            Text(if (language == "it") "PERCHÉ È INTERESSANTE" else "WHY IT MATTERS", color = Terra, fontSize = 9.sp, fontWeight = FontWeight.Bold, letterSpacing = 0.8.sp)
+                            Text(displayWhy, color = Ink, fontSize = 12.sp, lineHeight = 17.sp)
+                        }
                         Spacer(Modifier.height(12.dp))
                         Text("Fonte: ${story.source}  ·  Apri ↗", color = Terra, fontSize = 11.sp, fontWeight = FontWeight.Medium)
                     }
