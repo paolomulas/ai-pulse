@@ -1,8 +1,168 @@
 {
-  "items": {},
+  "items": {
+    "9349f418e7bc7ab45091d36c0bfe75e2136622d8b5dbcf107bb7aa7386820b2a": {
+      "fingerprint": "e4e09d36edbe24fcd810a6d4ddf4cf0b2aec12abcc960e7446168f3e6ff69743",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Aggiornato il Model Spec di OpenAI per un'IA più capace",
+            "summary": "OpenAI ha pubblicato un Model Spec aggiornato che delinea cinque valori fondamentali. L'obiettivo è guidare i sistemi verso un giudizio solido, l'autonomia umana e la fedeltà all'intento.",
+            "why_it_matters": "Queste linee guida offrono una trasparenza cruciale sui criteri di progettazione e allineamento per i sistemi avanzati di OpenAI.",
+            "highlights": [
+              "Presentata la versione aggiornata del Model Spec.",
+              "Definiti cinque valori fondamentali per lo sviluppo.",
+              "Focus su giudizio, agenzia umana e fedeltà agli intenti."
+            ]
+          },
+          "en": {
+            "title": "OpenAI Updates Model Spec for Capable and Beneficial AI",
+            "summary": "OpenAI's updated Model Spec outlines five core values designed to guide AI behavior. The framework focuses on sound judgment, human agency, and faithfulness to human intent.",
+            "why_it_matters": "The specification offers important insights into the governance and alignment principles guiding OpenAI's models.",
+            "highlights": [
+              "Released an updated Model Spec document.",
+              "Outlines five core values for AI guidance.",
+              "Emphasizes sound judgment and human agency."
+            ]
+          },
+          "es": {
+            "title": "OpenAI actualiza el Model Spec para una IA más capaz",
+            "summary": "El Model Spec actualizado de OpenAI detalla cinco valores fundamentales para guiar a la IA. El marco se centra en un juicio sólido, la agencia humana y la fidelidad a la intención.",
+            "why_it_matters": "Esta actualización proporciona una visión clara de los principios de diseño y alineación que OpenAI implementa en sus modelos.",
+            "highlights": [
+              "Publicación del Model Spec actualizado.",
+              "Establece cinco valores centrales para la IA.",
+              "Enfoque en el juicio sólido y la agencia humana."
+            ]
+          },
+          "zh-CN": {
+            "title": "OpenAI更新模型规范以实现更强大的AI",
+            "summary": "OpenAI发布了更新后的模型规范，概述了指导AI行为的五个核心values。该框架侧重于良好的判断力、人类自主性以及对人类意图的忠实度。",
+            "why_it_matters": "该规范为了解OpenAI模型的治理与对齐原则提供了重要的参考依据。",
+            "highlights": [
+              "发布了更新后的模型规范文档。",
+              "概述了用于指导AI的五个核心价值观。",
+              "强调稳健的判断力和人类自主性。"
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 1,
+        "relevance_score": 75,
+        "editor_pick_reason": ""
+      }
+    },
+    "0f01adb2acab0a67ba71c0b077a856b8d5e6ddb0aecdbfc3051cca05fba1e4d6": {
+      "fingerprint": "71a6c8b322414740e027339deab6d8b3dc579fc3bed0f0a442bced0626f6ab2a",
+      "retry_after": "2026-10-30T21:56:39.099795+00:00"
+    },
+    "d948735545c20cf3072195dbbc120386d43c1319abb3514dc8f0d2f4f07f9bdc": {
+      "fingerprint": "3d61b3975dc94a22f541799acd2604c064753d3f5bc457e9eb4067289be3f10b",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Ropes & Gray sviluppa intelligenza artificiale per la due diligence",
+            "summary": "Lo studio legale Ropes & Gray sta sviluppando strumenti di intelligenza artificiale insieme a OpenAI per la due diligence transazionale. Gli avvocati esaminano documenti raggruppati, riassunti e report prima di consigliare i clienti.",
+            "why_it_matters": "L'iniziativa illustra l'applicazione dell'intelligenza artificiale generativa nei flussi di lavoro legali complessi, dove la supervisione umana resta centrale per la consulenza ai clienti.",
+            "highlights": [
+              "Sviluppo congiunto con OpenAI per la due diligence transazionale",
+              "Analisi di documenti raggruppati, riassunti e report da parte dei legali"
+            ]
+          },
+          "en": {
+            "title": "Ropes & Gray is developing AI for transactional diligence",
+            "summary": "Law firm Ropes & Gray is developing AI with OpenAI for transactional diligence. Lawyers review grouped documents, summaries, and reports before advising clients.",
+            "why_it_matters": "This project highlights how generative AI is being integrated into complex legal workflows, maintaining human oversight through lawyer review before client advisory.",
+            "highlights": [
+              "Development partnership with OpenAI focused on transactional diligence",
+              "Lawyers review grouped documents, summaries, and reports"
+            ]
+          },
+          "es": {
+            "title": "Ropes & Gray desarrolla inteligencia artificial para diligencia",
+            "summary": "El bufete Ropes & Gray está desarrollando inteligencia artificial junto con OpenAI para la diligencia transaccional. Los abogados revisan documentos agrupados, resúmenes e informes antes de asesorar a los clientes.",
+            "why_it_matters": "La iniciativa muestra la aplicación de la IA en procesos legales complejos, destacando la importancia de la revisión humana antes de emitir asesoramiento.",
+            "highlights": [
+              "Desarrollo conjunto con OpenAI para diligencia transaccional",
+              "Los abogados revisan documentos agrupados, resúmenes e informes"
+            ]
+          },
+          "zh-CN": {
+            "title": "Ropes & Gray正开发用于交易尽职调查的人工智能",
+            "summary": "律师事务所Ropes & Gray正与OpenAI合作开发用于交易尽职调查的人工智能。律师在为客户提供咨询之前，会审查经分组的文件、摘要和报告。",
+            "why_it_matters": "该项目展示了生成式人工智能在复杂法律工作流中的应用，并通过律师审查确保了人类监督的核心作用。",
+            "highlights": [
+              "与OpenAI合作开发交易尽职调查人工智能",
+              "律师在咨询前审查分组文件、摘要与报告"
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 1,
+        "relevance_score": 75,
+        "editor_pick_reason": ""
+      }
+    },
+    "85f94c0fe8f02a81789bf1080d36944ec8ac0a0eece0a3547fb83f15ce90723f": {
+      "fingerprint": "9600ec5d2eff9fc40017f5a0e664933eb1ddf09d189cbc2a4cc9fc4cb17ead48",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Credit Saison: 954% di ROI nel pilota ChatGPT Enterprise",
+            "summary": "Il pilota di ChatGPT Enterprise condotto da Credit Saison ha generato un ROI del 954%. Leader e dipendenti hanno collaborato per favorire l'adozione aziendale dei risultati.",
+            "why_it_matters": "I dati sul ritorno d'investimento offrono indicazioni sull'impatto aziendale dei modelli linguistici avanzati, sebbene riflettano i risultati dichiarati dal progetto pilota.",
+            "highlights": [
+              "Pilot di ChatGPT Enterprise completato da Credit Saison",
+              "Raggiunto un ROI dichiarata del 954%",
+              "Coinvolgimento di leader e dipendenti per l'adozione aziendale"
+            ]
+          },
+          "en": {
+            "title": "Credit Saison Achieves 954% ROI in ChatGPT Enterprise Pilot",
+            "summary": "Credit Saison’s pilot with ChatGPT Enterprise delivered a 954% return on investment. Company leaders and employees helped drive the transition to companywide adoption.",
+            "why_it_matters": "Reported metrics from enterprise deployments offer valuable insight into deployment scaling, though these figures represent project claims rather than independent benchmarks.",
+            "highlights": [
+              "Credit Saison conducted a ChatGPT Enterprise pilot",
+              "Reported a 954% ROI from the deployment",
+              "Companywide adoption driven by leadership and staff involvement"
+            ]
+          },
+          "es": {
+            "title": "Credit Saison logra un 954% de ROI en piloto de ChatGPT Enterprise",
+            "summary": "El programa piloto de ChatGPT Enterprise en Credit Saison alcanzó un 954% de retorno de inversión. Líderes y empleados colaboraron para impulsar la adopción en toda la compañía.",
+            "why_it_matters": "Las métricas reportadas sobre despliegues empresariales aportan visibilidad sobre el impacto organizativo, aunque se basan en afirmaciones del proyecto y no en pruebas independientes.",
+            "highlights": [
+              "Credit Saison implementó un piloto de ChatGPT Enterprise",
+              "Se registró un ROI del 954%",
+              "La adopción general se logró con la participación de líderes y empleados"
+            ]
+          },
+          "zh-CN": {
+            "title": "Credit Saison在ChatGPT Enterprise试点中实现954%回报率",
+            "summary": "Credit Saison的ChatGPT Enterprise试点取得了954%的投资回报率。高管与员工共同推动了成果并在全公司范围内实现应用。",
+            "why_it_matters": "企业级部署所报告的指标为评估组织影响力提供了参考，但这些数据反映的是项目自身的声明，而非独立测试结果。",
+            "highlights": [
+              "Credit Saison开展了ChatGPT Enterprise试点项目",
+              "项目报告达到了954%的投资回报率",
+              "领导层与员工共同推动了全公司范围内的采用"
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 1,
+        "relevance_score": 75,
+        "editor_pick_reason": ""
+      }
+    }
+  },
   "daily": {
-    "date": "",
-    "count": 0,
+    "date": "2026-10-30",
+    "count": 3,
     "picks": 0
   }
 }
