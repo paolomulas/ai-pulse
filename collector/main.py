@@ -260,24 +260,30 @@ def enrich_records(records):
         else:
             candidates.append((item, fingerprint))
 
-    # Keep editorial enrichment balanced: do not let the larger RSS stream starve GitHub projects.
+    # Reserve half of the existing run budget for Speak Up so episode cards
+    # progressively receive localized editorial introductions without raising quotas.
     by_type = {"news": [], "github": [], "speak_up": []}
     for candidate in candidates:
         item_type = candidate[0].get("type")
         if item_type in by_type:
             by_type[item_type].append(candidate)
-    balanced = []
-    while by_type["news"] or by_type["github"]:
-        for item_type in ("news", "github", "speak_up"):
-            if by_type[item_type]:
-                balanced.append(by_type[item_type].pop(0))
-    candidates = balanced
 
     remaining_daily = max(0, EDITORIAL_DAILY_LIMIT - int(daily.get("count", 0)))
     remaining_run = min(EDITORIAL_MAX_PER_RUN, remaining_daily)
+    podcast_slots = min(len(by_type["speak_up"]), (remaining_run + 1) // 2)
+    selected = by_type["speak_up"][:podcast_slots]
+
+    non_podcast = []
+    while by_type["news"] or by_type["github"]:
+        for item_type in ("news", "github"):
+            if by_type[item_type]:
+                non_podcast.append(by_type[item_type].pop(0))
+    selected.extend(non_podcast[:max(0, remaining_run - len(selected))])
+    candidates_to_process = selected
+
     generated = 0
     cache_changed = False
-    for item, fingerprint in candidates[:remaining_run]:
+    for item, fingerprint in candidates_to_process:
         try:
             result = gemini_editorial(item, api_key)
             is_pick = item.get("type") != "speak_up" and bool(result.get("editor_pick")) and int(result.get("relevance_score", 0)) >= 85 and int(daily.get("picks", 0)) < EDITORIAL_PICK_DAILY_LIMIT
@@ -310,7 +316,7 @@ def enrich_records(records):
     for item in records:
         item.setdefault("editorial_level", "raw_feed")
         item.setdefault("editorial_status", "raw")
-    print(f"Editorial: {generated} generated, {len(candidates) - generated} pending/failed, daily {daily.get('count', 0)}/{EDITORIAL_DAILY_LIMIT}")
+    print(f"Editorial: {generated} generated, {len(candidates) - generated} pending/failed, run {len(candidates_to_process)}/{remaining_run}, daily {daily.get('count', 0)}/{EDITORIAL_DAILY_LIMIT}")
     if cache_changed or not EDITORIAL_CACHE_PATH.exists():
         EDITORIAL_CACHE_PATH.parent.mkdir(parents=True, exist_ok=True)
         EDITORIAL_CACHE_PATH.write_text(json.dumps(cache, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
