@@ -26,9 +26,11 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.google.firebase.firestore.FirebaseFirestore
-import com.google.firebase.firestore.ListenerRegistration
-import com.google.firebase.firestore.Query
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+import org.json.JSONObject
+import java.net.HttpURLConnection
+import java.net.URL
 
 private val Paper = Color(0xFFFAF9F5)
 private val Warm = Color(0xFFF0EEE6)
@@ -36,6 +38,7 @@ private val Ink = Color(0xFF25231F)
 private val Muted = Color(0xFF777166)
 private val Terra = Color(0xFFC6613F)
 private val Sage = Color(0xFF788C5D)
+private const val FEED_URL = "https://raw.githubusercontent.com/paolomulas/ai-pulse/main/public/feed.json"
 
 private data class Story(
     val id: String,
@@ -48,11 +51,52 @@ private data class Story(
 )
 
 private val demoStories = listOf(
-    Story("demo-1", "MODELLI", "L'intelligenza artificiale entra in una nuova fase", "Aggiornamenti e analisi sulle nuove generazioni di modelli. I contenuti live saranno collegati alle fonti verificate.", "AI Pulse Editorial", "https://openai.com/news/", "News"),
-    Story("demo-2", "OPEN SOURCE", "I repository AI da tenere d'occhio", "Progetti emergenti ordinati considerando attività recente, crescita e interesse della community.", "GitHub", "https://github.com/trending", "GitHub"),
-    Story("demo-3", "RICERCA", "Ricerca e applicazioni: cosa cambia", "Una selezione di aggiornamenti da laboratori e gruppi di ricerca, con collegamento alle fonti originali.", "Google DeepMind", "https://deepmind.google/discover/blog/", "News"),
-    Story("demo-4", "SPEAK UP · INTERVISTA", "Le idee che orientano il dibattito sull'AI", "La sezione raccoglierà podcast, interviste e conferenze recenti. Citazioni dirette solo con trascrizioni verificabili.", "Latent Space", "https://www.latent.space/", "Speak Up")
+    Story("demo-1", "MODELLI", "L'intelligenza artificiale entra in una nuova fase", "Aggiornamenti e analisi sulle nuove generazioni di modelli. I contenuti live saranno collegati alle fonti verificate.", "AI Pulse Editorial", "https://openai.com/news/", "news"),
+    Story("demo-2", "OPEN SOURCE", "I repository AI da tenere d'occhio", "Progetti emergenti ordinati considerando attività recente, crescita e interesse della community.", "GitHub", "https://github.com/trending", "github"),
+    Story("demo-3", "RICERCA", "Ricerca e applicazioni: cosa cambia", "Una selezione di aggiornamenti da laboratori e gruppi di ricerca, con collegamento alle fonti originali.", "Google DeepMind", "https://deepmind.google/discover/blog/", "news"),
+    Story("demo-4", "SPEAK UP · INTERVISTA", "Le idee che orientano il dibattito sull'AI", "La sezione raccoglierà podcast, interviste e conferenze recenti. Citazioni dirette solo con trascrizioni verificabili.", "Latent Space", "https://www.latent.space/", "speak_up")
 )
+
+private suspend fun loadFeed(): List<Story> = withContext(Dispatchers.IO) {
+    val connection = (URL(FEED_URL).openConnection() as HttpURLConnection).apply {
+        connectTimeout = 10000
+        readTimeout = 15000
+        requestMethod = "GET"
+        setRequestProperty("Accept", "application/json")
+        setRequestProperty("User-Agent", "AIPulse-Android")
+    }
+    try {
+        val body = connection.inputStream.bufferedReader(Charsets.UTF_8).use { it.readText() }
+        val items = JSONObject(body).optJSONArray("items") ?: return@withContext emptyList()
+        buildList {
+            for (index in 0 until items.length()) {
+                val item = items.optJSONObject(index) ?: continue
+                val url = item.optString("sourceUrl")
+                val title = item.optString("title")
+                if (!url.startsWith("https://") || title.isBlank()) continue
+                val type = item.optString("type", "news")
+                val section = when (type) {
+                    "github" -> "OPEN SOURCE"
+                    "speak_up" -> "SPEAK UP"
+                    else -> item.optString("sourceKind", "NEWS").uppercase()
+                }
+                add(
+                    Story(
+                        id = item.optString("id", "$index-$title"),
+                        section = section,
+                        title = title,
+                        summary = item.optString("summary"),
+                        source = item.optString("sourceName", "Fonte"),
+                        url = url,
+                        type = type
+                    )
+                )
+            }
+        }
+    } finally {
+        connection.disconnect()
+    }
+}
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -64,49 +108,28 @@ class MainActivity : ComponentActivity() {
 @Composable
 private fun PulseScreen() {
     var filter by remember { mutableStateOf("Tutto") }
-    var firestoreStories by remember { mutableStateOf<List<Story>?>(null) }
+    var liveStories by remember { mutableStateOf<List<Story>>(emptyList()) }
+    var isLoading by remember { mutableStateOf(true) }
     val context = LocalContext.current
 
-    DisposableEffect(Unit) {
-        var registration: ListenerRegistration? = null
+    LaunchedEffect(Unit) {
         try {
-            registration = FirebaseFirestore.getInstance()
-                .collection("ai_pulse_content")
-                .orderBy("collectedAt", Query.Direction.DESCENDING)
-                .limit(60)
-                .addSnapshotListener { snapshot, error ->
-                    if (error != null) {
-                        firestoreStories = emptyList()
-                    } else if (snapshot != null) {
-                        firestoreStories = snapshot.documents.mapNotNull { doc ->
-                            val url = doc.getString("sourceUrl") ?: return@mapNotNull null
-                            val type = doc.getString("type") ?: "news"
-                            val title = doc.getString("title") ?: return@mapNotNull null
-                            val source = doc.getString("sourceName") ?: "Fonte"
-                            val summary = doc.getString("summary") ?: ""
-                            val section = when (type) {
-                                "github" -> "OPEN SOURCE"
-                                "speak_up" -> "SPEAK UP"
-                                else -> "NEWS"
-                            }
-                            Story(doc.id, section, title, summary, source, url, type)
-                        }
-                    }
-                }
-        } catch (_: IllegalStateException) {
-            firestoreStories = emptyList()
+            liveStories = loadFeed()
+        } catch (_: Exception) {
+            liveStories = emptyList()
+        } finally {
+            isLoading = false
         }
-        onDispose { registration?.remove() }
     }
 
-    val live = !firestoreStories.isNullOrEmpty()
-    val sourceStories = if (live) firestoreStories!! else demoStories
+    val live = liveStories.isNotEmpty()
+    val sourceStories = if (live) liveStories else demoStories
     val filters = listOf("Tutto", "News", "GitHub", "Speak Up")
     val visible = sourceStories.filter {
         filter == "Tutto" ||
             (filter == "News" && it.type == "news") ||
             (filter == "GitHub" && it.type == "github") ||
-            (filter == "Speak Up" && it.type in listOf("speak_up", "Speak Up"))
+            (filter == "Speak Up" && it.type == "speak_up")
     }
 
     MaterialTheme(colorScheme = lightColorScheme(
@@ -153,7 +176,11 @@ private fun PulseScreen() {
                         Box(Modifier.size(7.dp).background(if (live) Sage else Terra, RoundedCornerShape(50)))
                         Spacer(Modifier.width(7.dp))
                         Text(
-                            if (live) "AGGIORNATO DA FIRESTORE" else "ANTEPRIMA · CONTENUTI DIMOSTRATIVI",
+                            when {
+                                live -> "FEED LIVE · GITHUB"
+                                isLoading -> "CARICAMENTO DEL FEED"
+                                else -> "ANTEPRIMA · CONTENUTI DIMOSTRATIVI"
+                            },
                             color = Muted, fontSize = 9.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.sp
                         )
                     }
@@ -167,7 +194,7 @@ private fun PulseScreen() {
                         Row(verticalAlignment = Alignment.CenterVertically) {
                             val icon = when (story.type) {
                                 "github" -> Icons.Default.Code
-                                "speak_up", "Speak Up" -> Icons.Default.GraphicEq
+                                "speak_up" -> Icons.Default.GraphicEq
                                 else -> Icons.Default.AutoAwesome
                             }
                             Icon(icon, null, tint = Terra, modifier = Modifier.size(15.dp))
@@ -185,9 +212,9 @@ private fun PulseScreen() {
                 if (visible.isEmpty()) {
                     item { Text("Nessun contenuto in questa sezione. Riprova più tardi.", color = Muted, fontSize = 13.sp) }
                 }
-                if (!live) {
+                if (!live && !isLoading) {
                     item {
-                        Text("Il feed live sarà mostrato dopo la configurazione Firebase e la prima raccolta dei contenuti.", color = Muted, fontSize = 11.sp, lineHeight = 16.sp)
+                        Text("Feed temporaneamente non disponibile: mostriamo un'anteprima dimostrativa.", color = Muted, fontSize = 11.sp, lineHeight = 16.sp)
                     }
                 }
             }
