@@ -3,7 +3,6 @@ import argparse
 import hashlib
 import html
 import json
-import os
 import re
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -14,8 +13,7 @@ import requests
 
 ROOT = Path(__file__).parent
 CONFIG = json.loads((ROOT / "sources.json").read_text(encoding="utf-8"))
-HEADERS = {"User-Agent": "AIPulseCollector/0.2 (+https://github.com/paolomulas/ai-pulse)"}
-COLLECTION = "ai_pulse_content"
+HEADERS = {"User-Agent": "AIPulseCollector/0.3 (+https://github.com/paolomulas/ai-pulse)"}
 
 def iso_now():
     return datetime.now(timezone.utc).isoformat()
@@ -30,7 +28,7 @@ def item_id(url):
 def clean_text(value, limit=1800):
     value = re.sub(r"<[^>]+>", " ", value or "")
     value = html.unescape(value)
-    return re.sub(r"\s+", " ", value).strip()[:limit]
+    return re.sub(r"\\s+", " ", value).strip()[:limit]
 
 def published(entry):
     for key in ("published_parsed", "updated_parsed"):
@@ -70,14 +68,13 @@ def collect_rss():
 def collect_github():
     out, seen = [], set()
     since = (datetime.now(timezone.utc) - timedelta(days=30)).date().isoformat()
-    headers = dict(HEADERS)
-    if os.getenv("GITHUB_TOKEN"):
-        headers["Authorization"] = "Bearer " + os.environ["GITHUB_TOKEN"]
     for term in CONFIG.get("github_queries", []):
         try:
-            response = requests.get("https://api.github.com/search/repositories",
+            response = requests.get(
+                "https://api.github.com/search/repositories",
                 params={"q": f"{term} pushed:>{since}", "sort": "updated", "order": "desc", "per_page": 20},
-                headers=headers, timeout=20)
+                headers=HEADERS, timeout=20
+            )
             response.raise_for_status()
             for repo in response.json().get("items", []):
                 url = repo.get("html_url")
@@ -98,45 +95,18 @@ def collect_github():
             print(f"WARN GitHub query {term}: {exc}")
     return out
 
-def publish(records):
-    raw = os.getenv("FIREBASE_SERVICE_ACCOUNT_JSON")
-    project = os.getenv("FIREBASE_PROJECT_ID")
-    if not raw or not project:
-        raise RuntimeError("Missing Firebase Actions secret/variable")
-    from google.oauth2 import service_account
-    from google.cloud import firestore
-    credentials = service_account.Credentials.from_service_account_info(json.loads(raw))
-    db = firestore.Client(project=project, credentials=credentials)
-    # Read in bounded chunks and write only new or changed documents. This avoids
-    # consuming the Spark daily write quota by rewriting an unchanged feed on every run.
-    for start in range(0, len(records), 300):
-        chunk = records[start:start + 300]
-        refs = [db.collection(COLLECTION).document(record["id"]) for record in chunk]
-        existing = {snap.id: (snap.to_dict() or {}) for snap in db.get_all(refs) if snap.exists}
-        batch = db.batch()
-        writes = 0
-        for record in chunk:
-            doc_id = record["id"]
-            payload = dict(record)
-            payload.pop("id", None)
-            previous = existing.get(doc_id)
-            comparable = {k: v for k, v in payload.items() if k != "collectedAt"}
-            previous_comparable = {k: v for k, v in previous.items() if k not in ("collectedAt", "updatedAt")}
-            if previous is None:
-                batch.set(db.collection(COLLECTION).document(doc_id), payload)
-                writes += 1
-            elif comparable != previous_comparable:
-                payload["updatedAt"] = iso_now()
-                batch.set(db.collection(COLLECTION).document(doc_id), payload, merge=True)
-                writes += 1
-        if writes:
-            batch.commit()
-        print(f"Firestore chunk: {len(chunk)} checked, {writes} inserted/updated")
+def export_feed(records, destination):
+    records.sort(key=lambda item: item.get("publishedAt") or item.get("collectedAt") or "", reverse=True)
+    payload = {"generatedAt": iso_now(), "count": len(records), "items": records}
+    target = Path(destination)
+    target.parent.mkdir(parents=True, exist_ok=True)
+    target.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+    print(f"Exported {len(records)} records to {target}")
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--validate-only", action="store_true")
-    parser.add_argument("--collect-only", action="store_true")
+    parser.add_argument("--export", metavar="PATH")
     args = parser.parse_args()
     for source in CONFIG.get("rss", []):
         assert source.get("name") and source.get("url", "").startswith("https://")
@@ -145,12 +115,10 @@ def main():
         return
     records = collect_rss() + collect_github()
     print(f"Collected {len(records)} items")
-    if args.collect_only:
-        print(json.dumps(records[:2], ensure_ascii=False, indent=2))
-        return
-    if records:
-        publish(records)
-        print(f"Published {len(records)} records to {COLLECTION}")
+    if args.export:
+        export_feed(records, args.export)
+    else:
+        parser.error("Use --export PATH to write the public feed")
 
 if __name__ == "__main__":
     main()
