@@ -144,7 +144,7 @@ def main():
     args = parser.parse_args()
     for source in CONFIG.get("rss", []) + CONFIG.get("podcast_feeds", []):
         assert source.get("name") and source.get("url", "").startswith("https://")
-    print(f"Configuration OK: {len(CONFIG.get('rss', []))} RSS feeds; {len(CONFIG.get('github_queries', []))} GitHub queries")
+    print(f"Configuration OK: {len(CONFIG.get('rss', []))} news feeds; {len(CONFIG.get('podcast_feeds', []))} podcast feeds; {len(CONFIG.get('github_queries', []))} GitHub queries")
     if args.validate_only:
         return
     records = collect_rss() + collect_podcasts() + collect_github()
