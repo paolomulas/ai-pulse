@@ -15,6 +15,8 @@ jobs:
           python-version: '3.12'
       - name: Install dependencies
         run: pip install -r collector/requirements.txt
+      - name: Python syntax check
+        run: python -m py_compile collector/main.py
       - name: Validate configuration
         run: python collector/main.py --validate-only
       - name: Publish to Firestore
