@@ -107,14 +107,31 @@ def publish(records):
     from google.cloud import firestore
     credentials = service_account.Credentials.from_service_account_info(json.loads(raw))
     db = firestore.Client(project=project, credentials=credentials)
-    for start in range(0, len(records), 400):
+    # Read in bounded chunks and write only new or changed documents. This avoids
+    # consuming the Spark daily write quota by rewriting an unchanged feed on every run.
+    for start in range(0, len(records), 300):
+        chunk = records[start:start + 300]
+        refs = [db.collection(COLLECTION).document(record["id"]) for record in chunk]
+        existing = {snap.id: snap.to_dict() or {} for snap in db.get_all(refs)}
         batch = db.batch()
-        for record in records[start:start + 400]:
+        writes = 0
+        for record in chunk:
             doc_id = record["id"]
             payload = dict(record)
             payload.pop("id", None)
-            batch.set(db.collection(COLLECTION).document(doc_id), payload, merge=True)
-        batch.commit()
+            previous = existing.get(doc_id)
+            comparable = {k: v for k, v in payload.items() if k != "collectedAt"}
+            previous_comparable = {k: v for k, v in previous.items() if k not in ("collectedAt", "updatedAt")}
+            if previous is None:
+                batch.set(db.collection(COLLECTION).document(doc_id), payload)
+                writes += 1
+            elif comparable != previous_comparable:
+                payload["updatedAt"] = iso_now()
+                batch.set(db.collection(COLLECTION).document(doc_id), payload, merge=True)
+                writes += 1
+        if writes:
+            batch.commit()
+        print(f"Firestore chunk: {len(chunk)} checked, {writes} inserted/updated")
 
 def main():
     parser = argparse.ArgumentParser()
