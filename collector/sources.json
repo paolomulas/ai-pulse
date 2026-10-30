@@ -1,16 +1,96 @@
 {
   "rss": [
-    {"name":"OpenAI News","url":"https://openai.com/news/rss.xml","kind":"official","weight":10},
-    {"name":"Google DeepMind","url":"https://deepmind.google/blog/rss.xml","kind":"official","weight":10},
-    {"name":"Google Research","url":"https://research.google/blog/rss/","kind":"official","weight":9},
-    {"name":"Hugging Face","url":"https://huggingface.co/blog/feed.xml","kind":"official","weight":9},
-    {"name":"TechCrunch AI","url":"https://techcrunch.com/category/artificial-intelligence/feed/","kind":"newsroom","weight":8},
-    {"name":"The Verge AI","url":"https://www.theverge.com/rss/ai-artificial-intelligence/index.xml","kind":"newsroom","weight":8},
-    {"name":"Ars Technica AI","url":"https://arstechnica.com/ai/feed/","kind":"newsroom","weight":8},
-    {"name":"arXiv cs.AI","url":"https://rss.arxiv.org/rss/cs.AI","kind":"research","weight":7},
-    {"name":"Simon Willison","url":"https://simonwillison.net/atom/everything/","kind":"expert","weight":8}
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "kind": "official",
+      "weight": 10
+    },
+    {
+      "name": "Google DeepMind",
+      "url": "https://deepmind.google/blog/rss.xml",
+      "kind": "official",
+      "weight": 10
+    },
+    {
+      "name": "Google Research",
+      "url": "https://research.google/blog/rss/",
+      "kind": "official",
+      "weight": 9
+    },
+    {
+      "name": "Hugging Face",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "kind": "official",
+      "weight": 9
+    },
+    {
+      "name": "TechCrunch AI",
+      "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "kind": "newsroom",
+      "weight": 8
+    },
+    {
+      "name": "The Verge AI",
+      "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "kind": "newsroom",
+      "weight": 8
+    },
+    {
+      "name": "Ars Technica AI",
+      "url": "https://arstechnica.com/ai/feed/",
+      "kind": "newsroom",
+      "weight": 8
+    },
+    {
+      "name": "arXiv cs.AI",
+      "url": "https://rss.arxiv.org/rss/cs.AI",
+      "kind": "research",
+      "weight": 7
+    },
+    {
+      "name": "Simon Willison",
+      "url": "https://simonwillison.net/atom/everything/",
+      "kind": "expert",
+      "weight": 8
+    }
   ],
-  "podcast_feeds": [],
-  "github_queries": ["topic:artificial-intelligence","topic:llm","topic:ai-agents"],
-  "notes": ["Podcast feed da aggiungere solo dopo verifica della fonte e della frequenza di aggiornamento."]
+  "podcast_feeds": [
+    {
+      "name": "Latent Space",
+      "url": "https://podcast.latent.space/feed.xml",
+      "category": "builders",
+      "language": "en",
+      "description": "Deep dive tecnici con chi costruisce modelli, agenti e infrastrutture AI."
+    },
+    {
+      "name": "The TWIML AI Podcast",
+      "url": "https://feeds.megaphone.fm/MLN2155636147",
+      "category": "research",
+      "language": "en",
+      "description": "Ricerca, machine learning e applicazioni raccontati da ricercatori e professionisti."
+    },
+    {
+      "name": "Practical AI",
+      "url": "https://changelog.com/practicalai/feed",
+      "category": "builders",
+      "language": "en",
+      "description": "Applicazioni concrete, strumenti e architetture AI."
+    },
+    {
+      "name": "The Cognitive Revolution",
+      "url": "https://www.cognitiverevolution.ai/latest/rss/",
+      "category": "frontier",
+      "language": "en",
+      "description": "Conversazioni su capacità emergenti, ricerca e impatto dell'intelligenza artificiale."
+    }
+  ],
+  "github_queries": [
+    "topic:artificial-intelligence",
+    "topic:llm",
+    "topic:ai-agents"
+  ],
+  "notes": [
+    "Speak Up raccoglie episodi recenti da feed RSS pubblici; i link rimandano agli editori originali. Audio e trascrizioni non vengono copiati o generati."
+  ]
 }
