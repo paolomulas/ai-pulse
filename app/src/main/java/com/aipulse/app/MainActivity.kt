@@ -28,6 +28,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
+import kotlinx.coroutines.launch
 import org.json.JSONObject
 import java.net.HttpURLConnection
 import java.net.URL
@@ -111,16 +112,22 @@ private fun PulseScreen() {
     var liveStories by remember { mutableStateOf<List<Story>>(emptyList()) }
     var isLoading by remember { mutableStateOf(true) }
     val context = LocalContext.current
+    val scope = rememberCoroutineScope()
 
-    LaunchedEffect(Unit) {
-        try {
-            liveStories = loadFeed()
-        } catch (_: Exception) {
-            liveStories = emptyList()
-        } finally {
-            isLoading = false
+    fun refreshFeed() {
+        scope.launch {
+            isLoading = true
+            try {
+                liveStories = loadFeed()
+            } catch (_: Exception) {
+                liveStories = emptyList()
+            } finally {
+                isLoading = false
+            }
         }
     }
+
+    LaunchedEffect(Unit) { refreshFeed() }
 
     val live = liveStories.isNotEmpty()
     val sourceStories = if (live) liveStories else demoStories
@@ -152,7 +159,7 @@ private fun PulseScreen() {
                                 Text("THE DAILY AI BRIEFING", fontSize = 9.sp, color = Muted, letterSpacing = 1.4.sp)
                             }
                         }
-                        IconButton(onClick = { filter = "Tutto" }) { Icon(Icons.Default.Refresh, "Mostra tutto", tint = Terra) }
+                        IconButton(onClick = { filter = "Tutto"; refreshFeed() }) { Icon(Icons.Default.Refresh, "Aggiorna notizie", tint = Terra) }
                     }
                 }
                 item {
@@ -210,7 +217,12 @@ private fun PulseScreen() {
                     }
                 }
                 if (visible.isEmpty()) {
-                    item { Text("Nessun contenuto in questa sezione. Riprova più tardi.", color = Muted, fontSize = 13.sp) }
+                    item {
+                        Text(
+                            if (filter == "Speak Up") "Speak Up: stiamo selezionando podcast e interviste con fonti e date verificabili. La sezione sarà aggiornata quando avremo contenuti affidabili." else "Nessun contenuto in questa sezione. Riprova più tardi.",
+                            color = Muted, fontSize = 13.sp, lineHeight = 19.sp
+                        )
+                    }
                 }
                 if (!live && !isLoading) {
                     item {
