@@ -1,8 +1,10 @@
 """AI Pulse collector: public RSS/Atom feeds and GitHub Search API."""
 import argparse
 import hashlib
+import html
 import json
 import os
+import re
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import urlsplit, urlunsplit
@@ -12,7 +14,8 @@ import requests
 
 ROOT = Path(__file__).parent
 CONFIG = json.loads((ROOT / "sources.json").read_text(encoding="utf-8"))
-HEADERS = {"User-Agent": "AIPulseCollector/0.1"}
+HEADERS = {"User-Agent": "AIPulseCollector/0.2 (+https://github.com/paolomulas/ai-pulse)"}
+COLLECTION = "ai_pulse_content"
 
 def iso_now():
     return datetime.now(timezone.utc).isoformat()
@@ -23,6 +26,11 @@ def canonical(url):
 
 def item_id(url):
     return hashlib.sha256(canonical(url).encode()).hexdigest()
+
+def clean_text(value, limit=1800):
+    value = re.sub(r"<[^>]+>", " ", value or "")
+    value = html.unescape(value)
+    return re.sub(r"\s+", " ", value).strip()[:limit]
 
 def published(entry):
     for key in ("published_parsed", "updated_parsed"):
@@ -39,14 +47,16 @@ def collect_rss():
     for source in CONFIG.get("rss", []):
         try:
             feed = feedparser.parse(source["url"], request_headers=HEADERS)
+            if getattr(feed, "bozo", False):
+                print(f"WARN feed parse issue {source['name']}: {feed.get('bozo_exception')}")
             for entry in feed.entries[:40]:
                 url = entry.get("link", "")
                 if not url.startswith("https://"):
                     continue
                 out.append({
                     "id": item_id(url), "type": "news",
-                    "title": entry.get("title", "Senza titolo")[:400],
-                    "summary": entry.get("summary", entry.get("description", ""))[:1400],
+                    "title": clean_text(entry.get("title", "Senza titolo"), 400),
+                    "summary": clean_text(entry.get("summary", entry.get("description", ""))),
                     "sourceName": source["name"], "sourceUrl": url,
                     "publishedAt": published(entry), "collectedAt": iso_now(),
                     "sourceKind": source.get("kind", "newsroom"),
@@ -77,7 +87,7 @@ def collect_github():
                 out.append({
                     "id": item_id(url), "type": "github",
                     "title": repo.get("full_name", repo.get("name", "Repository")),
-                    "summary": (repo.get("description") or "Repository open source")[:1400],
+                    "summary": clean_text(repo.get("description") or "Repository open source"),
                     "sourceName": "GitHub", "sourceUrl": url,
                     "publishedAt": repo.get("created_at"), "collectedAt": iso_now(),
                     "stars": repo.get("stargazers_count", 0), "forks": repo.get("forks_count", 0),
@@ -100,12 +110,16 @@ def publish(records):
     for start in range(0, len(records), 400):
         batch = db.batch()
         for record in records[start:start + 400]:
-            batch.set(db.collection("content").document(record["id"]), record, merge=True)
+            doc_id = record["id"]
+            payload = dict(record)
+            payload.pop("id", None)
+            batch.set(db.collection(COLLECTION).document(doc_id), payload, merge=True)
         batch.commit()
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--validate-only", action="store_true")
+    parser.add_argument("--collect-only", action="store_true")
     args = parser.parse_args()
     for source in CONFIG.get("rss", []):
         assert source.get("name") and source.get("url", "").startswith("https://")
@@ -114,9 +128,12 @@ def main():
         return
     records = collect_rss() + collect_github()
     print(f"Collected {len(records)} items")
+    if args.collect_only:
+        print(json.dumps(records[:2], ensure_ascii=False, indent=2))
+        return
     if records:
         publish(records)
-        print("Published to Firestore")
+        print(f"Published {len(records)} records to {COLLECTION}")
 
 if __name__ == "__main__":
     main()
