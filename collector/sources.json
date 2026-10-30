@@ -1,0 +1,16 @@
+{
+  "rss": [
+    {"name":"OpenAI News","url":"https://openai.com/news/rss.xml","kind":"official","weight":10},
+    {"name":"Google DeepMind","url":"https://deepmind.google/blog/rss.xml","kind":"official","weight":10},
+    {"name":"Google Research","url":"https://research.google/blog/rss/","kind":"official","weight":9},
+    {"name":"Hugging Face","url":"https://huggingface.co/blog/feed.xml","kind":"official","weight":9},
+    {"name":"TechCrunch AI","url":"https://techcrunch.com/category/artificial-intelligence/feed/","kind":"newsroom","weight":8},
+    {"name":"The Verge AI","url":"https://www.theverge.com/rss/ai-artificial-intelligence/index.xml","kind":"newsroom","weight":8},
+    {"name":"Ars Technica AI","url":"https://arstechnica.com/ai/feed/","kind":"newsroom","weight":8},
+    {"name":"arXiv cs.AI","url":"https://rss.arxiv.org/rss/cs.AI","kind":"research","weight":7},
+    {"name":"Simon Willison","url":"https://simonwillison.net/atom/everything/","kind":"expert","weight":8}
+  ],
+  "podcast_feeds": [],
+  "github_queries": ["topic:artificial-intelligence","topic:llm","topic:ai-agents"],
+  "notes": ["Podcast feed da aggiungere solo dopo verifica della fonte e della frequenza di aggiornamento."]
+}
