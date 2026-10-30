@@ -48,7 +48,10 @@ private data class Story(
     val summary: String,
     val source: String,
     val url: String,
-    val type: String
+    val type: String,
+    val duration: String = "",
+    val language: String = "en",
+    val podcastCategory: String = "frontier"
 )
 
 private val demoStories = listOf(
@@ -89,7 +92,10 @@ private suspend fun loadFeed(): List<Story> = withContext(Dispatchers.IO) {
                         summary = item.optString("summary"),
                         source = item.optString("sourceName", "Fonte"),
                         url = url,
-                        type = type
+                        type = type,
+                        duration = item.optString("duration"),
+                        language = item.optString("language", "en"),
+                        podcastCategory = item.optString("podcastCategory", "frontier")
                     )
                 )
             }
@@ -178,6 +184,30 @@ private fun PulseScreen() {
                         }
                     }
                 }
+                if (filter == "Speak Up") {
+                    item {
+                        Column(Modifier.fillMaxWidth().background(Warm, RoundedCornerShape(22.dp)).padding(18.dp)) {
+                            Row(verticalAlignment = Alignment.CenterVertically) {
+                                Icon(Icons.Default.GraphicEq, null, tint = Terra, modifier = Modifier.size(27.dp))
+                                Spacer(Modifier.width(10.dp))
+                                Column {
+                                    Text("SPEAK UP", color = Terra, fontSize = 10.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.5.sp)
+                                    Text("Le voci dell'AI", color = Ink, fontSize = 24.sp, fontWeight = FontWeight.SemiBold)
+                                }
+                            }
+                            Spacer(Modifier.height(8.dp))
+                            Text("Podcast e conversazioni selezionati per seguire ricerca, strumenti e idee che stanno cambiando l'intelligenza artificiale.", color = Muted, fontSize = 13.sp, lineHeight = 19.sp)
+                            Spacer(Modifier.height(12.dp))
+                            Row(horizontalArrangement = Arrangement.spacedBy(7.dp)) {
+                                listOf("🧠 Research", "🛠 Builders", "🚀 Frontier").forEach { label ->
+                                    Surface(color = Color.White, shape = RoundedCornerShape(30.dp)) {
+                                        Text(label, modifier = Modifier.padding(horizontal = 10.dp, vertical = 6.dp), color = Muted, fontSize = 10.sp)
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
                 item {
                     Row(verticalAlignment = Alignment.CenterVertically) {
                         Box(Modifier.size(7.dp).background(if (live) Sage else Terra, RoundedCornerShape(50)))
@@ -209,6 +239,10 @@ private fun PulseScreen() {
                             Text(story.section, color = Terra, fontSize = 9.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.sp)
                         }
                         Spacer(Modifier.height(10.dp))
+                        if (story.type == "speak_up") {
+                            Text(story.source.uppercase() + if (story.duration.isNotBlank()) " · ${story.duration}" else "", color = Sage, fontSize = 10.sp, fontWeight = FontWeight.Bold, letterSpacing = 0.8.sp)
+                            Spacer(Modifier.height(5.dp))
+                        }
                         Text(story.title, color = Ink, fontSize = 18.sp, lineHeight = 23.sp, fontWeight = FontWeight.SemiBold)
                         Spacer(Modifier.height(7.dp))
                         Text(story.summary, color = Muted, fontSize = 13.sp, lineHeight = 19.sp, maxLines = 4, overflow = TextOverflow.Ellipsis)
@@ -219,7 +253,7 @@ private fun PulseScreen() {
                 if (visible.isEmpty()) {
                     item {
                         Text(
-                            if (filter == "Speak Up") "Speak Up: stiamo selezionando podcast e interviste con fonti e date verificabili. La sezione sarà aggiornata quando avremo contenuti affidabili." else "Nessun contenuto in questa sezione. Riprova più tardi.",
+                            if (filter == "Speak Up") "Nessun episodio disponibile al momento. Il feed podcast viene aggiornato automaticamente." else "Nessun contenuto in questa sezione. Riprova più tardi.",
                             color = Muted, fontSize = 13.sp, lineHeight = 19.sp
                         )
                     }
