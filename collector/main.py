@@ -3,6 +3,7 @@ import argparse
 import hashlib
 import html
 import json
+import os
 import re
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -129,6 +130,162 @@ def collect_github():
             print(f"WARN GitHub query {term}: {exc}")
     return out
 
+EDITORIAL_CACHE_PATH = ROOT.parent / "public" / "editorial_cache.json"
+EDITORIAL_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.5-flash-lite")
+EDITORIAL_MAX_PER_RUN = int(os.getenv("EDITORIAL_MAX_PER_RUN", "4"))
+EDITORIAL_DAILY_LIMIT = int(os.getenv("EDITORIAL_DAILY_LIMIT", "20"))
+EDITORIAL_PICK_DAILY_LIMIT = int(os.getenv("EDITORIAL_PICK_DAILY_LIMIT", "3"))
+EDITORIAL_LANGUAGES = {
+    "it": "Italiano",
+    "en": "English",
+    "es": "Español",
+    "zh-CN": "简体中文"
+}
+
+def load_editorial_cache():
+    try:
+        return json.loads(EDITORIAL_CACHE_PATH.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {"items": {}, "daily": {}}
+
+def editorial_fingerprint(item):
+    source = {
+        "title": item.get("title", ""),
+        "summary": item.get("summary", ""),
+        "sourceName": item.get("sourceName", ""),
+        "sourceUrl": item.get("sourceUrl", ""),
+        "stars": item.get("stars"),
+        "language": item.get("language")
+    }
+    return hashlib.sha256(json.dumps(source, sort_keys=True, ensure_ascii=False).encode()).hexdigest()
+
+def gemini_editorial(item, api_key):
+    source = {
+        "type": item.get("type"),
+        "title": item.get("title"),
+        "description": item.get("summary"),
+        "publisher": item.get("sourceName"),
+        "url": item.get("sourceUrl"),
+        "stars": item.get("stars"),
+        "programming_language": item.get("language"),
+        "updated_at": item.get("pushedAt") or item.get("publishedAt")
+    }
+    prompt = f"""You are the senior editor of AI Pulse, an independent AI technology publication.
+Use ONLY the supplied source metadata. Never invent features, benchmarks, adoption, quotes, dates or claims.
+If the description is insufficient, say so and keep the presentation cautious.
+Create one concise editorial analysis, then write natural localized versions in all four languages:
+Italian (it), English (en), Spanish (es), Simplified Chinese (zh-CN).
+Do not merely translate mechanically: preserve facts and adapt idiom and technical terminology.
+Return ONLY valid JSON with this exact shape:
+{{
+ "editorial": {{
+  "it": {{"title":"...", "summary":"...", "why_it_matters":"...", "highlights":["...","..."]}},
+  "en": {{"title":"...", "summary":"...", "why_it_matters":"...", "highlights":["...","..."]}},
+  "es": {{"title":"...", "summary":"...", "why_it_matters":"...", "highlights":["...","..."]}},
+  "zh-CN": {{"title":"...", "summary":"...", "why_it_matters":"...", "highlights":["...","..."]}}
+ }},
+ "relevance_score": 0,
+ "editor_pick": false,
+ "editor_pick_reason": "short reason in Italian"
+}}
+Editorial rules:
+- title: informative, clear, not clickbait, max 90 characters.
+- summary: 2-3 sentences, reader-friendly, max 450 characters.
+- why_it_matters: one short paragraph, max 350 characters.
+- highlights: 2 or 3 concise bullets, only facts supported by metadata.
+- editor_pick is true only if the item is unusually relevant, novel or useful to AI practitioners; be selective.
+- relevance_score is an integer from 0 to 100.
+- Distinguish project claims from verified facts. Do not imply independent testing.
+SOURCE METADATA:
+{json.dumps(source, ensure_ascii=False)}
+"""
+    endpoint = f"https://generativelanguage.googleapis.com/v1beta/models/{EDITORIAL_MODEL}:generateContent"
+    response = requests.post(
+        endpoint,
+        params={"key": api_key},
+        json={
+            "contents": [{"parts": [{"text": prompt}]}],
+            "generationConfig": {"temperature": 0.2, "responseMimeType": "application/json", "maxOutputTokens": 2200}
+        },
+        headers=HEADERS,
+        timeout=60
+    )
+    response.raise_for_status()
+    data = response.json()
+    text = data["candidates"][0]["content"]["parts"][0]["text"]
+    result = json.loads(text)
+    editorial = result.get("editorial", {})
+    if not all(lang in editorial for lang in EDITORIAL_LANGUAGES):
+        raise ValueError("Gemini response is missing one or more required languages")
+    for lang in EDITORIAL_LANGUAGES:
+        localized = editorial[lang]
+        if not localized.get("title") or not localized.get("summary") or not localized.get("why_it_matters"):
+            raise ValueError(f"Incomplete editorial content for {lang}")
+    return result
+
+def enrich_records(records):
+    api_key = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
+    cache = load_editorial_cache()
+    cache_items = cache.setdefault("items", {})
+    today = datetime.now(timezone.utc).date().isoformat()
+    daily = cache.setdefault("daily", {})
+    if daily.get("date") != today:
+        daily.update({"date": today, "count": 0, "picks": 0})
+    if not api_key:
+        for item in records:
+            item.setdefault("editorial_level", "raw_feed")
+            item.setdefault("editorial_status", "raw")
+        print("Gemini disabled: publishing Raw Feed only (set GEMINI_API_KEY to enable AI Curated)")
+        return records, False
+
+    candidates = []
+    for item in records:
+        fingerprint = editorial_fingerprint(item)
+        cached = cache_items.get(item["id"])
+        if cached and cached.get("fingerprint") == fingerprint and cached.get("editorial"):
+            item.update(cached["editorial"])
+        else:
+            candidates.append((item, fingerprint))
+
+    remaining_daily = max(0, EDITORIAL_DAILY_LIMIT - int(daily.get("count", 0)))
+    remaining_run = min(EDITORIAL_MAX_PER_RUN, remaining_daily)
+    generated = 0
+    cache_changed = False
+    for item, fingerprint in candidates[:remaining_run]:
+        try:
+            result = gemini_editorial(item, api_key)
+            is_pick = bool(result.get("editor_pick")) and int(daily.get("picks", 0)) < EDITORIAL_PICK_DAILY_LIMIT
+            level = "editors_pick" if is_pick else "ai_curated"
+            enriched = {
+                "editorial": result["editorial"],
+                "editorial_level": level,
+                "editorial_status": "verified",
+                "editorial_model": EDITORIAL_MODEL,
+                "editorial_version": 1,
+                "relevance_score": max(0, min(100, int(result.get("relevance_score", 0)))),
+                "editor_pick_reason": result.get("editor_pick_reason", "") if is_pick else ""
+            }
+            item.update(enriched)
+            cache_items[item["id"]] = {"fingerprint": fingerprint, "editorial": enriched}
+            daily["count"] = int(daily.get("count", 0)) + 1
+            if is_pick:
+                daily["picks"] = int(daily.get("picks", 0)) + 1
+            generated += 1
+            cache_changed = True
+        except Exception as exc:
+            print(f"WARN Gemini editorial for {item.get('id')}: {exc}")
+            item.setdefault("editorial_level", "raw_feed")
+            item.setdefault("editorial_status", "raw")
+    for item in records:
+        item.setdefault("editorial_level", "raw_feed")
+        item.setdefault("editorial_status", "raw")
+    print(f"Editorial: {generated} generated, {len(candidates) - generated} pending/failed, daily {daily.get('count', 0)}/{EDITORIAL_DAILY_LIMIT}")
+    if cache_changed or not EDITORIAL_CACHE_PATH.exists():
+        EDITORIAL_CACHE_PATH.parent.mkdir(parents=True, exist_ok=True)
+        EDITORIAL_CACHE_PATH.write_text(json.dumps(cache, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+        cache_changed = True
+    return records, cache_changed
+
 def export_feed(records, destination):
     records.sort(key=lambda item: item.get("publishedAt") or item.get("collectedAt") or "", reverse=True)
     payload = {"generatedAt": iso_now(), "count": len(records), "items": records}
@@ -148,6 +305,7 @@ def main():
     if args.validate_only:
         return
     records = collect_rss() + collect_podcasts() + collect_github()
+    records, cache_changed = enrich_records(records)
     print(f"Collected {len(records)} items")
     if args.export:
         export_feed(records, args.export)
