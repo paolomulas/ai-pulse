@@ -171,10 +171,14 @@ def gemini_editorial(item, api_key):
         "programming_language": item.get("language"),
         "updated_at": item.get("pushedAt") or item.get("publishedAt")
     }
-    prompt = f"""You are the senior editor of AI Pulse, an independent AI technology publication.
+    is_podcast = item.get("type") == "speak_up"
+    role = "You are the senior audio editor of AI Pulse. Present this podcast episode to readers." if is_podcast else "You are the senior editor of AI Pulse, an independent AI technology publication."
+    task = ("Create a useful episode guide: explain the actual topics, identify named guests only when present in metadata, and tell readers what they can expect to learn. Do not pretend to have listened to the audio; use only the supplied title and description." if is_podcast else "Create one concise editorial analysis.")
+    prompt = f""" {role}
 Use ONLY the supplied source metadata. Never invent features, benchmarks, adoption, quotes, dates or claims.
 If the description is insufficient, say so and keep the presentation cautious.
-Create one concise editorial analysis, then write natural localized versions in all five languages:
+{task}
+Write natural localized versions in all five languages:
 Italian (it), English (en), Spanish (es), Simplified Chinese (zh-CN), German (de).
 Do not merely translate mechanically: preserve facts and adapt idiom and technical terminology.
 Return ONLY valid JSON with this exact shape:
@@ -195,7 +199,7 @@ Editorial rules:
 - summary: 2-3 sentences, reader-friendly, max 450 characters.
 - why_it_matters: one short paragraph, max 350 characters.
 - highlights: 2 or 3 concise bullets, only facts supported by metadata.
-- editor_pick is true only if the item is unusually relevant, novel or useful to AI practitioners; be selective.
+- editor_pick is true only if the item is unusually relevant, novel or useful to AI practitioners; be selective. For podcast episodes it must always be false.
 - relevance_score is an integer from 0 to 100.
 - Distinguish project claims from verified facts. Do not imply independent testing.
 SOURCE METADATA:
@@ -257,14 +261,14 @@ def enrich_records(records):
             candidates.append((item, fingerprint))
 
     # Keep editorial enrichment balanced: do not let the larger RSS stream starve GitHub projects.
-    by_type = {"news": [], "github": []}
+    by_type = {"news": [], "github": [], "speak_up": []}
     for candidate in candidates:
         item_type = candidate[0].get("type")
         if item_type in by_type:
             by_type[item_type].append(candidate)
     balanced = []
     while by_type["news"] or by_type["github"]:
-        for item_type in ("news", "github"):
+        for item_type in ("news", "github", "speak_up"):
             if by_type[item_type]:
                 balanced.append(by_type[item_type].pop(0))
     candidates = balanced
@@ -276,7 +280,7 @@ def enrich_records(records):
     for item, fingerprint in candidates[:remaining_run]:
         try:
             result = gemini_editorial(item, api_key)
-            is_pick = bool(result.get("editor_pick")) and int(result.get("relevance_score", 0)) >= 85 and int(daily.get("picks", 0)) < EDITORIAL_PICK_DAILY_LIMIT
+            is_pick = item.get("type") != "speak_up" and bool(result.get("editor_pick")) and int(result.get("relevance_score", 0)) >= 85 and int(daily.get("picks", 0)) < EDITORIAL_PICK_DAILY_LIMIT
             level = "editors_pick" if is_pick else "ai_curated"
             enriched = {
                 "editorial": result["editorial"],
