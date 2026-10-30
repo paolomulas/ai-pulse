@@ -5,6 +5,7 @@ import android.net.Uri
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
@@ -21,6 +22,7 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
@@ -33,6 +35,8 @@ import kotlinx.coroutines.launch
 import org.json.JSONObject
 import java.net.HttpURLConnection
 import java.net.URL
+import kotlin.math.cos
+import kotlin.math.sin
 
 private val Paper = Color(0xFFFAF9F5)
 private val Warm = Color(0xFFF0EEE6)
@@ -120,6 +124,22 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
+private fun PulseGlyph() {
+    Canvas(Modifier.size(32.dp)) {
+        val c = size.minDimension / 2f
+        val r = size.minDimension * 0.34f
+        val dot = 2.7.dp.toPx()
+        for (i in 0 until 6) {
+            val angle = (Math.PI * 2.0 * i / 6.0) - Math.PI / 2.0
+            val point = Offset(c + cos(angle).toFloat() * r, c + sin(angle).toFloat() * r)
+            drawLine(Terra, Offset(c, c), point, strokeWidth = 1.8.dp.toPx())
+            drawCircle(Terra, dot, point)
+        }
+        drawCircle(Terra, 3.8.dp.toPx(), Offset(c, c))
+    }
+}
+
+@Composable
 private fun PulseScreen() {
     var filter by remember { mutableStateOf("Tutto") }
     var language by remember { mutableStateOf("it") }
@@ -168,7 +188,7 @@ private fun PulseScreen() {
                 item {
                     Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.SpaceBetween) {
                         Row(verticalAlignment = Alignment.CenterVertically) {
-                            Icon(Icons.Default.AutoAwesome, null, tint = Terra, modifier = Modifier.size(30.dp))
+                            PulseGlyph()
                             Spacer(Modifier.width(9.dp))
                             Column {
                                 Text("AI PULSE", fontSize = 21.sp, fontWeight = FontWeight.ExtraBold, color = Ink, letterSpacing = 1.sp)
