@@ -65,6 +65,40 @@ def collect_rss():
             print(f"WARN {source['name']}: {exc}")
     return out
 
+def collect_podcasts():
+    """Collect recent episodes from curated, public podcast RSS feeds."""
+    out = []
+    for show in CONFIG.get("podcast_feeds", []):
+        try:
+            feed = feedparser.parse(show["url"], request_headers=HEADERS)
+            if getattr(feed, "bozo", False):
+                print(f"WARN podcast feed parse issue {show['name']}: {feed.get('bozo_exception')}")
+            image = feed.feed.get("image", {}).get("href", "")
+            for entry in feed.entries[:12]:
+                url = entry.get("link", "")
+                if not url.startswith("https://"):
+                    continue
+                enclosures = entry.get("enclosures", [])
+                audio_url = next((e.get("href", "") for e in enclosures if e.get("href", "").startswith("https://")), "")
+                duration = entry.get("itunes_duration", "")
+                out.append({
+                    "id": item_id(url), "type": "speak_up",
+                    "title": clean_text(entry.get("title", "Episodio senza titolo"), 400),
+                    "summary": clean_text(entry.get("summary", entry.get("description", ""))),
+                    "sourceName": show["name"], "showName": show["name"],
+                    "sourceUrl": url, "audioUrl": audio_url,
+                    "publishedAt": published(entry), "collectedAt": iso_now(),
+                    "duration": clean_text(str(duration), 30),
+                    "language": show.get("language", "en"),
+                    "podcastCategory": show.get("category", "frontier"),
+                    "podcastDescription": show.get("description", ""),
+                    "coverImage": image, "tags": ["AI", "PODCAST"],
+                    "attribution": show["name"]
+                })
+        except Exception as exc:
+            print(f"WARN podcast {show['name']}: {exc}")
+    return out
+
 def collect_github():
     out, seen = [], set()
     since = (datetime.now(timezone.utc) - timedelta(days=30)).date().isoformat()
@@ -108,12 +142,12 @@ def main():
     parser.add_argument("--validate-only", action="store_true")
     parser.add_argument("--export", metavar="PATH")
     args = parser.parse_args()
-    for source in CONFIG.get("rss", []):
+    for source in CONFIG.get("rss", []) + CONFIG.get("podcast_feeds", []):
         assert source.get("name") and source.get("url", "").startswith("https://")
     print(f"Configuration OK: {len(CONFIG.get('rss', []))} RSS feeds; {len(CONFIG.get('github_queries', []))} GitHub queries")
     if args.validate_only:
         return
-    records = collect_rss() + collect_github()
+    records = collect_rss() + collect_podcasts() + collect_github()
     print(f"Collected {len(records)} items")
     if args.export:
         export_feed(records, args.export)
