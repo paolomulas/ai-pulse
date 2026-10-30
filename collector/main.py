@@ -139,7 +139,8 @@ EDITORIAL_LANGUAGES = {
     "it": "Italiano",
     "en": "English",
     "es": "Español",
-    "zh-CN": "简体中文"
+    "zh-CN": "简体中文",
+    "de": "Deutsch"
 }
 
 def load_editorial_cache():
@@ -173,8 +174,8 @@ def gemini_editorial(item, api_key):
     prompt = f"""You are the senior editor of AI Pulse, an independent AI technology publication.
 Use ONLY the supplied source metadata. Never invent features, benchmarks, adoption, quotes, dates or claims.
 If the description is insufficient, say so and keep the presentation cautious.
-Create one concise editorial analysis, then write natural localized versions in all four languages:
-Italian (it), English (en), Spanish (es), Simplified Chinese (zh-CN).
+Create one concise editorial analysis, then write natural localized versions in all five languages:
+Italian (it), English (en), Spanish (es), Simplified Chinese (zh-CN), German (de).
 Do not merely translate mechanically: preserve facts and adapt idiom and technical terminology.
 Return ONLY valid JSON with this exact shape:
 {{
@@ -182,7 +183,8 @@ Return ONLY valid JSON with this exact shape:
   "it": {{"title":"...", "summary":"...", "why_it_matters":"...", "highlights":["...","..."]}},
   "en": {{"title":"...", "summary":"...", "why_it_matters":"...", "highlights":["...","..."]}},
   "es": {{"title":"...", "summary":"...", "why_it_matters":"...", "highlights":["...","..."]}},
-  "zh-CN": {{"title":"...", "summary":"...", "why_it_matters":"...", "highlights":["...","..."]}}
+  "zh-CN": {{"title":"...", "summary":"...", "why_it_matters":"...", "highlights":["...","..."]}},
+  "de": {{"title":"...", "summary":"...", "why_it_matters":"...", "highlights":["...","..."]}}
  }},
  "relevance_score": 0,
  "editor_pick": false,
@@ -242,7 +244,7 @@ def enrich_records(records):
     for item in records:
         fingerprint = editorial_fingerprint(item)
         cached = cache_items.get(item["id"])
-        if cached and cached.get("fingerprint") == fingerprint and cached.get("editorial"):
+        if cached and cached.get("fingerprint") == fingerprint and cached.get("editorial") and all(lang in cached["editorial"].get("editorial", {}) for lang in EDITORIAL_LANGUAGES):
             item.update(cached["editorial"])
         elif cached and cached.get("fingerprint") == fingerprint and cached.get("retry_after"):
             try:
@@ -268,7 +270,7 @@ def enrich_records(records):
                 "editorial_level": level,
                 "editorial_status": "verified",
                 "editorial_model": EDITORIAL_MODEL,
-                "editorial_version": 1,
+                "editorial_version": 2,
                 "relevance_score": max(0, min(100, int(result.get("relevance_score", 0)))),
                 "editor_pick_reason": result.get("editor_pick_reason", "") if is_pick else ""
             }
