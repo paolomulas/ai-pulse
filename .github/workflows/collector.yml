@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: '17,47 * * * *'
 permissions:
-  contents: read
+  contents: write
 jobs:
   collect:
     runs-on: ubuntu-latest
@@ -15,13 +15,20 @@ jobs:
           python-version: '3.12'
       - name: Install dependencies
         run: pip install -r collector/requirements.txt
-      - name: Python syntax check
+      - name: Check Python syntax
         run: python -m py_compile collector/main.py
       - name: Validate configuration
         run: python collector/main.py --validate-only
-      - name: Publish to Firestore
-        if: ${{ vars.ENABLE_FIRESTORE_PUBLISH == 'true' }}
-        env:
-          FIREBASE_PROJECT_ID: ${{ vars.FIREBASE_PROJECT_ID }}
-          FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
-        run: python collector/main.py
+      - name: Collect and export feed
+        run: python collector/main.py --export public/feed.json
+      - name: Publish updated feed to repository
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/feed.json
+          if git diff --cached --quiet; then
+            echo "Feed unchanged"
+          else
+            git commit -m "Update AI Pulse feed"
+            git push
+          fi
