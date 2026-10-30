@@ -6,7 +6,7 @@ AI Pulse è un'app Android nativa per un briefing quotidiano sull'intelligenza a
 - Android: Kotlin + Jetpack Compose, package `com.aipulse.app`.
 - Interfaccia editoriale chiara: avorio, terracotta, inchiostro e salvia.
 - Feed unificato con filtri per categoria e livelli editoriali Raw Feed, AI Curated ed Editor’s Pick.
-- Localizzazione editoriale predisposta in italiano, inglese, spagnolo e cinese semplificato.
+- Localizzazione editoriale predisposta in italiano, inglese, spagnolo, cinese semplificato e tedesco (5 lingue).
 - Speak Up come room dedicata a podcast e interviste.
 - Collector Python per fonti RSS/Atom e GitHub Search API.
 - Feed pubblico JSON aggiornato da GitHub Actions.
@@ -19,4 +19,4 @@ Nessun server dedicato e nessuna chiave amministrativa Firebase. La generazione 
 Vedi [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) e [FIREBASE_SETUP.md](FIREBASE_SETUP.md). Non caricare credenziali private nel repository.
 
 ## Integrità editoriale
-Ogni elemento conserva fonte, URL e data. Le schede AI sono generate esclusivamente dai metadati raccolti e devono evitare affermazioni non supportate; quando i metadati non bastano, il contenuto resta Raw Feed. Le quattro localizzazioni sono generate in un’unica richiesta e conservate in `public/editorial_cache.json`, così gli aggiornamenti successivi non consumano nuovamente token. Le citazioni dirette sono ammesse solo con trascrizioni verificabili.
+Ogni elemento conserva fonte, URL e data. Le schede AI sono generate esclusivamente dai metadati raccolti e devono evitare affermazioni non supportate; quando i metadati non bastano, il contenuto resta Raw Feed. Le cinque localizzazioni sono generate in un’unica richiesta e conservate in `public/editorial_cache.json`, così gli aggiornamenti successivi non consumano nuovamente token. Le citazioni dirette sono ammesse solo con trascrizioni verificabili.
