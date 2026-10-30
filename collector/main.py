@@ -254,7 +254,7 @@ def enrich_records(records):
     for item, fingerprint in candidates[:remaining_run]:
         try:
             result = gemini_editorial(item, api_key)
-            is_pick = bool(result.get("editor_pick")) and int(daily.get("picks", 0)) < EDITORIAL_PICK_DAILY_LIMIT
+            is_pick = bool(result.get("editor_pick")) and int(result.get("relevance_score", 0)) >= 85 and int(daily.get("picks", 0)) < EDITORIAL_PICK_DAILY_LIMIT
             level = "editors_pick" if is_pick else "ai_curated"
             enriched = {
                 "editorial": result["editorial"],
@@ -282,7 +282,7 @@ def enrich_records(records):
     print(f"Editorial: {generated} generated, {len(candidates) - generated} pending/failed, daily {daily.get('count', 0)}/{EDITORIAL_DAILY_LIMIT}")
     if cache_changed or not EDITORIAL_CACHE_PATH.exists():
         EDITORIAL_CACHE_PATH.parent.mkdir(parents=True, exist_ok=True)
-        EDITORIAL_CACHE_PATH.write_text(json.dumps(cache, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+        EDITORIAL_CACHE_PATH.write_text(json.dumps(cache, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         cache_changed = True
     return records, cache_changed
 
