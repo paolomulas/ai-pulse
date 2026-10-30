@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f5f0e7"><title>AI Pulse — Anteprima</title>
+<style>
+:root{--paper:#f5f0e7;--card:#fffdf8;--ink:#29251f;--muted:#81786d;--terra:#b95f43;--sage:#77856e;--line:#e7dfd2}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.45 Inter,system-ui,-apple-system,Segoe UI,sans-serif}
+header{max-width:900px;margin:auto;padding:28px 22px 18px;display:flex;align-items:center;justify-content:space-between}
+.brand{display:flex;gap:12px;align-items:center}.mark{width:42px;height:42px;border-radius:14px;background:var(--terra);color:white;display:grid;place-items:center;font-weight:800;font-size:20px}.brand strong{font:700 22px Georgia,serif;letter-spacing:-.5px}.brand small{display:block;color:var(--muted);font-size:11px;letter-spacing:1.6px;text-transform:uppercase}
+main{max-width:900px;margin:auto;padding:0 22px 60px}.intro{padding:26px 0 20px}.eyebrow{color:var(--terra);font-size:11px;font-weight:800;letter-spacing:1.8px;text-transform:uppercase}.intro h1{font:500 clamp(34px,6vw,54px)/1.02 Georgia,serif;letter-spacing:-1.6px;margin:10px 0}.intro p{color:var(--muted);margin:0;max-width:560px}
+.tabs{display:flex;gap:8px;overflow:auto;padding:15px 0 20px}.tab{border:1px solid var(--line);background:transparent;border-radius:30px;padding:9px 16px;color:var(--muted);font-weight:650;white-space:nowrap;cursor:pointer}.tab.active{background:var(--ink);color:white;border-color:var(--ink)}
+.meta{display:flex;justify-content:space-between;color:var(--muted);font-size:12px;margin:2px 0 12px}
+.feed{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.item{background:var(--card);border:1px solid var(--line);border-radius:17px;padding:19px;min-height:190px;display:flex;flex-direction:column}.tag{font-size:10px;text-transform:uppercase;letter-spacing:1.4px;font-weight:800;color:var(--terra)}.item h2{font:600 21px/1.18 Georgia,serif;margin:12px 0 9px;letter-spacing:-.3px}.item p{color:var(--muted);font-size:13px;margin:0 0 16px}.foot{margin-top:auto;display:flex;justify-content:space-between;align-items:center;color:var(--muted);font-size:11px}.foot a{color:var(--terra);font-weight:750;text-decoration:none}
+.empty{grid-column:1/-1;padding:34px;text-align:center;color:var(--muted);background:var(--card);border:1px dashed var(--line);border-radius:16px}
+footer{padding:30px 0;color:var(--muted);font-size:11px;text-align:center}
+@media(max-width:600px){header{padding-top:20px}.feed{grid-template-columns:1fr}.item{min-height:160px}.intro{padding-top:20px}}
+</style></head><body>
+<header><div class="brand"><div class="mark">AI</div><div><strong>AI Pulse</strong><small>Intelligenza artificiale, ogni giorno</small></div></div><span style="font-size:11px;color:var(--muted)">ANTEPRIMA WEB</span></header>
+<main><section class="intro"><div class="eyebrow">Il mondo dell'AI, in movimento</div><h1>Capire oggi<br>quello che cambia domani.</h1><p>Notizie, ricerca e progetti open source selezionati dal panorama dell'intelligenza artificiale.</p></section>
+<nav class="tabs" aria-label="Categorie"><button class="tab active" data-filter="all">Tutto</button><button class="tab" data-filter="news">News</button><button class="tab" data-filter="github">GitHub</button><button class="tab" data-filter="speakup">Speak Up</button></nav>
+<div class="meta"><span id="count">Caricamento contenuti…</span><span id="updated"></span></div><section class="feed" id="feed"><div class="empty">Sto caricando il feed AI Pulse…</div></section>
+<footer>AI Pulse · Anteprima dimostrativa. Le notizie rimandano alle fonti originali.</footer></main>
+<script>
+const FEED='https://raw.githubusercontent.com/paolomulas/ai-pulse/main/public/feed.json';let items=[],filter='all';
+function esc(s=''){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+function pick(x,...keys){for(const k of keys)if(x[k])return x[k];return ''}
+function kind(x){const s=(pick(x,'type','source_type','category')+' '+pick(x,'source','platform')).toLowerCase();return /github|repository|repo/.test(s)?'github':'news'}
+function render(){const list=items.filter(x=>filter==='all'||(filter==='speakup'?false:kind(x)===filter));document.getElementById('count').textContent=list.length+' contenuti';document.getElementById('feed').innerHTML=list.slice(0,60).map(x=>{const title=pick(x,'title','name')||'Contenuto AI';const desc=pick(x,'summary','description','excerpt');const url=pick(x,'url','link','html_url');const source=pick(x,'source','publisher','author')|| (kind(x)==='github'?'GitHub':'AI News');const date=pick(x,'published','published_at','date');return '<article class="item"><div class="tag">'+(kind(x)==='github'?'Open source':'News')+' · '+esc(source)+'</div><h2>'+esc(title)+'</h2><p>'+esc(desc).slice(0,220)+'</p><div class="foot"><span>'+esc(date).slice(0,10)+'</span>'+(url?'<a href="'+esc(url)+'" target="_blank" rel="noopener">Leggi la fonte ↗</a>':'')+'</div></article>'}).join('')||'<div class="empty">'+(filter==='speakup'?'Speak Up non ha ancora contenuti verificati.':'Nessun contenuto disponibile.')+'</div>'}
+document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active',t===b));filter=b.dataset.filter;render()}));
+fetch(FEED).then(r=>{if(!r.ok)throw Error('feed');return r.json()}).then(d=>{items=Array.isArray(d)?d:(d.items||d.feed||[]);document.getElementById('updated').textContent='Feed aggiornato';render()}).catch(()=>{document.getElementById('count').textContent='Feed non raggiungibile';document.getElementById('feed').innerHTML='<div class="empty">Non riesco a caricare il feed in questo momento.</div>'});
+</script></body></html>
