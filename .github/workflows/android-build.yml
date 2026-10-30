@@ -21,12 +21,16 @@ jobs:
           java-version: '17'
       - uses: gradle/actions/setup-gradle@v4
         with:
-          gradle-version: '8.9'
+          gradle-version: '8.11.1'
       - name: Assemble debug APK
         run: gradle --no-daemon :app:assembleDebug
-      - name: Upload debug APK
+      - name: Build release app bundle (unsigned)
+        run: gradle --no-daemon :app:bundleRelease
+      - name: Upload Android build artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: ai-pulse-debug-apk
-          path: app/build/outputs/apk/debug/*.apk
+          name: ai-pulse-android-build
+          path: |
+            app/build/outputs/apk/debug/*.apk
+            app/build/outputs/bundle/release/*.aab
           if-no-files-found: error
