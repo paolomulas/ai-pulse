@@ -100,7 +100,7 @@ def export_feed(records, destination):
     payload = {"generatedAt": iso_now(), "count": len(records), "items": records}
     target = Path(destination)
     target.parent.mkdir(parents=True, exist_ok=True)
-    target.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+    target.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Exported {len(records)} records to {target}")
 
 def main():
