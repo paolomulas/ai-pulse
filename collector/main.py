@@ -256,6 +256,19 @@ def enrich_records(records):
         else:
             candidates.append((item, fingerprint))
 
+    # Keep editorial enrichment balanced: do not let the larger RSS stream starve GitHub projects.
+    by_type = {"news": [], "github": []}
+    for candidate in candidates:
+        item_type = candidate[0].get("type")
+        if item_type in by_type:
+            by_type[item_type].append(candidate)
+    balanced = []
+    while by_type["news"] or by_type["github"]:
+        for item_type in ("news", "github"):
+            if by_type[item_type]:
+                balanced.append(by_type[item_type].pop(0))
+    candidates = balanced
+
     remaining_daily = max(0, EDITORIAL_DAILY_LIMIT - int(daily.get("count", 0)))
     remaining_run = min(EDITORIAL_MAX_PER_RUN, remaining_daily)
     generated = 0
