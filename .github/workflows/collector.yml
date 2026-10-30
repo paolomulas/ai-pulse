@@ -3,7 +3,9 @@ on:
   push:
     branches: [main]
     paths:
-      - "collector/**"
+      - "collector/main.py"
+      - "collector/sources.json"
+      - "collector/requirements.txt"
       - ".github/workflows/collector.yml"
   workflow_dispatch:
   schedule:
