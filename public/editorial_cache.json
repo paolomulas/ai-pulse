@@ -125,50 +125,60 @@
       "editorial": {
         "editorial": {
           "it": {
-            "title": "Credit Saison: 954% di ROI nel pilota ChatGPT Enterprise",
-            "summary": "Il pilota di ChatGPT Enterprise condotto da Credit Saison ha generato un ROI del 954%. Leader e dipendenti hanno collaborato per favorire l'adozione aziendale dei risultati.",
-            "why_it_matters": "I dati sul ritorno d'investimento offrono indicazioni sull'impatto aziendale dei modelli linguistici avanzati, sebbene riflettano i risultati dichiarati dal progetto pilota.",
+            "title": "Credit Saison: ROI del 954% nel pilota con ChatGPT Enterprise",
+            "summary": "Credit Saison ha registrato un ROI del 954% durante un programma pilota basato su ChatGPT Enterprise. Leader e dipendenti hanno collaborato per estendere l'utilizzo a livello aziendale.",
+            "why_it_matters": "I dati sull'adozione aziendale di strumenti di intelligenza artificiale offrono spunti preziosi sulla misurazione del ritorno economico, pur basandosi sulle dichiarazioni della fonte.",
             "highlights": [
-              "Pilot di ChatGPT Enterprise completato da Credit Saison",
-              "Raggiunto un ROI dichiarata del 954%",
-              "Coinvolgimento di leader e dipendenti per l'adozione aziendale"
+              "Pilot su ChatGPT Enterprise completato con successo",
+              "Ritorno sull'investimento dichiarato del 954%",
+              "Adozione aziendale guidata dal coinvolgimento di leader e dipendenti"
             ]
           },
           "en": {
             "title": "Credit Saison Achieves 954% ROI in ChatGPT Enterprise Pilot",
-            "summary": "Credit Saison’s pilot with ChatGPT Enterprise delivered a 954% return on investment. Company leaders and employees helped drive the transition to companywide adoption.",
-            "why_it_matters": "Reported metrics from enterprise deployments offer valuable insight into deployment scaling, though these figures represent project claims rather than independent benchmarks.",
+            "summary": "Credit Saison reported a 954% ROI from its ChatGPT Enterprise pilot program. Leaders and employees collaborated to drive companywide adoption based on these outcomes.",
+            "why_it_matters": "Enterprise deployment metrics help assess how organizations scale generative AI tools, though these figures originate directly from corporate case studies.",
             "highlights": [
-              "Credit Saison conducted a ChatGPT Enterprise pilot",
-              "Reported a 954% ROI from the deployment",
-              "Companywide adoption driven by leadership and staff involvement"
+              "ChatGPT Enterprise pilot execution",
+              "Reported 954% return on investment",
+              "Companywide scaling driven by staff and leadership involvement"
             ]
           },
           "es": {
             "title": "Credit Saison logra un 954% de ROI en piloto de ChatGPT Enterprise",
-            "summary": "El programa piloto de ChatGPT Enterprise en Credit Saison alcanzó un 954% de retorno de inversión. Líderes y empleados colaboraron para impulsar la adopción en toda la compañía.",
-            "why_it_matters": "Las métricas reportadas sobre despliegues empresariales aportan visibilidad sobre el impacto organizativo, aunque se basan en afirmaciones del proyecto y no en pruebas independientes.",
+            "summary": "Credit Saison obtuvo un 954% de retorno de inversión en su programa piloto con ChatGPT Enterprise. Líderes y empleados impulsaron la adopción en toda la compañía.",
+            "why_it_matters": "Los informes sobre despliegues empresariales de IA ofrecen una perspectiva sobre la adopción corporativa, aunque se basan en métricas informadas por la propia empresa.",
             "highlights": [
-              "Credit Saison implementó un piloto de ChatGPT Enterprise",
-              "Se registró un ROI del 954%",
-              "La adopción general se logró con la participación de líderes y empleados"
+              "Prueba piloto con ChatGPT Enterprise",
+              "Retorno de inversión reportado del 954%",
+              "Adopción general impulsada por líderes y empleados"
             ]
           },
           "zh-CN": {
-            "title": "Credit Saison在ChatGPT Enterprise试点中实现954%回报率",
-            "summary": "Credit Saison的ChatGPT Enterprise试点取得了954%的投资回报率。高管与员工共同推动了成果并在全公司范围内实现应用。",
-            "why_it_matters": "企业级部署所报告的指标为评估组织影响力提供了参考，但这些数据反映的是项目自身的声明，而非独立测试结果。",
+            "title": "Credit Saison在ChatGPT Enterprise试点中实现954%投资回报率",
+            "summary": "Credit Saison在其ChatGPT Enterprise试点项目中实现了954%的投资回报率。领导层与员工共同推动了该工具在全公司的普及。",
+            "why_it_matters": "企业级人工智能部署案例提供了关于组织规模化应用AI的参考，但具体数据源自企业自身报告。",
             "highlights": [
-              "Credit Saison开展了ChatGPT Enterprise试点项目",
-              "项目报告达到了954%的投资回报率",
-              "领导层与员工共同推动了全公司范围内的采用"
+              "实施ChatGPT Enterprise试点项目",
+              "报告显示投资回报率为954%",
+              "在员工与领导层的推动下实现全面采用"
+            ]
+          },
+          "de": {
+            "title": "Credit Saison erzielt 954% ROI bei ChatGPT Enterprise Pilot",
+            "summary": "Credit Saison verzeichnete einen ROI von 954% in einem ChatGPT Enterprise Pilotprojekt. Führungskräfte und Mitarbeitende trieben die unternehmensweite Einführung voran.",
+            "why_it_matters": "Unternehmensberichte über KI-Pilotprojekte verdeutlichen Ansätze zur Skalierung generativer Werkzeuge, basieren jedoch auf projektspezifischen Selbsteinschätzungen.",
+            "highlights": [
+              "Durchführung des ChatGPT Enterprise Pilotprojekts",
+              "Gemeldeter Return on Investment von 954%",
+              "Unternehmensweite Skalierung durch Mitwirkung von Team und Führung"
             ]
           }
         },
         "editorial_level": "ai_curated",
         "editorial_status": "verified",
         "editorial_model": "gemini-3.5-flash-lite",
-        "editorial_version": 1,
+        "editorial_version": 2,
         "relevance_score": 75,
         "editor_pick_reason": ""
       }
@@ -682,11 +692,190 @@
         "relevance_score": 75,
         "editor_pick_reason": ""
       }
+    },
+    "59788a007bb479e4775804dabc01a10e7976fb1296afca54180f0dfe990aa612": {
+      "fingerprint": "e4a2b0be5a236ffa9143fb26acd130910e18301f7795ca4a35fe8bd891845a46",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Perché gli agenti amano Supabase",
+            "summary": "I co-fondatori di Supabase Paul Copplestone e Ant Wilson discutono con swyx di come la creazione di software da parte degli agenti IA stia cambiando le esigenze dei backend. L'episodio esplora l'esecuzione di carichi di lavoro a lungo termine e la semplificazione degli schemi.",
+            "why_it_matters": "L'ascesa degli agenti IA che creano software modifica profondamente i requisiti dei backend moderni, rendendo cruciale comprendere l'adattamento delle infrastrutture esistenti.",
+            "highlights": [
+              "I co-fondatori Paul Copplestone e Ant Wilson parlano con swyx.",
+              "Discussione sull'esecuzione di carichi di lavoro a lungo termine accanto al database.",
+              "Approfondimento su come rendere gli schemi più comprensibili per gli agenti."
+            ]
+          },
+          "en": {
+            "title": "Why Agents Love Supabase",
+            "summary": "Supabase co-founders Paul Copplestone and Ant Wilson join swyx to discuss how AI agents creating software changes backend requirements. The episode covers running long-lived workloads alongside the database and making schemas easier for agents to understand.",
+            "why_it_matters": "As AI agents build more software, backend architectures must evolve to support long-lived workloads and agent-friendly database schemas.",
+            "highlights": [
+              "Co-founders Paul Copplestone and Ant Wilson join host swyx.",
+              "Covers running long-lived workloads alongside the database.",
+              "Explores making schemas easier for AI agents to understand."
+            ]
+          },
+          "es": {
+            "title": "Por qué a los agentes les encanta Supabase",
+            "summary": "Los cofundadores de Supabase, Paul Copplestone y Ant Wilson, charlan con swyx sobre cómo la creación de software por agentes de IA cambia las necesidades del backend. Se analiza la ejecución de cargas de trabajo prolongadas y la simplificación de esquemas.",
+            "why_it_matters": "A medida que los agentes de IA generan más software, los backends deben adaptarse para gestionar cargas de trabajo duraderas y esquemas accesibles.",
+            "highlights": [
+              "Participan los cofundadores Paul Copplestone y Ant Wilson junto a swyx.",
+              "Discusión sobre la ejecución de cargas de trabajo de larga duración junto al backend.",
+              "Cómo facilitar la comprensión de los esquemas para los agentes."
+            ]
+          },
+          "zh-CN": {
+            "title": "为什么 AI 代理喜爱 Supabase",
+            "summary": "Supabase 联合创始人 Paul Copplestone 和 Ant Wilson 做客 Latent Space，与 swyx 探讨 AI 代理如何改变后端需求。节目讨论了在数据库旁运行长生命周期工作负载以及简化架构以便代理理解。",
+            "why_it_matters": "随着 AI 代理编写更多软件，后端基础设施必须适应新的开发模式，支持长期工作负载与更易懂的数据库架构。",
+            "highlights": [
+              "联合创始人 Paul Copplestone 和 Ant Wilson 联合做客对话 swyx。",
+              "探讨在数据库旁运行长期工作负载。",
+              "研究如何让架构对 AI 代理更易于理解。"
+            ]
+          },
+          "de": {
+            "title": "Warum Agenten Supabase lieben",
+            "summary": "Supabase-Mitgründer Paul Copplestone und Ant Wilson sprechen mit swyx darüber, wie die Erstellung von Software durch KI-Agenten die Backend-Anforderungen verändert. Themen sind langlebige Workloads neben der Datenbank und verständlichere Schemas.",
+            "why_it_matters": "Da KI-Agenten zunehmend Software entwickeln, müssen sich Backend-Infrastrukturen anpassen, um langlebige Workloads und agentenfreundliche Schemas zu unterstützen.",
+            "highlights": [
+              "Die Mitgründer Paul Copplestone und Ant Wilson im Gespräch mit swyx.",
+              "Ausführung langlebiger Workloads direkt neben der Datenbank.",
+              "Anpassung von Schemas, damit Agenten sie leichter verstehen."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 2,
+        "relevance_score": 75,
+        "editor_pick_reason": ""
+      }
+    },
+    "c141e6e8b269b77d4b8d40758afe1f27c46bd38aa60eab77f1355d9670324723": {
+      "fingerprint": "57997fd9aa1795ad872e9066916cc5f19efa23497a8263db4cae58478a2bb37d",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Un evaluation per scienziati AI con la chiave di risposta",
+            "summary": "In questo episodio di Latent Space, Ian Quigley di Leash Bio discute un sistema di valutazione per scienziati AI dotato di una chiave di risposta. L'episodio esplora argomenti tecnici basati esclusivamente sulla descrizione fornita.",
+            "why_it_matters": "Offre approfondimenti sulle valutazioni per l'intelligenza artificiale scientifica presentati direttamente da un esperto del settore, sebbene i dettagli siano limitati dai metadati disponibili.",
+            "highlights": [
+              "Ospite: Ian Quigley di Leash Bio",
+              "Discussione focalizzata su un eval per scienziati AI con chiave di risposta"
+            ]
+          },
+          "en": {
+            "title": "An Eval for AI Scientists That Knows the Answer Key",
+            "summary": "In this Latent Space episode, Ian Quigley from Leash Bio discusses an evaluation system for AI scientists equipped with an answer key. The episode explores technical topics based solely on the provided metadata.",
+            "why_it_matters": "It provides insights into scientific AI evaluations presented directly by an industry expert, though details are limited by the available metadata.",
+            "highlights": [
+              "Guest: Ian Quigley, Leash Bio",
+              "Discussion focused on an AI scientist evaluation with an answer key"
+            ]
+          },
+          "es": {
+            "title": "Una evaluación para científicos de IA con clave de respuestas",
+            "summary": "En este episodio de Latent Space, Ian Quigley de Leash Bio analiza un sistema de evaluación para científicos de IA que incluye una clave de respuestas. El episodio explora temas técnicos basados únicamente en los metadatos.",
+            "why_it_matters": "Ofrece perspectivas sobre evaluaciones de IA científica presentadas por un experto de la industria, aunque los detalles se limitan a los metadatos disponibles.",
+            "highlights": [
+              "Invitado: Ian Quigley, Leash Bio",
+              "Discusión centrada en una evaluación para científicos de IA con clave"
+            ]
+          },
+          "zh-CN": {
+            "title": "一个知晓答案的AI科学家评估系统",
+            "summary": "在本期 Latent Space 节目中，来自 Leash Bio 的 Ian Quigley 讨论了一个配备答案密钥的AI科学家评估系统。节目内容完全基于所提供的元数据。",
+            "why_it_matters": "它提供了关于科学AI评估的行业见解，尽管详细信息受限于现有的元数据。",
+            "highlights": [
+              "嘉宾：Ian Quigley，Leash Bio",
+              "讨论聚焦于带答案密钥的AI科学家评估"
+            ]
+          },
+          "de": {
+            "title": "Ein Evaluierungssystem für KI-Wissenschaftler mit Antwortschlüssel",
+            "summary": "In dieser Episode von Latent Space diskutiert Ian Quigley von Leash Bio über ein Evaluierungssystem für KI-Wissenschaftler, das einen Antwortschlüssel enthält. Die Episode behandelt technische Themen basierend auf Metadaten.",
+            "why_it_matters": "Es bietet Einblicke in wissenschaftliche KI-Evaluierungen, präsentiert direkt von einem Branchenexperten, wobei die Details durch die verfügbaren Metadaten begrenzt sind.",
+            "highlights": [
+              "Gast: Ian Quigley, Leash Bio",
+              "Diskussion über eine KI-Wissenschaftler-Evaluierung mit Antwortschlüssel"
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 2,
+        "relevance_score": 60,
+        "editor_pick_reason": ""
+      }
+    },
+    "c9932ba14163a3214026806950c9470f25cd48fa5f40b597853365bebadec269": {
+      "fingerprint": "640b9e12e460450f9be96073a85249af2a774154702ce886267f193d9a669c49",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Sito web personale di rememberYou su GitHub",
+            "summary": "Il repository GitHub ospita il codice sorgente per un sito web personale, basato sul framework Astro e aggiornato a fine ottobre 2026. La descrizione disponibile è minima e indica un progetto personale.",
+            "why_it_matters": "La descrizione fornita è estremamente limitata, offrendo pochi dettagli tecnici oltre all'uso di Astro e alla natura personale del sito.",
+            "highlights": [
+              "Sito web personale basato sul framework Astro",
+              "Ospitato su GitHub con 2 stelle"
+            ]
+          },
+          "en": {
+            "title": "Personal Website Repository by rememberYou",
+            "summary": "This GitHub repository contains the source code for a personal website built using the Astro framework. The project was last updated in late October 2026 and features minimal available description.",
+            "why_it_matters": "The provided description is extremely limited, offering minimal insight beyond its technical stack and personal nature.",
+            "highlights": [
+              "Personal website built with the Astro framework",
+              "Hosted on GitHub with 2 stars"
+            ]
+          },
+          "es": {
+            "title": "Sitio web personal de rememberYou en GitHub",
+            "summary": "El repositorio de GitHub contiene el código fuente para un sitio web personal desarrollado con el framework Astro. La descripción disponible es muy básica y se limita a indicar su propósito.",
+            "why_it_matters": "La descripción provista es sumamente escasa y ofrece pocos detalles técnicos más allá del uso de Astro.",
+            "highlights": [
+              "Sitio web personal desarrollado con el framework Astro",
+              "Alojado en GitHub con 2 estrellas"
+            ]
+          },
+          "zh-CN": {
+            "title": "rememberYou 的个人网站项目",
+            "summary": "该 GitHub 仓库包含使用 Astro 框架构建的个人网站源代码。项目于 2026 年 10 月下旬更新，描述信息较为简单。",
+            "why_it_matters": "提供的描述非常有限，除了技术栈和个人网站属性外，未包含更多深入细节。",
+            "highlights": [
+              "基于 Astro 框架构建的个人网站",
+              "托管于 GitHub 平台，拥有 2 个星标"
+            ]
+          },
+          "de": {
+            "title": "Persönliche Website von rememberYou auf GitHub",
+            "summary": "Dieses GitHub-Repository enthält den Quellcode für eine persönliche Website, die mit dem Astro-Framework erstellt wurde. Die Beschreibung ist sehr knapp gehalten.",
+            "why_it_matters": "Die bereitgestellte Beschreibung ist äußerst spärlich und bietet kaum technische Einblicke über den verwendeten Stack hinaus.",
+            "highlights": [
+              "Persönliche Website basierend auf dem Astro-Framework",
+              "Gehostet auf GitHub mit 2 Sternen"
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 2,
+        "relevance_score": 10,
+        "editor_pick_reason": ""
+      }
     }
   },
   "daily": {
     "date": "2026-10-30",
-    "count": 15,
+    "count": 19,
     "picks": 0
   }
 }
