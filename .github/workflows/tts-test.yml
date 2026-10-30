@@ -1,6 +1,9 @@
-name: AI Pulse Gemini TTS voice test
+name: AI Pulse - Generate one curated audio asset
 on:
   workflow_dispatch:
+concurrency:
+  group: ai-pulse-gemini-tts
+  cancel-in-progress: false
 permissions:
   contents: write
 jobs:
@@ -13,7 +16,7 @@ jobs:
           python-version: '3.12'
       - name: Install collector dependencies
         run: pip install -r collector/requirements.txt
-      - name: Generate one Italian audio sample
+      - name: Generate one selected Italian editorial audio asset
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python collector/tts_test.py
