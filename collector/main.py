@@ -205,7 +205,7 @@ SOURCE METADATA:
         params={"key": api_key},
         json={
             "contents": [{"parts": [{"text": prompt}]}],
-            "generationConfig": {"temperature": 0.2, "responseMimeType": "application/json", "maxOutputTokens": 2200}
+            "generationConfig": {"responseMimeType": "application/json", "maxOutputTokens": 2200}
         },
         headers=HEADERS,
         timeout=60
