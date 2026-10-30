@@ -4,17 +4,17 @@ AI Pulse è un'app Android nativa per un briefing quotidiano sull'intelligenza a
 
 ## Stato
 - Android: Kotlin + Jetpack Compose, package `com.aipulse.app`.
-- Identità visiva editoriale chiara: avorio, terracotta, inchiostro e salvia.
+- Interfaccia editoriale chiara: avorio, terracotta, inchiostro e salvia.
 - Feed unificato con filtri Tutto, News, GitHub e Speak Up.
 - Collector Python per fonti RSS/Atom e GitHub Search API.
-- Integrazione Firestore predisposta sulla collezione `ai_pulse_content`.
-- Configurazione Firebase non ancora completata: richiede registrazione dell'app Android e credenziali di proprietà.
+- Feed pubblico JSON aggiornato da GitHub Actions.
+- L'app usa un feed statico HTTPS; non richiede chiavi Firebase o backend dedicato.
 
-## Architettura a costo controllato
-Riutilizzo del progetto Firebase esistente `bet-studio` sul piano Spark, senza creare un nuovo progetto e senza abilitare Blaze. GitHub Actions esegue la raccolta pianificata; Firestore conserva il feed. Entrambi i servizi hanno quote e limiti gratuiti.
+## Costi e sicurezza
+Nessun server dedicato, nessuna API AI a pagamento e nessuna chiave amministrativa Firebase. GitHub Actions ha quote e limiti di utilizzo; i tempi schedulati possono subire ritardi. Firebase rimane sul piano Spark e non è necessario per la distribuzione del feed.
 
 ## Setup
-Seguire [FIREBASE_SETUP.md](FIREBASE_SETUP.md). Non caricare mai chiavi private nel repository o in chat.
+Vedi [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) e [FIREBASE_SETUP.md](FIREBASE_SETUP.md). Non caricare credenziali private nel repository.
 
 ## Integrità editoriale
-Ogni elemento conserva fonte, URL e data. Le sintesi devono essere parafrasi originali con link alla fonte, senza riprodurre gli articoli. Speak Up deve mostrare citazioni dirette solo con trascrizioni verificabili; i feed podcast saranno aggiunti dopo la verifica delle fonti.
+Ogni elemento conserva fonte, URL e data. Le sintesi devono essere parafrasi originali con link alla fonte, senza riprodurre gli articoli. Speak Up mostrerà citazioni dirette solo con trascrizioni verificabili.
