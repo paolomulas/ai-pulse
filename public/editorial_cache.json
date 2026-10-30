@@ -871,11 +871,69 @@
         "relevance_score": 10,
         "editor_pick_reason": ""
       }
+    },
+    "c5258c7ef6406bc06d8a00134c37a0ea72dd1dcf48ecd222ff08ff40204f69c4": {
+      "fingerprint": "ef35c34d58aea5bc682558b9906383e5a5029e1160a9c6a8c8e42889ee369d29",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Perché il calcolo AI è rettangolare con Erik Bernhardsson",
+            "summary": "In questo episodio di Latent Space, il co-conduttore Basil Chatha si unisce al team. Viene intervistato Erik Bernhardsson, CEO di Modal, in occasione del loro round Series D.",
+            "why_it_matters": "L'episodio offre uno sguardo diretto sulle dinamiche aziendali e di infrastruttura AI grazie all'intervista al CEO di Modal, offrendo spunti utili per gli ingegneri del settore.",
+            "highlights": [
+              "Presentazione del nuovo co-conduttore Basil Chatha.",
+              "Intervista a Erik Bernhardsson, CEO di Modal, in occasione del loro round Series D."
+            ]
+          },
+          "en": {
+            "title": "Why AI Compute Comes in Rectangles with Erik Bernhardsson",
+            "summary": "Latent Space welcomes new cohost Basil Chatha from the AI Engineering world. The episode features an interview with Modal CEO Erik Bernhardsson following their Series D round.",
+            "why_it_matters": "Provides a direct look into scaling AI infrastructure and company growth through the perspective of Modal's CEO during a major funding milestone.",
+            "highlights": [
+              "Introduction of new cohost Basil Chatha.",
+              "Interview with Modal CEO Erik Bernhardsson about their Series D round."
+            ]
+          },
+          "es": {
+            "title": "Por qué la computación de IA es rectangular con Erik Bernhardsson",
+            "summary": "Latent Space da la bienvenida al nuevo coanfitrión Basil Chatha. El episodio incluye una entrevista con el CEO de Modal, Erik Bernhardsson, tras su ronda de Serie D.",
+            "why_it_matters": "Ofrece una perspectiva directa sobre la infraestructura de IA y el crecimiento empresarial a través de la experiencia del CEO de Modal.",
+            "highlights": [
+              "Presentación del nuevo coanfitrión Basil Chatha.",
+              "Entrevista con Erik Bernhardsson, CEO de Modal, con motivo de su ronda de Serie D."
+            ]
+          },
+          "zh-CN": {
+            "title": "为什么AI算力是长方形的：对话Modal CEO Erik Bernhardsson",
+            "summary": "Latent Space迎来了来自AI工程界的新联合主持人Basil Chatha。本期节目采访了Modal公司CEO Erik Bernhardsson，探讨了他们完成D轮融资的契机。",
+            "why_it_matters": "通过对Modal公司CEO的访谈，让听众能够了解AI基础设施发展和企业融资的最新动态。",
+            "highlights": [
+              "介绍新联合主持人Basil Chatha。",
+              "采访Modal CEO Erik Bernhardsson并谈及其D轮融资。"
+            ]
+          },
+          "de": {
+            "title": "Warum AI-Compute rechteckig ist mit Erik Bernhardsson",
+            "summary": "Latent Space begrüßt den neuen Co-Host Basil Chatha. Im Mittelpunkt steht ein Interview mit Modal-CEO Erik Bernhardsson anlässlich ihrer Series-D-Finanzierungsrunde.",
+            "why_it_matters": "Bietet Einblicke in die Infrastruktur- und Unternehmensentwicklung von Modal direkt von der Führungsebene während einer wichtigen Finanzierungsphase.",
+            "highlights": [
+              "Vorstellung des neuen Co-Hosts Basil Chatha.",
+              "Interview mit Modal-CEO Erik Bernhardsson anlässlich der Series-D-Runde."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 2,
+        "relevance_score": 60,
+        "editor_pick_reason": ""
+      }
     }
   },
   "daily": {
     "date": "2026-10-30",
-    "count": 19,
+    "count": 20,
     "picks": 0
   }
 }
