@@ -158,11 +158,211 @@
         "relevance_score": 75,
         "editor_pick_reason": ""
       }
+    },
+    "a86d24c59c826150d16deb117d5d2c5c4ade94e1abd42be5bfff46adde0bd560": {
+      "fingerprint": "4bd97c1fbbfa6b0bc3ccf6499f7f841c7ba2460379e5a571fb959e96a7a62653",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "OpenAI: nuove tutele per adolescenti e report sulla sicurezza",
+            "summary": "OpenAI ha annunciato nuove misure di protezione per i teenager in ChatGPT, introducendo tutele avanzate contro la violenza, interventi tempestivi e un rinnovato impegno verso la trasparenza nella sicurezza pubblica.",
+            "why_it_matters": "Questi aggiornamenti mostrano come i principali sviluppatori stiano focalizzando l'attenzione sulla protezione dei minori e sulla prevenzione dei rischi legati all'uso delle piattaforme conversazionali.",
+            "highlights": [
+              "Rafforzamento della prevenzione della violenza in ChatGPT",
+              "Introduzione di interventi più tempestivi per la protezione degli utenti",
+              "Nuovo impegno nella pubblicazione di report sulla sicurezza"
+            ]
+          },
+          "en": {
+            "title": "OpenAI announces teen protections and safety reporting updates",
+            "summary": "OpenAI is enhancing safety measures within ChatGPT by expanding violence prevention safeguards, implementing earlier interventions, and committing to public safety reporting.",
+            "why_it_matters": "The updates highlight the ongoing efforts by major AI developers to address user safety, specifically targeting protections for vulnerable demographics like teenagers.",
+            "highlights": [
+              "Expanded violence prevention safeguards in ChatGPT",
+              "Earlier intervention mechanisms introduced",
+              "New commitment to public safety reporting"
+            ]
+          },
+          "es": {
+            "title": "OpenAI: nuevas protecciones para adolescentes y seguridad",
+            "summary": "OpenAI refuerza la prevención de la violencia en ChatGPT con protecciones ampliadas, intervenciones más tempranas y un nuevo compromiso con la presentación de informes de seguridad pública.",
+            "why_it_matters": "Estas medidas reflejan la importancia de abordar la seguridad de los usuarios y establecer salvaguardas específicas para proteger a los adolescentes en los entornos de IA conversacional.",
+            "highlights": [
+              "Salvaguardas ampliadas para la prevención de la violencia en ChatGPT",
+              "Intervenciones más tempranas implementadas",
+              "Nuevo compromiso con informes de seguridad pública"
+            ]
+          },
+          "zh-CN": {
+            "title": "OpenAI发布青少年保护新措施与安全报告",
+            "summary": "OpenAI通过扩大保护机制、更早的干预措施以及对公共安全报告的新承诺，进一步加强了ChatGPT中的暴力防范功能。",
+            "why_it_matters": "这些更新表明主流AI开发商正在持续优化用户安全治理，重点关注青少年群体的风险防范与保护机制。",
+            "highlights": [
+              "在ChatGPT中扩展暴力防范保护措施",
+              "引入更早的用户干预机制",
+              "对公共安全报告做出新的承诺"
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 1,
+        "relevance_score": 75,
+        "editor_pick_reason": ""
+      }
+    },
+    "a395c7da350b5086cc15f6b616a71f222298172ced3c491458f1fd1d38e79b77": {
+      "fingerprint": "76f0045d0c0f6428333319f6116d84a0d67dd494ff655ced0c80ee9e69e20731",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "OpenAI e ServiceNow ampliano la partnership aziendale",
+            "summary": "OpenAI e ServiceNow hanno esteso la loro collaborazione per integrare i modelli e gli agenti di OpenAI all'interno di ServiceNow. Inoltre, i flussi di lavoro di ServiceNow verranno portati in ChatGPT e Codex.",
+            "why_it_matters": "L'accordo rafforza l'integrazione dell'intelligenza artificiale generativa nei processi aziendali, unendo le piattaforme di automazione di ServiceNow con le capacità avanzate dei modelli OpenAI.",
+            "highlights": [
+              "Integrazione di modelli e agenti OpenAI in ServiceNow",
+              "Estensione dei flussi di lavoro di ServiceNow a ChatGPT e Codex"
+            ]
+          },
+          "en": {
+            "title": "OpenAI and ServiceNow Expand Enterprise Partnership",
+            "summary": "OpenAI and ServiceNow have expanded their partnership to integrate OpenAI models and agents into ServiceNow. Additionally, ServiceNow workflows will be brought into ChatGPT and Codex.",
+            "why_it_matters": "This collaboration deepens the integration of generative AI into enterprise environments by bridging ServiceNow's automation workflows with OpenAI's advanced model capabilities.",
+            "highlights": [
+              "Integration of OpenAI models and agents into ServiceNow",
+              "Extension of ServiceNow workflows into ChatGPT and Codex"
+            ]
+          },
+          "es": {
+            "title": "OpenAI y ServiceNow amplían su alianza empresarial",
+            "summary": "OpenAI y ServiceNow ampliaron su asociación para integrar los modelos y agentes de OpenAI en ServiceNow. Asimismo, los flujos de trabajo de ServiceNow se incorporarán a ChatGPT y Codex.",
+            "why_it_matters": "Este acuerdo refuerza la adopción de la inteligencia artificial generativa en entornos corporativos, conectando los flujos de trabajo de ServiceNow con las capacidades de OpenAI.",
+            "highlights": [
+              "Integración de modelos y agentes de OpenAI en ServiceNow",
+              "Incorporación de flujos de trabajo de ServiceNow en ChatGPT y Codex"
+            ]
+          },
+          "zh-CN": {
+            "title": "OpenAI与ServiceNow扩大企业合作伙伴关系",
+            "summary": "OpenAI与ServiceNow扩大了双方的合作，将OpenAI的模型和智能体引入ServiceNow中，并将ServiceNow的工作流引入ChatGPT和Codex。",
+            "why_it_matters": "该合作进一步深化了生成式AI在企业级工作流程中的应用，将ServiceNow的自动化平台与OpenAI的模型能力紧密结合。",
+            "highlights": [
+              "将OpenAI的模型和智能体整合至ServiceNow",
+              "把ServiceNow的工作流引入ChatGPT与Codex"
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 1,
+        "relevance_score": 75,
+        "editor_pick_reason": ""
+      }
+    },
+    "e2ed7680c50ae3f074e04f962f033e8bab070f352fa8087e45258e537064a005": {
+      "fingerprint": "e4c6727c565524d9288b21f153ea641acf6913845399840ea11ff02abd935ce8",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Il futuro dell'azienda secondo OpenAI",
+            "summary": "OpenAI News esplora l'integrazione dell'intelligenza artificiale all'interno dell'organigramma aziendale. L'analisi esamina come i sistemi AI potrebbero posizionarsi sotto, accanto e tra i lavoratori.",
+            "why_it_matters": "Comprendere l'evoluzione organizzativa proposta da OpenAI offre spunti chiave su come l'automazione potrebbe ridefinire la struttura e le gerarchie aziendali.",
+            "highlights": [
+              "Pubblicato da OpenAI News il 28 ottobre 2026.",
+              "Analizza l'inserimento dell'AI nell'organigramma aziendale."
+            ]
+          },
+          "en": {
+            "title": "The Future of the Firm: AI in the Org Chart",
+            "summary": "OpenAI News explores how artificial intelligence might enter the corporate organization chart. The piece examines potential placements beneath, beside, and between human workers.",
+            "why_it_matters": "Examining organizational changes proposed by major AI labs helps professionals anticipate structural shifts in modern workplaces.",
+            "highlights": [
+              "Published by OpenAI News on October 28, 2026.",
+              "Focuses on AI integration within corporate structures."
+            ]
+          },
+          "es": {
+            "title": "El futuro de la empresa según OpenAI",
+            "summary": "OpenAI News explora cómo la inteligencia artificial podría integrarse en el organigrama empresarial. El análisis examina la colocación de la IA debajo, al lado y entre los trabajadores.",
+            "why_it_matters": "Analizar la visión de OpenAI sobre la jerarquía empresarial permite comprender las posibles transformaciones estructurales impulsadas por la automatización.",
+            "highlights": [
+              "Publicado por OpenAI News el 28 de octubre de 2026.",
+              "Examina la inserción de la IA en el organigrama corporativo."
+            ]
+          },
+          "zh-CN": {
+            "title": "企业未来：人工智能与组织架构",
+            "summary": "OpenAI News 探讨了人工智能如何进入企业组织架构图。文章分析了人工智能可能在人类员工下方、身旁以及之间所扮演的角色。",
+            "why_it_matters": "了解主要人工智能机构提出的组织变革，有助于从业者预测现代职场的结构性转变。",
+            "highlights": [
+              "由 OpenAI News 于 2026 年 10 月 28 日发布。",
+              "探讨了人工智能在企业组织结构中的整合方式。"
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 1,
+        "relevance_score": 65,
+        "editor_pick_reason": ""
+      }
+    },
+    "709cc8e2bd467b7916899fb3ec62dbecfa135fc3209b011a85a1239ca7c1f0f6": {
+      "fingerprint": "44c040ab9b308e0e6eb6cdf04bd057522ec452ed7226b309f178a58c1c8fda02",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Legora sviluppa un sistema operativo agentico per il lavoro legale",
+            "summary": "Legora utilizza i modelli OpenAI, ChatGPT e Codex per velocizzare i flussi di lavoro legali. La piattaforma punta ad ampliare l'analisi dei contratti e a consentire agli avvocati di concentrarsi su attività a maggior valore.",
+            "why_it_matters": "L'iniziativa illustra l'adozione dei modelli linguistici nel settore legale, con l'obiettivo dichiarato di automatizzare le attività routinarie tramite agenti basati su intelligenza artificiale.",
+            "highlights": [
+              "Sfrutta i modelli OpenAI, ChatGPT e Codex.",
+              "Mira ad accelerare i flussi di lavoro legali e l'analisi dei contratti."
+            ]
+          },
+          "en": {
+            "title": "Legora is building the agentic operating system for legal work",
+            "summary": "Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows and expand contract analysis. The system aims to free lawyers to focus on higher-value work through agentic automation.",
+            "why_it_matters": "This project highlights how enterprise developers leverage foundational AI models to build vertical operating systems targeting specific industry workflows.",
+            "highlights": [
+              "Utilizes OpenAI models, ChatGPT, and Codex.",
+              "Designed to accelerate legal workflows and contract analysis."
+            ]
+          },
+          "es": {
+            "title": "Legora desarrolla el sistema operativo agéntico para el sector legal",
+            "summary": "Legora emplea modelos de OpenAI, ChatGPT y Codex para acelerar los flujos de trabajo legales. Su propuesta busca ampliar el análisis de contratos y liberar tiempo a los abogados para tareas de mayor valor.",
+            "why_it_matters": "Muestra la integración de modelos avanzados de IA en nichos profesionales específicos, buscando transformar la eficiencia operativa según las afirmaciones del proyecto.",
+            "highlights": [
+              "Usa modelos de OpenAI, ChatGPT y Codex.",
+              "Busca acelerar flujos de trabajo legales y análisis de contratos."
+            ]
+          },
+          "zh-CN": {
+            "title": "Legora正在构建面向法律工作的智能体操作系统",
+            "summary": "Legora利用OpenAI模型、ChatGPT和Codex来加速法律工作流程，扩展合同分析能力。该项目旨在让律师能够专注于更高价值的工作。",
+            "why_it_matters": "该项目展示了垂直领域如何利用基础人工智能模型构建针对特定行业工作流程的解决方案，反映了法律科技自动化的新动向。",
+            "highlights": [
+              "使用OpenAI模型、ChatGPT和Codex。",
+              "旨在加速法律工作流程并扩展合同分析。"
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 1,
+        "relevance_score": 65,
+        "editor_pick_reason": ""
+      }
     }
   },
   "daily": {
     "date": "2026-10-30",
-    "count": 3,
+    "count": 7,
     "picks": 0
   }
 }
