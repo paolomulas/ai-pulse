@@ -26,6 +26,9 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.google.firebase.firestore.FirebaseFirestore
+import com.google.firebase.firestore.ListenerRegistration
+import com.google.firebase.firestore.Query
 
 private val Paper = Color(0xFFFAF9F5)
 private val Warm = Color(0xFFF0EEE6)
@@ -34,13 +37,21 @@ private val Muted = Color(0xFF777166)
 private val Terra = Color(0xFFC6613F)
 private val Sage = Color(0xFF788C5D)
 
-private data class Story(val section: String, val title: String, val summary: String, val source: String, val url: String, val type: String)
+private data class Story(
+    val id: String,
+    val section: String,
+    val title: String,
+    val summary: String,
+    val source: String,
+    val url: String,
+    val type: String
+)
 
-private val stories = listOf(
-    Story("MODELLI", "L'intelligenza artificiale entra in una nuova fase", "Aggiornamenti e analisi sulle nuove generazioni di modelli. I contenuti live saranno collegati alle fonti verificate.", "AI Pulse Editorial", "https://openai.com/news/", "News"),
-    Story("OPEN SOURCE", "I repository AI da tenere d'occhio", "Progetti emergenti ordinati considerando attività recente, crescita e interesse della community.", "GitHub", "https://github.com/trending", "GitHub"),
-    Story("RICERCA", "Ricerca e applicazioni: cosa cambia", "Una selezione di aggiornamenti da laboratori e gruppi di ricerca, con collegamento alle fonti originali.", "Google DeepMind", "https://deepmind.google/discover/blog/", "News"),
-    Story("SPEAK UP · INTERVISTA", "Le idee che orientano il dibattito sull'AI", "La sezione raccoglierà podcast, interviste e conferenze recenti. Citazioni dirette solo con trascrizioni verificabili.", "Latent Space", "https://www.latent.space/", "Speak Up")
+private val demoStories = listOf(
+    Story("demo-1", "MODELLI", "L'intelligenza artificiale entra in una nuova fase", "Aggiornamenti e analisi sulle nuove generazioni di modelli. I contenuti live saranno collegati alle fonti verificate.", "AI Pulse Editorial", "https://openai.com/news/", "News"),
+    Story("demo-2", "OPEN SOURCE", "I repository AI da tenere d'occhio", "Progetti emergenti ordinati considerando attività recente, crescita e interesse della community.", "GitHub", "https://github.com/trending", "GitHub"),
+    Story("demo-3", "RICERCA", "Ricerca e applicazioni: cosa cambia", "Una selezione di aggiornamenti da laboratori e gruppi di ricerca, con collegamento alle fonti originali.", "Google DeepMind", "https://deepmind.google/discover/blog/", "News"),
+    Story("demo-4", "SPEAK UP · INTERVISTA", "Le idee che orientano il dibattito sull'AI", "La sezione raccoglierà podcast, interviste e conferenze recenti. Citazioni dirette solo con trascrizioni verificabili.", "Latent Space", "https://www.latent.space/", "Speak Up")
 )
 
 class MainActivity : ComponentActivity() {
@@ -53,9 +64,51 @@ class MainActivity : ComponentActivity() {
 @Composable
 private fun PulseScreen() {
     var filter by remember { mutableStateOf("Tutto") }
+    var firestoreStories by remember { mutableStateOf<List<Story>?>(null) }
     val context = LocalContext.current
+
+    DisposableEffect(Unit) {
+        var registration: ListenerRegistration? = null
+        try {
+            registration = FirebaseFirestore.getInstance()
+                .collection("ai_pulse_content")
+                .orderBy("collectedAt", Query.Direction.DESCENDING)
+                .limit(60)
+                .addSnapshotListener { snapshot, error ->
+                    if (error != null) {
+                        firestoreStories = emptyList()
+                    } else if (snapshot != null) {
+                        firestoreStories = snapshot.documents.mapNotNull { doc ->
+                            val url = doc.getString("sourceUrl") ?: return@mapNotNull null
+                            val type = doc.getString("type") ?: "news"
+                            val title = doc.getString("title") ?: return@mapNotNull null
+                            val source = doc.getString("sourceName") ?: "Fonte"
+                            val summary = doc.getString("summary") ?: ""
+                            val section = when (type) {
+                                "github" -> "OPEN SOURCE"
+                                "speak_up" -> "SPEAK UP"
+                                else -> "NEWS"
+                            }
+                            Story(doc.id, section, title, summary, source, url, type)
+                        }
+                    }
+                }
+        } catch (_: IllegalStateException) {
+            firestoreStories = emptyList()
+        }
+        onDispose { registration?.remove() }
+    }
+
+    val live = !firestoreStories.isNullOrEmpty()
+    val sourceStories = if (live) firestoreStories!! else demoStories
     val filters = listOf("Tutto", "News", "GitHub", "Speak Up")
-    val visible = stories.filter { filter == "Tutto" || it.type == filter }
+    val visible = sourceStories.filter {
+        filter == "Tutto" ||
+            (filter == "News" && it.type == "news") ||
+            (filter == "GitHub" && it.type == "github") ||
+            (filter == "Speak Up" && it.type == "speak_up" || filter == "Speak Up" && it.type == "Speak Up")
+    }
+
     MaterialTheme(colorScheme = lightColorScheme(
         background = Paper, surface = Paper, onBackground = Ink, onSurface = Ink,
         primary = Terra, secondary = Sage
@@ -97,12 +150,15 @@ private fun PulseScreen() {
                 }
                 item {
                     Row(verticalAlignment = Alignment.CenterVertically) {
-                        Box(Modifier.size(7.dp).background(Sage, RoundedCornerShape(50)))
+                        Box(Modifier.size(7.dp).background(if (live) Sage else Terra, RoundedCornerShape(50)))
                         Spacer(Modifier.width(7.dp))
-                        Text("ANTEPRIMA · CONTENUTI DIMOSTRATIVI", color = Muted, fontSize = 9.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.sp)
+                        Text(
+                            if (live) "AGGIORNATO DA FIRESTORE" else "ANTEPRIMA · CONTENUTI DIMOSTRATIVI",
+                            color = Muted, fontSize = 9.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.sp
+                        )
                     }
                 }
-                items(visible) { story ->
+                items(visible, key = { it.id }) { story ->
                     Column(
                         Modifier.fillMaxWidth().background(Color.White, RoundedCornerShape(18.dp))
                             .clickable { runCatching { context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(story.url))) } }
@@ -110,8 +166,8 @@ private fun PulseScreen() {
                     ) {
                         Row(verticalAlignment = Alignment.CenterVertically) {
                             val icon = when (story.type) {
-                                "GitHub" -> Icons.Default.Code
-                                "Speak Up" -> Icons.Default.GraphicEq
+                                "github" -> Icons.Default.Code
+                                "speak_up", "Speak Up" -> Icons.Default.GraphicEq
                                 else -> Icons.Default.AutoAwesome
                             }
                             Icon(icon, null, tint = Terra, modifier = Modifier.size(15.dp))
@@ -126,8 +182,13 @@ private fun PulseScreen() {
                         Text("Fonte: ${story.source}  ·  Apri ↗", color = Terra, fontSize = 11.sp, fontWeight = FontWeight.Medium)
                     }
                 }
-                item {
-                    Text("I contenuti visualizzati sono segnaposto. Il collegamento a Firebase e ai collector verrà completato dopo la configurazione delle credenziali del proprietario.", color = Muted, fontSize = 11.sp, lineHeight = 16.sp)
+                if (visible.isEmpty()) {
+                    item { Text("Nessun contenuto in questa sezione. Riprova più tardi.", color = Muted, fontSize = 13.sp) }
+                }
+                if (!live) {
+                    item {
+                        Text("Il feed live sarà mostrato dopo la configurazione Firebase e la prima raccolta dei contenuti.", color = Muted, fontSize = 11.sp, lineHeight = 16.sp)
+                    }
                 }
             }
         }
