@@ -112,7 +112,7 @@ def publish(records):
     for start in range(0, len(records), 300):
         chunk = records[start:start + 300]
         refs = [db.collection(COLLECTION).document(record["id"]) for record in chunk]
-        existing = {snap.id: snap.to_dict() or {} for snap in db.get_all(refs)}
+        existing = {snap.id: (snap.to_dict() or {}) for snap in db.get_all(refs) if snap.exists}
         batch = db.batch()
         writes = 0
         for record in chunk:
