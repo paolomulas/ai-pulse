@@ -6,50 +6,55 @@
         "editorial": {
           "it": {
             "title": "Aggiornato il Model Spec di OpenAI per un'IA più capace",
-            "summary": "OpenAI ha pubblicato un Model Spec aggiornato che delinea cinque valori fondamentali. L'obiettivo è guidare i sistemi verso un giudizio solido, l'autonomia umana e la fedeltà all'intento.",
-            "why_it_matters": "Queste linee guida offrono una trasparenza cruciale sui criteri di progettazione e allineamento per i sistemi avanzati di OpenAI.",
+            "summary": "OpenAI ha pubblicato un Model Spec aggiornato incentrato su cinque valori chiave. L'iniziativa mira a guidare i modelli verso un giudizio solido, l'autonomia umana e la fedeltà all'intento.",
+            "why_it_matters": "Le linee guida delineate da OpenAI offrono una prospettiva ufficiale sulle direttive di progettazione comportamentale dei modelli, sebbene si tratti di dichiarazioni del produttore senza verifiche indipendenti.",
             "highlights": [
-              "Presentata la versione aggiornata del Model Spec.",
-              "Definiti cinque valori fondamentali per lo sviluppo.",
-              "Focus su giudizio, agenzia umana e fedeltà agli intenti."
+              "Presentata la versione aggiornata del Model Spec di OpenAI.",
+              "Il framework si basa su cinque valori fondamentali per l'IA."
             ]
           },
           "en": {
-            "title": "OpenAI Updates Model Spec for Capable and Beneficial AI",
-            "summary": "OpenAI's updated Model Spec outlines five core values designed to guide AI behavior. The framework focuses on sound judgment, human agency, and faithfulness to human intent.",
-            "why_it_matters": "The specification offers important insights into the governance and alignment principles guiding OpenAI's models.",
+            "title": "OpenAI Releases Updated Model Spec for Advanced AI",
+            "summary": "OpenAI has outlined an updated Model Spec centered around five core values. The framework aims to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+            "why_it_matters": "This updated specification offers an official look into OpenAI's approach to behavioral guidance for models, serving as project claims that merit careful monitoring by practitioners.",
             "highlights": [
-              "Released an updated Model Spec document.",
-              "Outlines five core values for AI guidance.",
-              "Emphasizes sound judgment and human agency."
+              "OpenAI published an updated Model Spec outlining five core values.",
+              "Aims to steer AI toward sound judgment and human intent."
             ]
           },
           "es": {
-            "title": "OpenAI actualiza el Model Spec para una IA más capaz",
-            "summary": "El Model Spec actualizado de OpenAI detalla cinco valores fundamentales para guiar a la IA. El marco se centra en un juicio sólido, la agencia humana y la fidelidad a la intención.",
-            "why_it_matters": "Esta actualización proporciona una visión clara de los principios de diseño y alineación que OpenAI implementa en sus modelos.",
+            "title": "OpenAI actualiza su Model Spec para una IA más capaz",
+            "summary": "OpenAI ha presentado un Model Spec actualizado que detalla cinco valores fundamentales. El marco busca orientar a los modelos hacia un juicio sólido, la agencia humana y la fidelidad a la intención.",
+            "why_it_matters": "Las directrices ofrecen información oficial sobre los principios de diseño de OpenAI, aunque representan afirmaciones del proyecto que requieren un análisis prudente.",
             "highlights": [
-              "Publicación del Model Spec actualizado.",
-              "Establece cinco valores centrales para la IA.",
-              "Enfoque en el juicio sólido y la agencia humana."
+              "Publicación del Model Spec actualizado por parte de OpenAI.",
+              "Se centra en cinco valores clave para guiar el comportamiento de la IA."
             ]
           },
           "zh-CN": {
-            "title": "OpenAI更新模型规范以实现更强大的AI",
-            "summary": "OpenAI发布了更新后的模型规范，概述了指导AI行为的五个核心values。该框架侧重于良好的判断力、人类自主性以及对人类意图的忠实度。",
-            "why_it_matters": "该规范为了解OpenAI模型的治理与对齐原则提供了重要的参考依据。",
+            "title": "OpenAI发布更新版模型规范以指引更强AI",
+            "summary": "OpenAI公布了更新后的模型规范（Model Spec），概述了五个核心价值观。此举旨在引导具备更强能力的AI展现出良好的判断力、人类自主性并忠于人类意图。",
+            "why_it_matters": "该规范展示了官方对模型行为导向的设计思路，属于开发者提出的项目声明，从业者需结合实际审慎看待。",
             "highlights": [
-              "发布了更新后的模型规范文档。",
-              "概述了用于指导AI的五个核心价值观。",
-              "强调稳健的判断力和人类自主性。"
+              "OpenAI发布了包含五个核心价值的更新版模型规范。",
+              "旨在提升AI的良好判断力与对人类意图的忠实度。"
+            ]
+          },
+          "de": {
+            "title": "OpenAI veröffentlicht aktualisierte Model Spec für KI",
+            "summary": "OpenAI hat eine aktualisierte Model Spec mit fünf Kernwerten vorgestellt. Der Leitfaden soll eine fähigere KI zu gesundem Urteilsvermögen, menschlicher Handlungsfähigkeit und Intentionstreue anleiten.",
+            "why_it_matters": "Die Spezifikation gibt Einblicke in die offiziellen Leitlinien von OpenAI, bleibt jedoch eine projektspezifische Behauptung ohne unabhängige Validierung.",
+            "highlights": [
+              "OpenAI stellt aktualisierte Model Spec mit fünf Kernwerten vor.",
+              "Ziel ist es, die KI zu mehr Intentionstreue und Urteilsvermögen zu führen."
             ]
           }
         },
         "editorial_level": "ai_curated",
         "editorial_status": "verified",
         "editorial_model": "gemini-3.5-flash-lite",
-        "editorial_version": 1,
-        "relevance_score": 75,
+        "editorial_version": 2,
+        "relevance_score": 65,
         "editor_pick_reason": ""
       }
     },
@@ -164,51 +169,61 @@
       "editorial": {
         "editorial": {
           "it": {
-            "title": "OpenAI: nuove tutele per adolescenti e report sulla sicurezza",
-            "summary": "OpenAI ha annunciato nuove misure di protezione per i teenager in ChatGPT, introducendo tutele avanzate contro la violenza, interventi tempestivi e un rinnovato impegno verso la trasparenza nella sicurezza pubblica.",
-            "why_it_matters": "Questi aggiornamenti mostrano come i principali sviluppatori stiano focalizzando l'attenzione sulla protezione dei minori e sulla prevenzione dei rischi legati all'uso delle piattaforme conversazionali.",
+            "title": "OpenAI: nuove tutele per adolescenti e sicurezza",
+            "summary": "OpenAI ha annunciato nuove misure di protezione per gli adolescenti e un rafforzamento della prevenzione della violenza in ChatGPT. Gli aggiornamenti includono salvaguardie ampliate, interventi tempestivi e un impegno nella rendicontazione della sicurezza pubblica.",
+            "why_it_matters": "Questi aggiornamenti affrontano la sicurezza dei minori e la prevenzione della violenza nell'utilizzo dei sistemi di IA conversazionale, rispondendo alle crescenti richieste di protezione degli utenti più giovani.",
             "highlights": [
-              "Rafforzamento della prevenzione della violenza in ChatGPT",
-              "Introduzione di interventi più tempestivi per la protezione degli utenti",
-              "Nuovo impegno nella pubblicazione di report sulla sicurezza"
+              "Rafforzamento della prevenzione della violenza con salvaguardie ampliate e interventi tempestivi.",
+              "Introduzione di nuove tutele dedicate agli adolescenti su ChatGPT.",
+              "Nuovo impegno nella rendicontazione legata alla sicurezza pubblica."
             ]
           },
           "en": {
-            "title": "OpenAI announces teen protections and safety reporting updates",
-            "summary": "OpenAI is enhancing safety measures within ChatGPT by expanding violence prevention safeguards, implementing earlier interventions, and committing to public safety reporting.",
-            "why_it_matters": "The updates highlight the ongoing efforts by major AI developers to address user safety, specifically targeting protections for vulnerable demographics like teenagers.",
+            "title": "OpenAI Introduces New Teen Protections and Safety Report",
+            "summary": "OpenAI is enhancing violence prevention within ChatGPT through expanded safeguards, earlier interventions, and a renewed commitment to public safety reporting. These updates aim to improve user safety, particularly for younger demographics.",
+            "why_it_matters": "This update directly addresses the safety and protection of teens using conversational AI, reflecting ongoing industry efforts to implement safer safeguards and public accountability.",
             "highlights": [
-              "Expanded violence prevention safeguards in ChatGPT",
-              "Earlier intervention mechanisms introduced",
-              "New commitment to public safety reporting"
+              "Expanded safeguards and earlier interventions for violence prevention in ChatGPT.",
+              "New protective measures specifically designed for teenagers.",
+              "Commitment to transparent public safety reporting."
             ]
           },
           "es": {
-            "title": "OpenAI: nuevas protecciones para adolescentes y seguridad",
-            "summary": "OpenAI refuerza la prevención de la violencia en ChatGPT con protecciones ampliadas, intervenciones más tempranas y un nuevo compromiso con la presentación de informes de seguridad pública.",
-            "why_it_matters": "Estas medidas reflejan la importancia de abordar la seguridad de los usuarios y establecer salvaguardas específicas para proteger a los adolescentes en los entornos de IA conversacional.",
+            "title": "OpenAI anuncia nuevas protecciones para adolescentes y seguridad",
+            "summary": "OpenAI está reforzando la prevención de la violencia en ChatGPT con salvaguardas ampliadas, intervenciones más tempranas y un nuevo compromiso con la seguridad pública. Estas medidas buscan proteger mejor a los usuarios jóvenes.",
+            "why_it_matters": "Aborda la necesidad crítica de proteger a los adolescentes que utilizan herramientas de IA conversacional, estableciendo salvaguardas y compromisos de transparencia más estrictos.",
             "highlights": [
-              "Salvaguardas ampliadas para la prevención de la violencia en ChatGPT",
-              "Intervenciones más tempranas implementadas",
-              "Nuevo compromiso con informes de seguridad pública"
+              "Ampliación de salvaguardas e intervenciones tempranas contra la violencia en ChatGPT.",
+              "Nuevas protecciones específicas orientadas a los adolescentes.",
+              "Compromiso renovado con la información sobre seguridad pública."
             ]
           },
           "zh-CN": {
-            "title": "OpenAI发布青少年保护新措施与安全报告",
-            "summary": "OpenAI通过扩大保护机制、更早的干预措施以及对公共安全报告的新承诺，进一步加强了ChatGPT中的暴力防范功能。",
-            "why_it_matters": "这些更新表明主流AI开发商正在持续优化用户安全治理，重点关注青少年群体的风险防范与保护机制。",
+            "title": "OpenAI发布青少年保护新举措与社区安全报告",
+            "summary": "OpenAI通过扩展安全防护措施、更早的干预机制以及对公共安全报告的新承诺，进一步加强了ChatGPT中的暴力防范。这些更新旨在为青少年群体提供更安全的AI使用环境。",
+            "why_it_matters": "此举直接回应了对话式AI在年轻用户群体中的安全与防护需求，体现了行业对公开透明与强化青少年保护的重视。",
             "highlights": [
-              "在ChatGPT中扩展暴力防范保护措施",
-              "引入更早的用户干预机制",
-              "对公共安全报告做出新的承诺"
+              "在ChatGPT中扩展了暴力预防的安全防护和早期干预机制。",
+              "引入了针对青少年的全新保护措施。",
+              "增加了对公众安全报告的新承诺。"
+            ]
+          },
+          "de": {
+            "title": "OpenAI: Neue Jugendschutzmaßnahmen und Sicherheitsbericht",
+            "summary": "OpenAI verstärkt die Gewaltprävention in ChatGPT durch erweiterte Schutzmaßnahmen, frühere Interventionen und ein neues Bekenntnis zur öffentlichen Sicherheitsberichterstattung. Die Updates zielen auf mehr Sicherheit für junge Nutzer ab.",
+            "why_it_matters": "Es reagiert auf die Sicherheitsbedenken im Umgang mit konversationeller KI durch gezielte Schutzmaßnahmen für Jugendliche und verbesserte Transparenz bei der öffentlichen Sicherheit.",
+            "highlights": [
+              "Erweiterte Schutzmaßnahmen und frühere Interventionen zur Gewaltprävention in ChatGPT.",
+              "Neue, gezielte Schutzfunktionen für Jugendliche.",
+              "Verpflichtung zu einer transparenten Berichterstattung über die öffentliche Sicherheit."
             ]
           }
         },
         "editorial_level": "ai_curated",
         "editorial_status": "verified",
         "editorial_model": "gemini-3.5-flash-lite",
-        "editorial_version": 1,
-        "relevance_score": 75,
+        "editorial_version": 2,
+        "relevance_score": 65,
         "editor_pick_reason": ""
       }
     },
@@ -358,11 +373,127 @@
         "relevance_score": 65,
         "editor_pick_reason": ""
       }
+    },
+    "a33602fe8acaa9fdecff2cf9c6b90ce6f33b0837836fff086e98275f23ca21b9": {
+      "fingerprint": "9447733fc0e4b8a6784e4c98b808f409e892ceb31c1c1351888173cf3ae76e01",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "SIREN: Indice orario verificabile dell'attività IA",
+            "summary": "SIREN (già DOOMCON) è un indice orario dell'attività di intelligenza artificiale progettato per essere verificabile. Sviluppato in JavaScript, utilizza ricevute incatenate tramite hash e un metodo aperto.",
+            "why_it_matters": "Offre un sistema trasparente e tracciabile per monitorare l'attività IA senza pubblicità o tracciamento, basandosi su ricevute con hash.",
+            "highlights": [
+              "Indice orario dell'attività IA verificabile",
+              "Ricevute incatenate tramite hash e metodo aperto"
+            ]
+          },
+          "en": {
+            "title": "SIREN: Verifiable Hourly Index of AI Activity",
+            "summary": "SIREN (formerly DOOMCON) is an hourly index of AI activity designed for verification. Built in JavaScript, it features hash-chained receipts and an open method with no ads or tracking.",
+            "why_it_matters": "It provides a transparent, trackable approach to monitoring AI activity using cryptographic hash chaining, entirely free of ads and trackers.",
+            "highlights": [
+              "Hourly verifiable index of AI activity",
+              "Hash-chained receipts and open methodology"
+            ]
+          },
+          "es": {
+            "title": "SIREN: Índice horario verificable de actividad de IA",
+            "summary": "SIREN (antes DOOMCON) es un índice horario de actividad de IA que se puede verificar. Desarrollado en JavaScript, utiliza recibos encadenados por hash y un método abierto sin anuncios.",
+            "why_it_matters": "Aporta un enfoque transparente para el seguimiento de la actividad de la IA mediante el encadenamiento de hashes, libre de rastreo y publicidad.",
+            "highlights": [
+              "Índice horario verificable de actividad de IA",
+              "Recibos encadenados por hash y método abierto"
+            ]
+          },
+          "zh-CN": {
+            "title": "SIREN：可验证的AI活动小时级索引",
+            "summary": "SIREN（原名DOOMCON）是一个可验证的AI活动小时级索引。该项目使用JavaScript开发，采用哈希链式收据和公开方法，无广告或追踪。",
+            "why_it_matters": "它通过密码学哈希链提供了一种透明且可追踪的AI活动监测方式，且不包含任何广告和追踪器。",
+            "highlights": [
+              "可验证的AI活动小时级索引",
+              "哈希链式收据与公开方法"
+            ]
+          },
+          "de": {
+            "title": "SIREN: Verifizierbarer stündlicher KI-Aktivitätsindex",
+            "summary": "SIREN (vormals DOOMCON) ist ein stündlicher Index für KI-Aktivitäten zur Überprüfung. Er wurde in JavaScript erstellt und nutzt Hash-verkettete Belege sowie offene Methoden.",
+            "why_it_matters": "Es bietet einen transparenten Ansatz zur Überwachung von KI-Aktivitäten mittels Hash-Verkettung, gänzlich ohne Werbung oder Tracking.",
+            "highlights": [
+              "Stündlicher, verifizierbarer Index der KI-Aktivität",
+              "Hash-verkettete Belege und offene Methode"
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 2,
+        "relevance_score": 45,
+        "editor_pick_reason": ""
+      }
+    },
+    "9345f1afcf6c60949cd7e99d47a5e3133ea4aa77ff71de74fe37b69b6cc47e7a": {
+      "fingerprint": "d98fa2b0293d282c99db737a03942155d88d4906e05b3fb06605f9837f2eeaca",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "THE_VISSION: un giornale giornaliero di IA interamente automatizzato",
+            "summary": "Progetto GitHub che descrive una pipeline automatizzata per la ricerca, la stesura, la verifica e la pubblicazione di un giornale quotidiano sull'IA senza una redazione. Il sistema dichiara di rifiutarsi di pubblicare in assenza di fonti verificate.",
+            "why_it_matters": "Esplora l'automazione dei flussi editoriali e dei controlli di veridicità nelle notizie sull'intelligenza artificiale, sebbene si tratti al momento di una descrizione progettuale.",
+            "highlights": [
+              "Pipeline automatizzata per ricerca, scrittura, verifica e pubblicazione",
+              "Politica dichiarata di non pubblicare anziché inventare fonti"
+            ]
+          },
+          "en": {
+            "title": "THE_VISSION: An Automated Daily AI Paper Without a Newsroom",
+            "summary": "A GitHub project featuring an automated pipeline that researches, writes, checks, and publishes a daily AI paper without human newsroom intervention. The project states it refuses to publish rather than fabricate sources.",
+            "why_it_matters": "It highlights experimental approaches to autonomous journalistic workflows and automated fact-checking pipelines, based solely on project claims.",
+            "highlights": [
+              "Automated pipeline for end-to-end paper production",
+              "Stated policy to withhold publication instead of inventing sources"
+            ]
+          },
+          "es": {
+            "title": "THE_VISSION: Un periódico diario de IA totalmente automatizado",
+            "summary": "Proyecto de GitHub que presenta una tubería automatizada para investigar, redactar, verificar y publicar una edición diaria sobre IA sin redacción. El sistema afirma negarse a publicar antes que inventar fuentes.",
+            "why_it_matters": "Ilustra propuestas experimentales sobre flujos de trabajo editoriales autónomos y verificación automatizada, basándose exclusivamente en los datos aportados por el creador.",
+            "highlights": [
+              "Tubería automatizada para investigación y publicación diaria",
+              "Política declarada de no publicar si no hay fuentes válidas"
+            ]
+          },
+          "zh-CN": {
+            "title": "THE_VISSION：一个无新闻编辑部的全自动AI日报项目",
+            "summary": "GitHub上的一个开源项目，展示了一个自动执行研究、写作、审核和发布日常AI报纸的流程管道。该项目称其宁可不发布，也绝不凭空捏造消息来源。",
+            "why_it_matters": "该项目探索了人工智能领域的自主编辑工作流与事实核查机制，相关特性均基于项目自身的描述。",
+            "highlights": [
+              "用于研究、编写和发布的自动化流程管道",
+              "声明拒绝捏造来源、宁缺毋滥的发布策略"
+            ]
+          },
+          "de": {
+            "title": "THE_VISSION: Eine automatisierte tägliche KI-Zeitung ohne Redaktion",
+            "summary": "Ein GitHub-Projekt, das eine automatisierte Pipeline zur Recherche, zum Verfassen, Prüfen und Veröffentlichen einer täglichen KI-Ausgabe ohne menschliche Redaktion beschreibt. Laut Projektbeschreibung wird die Veröffentlichung verweigert, statt Quellen zu erfinden.",
+            "why_it_matters": "Es bietet Einblicke in experimentelle Ansätze für autonome journalistische Workflows, basierend auf den Angaben des Entwicklers.",
+            "highlights": [
+              "Automatisierte Pipeline für Recherche, Verifizierung und Publikation",
+              "Ausgesprochener Verzicht auf Veröffentlichung bei fehlenden Quellen"
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 2,
+        "relevance_score": 45,
+        "editor_pick_reason": ""
+      }
     }
   },
   "daily": {
     "date": "2026-10-30",
-    "count": 7,
+    "count": 11,
     "picks": 0
   }
 }
