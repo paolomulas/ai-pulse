@@ -28,7 +28,7 @@ def item_id(url):
 def clean_text(value, limit=1800):
     value = re.sub(r"<[^>]+>", " ", value or "")
     value = html.unescape(value)
-    return re.sub(r"\\s+", " ", value).strip()[:limit]
+    return re.sub(r"\s+", " ", value).strip()[:limit]
 
 def published(entry):
     for key in ("published_parsed", "updated_parsed"):
