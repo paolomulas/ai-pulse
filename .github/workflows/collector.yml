@@ -1,5 +1,10 @@
 name: AI Pulse collector
 on:
+  push:
+    branches: [main]
+    paths:
+      - "collector/**"
+      - ".github/workflows/collector.yml"
   workflow_dispatch:
   schedule:
     - cron: '17,47 * * * *'
