@@ -68,46 +68,55 @@
         "editorial": {
           "it": {
             "title": "Ropes & Gray sviluppa intelligenza artificiale per la due diligence",
-            "summary": "Lo studio legale Ropes & Gray sta sviluppando strumenti di intelligenza artificiale insieme a OpenAI per la due diligence transazionale. Gli avvocati esaminano documenti raggruppati, riassunti e report prima di consigliare i clienti.",
-            "why_it_matters": "L'iniziativa illustra l'applicazione dell'intelligenza artificiale generativa nei flussi di lavoro legali complessi, dove la supervisione umana resta centrale per la consulenza ai clienti.",
+            "summary": "Lo studio legale Ropes & Gray sta sviluppando una soluzione di intelligenza artificiale in collaborazione con OpenAI per ottimizzare le attività di due diligence transazionale. Gli avvocati mantengono il controllo revisionando documenti raggruppati, riassunti e report prima di fornire consulenza ai clienti.",
+            "why_it_matters": "Questo progetto evidenzia come gli studi legali stiano esplorando l'adozione dell'intelligenza artificiale generativa per gestire grandi volumi di documenti, pur mantenendo la supervisione legale umana al centro dei processi decisionali.",
             "highlights": [
-              "Sviluppo congiunto con OpenAI per la due diligence transazionale",
-              "Analisi di documenti raggruppati, riassunti e report da parte dei legali"
+              "Sviluppo di IA per la due diligence transazionale in collaborazione con OpenAI.",
+              "Gli avvocati esaminano documenti raggruppati, riassunti e report."
             ]
           },
           "en": {
-            "title": "Ropes & Gray is developing AI for transactional diligence",
-            "summary": "Law firm Ropes & Gray is developing AI with OpenAI for transactional diligence. Lawyers review grouped documents, summaries, and reports before advising clients.",
-            "why_it_matters": "This project highlights how generative AI is being integrated into complex legal workflows, maintaining human oversight through lawyer review before client advisory.",
+            "title": "Ropes & Gray develops AI for transactional diligence",
+            "summary": "Law firm Ropes & Gray is developing AI with OpenAI to assist with transactional diligence workflows. Attorneys retain oversight by reviewing grouped documents, summaries, and reports before advising clients.",
+            "why_it_matters": "This initiative illustrates how legal practices are investigating generative AI integrations to handle document-heavy workflows while keeping rigorous human legal review central to client advisory.",
             "highlights": [
-              "Development partnership with OpenAI focused on transactional diligence",
-              "Lawyers review grouped documents, summaries, and reports"
+              "Developing AI for transactional due diligence alongside OpenAI.",
+              "Attorneys review grouped documents, summaries, and generated reports."
             ]
           },
           "es": {
-            "title": "Ropes & Gray desarrolla inteligencia artificial para diligencia",
+            "title": "Ropes & Gray desarrolla IA para la diligencia transaccional",
             "summary": "El bufete Ropes & Gray está desarrollando inteligencia artificial junto con OpenAI para la diligencia transaccional. Los abogados revisan documentos agrupados, resúmenes e informes antes de asesorar a los clientes.",
-            "why_it_matters": "La iniciativa muestra la aplicación de la IA en procesos legales complejos, destacando la importancia de la revisión humana antes de emitir asesoramiento.",
+            "why_it_matters": "El proyecto muestra cómo el sector legal explora la adopción de la IA para procesar grandes volúmenes de documentos, manteniendo la revisión y supervisión humana en el centro del asesoramiento.",
             "highlights": [
-              "Desarrollo conjunto con OpenAI para diligencia transaccional",
-              "Los abogados revisan documentos agrupados, resúmenes e informes"
+              "Desarrollo de IA para diligencia transaccional en colaboración con OpenAI.",
+              "Los abogados examinan documentos agrupados, resúmenes e informes previos."
             ]
           },
           "zh-CN": {
-            "title": "Ropes & Gray正开发用于交易尽职调查的人工智能",
-            "summary": "律师事务所Ropes & Gray正与OpenAI合作开发用于交易尽职调查的人工智能。律师在为客户提供咨询之前，会审查经分组的文件、摘要和报告。",
-            "why_it_matters": "该项目展示了生成式人工智能在复杂法律工作流中的应用，并通过律师审查确保了人类监督的核心作用。",
+            "title": "Ropes & Gray 开发用于交易尽职调查的 AI",
+            "summary": "律师事务所 Ropes & Gray 正与 OpenAI 合作开发用于交易尽职调查的 AI 工具。律师在向客户提供咨询之前，会先审查分组文档、摘要和报告。",
+            "why_it_matters": "该项目展示了法律行业如何探索生成式 AI 在处理大量文档工作流方面的应用，同时确保人类律师审查依然是客户咨询的核心。",
             "highlights": [
-              "与OpenAI合作开发交易尽职调查人工智能",
-              "律师在咨询前审查分组文件、摘要与报告"
+              "与 OpenAI 合作开发用于交易尽职调查的 AI。",
+              "律师在咨询前审查分组文档、摘要和报告。"
+            ]
+          },
+          "de": {
+            "title": "Ropes & Gray entwickelt KI für Transaktions-Due-Diligence",
+            "summary": "Die Anwaltskanzlei Ropes & Gray entwickelt gemeinsam mit OpenAI KI für die Transaktions-Due-Diligence. Anwälte prüfen gruppierte Dokumente, Zusammenfassungen und Berichte, bevor sie Mandanten beraten.",
+            "why_it_matters": "Das Projekt verdeutlicht, wie Kanzleien generative KI zur Bewältigung dokumentenintensiver Arbeitsabläufe erproben, wobei die menschliche juristische Prüfung im Mittelpunkt der Beratung bleibt.",
+            "highlights": [
+              "Entwicklung von KI für die Transaktions-Due-Diligence mit OpenAI.",
+              "Anwälte prüfen gruppierte Dokumente, Zusammenfassungen und Berichte."
             ]
           }
         },
         "editorial_level": "ai_curated",
         "editorial_status": "verified",
         "editorial_model": "gemini-3.5-flash-lite",
-        "editorial_version": 1,
-        "relevance_score": 75,
+        "editorial_version": 2,
+        "relevance_score": 58,
         "editor_pick_reason": ""
       }
     },
@@ -489,11 +498,195 @@
         "relevance_score": 45,
         "editor_pick_reason": ""
       }
+    },
+    "84abd1857de5dfd951d90dcfdd8cecc910571c46b00c6ecbe7661909d42cb5b5": {
+      "fingerprint": "1b8a34fd6d74ecac99afb2d046dae2ecc89b066c66c618fc69da8b67523edaf5",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "OpenAI adotta un segnale condiviso per le preferenze di addestramento",
+            "summary": "OpenAI ha annunciato che onorerà un segnale robots.txt condiviso per consentire ai gestori di siti web di comunicare le proprie preferenze in merito all'addestramento dell'IA ai provider partecipanti.",
+            "why_it_matters": "Questa iniziativa offre ai siti web un metodo standardizzato per esprimere le proprie preferenze sull'utilizzo dei dati nell'addestramento dell'intelligenza artificiale.",
+            "highlights": [
+              "Verrà utilizzato un segnale robots.txt condiviso",
+              "Aiuta i siti web a comunicare le preferenze di addestramento"
+            ]
+          },
+          "en": {
+            "title": "OpenAI to honor shared signal for AI training preferences",
+            "summary": "OpenAI announced it will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+            "why_it_matters": "The initiative offers a standardized mechanism for website operators to express their data preferences regarding AI training to participating providers.",
+            "highlights": [
+              "Supports a shared robots.txt signal",
+              "Aims to help operators communicate AI training preferences"
+            ]
+          },
+          "es": {
+            "title": "OpenAI adopta señal compartida para preferencias de entrenamiento",
+            "summary": "OpenAI anunció que respetará una señal compartida de robots.txt para ayudar a los operadores de sitios web a comunicar sus preferencias de entrenamiento en IA.",
+            "why_it_matters": "Proporciona un enfoque estandarizado para que los sitios web comuniquen sus preferencias de uso de datos a los proveedores participantes.",
+            "highlights": [
+              "Se respetará una señal compartida de robots.txt",
+              "Facilita la comunicación de preferencias de los operadores"
+            ]
+          },
+          "zh-CN": {
+            "title": "OpenAI将支持共享信号以表达AI训练偏好",
+            "summary": "OpenAI宣布将遵守共享的robots.txt信号，以帮助网站运营者向参与的提供商传达其AI训练偏好。",
+            "why_it_matters": "这为网站运营者提供了一种标准化的方式，向参与的AI提供商表达其数据使用偏好。",
+            "highlights": [
+              "使用共享的robots.txt信号",
+              "协助网站运营者传达AI训练偏好"
+            ]
+          },
+          "de": {
+            "title": "OpenAI unterstützt geteiltes Signal für KI-Trainingspräferenzen",
+            "summary": "OpenAI hat angekündigt, ein geteiltes robots.txt-Signal zu berücksichtigen, um Website-Betreibern die Kommunikation ihrer KI-Trainingspräferenzen zu erleichtern.",
+            "why_it_matters": "Dies bietet Website-Betreibern eine standardisierte Möglichkeit, ihre Präferenzen bezüglich des KI-Trainings an teilnehmende Anbieter zu übermitteln.",
+            "highlights": [
+              "Verwendung eines geteilten robots.txt-Signals",
+              "Unterstützung für Betreiber zur Angabe von Präferenzen"
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 2,
+        "relevance_score": 65,
+        "editor_pick_reason": ""
+      }
+    },
+    "9a6de1e8816a73b660283d6ccc6afb1ee44fa5b3b5818743818b9f75205ea885": {
+      "fingerprint": "8b4f0c093b73e18b96a65530b6fbc60026cc68701112cdd900ad64de39775e0b",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Profilo API di Metadata.io: Automazione B2B basata su agenti AI",
+            "summary": "Il repository GitHub di api-evangelist documenta i metadati relativi all'API di Metadata.io, una piattaforma di marketing B2B. Tale soluzione impiega agenti IA per pianificare, eseguire e ottimizzare campagne pubblicitarie su molteplici canali digitali.",
+            "why_it_matters": "L'analisi delle superfici API di piattaforme basate su agenti IA offre trasparenza sulle integrazioni tecnologiche emergenti nel marketing B2B e nell'automazione delle campagne pubblicitarie multicanale.",
+            "highlights": [
+              "Profilo API indipendente realizzato da API Evangelist.",
+              "La piattaforma sfrutta agenti IA per l'automazione del marketing B2B.",
+              "Supporta campagne su LinkedIn, Meta, Google, Reddit e Bing."
+            ]
+          },
+          "en": {
+            "title": "Metadata.io API Profile: B2B Marketing Powered by AI Agents",
+            "summary": "The api-evangelist GitHub repository provides an independent third-party API profile for Metadata.io. This B2B marketing automation platform utilizes AI agents to plan, execute, and optimize ad campaigns across major digital channels.",
+            "why_it_matters": "Examining public API surfaces of agentic AI platforms helps practitioners track how automation and demand generation tools integrate across diverse advertising networks.",
+            "highlights": [
+              "Independent third-party API profile by API Evangelist.",
+              "Platform utilizes AI agents for B2B marketing automation and optimization.",
+              "Targets paid campaigns across LinkedIn, Meta, Google, Reddit, and Bing."
+            ]
+          },
+          "es": {
+            "title": "Perfil de API de Metadata.io: Automatización B2B con agentes de IA",
+            "summary": "El repositorio de GitHub de api-evangelist documenta metadatos independientes sobre la superficie de API de Metadata.io. Esta plataforma de marketing B2B emplea agentes de inteligencia artificial para planificar, ejecutar y optimizar campañas publicitarias.",
+            "why_it_matters": "Analizar perfiles de API de plataformas impulsadas por IA ofrece visibilidad sobre las integraciones técnicas y las capacidades de automatización en el marketing digital actual.",
+            "highlights": [
+              "Perfil de API independiente creado por API Evangelist.",
+              "La plataforma utiliza agentes de IA para la automatización del marketing B2B.",
+              "Gestiona campañas en canales como LinkedIn, Meta, Google, Reddit y Bing."
+            ]
+          },
+          "zh-CN": {
+            "title": "Metadata.io API配置文件：基于AI代理的B2B营销自动化",
+            "summary": "api-evangelist的GitHub仓库发布了关于Metadata.io API界面的独立第三方元数据配置文件。该B2B营销自动化与需求生成平台利用AI代理来规划、执行和优化多渠道付费广告活动。",
+            "why_it_matters": "研究AI驱动平台的公共API接口有助于技术人员了解营销自动化和跨平台广告投放的技术集成动态。",
+            "highlights": [
+              "由API Evangelist提供的独立第三方API配置文件。",
+              "平台利用AI代理进行B2B营销自动化与广告优化。",
+              "支持在LinkedIn、Meta、Google、Reddit和Bing等渠道投放广告。"
+            ]
+          },
+          "de": {
+            "title": "Metadata.io API-Profil: B2B-Marketing-Automatisierung mit KI-Agenten",
+            "summary": "Das GitHub-Repository von api-evangelist dokumentiert ein unabhängiges API-Profil für Metadata.io. Diese B2B-Marketing- und Nachfragegenerierungsplattform nutzt KI-Agenten zur Planung, Durchführung und Optimierung von Werbekampagnen.",
+            "why_it_matters": "Die Analyse von API-Profilen KI-gestützter Plattformen bietet Einblicke in technische Integrationen und Automatisierungsfunktionen im modernen digitalen Marketing.",
+            "highlights": [
+              "Unabhängiges Drittanbieter-API-Profil von API Evangelist.",
+              "Plattform nutzt KI-Agenten für B2B-Marketing-Automatisierung.",
+              "Unterstützt Kampagnen auf LinkedIn, Meta, Google, Reddit und Bing."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 2,
+        "relevance_score": 42,
+        "editor_pick_reason": ""
+      }
+    },
+    "4602f74f0c25e983dc46d129c23537c056225b9f5c5706fd28e600561b50264f": {
+      "fingerprint": "ea15b8b79781f23e232351a886dd9e54a9b0904acf756b17230f0c8acbe5ef4a",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Come Anthropic sviluppa Claude: separare la mente dalle mani",
+            "summary": "Katelyn Lesse e Angela Jiang ospiti di Latent Space illustrano l'ingegneria dietro la piattaforma Claude. Gli argomenti includono il lancio di Opus 5.5, la separazione tra la mente del modello e le mani degli agenti, la scalabilità delle API e lo sviluppo di agenti gestiti affidabili.",
+            "why_it_matters": "L'episodio offre uno sguardo diretto sulle pratiche di ingegneria e sulla sicurezza nella gestione di un grande modello linguistico, spiegando come Anthropic struttura la propria piattaforma e i relativi agenti.",
+            "highlights": [
+              "Ascolta Katelyn Lesse e Angela Jiang su Latent Space.",
+              "Scopri l'ingegneria dietro la piattaforma Claude e il lancio di Opus 5.5.",
+              "Approfondisci la separazione tra la mente del modello e le mani degli agenti."
+            ]
+          },
+          "en": {
+            "title": "How Anthropic Ships Claude Safely: Brain vs Hands",
+            "summary": "Katelyn Lesse and Angela Jiang join Latent Space to explain the engineering behind the Claude platform. Topics cover launching Opus 5.5, separating the model's brain from the agent's hands, scaling APIs, and building reliable managed agents.",
+            "why_it_matters": "This episode provides engineering insights into how Anthropic approaches the development, scaling, and safety of its Claude platform and managed agents.",
+            "highlights": [
+              "Hear from guests Katelyn Lesse and Angela Jiang on Latent Space.",
+              "Explore the engineering behind the Claude platform and Opus 5.5.",
+              "Learn about separating the model's brain from the agent's hands."
+            ]
+          },
+          "es": {
+            "title": "Cómo Anthropic desarrolla Claude de forma segura: Mente y Manos",
+            "summary": "Katelyn Lesse y Angela Jiang se unen a Latent Space para explicar la ingeniería detrás de la plataforma Claude. Discuten el lanzamiento de Opus 5.5, la separación del cerebro del modelo y las manos del agente, el escalado de API y la creación de agentes gestionados fiables.",
+            "why_it_matters": "El episodio ofrece una visión técnica de los procesos de ingeniería de Anthropic para estructurar y escalar su plataforma y sus agentes gestionados de manera segura.",
+            "highlights": [
+              "Invitadas Katelyn Lesse y Angela Jiang en el podcast Latent Space.",
+              "Conoce la ingeniería de la plataforma Claude y el lanzamiento de Opus 5.5.",
+              "Comprende la separación entre el cerebro del modelo y las manos del agente."
+            ]
+          },
+          "zh-CN": {
+            "title": "Anthropic 如何安全构建 Claude：分离大脑与双手",
+            "summary": "Katelyn Lesse 和 Angela Jiang 做客 Latent Space，解析 Claude 平台背后的工程技术。内容涵盖发布 Opus 5.5、将模型“大脑”与代理“双手”分离、扩展 API 以及构建可靠的托管代理。",
+            "why_it_matters": "本期节目深入探讨了 Anthropic 在大语言模型平台开发、API 扩展及安全托管代理构建方面的工程实践与架构设计。",
+            "highlights": [
+              "嘉宾 Katelyn Lesse 与 Angela Jiang 做客 Latent Space。",
+              "探索 Claude 平台背后的工程技术及 Opus 5.5 的发布。",
+              "了解如何将模型的“大脑”与代理的“双手”进行分离。"
+            ]
+          },
+          "de": {
+            "title": "Wie Anthropic Claude sicher entwickelt: Gehirn und Hände",
+            "summary": "Katelyn Lesse und Angela Jiang sprechen bei Latent Space über die Engineering-Hintergründe der Claude-Plattform. Themen sind der Start von Opus 5.5, die Trennung von Modellgehirn und Agentenhänden, API-Skalierung und zuverlässige verwaltete Agenten.",
+            "why_it_matters": "Die Episode gewährt Einblicke in die technischen Abläufe und Architekturen, die Anthropic für den sicheren Betrieb und die Skalierung seiner Plattform einsetzt.",
+            "highlights": [
+              "Zu Gast sind Katelyn Lesse und Angela Jiang bei Latent Space.",
+              "Erfahren Sie mehr über das Engineering der Claude-Plattform und Opus 5.5.",
+              "Einblicke in die Trennung des Modellgehirns von den Agentenhänden."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 2,
+        "relevance_score": 75,
+        "editor_pick_reason": ""
+      }
     }
   },
   "daily": {
     "date": "2026-10-30",
-    "count": 11,
+    "count": 15,
     "picks": 0
   }
 }
