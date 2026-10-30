@@ -16,6 +16,7 @@ import androidx.compose.material.icons.filled.AutoAwesome
 import androidx.compose.material.icons.filled.Code
 import androidx.compose.material.icons.filled.GraphicEq
 import androidx.compose.material.icons.filled.Refresh
+import androidx.compose.material.icons.filled.Star
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -288,6 +289,10 @@ private fun PulseScreen() {
                             Spacer(Modifier.height(9.dp))
                             Text(if (language == "it") "PERCHÉ È INTERESSANTE" else "WHY IT MATTERS", color = Terra, fontSize = 9.sp, fontWeight = FontWeight.Bold, letterSpacing = 0.8.sp)
                             Text(displayWhy, color = Ink, fontSize = 12.sp, lineHeight = 17.sp)
+                        }
+                        if (story.editorialLevel == "editors_pick" && story.editorPickReason.isNotBlank()) {
+                            Spacer(Modifier.height(6.dp))
+                            Text(story.editorPickReason, color = Sage, fontSize = 11.sp, lineHeight = 16.sp, fontWeight = FontWeight.Medium)
                         }
                         Spacer(Modifier.height(12.dp))
                         Text("Fonte: ${story.source}  ·  Apri ↗", color = Terra, fontSize = 11.sp, fontWeight = FontWeight.Medium)
