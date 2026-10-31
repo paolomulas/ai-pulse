@@ -130,6 +130,7 @@ def collect_github():
             print(f"WARN GitHub query {term}: {exc}")
     return out
 
+# Editorial schema v3: five localized magazine-style versions plus long-form detail fields.
 EDITORIAL_CACHE_PATH = ROOT.parent / "public" / "editorial_cache.json"
 EDITORIAL_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.5-flash-lite")
 EDITORIAL_MAX_PER_RUN = int(os.getenv("EDITORIAL_MAX_PER_RUN", "4"))
