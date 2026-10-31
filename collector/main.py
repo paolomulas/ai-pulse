@@ -195,10 +195,14 @@ Return ONLY valid JSON with this exact shape:
  "editor_pick_reason": "short reason in Italian"
 }}
 Editorial rules:
-- title: informative, clear, not clickbait, max 90 characters.
-- summary: 2-3 sentences, reader-friendly, max 450 characters.
-- why_it_matters: one short paragraph, max 350 characters.
+- title: informative, vivid and clear, never clickbait; max 90 characters.
+- summary: an engaging magazine standfirst of 3-4 sentences, normally 450-650 characters.
+- why_it_matters: a meaningful paragraph of 2-3 sentences, normally 250-450 characters.
+- extended_analysis: a substantive magazine-style explainer of 3-5 paragraphs (roughly 900-1500 characters), with a strong opening, context, implications and what to watch next.
+- context: 2-3 sentences explaining the wider technical, economic or social context without unsupported claims.
+- key_takeaways: 3 concise and useful points.
 - highlights: 2 or 3 concise bullets, only facts supported by metadata.
+- Avoid generic openings, repeated conclusions and promotional language. Write for an intelligent non-specialist, with the clarity and curiosity of a science magazine.
 - editor_pick is true only if the item is unusually relevant, novel or useful to AI practitioners; be selective. For podcast episodes it must always be false.
 - relevance_score is an integer from 0 to 100.
 - Distinguish project claims from verified facts. Do not imply independent testing.
