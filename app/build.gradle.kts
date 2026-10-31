@@ -4,6 +4,15 @@ plugins {
     id("org.jetbrains.kotlin.plugin.compose")
 }
 
+val uploadKeystore = file("upload-key.jks")
+val uploadKeyAlias = System.getenv("ANDROID_KEY_ALIAS")
+val uploadStorePassword = System.getenv("ANDROID_KEYSTORE_PASSWORD")
+val uploadKeyPassword = System.getenv("ANDROID_KEY_PASSWORD")
+val releaseSigningConfigured = uploadKeystore.exists() &&
+    !uploadKeyAlias.isNullOrBlank() &&
+    !uploadStorePassword.isNullOrBlank() &&
+    !uploadKeyPassword.isNullOrBlank()
+
 android {
     namespace = "com.aipulse.app"
     compileSdk = 36
@@ -13,6 +22,23 @@ android {
         targetSdk = 36
         versionCode = 3
         versionName = "0.3.0"
+    }
+    if (releaseSigningConfigured) {
+        signingConfigs {
+            create("release") {
+                storeFile = uploadKeystore
+                storePassword = uploadStorePassword
+                keyAlias = uploadKeyAlias
+                keyPassword = uploadKeyPassword
+            }
+        }
+    }
+    buildTypes {
+        getByName("release") {
+            if (releaseSigningConfigured) {
+                signingConfig = signingConfigs.getByName("release")
+            }
+        }
     }
     buildFeatures { compose = true }
     compileOptions {
