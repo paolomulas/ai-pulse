@@ -1,9 +1,9 @@
 <!doctype html>
 <html lang="it">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f5f1e9">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#152632">
 <meta name="description" content="AI Pulse — scopri, comprendi e ascolta ciò che conta nel mondo dell'intelligenza artificiale.">
-<title>AI Pulse — Intelligent News Discovery</title>
+<title>AI Pulse — Independent AI Journal</title>
 <style>
 :root{--paper:#f5f1e9;--surface:#fffdf8;--ink:#292720;--muted:#817b70;--terra:#b85f43;--sage:#71806b;--line:#e6dfd3;--soft:#eee7dc;--shadow:0 12px 34px rgba(49,42,32,.07)}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.5 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}button,input,select{font:inherit}button{cursor:pointer}
@@ -104,6 +104,110 @@
 .editorial-art.art-business{background-image:repeating-linear-gradient(0deg,transparent 0 20px,rgba(255,255,255,.14) 21px 22px),linear-gradient(135deg,#c0b69e,#e8ddc9 55%,#b87960)}
 .editorial-art.art-geopolitics{background-image:linear-gradient(120deg,transparent 48%,rgba(255,255,255,.22) 49% 50%,transparent 51%),radial-gradient(ellipse at 72% 20%,rgba(255,255,255,.45),transparent 35%),linear-gradient(135deg,#8faaa6,#d7c7ad 55%,#b77d67)}
 .editorial-art.art-multimedia{background-image:repeating-linear-gradient(135deg,transparent 0 22px,rgba(255,255,255,.16) 23px 24px),linear-gradient(135deg,#c59b91,#e6d7cb 55%,#a99bb7)}
+
+
+/* 2026 editorial redesign — clear visual change from the previous prototype */
+:root{
+ --paper:#f1f2ef;--surface:#fffefa;--ink:#152632;--muted:#697780;
+ --terra:#c15e3e;--sage:#597b72;--line:#dce2df;--soft:#e7ece9;
+ --shadow:0 18px 46px rgba(21,38,50,.09)
+}
+body{background:linear-gradient(180deg,#e9eeeb 0,#f5f4ef 390px,#f1f2ef 100%);color:var(--ink)}
+.topbar{background:rgba(19,37,49,.97);border-bottom:1px solid rgba(255,255,255,.12);box-shadow:0 8px 24px rgba(16,32,42,.12)}
+.topinner{max-width:1420px;padding:15px 30px}
+.brand{color:#fff}.brand strong{font:700 25px/1 Georgia,serif;letter-spacing:-.8px}
+.brand small{color:#b9c6c9;letter-spacing:2.1px;font-size:8px}
+.mark{background:linear-gradient(145deg,#e18a66,#b95336);border-radius:12px;box-shadow:0 5px 16px rgba(193,94,62,.25)}
+.top-actions .select,.top-actions .iconbtn{background:#213b49;color:#f6f5ef;border-color:#46606a}
+.layout{max-width:1420px;grid-template-columns:220px minmax(0,1fr);gap:42px;padding:34px 30px 80px}
+.sidebar{top:100px}
+.navlabel{color:#9b6a51;letter-spacing:2px}
+.nav{gap:8px}
+.nav button{min-height:48px;padding:13px 15px;border-radius:12px;color:#51616a;font-size:13px;transition:background .18s,color .18s,transform .18s}
+.nav button:hover{background:#e4eae6;transform:translateX(2px)}
+.nav button.active{background:#172e3b;color:#fff;box-shadow:0 8px 18px rgba(21,38,50,.14)}
+.nav .ico{font-size:17px}
+.side-note{margin-top:34px;background:linear-gradient(145deg,#172e3b,#294654);border:0;color:#fff;border-radius:17px;padding:19px;box-shadow:0 14px 30px rgba(21,38,50,.12)}
+.side-note strong{font:600 20px Georgia,serif;color:#f8e9dc}
+.side-note p{color:#d0dadd;font-size:11px;line-height:1.7}
+.main{min-width:0}
+.hero{padding:8px 0 26px;border-bottom:1px solid #d9dfdc}
+.hero .eyebrow{font-size:9px;letter-spacing:2.6px;color:var(--terra)}
+.hero h1{font:500 clamp(45px,5.6vw,76px)/.96 Georgia,serif;letter-spacing:-2.9px;max-width:860px;color:#162b37;margin:16px 0}
+.hero p{font:15px/1.75 Georgia,serif;color:#5f6e74;max-width:620px}
+.date-label{border:1px solid #d7dfdc;background:rgba(255,255,255,.65);padding:8px 12px;border-radius:40px;color:#607078}
+.editorial-strip{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;margin:17px 0 23px;border-top:1px solid #d5ddda;border-bottom:1px solid #d5ddda}
+.editorial-strip>div{display:flex;align-items:center;gap:12px;padding:13px 16px;border-right:1px solid #d5ddda}
+.editorial-strip>div:first-child{padding-left:0}
+.editorial-strip>div:last-child{border-right:0}
+.editorial-strip b{font:italic 19px Georgia,serif;color:var(--terra)}
+.editorial-strip span{font-size:9px;font-weight:850;letter-spacing:1.55px;color:#52636c}
+.searchrow{margin:20px 0 17px}
+.search{border-color:#d7dfdc;border-radius:10px;padding:13px 16px;background:#fffefa;box-shadow:0 3px 12px rgba(21,38,50,.025)}
+.select,.pillbtn{border-color:#d3dcda;border-radius:10px}
+.hero-story{min-height:300px;margin:10px 0 19px;padding:34px 38px;border-radius:17px;background:linear-gradient(112deg,#122936 0%,#1f3f4b 65%,#8d5945 140%);box-shadow:0 20px 44px rgba(19,42,54,.18);border:1px solid rgba(255,255,255,.12)}
+.hero-story:before{content:"";position:absolute;right:5%;top:15%;width:230px;height:230px;border:1px solid rgba(240,230,211,.22);border-radius:50%;box-shadow:0 0 0 22px rgba(255,255,255,.035),0 0 0 50px rgba(255,255,255,.025),0 0 0 82px rgba(255,255,255,.018)}
+.hero-story:after{width:150px;height:150px;right:10%;top:28%;border-color:rgba(232,177,144,.45);box-shadow:inset 0 0 50px rgba(232,177,144,.08),0 0 0 12px rgba(232,177,144,.07)}
+.story-kicker{font-size:9px;letter-spacing:2.4px;color:#f0b99b}
+.hero-story h2{font:500 clamp(31px,4vw,48px)/1.08 Georgia,serif;max-width:760px;letter-spacing:-.6px}
+.hero-story p{font:14px/1.65 Georgia,serif;color:#d4e0df;max-width:650px}
+.story-meta{color:#c0cecd;gap:18px}
+.lightbtn{border-color:rgba(255,255,255,.42);background:rgba(255,255,255,.10);padding:10px 16px}
+.stats{gap:12px;margin:17px 0 27px}
+.stat{border:0;border-top:2px solid #c4d1cb;border-radius:0;background:transparent;padding:12px 5px}
+.stat strong{font:500 30px Georgia,serif;color:#193441}
+.stat span{font-size:9px;letter-spacing:1.2px;text-transform:uppercase;color:#65757a}
+.section-head{margin:32px 0 15px;align-items:center}
+.section-head h2{font:600 29px Georgia,serif;letter-spacing:-.55px;color:#18313e}
+.section-head p{font:12px/1.5 Georgia,serif;color:#768187}
+.textlink{font-size:11px;letter-spacing:.3px}
+.chips{padding:4px 0 13px}
+.chip{background:#fffefa;border-color:#d9e0dd;padding:8px 14px}
+.chip.active{background:#183541;border-color:#183541}
+.cards{grid-template-columns:repeat(3,minmax(0,1fr));gap:17px}
+.card{border:1px solid #e0e4e0;border-radius:14px;background:#fffefa;padding:15px;min-height:350px;box-shadow:0 6px 18px rgba(21,38,50,.035)}
+.card:hover{transform:translateY(-4px);border-color:#cc947b;box-shadow:0 16px 34px rgba(21,38,50,.10)}
+.editorial-art{height:155px;margin:-1px -1px 15px;border-radius:10px}
+.editorial-art span{font:italic 13px Georgia,serif;letter-spacing:.6px}
+.cardtop{margin-bottom:2px}
+.tag{font-size:8px;letter-spacing:1.45px}
+.badge{font-size:8px;letter-spacing:.8px}
+.card h3{font:600 22px/1.16 Georgia,serif;letter-spacing:-.35px;margin:13px 0 10px;color:#18313e}
+.card p{font:13px/1.65 Georgia,serif;color:#68767b}
+.card .why{font:12px/1.55 Georgia,serif;border-color:#e5e8e4}
+.cardfoot{font-size:9px;border-top:1px solid #edf0ed;margin-top:auto}
+.card-actions{border-color:#e9ece9;gap:6px}
+.card-action{font-size:10px;min-height:34px;padding:7px 10px}
+.card-action.primary{background:#193846;border-color:#193846}
+.card-action.primary:hover{background:#c15e3e;border-color:#c15e3e}
+.card-action.secondary{border-color:#d6dfdc}
+.empty{background:#fffefa;border-color:#d4dfda;padding:42px 20px;font:14px Georgia,serif}
+.roomhead,.panel{border-color:#dce3df}
+.roomhead{background:linear-gradient(110deg,#e1eae5,#f7f3e9);padding:27px;border-radius:17px}
+.roomhead h2{font:600 35px Georgia,serif;color:#193442}
+.pulse-welcome{background:linear-gradient(112deg,#152d3a,#315260)}
+.detail-head{background:linear-gradient(112deg,#122936,#264653)}
+.detail-head h2{font-family:Georgia,serif}
+.detail-body p{font:16px/1.8 Georgia,serif;color:#394950}
+footer{border-top:1px solid #dce2df;margin-top:42px;padding:25px 0;color:#7a8587}
+@media(max-width:1100px){.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.layout{gap:28px}}
+@media(max-width:760px){
+ .topinner{padding:11px 15px}.layout{padding:18px 15px 92px}
+ .hero{padding-top:9px}.hero h1{font-size:47px;letter-spacing:-1.8px}
+ .editorial-strip{margin:13px 0 18px}
+ .editorial-strip>div{padding:10px 7px;gap:6px;display:block}
+ .editorial-strip b{display:block;font-size:16px;margin-bottom:3px}
+ .editorial-strip span{font-size:7px;letter-spacing:.7px}
+ .hero-story{min-height:270px;padding:23px 21px}
+ .hero-story:before{right:-70px;top:36%;width:180px;height:180px}
+ .hero-story:after{right:-15px;top:47%;width:110px;height:110px}
+ .cards{grid-template-columns:1fr;gap:13px}
+ .card{min-height:0;padding:14px}
+ .editorial-art{height:145px}
+ .section-head{margin-top:26px}
+ .detail-overlay{padding:6px}.detail-sheet{max-height:calc(100vh - 12px)}
+}
+
 </style>
 </head>
 <body>
@@ -124,12 +228,17 @@
 </aside>
 <main class="main">
 <section class="view active" id="view-for-you">
-<div class="hero"><div class="hero-row"><div><div class="eyebrow" id="homeEyebrow">Your intelligent briefing</div><h1 id="homeHeadline">Capire oggi<br>quello che cambia domani.</h1><p id="homeDesc">Le storie, le idee e le tecnologie che stanno muovendo il mondo dell'intelligenza artificiale. Selezionate per te.</p></div><div class="date-label" id="today"></div></div></div>
+<div class="hero"><div class="hero-row"><div><div class="eyebrow" id="homeEyebrow">THE INDEPENDENT AI JOURNAL</div><h1 id="homeHeadline">Capire oggi<br>quello che cambia domani.</h1><p id="homeDesc">Le storie, le idee e le tecnologie che stanno muovendo il mondo dell'intelligenza artificiale. Selezionate per te.</p></div><div class="date-label" id="today"></div></div></div>
+<div class="editorial-strip" aria-label="AI Pulse editorial approach">
+  <div><b>01</b><span>RICERCA E MODELLI</span></div>
+  <div><b>02</b><span>IMPRESE E SOCIETÀ</span></div>
+  <div><b>03</b><span>TECNOLOGIE CHE CONTANO</span></div>
+</div>
 <div class="searchrow"><input class="search" id="search" placeholder="Cerca notizie, modelli, aziende, argomenti…" aria-label="Cerca contenuti"><button class="pillbtn" id="clearSearch">Reset</button></div>
 <div class="hero-story" id="leadStory"><div class="story-kicker">AI Pulse · The big picture</div><h2>Una nuova prospettiva sul mondo dell'intelligenza artificiale.</h2><p>Stiamo preparando la tua selezione di storie.</p><div class="story-meta"><span>News · Research · Open Source</span></div></div>
 <div id="homeAudioPreview"></div>
 <div class="stats"><div class="stat"><strong id="totalCount">—</strong><span>contenuti monitorati</span></div><div class="stat"><strong id="sourceCount">—</strong><span>fonti e progetti</span></div><div class="stat"><strong id="curatedCount">—</strong><span>selezioni AI Curated</span></div></div>
-<div class="section-head"><div><h2>Il tuo feed</h2><p>Una selezione che si adatta ai tuoi interessi.</p></div><button class="textlink" id="editInterests">Personalizza →</button></div>
+<div class="section-head"><div><h2>Il tuo feed</h2><p>Approfondimenti brevi, fonti originali, prospettiva editoriale.</p></div><button class="textlink" id="editInterests">Personalizza →</button></div>
 <div class="chips" id="topicChips"></div>
 <div class="section-head"><div><h2>In primo piano</h2><p>Contenuti recenti e rilevanti dal panorama AI.</p></div><select class="select" id="sort"><option value="relevance">Per rilevanza</option><option value="recent">Più recenti</option></select></div>
 <div class="cards" id="forYouCards"><div class="empty">Caricamento del tuo feed…</div></div>
@@ -138,7 +247,7 @@
 <div class="hero"><div class="eyebrow">Explore beyond the feed</div><h1 id="discoverHeadline">Discover<br>what's next.</h1><p>Esplora le aree che stanno ridefinendo tecnologia, ricerca, imprese e società.</p></div>
 <div class="section-head"><div><h2 id="discoverTopicsTitle">Esplora per argomento</h2><p id="discoverTopicsSub">Scegli una prospettiva e segui il filo delle storie.</p></div></div>
 <div class="topic-grid" id="discoverTopics"></div>
-<div class="section-head"><div><h2 id="discoverTitle">Tutte le storie</h2><p id="discoverSubtitle">Notizie, progetti e ricerca.</p></div></div>
+<div class="section-head"><div><h2 id="discoverTitle">Tutte le storie</h2><p id="discoverSubtitle">Notizie selezionate, fonti originali e ricerca.</p></div></div>
 <div class="cards" id="discoverCards"></div>
 <div class="section-head"><div><h2 id="discoverGithubTitle">Open Source Radar</h2><p id="discoverGithubSub">Repository e strumenti che meritano attenzione.</p></div></div>
 <div class="cards" id="githubCards"></div>
