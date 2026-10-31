@@ -285,9 +285,10 @@ def editorial_fingerprint(item):
         "sourceName": item.get("sourceName", ""),
         "sourceUrl": item.get("sourceUrl", ""),
         "stars": item.get("stars"),
-        "language": item.get("language"),
-        "sourceEvidence": item.get("sourceEvidence", "")
+        "language": item.get("language")
     }
+    if item.get("sourceKind") == "primary_source":
+        source["sourceEvidence"] = item.get("sourceEvidence", "")
     return hashlib.sha256(json.dumps(source, sort_keys=True, ensure_ascii=False).encode()).hexdigest()
 
 def gemini_editorial(item, api_key):
@@ -392,7 +393,7 @@ def enrich_records(records):
             continue
         fingerprint = editorial_fingerprint(item)
         cached = cache_items.get(item["id"])
-        if cached and cached.get("fingerprint") == fingerprint and cached.get("editorial") and cached["editorial"].get("editorial_version", 0) >= 4 and all(lang in cached["editorial"].get("editorial", {}) and cached["editorial"]["editorial"][lang].get("extended_analysis") and cached["editorial"]["editorial"][lang].get("context") for lang in EDITORIAL_LANGUAGES):
+        if cached and cached.get("fingerprint") == fingerprint and cached.get("editorial") and cached["editorial"].get("editorial_version", 0) >= 3 and all(lang in cached["editorial"].get("editorial", {}) and cached["editorial"]["editorial"][lang].get("extended_analysis") and cached["editorial"]["editorial"][lang].get("context") for lang in EDITORIAL_LANGUAGES):
             item.update(cached["editorial"])
         elif cached and cached.get("fingerprint") == fingerprint and cached.get("retry_after"):
             try:
