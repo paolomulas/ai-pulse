@@ -92,7 +92,7 @@ private suspend fun loadFeed(): List<Story> = withContext(Dispatchers.IO) {
                 val section = when (type) {
                     "github" -> "OPEN SOURCE"
                     "speak_up" -> "SPEAK UP"
-                    else -> item.optString("sourceKind", "NEWS").uppercase()
+                    else -> if (item.optString("sourceKind") == "primary_source") "NEWS · FONTE ORIGINALE" else item.optString("sourceKind", "NEWS").uppercase()
                 }
                 add(
                     Story(
