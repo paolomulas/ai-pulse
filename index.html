@@ -91,7 +91,20 @@
 .detail-audio-wrap strong{display:block;font:600 14px Georgia,serif;margin-bottom:8px}.detail-audio{width:100%;margin:0}
 .detail-source-note{font-size:12px;line-height:1.6;color:var(--muted);margin-top:22px;padding-top:16px;border-top:1px solid var(--line)}
 @media(max-width:760px){.detail-overlay{padding:6px}.detail-sheet{max-height:calc(100vh - 12px);margin:0 auto;border-radius:16px}.detail-head,.detail-body{padding:22px}.detail-art{height:130px}.detail-section h3{font-size:21px}.detail-section p{font-size:15px}}
-.lead-audio-wrap{margin:14px 0 18px;padding:12px 14px;background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.16);border-radius:12px;max-width:680px}.lead-audio-wrap strong{display:block;color:#f0d1bd;font:600 12px Georgia,serif;margin-bottom:7px}.lead-audio-wrap audio{width:100%;height:38px}</style>
+.lead-audio-wrap{margin:14px 0 18px;padding:12px 14px;background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.16);border-radius:12px;max-width:680px}.lead-audio-wrap strong{display:block;color:#f0d1bd;font:600 12px Georgia,serif;margin-bottom:7px}.lead-audio-wrap audio{width:100%;height:38px}
+/* Editorial cover art: richer static visual language, no runtime image generation */
+.editorial-art{isolation:isolate;background-size:cover;box-shadow:inset 0 0 0 1px rgba(255,255,255,.28)}
+.editorial-art:before{width:190px;height:190px;right:12%;top:-94px;border:1px solid rgba(255,255,255,.82);box-shadow:0 0 0 12px rgba(255,255,255,.13),0 0 0 28px rgba(255,255,255,.10),0 0 0 48px rgba(255,255,255,.07)}
+.editorial-art:after{width:92px;height:92px;left:18%;bottom:-52px;border:1px solid rgba(255,255,255,.72);background:linear-gradient(135deg,rgba(255,255,255,.42),rgba(255,255,255,.04));box-shadow:0 0 0 12px rgba(255,255,255,.12),0 0 0 25px rgba(255,255,255,.07)}
+.editorial-art.art-agents{background-image:radial-gradient(ellipse at 78% 25%,rgba(255,255,255,.58),transparent 34%),repeating-linear-gradient(135deg,transparent 0 17px,rgba(255,255,255,.12) 18px 19px),linear-gradient(125deg,#b97d69,#e8d9c5 54%,#829184)}
+.editorial-art.art-research{background-image:radial-gradient(circle at 72% 36%,rgba(255,255,255,.62) 0 2px,transparent 3px),linear-gradient(90deg,transparent 49%,rgba(255,255,255,.18) 50%,transparent 51%),linear-gradient(135deg,#aeb9aa,#e5ddc9 55%,#b68b72)}
+.editorial-art.art-open{background-image:repeating-linear-gradient(45deg,transparent 0 15px,rgba(255,255,255,.18) 16px 17px),radial-gradient(ellipse at 75% 20%,rgba(255,255,255,.52),transparent 36%),linear-gradient(135deg,#9daea5,#e2d0b2 55%,#c9876c)}
+.editorial-art.art-security{background-image:radial-gradient(ellipse at 50% 0%,rgba(255,255,255,.52),transparent 45%),repeating-radial-gradient(circle at 75% 45%,transparent 0 13px,rgba(255,255,255,.16) 14px 15px),linear-gradient(135deg,#87999a,#d4c9b7 55%,#b47c68)}
+.editorial-art.art-robotics{background-image:linear-gradient(90deg,transparent 48%,rgba(255,255,255,.23) 49% 50%,transparent 51%),radial-gradient(circle at 70% 35%,rgba(255,255,255,.55),transparent 28%),linear-gradient(135deg,#a8b6ae,#ded8c9 55%,#bd866e)}
+.editorial-art.art-business{background-image:repeating-linear-gradient(0deg,transparent 0 20px,rgba(255,255,255,.14) 21px 22px),linear-gradient(135deg,#c0b69e,#e8ddc9 55%,#b87960)}
+.editorial-art.art-geopolitics{background-image:linear-gradient(120deg,transparent 48%,rgba(255,255,255,.22) 49% 50%,transparent 51%),radial-gradient(ellipse at 72% 20%,rgba(255,255,255,.45),transparent 35%),linear-gradient(135deg,#8faaa6,#d7c7ad 55%,#b77d67)}
+.editorial-art.art-multimedia{background-image:repeating-linear-gradient(135deg,transparent 0 22px,rgba(255,255,255,.16) 23px 24px),linear-gradient(135deg,#c59b91,#e6d7cb 55%,#a99bb7)}
+</style>
 </head>
 <body>
 <header class="topbar"><div class="topinner">
