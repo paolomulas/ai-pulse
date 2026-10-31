@@ -184,11 +184,11 @@ Do not merely translate mechanically: preserve facts and adapt idiom and technic
 Return ONLY valid JSON with this exact shape:
 {{
  "editorial": {{
-  "it": {{"title":"...", "summary":"...", "why_it_matters":"...", "highlights":["...","..."]}},
-  "en": {{"title":"...", "summary":"...", "why_it_matters":"...", "highlights":["...","..."]}},
-  "es": {{"title":"...", "summary":"...", "why_it_matters":"...", "highlights":["...","..."]}},
-  "zh-CN": {{"title":"...", "summary":"...", "why_it_matters":"...", "highlights":["...","..."]}},
-  "de": {{"title":"...", "summary":"...", "why_it_matters":"...", "highlights":["...","..."]}}
+  "it": {{"title":"...", "summary":"...", "why_it_matters":"...", "extended_analysis":"...", "context":"...", "key_takeaways":["...","...","..."], "highlights":["...","..."]}},
+  "en": {{"title":"...", "summary":"...", "why_it_matters":"...", "extended_analysis":"...", "context":"...", "key_takeaways":["...","...","..."], "highlights":["...","..."]}},
+  "es": {{"title":"...", "summary":"...", "why_it_matters":"...", "extended_analysis":"...", "context":"...", "key_takeaways":["...","...","..."], "highlights":["...","..."]}},
+  "zh-CN": {{"title":"...", "summary":"...", "why_it_matters":"...", "extended_analysis":"...", "context":"...", "key_takeaways":["...","...","..."], "highlights":["...","..."]}},
+  "de": {{"title":"...", "summary":"...", "why_it_matters":"...", "extended_analysis":"...", "context":"...", "key_takeaways":["...","...","..."], "highlights":["...","..."]}}
  }},
  "relevance_score": 0,
  "editor_pick": false,
