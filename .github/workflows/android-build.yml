@@ -34,12 +34,15 @@ jobs:
           gradle-version: "8.13"
           cache-provider: basic
       - name: Decode Play upload keystore when configured
-        if: ${{ secrets.ANDROID_UPLOAD_KEYSTORE_BASE64 != '' }}
         env:
           ANDROID_UPLOAD_KEYSTORE_BASE64: ${{ secrets.ANDROID_UPLOAD_KEYSTORE_BASE64 }}
         run: |
-          printf '%s' "$ANDROID_UPLOAD_KEYSTORE_BASE64" | base64 --decode > app/upload-key.jks
-          chmod 600 app/upload-key.jks
+          if [ -n "$ANDROID_UPLOAD_KEYSTORE_BASE64" ]; then
+            printf '%s' "$ANDROID_UPLOAD_KEYSTORE_BASE64" | base64 --decode > app/upload-key.jks
+            chmod 600 app/upload-key.jks
+          else
+            echo "No upload keystore configured; release bundle will be unsigned."
+          fi
       - name: Assemble debug APK and release bundle
         env:
           ANDROID_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
