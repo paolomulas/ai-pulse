@@ -28,7 +28,8 @@ After adding the secrets, run the Android build workflow again. Confirm the rele
 
 ## Google Play preparation
 - Use the public privacy policy: `https://paolomulas.github.io/ai-pulse/privacy.html`
-- Complete the Data safety form from the actual shipped build; the current native app has no account, ads, analytics, tracking SDK, or personal-data collection feature and requests only Internet access.
+- Use the public publisher contact page: `https://paolomulas.github.io/ai-pulse/contact.html`
+- Complete the Data safety form from the actual shipped build. The native app has no account, ads, analytics or tracking SDK and requests only Internet access; however, GitHub receives normal network connection metadata, including the source IP. Review Google's approximate-location-by-IP guidance and the provider's retention before deciding whether any data type must be declared.
 - Complete the content rating questionnaire.
 - Provide real phone screenshots, app icon and store listing assets.
 - Verify the developer contact details and app access declarations.
