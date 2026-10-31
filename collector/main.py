@@ -393,6 +393,9 @@ def enrich_records(records):
             continue
         fingerprint = editorial_fingerprint(item)
         cached = cache_items.get(item["id"])
+        if cached and cached.get("manual_override") and cached.get("source_url") == item.get("sourceUrl") and cached.get("editorial"):
+            item.update(cached["editorial"])
+            continue
         if cached and cached.get("fingerprint") == fingerprint and cached.get("editorial") and cached["editorial"].get("editorial_version", 0) >= 3 and all(lang in cached["editorial"].get("editorial", {}) and cached["editorial"]["editorial"][lang].get("extended_analysis") and cached["editorial"]["editorial"][lang].get("context") for lang in EDITORIAL_LANGUAGES):
             item.update(cached["editorial"])
         elif cached and cached.get("fingerprint") == fingerprint and cached.get("retry_after"):
