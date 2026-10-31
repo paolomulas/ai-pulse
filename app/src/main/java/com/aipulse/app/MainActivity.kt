@@ -259,7 +259,7 @@ private fun PulseScreen() {
                             when {
                                 live -> "FEED LIVE · FONTI ORIGINALI"
                                 isLoading -> "CARICAMENTO DEL FEED"
-                                else -> "ANTEPRIMA · CONTENUTI DIMOSTRATIVI"
+                                else -> "FEED NON DISPONIBILE · RIPROVA"
                             },
                             color = Muted, fontSize = 9.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.sp
                         )
