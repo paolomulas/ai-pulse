@@ -151,11 +151,6 @@ def resolve_creator_radar(leads, existing_urls=None):
                 "sourceWeight": 10,
                 "sourceEvidence": page["evidence"],
                 "sourceVerificationLevel": "official_primary_page_fetched",
-                "discoverySource": "Simone Rizzo · Editorial Radar",
-                "discoverySourceUrl": "https://www.youtube.com/@simone_rizzo98",
-                "discoveryReferenceTitle": lead.get("title", ""),
-                "discoveryReferenceUrl": lead.get("sourceUrl", ""),
-                "primarySourceReview": "primary_page_fetched",
                 "tags": ["AI", "PRIMARY SOURCE"],
                 "attribution": primary_source_name(source_url)
             })
@@ -185,10 +180,7 @@ def collect_rss():
                     "publishedAt": published(entry), "collectedAt": iso_now(),
                     "sourceKind": source.get("kind", "newsroom"),
                     "sourceWeight": source.get("weight", 5),
-                    "discoverySource": source.get("name") if source.get("kind") == "creator_radar" else None,
-                    "discoverySourceUrl": source.get("channel_url") if source.get("kind") == "creator_radar" else None,
                     "primarySourceCandidates": candidate_links[:12] if source.get("kind") == "creator_radar" else [],
-                    "primarySourceReview": "pending" if source.get("kind") == "creator_radar" else None,
                     "tags": ["AI", "CREATOR RADAR"] if source.get("kind") == "creator_radar" else ["AI"],
                     "attribution": source["name"]
                 }
@@ -308,8 +300,7 @@ def gemini_editorial(item, api_key):
         "stars": item.get("stars"),
         "programming_language": item.get("language"),
         "updated_at": item.get("pushedAt") or item.get("publishedAt"),
-        "primary_source_evidence": item.get("sourceEvidence", ""),
-        "discovery_context_only": item.get("discoveryReferenceTitle", "")
+        "primary_source_evidence": item.get("sourceEvidence", "")
     }
     is_podcast = item.get("type") == "speak_up"
     role = "You are the senior audio editor of AI Pulse. Present this podcast episode to readers." if is_podcast else "You are the senior editor of AI Pulse, an independent AI technology publication."
@@ -340,7 +331,6 @@ Editorial rules:
 - summary: the main news presentation. Use 2-3 clear, engaging sentences, normally 260-420 characters, in accessible popular-science magazine journalism.
 - why_it_matters: 1-2 meaningful sentences, normally 160-280 characters.
 - extended_analysis: an optional-to-read magazine explainer of 2-3 short paragraphs (roughly 600-950 characters), with context, implications and what to watch next.
-- For primary_source items, facts must come only from primary_source_evidence. discovery_context_only is a private lead for topic matching, never a factual source and never a public attribution.
 - Never include or recommend the discovery video as a publication link. The published source URL is the primary source page.
 - context: 2-3 sentences explaining the wider technical, economic or social context without unsupported claims.
 - key_takeaways: 3 concise and useful points.
