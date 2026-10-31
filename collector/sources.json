@@ -1,6 +1,13 @@
 {
   "rss": [
     {
+      "name": "Simone Rizzo · Editorial Radar",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCbMlkb79E12CwveGAtdFj-A",
+      "channel_url": "https://www.youtube.com/@simone_rizzo98",
+      "kind": "creator_radar",
+      "weight": 10
+    },
+    {
       "name": "OpenAI News",
       "url": "https://openai.com/news/rss.xml",
       "kind": "official",
