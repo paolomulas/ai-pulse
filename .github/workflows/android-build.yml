@@ -13,21 +13,19 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      ANDROID_HOME: /usr/local/lib/android/sdk
-      ANDROID_SDK_ROOT: /usr/local/lib/android/sdk
     steps:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Set up Java 17
-        uses: actions/setup-java@v4
+        uses: actions/setup-java@v5
         with:
           distribution: temurin
           java-version: "17"
-      # GitHub-hosted Ubuntu runners already include the Android SDK.
-      # Avoid setup-android@v3: it tries to install the obsolete "tools" package.
-      - name: Accept Android SDK licenses
-        run: yes | sdkmanager --licenses >/dev/null
+      - name: Set up Android SDK command-line tools
+        uses: android-actions/setup-android@v4
+        with:
+          # The legacy "tools" SDK package was removed by Google.
+          packages: ""
       - name: Install Android 36 platform and build tools
         run: sdkmanager --install "platforms;android-36" "build-tools;36.0.0"
       - name: Set up Gradle 8.13
