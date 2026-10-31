@@ -260,6 +260,13 @@ def enrich_records(records):
 
     candidates = []
     for item in records:
+        # Creator-radar items are discovery leads, not verified editorial sources.
+        # Keep them raw until primary-source research is completed; never promote
+        # a video title/description alone into an AI Pulse feature.
+        if item.get("sourceKind") == "creator_radar" and item.get("primarySourceReview") != "verified":
+            item["editorial_level"] = "raw_feed"
+            item["editorial_status"] = "pending_primary_source_review"
+            continue
         fingerprint = editorial_fingerprint(item)
         cached = cache_items.get(item["id"])
         if cached and cached.get("fingerprint") == fingerprint and cached.get("editorial") and cached["editorial"].get("editorial_version", 0) >= 3 and all(lang in cached["editorial"].get("editorial", {}) and cached["editorial"]["editorial"][lang].get("extended_analysis") and cached["editorial"]["editorial"][lang].get("context") for lang in EDITORIAL_LANGUAGES):
