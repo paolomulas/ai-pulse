@@ -41,8 +41,129 @@ def published(entry):
                 pass
     return None
 
+# Creator videos are a discovery radar only. We publish only source pages
+# fetched from a deliberately small allow-list of primary publishers/projects.
+PRIMARY_SOURCE_DOMAINS = {
+    "arxiv.org", "github.com", "huggingface.co", "openai.com", "anthropic.com",
+    "deepmind.google", "blog.google", "ai.google.dev", "research.google",
+    "mistral.ai", "kimi.ai", "moonshot.ai", "nvidia.com", "microsoft.com",
+    "meta.com", "ai.meta.com", "x.ai", "stability.ai", "cohere.com",
+    "databricks.com", "cloud.google.com", "aws.amazon.com", "developer.android.com",
+    "source.android.com", "pytorch.org", "tensorflow.org", "ollama.com",
+    "linuxfoundation.org", "mozilla.org", "huggingface.co"
+}
+PROMOTIONAL_OR_SOCIAL_DOMAINS = {
+    "youtube.com", "youtu.be", "instagram.com", "facebook.com", "linkedin.com",
+    "x.com", "twitter.com", "tiktok.com", "patreon.com", "rizzoaiacademy.com"
+}
+MAX_CREATOR_SOURCE_ITEMS = 8
+
+def approved_primary_url(url):
+    try:
+        parsed = urlsplit(url)
+        host = (parsed.hostname or "").lower()
+        if parsed.scheme != "https" or not host or host in PROMOTIONAL_OR_SOCIAL_DOMAINS:
+            return False
+        if any(host == social or host.endswith("." + social) for social in PROMOTIONAL_OR_SOCIAL_DOMAINS):
+            return False
+        return any(host == domain or host.endswith("." + domain) for domain in PRIMARY_SOURCE_DOMAINS)
+    except ValueError:
+        return False
+
+def primary_source_name(url):
+    host = (urlsplit(url).hostname or "").lower().removeprefix("www.")
+    labels = {
+        "arxiv.org": "arXiv", "github.com": "GitHub",
+        "huggingface.co": "Hugging Face", "openai.com": "OpenAI",
+        "anthropic.com": "Anthropic", "deepmind.google": "Google DeepMind",
+        "blog.google": "Google", "ai.google.dev": "Google AI",
+        "research.google": "Google Research", "mistral.ai": "Mistral AI",
+        "kimi.ai": "Kimi / Moonshot AI", "moonshot.ai": "Moonshot AI",
+        "nvidia.com": "NVIDIA", "microsoft.com": "Microsoft",
+        "meta.com": "Meta", "ai.meta.com": "Meta AI",
+        "x.ai": "xAI", "stability.ai": "Stability AI", "cohere.com": "Cohere",
+        "databricks.com": "Databricks", "ollama.com": "Ollama"
+    }
+    return labels.get(host, host)
+
+def fetch_primary_page(url):
+    """Fetch an allow-listed primary page and extract only public page metadata/text."""
+    try:
+        response = requests.get(url, headers=HEADERS, timeout=18, allow_redirects=True)
+        response.raise_for_status()
+        final_url = response.url
+        if not approved_primary_url(final_url):
+            return None
+        content_type = response.headers.get("content-type", "").lower()
+        if "html" not in content_type and "text/" not in content_type:
+            return None
+        markup = response.text[:1_500_000]
+        meta = {}
+        for tag in re.findall(r"<meta\b[^>]*>", markup, flags=re.I):
+            attrs = {
+                key.lower(): html.unescape(value)
+                for key, value in re.findall(r"""([a-zA-Z_:][-a-zA-Z0-9_:.]*)\s*=\s*["']([^"']*)["']""", tag)
+            }
+            key = (attrs.get("property") or attrs.get("name") or "").lower()
+            if key in {"og:title", "twitter:title", "og:description", "description", "twitter:description"} and attrs.get("content"):
+                meta[key] = clean_text(attrs["content"], 1200)
+        title_match = re.search(r"<title\b[^>]*>(.*?)</title>", markup, flags=re.I | re.S)
+        title = meta.get("og:title") or meta.get("twitter:title") or (clean_text(title_match.group(1), 400) if title_match else "")
+        description = meta.get("og:description") or meta.get("description") or meta.get("twitter:description") or ""
+        visible = re.sub(r"<(script|style|noscript|svg)\b[^>]*>.*?</\1>", " ", markup, flags=re.I | re.S)
+        visible = clean_text(visible, 5000)
+        evidence = (description + " " + visible).strip()[:4200]
+        if not title or len(evidence) < 180:
+            return None
+        return {"url": canonical(final_url), "title": title, "description": description, "evidence": evidence}
+    except Exception as exc:
+        print(f"WARN primary source fetch {url}: {exc}")
+        return None
+
+def resolve_creator_radar(leads, existing_urls=None):
+    """Turn video-discovered primary links into original-source stories; never emit videos."""
+    existing = set(existing_urls or [])
+    created, seen = [], set()
+    for lead in leads:
+        for candidate in lead.get("primarySourceCandidates", []):
+            if len(created) >= MAX_CREATOR_SOURCE_ITEMS:
+                break
+            if not approved_primary_url(candidate):
+                continue
+            page = fetch_primary_page(candidate)
+            if not page:
+                continue
+            source_url = page["url"]
+            key = canonical(source_url)
+            if key in existing or key in seen:
+                continue
+            seen.add(key)
+            created.append({
+                "id": item_id(source_url),
+                "type": "news",
+                "title": page["title"],
+                "summary": page["description"] or page["evidence"][:900],
+                "sourceName": primary_source_name(source_url),
+                "sourceUrl": source_url,
+                "publishedAt": lead.get("publishedAt"),
+                "collectedAt": iso_now(),
+                "sourceKind": "primary_source",
+                "sourceWeight": 10,
+                "sourceEvidence": page["evidence"],
+                "sourceVerificationLevel": "official_primary_page_fetched",
+                "discoverySource": "Simone Rizzo · Editorial Radar",
+                "discoverySourceUrl": "https://www.youtube.com/@simone_rizzo98",
+                "discoveryReferenceTitle": lead.get("title", ""),
+                "discoveryReferenceUrl": lead.get("sourceUrl", ""),
+                "primarySourceReview": "primary_page_fetched",
+                "tags": ["AI", "PRIMARY SOURCE"],
+                "attribution": primary_source_name(source_url)
+            })
+    print(f"Creator radar: {len(leads)} discovery videos; {len(created)} original-source pages fetched; video posts suppressed")
+    return created
+
 def collect_rss():
-    out = []
+    out, creator_leads = [], []
     for source in CONFIG.get("rss", []):
         try:
             feed = feedparser.parse(source["url"], request_headers=HEADERS)
@@ -56,7 +177,7 @@ def collect_rss():
                 summary_text = clean_text(raw_summary)
                 candidate_links = list(dict.fromkeys(re.findall(r'https?://\S+', html.unescape(raw_summary))))
                 candidate_links = [u.rstrip(".,);]") for u in candidate_links if urlsplit(u).netloc.lower() not in {"youtube.com", "www.youtube.com", "youtu.be"}]
-                out.append({
+                item = {
                     "id": item_id(url), "type": "news",
                     "title": clean_text(entry.get("title", "Senza titolo"), 400),
                     "summary": summary_text,
@@ -70,9 +191,15 @@ def collect_rss():
                     "primarySourceReview": "pending" if source.get("kind") == "creator_radar" else None,
                     "tags": ["AI", "CREATOR RADAR"] if source.get("kind") == "creator_radar" else ["AI"],
                     "attribution": source["name"]
-                })
+                }
+                if source.get("kind") == "creator_radar":
+                    creator_leads.append(item)
+                else:
+                    out.append(item)
         except Exception as exc:
             print(f"WARN {source['name']}: {exc}")
+    existing_urls = {canonical(item.get("sourceUrl", "")) for item in out if item.get("sourceUrl")}
+    out.extend(resolve_creator_radar(creator_leads, existing_urls))
     return out
 
 def collect_podcasts():
@@ -166,7 +293,8 @@ def editorial_fingerprint(item):
         "sourceName": item.get("sourceName", ""),
         "sourceUrl": item.get("sourceUrl", ""),
         "stars": item.get("stars"),
-        "language": item.get("language")
+        "language": item.get("language"),
+        "sourceEvidence": item.get("sourceEvidence", "")
     }
     return hashlib.sha256(json.dumps(source, sort_keys=True, ensure_ascii=False).encode()).hexdigest()
 
@@ -179,11 +307,14 @@ def gemini_editorial(item, api_key):
         "url": item.get("sourceUrl"),
         "stars": item.get("stars"),
         "programming_language": item.get("language"),
-        "updated_at": item.get("pushedAt") or item.get("publishedAt")
+        "updated_at": item.get("pushedAt") or item.get("publishedAt"),
+        "primary_source_evidence": item.get("sourceEvidence", ""),
+        "discovery_context_only": item.get("discoveryReferenceTitle", "")
     }
     is_podcast = item.get("type") == "speak_up"
     role = "You are the senior audio editor of AI Pulse. Present this podcast episode to readers." if is_podcast else "You are the senior editor of AI Pulse, an independent AI technology publication."
-    task = ("Create an engaging magazine-style episode presentation: explain the themes, context and potential implications, identify guests only when named in metadata, and tell readers what they can expect to learn. Never imply that you listened to the audio; use only supplied metadata." if is_podcast else "Create a substantive magazine-style editorial explainer, not a short news summary. Explain what happened, why it matters, the technical or social context, and what readers should watch next. Stay strictly within the supplied evidence.")
+    is_primary_source = item.get("sourceKind") == "primary_source"
+    task = ("Create an engaging magazine-style episode presentation: explain the themes, context and potential implications, identify guests only when named in metadata, and tell readers what they can expect to learn. Never imply that you listened to the audio; use only supplied metadata." if is_podcast else ("Write an original short news presentation based on the fetched primary-source page. The creator/video is discovery context only: do not mention, quote, summarize, link to, or attribute the news to that creator. Explain the actual announcement/project in plain language, then why it matters. Do not claim independent testing or facts absent from the supplied primary-page evidence." if is_primary_source else "Create a concise magazine-style news presentation. Explain what happened, why it matters and what to watch next. Stay strictly within the supplied evidence."))
     prompt = f""" {role}
 Use ONLY the supplied source metadata. Never invent features, benchmarks, adoption, quotes, dates or claims.
 If the description is insufficient, say so and keep the presentation cautious.
@@ -206,9 +337,11 @@ Return ONLY valid JSON with this exact shape:
 }}
 Editorial rules:
 - title: informative, vivid and clear, never clickbait; max 90 characters.
-- summary: an engaging magazine standfirst of 3-4 sentences, normally 450-650 characters.
-- why_it_matters: a meaningful paragraph of 2-3 sentences, normally 250-450 characters.
-- extended_analysis: a substantive magazine-style explainer of 3-5 paragraphs (roughly 900-1500 characters), with a strong opening, context, implications and what to watch next.
+- summary: the main news presentation. Use 2-3 clear, engaging sentences, normally 260-420 characters, in accessible popular-science magazine journalism.
+- why_it_matters: 1-2 meaningful sentences, normally 160-280 characters.
+- extended_analysis: an optional-to-read magazine explainer of 2-3 short paragraphs (roughly 600-950 characters), with context, implications and what to watch next.
+- For primary_source items, facts must come only from primary_source_evidence. discovery_context_only is a private lead for topic matching, never a factual source and never a public attribution.
+- Never include or recommend the discovery video as a publication link. The published source URL is the primary source page.
 - context: 2-3 sentences explaining the wider technical, economic or social context without unsupported claims.
 - key_takeaways: 3 concise and useful points.
 - highlights: 2 or 3 concise bullets, only facts supported by metadata.
@@ -269,7 +402,7 @@ def enrich_records(records):
             continue
         fingerprint = editorial_fingerprint(item)
         cached = cache_items.get(item["id"])
-        if cached and cached.get("fingerprint") == fingerprint and cached.get("editorial") and cached["editorial"].get("editorial_version", 0) >= 3 and all(lang in cached["editorial"].get("editorial", {}) and cached["editorial"]["editorial"][lang].get("extended_analysis") and cached["editorial"]["editorial"][lang].get("context") for lang in EDITORIAL_LANGUAGES):
+        if cached and cached.get("fingerprint") == fingerprint and cached.get("editorial") and cached["editorial"].get("editorial_version", 0) >= 4 and all(lang in cached["editorial"].get("editorial", {}) and cached["editorial"]["editorial"][lang].get("extended_analysis") and cached["editorial"]["editorial"][lang].get("context") for lang in EDITORIAL_LANGUAGES):
             item.update(cached["editorial"])
         elif cached and cached.get("fingerprint") == fingerprint and cached.get("retry_after"):
             try:
@@ -314,7 +447,7 @@ def enrich_records(records):
                 "editorial_level": level,
                 "editorial_status": "verified",
                 "editorial_model": EDITORIAL_MODEL,
-                "editorial_version": 3,
+                "editorial_version": 4,
                 "relevance_score": max(0, min(100, int(result.get("relevance_score", 0)))),
                 "editor_pick_reason": result.get("editor_pick_reason", "") if is_pick else ""
             }
