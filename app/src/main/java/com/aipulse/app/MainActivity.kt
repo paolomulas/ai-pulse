@@ -83,6 +83,8 @@ private suspend fun loadFeed(): List<Story> = withContext(Dispatchers.IO) {
         buildList {
             for (index in 0 until items.length()) {
                 val item = items.optJSONObject(index) ?: continue
+                // Creator-radar videos are discovery inputs only, never publishable stories.
+                if (item.optString("sourceKind") == "creator_radar" || item.optBoolean("discoveryOnly")) continue
                 val url = item.optString("sourceUrl")
                 val title = item.optString("title")
                 if (!url.startsWith("https://") || title.isBlank()) continue
@@ -143,7 +145,7 @@ private fun PulseGlyph() {
 private fun PulseScreen() {
     var filter by remember { mutableStateOf("Tutto") }
     var language by remember { mutableStateOf("it") }
-    var levelFilter by remember { mutableStateOf("all") }
+    var levelFilter by remember { mutableStateOf("editorial") }
     var liveStories by remember { mutableStateOf<List<Story>>(emptyList()) }
     var isLoading by remember { mutableStateOf(true) }
     val context = LocalContext.current
@@ -172,7 +174,9 @@ private fun PulseScreen() {
             (filter == "News" && it.type == "news") ||
             (filter == "GitHub" && it.type == "github") ||
             (filter == "Speak Up" && it.type == "speak_up")) &&
-            (levelFilter == "all" || it.editorialLevel == levelFilter)
+            (levelFilter == "all" ||
+                (levelFilter == "editorial" && it.editorialLevel != "raw_feed") ||
+                it.editorialLevel == levelFilter)
     }
 
     MaterialTheme(colorScheme = lightColorScheme(
@@ -224,7 +228,7 @@ private fun PulseScreen() {
                         }
                         Text("LIVELLO EDITORIALE", color = Muted, fontSize = 9.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.sp)
                         Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
-                            listOf("all" to "Tutti", "raw_feed" to "Raw", "ai_curated" to "Curated", "editors_pick" to "Pick").forEach { (code, label) ->
+                            listOf("editorial" to "Selezionati", "all" to "Tutti", "raw_feed" to "Raw", "ai_curated" to "AI Curated", "editors_pick" to "Pick").forEach { (code, label) ->
                                 FilterChip(selected = levelFilter == code, onClick = { levelFilter = code }, label = { Text(label, fontSize = 10.sp) })
                             }
                         }
@@ -260,7 +264,7 @@ private fun PulseScreen() {
                         Spacer(Modifier.width(7.dp))
                         Text(
                             when {
-                                live -> "FEED LIVE · GITHUB"
+                                live -> "FEED LIVE · FONTI ORIGINALI"
                                 isLoading -> "CARICAMENTO DEL FEED"
                                 else -> "ANTEPRIMA · CONTENUTI DIMOSTRATIVI"
                             },
