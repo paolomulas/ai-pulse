@@ -929,11 +929,258 @@
         "relevance_score": 60,
         "editor_pick_reason": ""
       }
+    },
+    "5c67f86b19de93a0a9e842910d2a11bf3daa5bfc7df88a0e2a8cc299e598aef4": {
+      "fingerprint": "58bec18c5129fb0c995bd4cdfe3d28c3520bf77faf69445ecae4a1caddda7ee8",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Motore di raccomandazione per trader con Anekha Sokhal di Moshi",
+            "summary": "Anekha Sokhal, CEO di Moshi, discute con swyx della creazione di un motore di raccomandazione per trader di materie prime. L'episodio esplora la trasformazione dei dati di mercato in segnali utili e la progettazione di IA adatte ai flussi di lavoro degli utenti.",
+            "why_it_matters": "L'episodio offre spunti pratici su come adattare i sistemi di intelligenza artificiale ai flussi di lavoro specifici dei trader, trasformando dati complessi in segnali azionabili.",
+            "highlights": [
+              "Sviluppo di un motore di raccomandazione per trader di materie prime",
+              "Conversione dei dati di mercato in segnali utili",
+              "Progettazione di IA integrate nei flussi di lavoro degli utenti"
+            ]
+          },
+          "en": {
+            "title": "Recommendation Engine for Commodity Traders with Anekha Sokhal",
+            "summary": "Moshi CEO Anekha Sokhal joins swyx to discuss building a recommendation engine for commodity traders. The conversation covers turning market data into useful signals and designing AI that aligns with user workflows.",
+            "why_it_matters": "Understanding how to translate complex market data into actionable signals while respecting user workflows is a crucial challenge for applied AI engineering.",
+            "highlights": [
+              "Building recommendation engines for commodity trading",
+              "Turning raw market data into useful signals",
+              "Designing AI systems that fit existing user workflows"
+            ]
+          },
+          "es": {
+            "title": "Motor de recomendación para traders con Anekha Sokhal de Moshi",
+            "summary": "Anekha Sokhal, CEO de Moshi, conversa con swyx sobre la creación de un motor de recomendación para operadores de materias primas. Se analiza cómo convertir datos de mercado en señales útiles y diseñar IA adaptada a los flujos de trabajo.",
+            "why_it_matters": "Este episodio muestra cómo alinear el diseño de la IA con las necesidades operativas reales, convirtiendo datos densos de mercado en herramientas prácticas.",
+            "highlights": [
+              "Creación de un motor de recomendación para materias primas",
+              "Transformación de datos de mercado en señales útiles",
+              "Diseño de IA adaptada a los flujos de trabajo del usuario"
+            ]
+          },
+          "zh-CN": {
+            "title": "面向大宗商品交易员的推荐引擎：对话 Anekha Sokhal",
+            "summary": "Moshi 首席执行官 Anekha Sokhal 做客 swyx 的节目，探讨为大宗商品交易员构建推荐引擎的过程。讨论涵盖将市场数据转化为有用信号，以及设计符合用户工作流的人工智能。",
+            "why_it_matters": "了解如何将复杂的市场数据转化为实际信号，同时融入真实的工作流程，对应用人工智能开发具有重要参考价值。",
+            "highlights": [
+              "为大宗商品交易员构建推荐引擎",
+              "将市场数据转化为实用信号",
+              "设计契合用户工作流的 AI 系统"
+            ]
+          },
+          "de": {
+            "title": "Empfehlungs-Engine für Rohstoffhändler mit Anekha Sokhal",
+            "summary": "Anekha Sokhal, CEO von Moshi, spricht mit swyx über die Entwicklung einer Empfehlungs-Engine für Rohstoffhändler. Themen sind die Umwandlung von Marktdaten in nützliche Signale und das Design von KI für Nutzer-Workflows.",
+            "why_it_matters": "Der Einblick in die Anpassung von KI an spezifische Nutzer-Workflows zeigt praktische Ansätze zur Nutzung komplexer Marktdaten im Handel.",
+            "highlights": [
+              "Entwicklung einer Empfehlungs-Engine für Rohstoffhändler",
+              "Umwandlung von Marktdaten in nützliche Signale",
+              "Design von KI passend zu den Arbeitsabläufen der Nutzer"
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 2,
+        "relevance_score": 75,
+        "editor_pick_reason": ""
+      }
+    },
+    "db3c2eda6e56a446c36ed93c3dccaeba3672a2c93dce5ae723bf1cfb30b52604": {
+      "fingerprint": "e39db8c47bdfd6b6df69acfc9fdae31afdcb1a14d0a82d5222a9d811afb7590c",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "IA per le Fortune 2000 e ingegneria AI-native con Tenex",
+            "summary": "Alex Lieberman e CJ Hess parlano con swyx ad AI Engineer New York dell'approccio di Tenex all'ingegneria AI-native. La discussione esplora il pagamento basato sui risultati, MetaHarness, l'adozione dell'IA aziendale e la ricostruzione del SaaS.",
+            "why_it_matters": "L'episodio offre spunti preziosi sulle strategie di adozione dell'IA aziendale e sui nuovi modelli operativi per lo sviluppo software, sebbene i dettagli completi dipendano dall'ascolto dell'audio originale.",
+            "highlights": [
+              "Approccio di Tenex all'ingegneria AI-native e pagamento per risultati",
+              "Discussione su MetaHarness e adozione dell'IA nelle aziende",
+              "Riflessioni sulla ricostruzione del software as a service (SaaS)"
+            ]
+          },
+          "en": {
+            "title": "AI for Fortune 2000 and AI-Native SDLC with Tenex",
+            "summary": "Alex Lieberman and CJ Hess join swyx at AI Engineer New York to discuss Tenex's approach to AI-native engineering. The conversation covers paying for outcomes, MetaHarness, enterprise AI adoption, and rebuilding SaaS.",
+            "why_it_matters": "This episode provides direct insights into enterprise AI strategies and modern software development approaches, though specific claims should be verified directly against the audio.",
+            "highlights": [
+              "Tenex's approach to AI-native engineering and outcome-based pricing",
+              "Insights into MetaHarness and enterprise AI adoption",
+              "Perspectives on rebuilding SaaS applications"
+            ]
+          },
+          "es": {
+            "title": "IA para Fortune 2000 y desarrollo nativo de IA con Tenex",
+            "summary": "Alex Lieberman y CJ Hess se unen a swyx en AI Engineer New York para debatir sobre el enfoque de Tenex hacia la ingeniería nativa de IA. Se aborda el pago por resultados, MetaHarness, la adopción de IA empresarial y la reinvención del SaaS.",
+            "why_it_matters": "Ofrece una perspectiva útil sobre la adopción empresarial de la inteligencia artificial y los nuevos modelos de desarrollo, manteniendo la cautela ante la falta de una transcripción completa.",
+            "highlights": [
+              "Enfoque de Tenex en ingeniería nativa de IA y pago por resultados",
+              "Uso de MetaHarness y adopción de IA en grandes empresas",
+              "Estrategias para la reconstrucción del modelo SaaS"
+            ]
+          },
+          "zh-CN": {
+            "title": "面向财富2000强的AI与Tenex的AI原生软件开发",
+            "summary": "Alex Lieberman和CJ Hess在AI Engineer New York做客Latent Space，与swyx探讨Tenex的AI原生工程方法。讨论涵盖按成果付费、MetaHarness、企业AI采用以及重构SaaS。",
+            "why_it_matters": "本期节目探讨了企业级AI应用和软件工程的新方法，具体细节需参考实际音频内容。",
+            "highlights": [
+              "Tenex的AI原生工程方法与按成果付费模式",
+              "关于MetaHarness与企业AI采用的讨论",
+              "探讨如何重新构建SaaS应用"
+            ]
+          },
+          "de": {
+            "title": "KI für Fortune 2000 und KI-native Softwareentwicklung mit Tenex",
+            "summary": "Alex Lieberman und CJ Hess sprechen mit swyx bei AI Engineer New York über Tenex und deren Ansatz für KI-native Entwicklung. Thematisiert werden ergebnisbasiertes Bezahlen, MetaHarness, KI-Einführung in Unternehmen und die Neugestaltung von SaaS.",
+            "why_it_matters": "Die Episode bietet Einblicke in Strategien zur Einführung von Unternehmens-KI, wobei Aussagen und Benchmarks direkt anhand des Audios überprüft werden sollten.",
+            "highlights": [
+              "Tenex-Ansatz für KI-native Entwicklung und ergebnisbasiertes Bezahlen",
+              "Einblicke in MetaHarness und Enterprise-KI-Adoption",
+              "Perspektiven zur Neugestaltung von SaaS"
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 2,
+        "relevance_score": 70,
+        "editor_pick_reason": ""
+      }
+    },
+    "574dbaf7fc8731e405753fdd629edf08113dcd8a86398ab5c6140b68360db244": {
+      "fingerprint": "3b6fdbecaea6b4a09b600ac1cbe508833840dac6e3ed2778ed20c9c03c4d3175",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "OpenAI evidenzia i pareri legali sul fair use nell'IA",
+            "summary": "OpenAI ha condiviso estratti da memorie di tribunale di creatori, accademici e esperti legali. I documenti argomentano come il fair use sostenga l'addestramento dei sistemi di intelligenza artificiale e l'innovazione.",
+            "why_it_matters": "La pubblicazione mette in luce le argomentazioni legali a favore del fair use nell'addestramento dell'IA, offrendo spunti sul dibattito normativo in corso.",
+            "highlights": [
+              "OpenAI ha pubblicato estratti di memorie di tribunale.",
+              "I documenti provengono da creatori, accademici e esperti legali.",
+              "Si sostiene che il fair use supporti l'addestramento dell'IA e l'innovazione."
+            ]
+          },
+          "en": {
+            "title": "OpenAI shares court brief excerpts on fair use in AI",
+            "summary": "OpenAI has published excerpts from court briefs submitted by creators, academics, accessibility advocates, and legal experts. These excerpts outline arguments on how fair use supports AI training and innovation.",
+            "why_it_matters": "This compilation highlights the legal perspectives supporting the role of fair use in AI development, contributing to the ongoing debate on copyright and technology.",
+            "highlights": [
+              "OpenAI shared excerpts from court briefs.",
+              "Contributors include creators, academics, and legal experts.",
+              "The briefs argue that fair use supports AI training and innovation."
+            ]
+          },
+          "es": {
+            "title": "OpenAI destaca escritos judiciales sobre el uso justo en la IA",
+            "summary": "OpenAI compartió extractos de escritos judiciales presentados por creadores, académicos y expertos legales. Los documentos abordan cómo el uso justo respalda el entrenamiento de la inteligencia artificial y la innovación.",
+            "why_it_matters": "La iniciativa expone las perspectivas legales que defienden la aplicación del uso justo en el desarrollo de la IA, un tema central en los debates regulatorios actuales.",
+            "highlights": [
+              "OpenAI publicó extractos de escritos judiciales.",
+              "Participan creadores, académicos y expertos legales.",
+              "Se argumenta que el uso justo favorece la innovación y el entrenamiento en IA."
+            ]
+          },
+          "zh-CN": {
+            "title": "OpenAI分享关于AI合理使用的法庭陈述摘要",
+            "summary": "OpenAI分享了创作者、学者、无障碍倡导者以及法律专家等提交的法庭陈述摘要。这些摘要阐述了合理使用如何支持人工智能训练与创新。",
+            "why_it_matters": "该发布展示了支持将合理使用原则应用于AI开发的法律观点，反映了当前围绕版权与技术创新的讨论。",
+            "highlights": [
+              "OpenAI分享了法庭陈述的摘录。",
+              "参与者包括创作者、学者和法律专家。",
+              "内容聚焦于合理使用如何支持AI训练和创新。"
+            ]
+          },
+          "de": {
+            "title": "OpenAI teilt Auszüge aus Gerichtsakten zum Fair Use",
+            "summary": "OpenAI hat Auszüge aus Schriftsätzen von Urhebern, Akademikern und Rechtsexperten veröffentlicht. Die Dokumente argumentieren, wie Fair Use das KI-Training und die Innovation unterstützt.",
+            "why_it_matters": "Die Veröffentlichung beleuchtet rechtliche Argumente zugunsten von Fair Use bei der Entwicklung von KI und gibt Einblick in die aktuellen juristischen Debatten.",
+            "highlights": [
+              "OpenAI veröffentlichte Auszüge aus Gerichtsakten.",
+              "Die Beiträge stammen von Kreativen, Akademikern und Rechtsexperten.",
+              "Es wird argumentiert, dass Fair Use KI-Training und Innovation fördert."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 2,
+        "relevance_score": 40,
+        "editor_pick_reason": ""
+      }
+    },
+    "72b5e46637923da03199813d26aa131fe39d4aef3413adf71d9d6f3f54bfb81e": {
+      "fingerprint": "2dbf643b13966ecfa52c1a83423e48ec9f8a5321fa026e60d9bb072df6641b8f",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "grwtsk/math: segnale matematico per la scoperta IA",
+            "summary": "Il repository GitHub grwtsk/math raccoglie costruzioni, connessioni interdominio ed esempi relativi a un segnale matematico ideato per guidare la scoperta nell'intelligenza artificiale. I contenuti sono basati su fonti formali ed evidenze vincolate.",
+            "why_it_matters": "Offre una prospettiva teorica preliminare sulle basi matematiche per orientare i processi di scoperta dell'IA, sebbene manchino ancora dati di adozione o test indipendenti.",
+            "highlights": [
+              "Raccolta di costruzioni, connessioni e ostacoli legati a un segnale matematico.",
+              "Contenuti fondati su fonti formali ed evidenze vincolate."
+            ]
+          },
+          "en": {
+            "title": "grwtsk/math: Mathematical signal for AI discovery",
+            "summary": "The GitHub repository grwtsk/math outlines a mathematical signal intended to steer AI discovery, including constructions, cross-domain connections, and open questions. The project relies on formal sources and source-bound evidence.",
+            "why_it_matters": "It provides a theoretical framework for exploring mathematical guidance in AI, though it currently lacks independent benchmarks or community adoption metrics.",
+            "highlights": [
+              "Focuses on mathematical signals and constructions for AI discovery.",
+              "Grounded in formal sources and source-bound evidence."
+            ]
+          },
+          "es": {
+            "title": "grwtsk/math: Señal matemática para el descubrimiento en IA",
+            "summary": "El repositorio de GitHub grwtsk/math presenta un enfoque basado en señales matemáticas para guiar el descubrimiento en inteligencia artificial. Incluye construcciones y conexiones interdisciplinarias fundamentadas en fuentes formales.",
+            "why_it_matters": "Presenta una propuesta conceptual interesante para la fundamentación matemática en IA, aunque requiere mayor desarrollo y evaluación independiente.",
+            "highlights": [
+              "Explora conexiones y construcciones de señales matemáticas.",
+              "Basado en fuentes formales y evidencia delimitada."
+            ]
+          },
+          "zh-CN": {
+            "title": "grwtsk/math：用于AI发现的数学信号",
+            "summary": "GitHub代码库 grwtsk/math 收集了旨在指导人工智能发现的数学信号相关结构、跨领域联系及开放性问题。项目内容基于形式化来源与来源约束的证据。",
+            "why_it_matters": "为探索数学引导AI发展提供了初步的理论框架，但目前尚无独立基准测试或大规模采用数据。",
+            "highlights": [
+              "探讨用于AI发现的数学信号与构造。",
+              "基于形式化来源与有约束的证据。"
+            ]
+          },
+          "de": {
+            "title": "grwtsk/math: Mathematisches Signal für KI-Entdeckungen",
+            "summary": "Das GitHub-Repository grwtsk/math dokumentiert ein mathematisches Signal zur Steuerung von KI-Entdeckungen, einschließlich Konstruktionen und Querverbindungen. Die Inhalte basieren auf formalen Quellen und quellengebundenen Belegen.",
+            "why_it_matters": "Es bietet einen konzeptionellen Einblick in mathematische Ansätze zur Lenkung von KI-Prozessen, wenngleich unabhängige Tests und Adoptionsdaten noch fehlen.",
+            "highlights": [
+              "Fokus auf mathematische Signale und Konstruktionen zur KI-Steuerung.",
+              "Gegründet auf formale Quellen und quellengebundene Belege."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 2,
+        "relevance_score": 45,
+        "editor_pick_reason": ""
+      }
     }
   },
   "daily": {
-    "date": "2026-10-30",
-    "count": 20,
+    "date": "2026-10-31",
+    "count": 4,
     "picks": 0
   }
 }
