@@ -54,7 +54,7 @@ def collect_rss():
                     continue
                 raw_summary = entry.get("summary", entry.get("description", "")) or ""
                 summary_text = clean_text(raw_summary)
-                candidate_links = list(dict.fromkeys(re.findall(r'https?://[^\\s<>"\']+', html.unescape(raw_summary))))
+                candidate_links = list(dict.fromkeys(re.findall(r'https?://\\S+', html.unescape(raw_summary))))
                 candidate_links = [u.rstrip(".,);]") for u in candidate_links if urlsplit(u).netloc.lower() not in {"youtube.com", "www.youtube.com", "youtu.be"}]
                 out.append({
                     "id": item_id(url), "type": "news",
