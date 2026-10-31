@@ -33,15 +33,26 @@ jobs:
         with:
           gradle-version: "8.13"
           cache-provider: basic
-      - name: Decode Play upload keystore when configured
+      - name: Decode and validate Play upload keystore when configured
         env:
           ANDROID_UPLOAD_KEYSTORE_BASE64: ${{ secrets.ANDROID_UPLOAD_KEYSTORE_BASE64 }}
+          ANDROID_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+          ANDROID_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
         run: |
-          if [ -n "$ANDROID_UPLOAD_KEYSTORE_BASE64" ]; then
+          configured=0
+          for value in "$ANDROID_UPLOAD_KEYSTORE_BASE64" "$ANDROID_KEY_ALIAS" "$ANDROID_KEYSTORE_PASSWORD" "$ANDROID_KEY_PASSWORD"; do
+            if [ -n "$value" ]; then configured=$((configured + 1)); fi
+          done
+          if [ "$configured" -eq 0 ]; then
+            echo "No upload keystore configured; release bundle will be unsigned."
+          elif [ "$configured" -ne 4 ]; then
+            echo "Incomplete Android signing secrets. Configure all four secrets." >&2
+            exit 1
+          else
             printf '%s' "$ANDROID_UPLOAD_KEYSTORE_BASE64" | base64 --decode > app/upload-key.jks
             chmod 600 app/upload-key.jks
-          else
-            echo "No upload keystore configured; release bundle will be unsigned."
+            keytool -list -keystore app/upload-key.jks -storepass "$ANDROID_KEYSTORE_PASSWORD" -alias "$ANDROID_KEY_ALIAS" >/dev/null
           fi
       - name: Assemble debug APK and release bundle
         env:
@@ -49,6 +60,17 @@ jobs:
           ANDROID_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
           ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
         run: gradle --no-daemon --stacktrace :app:assembleDebug :app:bundleRelease
+      - name: Verify release bundle signing
+        run: |
+          AAB="$(find app/build/outputs/bundle/release -maxdepth 1 -name '*.aab' -print -quit)"
+          test -n "$AAB"
+          if [ -f app/upload-key.jks ]; then
+            OUTPUT="$(jarsigner -verify -verbose -certs "$AAB" 2>&1)"
+            printf '%s\n' "$OUTPUT" | grep -q "jar verified."
+            echo "Release AAB signature verified."
+          else
+            echo "::warning::Release AAB is unsigned because upload-key secrets are not configured."
+          fi
       - name: Upload Android build artifacts
         uses: actions/upload-artifact@v4
         with:
