@@ -12,19 +12,15 @@
 
 The release workflow signs the AAB only when an upload keystore is configured. Never commit the keystore or passwords to Git.
 
-If this is the first Play release, create a dedicated upload key on a trusted local Windows machine. Keep a secure offline backup of the JKS file and its passwords:
-
-```powershell
-keytool -genkeypair -v -keystore ai-pulse-upload.jks -keyalg RSA -keysize 2048 -validity 10000 -alias ai-pulse-upload
-$bytes = [System.IO.File]::ReadAllBytes("$PWD\ai-pulse-upload.jks")
-[Convert]::ToBase64String($bytes) | Set-Clipboard
-```
+A dedicated first-release upload key has been generated for this unpublished app. Use the private JKS and password files delivered separately in the `ai-pulse-signing-package.zip` handoff. The package contains the JKS, Base64 payload, alias instructions and password file. Keep the JKS and password in secure offline backups; never commit them to Git.
 
 Add these repository Actions secrets in GitHub (Settings → Secrets and variables → Actions):
-- `ANDROID_UPLOAD_KEYSTORE_BASE64`: the Base64 value copied to the clipboard
-- `ANDROID_KEY_ALIAS`: `ai-pulse-upload` (or the alias selected above)
-- `ANDROID_KEYSTORE_PASSWORD`: the keystore password
-- `ANDROID_KEY_PASSWORD`: the key password
+- `ANDROID_UPLOAD_KEYSTORE_BASE64`: complete contents of `ANDROID_UPLOAD_KEYSTORE_BASE64.txt`
+- `ANDROID_KEY_ALIAS`: `ai-pulse-upload`
+- `ANDROID_KEYSTORE_PASSWORD`: contents of `PASSWORD-KEYSTORE.txt`
+- `ANDROID_KEY_PASSWORD`: same value as `ANDROID_KEYSTORE_PASSWORD`
+
+The workflow now validates that either all four signing secrets are present or none are present. When configured, it validates the keystore alias before building and verifies the resulting AAB signature. A partial configuration fails the workflow instead of silently producing an unsigned release bundle.
 
 Do not paste passwords or the Base64 keystore into issues, commits, or chat. If an existing upload key has already been registered in Play Console, reuse that key; do not generate a replacement without following Google's upload-key reset process.
 
