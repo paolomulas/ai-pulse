@@ -38,6 +38,7 @@ AI Pulse è un progetto indipendente e non è affiliato alle organizzazioni o al
 - **Target audience:** Not designed specifically for children; select adult age ranges consistent with the product and the actual content.
 - **Privacy policy URL:** https://paolomulas.github.io/ai-pulse/privacy.html
 - **Public contact URL:** https://paolomulas.github.io/ai-pulse/contact.html
+- **Editorial guidelines:** https://paolomulas.github.io/ai-pulse/editorial-guidelines.html
 - **Contact email:** paolomulas@gmail.com (must be confirmed by the developer).
 - **Website:** https://paolomulas.github.io/ai-pulse/
 - **Package:** com.aipulse.app
