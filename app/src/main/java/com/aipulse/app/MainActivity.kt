@@ -62,13 +62,6 @@ private data class Story(
     val editorPickReason: String = ""
 )
 
-private val demoStories = listOf(
-    Story("demo-1", "MODELLI", "L'intelligenza artificiale entra in una nuova fase", "Aggiornamenti e analisi sulle nuove generazioni di modelli. I contenuti live saranno collegati alle fonti verificate.", "AI Pulse Editorial", "https://openai.com/news/", "news"),
-    Story("demo-2", "OPEN SOURCE", "I repository AI da tenere d'occhio", "Progetti emergenti ordinati considerando attività recente, crescita e interesse della community.", "GitHub", "https://github.com/trending", "github"),
-    Story("demo-3", "RICERCA", "Ricerca e applicazioni: cosa cambia", "Una selezione di aggiornamenti da laboratori e gruppi di ricerca, con collegamento alle fonti originali.", "Google DeepMind", "https://deepmind.google/discover/blog/", "news"),
-    Story("demo-4", "SPEAK UP · INTERVISTA", "Le idee che orientano il dibattito sull'AI", "La sezione raccoglierà podcast, interviste e conferenze recenti. Citazioni dirette solo con trascrizioni verificabili.", "Latent Space", "https://www.latent.space/", "speak_up")
-)
-
 private suspend fun loadFeed(): List<Story> = withContext(Dispatchers.IO) {
     val connection = (URL(FEED_URL).openConnection() as HttpURLConnection).apply {
         connectTimeout = 10000
@@ -167,7 +160,7 @@ private fun PulseScreen() {
     LaunchedEffect(Unit) { refreshFeed() }
 
     val live = liveStories.isNotEmpty()
-    val sourceStories = if (live) liveStories else demoStories
+    val sourceStories = liveStories
     val filters = listOf("Tutto", "News", "GitHub", "Speak Up")
     val visible = sourceStories.filter {
         (filter == "Tutto" ||
@@ -330,9 +323,39 @@ private fun PulseScreen() {
                         )
                     }
                 }
+                item {
+                    Column(
+                        Modifier.fillMaxWidth().padding(top = 18.dp, bottom = 28.dp),
+                        verticalArrangement = Arrangement.spacedBy(7.dp)
+                    ) {
+                        Text("AI PULSE · INDEPENDENT AI JOURNAL", color = Muted, fontSize = 9.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.sp)
+                        Text("Contenuti e collegamenti rimandano sempre alle fonti originali.", color = Muted, fontSize = 11.sp, lineHeight = 16.sp)
+                        Text(
+                            "Privacy Policy ↗",
+                            color = Terra,
+                            fontSize = 11.sp,
+                            fontWeight = FontWeight.SemiBold,
+                            modifier = Modifier.clickable {
+                                runCatching {
+                                    context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://paolomulas.github.io/ai-pulse/privacy.html")))
+                                }
+                            }
+                        )
+                        Text(
+                            "Contatti: paolomulas@gmail.com",
+                            color = Terra,
+                            fontSize = 11.sp,
+                            modifier = Modifier.clickable {
+                                runCatching {
+                                    context.startActivity(Intent(Intent.ACTION_SENDTO, Uri.parse("mailto:paolomulas@gmail.com")))
+                                }
+                            }
+                        )
+                    }
+                }
                 if (!live && !isLoading) {
                     item {
-                        Text("Feed temporaneamente non disponibile: mostriamo un'anteprima dimostrativa.", color = Muted, fontSize = 11.sp, lineHeight = 16.sp)
+                        Text("Feed temporaneamente non disponibile. Riprova con il pulsante di aggiornamento.", color = Muted, fontSize = 11.sp, lineHeight = 16.sp)
                     }
                 }
             }
