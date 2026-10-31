@@ -342,6 +342,17 @@ private fun PulseScreen() {
                             }
                         )
                         Text(
+                            "Contatti e informazioni editoriali ↗",
+                            color = Terra,
+                            fontSize = 11.sp,
+                            fontWeight = FontWeight.SemiBold,
+                            modifier = Modifier.clickable {
+                                runCatching {
+                                    context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://paolomulas.github.io/ai-pulse/contact.html")))
+                                }
+                            }
+                        )
+                        Text(
                             "Contatti: paolomulas@gmail.com",
                             color = Terra,
                             fontSize = 11.sp,
