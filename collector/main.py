@@ -173,7 +173,7 @@ def gemini_editorial(item, api_key):
     }
     is_podcast = item.get("type") == "speak_up"
     role = "You are the senior audio editor of AI Pulse. Present this podcast episode to readers." if is_podcast else "You are the senior editor of AI Pulse, an independent AI technology publication."
-    task = ("Create a useful episode guide: explain the actual topics, identify named guests only when present in metadata, and tell readers what they can expect to learn. Do not pretend to have listened to the audio; use only the supplied title and description." if is_podcast else "Create one concise editorial analysis.")
+    task = ("Create an engaging magazine-style episode presentation: explain the themes, context and potential implications, identify guests only when named in metadata, and tell readers what they can expect to learn. Never imply that you listened to the audio; use only supplied metadata." if is_podcast else "Create a substantive magazine-style editorial explainer, not a short news summary. Explain what happened, why it matters, the technical or social context, and what readers should watch next. Stay strictly within the supplied evidence.")
     prompt = f""" {role}
 Use ONLY the supplied source metadata. Never invent features, benchmarks, adoption, quotes, dates or claims.
 If the description is insufficient, say so and keep the presentation cautious.
@@ -211,7 +211,7 @@ SOURCE METADATA:
         params={"key": api_key},
         json={
             "contents": [{"parts": [{"text": prompt}]}],
-            "generationConfig": {"responseMimeType": "application/json", "maxOutputTokens": 2200}
+            "generationConfig": {"responseMimeType": "application/json", "maxOutputTokens": 5200}
         },
         headers=HEADERS,
         timeout=60
@@ -225,7 +225,7 @@ SOURCE METADATA:
         raise ValueError("Gemini response is missing one or more required languages")
     for lang in EDITORIAL_LANGUAGES:
         localized = editorial[lang]
-        if not localized.get("title") or not localized.get("summary") or not localized.get("why_it_matters"):
+        if not localized.get("title") or not localized.get("summary") or not localized.get("why_it_matters") or not localized.get("extended_analysis") or not localized.get("context"):
             raise ValueError(f"Incomplete editorial content for {lang}")
     return result
 
@@ -248,7 +248,7 @@ def enrich_records(records):
     for item in records:
         fingerprint = editorial_fingerprint(item)
         cached = cache_items.get(item["id"])
-        if cached and cached.get("fingerprint") == fingerprint and cached.get("editorial") and all(lang in cached["editorial"].get("editorial", {}) for lang in EDITORIAL_LANGUAGES):
+        if cached and cached.get("fingerprint") == fingerprint and cached.get("editorial") and cached["editorial"].get("editorial_version", 0) >= 3 and all(lang in cached["editorial"].get("editorial", {}) and cached["editorial"]["editorial"][lang].get("extended_analysis") and cached["editorial"]["editorial"][lang].get("context") for lang in EDITORIAL_LANGUAGES):
             item.update(cached["editorial"])
         elif cached and cached.get("fingerprint") == fingerprint and cached.get("retry_after"):
             try:
@@ -293,7 +293,7 @@ def enrich_records(records):
                 "editorial_level": level,
                 "editorial_status": "verified",
                 "editorial_model": EDITORIAL_MODEL,
-                "editorial_version": 2,
+                "editorial_version": 3,
                 "relevance_score": max(0, min(100, int(result.get("relevance_score", 0)))),
                 "editor_pick_reason": result.get("editor_pick_reason", "") if is_pick else ""
             }
