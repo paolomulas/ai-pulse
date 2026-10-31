@@ -52,15 +52,24 @@ def collect_rss():
                 url = entry.get("link", "")
                 if not url.startswith("https://"):
                     continue
+                raw_summary = entry.get("summary", entry.get("description", "")) or ""
+                summary_text = clean_text(raw_summary)
+                candidate_links = list(dict.fromkeys(re.findall(r'https?://[^\\s<>"\']+', html.unescape(raw_summary))))
+                candidate_links = [u.rstrip(".,);]") for u in candidate_links if urlsplit(u).netloc.lower() not in {"youtube.com", "www.youtube.com", "youtu.be"}]
                 out.append({
                     "id": item_id(url), "type": "news",
                     "title": clean_text(entry.get("title", "Senza titolo"), 400),
-                    "summary": clean_text(entry.get("summary", entry.get("description", ""))),
+                    "summary": summary_text,
                     "sourceName": source["name"], "sourceUrl": url,
                     "publishedAt": published(entry), "collectedAt": iso_now(),
                     "sourceKind": source.get("kind", "newsroom"),
                     "sourceWeight": source.get("weight", 5),
-                    "tags": ["AI"], "attribution": source["name"]
+                    "discoverySource": source.get("name") if source.get("kind") == "creator_radar" else None,
+                    "discoverySourceUrl": source.get("channel_url") if source.get("kind") == "creator_radar" else None,
+                    "primarySourceCandidates": candidate_links[:12] if source.get("kind") == "creator_radar" else [],
+                    "primarySourceReview": "pending" if source.get("kind") == "creator_radar" else None,
+                    "tags": ["AI", "CREATOR RADAR"] if source.get("kind") == "creator_radar" else ["AI"],
+                    "attribution": source["name"]
                 })
         except Exception as exc:
             print(f"WARN {source['name']}: {exc}")
