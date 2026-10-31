@@ -1898,6 +1898,204 @@
         "relevance_score": 35,
         "editor_pick_reason": ""
       }
+    },
+    "bf44de9e544de4cbe9fe1a2a613ba67b03dda83fe8633fc284d5c9ec8453b5d7": {
+      "manual_override": true,
+      "source_url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Kimi K3.1 Pro punta su contesto lungo e pesi aperti",
+            "summary": "Moonshot presenta Kimi K3.1 Pro, un modello open-weight da 3 trilioni di parametri con una finestra di contesto da un milione di token. La variante Highspeed promette una velocità 2–3 volte maggiore; l’azienda annuncia il rilascio dei pesi completi entro il 4 novembre. I benchmark pubblicati sono risultati dichiarati da Moonshot, da confrontare con test indipendenti.",
+            "why_it_matters": "Un modello di queste dimensioni, con pesi destinati alla pubblicazione, può ampliare la sperimentazione su coding e agenti. Il valore pratico dipenderà però da licenza, requisiti hardware e verifiche indipendenti, non solo dai benchmark del produttore.",
+            "extended_analysis": "Kimi K3.1 Pro è il nuovo modello di punta annunciato da Moonshot AI. La società lo descrive come un sistema open-weight da 3T di parametri, capace di gestire fino a un milione di token di contesto. Accanto alla versione standard arriva K3.1 Pro Highspeed, presentata come 2–3 volte più veloce.\n\nLa pagina ufficiale riporta risultati su coding, ricerca finanziaria e attività agentiche, tra cui 65,7% su Terminal-Bench 4.0. Sono valutazioni comunicate dal produttore: per capire quanto siano riproducibili servono pesi, metodologia completa e confronti indipendenti. Moonshot indica il 4 novembre per la pubblicazione dei pesi completi; sarà quello il passaggio decisivo per valutare accessibilità, costi di esecuzione e possibilità di adattamento.",
+            "context": "I modelli open-weight permettono a sviluppatori e organizzazioni di esaminare e distribuire i pesi, entro i termini della licenza. Una finestra di contesto molto ampia è utile per documenti e flussi di lavoro lunghi, ma aumenta anche i requisiti di memoria e calcolo.",
+            "key_takeaways": [
+              "Contesto dichiarato: fino a 1 milione di token.",
+              "La variante Highspeed promette 2–3× la velocità.",
+              "Pesi completi annunciati entro il 4 novembre; benchmark da verificare indipendentemente."
+            ],
+            "highlights": [
+              "Modello open-weight da 3T di parametri, secondo Moonshot.",
+              "Disponibile anche una variante Highspeed.",
+              "I risultati citati provengono dalla valutazione pubblicata dall’azienda."
+            ]
+          },
+          "en": {
+            "title": "Kimi K3.1 Pro pushes long context and open weights",
+            "summary": "Moonshot introduces Kimi K3.1 Pro, a 3-trillion-parameter open-weight model with a one-million-token context window. Its Highspeed variant is claimed to run 2–3 times faster, while full weights are scheduled for release by November 4. The published benchmark figures are company-reported results and still need independent scrutiny.",
+            "why_it_matters": "A model of this scale, with weights intended for release, could broaden experimentation in coding and agent workflows. Its practical value will depend on licensing, hardware requirements and independent evaluation—not just the vendor’s benchmarks.",
+            "extended_analysis": "Kimi K3.1 Pro is the new flagship model announced by Moonshot AI. The company describes it as a 3T-parameter open-weight system with a context window of up to one million tokens. A Highspeed variant is also offered, with a claimed 2–3× speed improvement.\n\nThe official post reports results across coding, financial research and agentic tasks, including 65.7% on Terminal-Bench 4.0. These are figures published by the vendor; reproducibility will depend on the released weights, full methodology and independent comparisons. Moonshot says the complete weights are due by November 4. That release will be the real test of accessibility, serving costs and how easily developers can adapt the model.",
+            "context": "Open-weight models let developers and organisations inspect and run model weights, subject to the licence. Very long context can help with large documents and multi-step workflows, but it also raises memory and compute demands.",
+            "key_takeaways": [
+              "Advertised context window: up to one million tokens.",
+              "Highspeed is claimed to be 2–3× faster.",
+              "Full weights are expected by November 4; benchmarks remain vendor-reported."
+            ],
+            "highlights": [
+              "A 3T-parameter open-weight model, according to Moonshot.",
+              "A faster Highspeed variant is also announced.",
+              "Published performance figures have not been independently validated here."
+            ]
+          },
+          "es": {
+            "title": "Kimi K3.1 Pro apuesta por contexto largo y pesos abiertos",
+            "summary": "Moonshot presenta Kimi K3.1 Pro, un modelo de pesos abiertos de 3 billones de parámetros y una ventana de contexto de un millón de tokens. La variante Highspeed promete ser entre 2 y 3 veces más rápida; la empresa prevé publicar los pesos completos antes del 4 de noviembre. Las cifras de rendimiento difundidas son datos del fabricante y requieren comprobación independiente.",
+            "why_it_matters": "Un modelo de esta escala, con pesos destinados a publicarse, puede ampliar la experimentación en programación y agentes. Su utilidad real dependerá de la licencia, el hardware necesario y las evaluaciones independientes, no solo de los benchmarks de la empresa.",
+            "extended_analysis": "Kimi K3.1 Pro es el nuevo modelo insignia anunciado por Moonshot AI. La compañía lo describe como un sistema de pesos abiertos de 3T de parámetros, con una ventana de contexto de hasta un millón de tokens. También presenta una variante Highspeed, a la que atribuye una velocidad entre dos y tres veces superior.\n\nLa publicación oficial recoge resultados en programación, investigación financiera y tareas con agentes, incluido un 65,7 % en Terminal-Bench 4.0. Son cifras comunicadas por el fabricante: su reproducibilidad dependerá de los pesos publicados, de la metodología completa y de comparaciones independientes. Moonshot anuncia los pesos completos para el 4 de noviembre; ese lanzamiento permitirá evaluar mejor el acceso, el coste de ejecución y la adaptación del modelo.",
+            "context": "Los modelos de pesos abiertos permiten examinar y ejecutar los pesos, siempre dentro de las condiciones de su licencia. Un contexto muy amplio puede ayudar con documentos extensos y procesos de varios pasos, pero también exige más memoria y capacidad de cálculo.",
+            "key_takeaways": [
+              "Contexto anunciado de hasta un millón de tokens.",
+              "Highspeed promete entre 2 y 3 veces más velocidad.",
+              "Los pesos completos se esperan para el 4 de noviembre; los benchmarks son del fabricante."
+            ],
+            "highlights": [
+              "Modelo de pesos abiertos de 3T parámetros, según Moonshot.",
+              "Se anuncia una variante Highspeed.",
+              "Los resultados publicados aún necesitan validación independiente."
+            ]
+          },
+          "zh-CN": {
+            "title": "Kimi K3.1 Pro 将长上下文与开放权重推向新阶段",
+            "summary": "Moonshot 发布 Kimi K3.1 Pro：一款拥有 3 万亿参数、支持 100 万 token 上下文窗口的开放权重模型。公司称 Highspeed 版本速度可提升 2–3 倍，并计划在 11 月 4 日前公开完整权重。现有基准成绩来自厂商公布，仍需独立评测验证。",
+            "why_it_matters": "如果完整权重按计划开放，开发者将有更多机会测试和调整这一模型，用于编程与智能体工作流。实际价值仍取决于许可条款、硬件需求以及独立测试结果。",
+            "extended_analysis": "Moonshot AI 将 Kimi K3.1 Pro 定位为新的旗舰模型。按照官方介绍，它采用开放权重，参数规模为 3T，上下文窗口最高可达 100 万 token。公司还推出 Highspeed 版本，并称其速度是标准版的 2–3 倍。\n\n官方文章公布了编程、金融研究和智能体任务方面的成绩，其中包括 Terminal-Bench 4.0 的 65.7%。这些数字属于厂商披露的数据，是否能复现还要看完整权重、评测方法和第三方对比。Moonshot 表示完整权重预计于 11 月 4 日前发布；届时才能更准确地评估模型的可获得性、运行成本和可定制程度。",
+            "context": "开放权重模型允许开发者在许可范围内检查和运行模型权重。超长上下文有助于处理大型文档和多步骤任务，但通常也会提高内存与计算资源需求。",
+            "key_takeaways": [
+              "官方宣称上下文窗口最高达 100 万 token。",
+              "Highspeed 版本据称快 2–3 倍。",
+              "完整权重预计 11 月 4 日前发布；基准成绩仍待独立验证。"
+            ],
+            "highlights": [
+              "Moonshot 称该模型规模为 3T 参数。",
+              "同时推出 Highspeed 版本。",
+              "目前公布的性能数据来自厂商自身评测。"
+            ]
+          },
+          "de": {
+            "title": "Kimi K3.1 Pro setzt auf langen Kontext und offene Gewichte",
+            "summary": "Moonshot stellt Kimi K3.1 Pro vor: ein Open-Weight-Modell mit 3 Billionen Parametern und einem Kontextfenster von einer Million Tokens. Die Highspeed-Variante soll zwei- bis dreimal schneller sein; die vollständigen Gewichte sollen bis zum 4. November folgen. Die veröffentlichten Benchmarkwerte stammen vom Anbieter und müssen unabhängig überprüft werden.",
+            "why_it_matters": "Ein Modell dieser Größe mit frei verfügbaren Gewichten könnte Experimente mit Coding und Agenten-Workflows erleichtern. Der praktische Nutzen hängt jedoch von Lizenz, Hardwarebedarf und unabhängigen Tests ab – nicht allein von den Benchmarks des Herstellers.",
+            "extended_analysis": "Kimi K3.1 Pro ist das neue Spitzenmodell, das Moonshot AI angekündigt hat. Das Unternehmen beschreibt es als Open-Weight-System mit 3 Billionen Parametern und einem Kontextfenster von bis zu einer Million Tokens. Zusätzlich gibt es eine Highspeed-Version, die laut Anbieter zwei- bis dreimal schneller arbeitet.\n\nDer offizielle Beitrag nennt Ergebnisse für Coding, Finanzrecherche und agentische Aufgaben, darunter 65,7 Prozent auf Terminal-Bench 4.0. Diese Zahlen wurden vom Hersteller veröffentlicht; ihre Reproduzierbarkeit hängt von den verfügbaren Gewichten, der vollständigen Methodik und unabhängigen Vergleichen ab. Moonshot stellt die vollständigen Gewichte bis zum 4. November in Aussicht. Erst dann lassen sich Zugänglichkeit, Betriebskosten und Anpassungsmöglichkeiten besser beurteilen.",
+            "context": "Open-Weight-Modelle erlauben Entwicklern und Organisationen, Gewichte im Rahmen der Lizenz zu prüfen und auszuführen. Ein sehr langes Kontextfenster hilft bei großen Dokumenten und mehrstufigen Aufgaben, erhöht aber auch den Speicher- und Rechenbedarf.",
+            "key_takeaways": [
+              "Angegebenes Kontextfenster: bis zu einer Million Tokens.",
+              "Highspeed soll zwei- bis dreimal schneller sein.",
+              "Vollständige Gewichte bis 4. November angekündigt; Benchmarks sind Anbieterangaben."
+            ],
+            "highlights": [
+              "Laut Moonshot ein Open-Weight-Modell mit 3T Parametern.",
+              "Zusätzliche Highspeed-Variante angekündigt.",
+              "Die veröffentlichten Leistungswerte benötigen unabhängige Bestätigung."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "editorial_override_primary_source",
+        "editorial_model": "AI Pulse Editorial Desk",
+        "editorial_version": 4,
+        "relevance_score": 88,
+        "editor_pick_reason": ""
+      }
+    },
+    "370d8453b070a7bffccc481b1ad8507eb64ebfc9e3d43f800d25d724a2c186ac": {
+      "manual_override": true,
+      "source_url": "https://mistral.ai/news/timestral",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Timestral: modelli compatti per prevedere dati che cambiano nel tempo",
+            "summary": "Mistral presenta Timestral, una famiglia di modelli per previsioni su serie temporali in quattro dimensioni, da 5 a 209 milioni di parametri. L’azienda dichiara risultati ai vertici di benchmark pubblici e inferenza su CPU: l’obiettivo è rendere più accessibili previsioni probabilistiche e multivariate in ambiti come manutenzione, energia e finanza.",
+            "why_it_matters": "Molte decisioni operative dipendono da dati che evolvono nel tempo. Modelli relativamente piccoli, capaci di stimare più variabili e l’incertezza delle previsioni, potrebbero rendere queste tecniche più praticabili anche fuori dai grandi cluster GPU.",
+            "extended_analysis": "Timestral è la prima famiglia di foundation model di Mistral dedicata alle serie temporali. La gamma comprende quattro taglie, da 5 a 209 milioni di parametri, e punta su previsioni probabilistiche e multivariate: non un solo valore futuro, ma una distribuzione di scenari e relazioni tra più segnali.\n\nMistral dichiara il primo posto su GIFT-Eval, TIME e fev-bench per i modelli pre-addestrati valutati in modalità zero-shot. L’azienda indica inoltre tempi di inferenza su CPU standard e l’uso di variabili note in anticipo, come calendari o programmi di produzione. Sono risultati e misure pubblicati dal produttore: per valutarne l’utilità concreta serviranno test sui dati e sui vincoli dei singoli settori.",
+            "context": "Le serie temporali descrivono fenomeni misurati nel tempo: consumi, sensori industriali, domanda, prezzi e metriche operative. Un foundation model pre-addestrato cerca di trasferire schemi appresi da molti dataset a nuove serie, riducendo la necessità di addestrare da zero ogni singolo modello.",
+            "key_takeaways": [
+              "Quattro versioni: 5M, 28M, 123M e 209M parametri.",
+              "Previsioni multivariate e probabilistiche, con variabili passate e future note.",
+              "Mistral dichiara inferenza su CPU e risultati di benchmark da verificare sui casi d’uso reali."
+            ],
+            "highlights": [
+              "Prima famiglia di modelli Timestral di Mistral.",
+              "Progettata per forecasting zero-shot su serie nuove.",
+              "Il produttore pubblica benchmark e tempi CPU."
+            ]
+          },
+          "en": {
+            "title": "Timestral brings compact foundation models to time-series forecasting",
+            "summary": "Mistral introduces Timestral, a family of time-series forecasting models in four sizes, from 5M to 209M parameters. The company reports leading results on public benchmarks and CPU inference, aiming to make probabilistic, multivariate forecasts more practical for areas such as maintenance, energy and finance.",
+            "why_it_matters": "Operational decisions often depend on signals that change over time. Relatively small models that estimate multiple variables and forecast uncertainty could make advanced forecasting more accessible beyond GPU-heavy infrastructure.",
+            "extended_analysis": "Timestral is Mistral’s first family of foundation models designed for time series. It comes in four sizes, from 5M to 209M parameters, and focuses on probabilistic, multivariate forecasts: rather than outputting a single future value, it can estimate a range of outcomes and relationships among signals.\n\nMistral says the models lead GIFT-Eval, TIME and fev-bench among pretrained models evaluated in zero-shot settings. The company also reports CPU inference times and support for known-future inputs such as calendars and production schedules. These are vendor-published claims and measurements; their practical value will need to be tested against the data, latency and reliability requirements of each domain.",
+            "context": "Time series describe measurements over time, including energy use, industrial sensors, demand, prices and operational metrics. A pretrained foundation model aims to transfer patterns learned from many datasets to new series, reducing the need to train a separate model from scratch for every use case.",
+            "key_takeaways": [
+              "Four sizes: 5M, 28M, 123M and 209M parameters.",
+              "Probabilistic, multivariate forecasts with past and known-future covariates.",
+              "Mistral reports CPU inference and benchmark results that still need real-world validation."
+            ],
+            "highlights": [
+              "Mistral’s first Timestral time-series model family.",
+              "Designed for zero-shot forecasting on unseen series.",
+              "The vendor publishes benchmark results and CPU timings."
+            ]
+          },
+          "es": {
+            "title": "Timestral lleva modelos compactos a la predicción de series temporales",
+            "summary": "Mistral presenta Timestral, una familia de modelos para predecir series temporales en cuatro tamaños, de 5 a 209 millones de parámetros. La empresa afirma lograr resultados destacados en benchmarks públicos y ejecutar inferencias en CPU, con el objetivo de facilitar previsiones probabilísticas y multivariantes en mantenimiento, energía y finanzas.",
+            "why_it_matters": "Muchas decisiones operativas dependen de señales que cambian con el tiempo. Modelos relativamente pequeños capaces de estimar varias variables y la incertidumbre podrían acercar estas técnicas a organizaciones sin grandes infraestructuras GPU.",
+            "extended_analysis": "Timestral es la primera familia de modelos fundacionales de Mistral dedicada a las series temporales. Incluye cuatro tamaños, de 5 a 209 millones de parámetros, y se centra en previsiones probabilísticas y multivariantes: no ofrece solo un valor futuro, sino un conjunto de escenarios y relaciones entre señales.\n\nMistral afirma liderar GIFT-Eval, TIME y fev-bench entre los modelos preentrenados evaluados en modo zero-shot. La compañía también publica tiempos de inferencia en CPU y soporte para variables futuras conocidas, como calendarios y planes de producción. Son resultados y mediciones comunicados por el fabricante; su utilidad deberá comprobarse con los datos, la latencia y los requisitos de fiabilidad de cada sector.",
+            "context": "Las series temporales representan mediciones a lo largo del tiempo: consumo energético, sensores industriales, demanda, precios y métricas operativas. Un modelo fundacional preentrenado intenta transferir patrones aprendidos de muchos conjuntos de datos a nuevas series y reducir la necesidad de entrenar un modelo desde cero para cada caso.",
+            "key_takeaways": [
+              "Cuatro tamaños: 5M, 28M, 123M y 209M parámetros.",
+              "Predicciones probabilísticas y multivariantes con variables pasadas y futuras conocidas.",
+              "Mistral publica resultados de benchmarks y tiempos en CPU que deben validarse en casos reales."
+            ],
+            "highlights": [
+              "Primera familia Timestral de Mistral para series temporales.",
+              "Diseñada para predicción zero-shot en series nuevas.",
+              "El fabricante publica benchmarks y tiempos de CPU."
+            ]
+          },
+          "zh-CN": {
+            "title": "Timestral：让轻量模型也能进行时间序列预测",
+            "summary": "Mistral 推出 Timestral 时间序列模型家族，提供 5M 至 209M 参数的四种规格。公司称其在公开基准测试中表现领先，并可在 CPU 上运行，目标是让维护、能源和金融等领域更容易使用概率式、多变量预测。",
+            "why_it_matters": "许多运营决策都依赖随时间变化的数据。能够同时预测多个变量并表达不确定性的轻量模型，有望降低高级预测技术对大型 GPU 基础设施的依赖。",
+            "extended_analysis": "Timestral 是 Mistral 首个专为时间序列设计的基础模型家族，共有四种规格，参数量从 5M 到 209M。它强调概率式、多变量预测：模型不只给出一个未来数值，还尝试描述可能结果的范围以及不同信号之间的关系。\n\nMistral 表示，在预训练模型的 zero-shot 评测中，Timestral 在 GIFT-Eval、TIME 和 fev-bench 上取得领先成绩。公司还公布了 CPU 推理速度，并支持日历、生产计划等已知未来变量。这些属于厂商发布的结果和测量，实际效果仍需结合各行业的数据、延迟和可靠性要求进行验证。",
+            "context": "时间序列是按时间连续记录的数据，例如能源消耗、工业传感器、需求、价格和运营指标。预训练基础模型希望把从大量数据集中学到的规律迁移到新的序列，减少每个场景都从头训练模型的需求。",
+            "key_takeaways": [
+              "提供 5M、28M、123M 和 209M 四种规格。",
+              "支持概率式、多变量预测及已知未来协变量。",
+              "CPU 运行和基准成绩来自厂商公布，仍需真实场景检验。"
+            ],
+            "highlights": [
+              "Mistral 首个时间序列 Timestral 模型家族。",
+              "面向未见过的数据进行 zero-shot 预测。",
+              "官方公布了基准成绩和 CPU 推理时间。"
+            ]
+          },
+          "de": {
+            "title": "Timestral bringt kompakte Foundation-Modelle in die Zeitreihenprognose",
+            "summary": "Mistral stellt Timestral vor, eine Familie von Zeitreihenmodellen in vier Größen von 5 bis 209 Millionen Parametern. Das Unternehmen meldet Spitzenwerte auf öffentlichen Benchmarks und Inferenz auf CPUs. Damit sollen probabilistische Prognosen über mehrere Variablen etwa in Wartung, Energie und Finanzwesen leichter nutzbar werden.",
+            "why_it_matters": "Viele operative Entscheidungen hängen von Signalen ab, die sich laufend verändern. Relativ kleine Modelle, die mehrere Variablen und die Unsicherheit einer Prognose erfassen, könnten fortgeschrittene Vorhersagen auch ohne große GPU-Infrastruktur praktikabler machen.",
+            "extended_analysis": "Timestral ist Mistrals erste Foundation-Model-Familie für Zeitreihen. Sie umfasst vier Größen von 5 bis 209 Millionen Parametern und zielt auf probabilistische Prognosen über mehrere Variablen. Statt nur einen zukünftigen Wert auszugeben, soll das Modell mögliche Szenarien und Beziehungen zwischen Signalen abbilden.\n\nMistral zufolge liegt Timestral bei GIFT-Eval, TIME und fev-bench unter den vortrainierten Zero-Shot-Modellen vorn. Das Unternehmen veröffentlicht außerdem CPU-Laufzeiten und Unterstützung für bekannte zukünftige Eingaben wie Kalender oder Produktionspläne. Diese Ergebnisse und Messwerte stammen vom Anbieter; ihr praktischer Nutzen muss mit den Daten, Latenz- und Zuverlässigkeitsanforderungen der jeweiligen Branche geprüft werden.",
+            "context": "Zeitreihen beschreiben Messwerte im Verlauf der Zeit, etwa Energieverbrauch, Industriesensoren, Nachfrage, Preise und Betriebskennzahlen. Ein vortrainiertes Foundation-Modell soll Muster aus vielen Datensätzen auf neue Reihen übertragen und damit das Training eines separaten Modells für jeden Anwendungsfall verringern.",
+            "key_takeaways": [
+              "Vier Größen: 5M, 28M, 123M und 209M Parameter.",
+              "Probabilistische Prognosen über mehrere Variablen mit vergangenen und bekannten zukünftigen Einflussgrößen.",
+              "CPU-Laufzeiten und Benchmarkwerte sind Herstellerangaben und müssen im Einsatz geprüft werden."
+            ],
+            "highlights": [
+              "Mistrals erste Timestral-Modellfamilie für Zeitreihen.",
+              "Für Zero-Shot-Prognosen auf unbekannten Daten ausgelegt.",
+              "Der Hersteller veröffentlicht Benchmarks und CPU-Zeiten."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "editorial_override_primary_source",
+        "editorial_model": "AI Pulse Editorial Desk",
+        "editorial_version": 4,
+        "relevance_score": 90,
+        "editor_pick_reason": ""
+      }
     }
   },
   "daily": {
