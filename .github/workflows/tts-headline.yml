@@ -1,0 +1,38 @@
+name: AI Pulse - Generate multilingual lead narration
+on:
+  push:
+    branches: [main]
+    paths:
+      - "collector/tts_headline.py"
+      - ".github/workflows/tts-headline.yml"
+  workflow_dispatch:
+concurrency:
+  group: ai-pulse-lead-narration
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install collector dependencies
+        run: pip install -r collector/requirements.txt
+      - name: Generate missing narration assets in all supported languages
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python collector/tts_headline.py
+      - name: Commit narration and feed metadata
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+users.noreply.github.com"
+          git add public/feed.json public/audio/
+          if git diff --cached --quiet; then
+            echo "No new narration assets"
+          else
+            git commit -m "Add multilingual AI Pulse lead narration"
+            git push
+          fi
