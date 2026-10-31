@@ -60,7 +60,66 @@
     },
     "0f01adb2acab0a67ba71c0b077a856b8d5e6ddb0aecdbfc3051cca05fba1e4d6": {
       "fingerprint": "71a6c8b322414740e027339deab6d8b3dc579fc3bed0f0a442bced0626f6ab2a",
-      "retry_after": "2026-10-30T21:56:39.099795+00:00"
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Come OpenAI rileva il disallineamento dei modelli di frontiera",
+            "summary": "OpenAI adotta un monitoraggio stratificato per individuare il disallineamento dei modelli di frontiera e i comportamenti non autorizzati degli agenti. Questo sistema consente ai team di risposta di intervenire tempestivamente prima che gli incidenti si aggravino.",
+            "why_it_matters": "L'implementazione di sistemi di monitoraggio stratificato è cruciale per la sicurezza e la gestione del rischio nei modelli avanzati, offrendo un metodo per prevenire comportamenti imprevisti degli agenti IA.",
+            "highlights": [
+              "Utilizzo di un monitoraggio stratificato per i modelli di frontiera.",
+              "Rilevamento di comportamenti non autorizzati degli agenti IA.",
+              "Intervento tempestivo dei soccorritori prima dell'escalation degli incidenti."
+            ]
+          },
+          "en": {
+            "title": "How OpenAI detects frontier model misalignment",
+            "summary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior. This allows responders to intervene proactively before incidents escalate.",
+            "why_it_matters": "Understanding how frontier models are monitored provides critical insight into managing safety risks and preventing autonomous agent misbehavior in advanced AI systems.",
+            "highlights": [
+              "Employs layered monitoring for frontier models.",
+              "Detects unauthorized agent behavior.",
+              "Enables responder intervention before incident escalation."
+            ]
+          },
+          "es": {
+            "title": "Cómo OpenAI detecta la desalineación de modelos de frontera",
+            "summary": "OpenAI utiliza un monitoreo por capas para detectar la desalineación de los modelos de frontera y el comportamiento no autorizado de los agentes. Esto permite intervenir antes de que los incidentes escalen.",
+            "why_it_matters": "El monitoreo estructurado de los modelos avanzados es vital para mitigar riesgos de seguridad y controlar el comportamiento autónomo de los agentes de IA en entornos de producción.",
+            "highlights": [
+              "Uso de monitoreo por capas en modelos de frontera.",
+              "Detección de comportamiento de agentes no autorizados.",
+              "Intervención de respuesta previa a la escalada de incidentes."
+            ]
+          },
+          "zh-CN": {
+            "title": "OpenAI 如何检测前沿模型不对齐",
+            "summary": "OpenAI 采用分层监控来检测前沿模型的不对齐以及未授权的智能体行为，以便响应人员在事件升级之前进行干预。",
+            "why_it_matters": "分层监控机制对于保障高级AI系统的安全性至关重要，有助于及时控制潜在风险并防止智能体出现未授权行为。",
+            "highlights": [
+              "采用分层监控来检测前沿模型不对齐。",
+              "识别未授权的智能体行为。",
+              "支持在事件升级前由响应人员进行干预。"
+            ]
+          },
+          "de": {
+            "title": "Wie OpenAI die Fehlerausrichtung von Spitzenmodellen erkennt",
+            "summary": "OpenAI nutzt mehrschichtige Überwachung, um die Fehlerausrichtung von Spitzenmodellen und unautorisiertes Agentenverhalten zu erkennen. So können Teams eingreifen, bevor Vorfälle eskalieren.",
+            "why_it_matters": "Mehrschichtige Überwachungsansätze sind entscheidend für die Sicherheitsgovernance fortgeschrittener KI-Systeme, um unvorhergesehenes Verhalten autonomer Agenten frühzeitig zu steuern.",
+            "highlights": [
+              "Einsatz mehrschichtiger Überwachung für Spitzenmodelle.",
+              "Erkennung von unautorisiertem Agentenverhalten.",
+              "Frühzeitiges Eingreifen von Einsatzkräften vor einer Eskalation."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 2,
+        "relevance_score": 75,
+        "editor_pick_reason": ""
+      }
     },
     "d948735545c20cf3072195dbbc120386d43c1319abb3514dc8f0d2f4f07f9bdc": {
       "fingerprint": "3d61b3975dc94a22f541799acd2604c064753d3f5bc457e9eb4067289be3f10b",
@@ -1176,11 +1235,190 @@
         "relevance_score": 45,
         "editor_pick_reason": ""
       }
+    },
+    "1aa70594680b7e71ad22d37b621acb6c827bf1275712e865beb3d2c01e18e18e": {
+      "fingerprint": "c312b6a142b4453bd505ac395ad516d20f0bacd20f1467ea213497bb2a570b74",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Il Data Center Programmabile con Evan Conrad di SF Compute",
+            "summary": "Registrato a margine della Compute Trading track di AIE NYC, questo episodio di Latent Space vede ospite Evan Conrad di SF Compute. Si discute dei primi giorni del cloud e dei parallelismi con il lavoro di Martin Casado.",
+            "why_it_matters": "L'episodio offre spunti interessanti sull'evoluzione delle infrastrutture di calcolo e dei data center, collegando le lezioni del passato del cloud computing al panorama tecnologico odierno.",
+            "highlights": [
+              "Registrato dal vivo durante la Compute Trading track di AIE NYC.",
+              "Ospite Evan Conrad di SF Compute.",
+              "Vengono richiamati i primi giorni del cloud e l'impatto di Martin Casado."
+            ]
+          },
+          "en": {
+            "title": "The Programmable Data Center with Evan Conrad of SF Compute",
+            "summary": "Recorded on the sidelines of the Compute Trading track at AIE NYC, this Latent Space episode features guest Evan Conrad from SF Compute. The discussion touches upon the early days of cloud computing and former guest Martin Casado.",
+            "why_it_matters": "It provides valuable context on computing infrastructure by drawing parallels between early cloud disruptions and current industry developments.",
+            "highlights": [
+              "Recorded at the Compute Trading track at AIE NYC.",
+              "Features guest Evan Conrad from SF Compute.",
+              "References the early days of cloud and former guest Martin Casado."
+            ]
+          },
+          "es": {
+            "title": "El centro de datos programable: Evan Conrad de SF Compute",
+            "summary": "Grabado al margen de la pista Compute Trading en AIE NYC, este episodio de Latent Space cuenta con Evan Conrad de SF Compute como invitado. La conversación aborda los primeros días de la nube y al exinvitado Martin Casado.",
+            "why_it_matters": "Ofrece una perspectiva sobre la evolución de la infraestructura de computación conectando el pasado del cloud computing con el panorama actual.",
+            "highlights": [
+              "Grabado en el evento Compute Trading de AIE NYC.",
+              "Cuenta con la participación de Evan Conrad (SF Compute).",
+              "Menciona los primeros días de la nube y a Martin Casado."
+            ]
+          },
+          "zh-CN": {
+            "title": "可编程数据中心 — 专访 SF Compute 的 Evan Conrad",
+            "summary": "本期节目在 AIE NYC 的 Compute Trading 专场期间录制，Latent Space 邀请了 SF Compute 的 Evan Conrad 作为嘉宾。讨论涉及云计算的早期发展以及前嘉宾 Martin Casado 的相关工作。",
+            "why_it_matters": "通过回顾云计算早期的颠覆性创新，为理解当前计算基础设施的演变提供了背景信息。",
+            "highlights": [
+              "录制于 AIE NYC 的 Compute Trading 专场活动。",
+              "嘉宾为 SF Compute 的 Evan Conrad。",
+              "提及云计算早期阶段及前嘉宾 Martin Casado。"
+            ]
+          },
+          "de": {
+            "title": "Das programmierbare Rechenzentrum mit Evan Conrad von SF Compute",
+            "summary": "Aufgezeichnet am Rande des Compute Trading Track auf der AIE NYC, begrüßt dieser Latent Space Podcast Evan Conrad von SF Compute als Gast. Die Diskussion blickt auf die Anfänge der Cloud und den früheren Gast Martin Casado zurück.",
+            "why_it_matters": "Die Episode beleuchtet die Entwicklung von Rechenzentren und schlägt eine Brücke von den frühen Tagen des Cloud Computings zu heutigen Infrastrukturen.",
+            "highlights": [
+              "Aufgezeichnet beim Compute Trading Track der AIE NYC.",
+              "Zu Gast ist Evan Conrad von SF Compute.",
+              "Bezugnahme auf die Anfänge der Cloud und den früheren Gast Martin Casado."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 2,
+        "relevance_score": 45,
+        "editor_pick_reason": ""
+      }
+    },
+    "649989f895c2f016c528f89e0a80df1e5061c7b8734f1d87da2d669d81784ab5": {
+      "fingerprint": "d3df65cfcb0a2c090247ce9850ca344b1be2abbcbdbfa1cd8b9d08e433cf1f4e",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Lab-in-the-Loop a velocità di calcolo con Ian Quigley di Leash Bio",
+            "summary": "In questo episodio di Latent Space, Ian Quigley di Leash Bio discute il lavoro dell'azienda nel campo del legame proteina-ligando e delle scoperte legate ai dati, facendo riferimento alle competizioni Kaggle e alle loro pubblicazioni su Substack.",
+            "why_it_matters": "Offre uno sguardo sulle sfide reali della ricerca biochimica computazionale e sui limiti attuali nella predizione delle interazioni molecolari, basandosi esclusivamente sui contenuti descritti nei metadata della fonte.",
+            "highlights": [
+              "Discussione sui risultati della competizione Kaggle di Leash Bio riguardo al legame proteina-ligando.",
+              "Analisi delle osservazioni sul legame tra l'autore di una molecola e le scoperte descritte su Substack."
+            ]
+          },
+          "en": {
+            "title": "Lab-in-the-Loop at Compute Speed with Ian Quigley of Leash Bio",
+            "summary": "In this Latent Space episode, Ian Quigley of Leash Bio explores protein-ligand binding challenges, insights from their Kaggle competition, and unusual findings regarding molecule authorship discussed on their Substack.",
+            "why_it_matters": "It provides a direct look into computational biology hurdles and experimental approaches as shared by industry practitioners, strictly reflecting the available metadata description.",
+            "highlights": [
+              "Exploration of protein-ligand binding complexities via Leash Bio's Kaggle competition.",
+              "Insights into molecule authorship findings highlighted on the Leash Bio Substack."
+            ]
+          },
+          "es": {
+            "title": "Lab-in-the-Loop a velocidad de cálculo con Ian Quigley de Leash Bio",
+            "summary": "En este episodio de Latent Space, Ian Quigley de Leash Bio analiza los desafíos de la unión proteína-ligando, su competición en Kaggle y descubrimientos sobre la autoría de moléculas compartidos en su Substack.",
+            "why_it_matters": "Permite conocer las complejidades y debates actuales en la investigación biológica computacional basándose estrictamente en la información proporcionada por la fuente.",
+            "highlights": [
+              "Revisión de los aprendizajes de la competición Kaggle sobre unión proteína-ligando.",
+              "Discusión sobre los hallazgos de autoría de moléculas mencionados en el Substack de Leash Bio."
+            ]
+          },
+          "zh-CN": {
+            "title": "Leash Bio的Ian Quigley谈计算速度下的闭环实验室",
+            "summary": "在本期Latent Space播客中，Leash Bio的Ian Quigley讨论了蛋白质-配体结合的挑战、Kaggle竞赛的结果，以及在其Substack上分享的关于分子作者身份的发现。",
+            "why_it_matters": "该节目基于元数据描述，为读者提供了关于计算生物学中未解难题和实际探索的行业视角。",
+            "highlights": [
+              "探讨Leash Bio的Kaggle竞赛所揭示的蛋白质-配体结合问题。",
+              "提及Substack上关于分子作者身份的意外发现。"
+            ]
+          },
+          "de": {
+            "title": "Lab-in-the-Loop mit Rechengeschwindigkeit — Ian Quigley von Leash Bio",
+            "summary": "In dieser Episode von Latent Space spricht Ian Quigley von Leash Bio über Protein-Ligand-Bindung, Einblicke aus ihrem Kaggle-Wettbewerb und Entdeckungen zur Autorschaft von Molekülen auf ihrem Substack.",
+            "why_it_matters": "Es bietet einen Einblick in die realen Herausforderungen der computergestützten Biologie und stützt sich dabei ausschließlich auf die bereitgestellten Metadaten.",
+            "highlights": [
+              "Besprechung der Erkenntnisse aus dem Kaggle-Wettbewerb von Leash Bio zur Protein-Ligand-Bindung.",
+              "Einblicke in die auf dem Substack diskutierten Beobachtungen zur Molekülautorschaft."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 2,
+        "relevance_score": 65,
+        "editor_pick_reason": ""
+      }
+    },
+    "f9593f1f67353de2f728dd5c595da22f9155dfd8d38b1eef10f476519b7fafdb": {
+      "fingerprint": "a644b4a02e584d4c75b44b53fa4bd5e5f03d1568e38697975e1dcbfae8af5af0",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Nautilus Trader: motore di trading in Rust",
+            "summary": "Nautilus Trader è un motore di trading di livello di produzione scritto in Rust. Presenta un'architettura deterministica basata su eventi.",
+            "why_it_matters": "Offre agli sviluppatori un'infrastruttura ad alte prestazioni per il trading algoritmico, basata su dichiarazioni del progetto.",
+            "highlights": [
+              "Motore di trading nativo in Rust di livello di produzione",
+              "Architettura deterministica basata su eventi"
+            ]
+          },
+          "en": {
+            "title": "Nautilus Trader: Production-Grade Rust Trading Engine",
+            "summary": "Nautilus Trader is a production-grade, Rust-native trading engine designed with a deterministic event-driven architecture.",
+            "why_it_matters": "It provides practitioners with a high-performance infrastructure for algorithmic trading systems, based on project specifications.",
+            "highlights": [
+              "Production-grade Rust-native trading engine",
+              "Deterministic event-driven architecture"
+            ]
+          },
+          "es": {
+            "title": "Nautilus Trader: motor de trading nativo en Rust",
+            "summary": "Nautilus Trader es un motor de trading de nivel de producción nativo en Rust. Cuenta con una arquitectura determinista basada en eventos.",
+            "why_it_matters": "Proporciona una infraestructura de alto rendimiento para el desarrollo de sistemas de trading algorítmico, según el proyecto.",
+            "highlights": [
+              "Motor de trading nativo en Rust de nivel de producción",
+              "Arquitectura determinista basada en eventos"
+            ]
+          },
+          "zh-CN": {
+            "title": "Nautilus Trader：生产级 Rust 交易引擎",
+            "summary": "Nautilus Trader 是一个采用 Rust 原生编写的生产级交易引擎。它具备确定性的事件驱动架构。",
+            "why_it_matters": "该项目为算法交易开发者提供了高性能的基础架构支持，具体效果取决于项目自身的实现。",
+            "highlights": [
+              "生产级 Rust 原生交易引擎",
+              "确定性的事件驱动架构"
+            ]
+          },
+          "de": {
+            "title": "Nautilus Trader: Produktionsreife Rust-Trading-Engine",
+            "summary": "Nautilus Trader ist eine produktionsreife, in Rust entwickelte Trading-Engine mit einer deterministischen ereignisgesteuerten Architektur.",
+            "why_it_matters": "Sie bietet Entwicklern eine leistungsstarke Infrastruktur für algorithmische Handelssysteme basierend auf den Projektangaben.",
+            "highlights": [
+              "Produktionsreife, in Rust native Trading-Engine",
+              "Deterministische ereignisgesteuerte Architektur"
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 2,
+        "relevance_score": 45,
+        "editor_pick_reason": ""
+      }
     }
   },
   "daily": {
     "date": "2026-10-31",
-    "count": 4,
+    "count": 8,
     "picks": 0
   }
 }
