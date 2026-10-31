@@ -422,6 +422,12 @@ def enrich_records(records):
         if item_type in by_type:
             by_type[item_type].append(candidate)
 
+    # Give priority to original-source stories discovered through the creator radar.
+    # Their creator videos themselves never enter the publication queue.
+    by_type["news"].sort(
+        key=lambda pair: 0 if pair[0].get("sourceKind") == "primary_source" else 1
+    )
+
     remaining_daily = max(0, EDITORIAL_DAILY_LIMIT - int(daily.get("count", 0)))
     remaining_run = min(EDITORIAL_MAX_PER_RUN, remaining_daily)
     podcast_slots = min(len(by_type["speak_up"]), (remaining_run + 1) // 2)
