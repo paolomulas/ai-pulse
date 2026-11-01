@@ -1714,87 +1714,87 @@
       }
     },
     "a8bcc94757865ea6767f8b61432c2610e5d45166e88133f8c706d8d2eb0e723d": {
-      "fingerprint": "19611985533a51908e3423bca81720c7cb2176e05d31e8eeeadf554c29ad7bfa",
+      "fingerprint": "24fd7a9b67a18d7e1083abfda71fa8163bec2cbd3411b147d3cef4297482ee11",
       "editorial": {
         "editorial": {
           "it": {
-            "title": "Creare ChatGPT per la finanza con Joseph Kim di OpenAI",
-            "summary": "In questo episodio di Latent Space, Joseph Kim, responsabile dei servizi finanziari di OpenAI, discute della creazione di strumenti simili a ChatGPT dedicati al settore finanziario.",
-            "why_it_matters": "Comprendere come OpenAI affronta settori altamente regolamentati come quello finanziario offre spunti importanti sulle future applicazioni verticali dell'intelligenza artificiale.",
-            "extended_analysis": "La descrizione fornita per questo episodio è estremamente sintetica e non offre dettagli tecnici o approfondimenti specifici sui contenuti discussi. Di conseguenza, l'analisi rimane limitata alle informazioni disponibili nel titolo e nei metadati ufficiali.\n\nGli ascoltatori interessati al settore fintech e all'adozione aziendale dell'intelligenza artificiale possono comunque esplorare il canale di Latent Space per seguire il dibattito completo guidato da Joseph Kim.",
-            "context": "Il settore finanziario rappresenta uno dei banchi di prova più complessi per l'adozione dell'intelligenza artificiale generativa, a causa di rigorosi standard di conformità, sicurezza dei dati e necessità di accuratezza.",
+            "title": "Costruire ChatGPT per la finanza con Joseph Kim di OpenAI",
+            "summary": "In questo episodio di Latent Space, Joseph Kim, responsabile dei servizi finanziari di OpenAI, discute dello sviluppo di ChatGPT per il settore finanziario.",
+            "why_it_matters": "Comprendere come OpenAI affronta i mercati finanziari offre spunti preziosi sull'adozione dell'intelligenza artificiale nei settori regolamentati.",
+            "extended_analysis": "La descrizione fornita è estremamente sintetica e non offre dettagli tecnici o approfondimenti specifici sui contenuti discussi nell'episodio. I metadati disponibili menzionano unicamente la partecipazione di Joseph Kim in qualità di Head of Financial Services di OpenAI.\n\nIn attesa di ulteriori informazioni o di una descrizione estesa, l'analisi rimane limitata alle premesse tematiche dell'incontro. Gli ascoltatori possono esplorare l'episodio completo tramite i canali ufficiali indicati nei metadati per comprendere appieno la visione di OpenAI.",
+            "context": "L'integrazione dell'intelligenza artificiale nei servizi finanziari rappresenta un'area di forte interesse e di complessa regolamentazione a livello globale.",
             "key_takeaways": [
-              "L'episodio vede la partecipazione di Joseph Kim, Head of Financial Services di OpenAI.",
-              "Il tema centrale è la costruzione di soluzioni basate su ChatGPT per il settore finanziario.",
-              "Il dibattito è ospitato da Latent Space ed è disponibile integralmente su YouTube."
+              "Ospite dell'episodio è Joseph Kim, Head of Financial Services di OpenAI.",
+              "Il focus principale della conversazione è la costruzione e l'applicazione di ChatGPT nella finanza.",
+              "La descrizione disponibile è estremamente limitata e richiede l'ascolto diretto per i dettagli."
             ],
             "highlights": [
-              "Ospite: Joseph Kim, OpenAI Head of Financial Services",
-              "Piattaforma: Latent Space"
+              "Intervista a Joseph Kim di OpenAI.",
+              "Discussione sullo sviluppo di soluzioni finanziarie basate su IA."
             ]
           },
           "en": {
             "title": "Building ChatGPT for Finance with OpenAI's Joseph Kim",
-            "summary": "In this Latent Space episode, Joseph Kim, OpenAI's Head of Financial Services, discusses the development of ChatGPT-like tools tailored for the financial sector.",
-            "why_it_matters": "Understanding how OpenAI approaches highly regulated industries like finance provides vital insight into the future of vertical AI applications and enterprise adoption.",
-            "extended_analysis": "The available description for this podcast episode is minimal, offering no specific technical details, benchmarks, or explicit claims from the discussion. Therefore, the presentation remains cautious and strictly tied to the provided metadata.\n\nThose following enterprise AI deployment in finance can watch the full conversation on Latent Space to explore how OpenAI's financial services strategy is unfolding.",
-            "context": "The financial services sector is one of the most challenging environments for generative AI integration, driven by strict compliance requirements, rigorous data privacy mandates, and high demands for accuracy.",
+            "summary": "In this Latent Space episode, Joseph Kim, OpenAI's Head of Financial Services, discusses building ChatGPT for the financial sector.",
+            "why_it_matters": "Understanding how OpenAI approaches financial markets provides valuable insight into AI adoption within heavily regulated industries.",
+            "extended_analysis": "The provided metadata description is exceptionally brief and lacks specific technical details, benchmarks, or concrete claims regarding the episode's contents. Consequently, analysis is strictly limited to the stated role of the guest, Joseph Kim, leading Financial Services at OpenAI.\n\nWithout further descriptive evidence, listeners must rely on the primary source to evaluate the specific projects and strategies discussed. Further updates will depend on more comprehensive source information.",
+            "context": "The deployment of generative artificial intelligence in finance requires navigating rigorous compliance, security, and institutional adoption standards.",
             "key_takeaways": [
-              "Features Joseph Kim, Head of Financial Services at OpenAI.",
-              "Focuses on developing ChatGPT use cases and solutions for finance.",
-              "Hosted by Latent Space and accessible via their official channels."
+              "Featuring Joseph Kim, OpenAI's Head of Financial Services.",
+              "Exploring the development and adaptation of ChatGPT for finance.",
+              "The source description is insufficient for detailed technical claims."
             ],
             "highlights": [
-              "Guest: Joseph Kim, OpenAI Head of Financial Services",
-              "Podcast: Latent Space"
+              "Discussion led by Joseph Kim from OpenAI.",
+              "Focus on financial services applications."
             ]
           },
           "es": {
             "title": "Construyendo ChatGPT para finanzas con Joseph Kim de OpenAI",
-            "summary": "En este episodio de Latent Space, Joseph Kim, jefe de servicios financieros de OpenAI, analiza el desarrollo de herramientas similares a ChatGPT para el sector financiero.",
-            "why_it_matters": "Comprender cómo OpenAI aborda sectores altamente regulados como el financiero ofrece perspectivas clave sobre las futuras aplicaciones verticales de la inteligencia artificial.",
-            "extended_analysis": "La descripción provista para este episodio es muy limitada y no contiene detalles técnicos, métricas ni afirmaciones específicas. Por lo tanto, esta presentación se mantiene cautelosa y basada estrictamente en los metadatos.\n\nLos interesados en la adopción empresarial de la IA en la industria financiera pueden seguir la entrevista completa en Latent Space para conocer más sobre las iniciativas de OpenAI en este ámbito.",
-            "context": "El sector financiero representa un banco de pruebas complejo para la inteligencia artificial generativa debido a las estrictas normativas de cumplimiento, la seguridad de los datos y la precisión requerida.",
+            "summary": "En este episodio de Latent Space, Joseph Kim, jefe de servicios financieros de OpenAI, analiza la creación de ChatGPT para el sector financiero.",
+            "why_it_matters": "Comprender cómo OpenAI aborda los mercados financieros ofrece una perspectiva clave sobre la adopción de la IA en sectores regulados.",
+            "extended_analysis": "La descripción provista es muy escueta y no ofrece detalles técnicos, métricas ni afirmaciones específicas sobre el contenido del episodio. Los metadatos disponibles se limitan a identificar la presencia de Joseph Kim como responsable de servicios financieros en OpenAI.\n\nA falta de una sinopsis más detallada, se recomienda acudir a la fuente principal para conocer los puntos exactos tratados durante la conversación. La prudencia editorial exige no extrapolar más allá de los datos proporcionados.",
+            "context": "La incorporación de la inteligencia artificial generativa en las finanzas plantea importantes retos normativos, de seguridad y operativos.",
             "key_takeaways": [
-              "Cuenta con la participación de Joseph Kim, Head of Financial Services de OpenAI.",
-              "Aborda la creación de soluciones basadas en ChatGPT orientadas a las finanzas.",
-              "Producido y presentado por Latent Space."
+              "Participación de Joseph Kim, Head of Financial Services en OpenAI.",
+              "Enfoque en el desarrollo de ChatGPT para el ámbito financiero.",
+              "La información disponible es limitada y requiere consultar la fuente directa."
             ],
             "highlights": [
-              "Invitado: Joseph Kim, OpenAI Head of Financial Services",
-              "Canal: Latent Space"
+              "Entrevista con Joseph Kim de OpenAI.",
+              "Análisis de aplicaciones financieras basadas en inteligencia artificial."
             ]
           },
           "zh-CN": {
-            "title": "与OpenAI约瑟夫·金探讨为金融领域构建ChatGPT",
-            "summary": "在Latent Space的这期节目中，OpenAI金融服务负责人约瑟夫·金（Joseph Kim）探讨了为金融行业打造类ChatGPT工具的相关开发工作。",
-            "why_it_matters": "了解OpenAI如何切入金融等高度监管的行业，对于洞察垂直领域人工智能的未来应用与企业落地具有重要价值。",
-            "extended_analysis": "本期播客的官方描述非常简短，未提供具体的技术细节、基准测试或明确声明。因此，本介绍保持审慎，严格基于元数据呈现。\n\n关注企业级人工智能部署的读者可以通过Latent Space收看完整节目，了解OpenAI在金融服务领域的战略方向。",
-            "context": "由于严格的合规标准、数据安全要求以及对准确性的极高标准，金融服务行业一直是生成式人工智能落地最具挑战性的领域之一。",
+            "title": "与OpenAI的Joseph Kim一起构建金融版ChatGPT",
+            "summary": "在本期Latent Space播客中，OpenAI金融服务负责人Joseph Kim探讨了为金融行业构建ChatGPT的相关内容。",
+            "why_it_matters": "了解OpenAI如何切入金融市场，为了解人工智能在受监管高度严格的行业中的应用提供了重要窗口。",
+            "extended_analysis": "当前提供的元数据描述极为简短，未包含具体的Технические细节、基准测试或实质性声明。现有信息仅确认了嘉宾Joseph Kim及其在OpenAI担任金融服务负责人的身份。\n\n由于缺乏更详细的背景介绍，建议读者通过官方渠道收听完整节目以获取准确内容。在没有更多证据之前，本期内容将保持谨慎的解读态度。",
+            "context": "生成式人工智能在金融领域的落地需要应对严苛的合规、安全和机构应用标准。",
             "key_takeaways": [
-              "嘉宾为OpenAI金融服务负责人约瑟夫·金。",
-              "核心讨论围绕面向金融领域的ChatGPT解决方案展开。",
-              "节目由Latent Space制作并播出。"
+              "特邀嘉宾为OpenAI金融服务负责人Joseph Kim。",
+              "聚焦于面向金融领域的ChatGPT开发与应用。",
+              "源描述信息不足，具体内容需参考完整节目。"
             ],
             "highlights": [
-              "嘉宾：Joseph Kim（OpenAI金融服务负责人）",
-              "节目来源：Latent Space"
+              "访谈嘉宾：OpenAI的Joseph Kim。",
+              "探讨金融服务领域的AI应用。"
             ]
           },
           "de": {
-            "title": "ChatGPT für die Finanzbranche bauen mit Joseph Kim von OpenAI",
-            "summary": "In dieser Episode von Latent Space spricht Joseph Kim, Head of Financial Services bei OpenAI, über die Entwicklung von ChatGPT-basierten Werkzeugen für den Finanzsektor.",
-            "why_it_matters": "Zu verstehen, wie OpenAI stark regulierte Branchen wie das Finanzwesen angeht, liefert wichtige Einblicke in die Zukunft vertikaler KI-Anwendungen.",
-            "extended_analysis": "Die Beschreibung für diese Podcast-Episode ist äußerst knapp gehalten und enthält keine spezifischen technischen Details oder konkreten Aussagen. Daher bleibt diese Präsentation vorsichtig und beschränkt sich auf die verfügbaren Metadaten.\n\nInteressierte Hörer können das vollständige Gespräch auf Latent Space verfolgen, um mehr über die Ansätze von OpenAI im Finanzbereich zu erfahren.",
-            "context": "Der Finanzsektor gilt aufgrund strenger Compliance-Vorgaben, hoher Datenschutzanforderungen und des Bedarfs an extremer Genauigkeit als eine der anspruchsvollsten Domänen für generative KI.",
+            "title": "ChatGPT für das Finanzwesen entwickeln mit Joseph Kim von OpenAI",
+            "summary": "In dieser Episode von Latent Space spricht Joseph Kim, Head of Financial Services bei OpenAI, über die Entwicklung von ChatGPT für die Finanzbranche.",
+            "why_it_matters": "Zu verstehen, wie sich OpenAI im Finanzmarkt positioniert, gibt Einblicke in die KI-Adoption in streng regulierten Branchen.",
+            "extended_analysis": "Die bereitgestellte Beschreibung ist äußerst knapp gehalten und enthält keine spezifischen technischen Details, Benchmarks oder konkreten Aussagen zum Inhalt der Episode. Die verfügbaren Metadaten beschränken sich auf die Nennung des Gasts Joseph Kim in seiner Funktion bei OpenAI.\n\nDa keine weiteren Hintergrundinformationen vorliegen, empfiehlt sich ein Blick in die Originalquelle, um die genauen Gesprächsthemen nachzuvollziehen. Eine weitergehende Analyse ist zum aktuellen Zeitpunkt spekulativ.",
+            "context": "Der Einsatz von generativer künstlicher Intelligenz im Finanzsektor erfordert die Bewältigung strenger Compliance- und Sicherheitsanforderungen.",
             "key_takeaways": [
               "Zu Gast ist Joseph Kim, Head of Financial Services bei OpenAI.",
-              "Im Mittelpunkt steht die Entwicklung von ChatGPT-Anwendungen für das Finanzwesen.",
-              "Präsentiert von Latent Space."
+              "Im Mittelpunkt steht die Entwicklung von ChatGPT für den Finanzsektor.",
+              "Die Quellenbeschreibung ist unvollständig; Details erfordern das Hören der Episode."
             ],
             "highlights": [
-              "Gast: Joseph Kim, OpenAI Head of Financial Services",
-              "Podcast: Latent Space"
+              "Gespräch mit Joseph Kim von OpenAI.",
+              "Fokus auf Finanzdienstleistungen und KI."
             ]
           }
         },
@@ -1802,7 +1802,7 @@
         "editorial_status": "verified",
         "editorial_model": "gemini-3.5-flash-lite",
         "editorial_version": 4,
-        "relevance_score": 40,
+        "relevance_score": 35,
         "editor_pick_reason": ""
       }
     },
@@ -2096,11 +2096,290 @@
         "relevance_score": 90,
         "editor_pick_reason": ""
       }
+    },
+    "bc32ee57928887741a94f66adee5c27d0c2aa314f04da91e4afe0e48376ec724": {
+      "fingerprint": "807a34dc999a6772a27bcad7af183273c961b5a1bbcf44f640662c1d0ab4e5f2",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Agenti IA nel settore finanziario: l'esperienza di Arca",
+            "summary": "In questo episodio di Latent Space, registrato ad AI Engineer New York, Aman Singh di Arca discute con Richard MacManus la costruzione di una società di gestione patrimoniale nativa per l'IA. Vengono esplorate l'architettura tecnica di Arca, inclusi un harness personalizzato e sistemi di persistenza.",
+            "why_it_matters": "Comprendere come le aziende finanziarie stiano integrando agenti autonomi per attività a lungo termine offre uno sguardo concreto sul futuro dell'automazione nel settore patrimoniale.",
+            "extended_analysis": "L'episodio approfondisce la trasformazione digitale del settore finanziario attraverso l'uso di agenti IA capaci di gestire flussi di lavoro complessi e prolungati. Aman Singh condivide i dettagli tecnici dell'infrastruttura di Arca, evidenziando le sfide e le soluzioni architetturali adottate.\n\nSebbene i dettagli descritti offrano una prospettiva interessante, la descrizione disponibile rimane limitata. Gli ascoltatori dovranno valutare autonomamente l'effettiva scalabilità e l'affidabilità di tali soluzioni rispetto ai metodi tradizionali.",
+            "context": "Il panorama della gestione patrimoniale sta esplorando nuove frontiere grazie all'automazione avanzata, sebbene l'adozione di agenti a lungo termine richieda rigorosi test di sicurezza e affidabilità operativa.",
+            "key_takeaways": [
+              "Come Arca sta costruendo una società di gestione patrimoniale nativa per l'IA.",
+              "I dettagli dell'architettura personalizzata, inclusi harness e persistenza.",
+              "Il confronto tra i requisiti dei flussi di lavoro finanziari e le capacità attuali degli agenti."
+            ],
+            "highlights": [
+              "Ospite Aman Singh di Arca in conversazione con Richard MacManus di Latent Space.",
+              "Registrato in occasione della conferenza AI Engineer New York."
+            ]
+          },
+          "en": {
+            "title": "Using Agents for Long-Horizon Financial Work with Aman Singh",
+            "summary": "In this episode from AI Engineer New York, Arca's head of AI Aman Singh joins Latent Space editorial head Richard MacManus. They discuss how Arca is building an AI-native wealth management firm, detailing their custom harness and persistence architecture.",
+            "why_it_matters": "Examining how financial institutions implement autonomous agents for extended workflows highlights both the potential and architectural challenges of AI-native operations.",
+            "extended_analysis": "The conversation explores the structural shift toward AI-native financial services by examining Arca's specific technical approach. Singh outlines the underlying architecture, shedding light on custom engineering choices designed to handle complex wealth management tasks.\n\nGiven the concise nature of the provided metadata, readers should note that claims regarding architecture efficacy reflect the speakers' perspectives rather than independently verified benchmarks.",
+            "context": "Financial technology increasingly looks toward agentic systems to streamline complex operations, though long-horizon execution remains an evolving engineering challenge.",
+            "key_takeaways": [
+              "Insights into building an AI-native wealth management firm.",
+              "Exploration of Arca's custom harness and persistence architecture.",
+              "Discussion on managing long-horizon workflows using AI agents."
+            ],
+            "highlights": [
+              "Featuring Aman Singh, head of AI at Arca.",
+              "Hosted by Richard MacManus, head of editorial at Latent Space."
+            ]
+          },
+          "es": {
+            "title": "Agentes para trabajos financieros a largo plazo con Aman Singh",
+            "summary": "En este episodio de Latent Space desde AI Engineer New York, Aman Singh de Arca conversa con Richard MacManus sobre la creación de una firma de gestión patrimonial nativa de IA. Se detalla la arquitectura técnica de Arca, incluyendo un arnés personalizado y persistencia.",
+            "why_it_matters": "Analizar la implementación de agentes autónomos en el sector financiero permite entender los retos arquitectónicos de llevar la IA a flujos de trabajo complejos y prolongados.",
+            "extended_analysis": "La discusión se centra en la transformación operativa del sector financiero mediante el uso de arquitecturas diseñadas a medida. Singh explica cómo su equipo aborda los retos de la gestión patrimonial utilizando sistemas avanzados de IA.\n\nDado que la información disponible en los metadatos es limitada, es importante interpretar las declaraciones como perspectivas del proyecto y no como pruebas de rendimiento verificadas de forma independiente.",
+            "context": "La automatización financiera avanza hacia el uso de agentes autónomos, un campo donde la persistencia y la gestión de tareas a largo plazo son áreas clave de desarrollo técnico.",
+            "key_takeaways": [
+              "Cómo se diseña una gestora patrimonial nativa de IA.",
+              "Detalles sobre el arnés personalizado y la arquitectura de persistencia de Arca.",
+              "Perspectivas sobre la ejecución de tareas financieras prolongadas."
+            ],
+            "highlights": [
+              "Con la participación de Aman Singh, director de IA en Arca.",
+              "Presentado por Richard MacManus de Latent Space en AI Engineer New York."
+            ]
+          },
+          "zh-CN": {
+            "title": "利用智能体处理长期金融工作：对话Aman Singh",
+            "summary": "在纽约AI工程师大会上，Arca的AI负责人Aman Singh做客Latent Space，与编辑负责人Richard MacManus共同探讨Arca如何打造一家原生AI财富管理公司，并分享了其定制测试框架与持久化架构。",
+            "why_it_matters": "了解金融机构如何将自主智能体应用于长期工作流，有助于洞察原生AI运营的实际架构挑战与潜力。",
+            "extended_analysis": "本期节目探讨了金融服务向AI原生转型的具体实践。Aman Singh详细介绍了Arca的技术架构，展示了团队如何通过定制化工程来应对复杂的财富管理任务。\n\n由于元数据信息简明，读者在评估相关架构时应注意，这些内容反映了项目方的实践与观点，而非经过独立测试验证的基准数据。",
+            "context": "金融科技正逐步探索智能体在复杂流程中的应用，而如何确保长期工作流的稳定执行仍是当前的工程重点。",
+            "key_takeaways": [
+              "了解构建原生AI财富管理公司的实践经验。",
+              "探讨Arca的定制 harness 与持久化架构细节。",
+              "分析使用AI智能体处理长期金融任务的挑战。"
+            ],
+            "highlights": [
+              "嘉宾为Arca AI负责人Aman Singh。",
+              "由Latent Space编辑负责人Richard MacManus主持。"
+            ]
+          },
+          "de": {
+            "title": "Agenten für langfristige Finanzarbeit mit Aman Singh von Arca",
+            "summary": "In dieser Episode von Latent Space, aufgenommen auf der AI Engineer New York, spricht Arca-KI-Chef Aman Singh mit Richard MacManus über den Aufbau einer KI-nativen Vermögensverwaltung. Im Fokus stehen Arcas Architektur, ein eigener Harness und Persistenz.",
+            "why_it_matters": "Die Untersuchung, wie Finanzinstitute autonome Agenten für längere Arbeitsabläufe einsetzen, verdeutlicht die architektonischen Herausforderungen und Ansätze von KI-nativen Abläufen.",
+            "extended_analysis": "Das Gespräch beleuchtet den strukturellen Wandel hin zu KI-gestützten Finanzdienstleistungen anhand von Arcas technischem Ansatz. Singh erläutert die zugrundeliegende Architektur und gibt Einblicke in kundenspezifische Engineering-Entscheidungen.\n\nAngesichts der begrenzten Metadaten sollten die geschilderten Architekturen als Projektbeschreibungen der Gäste und nicht als unabhängig verifizierte Benchmarks verstanden werden.",
+            "context": "Die Finanztechnologie setzt zunehmend auf agentenbasierte Systeme, wobei die zuverlässige Ausführung langfristiger Aufgaben weiterhin ein zentrales Entwicklungsfeld darstellt.",
+            "key_takeaways": [
+              "Einblicke in den Aufbau einer KI-nativen Vermögensverwaltungsfirma.",
+              "Details zu Arcas benutzerdefiniertem Harness und der Persistenzarchitektur.",
+              "Diskussion über die Bewältigung langfristiger Finanz-Workflows."
+            ],
+            "highlights": [
+              "Mit Aman Singh, Head of AI bei Arca.",
+              "Moderiert von Richard MacManus (Latent Space) auf der AI Engineer New York."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 45,
+        "editor_pick_reason": ""
+      }
+    },
+    "ac3db777f5aac1cf97986b034f59b4c3bba5699e627acc03ae32695b1a5719b2": {
+      "fingerprint": "fb0827184ca63cb0e586543cebd56a0baa1f591f122cade86e769e77990c4a33",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "TV-Detox: ringiovanire le vecchie Android TV con l'IA",
+            "summary": "Un nuovo progetto open source su GitHub intende velocizzare le vecchie Android TV rimuovendo bloatware, pubblicità e sezioni sponsorizzate. Sfruttando assistenti di codifica come Claude Code o Codex, il sistema promette di ripristinare una schermata iniziale pulita e priva di distrazioni.",
+            "why_it_matters": "La soluzione offre agli utenti un metodo basato sull'intelligenza artificiale per recuperare vecchi dispositivi hardware, eliminando le interfacce sovraccariche e pesanti dei produttori.",
+            "extended_analysis": "Il progetto tv-detox mira a risolvere il problema della obsolescenza percepita dei dispositivi smart TV attraverso l'automazione guidata dall'IA. Con l'ausilio di prompt specifici e strumenti come Claude Code o Codex, gli utenti possono interagire con il proprio televisore tramite la rete Wi-Fi locale.\n\nLa procedura punta a disattivare le applicazioni superflue e le righe sponsorizzate anziché rimuoverle definitivamente, riducendo i rischi di blocco del sistema. Viene fornito anche un meccanismo di ripristino per annullare le modifiche in caso di problemi operativi.",
+            "context": "Le interfacce moderne delle smart TV sono spesso appesantite da contenuti pubblicitari e applicazioni preinstallate che rallentano le prestazioni dei modelli meno recenti, spingendo verso la sostituzione prematura dell'hardware.",
+            "key_takeaways": [
+              "Il progetto elimina pubblicità e bloatware dalle vecchie Android TV.",
+              "Utilizza assistenti di codifica come Claude Code o Codex per gestire il processo.",
+              "Disattiva le app indesiderate invece di disinstallarle, garantendo una funzione di ripristino."
+            ],
+            "highlights": [
+              "Creazione di una schermata iniziale essenziale con sole app, ingressi HDMI e orologio.",
+              "Interazione tramite laptop sulla stessa rete Wi-Fi con abilitazione del debug USB."
+            ]
+          },
+          "en": {
+            "title": "Reviving Old Android TVs with AI and Clean Interfaces",
+            "summary": "A new GitHub project called tv-detox aims to speed up sluggish Android TVs by stripping away ads, bloatware, and sponsored rows. Using AI coding assistants like Claude Code or Codex, the project provides a minimalist, ad-free home screen.",
+            "why_it_matters": "It demonstrates a practical application of AI agents for hardware optimization, giving consumers a way to reclaim performance on older devices choked by heavy vendor interfaces.",
+            "extended_analysis": "The tv-detox repository leverages conversational coding tools to automate the cleanup of resource-heavy television interfaces. By connecting a laptop to the TV over local Wi-Fi, users can prompt assistants to manage system packages safely.\n\nThe framework intentionally disables rather than uninstalls packages to prevent permanent damage, while including safety warnings about potential firmware quirks on specific brand models.",
+            "context": "Consumer smart televisions frequently suffer from interface bloat and targeted advertising that degrade performance over time, limiting the usable lifespan of otherwise functional hardware.",
+            "key_takeaways": [
+              "Removes ads and sponsored content from legacy Android TV units.",
+              "Relies on AI tools like Claude Code or Codex for automated execution.",
+              "Employs a safe disable approach with undo capabilities rather than hard deletions."
+            ],
+            "highlights": [
+              "Delivers a stripped-down home screen featuring only apps, inputs, and a clock.",
+              "Requires developer mode, USB debugging, and a shared local Wi-Fi connection."
+            ]
+          },
+          "es": {
+            "title": "TV-Detox: revitaliza viejos Android TV con la ayuda de la IA",
+            "summary": "Un proyecto alojado en GitHub busca acelerar Android TV antiguos eliminando la publicidad y el software innecesario. Mediante el uso de asistentes como Claude Code o Codex, se genera una pantalla de inicio minimalista y sin anuncios.",
+            "why_it_matters": "Permite a los usuarios prolongar la vida útil de su hardware antiguo mediante la automatización de tareas complejas de limpieza de sistemas mediante inteligencia artificial.",
+            "extended_analysis": "La herramienta utiliza la automatización impulsada por IA para simplificar las interfaces de televisión sobrecargadas. Con comandos sencillos y una conexión Wi-Fi compartida, el asistente ayuda a desactivar aplicaciones innecesarias.\n\nEl sistema opta por la desactivación de paquetes en lugar de su eliminación definitiva para mitigar riesgos técnicos, ofreciendo además vías de reversión en caso de fallos en el arranque.",
+            "context": "Las pantallas inteligentes actuales suelen integrar capas de software pesadas y anuncios persistentes que reducen la fluidez de los dispositivos con el paso de los años.",
+            "key_takeaways": [
+              "Elimina bloatware y filas patrocinadas de televisores antiguos.",
+              "Integra herramientas de programación de IA para guiar el proceso.",
+              "Desactiva las apps en lugar de borrarlas para evitar fallos graves."
+            ],
+            "highlights": [
+              "Ofrece una interfaz limpia centrada en aplicaciones, entradas HDMI y reloj.",
+              "Requiere depuración USB activada y un ordenador en la misma red."
+            ]
+          },
+          "zh-CN": {
+            "title": "利用AI与精简界面为旧款Android TV提速",
+            "summary": "GitHub上的一个新项目旨在通过清除广告、臃肿软件和赞助内容来加速运行缓慢的旧款Android TV。借助Claude Code或Codex等AI编程助手，用户可以获得一个精简且无广告的主屏幕。",
+            "why_it_matters": "它展示了AI代理在硬件优化方面的实际应用，帮助消费者恢复因沉重厂商界面而变慢的旧设备性能。",
+            "extended_analysis": "tv-detox项目利用对话式编码工具来自动化清理资源消耗严重的电视界面。通过在本地Wi-Fi网络下将笔记本电脑连接到电视，用户可以提示助手安全地管理系统软件包。\n\n该框架刻意采用禁用而非卸载软件包的策略以防止永久性损坏，同时针对特定品牌型号的固件特性附带了安全警告。",
+            "context": "消费级智能电视经常受到界面臃肿和定向广告的困扰，这些因素随着时间的推移会降低性能，从而缩短本可正常使用硬件的寿命。",
+            "key_takeaways": [
+              "移除老旧Android TV设备上的广告和赞助内容。",
+              "依赖Claude Code或Codex等AI工具进行自动化执行。",
+              "采用安全的禁用方法并支持撤销功能，而非彻底删除。"
+            ],
+            "highlights": [
+              "提供仅包含应用程序、输入源和时钟的极简主屏幕。",
+              "需要开启开发者模式、USB调试以及共享的本地Wi-Fi连接。"
+            ]
+          },
+          "de": {
+            "title": "TV-Detox: Alte Android TVs mit KI und schlanken Menüs beschleunigen",
+            "summary": "Ein neues GitHub-Projekt zielt darauf ab, träge Android TVs durch das Entfernen von Bloatware, Werbung und gesponserten Inhalten zu beschleunigen. Mithilfe von KI-Coding-Assistenten entsteht eine minimalistische, werbefreie Benutzeroberfläche.",
+            "why_it_matters": "Das Projekt zeigt einen praktischen Einsatz von KI-Assistenten zur Hardware-Optimierung, um die Nutzungsdauer älterer, durch schwere Herstellerschnittstellen belasteter Geräte zu verlängern.",
+            "extended_analysis": "Das tv-detox-Repository nutzt konversationelle Programmierwerkzeuge, um das Bereinigen ressourcenhungriger Fernsehoberflächen zu automatisieren. Über eine lokale WLAN-Verbindung zwischen Laptop und Fernseher steuern Assistenten die Systempakete.\n\nDas Framework deaktiviert Pakete, anstatt sie dauerhaft zu löschen, um Systemausfälle zu verhindern. Gleichzeitig warnt es vor modellabhängigen Firmware-Besonderheiten.",
+            "context": "Moderne Smart-TVs leiden häufig unter überladenen Menüs und zielgerichteter Werbung, die die Leistung im Laufe der Zeit mindern und die Nutzungsdauer funktionsfähiger Hardware einschränken.",
+            "key_takeaways": [
+              "Entfernt Werbung und gesponserte Inhalte von älteren Android-Fernsehern.",
+              "Nutzt KI-Tools wie Claude Code oder Codex für die automatisierte Ausführung.",
+              "Setzt auf Deaktivierung statt Löschung mit integrierten Wiederherstellungsoptionen."
+            ],
+            "highlights": [
+              "Schafft einen reduzierten Startbildschirm mit Apps, HDMI-Eingängen und Uhr.",
+              "Erfordert den Entwicklermodus, USB-Debugging und ein gemeinsames lokales WLAN."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 45,
+        "editor_pick_reason": ""
+      }
+    },
+    "4bef08f5f83b5a9b7dbba2dd2b3d3c98c77e27648541df9e24f911a161e624f6": {
+      "fingerprint": "f1db3accd32972c774f21431cbab26426f88090b0987d850e6c94984509e4ba6",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "CleanYourTV: pulire Android e Google TV via Wi-Fi",
+            "summary": "Il repository GitHub 'cleanyourtv' di Gathin23 permette di rimuovere i bloatware da qualsiasi Android o Google TV tramite Wi-Fi, offrendo un'interfaccia ispirata ad Apple TV. Il progetto open source integra opzioni per la gestione della privacy e dei launcher.",
+            "why_it_matters": "Offre agli utenti un metodo per alleggerire i dispositivi smart TV basati su Android e Google, modificandone l'interfaccia e riducendo i componenti superflui direttamente da remoto.",
+            "extended_analysis": "Il progetto si inserisce nel panorama degli strumenti open source per la personalizzazione e l'ottimizzazione dei dispositivi di intrattenimento domestico. Sfruttando la connettività Wi-Fi e le capacità di configurazione avanzate, risponde alle esigenze di chi desidera un'esperienza utente più pulita e simile a quella offerta da sistemi alternativi come Apple TV.\n\nLa documentazione e la struttura del repository evidenziano l'attenzione verso diversi marchi e configurazioni, sebbene il funzionamento sia limitato ai sistemi Android TV o Google TV compatibili. È opportuno verificare la compatibilità specifica del proprio dispositivo prima di procedere con qualsiasi operazione di pulizia o modifica del launcher.",
+            "context": "La personalizzazione delle smart TV e la rimozione del software preinstallato (bloatware) rappresentano da tempo un argomento discusso tra gli appassionati di tecnologia alla ricerca di maggiore privacy e controllo sui propri dispositivi.",
+            "key_takeaways": [
+              "Rimozione dei bloatware su Android e Google TV tramite connessione Wi-Fi.",
+              "Interfaccia grafica ispirata allo stile Apple TV.",
+              "Progetto open source ospitato su GitHub."
+            ],
+            "highlights": [
+              "Disponibile sul repository GitHub Gathin23/cleanyourtv.",
+              "Include temi, strumenti e guide per diverse configurazioni."
+            ]
+          },
+          "en": {
+            "title": "CleanYourTV: Debloat Android and Google TV via Wi-Fi",
+            "summary": "The 'cleanyourtv' GitHub repository by Gathin23 allows users to debloat any Android or Google TV over Wi-Fi, bringing an Apple TV-style home interface. The open-source project focuses on simplifying smart TV customization and interface management.",
+            "why_it_matters": "It provides a streamlined way to remove unwanted software and customize the user experience on Android-powered television systems directly over a wireless network.",
+            "extended_analysis": "This project addresses the common user frustration with pre-installed applications and cluttered interfaces on smart TVs. By leveraging Wi-Fi connectivity and structured scripts or tools, it enables a more minimalist television environment reminiscent of Apple TV.\n\nAs an open-source GitHub repository, it relies on community contributions and standard configuration practices. Users should carefully review the documentation and repository guidelines to ensure compatibility with their specific television models before attempting any modifications.",
+            "context": "Smart TV interfaces are frequently packed with pre-installed applications and recommendations, driving demand for community-led debloating tools and custom launchers.",
+            "key_takeaways": [
+              "Debloat Android and Google TV devices over Wi-Fi.",
+              "Implements an Apple TV-style home interface experience.",
+              "Open-source repository hosted on GitHub."
+            ],
+            "highlights": [
+              "Hosted under Gathin23/cleanyourtv on GitHub.",
+              "Supports community-driven tools and configurations."
+            ]
+          },
+          "es": {
+            "title": "CleanYourTV: Limpia Android y Google TV vía Wi-Fi",
+            "summary": "El repositorio de GitHub 'cleanyourtv' de Gathin23 permite eliminar aplicaciones preinstaladas en cualquier Android o Google TV mediante Wi-Fi, ofreciendo una interfaz estilo Apple TV. Este proyecto de código abierto busca optimizar la experiencia en televisores inteligentes.",
+            "why_it_matters": "Ofrece a los usuarios una alternativa para simplificar la interfaz y reducir el software innecesario en sistemas de televisión basados en Android a través de la red inalámbarica.",
+            "extended_analysis": "La personalización de televisores inteligentes y la eliminación de software no deseado son temas de interés recurrente para los usuarios que buscan mayor control sobre sus dispositivos. Este proyecto utiliza herramientas y configuraciones para transformar el aspecto visual y el rendimiento operativo.\n\nAl tratarse de un desarrollo abierto en GitHub, cuenta con documentación y recursos provistos por la comunidad. Se recomienda consultar los detalles técnicos específicos del repositorio antes de realizar cambios en dispositivos de hardware compatibles.",
+            "context": "El ecosistema de las smart TV a menudo incluye múltiples aplicaciones integradas y contenidos promocionales, lo que fomenta el desarrollo de herramientas independientes de optimización.",
+            "key_takeaways": [
+              "Eliminación de bloatware en Android y Google TV por Wi-Fi.",
+              "Interfaz inspirada en el diseño de Apple TV.",
+              "Proyecto de código abierto disponible en GitHub."
+            ],
+            "highlights": [
+              "Disponible en Gathin23/cleanyourtv en GitHub.",
+              "Incluye recursos y documentación de soporte."
+            ]
+          },
+          "zh-CN": {
+            "title": "CleanYourTV：通过Wi-Fi清理安卓与谷歌电视",
+            "summary": "Gathin23在GitHub上发布的“cleanyourtv”项目允许用户通过Wi-Fi清理任意Android或Google TV上的预装软件，并带来Apple TV风格的主屏幕体验。该开源项目旨在简化智能电视的界面定制。",
+            "why_it_matters": "它为用户提供了一种通过无线网络精简安卓智能电视系统、去除冗余应用并改善界面布局的实用方法。",
+            "extended_analysis": "智能电视自带的预装软件和复杂界面常常影响用户体验。该开源项目通过利用Wi-Fi连接与配置工具，让用户能够打造更加简洁、类似Apple TV的电视主页环境。\n\n作为托管在GitHub上的开源项目，它依赖于社区贡献的代码和文档。用户在对特定电视型号进行操作前，建议仔细阅读相关说明以确保兼容性。",
+            "context": "智能 TV 平台上 pre-installed 的各类应用和推荐内容较多，促使开发者社区长期致力于提供去 bloatware 和自定义启动器的工具。",
+            "key_takeaways": [
+              "通过Wi-Fi清理Android和Google TV设备。",
+              "实现类似Apple TV的主屏幕界面风格。",
+              "托管于GitHub的开源项目。"
+            ],
+            "highlights": [
+              "项目地址：GitHub Gathin23/cleanyourtv。",
+              "包含各类工具、主题与文档支持。"
+            ]
+          },
+          "de": {
+            "title": "CleanYourTV: Android und Google TV per Wi-Fi bereinigen",
+            "summary": "Das GitHub-Repository 'cleanyourtv' von Gathin23 ermöglicht es, Android- oder Google-TV-Geräte über Wi-Fi von vorinstallierter Software zu befreien und eine Benutzeroberfläche im Apple-TV-Stil einzurichten. Das Open-Source-Projekt vereinfacht die Anpassung von Smart-TVs.",
+            "why_it_matters": "Es bietet Nutzern eine Möglichkeit, nicht benötigte Apps zu entfernen und das Benutzererlebnis auf Android-basierten Fernsehsystemen über das Heimnetzwerk zu optimieren.",
+            "extended_analysis": "Viele Smart-TV-Oberflächen sind ab Werk mit zahlreichen Apps und Empfehlungen überladen. Dieses Open-Source-Projekt setzt an diesem Punkt an, um eine minimalistischere Bedienung zu ermöglichen, die an Apple TV erinnert.\n\nDa es sich um ein öffentlich zugängliches Projekt auf GitHub handelt, wird die Nutzung über die bereitgestellte Dokumentation und Community-Beiträge gesteuert. Anwender sollten vor der Durchführung von Änderungen die Kompatibilität mit ihren jeweiligen Fernsehgeräten prüfen.",
+            "context": "Die Anpassung von Smart-TV-Systemen und die Entfernung von Bloatware sind in der Tech-Community gängige Themen für Anwender, die mehr Kontrolle über ihre Unterhaltungselektronik wünschen.",
+            "key_takeaways": [
+              "Entfernung von Bloatware auf Android- und Google-TV-Geräten über Wi-Fi.",
+              "Bereitstellung einer Benutzeroberfläche im Apple-TV-Stil.",
+              "Open-Source-Projekt auf GitHub."
+            ],
+            "highlights": [
+              "Verfügbar im GitHub-Repository Gathin23/cleanyourtv.",
+              "Enthält Dokumentation, Tools und Konfigurationshilfen."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 45,
+        "editor_pick_reason": ""
+      }
     }
   },
   "daily": {
-    "date": "2026-10-31",
-    "count": 20,
+    "date": "2026-11-01",
+    "count": 4,
     "picks": 0
   }
 }
