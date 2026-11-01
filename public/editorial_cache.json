@@ -99,59 +99,89 @@
         "editorial": {
           "it": {
             "title": "Come OpenAI rileva il disallineamento dei modelli di frontiera",
-            "summary": "OpenAI adotta un monitoraggio stratificato per individuare il disallineamento dei modelli di frontiera e i comportamenti non autorizzati degli agenti. Questo sistema consente ai team di risposta di intervenire tempestivamente prima che gli incidenti si aggravino.",
-            "why_it_matters": "L'implementazione di sistemi di monitoraggio stratificato è cruciale per la sicurezza e la gestione del rischio nei modelli avanzati, offrendo un metodo per prevenire comportamenti imprevisti degli agenti IA.",
-            "highlights": [
-              "Utilizzo di un monitoraggio stratificato per i modelli di frontiera.",
-              "Rilevamento di comportamenti non autorizzati degli agenti IA.",
+            "summary": "OpenAI ha illustrato il suo approccio basato su un monitoraggio stratificato per individuare il disallineamento dei modelli di frontiera e i comportamenti non autorizzati degli agenti, consentendo interventi tempestivi prima che i problemi si aggravino.",
+            "why_it_matters": "Questo sistema di controllo multilivello offre agli operatori strumenti cruciali per prevenire escalation critiche e mantenere la sicurezza operativa nei sistemi di intelligenza artificiale più avanzati.",
+            "extended_analysis": "Nel panorama della sicurezza dell'intelligenza artificiale, la gestione dei rischi legati ai modelli di frontiera richiede sistemi di sorveglianza avanzati. L'utilizzo di un monitoraggio stratificato descritto da OpenAI punta a intercettare anomalie comportamentali e azioni di agenti non autorizzati in tempo utile per l'intervento umano.\n\nSebbene la descrizione sia limitata e non fornisca dettagli tecnici approfonditi o benchmark indipendenti, l'iniziativa riflette la crescente attenzione del settore verso la governance e la mitigazione tempestiva dei rischi associati ai sistemi autonomi.",
+            "context": "Con la diffusione di modelli di frontiera sempre più potenti e autonomi, la comunità tecnologica e i laboratori di ricerca pongono una crescente enfasi su metodi di monitoraggio e sorveglianza per prevenire comportamenti imprevisti.",
+            "key_takeaways": [
+              "Adozione di un monitoraggio stratificato per i modelli di frontiera.",
+              "Rilevamento mirato di comportamenti non autorizzati degli agenti.",
               "Intervento tempestivo dei soccorritori prima dell'escalation degli incidenti."
+            ],
+            "highlights": [
+              "OpenAI impiega sistemi di monitoraggio a strati.",
+              "L'obiettivo è identificare comportamenti anomali o non autorizzati."
             ]
           },
           "en": {
             "title": "How OpenAI detects frontier model misalignment",
-            "summary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior. This allows responders to intervene proactively before incidents escalate.",
-            "why_it_matters": "Understanding how frontier models are monitored provides critical insight into managing safety risks and preventing autonomous agent misbehavior in advanced AI systems.",
+            "summary": "OpenAI details its layered monitoring approach designed to detect frontier model misalignment and unauthorized agent behavior, enabling responders to intervene before incidents escalate.",
+            "why_it_matters": "Multilayered safety oversight is crucial for catching unpredictable model behavior early, helping maintain control over increasingly autonomous AI deployments.",
+            "extended_analysis": "As frontier models grow in capability and autonomy, ensuring robust safety mechanisms becomes a primary operational priority. OpenAI's approach utilizes layered monitoring to spot misalignment and unauthorized agent actions proactively.\n\nWhile the current description remains high-level without independent technical benchmarks, it highlights the operational frameworks being deployed to manage complex AI risks and ensure human oversight before minor issues turn into major incidents.",
+            "context": "The industry faces mounting pressure to establish reliable safeguards as frontier AI systems take on more autonomous tasks and complex agent workflows.",
+            "key_takeaways": [
+              "Implementation of layered monitoring frameworks.",
+              "Early detection of frontier model misalignment.",
+              "Proactive intervention capabilities for human responders."
+            ],
             "highlights": [
-              "Employs layered monitoring for frontier models.",
-              "Detects unauthorized agent behavior.",
-              "Enables responder intervention before incident escalation."
+              "OpenAI relies on layered monitoring systems.",
+              "Focuses on unauthorized agent behavior and model misalignment."
             ]
           },
           "es": {
-            "title": "Cómo OpenAI detecta la desalineación de modelos de frontera",
-            "summary": "OpenAI utiliza un monitoreo por capas para detectar la desalineación de los modelos de frontera y el comportamiento no autorizado de los agentes. Esto permite intervenir antes de que los incidentes escalen.",
-            "why_it_matters": "El monitoreo estructurado de los modelos avanzados es vital para mitigar riesgos de seguridad y controlar el comportamiento autónomo de los agentes de IA en entornos de producción.",
+            "title": "Cómo detecta OpenAI el desalineamiento en modelos de frontera",
+            "summary": "OpenAI explica su enfoque de monitoreo por capas para detectar el desalineamiento de los modelos de frontera y el comportamiento no autorizado de los agentes, permitiendo intervenciones rápidas.",
+            "why_it_matters": "Disponer de mecanismos de control estratificados es fundamental para identificar desviaciones de comportamiento a tiempo y evitar que los incidentes de seguridad escalen.",
+            "extended_analysis": "A medida que los modelos de IA avanzados adquieren mayor autonomía, la detección temprana de desalineamientos se vuelve indispensable. La estrategia de OpenAI se basa en una supervisión por capas para identificar anomalías operativas y comportamientos de agentes no autorizados.\n\nAunque la información disponible es concisa y no incluye pruebas de rendimiento independientes, subraya la importancia de los protocolos preventivos en el desarrollo y despliegue de sistemas de frontera.",
+            "context": "La gobernanza de la inteligencia artificial y la seguridad en modelos avanzados exigen metodologías de control rigurosas para mitigar riesgos imprevistos.",
+            "key_takeaways": [
+              "Uso de monitoreo por capas para modelos de frontera.",
+              "Identificación de comportamientos no autorizados de agentes.",
+              "Capacidad de intervención antes de que los incidentes se agraven."
+            ],
             "highlights": [
-              "Uso de monitoreo por capas en modelos de frontera.",
-              "Detección de comportamiento de agentes no autorizados.",
-              "Intervención de respuesta previa a la escalada de incidentes."
+              "OpenAI utiliza un monitoreo estratificado.",
+              "El objetivo es prevenir escaladas mediante una detección temprana."
             ]
           },
           "zh-CN": {
-            "title": "OpenAI 如何检测前沿模型不对齐",
-            "summary": "OpenAI 采用分层监控来检测前沿模型的不对齐以及未授权的智能体行为，以便响应人员在事件升级之前进行干预。",
-            "why_it_matters": "分层监控机制对于保障高级AI系统的安全性至关重要，有助于及时控制潜在风险并防止智能体出现未授权行为。",
+            "title": "OpenAI如何检测前沿模型的对齐偏差",
+            "summary": "OpenAI详细介绍了其分层监控方法，用于检测前沿模型的对齐偏差以及未经授权的智能体行为，以便响应人员在事件升级前进行干预。",
+            "why_it_matters": "多层安全监控对于尽早发现模型异常行为、确保人类对复杂AI系统的控制具有重要意义。",
+            "extended_analysis": "随着前沿人工智能模型能力的不断增强，防范潜在风险和失控行为已成为行业核心议题。OpenAI采用分层监控机制来捕获模型偏差和未授权操作，为人工干预争取宝贵时间。\n\n尽管现有描述较为精简且未提供独立基准测试数据，但它反映了当前技术界在保障智能体系统安全方面所采取的运行框架与防护思路。",
+            "context": "随着前沿人工智能系统承担越来越多的自主任务，建立可靠的监管与监控体系已成为业界的普遍共识。",
+            "key_takeaways": [
+              "采用分层监控框架应对前沿模型。",
+              "专注于识别未授权的智能体行为。",
+              "在事件升级前实现及时的人工干预。"
+            ],
             "highlights": [
-              "采用分层监控来检测前沿模型不对齐。",
-              "识别未授权的智能体行为。",
-              "支持在事件升级前由响应人员进行干预。"
+              "OpenAI部署了分层监控系统。",
+              "旨在捕捉模型对齐偏差和未授权活动。"
             ]
           },
           "de": {
-            "title": "Wie OpenAI die Fehlerausrichtung von Spitzenmodellen erkennt",
-            "summary": "OpenAI nutzt mehrschichtige Überwachung, um die Fehlerausrichtung von Spitzenmodellen und unautorisiertes Agentenverhalten zu erkennen. So können Teams eingreifen, bevor Vorfälle eskalieren.",
-            "why_it_matters": "Mehrschichtige Überwachungsansätze sind entscheidend für die Sicherheitsgovernance fortgeschrittener KI-Systeme, um unvorhergesehenes Verhalten autonomer Agenten frühzeitig zu steuern.",
+            "title": "Wie OpenAI Fehlkonfigurationen bei Frontimodellen erkennt",
+            "summary": "OpenAI stellt einen mehrschichtigen Überwachungsansatz vor, um Fehlkonfigurationen bei Frontimodellen und unautorisiertes Agentenverhalten zu erkennen, bevor Vorfälle eskalieren.",
+            "why_it_matters": "Mehrstufige Sicherheitskontrollen sind entscheidend, um unvorhersehbares Verhalten frühzeitig zu erkennen und die Kontrolle über autonome KI-Systeme zu wahren.",
+            "extended_analysis": "Mit der zunehmenden Leistungsfähigkeit von Frontimodellen rückt die proaktive Risikomerkennung in den Fokus der Sicherheitsforschung. Der von OpenAI beschriebene Ansatz nutzt eine geschichtete Überwachung, um Abweichungen und unautorisierte Aktionen rechtzeitig zu identifizieren.\n\nObwohl die Beschreibung keine detaillierten technischen Benchmarks oder unabhängige Prüfungen liefert, verdeutlicht sie die betrieblichen Mechanismen, die zur Bewältigung von Risiken bei modernen KI-Systemen eingesetzt werden.",
+            "context": "In der Entwicklung fortschrittlicher KI-Systeme wird die Implementierung verlässlicher Überwachungs- und Interventionswerkzeuge zunehmend als essenzieller Sicherheitsfaktor angesehen.",
+            "key_takeaways": [
+              "Einsatz geschichteter Überwachungssysteme für Frontimodelle.",
+              "Früherkennung von unautorisiertem Agentenverhalten.",
+              "Möglichkeit zum rechtzeitigen Eingreifen vor einer Eskalation."
+            ],
             "highlights": [
-              "Einsatz mehrschichtiger Überwachung für Spitzenmodelle.",
-              "Erkennung von unautorisiertem Agentenverhalten.",
-              "Frühzeitiges Eingreifen von Einsatzkräften vor einer Eskalation."
+              "OpenAI setzt auf mehrschichtige Überwachung.",
+              "Fokus liegt auf Modellfehlkonfigurationen und Agentenaktivitäten."
             ]
           }
         },
         "editorial_level": "ai_curated",
         "editorial_status": "verified",
         "editorial_model": "gemini-3.5-flash-lite",
-        "editorial_version": 2,
+        "editorial_version": 4,
         "relevance_score": 75,
         "editor_pick_reason": ""
       }
@@ -522,56 +552,91 @@
       "editorial": {
         "editorial": {
           "it": {
-            "title": "SIREN: Indice orario verificabile dell'attività IA",
-            "summary": "SIREN (già DOOMCON) è un indice orario dell'attività di intelligenza artificiale progettato per essere verificabile. Sviluppato in JavaScript, utilizza ricevute incatenate tramite hash e un metodo aperto.",
-            "why_it_matters": "Offre un sistema trasparente e tracciabile per monitorare l'attività IA senza pubblicità o tracciamento, basandosi su ricevute con hash.",
+            "title": "SIREN: Un indice orario e verificabile sull'attività dell'IA",
+            "summary": "È stato rilasciato SIREN (precedentemente noto come DOOMCON), un indice orario dell'attività dell'IA progettato per essere verificabile. Sviluppato in JavaScript e ospitato su GitHub, il progetto utilizza ricevute concatenate da funzioni di hash con un metodo aperto.",
+            "why_it_matters": "Offrire un sistema di tracciamento trasparente e verificabile dell'attività dell'intelligenza artificiale è cruciale per monitorare il settore senza ricorrere a pubblicità o tracciamenti.",
+            "extended_analysis": "Il progetto, descritto come un indice orario dell'attività dell'intelligenza artificiale, punta sulla trasparenza grazie all'impiego di ricevute concatenate tramite hash e a una metodologia aperta. Senza sponsorizzazioni pubblicitarie o sistemi di tracciamento degli utenti, la piattaforma si posiziona come uno strumento indipendente per osservare i flussi di dati e le dinamiche del settore.\n\nNel contesto attuale, in cui la misurazione dell'evoluzione dell'IA è spesso opaca o legata a metriche commerciali, iniziative basate su registri verificabili offrono un approccio alternativo. Sarà importante osservare come evolverà l'adozione di questo indice e quali metriche specifiche verranno integrate nel tempo.",
+            "context": "Il monitoraggio indipendente dello sviluppo dell'intelligenza artificiale è un tema centrale per ricercatori e sviluppatori che cercano standard aperti e verificabili per analizzare i progressi tecnologici.",
+            "key_takeaways": [
+              "SIREN fornisce un indice orario dell'attività dell'IA.",
+              "Il sistema utilizza ricevute concatenate e un metodo aperto.",
+              "Il codice è scritto in JavaScript ed è disponibile su GitHub senza pubblicità o tracciamento."
+            ],
             "highlights": [
-              "Indice orario dell'attività IA verificabile",
-              "Ricevute incatenate tramite hash e metodo aperto"
+              "Precedentemente noto come DOOMCON.",
+              "Aggiornato a novembre 2026 su GitHub."
             ]
           },
           "en": {
-            "title": "SIREN: Verifiable Hourly Index of AI Activity",
-            "summary": "SIREN (formerly DOOMCON) is an hourly index of AI activity designed for verification. Built in JavaScript, it features hash-chained receipts and an open method with no ads or tracking.",
-            "why_it_matters": "It provides a transparent, trackable approach to monitoring AI activity using cryptographic hash chaining, entirely free of ads and trackers.",
+            "title": "SIREN: An Hourly, Verifiable Index of AI Activity",
+            "summary": "SIREN (formerly DOOMCON) has been released as an hourly, verifiable index of AI activity. Built with JavaScript and hosted on GitHub, the project features hash-chained receipts and an open methodology without ads or tracking.",
+            "why_it_matters": "Providing a transparent and verifiable tracking system for artificial intelligence activity is vital for monitoring the field without relying on advertising or user tracking.",
+            "extended_analysis": "The project offers an hourly index of AI activity backed by hash-chained receipts and an open method. By completely avoiding ads and tracking, it aims to establish an independent framework for observing sector dynamics and data flows.\n\nAs the industry grows, reliable and transparent ways to measure AI activity remain in high demand. Watching how this open methodology develops will show whether verifiable hash-chained indices can become a standard tool for independent observers.",
+            "context": "Independent monitoring of artificial intelligence milestones relies increasingly on open-source infrastructure and verifiable cryptographic receipts to ensure data integrity.",
+            "key_takeaways": [
+              "SIREN delivers an hourly index of AI activity.",
+              "The architecture relies on hash-chained receipts and an open method.",
+              "Hosted on GitHub with zero ads or tracking."
+            ],
             "highlights": [
-              "Hourly verifiable index of AI activity",
-              "Hash-chained receipts and open methodology"
+              "Formerly known as DOOMCON.",
+              "Developed using JavaScript."
             ]
           },
           "es": {
-            "title": "SIREN: Índice horario verificable de actividad de IA",
-            "summary": "SIREN (antes DOOMCON) es un índice horario de actividad de IA que se puede verificar. Desarrollado en JavaScript, utiliza recibos encadenados por hash y un método abierto sin anuncios.",
-            "why_it_matters": "Aporta un enfoque transparente para el seguimiento de la actividad de la IA mediante el encadenamiento de hashes, libre de rastreo y publicidad.",
+            "title": "SIREN: Un índice horario y verificable de la actividad de IA",
+            "summary": "Se ha lanzado SIREN (antes conocido como DOOMCON), un índice horario de la actividad de la inteligencia artificial diseñado para ser verificable. Desarrollado en JavaScript en GitHub, utiliza recibos encadenados por hash y un método abierto sin anuncios ni rastreo.",
+            "why_it_matters": "Contar con un sistema de seguimiento transparente y verificable de la actividad de la IA es fundamental para supervisar el sector de forma independiente.",
+            "extended_analysis": "El proyecto ofrece un registro horario basado en recibos con cadenas de hash y una metodología abierta. Al prescindir por completo de publicidad y herramientas de rastreo, busca garantizar la integridad y la independencia en la observación de la actividad tecnológica.\n\nEn un entorno donde la medición del avance de la IA suele ser compleja y poco transparente, las soluciones abiertas basadas en criptografía ligera ofrecen nuevas vías de análisis. Habrá que seguir de evolución técnica del proyecto en GitHub.",
+            "context": "La demanda de metodologías abiertas y verificables para auditar el ecosistema de la inteligencia artificial impulsa el desarrollo de herramientas independientes.",
+            "key_takeaways": [
+              "SIREN proporciona un índice horario de la actividad de la IA.",
+              "Emplea recibos encadenados por hash y un enfoque de código abierto.",
+              "No incluye publicidad ni sistemas de seguimiento."
+            ],
             "highlights": [
-              "Índice horario verificable de actividad de IA",
-              "Recibos encadenados por hash y método abierto"
+              "Antiguamente denominado DOOMCON.",
+              "Repositorio de código abierto en JavaScript."
             ]
           },
           "zh-CN": {
-            "title": "SIREN：可验证的AI活动小时级索引",
-            "summary": "SIREN（原名DOOMCON）是一个可验证的AI活动小时级索引。该项目使用JavaScript开发，采用哈希链式收据和公开方法，无广告或追踪。",
-            "why_it_matters": "它通过密码学哈希链提供了一种透明且可追踪的AI活动监测方式，且不包含任何广告和追踪器。",
+            "title": "SIREN：一个可验证的每小时AI活动指数",
+            "summary": "SIREN（原名DOOMCON）已发布，这是一个可验证的每小时AI活动指数。该项目使用JavaScript编写并托管在GitHub上，采用哈希链式收据和开放方法，且不含广告或追踪。",
+            "why_it_matters": "提供一个透明且可验证的AI活动追踪系统，对于在没有广告或用户追踪的情况下监测行业动态至关重要。",
+            "extended_analysis": "该项目提供了一个基于哈希链式收据和开放方法的AI活动每小时索引。通过完全避免广告和追踪，它旨在为观察行业动态建立一个独立的框架。\n\n随着行业的不断发展，对可靠且透明的AI活动衡量方式的需求依然强劲。观察这种开放方法的发展，将有助于了解可验证的哈希链索引能否成为独立观察者的标准工具。",
+            "context": "对人工智能发展进行独立监测，越来越依赖于开源基础设施和可验证的密码学收据来确保数据完整性。",
+            "key_takeaways": [
+              "SIREN提供每小时更新的AI活动指数。",
+              "采用哈希链式收据与开放方法。",
+              "托管于GitHub，无广告与追踪。"
+            ],
             "highlights": [
-              "可验证的AI活动小时级索引",
-              "哈希链式收据与公开方法"
+              "曾用名为DOOMCON。",
+              "使用JavaScript开发。"
             ]
           },
           "de": {
-            "title": "SIREN: Verifizierbarer stündlicher KI-Aktivitätsindex",
-            "summary": "SIREN (vormals DOOMCON) ist ein stündlicher Index für KI-Aktivitäten zur Überprüfung. Er wurde in JavaScript erstellt und nutzt Hash-verkettete Belege sowie offene Methoden.",
-            "why_it_matters": "Es bietet einen transparenten Ansatz zur Überwachung von KI-Aktivitäten mittels Hash-Verkettung, gänzlich ohne Werbung oder Tracking.",
+            "title": "SIREN: Ein stündlicher und verifizierbarer Index für KI-Aktivität",
+            "summary": "SIREN (ehemals DOOMCON) wurde als stündlicher, verifizierbarer Index für KI-Aktivitäten veröffentlicht. Das in JavaScript geschriebene und auf GitHub gehostete Projekt nutzt Hash-verkettete Belege und eine offene Methode ohne Werbung oder Tracking.",
+            "why_it_matters": "Ein transparentes und verifizierbares System zur Nachverfolgung von KI-Aktivitäten ist wichtig, um die Branche unabhängig und datenschutzfreundlich zu beobachten.",
+            "extended_analysis": "Das Projekt bietet einen stündlichen Index der KI-Aktivität, der auf Hash-verkettten Belegen und einer offenen Methodik basiert. Durch den Verzicht auf Werbung und Tracking soll ein unabhängiger Rahmen für die Beobachtung von Sektor- und Datenströmen geschaffen werden.\n\nIn einer Zeit, in der die Messung von KI-Entwicklungen oft undurchsichtig ist, bieten verifizierbare Register neue Ansätze für mehr Transparenz. Es bleibt zu beobachten, wie sich die Methodik und deren Akzeptanz weiterentwickeln werden.",
+            "context": "Die unabhängige Überwachung von Meilensteinen in der künstlichen Intelligenz stützt sich zunehmend auf Open-Source-Infrastrukturen und kryptografische Verifizierungen.",
+            "key_takeaways": [
+              "SIREN liefert einen stündlichen Index der KI-Aktivität.",
+              "Das System nutzt Hash-verkettete Belege und eine offene Methode.",
+              "Es ist auf GitHub gehostet und kommt ohne Werbung oder Tracking aus."
+            ],
             "highlights": [
-              "Stündlicher, verifizierbarer Index der KI-Aktivität",
-              "Hash-verkettete Belege und offene Methode"
+              "Früher bekannt als DOOMCON.",
+              "Entwickelt in JavaScript."
             ]
           }
         },
         "editorial_level": "ai_curated",
         "editorial_status": "verified",
         "editorial_model": "gemini-3.5-flash-lite",
-        "editorial_version": 2,
-        "relevance_score": 45,
+        "editorial_version": 4,
+        "relevance_score": 35,
         "editor_pick_reason": ""
       }
     },
@@ -884,7 +949,96 @@
     },
     "59788a007bb479e4775804dabc01a10e7976fb1296afca54180f0dfe990aa612": {
       "fingerprint": "e4a2b0be5a236ffa9143fb26acd130910e18301f7795ca4a35fe8bd891845a46",
-      "retry_after": "2026-10-31T20:38:21.528321+00:00"
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Perché gli agenti IA amano Supabase",
+            "summary": "In questo episodio di Latent Space, i cofondatori di Supabase Paul Copplestone e Ant Wilson discutono con swyx di come la programmazione guidata dagli agenti IA stia trasformando le esigenze dei database e dei backend.",
+            "why_it_matters": "La crescente diffusione di software creato da agenti IA impone nuove sfide e funzionalità ai backend, come la gestione di carichi di lavoro a lungo termine e schemi più comprensibili.",
+            "extended_analysis": "Man mano che gli agenti IA assumono ruoli di rilievo nella creazione di software, le infrastrutture tradizionali devono adattarsi. La conversazione esplora le modifiche necessarie per consentire agli agenti di interagire in modo efficiente con i dati e i carichi di lavoro.\n\nVengono esaminate le soluzioni per affiancare carichi di lavoro persistenti direttamente al database e semplificare la struttura dei dati affinché i sistemi autonomi possano interpretarli senza ostacoli.\n\nNel contesto attuale dell'ingegneria del software, comprendere l'evoluzione dei backend orientati agli agenti è fondamentale per anticipare le tendenze dello sviluppo tecnologico.",
+            "context": "L'episodio si inserisce nel dibattito in evoluzione sull'adattamento delle infrastrutture dati tradizionali alle nuove esigenze imposte dall'automazione avanzata e dalla generazione di codice tramite intelligenza artificiale.",
+            "key_takeaways": [
+              "I carichi di lavoro a lungo termine richiedono nuove strategie di gestione accanto al database.",
+              "Gli schemi semplificati aiutano gli agenti IA a comprendere e scrivere software in modo efficace.",
+              "Il ruolo dei backend sta mutando per soddisfare le esigenze dei programmatori autonomi."
+            ],
+            "highlights": [
+              "Ospiti: i cofondatori di Supabase Paul Copplestone e Ant Wilson.",
+              "Conduttore: swyx per il podcast Latent Space."
+            ]
+          },
+          "en": {
+            "title": "Why Agents Love Supabase",
+            "summary": "In this Latent Space episode, Supabase co-founders Paul Copplestone and Ant Wilson join swyx to discuss how AI agents are changing software creation and what backend systems need to do next.",
+            "why_it_matters": "As AI agents build more software, backend requirements evolve to support long-lived workloads and make schemas easier for automated systems to understand.",
+            "extended_analysis": "The shift toward software generated by AI agents introduces distinct infrastructural challenges. This discussion unpacks how databases and backend platforms must evolve to accommodate persistent workloads running right alongside data stores.\n\nGuests Paul Copplestone and Ant Wilson share insights on structuring schemas so that automated agents can comprehend and manipulate them smoothly, pointing toward a future of agent-native infrastructure.\n\nFor developers and architects navigating the intersection of AI and databases, this conversation offers a focused look at shifting requirements in modern software design.",
+            "context": "This discussion addresses the technical adjustments required when artificial intelligence takes a more active role in software development and code generation.",
+            "key_takeaways": [
+              "AI agents are altering software creation habits and backend infrastructure demands.",
+              "Running long-lived workloads alongside databases becomes increasingly important.",
+              "Schemas must be designed for easier comprehension by automated agents."
+            ],
+            "highlights": [
+              "Guests: Supabase co-founders Paul Copplestone and Ant Wilson.",
+              "Host: swyx on Latent Space."
+            ]
+          },
+          "es": {
+            "title": "Por qué los agentes adoran Supabase",
+            "summary": "En este episodio de Latent Space, los cofundadores de Supabase, Paul Copplestone y Ant Wilson, charlan con swyx sobre cómo los agentes de IA transforman la creación de software y los requisitos del backend.",
+            "why_it_matters": "A medida que los agentes de infraestructura y código autónomo ganan terreno, las arquitecturas de backend deben adaptarse para gestionar cargas de trabajo persistentes y esquemas más claros.",
+            "extended_analysis": "La creación de software impulsada por agentes de inteligencia artificial exige un replanteamiento de las herramientas de desarrollo. La charla examina qué significa para un backend operar eficientemente en este nuevo paradigma.\n\nSe abordan temas clave como la ejecución de cargas de trabajo de larga duración junto a la base de datos y la simplificación de esquemas para facilitar su lectura por parte de agentes automatizados.\n\nEs una lectura analítica esencial para comprender la evolución de las plataformas de datos ante la automatización del desarrollo de software.",
+            "context": "El episodio aborda los cambios técnicos que surgen cuando los sistemas de inteligencia artificial participan de forma directa en la producción de código y aplicaciones.",
+            "key_takeaways": [
+              "Los agentes de IA modifican las necesidades técnicas de las plataformas backend.",
+              "Es vital ejecutar cargas de trabajo de larga duración junto con las bases de datos.",
+              "Los esquemas de datos simplificados mejoran la comprensión por parte de los agentes."
+            ],
+            "highlights": [
+              "Invitados: los cofundadores de Supabase Paul Copplestone y Ant Wilson.",
+              "Presentador: swyx en Latent Space."
+            ]
+          },
+          "zh-CN": {
+            "title": "为什么智能体钟爱 Supabase",
+            "summary": "在本期 Latent Space 节目中，Supabase 联合创始人 Paul Copplestone 和 Ant Wilson 与主持人 swyx 一起探讨了 AI 智能体如何改变软件开发以及后端需要做出的调整。",
+            "why_it_matters": "随着 AI 智能体编写更多软件，后端需求随之演变，需要支持长期运行的工作负载并使数据架构更易于智能体理解。",
+            "extended_analysis": "随着人工智能在软件生成中扮演越来越积极的角色，传统基础设施面临新的设计要求。本次对话探讨了数据库平台如何适应这一趋势。\n\n访谈重点关注如何在数据库旁运行持久化工作负载，以及如何简化架构以便自动化系统能够顺畅解析和操作数据。\n\n对于关注软件工程与人工智能交叉领域的开发者而言，这期节目提供了关于现代后端演进的深度行业视角。",
+            "context": "该对话聚焦于当人工智能更多参与软件开发时，底层数据基础设施所需的技术和架构调整。",
+            "key_takeaways": [
+              "AI 智能体正在改变软件创造方式及后端架构需求。",
+              "在数据库旁运行长期工作负载变得更加关键。",
+              "必须设计更直观的架构，以便自动化智能体理解。"
+            ],
+            "highlights": [
+              "嘉宾：Supabase 联合创始人 Paul Copplestone 和 Ant Wilson。",
+              "主持：swyx (Latent Space)。"
+            ]
+          },
+          "de": {
+            "title": "Warum KI-Agenten Supabase lieben",
+            "summary": "In dieser Episode von Latent Space sprechen die Supabase-Mitgründer Paul Copplestone und Ant Wilson mit swyx darüber, wie KI-Agenten die Softwareentwicklung verändern und was Backends leisten müssen.",
+            "why_it_matters": "Da KI-Agenten zunehmend Software erstellen, ändern sich die Anforderungen an Backends, um langlebige Workloads zu unterstützen und Datenstrukturen für Agenten verständlicher zu machen.",
+            "extended_analysis": "Die zunehmende Erstellung von Software durch künstliche Intelligenz erfordert ein Umdenken bei Infrastruktur und Datenhaltung. Die Diskussion beleuchtet, wie sich Backend-Systeme an diese neuen Gegebenheiten anpassen.\n\nThematisiert werden die Ausführung langlebiger Workloads direkt neben der Datenbank sowie die Vereinfachung von Schemata, damit automatisierte Agenten diese fehlerfrei interpretieren können.\n\nFür Entwickler und Architekten bietet das Gespräch wertvolle Einblicke in die anstehenden Veränderungen moderner Software-Architekturen.",
+            "context": "Die Episode beleuchtet die technischen und konzeptionellen Anpassungen, die durch den verstärkten Einsatz von KI in der Software-Erstellung notwendig werden.",
+            "key_takeaways": [
+              "KI-Agenten verändern die Anforderungen an die Backend-Infrastruktur.",
+              "Langlebige Workloads müssen direkt neben der Datenbank ausgeführt werden.",
+              "Vereinfachte Schemata erleichtern automatisierten Systemen das Verständnis."
+            ],
+            "highlights": [
+              "Gäste: Die Supabase-Mitgründer Paul Copplestone und Ant Wilson.",
+              "Host: swyx bei Latent Space."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 35,
+        "editor_pick_reason": ""
+      }
     },
     "c141e6e8b269b77d4b8d40758afe1f27c46bd38aa60eab77f1355d9670324723": {
       "fingerprint": "57997fd9aa1795ad872e9066916cc5f19efa23497a8263db4cae58478a2bb37d",
@@ -1132,7 +1286,96 @@
     },
     "5c67f86b19de93a0a9e842910d2a11bf3daa5bfc7df88a0e2a8cc299e598aef4": {
       "fingerprint": "58bec18c5129fb0c995bd4cdfe3d28c3520bf77faf69445ecae4a1caddda7ee8",
-      "retry_after": "2026-10-31T19:39:32.018519+00:00"
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Motori di raccomandazione per trader di materie prime con Anekha Sokhal",
+            "summary": "In questo episodio, Anekha Sokhal, CEO di Moshi, discute con swyx della creazione di un motore di raccomandazione per i trader di materie prime. L'episodio esplora come trasformare i dati di mercato in segnali utili e progettare intelligenza artificiale integrata nei flussi di lavoro degli utenti.",
+            "why_it_matters": "Comprendere come tradurre enormi volumi di dati di mercato in strumenti pratici per i trader mostra l'evoluzione dell'applicazione dell'IA nei settori finanziari complessi.",
+            "extended_analysis": "Il colloquio tra swyx e Anekha Sokhal affronta la sfida di sviluppare soluzioni di IA mirate per i mercati delle materie prime, dove la tempestività e la precisione dei dati sono cruciali.\n\nIl focus si sposta sulla progettazione incentrata sull'utente, analizzando come sistemi intelligenti possano inserirsi efficacemente nelle routine operative quotidiane senza risultare intrusivi.",
+            "context": "Registrato in occasione dell'evento AI Engineer di New York, l'episodio riflette sulle sfide ingegneristiche legate alla conversione di flussi informativi complessi in raccomandazioni azionabili.",
+            "key_takeaways": [
+              "La progettazione di motori di raccomandazione per il trading di materie prime.",
+              "Metodi per convertire dati di mercato grezzi in segnali operativi utili.",
+              "L'importanza di integrare l'IA nei flussi di lavoro esistenti degli utenti."
+            ],
+            "highlights": [
+              "Anekha Sokhal, CEO di Moshi, è ospite del podcast condotto da swyx.",
+              "La discussione si concentra sull'esperienza pratica nello sviluppo di IA per operatori di mercato."
+            ]
+          },
+          "en": {
+            "title": "Recommendation Engines for Commodity Traders with Anekha Sokhal",
+            "summary": "Anekha Sokhal, CEO of Moshi, joins swyx to discuss building a recommendation engine for commodity traders. The conversation explores turning market data into useful signals and designing AI that fits user workflows.",
+            "why_it_matters": "Examining how to transform complex market data into practical tools reveals how specialized AI systems are being tailored to meet demanding industry workflows.",
+            "extended_analysis": "This episode delves into the engineering and design choices behind creating recommendation engines tailored specifically for commodity traders. Anekha Sokhal shares insights with swyx on handling market data to generate actionable signals.\n\nThe discussion highlights the importance of aligning AI capabilities directly with the daily routines and operational needs of financial professionals.",
+            "context": "Originating from the AI Engineer event in New York, the discussion highlights ongoing developments in applying intelligent systems to sector-specific financial challenges.",
+            "key_takeaways": [
+              "Building specialized recommendation engines for commodity trading.",
+              "Techniques for transforming raw market information into actionable signals.",
+              "Designing AI solutions that integrate smoothly into user workflows."
+            ],
+            "highlights": [
+              "Anekha Sokhal, CEO of Moshi, appears as the featured guest.",
+              "Hosted by swyx to discuss applied AI engineering challenges."
+            ]
+          },
+          "es": {
+            "title": "Motores de recomendación para traders de materias primas",
+            "summary": "Anekha Sokhal, CEO de Moshi, conversa con swyx sobre la creación de un motor de recomendación para operadores de materias primas. El episodio aborda cómo convertir datos de mercado en señales útiles y diseñar IA adaptada a los flujos de trabajo.",
+            "why_it_matters": "Analizar la traducción de datos de mercado complejos en herramientas prácticas ilustra la adaptación de la inteligencia artificial a entornos financieros especializados.",
+            "extended_analysis": "El episodio explora el proceso de desarrollo de sistemas de recomendación orientados a traders de materias primas, centrándose en la conversión de datos en información útil.\n\nAnekha Sokhal y swyx discuten los retos de diseñar interfaces y herramientas de IA que se integren de manera fluida en las rutinas de trabajo de los usuarios.",
+            "context": "Presentado desde el evento AI Engineer en Nueva York, el debate contextualiza la aplicación práctica de la ingeniería de IA en mercados financieros complejos.",
+            "key_takeaways": [
+              "Desarrollo de motores de recomendación para el sector de materias primas.",
+              "Conversión de datos de mercado en señales operativas.",
+              "Diseño de IA alineada con los flujos de trabajo profesionales."
+            ],
+            "highlights": [
+              "Anekha Sokhal, CEO de Moshi, es entrevistada por swyx.",
+              "Enfoque en la práctica de la ingeniería de IA aplicada al trading."
+            ]
+          },
+          "zh-CN": {
+            "title": "面向大宗商品交易员的推荐引擎：对话 Anekha Sokhal",
+            "summary": "Moshi 首席执行官 Anekha Sokhal 做客 swyx 的节目，探讨如何为大宗商品交易员构建推荐引擎。节目讨论了如何将市场数据转化为有用信号，以及设计契合用户工作流程的人工智能。",
+            "why_it_matters": "研究如何将复杂的市场数据转化为实用工具，展现了专用人工智能系统如何适应严苛的行业工作流。",
+            "extended_analysis": "本期节目深入探讨了为大宗商品交易员定制推荐引擎背后的工程与设计选择。Anekha Sokhal 与 swyx 共同探讨了处理市场数据以生成实用信号的方法。\n\n讨论重点在于将人工智能功能与金融专业人士的日常运营需求紧密结合的重要性。",
+            "context": "该讨论源自纽约的 AI Engineer 活动，凸显了将智能系统应用于特定行业金融挑战的持续进展。",
+            "key_takeaways": [
+              "构建针对大宗商品交易的专用推荐引擎。",
+              "将原始市场信息转化为实用信号的技术。",
+              "设计无缝融入用户工作流的人工智能解决方案。"
+            ],
+            "highlights": [
+              "Moshi 首席执行官 Anekha Sokhal 担任特邀嘉宾。",
+              "由 swyx 主持，探讨应用型人工智能工程挑战。"
+            ]
+          },
+          "de": {
+            "title": "Empfehlungs-Engines für Rohstoffhändler mit Anekha Sokhal",
+            "summary": "Anekha Sokhal, CEO von Moshi, spricht mit swyx über die Entwicklung einer Empfehlungs-Engine für Rohstoffhändler. Die Episode beleuchtet, wie Marktdaten in nützliche Signale umgewandelt und KI-Systeme passend zu Arbeitsabläufen gestaltet werden.",
+            "why_it_matters": "Die Untersuchung, wie komplexe Marktdaten in praktische Werkzeuge übersetzt werden, zeigt, wie spezialisierte KI-Systeme an anspruchsvolle Branchen angepasst werden.",
+            "extended_analysis": "Die Episode widmet sich den technischen und konzeptionellen Herausforderungen bei der Erstellung von Empfehlungs-Engines für den Rohstoffhandel. Anekha Sokhal teilt mit swyx Einblicke in die Verarbeitung von Marktdaten zur Generierung nützlicher Signale.\n\nIm Zentrum steht dabei die benutzerzentrierte Gestaltung, um KI-Anwendungen reibungslos in bestehende Arbeitsabläufe von Fachleuten zu integrieren.",
+            "context": "Aufgezeichnet im Rahmen des AI Engineer Events in New York, beleuchtet das Gespräch die praktische Anwendung von KI-Engineering in komplexen Finanzmärkten.",
+            "key_takeaways": [
+              "Entwicklung spezialisierter Empfehlungs-Engines für den Rohstoffhandel.",
+              "Methoden zur Umwandlung von Marktdaten in umsetzbare Signale.",
+              "Gestaltung von KI-Lösungen, die sich in Nutzer-Workflows einfügen."
+            ],
+            "highlights": [
+              "Anekha Sokhal, CEO von Moshi, ist zu Gast im Podcast.",
+              "Moderiert von swyx mit Fokus auf angewandte KI-Technologien."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 35,
+        "editor_pick_reason": ""
+      }
     },
     "db3c2eda6e56a446c36ed93c3dccaeba3672a2c93dce5ae723bf1cfb30b52604": {
       "fingerprint": "e39db8c47bdfd6b6df69acfc9fdae31afdcb1a14d0a82d5222a9d811afb7590c",
@@ -2379,7 +2622,7 @@
   },
   "daily": {
     "date": "2026-11-01",
-    "count": 4,
+    "count": 8,
     "picks": 0
   }
 }
