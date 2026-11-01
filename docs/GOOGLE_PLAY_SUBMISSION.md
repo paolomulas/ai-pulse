@@ -21,8 +21,7 @@ Le schede editoriali propongono sintesi e contesto per orientarsi tra i temi pi�
 **Funzioni principali**
 - Feed aggiornato tramite connessione Internet.
 - Filtri per News, GitHub e Speak Up.
-- Contenuti disponibili in più lingue, quando la localizzazione è presente.
-- Salvataggio locale delle storie e cronologia di lettura.
+- Filtri per lingua e livello editoriale.
 - Collegamenti diretti alle fonti originali.
 - Nessun account richiesto e nessuna pubblicità nell'app.
 
@@ -59,7 +58,7 @@ The app is likely in scope because it presents news/magazine content from multip
 
 ## Data safety — review before submitting
 
-The Android manifest currently requests only INTERNET. The native app has no account system, ad SDK, analytics SDK, location permission, contacts permission, camera, microphone, or file access. It stores preferences, saved stories and reading history locally.
+The Android manifest currently requests only INTERNET. The native app has no account system, ad SDK, analytics SDK, location permission, contacts permission, camera, microphone, or file access. The current native app keeps UI filters in transient session state; it does not persist preferences, saved stories or reading history locally.
 
 However, the app requests a public feed from GitHub over HTTPS. The network provider necessarily receives connection metadata, including the source IP address; Google Play's Data safety guidance explicitly includes approximate location inferred from IP addresses in its location data definitions. Review GitHub's actual logging/retention and determine whether the applicable Play Console answer is an ephemeral/service-provider case or whether approximate location must be declared. Do not automatically select "no data collected" without resolving this point.
 
