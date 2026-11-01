@@ -1719,56 +1719,91 @@
       "editorial": {
         "editorial": {
           "it": {
-            "title": "Lab-in-the-Loop a velocità di calcolo con Ian Quigley di Leash Bio",
-            "summary": "In questo episodio di Latent Space, Ian Quigley di Leash Bio discute il lavoro dell'azienda nel campo del legame proteina-ligando e delle scoperte legate ai dati, facendo riferimento alle competizioni Kaggle e alle loro pubblicazioni su Substack.",
-            "why_it_matters": "Offre uno sguardo sulle sfide reali della ricerca biochimica computazionale e sui limiti attuali nella predizione delle interazioni molecolari, basandosi esclusivamente sui contenuti descritti nei metadata della fonte.",
+            "title": "Lab-in-the-Loop alla velocità di calcolo con Ian Quigley",
+            "summary": "In questo episodio di Latent Space, Ian Quigley di Leash Bio discute il concetto di Lab-in-the-Loop alla velocità di calcolo. Vengono esplorate le sfide aperte nel legame proteina-ligando e curiose dinamiche legate alla scoperta molecolare.",
+            "why_it_matters": "La ricerca di Leash Bio mette in luce le sfide attuali e i limiti reali nella predizione computazionale e nel binding tra molecole, offrendo spunti critici per il settore.",
+            "extended_analysis": "Il podcast esplora il lavoro pionieristico e le riflessioni di Leash Bio, partendo dai loro post su Substack fino alle competizioni Kaggle. Vengono affrontati temi complessi legati al legame proteina-ligando e a come i metadati e gli autori delle molecole influenzino la comprensione scientifica. L'episodio offre uno sguardo ravvicinato sulle metodologie innovative che fondono automazione di laboratorio e calcolo ad alta velocità.\n\nNel contesto della scoperta di farmaci guidata dall'intelligenza artificiale, comprendere dove i modelli attuali falliscono o eccellono è fondamentale per orientare i prossimi sviluppi tecnologici. Gli ascoltatori possono esaminare criticamente lo stato dell'arte e le prospettive future della ricerca biomedica computazionale.",
+            "context": "L'episodio si inserisce nel panorama della ricerca biomedica avanzata, dove l'integrazione tra automazione di laboratorio e calcolo intensivo rappresenta una frontiera chiave per superare i limiti tradizionali della chimica computazionale.",
+            "key_takeaways": [
+              "Esplorazione del concetto di Lab-in-the-Loop alla velocità di calcolo.",
+              "Analisi delle competizioni Kaggle e dei problemi irrisolti nel legame proteina-ligando.",
+              "Riflessioni sulle bizzarre scoperte relative all'attribuzione degli autori molecolari."
+            ],
             "highlights": [
-              "Discussione sui risultati della competizione Kaggle di Leash Bio riguardo al legame proteina-ligando.",
-              "Analisi delle osservazioni sul legame tra l'autore di una molecola e le scoperte descritte su Substack."
+              "Ospite: Ian Quigley di Leash Bio.",
+              "Conduttore: Latent Space."
             ]
           },
           "en": {
-            "title": "Lab-in-the-Loop at Compute Speed with Ian Quigley of Leash Bio",
-            "summary": "In this Latent Space episode, Ian Quigley of Leash Bio explores protein-ligand binding challenges, insights from their Kaggle competition, and unusual findings regarding molecule authorship discussed on their Substack.",
-            "why_it_matters": "It provides a direct look into computational biology hurdles and experimental approaches as shared by industry practitioners, strictly reflecting the available metadata description.",
+            "title": "Lab-in-the-Loop at Compute Speed with Ian Quigley",
+            "summary": "In this Latent Space episode, Ian Quigley from Leash Bio discusses Lab-in-the-Loop at compute speed. The conversation covers protein-ligand binding challenges and observations on molecular discovery.",
+            "why_it_matters": "Leash Bio's insights highlight ongoing challenges and limitations in computational protein-ligand binding, providing a grounded look at modern molecular discovery.",
+            "extended_analysis": "The episode explores Leash Bio's work, drawing from their Substack writings and Kaggle competitions that demonstrate unsolved problems in protein-ligand binding. It examines intriguing findings about how molecular authorship impacts analysis and highlights the realities of accelerating laboratory workflows through computation.\n\nAs AI continues to intersect with drug discovery, evaluating these operational hurdles helps clarify the gap between project claims and verified computational limits. Listeners gain perspective on how automated wet labs and high-speed data processing are shaping the future of biotech.",
+            "context": "The discussion reflects the broader effort in computational biology to bridge physical laboratory experiments and rapid digital computation, addressing longstanding bottlenecks in drug discovery.",
+            "key_takeaways": [
+              "Understanding the Lab-in-the-Loop approach at compute speed.",
+              "Examining Kaggle competition findings on protein-ligand binding limitations.",
+              "Discussing novel observations regarding molecular metadata and authorship."
+            ],
             "highlights": [
-              "Exploration of protein-ligand binding complexities via Leash Bio's Kaggle competition.",
-              "Insights into molecule authorship findings highlighted on the Leash Bio Substack."
+              "Guest: Ian Quigley, Leash Bio.",
+              "Publisher: Latent Space."
             ]
           },
           "es": {
-            "title": "Lab-in-the-Loop a velocidad de cálculo con Ian Quigley de Leash Bio",
-            "summary": "En este episodio de Latent Space, Ian Quigley de Leash Bio analiza los desafíos de la unión proteína-ligando, su competición en Kaggle y descubrimientos sobre la autoría de moléculas compartidos en su Substack.",
-            "why_it_matters": "Permite conocer las complejidades y debates actuales en la investigación biológica computacional basándose estrictamente en la información proporcionada por la fuente.",
+            "title": "Lab-in-the-Loop a velocidad de cálculo con Ian Quigley",
+            "summary": "En este episodio de Latent Space, Ian Quigley de Leash Bio analiza el Lab-in-the-Loop a velocidad de cálculo. Se exploran los desafíos en la unión proteína-ligando y la investigación molecular.",
+            "why_it_matters": "El trabajo de Leash Bio expone los límites actuales en la predicción computacional del binding, ofreciendo una perspectiva crítica sobre la scoperta de fármacos.",
+            "extended_analysis": "El podcast profundiza en la trayectoria y los descubrimientos de Leash Bio, desde sus publicaciones en Substack hasta las competiciones en Kaggle que revelaron complejidades no resueltas en la unión proteína-ligando. También se discute la curiosa observación de que conocer al autor de una molécula puede influir en el análisis.\n\nEste análisis contextualiza el estado actual de la biotecnología impulsada por datos, separando las expectativas teóricas de los obstáculos experimentales reales que los investigadores enfrentan al intentar acelerar los ciclos de descubrimiento.",
+            "context": "La entrevista se enmarca en la intersección entre la experimentación de laboratorio y el procesamiento computacional rápido, un área clave para la innovación farmacéutica moderna.",
+            "key_takeaways": [
+              "Concepto y aplicación de Lab-in-the-Loop a velocidad de cálculo.",
+              "Revisión de los desafíos reales en la unión proteína-ligando según Kaggle.",
+              "Implicaciones de los metadatos y la autoría en la investigación molecular."
+            ],
             "highlights": [
-              "Revisión de los aprendizajes de la competición Kaggle sobre unión proteína-ligando.",
-              "Discusión sobre los hallazgos de autoría de moléculas mencionados en el Substack de Leash Bio."
+              "Invitado: Ian Quigley, Leash Bio.",
+              "Publicado por Latent Space."
             ]
           },
           "zh-CN": {
-            "title": "Leash Bio的Ian Quigley谈计算速度下的闭环实验室",
-            "summary": "在本期Latent Space播客中，Leash Bio的Ian Quigley讨论了蛋白质-配体结合的挑战、Kaggle竞赛的结果，以及在其Substack上分享的关于分子作者身份的发现。",
-            "why_it_matters": "该节目基于元数据描述，为读者提供了关于计算生物学中未解难题和实际探索的行业视角。",
+            "title": "以计算速度实现实验室闭环：对话 Ian Quigley",
+            "summary": "在本期 Latent Space 节目中，Leash Bio 的 Ian Quigley 探讨了以计算速度运行的实验室闭环技术。讨论涵盖了蛋白质与配体结合的未解挑战及分子发现过程中的观察。",
+            "why_it_matters": "Leash Bio 的探索揭示了当前计算蛋白质结合能力方面的实际局限性，为现代药物研发提供了务实的视角。",
+            "extended_analysis": "本期节目回顾了 Leash Bio 在 Substack 上的分享以及他们在 Kaggle 竞赛中的发现，指出蛋白质与配体结合预测领域仍有许多未解难题。同时，节目还讨论了关于分子作者身份如何影响分析的奇妙现象，展现了加速实验室工作流的现实情况。\n\n随着人工智能在生物医药领域的应用日益深入，审视这些实际操作中的瓶颈有助于厘清技术标榜与实际计算能力之间的差距，帮助听众了解自动化实验与高速计算的结合前景。",
+            "context": "该讨论植根于计算生物学的最新进展，探讨了如何将实验室实体实验与极速数字计算相结合，以解决传统药物研发中的效率瓶颈。",
+            "key_takeaways": [
+              "了解以计算速度运行的 Lab-in-the-Loop 方法。",
+              "审视 Kaggle 竞赛中关于蛋白质配体结合限制的发现。",
+              "探讨分子元数据与作者身份对研究的影响。"
+            ],
             "highlights": [
-              "探讨Leash Bio的Kaggle竞赛所揭示的蛋白质-配体结合问题。",
-              "提及Substack上关于分子作者身份的意外发现。"
+              "嘉宾：Ian Quigley (Leash Bio)。",
+              "发布方：Latent Space。"
             ]
           },
           "de": {
-            "title": "Lab-in-the-Loop mit Rechengeschwindigkeit — Ian Quigley von Leash Bio",
-            "summary": "In dieser Episode von Latent Space spricht Ian Quigley von Leash Bio über Protein-Ligand-Bindung, Einblicke aus ihrem Kaggle-Wettbewerb und Entdeckungen zur Autorschaft von Molekülen auf ihrem Substack.",
-            "why_it_matters": "Es bietet einen Einblick in die realen Herausforderungen der computergestützten Biologie und stützt sich dabei ausschließlich auf die bereitgestellten Metadaten.",
+            "title": "Lab-in-the-Loop in Rechenlupe-Geschwindigkeit mit Ian Quigley",
+            "summary": "In dieser Episode von Latent Space spricht Ian Quigley von Leash Bio über Lab-in-the-Loop in Rechengeschwindigkeit. Thematisiert werden Herausforderungen bei der Protein-Ligand-Bindung und molekulare Entdeckungen.",
+            "why_it_matters": "Die Arbeit von Leash Bio verdeutlicht bestehende Grenzen und ungelöste Probleme bei der computergestützten Proteinbindung und bietet einen realistischen Blick auf die Wirkstoffforschung.",
+            "extended_analysis": "Der Podcast beleuchtet die Erkenntnisse von Leash Bio, basierend auf deren Substack-Beiträgen und Kaggle-Wettbewerben, die zeigen, dass die Protein-Ligand-Bindung keineswegs vollständig gelöst ist. Diskutiert werden zudem überraschende Beobachtungen darüber, wie die Autorschaft von Molekülen die Analyse beeinflussen kann.\n\nVor dem Hintergrund der KI-gestützten Biomedizin hilft diese Episode dabei, reale experimentelle Hürden von theoretischen Versprechungen zu unterscheiden. Hörer erhalten Einblicke in die Verknüpfung von automatisierten Laboren und Hochgeschwindigkeits-Rechenprozessen.",
+            "context": "Das Gespräch spiegelt die Bemühungen in der Computational Biology wider, physische Laborexperimente und schnelle digitale Berechnungen zu verschmelzen, um klassische Engpässe in der Pharmaforschung zu überwinden.",
+            "key_takeaways": [
+              "Einführung in den Lab-in-the-Loop-Ansatz bei Rechengeschwindigkeit.",
+              "Betrachtung von Kaggle-Wettbewerbsergebnissen zur Protein-Ligand-Bindung.",
+              "Diskussion über molekulare Metadaten und Autorschaftseinflüsse."
+            ],
             "highlights": [
-              "Besprechung der Erkenntnisse aus dem Kaggle-Wettbewerb von Leash Bio zur Protein-Ligand-Bindung.",
-              "Einblicke in die auf dem Substack diskutierten Beobachtungen zur Molekülautorschaft."
+              "Gast: Ian Quigley, Leash Bio.",
+              "Herausgeber: Latent Space."
             ]
           }
         },
         "editorial_level": "ai_curated",
         "editorial_status": "verified",
         "editorial_model": "gemini-3.5-flash-lite",
-        "editorial_version": 2,
-        "relevance_score": 65,
+        "editorial_version": 4,
+        "relevance_score": 40,
         "editor_pick_reason": ""
       }
     },
@@ -2494,87 +2529,87 @@
       }
     },
     "ac3db777f5aac1cf97986b034f59b4c3bba5699e627acc03ae32695b1a5719b2": {
-      "fingerprint": "1071604b2143b4ae556ee23aaca7389c648c501c3b5825978910530d44222dbe",
+      "fingerprint": "9b61a85e7f2ca9d1fe6d9cd7cf1b11310e3e40c4759a9eb8f2c227f66e44ae1a",
       "editorial": {
         "editorial": {
           "it": {
-            "title": "TV-Detox: velocizza Android TV con l'IA",
-            "summary": "Il progetto GitHub tv-detox mira a velocizzare le vecchie Android TV rimuovendo bloatware, annunci e sezioni sponsorizzate. Utilizzando assistenti di codifica come Claude Code o Codex, fornisce una schermata iniziale pulita e priva di pubblicità.",
-            "why_it_matters": "Offre un modo pratico per riutilizzare hardware legacy, eliminando i fastidi legati all'interfaccia e alle pubblicità invasive delle smart TV.",
-            "extended_analysis": "Il repository GitHub introduce un approccio basato sull'intelligenza artificiale per alleggerire i dispositivi Android TV rallentati da applicazioni preinstallate non necessarie. Tramite un prompt guidato e l'uso di strumenti come Claude Code o Codex, gli utenti possono disattivare i processi superflui senza rischiare la cancellazione permanente dei dati.\n\nSebbene vengano segnalati possibili rischi legati alla disattivazione di app di sistema, il progetto rappresenta una soluzione interessante per il recupero di dispositivi obsoleti. Sarà utile monitorare l'evoluzione di questi script per valutare la stabilità a lungo termine.",
-            "context": "Molte smart TV moderne integrano interfacce pesanti e ricche di inserzioni pubblicitarie che ne peggiorano le prestazioni nel tempo. Progetti open source mirano a restituire il controllo agli utenti tramite l'ottimizzazione del software.",
+            "title": "TV-Detox: velocizza la vecchia Android TV con l'IA",
+            "summary": "Il progetto GitHub tv-detox punta a liberare le vecchie Android TV da pubblicità e bloatware utilizzando assistenti di codifica come Claude Code o Codex. Offre una schermata iniziale essenziale e senza annunci, gestita tramite prompt mirati.",
+            "why_it_matters": "Questo approccio sfrutta gli agenti di codifica per semplificare la manutenzione dei dispositivi domestici, riducendo l'ingombro pubblicitario e migliorando le prestazioni.",
+            "extended_analysis": "Il repository GitHub tv-detox introduce un metodo insolito per ottimizzare l'hardware datato delle smart TV tramite strumenti basati su intelligenza artificiale. L'utente collega la TV al laptop tramite Wi-Fi e impiega assistenti come Claude Code o Codex per eseguire una pulizia del sistema.\n\nIl pacchetto include script e una schermata iniziale ridotta al minimo, pensata per mostrare solo le app essenziali, gli ingressi HDMI e l'orologio. Vengono disattivate le righe sponsorizzate e i servizi superflui che spesso rallentano i dispositivi meno recenti.\n\nTuttavia, la documentazione avverte sui rischi associati alla disattivazione delle app di sistema, invitando a procedere con cautela per evitare blocchi del dispositivo. Resta un esempio interessante di come l'automazione tramite IA possa essere applicata alla gestione dei dispositivi consumer.",
+            "context": "Il mercato delle smart TV è sempre più monetizzato tramite interfacce ricche di pubblicità e contenuti sponsorizzati, che spesso appesantiscono i dispositivi più vecchi. Soluzioni fai-da-te e script di ottimizzazione cercano di restituire agli utenti il controllo sull'esperienza d'uso.",
             "key_takeaways": [
-              "Rimuove bloatware e pubblicità dalle vecchie Android TV.",
-              "Sfrutta Claude Code o Codex per automatizzare la pulizia.",
-              "Le applicazioni vengono disattivate in sicurezza e non eliminate."
+              "Utilizza Claude Code o Codex per pulire le vecchie Android TV.",
+              "Rimuove pubblicità e bloatware offrendo una schermata pulita.",
+              "Richiede il debug USB attivo e la connessione sulla stessa rete Wi-Fi."
             ],
             "highlights": [
-              "Disponibile come repository open source su GitHub.",
-              "Richiede l'attivazione del debug USB sul televisore."
+              "Progetto ospitato su GitHub denominato tv-detox.",
+              "Include script di automazione e una schermata iniziale senza annunci."
             ]
           },
           "en": {
-            "title": "TV-Detox: Speed Up Old Android TVs Using AI",
-            "summary": "The tv-detox GitHub project aims to speed up sluggish Android TVs by removing bloatware, ads, and sponsored rows. Using coding assistants like Claude Code or Codex, it provides a minimal, ad-free home screen.",
-            "why_it_matters": "It provides a practical way to repurpose legacy hardware, stripping away intrusive interfaces and heavy sponsored content.",
-            "extended_analysis": "The GitHub repository introduces an AI-driven approach to lightweight device management for Android TVs slowed down by pre-installed software. Through guided prompts and tools like Claude Code or Codex, users can disable unnecessary processes safely.\n\nWhile potential risks like system instability are noted, the project offers an alternative method for device optimization. Future updates will show how reliably these scripts handle diverse manufacturer builds.",
-            "context": "Modern smart TVs often feature resource-heavy interfaces filled with advertisements that degrade user experience over time. Open-source tools attempt to counter this device bloat.",
+            "title": "TV-Detox: Speed Up Old Android TVs Using AI Coding Tools",
+            "summary": "The GitHub project tv-detox aims to revitalize slow Android TVs by removing ads and bloatware using coding assistants like Claude Code or Codex. It pairs a tiny, ad-free home screen with automated prompts to clean up the system.",
+            "why_it_matters": "It demonstrates how AI coding agents can be repurposed to maintain consumer hardware, stripping away unwanted ads and performance bloat with simple remote commands.",
+            "extended_analysis": "The tv-detox repository provides a structured toolkit to remove sponsored rows and heavy interfaces from older Android TVs. By connecting a laptop and the television over the same Wi-Fi network, users can deploy AI tools like Claude Code or Codex to execute system cleanups.\n\nThe project supplies a minimal interface replacement focusing purely on installed apps, HDMI inputs, and a clock. Unwanted system apps are disabled rather than deleted, allowing users to reverse changes if needed.\n\nBecause modifying system packages carries inherent risks, the documentation explicitly warns that certain devices could encounter startup issues if critical components are disabled incorrectly. It highlights a practical intersection between developer tooling and home hardware customization.",
+            "context": "Modern smart TV interfaces are heavily laden with advertisements and tracking modules, which frequently degrade performance on older hardware over time. Community-driven cleanup methods aim to restore snappy navigation and remove unwanted sponsored clutter.",
             "key_takeaways": [
-              "Removes bloatware and ads from legacy Android TVs.",
-              "Leverages Claude Code or Codex for prompt-based cleanup.",
-              "Disables apps safely rather than deleting them permanently."
+              "Employs Claude Code or Codex to automate TV cleanups.",
+              "Replaces heavy manufacturer interfaces with a minimal home screen.",
+              "Disables apps safely without permanently deleting system files."
             ],
             "highlights": [
-              "Hosted as an open-source repository on GitHub.",
-              "Requires USB debugging enabled on the target TV."
+              "Open-source repository hosted on GitHub (tv-detox).",
+              "Requires USB debugging and local network connection."
             ]
           },
           "es": {
-            "title": "TV-Detox: Acelera Android TV con IA",
-            "summary": "El proyecto de GitHub tv-detox busca acelerar televisores Android TV antiguos eliminando bloatware, anuncios y secciones patrocinadas. Mediante asistentes de código como Claude Code o Codex, ofrece una pantalla de inicio limpia y sin publicidad.",
-            "why_it_matters": "Ofrece una forma práctica de reutilizar hardware antiguo, eliminando interfaces pesadas y contenido publicitario intrusivo.",
-            "extended_analysis": "El repositorio presenta una alternativa asistida por inteligencia artificial para optimizar dispositivos ralentizados por software preinstalado. Utilizando herramientas como Claude Code o Codex, los usuarios pueden desactivar procesos innecesarios.\n\nAunque se advierte sobre riesgos potenciales en la estabilidad del sistema, el proyecto demuestra el uso práctico de la IA en la gestión de dispositivos. Su evolución dependerá de la compatibilidad con diferentes fabricantes.",
-            "context": "Los televisores inteligentes actuales suelen incluir interfaces sobrecargadas de publicidad que afectan el rendimiento con los años. Las iniciativas de código abierto buscan simplificar estas experiencias.",
+            "title": "TV-Detox: Acelera tu vieja Android TV con IA",
+            "summary": "El proyecto de GitHub tv-detox busca revitalizar televisores Android TV antiguos eliminando anuncios y bloatware mediante asistentes de código como Claude Code o Codex. Ofrece una interfaz minimalista libre de publicidad.",
+            "why_it_matters": "Muestra el uso práctico de los agentes de código para simplificar la gestión de dispositivos domésticos y mejorar su rendimiento eliminando la saturación comercial.",
+            "extended_analysis": "El repositorio tv-detox propone una alternativa para limpiar interfaces pesadas en televisores inteligentes antiguos mediante el uso de herramientas de inteligencia artificial. Conectando la televisión y un ordenador a la misma red Wi-Fi, es posible utilizar asistentes para automatizar el proceso de optimización.\n\nLa solución reemplaza la pantalla de inicio habitual por una alternativa reducida que muestra únicamente aplicaciones, entradas HDMI y un reloj, eliminando filas patrocinadas.\n\nLos creadores advierten que la desactivación de aplicaciones del sistema conlleva riesgos operativos en ciertos modelos, por lo que se recomienda precaución durante el proceso de depuración.",
+            "context": "Las interfaces de los televisores inteligentes actuales suelen priorizar los contenidos patrocinados y la publicidad, lo que afecta de forma negativa a la velocidad de los modelos más antiguos.",
             "key_takeaways": [
-              "Elimina aplicaciones preinstaladas y anuncios en Android TV.",
-              "Utiliza asistentes de código para guiar el proceso de limpieza.",
-              "Desactiva las aplicaciones sin eliminarlas definitivamente."
+              "Utiliza asistentes de código para automatizar la limpieza de Android TV.",
+              "Proporciona una pantalla de inicio ligera y sin anuncios.",
+              "Requiere habilitar el modo de depuración USB en el dispositivo."
             ],
             "highlights": [
-              "Disponible como proyecto de código abierto en GitHub.",
-              "Requiere habilitar la depuración USB en el televisor."
+              "Disponible como repositorio público en GitHub.",
+              "Incluye scripts de instalación y desinstalación reversible."
             ]
           },
           "zh-CN": {
-            "title": "TV-Detox：利用AI让旧版Android TV重新流畅",
-            "summary": "GitHub项目 tv-detox 旨在通过移除内置臃肿软件、广告和赞助内容来加速运行缓慢的旧款 Android TV。借助 Claude Code 或 Codex 等编程助手，它能提供一个无广告的极简主屏幕。",
-            "why_it_matters": "它为复用老旧硬件提供了一种实用方案，去除了智能电视上繁重的界面和侵入式广告。",
-            "extended_analysis": "该开源仓库引入了一种由 AI 驱动的方法，用于精简因预装软件而变慢的 Android TV 设备。通过引导式提示词和编码工具，用户可以安全地禁用不必要的系统进程。\n\n尽管文档提示了潜在的系统风险，该项目仍展示了 AI 在设备管理方面的应用潜力。未来需要观察其在不同电视型号上的适配稳定性。",
-            "context": "现代智能电视通常内置占用资源较多的广告界面，长期使用会降低性能。开源社区一直试图通过软件优化来改善这一状况。",
+            "title": "TV-Detox：借助 AI 编码工具让旧款 Android TV 重焕流畅",
+            "summary": "GitHub 上的 tv-detox 项目旨在通过 Claude Code 或 Codex 等编码助手清除旧款 Android TV 上的广告与冗余软件。它结合了极简的无广告主屏幕与自动化提示词来精简系统。",
+            "why_it_matters": "它展示了如何将 AI 编码代理应用于消费级硬件维护，通过简单的远程指令移除烦人的广告和性能负担。",
+            "extended_analysis": "tv-detox 仓库提供了一套工具包，用于移除旧版智能电视上的推广内容和臃肿界面。通过将笔记本电脑与电视连接至同一 Wi-Fi 网络，用户可以借助 Claude Code 或 Codex 执行系统清理脚本。\n\n该项目提供了一个极简的主屏幕替代方案，仅保留应用、HDMI 输入和时钟。不需要的系统应用会被停用而非彻底删除，以便在需要时撤销更改。\n\n由于修改系统组件存在风险，文档特别提醒某些电视型号在操作不当时可能会遇到启动问题。这体现了开发者工具在智能家居硬件定制中的实际应用。",
+            "context": "现代智能 TV 界面充斥着广告和追踪模块，随着时间推移，这常常会导致老旧硬件的性能明显下降。社区驱动的清理方法旨在恢复流畅的导航并清除广告干扰。",
             "key_takeaways": [
-              "清除旧款 Android TV 上的臃肿软件与广告。",
-              "利用 Claude Code 或 Codex 执行清理提示词。",
-              "安全停用应用而非彻底删除。"
+              "利用 Claude Code 或 Codex 自动化清理 Android TV。",
+              "将臃肿的厂商界面替换为极简无广告主屏幕。",
+              "以停用而非直接删除的方式处理系统应用。"
             ],
             "highlights": [
-              "作为开源仓库托管在 GitHub 上。",
-              "需要在电视上开启 USB 调试模式。"
+              "托管于 GitHub 的开源项目 tv-detox。",
+              "操作需要开启 USB 调试并处于同一本地网络。"
             ]
           },
           "de": {
-            "title": "TV-Detox: Alte Android TVs mit KI beschleunigen",
-            "summary": "Das GitHub-Projekt tv-detox zielt darauf ab, träge Android TVs durch das Entfernen von Bloatware, Werbung und gesponserten Inhalten zu beschleunigen. Mithilfe von Coding-Assistenten wie Claude Code oder Codex entsteht ein werbefreier Startbildschirm.",
-            "why_it_matters": "Es bietet einen praktischen Ansatz zur Weiternutzung älterer Hardware, indem störende Benutzeroberflächen und Werbung entfernt werden.",
-            "extended_analysis": "Das GitHub-Repository stellt einen KI-gestützten Ansatz zur Bereinigung von Android-TV-Geräten vor. Durch gezielte Prompts und Werkzeuge wie Claude Code oder Codex können Anwender überflüssige Systemprozesse deaktivieren.\n\nObwohl auf potenzielle Risiken bei der Systemstabilität hingewiesen wird, zeigt das Projekt konkrete Anwendungsszenarien für KI im Gerätemanagement. Die Entwicklung hängt von der breiten Kompatibilität verschiedener TV-Modelle ab.",
-            "context": "Moderne Smart TVs leiden oft unter speicherintensiven Oberflächen und Werbung, die die Leistung beeinträchtigen. Open-Source-Projekte versuchen, die Kontrolle an die Nutzer zurückzugeben.",
+            "title": "TV-Detox: Alte Android TVs mit KI-Hilfe beschleunigen",
+            "summary": "Das GitHub-Projekt tv-detox zielt darauf ab, alte Android TVs mithilfe von Coding-Assistenten wie Claude Code oder Codex von Werbung und Bloatware zu befreien. Es kombiniert einen werbefreien Startbildschirm mit automatisierten Skripten.",
+            "why_it_matters": "Es zeigt, wie KI-Coding-Agenten für die Wartung von Haushaltsgeräten eingesetzt werden können, um unerwünschte Werbung und Leistungsbremsen zu beseitigen.",
+            "extended_analysis": "Das GitHub-Repository tv-detox bietet einen Ansatz, um ältere Smart-TVs von herstellerspezifischen Bloatware- und Werbezeilen zu befreien. Über eine lokale WLAN-Verbindung zwischen Laptop und Fernseher lassen sich KI-Tools einsetzen, um Systembereinigungen durchzuführen.\n\nDas Projekt stellt eine minimalistische Benutzeroberfläche bereit, die lediglich installierte Apps, HDMI-Eingänge und eine Uhr anzeigt. Nicht benötigte System-Apps werden deaktiviert, wodurch sie bei Bedarf wiederherstellbar bleiben.\n\nDa Eingriffe in das System Risiken bergen, weist die Dokumentation darauf hin, dass bestimmte Fernsehmodelle bei unsachgemäßer Handhabung Startprobleme aufweisen können. Dies demonstriert eine praktische Verbindung von Entwickler-Tools und Hardware-Anpassung.",
+            "context": "Moderne Smart-TV-Oberflächen sind oft stark mit Werbung und Tracking-Diensten überladen, was die Leistung älterer Hardware im Laufe der Zeit spürbar beeinträchtigt. Community-basierte Bereinigungen zielen darauf ab, die Reaktionsfähigkeit wiederherzustellen.",
             "key_takeaways": [
-              "Entfernt Bloatware und Werbung von älteren Android TVs.",
-              "Nutzt Claude Code oder Codex für die automatisierte Bereinigung.",
-              "Deaktiviert Apps sicher, anstatt sie dauerhaft zu löschen."
+              "Nutzt Claude Code oder Codex zur Bereinigung von Android TVs.",
+              "Ersetzt herstellerlastige Oberflächen durch einen minimalistischen Startbildschirm.",
+              "Deaktiviert System-Apps sicher, ohne sie dauerhaft zu löschen."
             ],
             "highlights": [
-              "Als Open-Source-Repository auf GitHub verfügbar.",
-              "Erfordert aktivientes USB-Debugging auf dem Fernseher."
+              "Open-Source-Repository auf GitHub (tv-detox).",
+              "Erfordert aktiviertes USB-Debugging und gemeinsames WLAN."
             ]
           }
         },
@@ -2582,7 +2617,7 @@
         "editorial_status": "verified",
         "editorial_model": "gemini-3.5-flash-lite",
         "editorial_version": 4,
-        "relevance_score": 45,
+        "relevance_score": 35,
         "editor_pick_reason": ""
       }
     },
@@ -2771,11 +2806,197 @@
         "relevance_score": 15,
         "editor_pick_reason": ""
       }
+    },
+    "be997bf718606abb5880af09af5b7542b88bddb7c8a4aef7fb022ed70afe6563": {
+      "fingerprint": "6cc5bc7b25cb8232cea778a37f3e465db363eb73c4f965258058c7e9b2a83bd7",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Dyna-2 e l'autonomia fisica di un'ora con Jason Ma",
+            "summary": "In questo episodio di Latent Space, Jason Ma di Dyna Robotics presenta Dyna-2, un modello di azione mondiale pre-addestrato su un milione di ore. La puntata include anche una demo dal vivo del robot Taku.",
+            "why_it_matters": "L'episodio esplora i progressi verso agenti fisici per uso generale dotati di un'autonomia prolungata, aprendo nuove prospettive nel campo della robotica basata sull'intelligenza artificiale.",
+            "extended_analysis": "Dyna Robotics attira l'attenzione della community con il recente annuncio di Dyna-2, un modello di azione mondiale addestrato su una mole massiccia di dati pari a un milione di ore. La discussione con Jason Ma offre uno sguardo ravvicinato su queste tecnologie avanzate.\n\nLa puntata menziona inoltre la dimostrazione dal vivo del robot Taku, sebbene gli autori consiglino la visione su YouTube per apprezzare appieno la demo visiva. Vengono inoltre segnalati eventi di settore come AIE NYC e il prossimo appuntamento AIE CODE a San Francisco.\n\nNel contesto della robotica odierna, la ricerca di un'autonomia prolungata e di modelli in grado di agire nel mondo fisico rappresenta una delle sfide più ambiziose. Questa analisi fornisce spunti utili per comprendere lo stato attuale della robotica intelligente.",
+            "context": "Il podcast Latent Space approfondisce le ultime novità nello sviluppo di agenti fisici e modelli di azione. La conversazione si inserisce nel fermento della community di intelligenza artificiale, tra incontri dal vivo e nuove release tecnologiche.",
+            "key_takeaways": [
+              "Presentazione di Dyna-2, un modello di azione mondiale pre-addestrato su un milione di ore.",
+              "Dimostrazione dal vivo del robot Taku, ottimizzata per la visione su YouTube.",
+              "Approfondimento sull'autonomia fisica di un'ora per agenti di uso generale con Jason Ma di Dyna Robotics."
+            ],
+            "highlights": [
+              "Jason Ma è ospite dell'episodio per discutere i progressi di Dyna Robotics.",
+              "Vengono menzionati gli eventi AIE NYC e il futuro AIE CODE a San Francisco."
+            ]
+          },
+          "en": {
+            "title": "Dyna-2: General Purpose Physical Agents with Jason Ma",
+            "summary": "In this Latent Space episode, Jason Ma from Dyna Robotics discusses Dyna-2, a world-action model pre-trained on one million hours. The episode also features a live demo of the Taku robot.",
+            "why_it_matters": "The discussion highlights breakthroughs in general-purpose physical agents and long-horizon autonomy, showcasing cutting-edge developments in world-action models.",
+            "extended_analysis": "Dyna Robotics recently made news by announcing Dyna-2, a world-action model trained on one million hours of data. In this episode, Jason Ma breaks down the architecture and implications with the Latent Space hosts.\n\nThe conversation includes a live demonstration of the Taku robot, which is noted to be best enjoyed visually on YouTube. Listeners are also reminded of community gatherings like AIE NYC and the upcoming AIE CODE event in San Francisco.\n\nAs robotics research shifts toward greater autonomy and generalized physical reasoning, understanding these foundational models is crucial for practitioners tracking the convergence of AI and hardware.",
+            "context": "Latent Space brings technical conversations on the latest frontiers of AI, covering hardware-software integration and new paradigm shifts in robotics and world models.",
+            "key_takeaways": [
+              "Insights into Dyna-2, a world-action model pre-trained on one million hours.",
+              "Discussion on achieving hour-long autonomy for general-purpose physical agents.",
+              "Features a live demonstration of the Taku robot."
+            ],
+            "highlights": [
+              "Guest Jason Ma represents Dyna Robotics in the episode.",
+              "Mentions community events including AIE NYC and AIE CODE in San Francisco."
+            ]
+          },
+          "es": {
+            "title": "Dyna-2: agentes físicos de propósito general con Jason Ma",
+            "summary": "En este episodio de Latent Space, Jason Ma de Dyna Robotics analiza Dyna-2, un modelo de acción mundial preentrenado en un millón de horas. La entrega incluye una demostración en vivo del robot Taku.",
+            "why_it_matters": "La charla examina los avances hacia una autonomía prolongada en agentes físicos, marcando un hito en el desarrollo de modelos de acción para la robótica.",
+            "extended_analysis": "Dyna Robotics ha acaparado la atención al anunciar Dyna-2, un modelo de acción mundial entrenado con un millón de horas de datos. Jason Ma detalla estos avances en una conversación técnica profunda.\n\nEl episodio destaca una demostración en vivo del robot Taku, recomendada para visualizarse en YouTube. Asimismo, se menciona la actividad de la comunidad en eventos como AIE NYC y el próximo AIE CODE en San Francisco.\n\nEste tipo de desarrollos refleja la evolución continua en la integración de la inteligencia artificial con sistemas robóticos del mundo real, un área clave para el futuro de la automatización avanzada.",
+            "context": "El podcast Latent Space explora las fronteras de la inteligencia artificial y la robótica, conectando a creadores y profesionales con las innovaciones más recientes del sector.",
+            "key_takeaways": [
+              "Presentación del modelo de acción mundial Dyna-2, entrenado en un millón de horas.",
+              "Discusión sobre la autonomía física de una hora en agentes de propósito general.",
+              "Demostración en vivo del robot Taku integrada en el episodio."
+            ],
+            "highlights": [
+              "Jason Ma participa como invitado por parte de Dyna Robotics.",
+              "Se hace referencia a los eventos AIE NYC y AIE CODE en San Francisco."
+            ]
+          },
+          "zh-CN": {
+            "title": "Dyna-2与通用物理智能体：对话Jason Ma",
+            "summary": "在本期Latent Space播客中，来自Dyna Robotics的Jason Ma探讨了经过一百万小时预训练的世界动作模型Dyna-2。节目中还包含Taku机器人的现场演示。",
+            "why_it_matters": "该期节目聚焦于具备长时间自主能力的通用物理智能体最新进展，展示了世界动作模型在机器人领域的应用潜力。",
+            "extended_analysis": "Dyna Robotics近期因发布在百万小时数据上预训练的世界动作模型Dyna-2而受到关注。Jason Ma在节目中分享了相关技术背景与研发进展。\n\n节目中展示了Taku机器人的现场操作演示，并指出通过YouTube观看效果更佳。同时，主持人也提到了AIE NYC活动以及即将于旧金山举办的AIE CODE会议。\n\n随着人工智能与硬件的深度融合，探索物理世界的通用智能体正成为行业前沿的重要方向，为研究人员提供了宝贵的观察视角。",
+            "context": "Latent Space播客持续关注人工智能领域的技术前沿，探讨大模型、世界模型以及机器人软硬件结合的最新趋势。",
+            "key_takeaways": [
+              "深入了解经过百万小时预训练的世界动作模型Dyna-2。",
+              "探讨实现一小时物理自主能力的通用智能体技术。",
+              "包含Taku机器人的现场演示内容。"
+            ],
+            "highlights": [
+              "Dyna Robotics的Jason Ma作为嘉宾参与讨论。",
+              "提及AIE NYC以及旧金山的AIE CODE等社区活动。"
+            ]
+          },
+          "de": {
+            "title": "Dyna-2: Physische Agenten mit Jason Ma von Dyna Robotics",
+            "summary": "In dieser Episode von Latent Space spricht Jason Ma über Dyna-2, ein Welt-Aktionsmodell mit einer Million Trainingsstunden. Die Sendung enthält zudem eine Live-Demo des Taku-Roboters.",
+            "why_it_matters": "Die Diskussion beleuchtet Fortschritte bei physischen Allzweckagenten mit stundenlanger Autonomie und zeigt neue Entwicklungen im Bereich der Welt-Aktionsmodelle auf.",
+            "extended_analysis": "Dyna Robotics hat kürzlich mit der Ankündigung von Dyna-2 Aufsehen erregt, einem Welt-Aktionsmodell, das auf einer Million Stunden vortrainiert wurde. Jason Ma teilt in diesem Gespräch Einblicke in diese Technologie.\n\nDie Episode beinhaltet eine Live-Demonstration des Taku-Roboters, die laut Hinweisen am besten auf YouTube zu verfolgen ist. Zudem wird auf Community-Veranstaltungen wie AIE NYC und das kommende AIE CODE in San Francisco hingewiesen.\n\nDer Vorstoß hin zu längerer Autonomie und generalisierten physischen Systemen markiert einen spannenden Trend an der Schnittstelle von künstlicher Intelligenz und Robotik.",
+            "context": "Der Podcast Latent Space widmet sich den aktuellen technischen Grenzen der KI und beleuchtet die Integration von Softwaremodellen in physische Robotersysteme.",
+            "key_takeaways": [
+              "Einblicke in Dyna-2, ein auf einer Million Stunden vortrainiertes Welt-Aktionsmodell.",
+              "Diskussion über physische Allzweckagenten mit stundenlanger Autonomie.",
+              "Enthält eine Live-Demonstration des Taku-Roboters."
+            ],
+            "highlights": [
+              "Jason Ma ist als Gast von Dyna Robotics in der Episode vertreten.",
+              "Erwähnung der Veranstaltungen AIE NYC und AIE CODE in San Francisco."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 25,
+        "editor_pick_reason": ""
+      }
+    },
+    "da610ac91303e57c961903f98c0aab51427c9bde01ea2e3e512b30dc892edc8e": {
+      "fingerprint": "f2c649c3853799ac53439ebab3be8d3d5860abe1ba74cdaec54814b4cbe87d5c",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Arriva gsv, l'assistente personale open source in TypeScript",
+            "summary": "La repository GitHub deathbyknowledge/gsv presenta un nuovo assistente personale sviluppato in TypeScript. Con 130 stelle su GitHub, il progetto open source si propone al pubblico con la descrizione di assistente personale dal futuro.",
+            "why_it_matters": "I nuovi progetti open source in TypeScript offrono spunti sulle tendenze di sviluppo emergenti per gli strumenti di assistenza personale, sebbene manchino dati su benchmark e test indipendenti.",
+            "extended_analysis": "Il progetto ospitato su GitHub denominato gsv attira l'attenzione della community open source grazie alla sua natura in TypeScript e a un posizionamento ambizioso come assistente personale. Al momento, la descrizione disponibile è estremamente sintetica e la documentazione non fornisce dettagli tecnici approfonditi o metriche di performance verificate.\n\nNel panorama dei software di intelligenza artificiale e degli strumenti di supporto quotidiano, l'adozione di TypeScript evidenzia una preferenza per ecosistemi web-compatibili. Tuttavia, senza un'analisi approfondita o test indipendenti, è fondamentale mantenere un approccio cauto e distinguere le dichiarazioni promozionali dai fatti verificati.\n\nPer il futuro, sarà opportuno monitorare gli aggiornamenti della repository per verificare l'effettiva evoluzione delle funzionalità promesse e l'eventuale rilascio di documentazione tecnica più dettagliata.",
+            "context": "Il panorama dei progetti open source su GitHub vede la nascita continua di strumenti di assistenza personale basati su TypeScript, sebbene molti rimangano in fase iniziale senza test indipendenti o benchmark verificati.",
+            "key_takeaways": [
+              "Il progetto gsv è sviluppato in TypeScript.",
+              "La repository ha raccolto 130 stelle su GitHub.",
+              "La descrizione ufficiale definisce il software come un assistente personale dal futuro."
+            ],
+            "highlights": [
+              "Sviluppato in TypeScript.",
+              "Disponibile sulla piattaforma GitHub."
+            ]
+          },
+          "en": {
+            "title": "Introducing gsv: A New Personal Assistant Project on GitHub",
+            "summary": "The GitHub repository deathbyknowledge/gsv introduces a personal assistant project built with TypeScript. Currently holding 130 stars on GitHub, the open-source initiative is marketed as a personal assistant from the future.",
+            "why_it_matters": "Early-stage open-source repositories in TypeScript offer a look at emerging community experiments in personal assistance tools, though factual performance data and benchmarks are currently absent.",
+            "extended_analysis": "The gsv repository has gathered initial interest within the open-source community, reflecting ongoing exploration into personal assistance solutions built using TypeScript. Because the available description is very brief, details regarding core architecture, capabilities, and independent testing remain limited.\n\nIn the broader ecosystem of AI and software tooling, evaluating projects requires careful distinction between initial claims and verified benchmarks. Without published performance metrics or comprehensive documentation, observers should treat project descriptions cautiously.\n\nMoving forward, tracking updates on the GitHub repository will help clarify whether the project delivers concrete technical features beyond its initial positioning.",
+            "context": "Open-source developers frequently publish early-stage tooling on GitHub, utilizing languages like TypeScript to experiment with modern assistant interfaces and workflow automation concepts.",
+            "key_takeaways": [
+              "The project is implemented in TypeScript.",
+              "It has accumulated 130 stars on GitHub.",
+              "The publisher describes the software as a personal assistant from the future."
+            ],
+            "highlights": [
+              "Built using TypeScript.",
+              "Hosted on GitHub under deathbyknowledge/gsv."
+            ]
+          },
+          "es": {
+            "title": "Llega gsv, un nuevo asistente personal en TypeScript en GitHub",
+            "summary": "El repositorio de GitHub deathbyknowledge/gsv presenta un asistente personal desarrollado en TypeScript. Con 130 estrellas en la plataforma, el proyecto se describe a sí mismo como un asistente personal del futuro.",
+            "why_it_matters": "Los nuevos repositorios open source en TypeScript permiten observar las tendencias de desarrollo en herramientas de asistencia, aunque carecen de pruebas independientes o benchmarks.",
+            "extended_analysis": "El proyecto gsv llama la atención en la comunidad de código abierto por su implementación en TypeScript y su ambiciosa etiqueta como asistente personal. Sin embargo, la información disponible se limita a una descripción muy concisa sin datos técnicos detallados.\n\nEn el ecosistema tecnológico actual, es fundamental diferenciar las promesas de los proyectos de los hechos comprobados mediante pruebas independientes. La falta de métricas de rendimiento exige prudencia al evaluar su alcance real.\n\nPara el futuro, será necesario seguir de cerca la evolución del repositorio y la publicación de documentación adicional que confirme las capacidades reales del software.",
+            "context": "El desarrollo de herramientas de asistencia personal en plataformas como GitHub refleja el interés continuo por crear soluciones basadas en TypeScript, a la espera de evaluaciones técnicas rigurosas.",
+            "key_takeaways": [
+              "El software está escrito en TypeScript.",
+              "Cuenta con 130 estrellas en GitHub.",
+              "Se presenta como un asistente personal del futuro."
+            ],
+            "highlights": [
+              "Desarrollado en TypeScript.",
+              "Disponible en GitHub."
+            ]
+          },
+          "zh-CN": {
+            "title": "开源个人助手项目gsv亮相GitHub，采用TypeScript开发",
+            "summary": "GitHub上的deathbyknowledge/gsv代码库推出了一款使用TypeScript编写的个人助手项目。该开源项目目前在GitHub上获得了130颗星标，并被描述为来自未来的个人助手。",
+            "why_it_matters": "早期开源TypeScript项目反映了社区在个人辅助工具上的探索方向，但目前缺乏独立测试数据和性能基准。",
+            "extended_analysis": "托管在GitHub上的gsv项目凭借TypeScript语言和独特的定位吸引了部分开源社区的关注。然而，由于项目描述极其简短，目前尚未提供深入的技术架构细节或经过验证的性能指标。\n\n在人工智能与软件工具生态中，评估项目时必须区分自我宣传与经过独立验证的事实。在缺乏详尽文档和基准测试的情况下，建议采取谨慎客观的态度看待该项目。\n\n未来需要持续关注该代码库的更新动态，以观察其是否会发布更具体的 technischen 文档和实际功能实现。",
+            "context": "开源社区经常在GitHub上发布早期工具项目，利用TypeScript等现代语言探索各类辅助软件概念，但通常需要更多验证数据以证明其实际效用。",
+            "key_takeaways": [
+              "项目使用TypeScript语言编写。",
+              "在GitHub上获得了130星标。",
+              "官方描述其为来自未来的个人助手。"
+            ],
+            "highlights": [
+              "基于TypeScript开发。",
+              "托管于GitHub平台。"
+            ]
+          },
+          "de": {
+            "title": "gsv: Neues Open-Source-Projekt für persönliche Assistenten in TypeScript",
+            "summary": "Das GitHub-Repository deathbyknowledge/gsv stellt einen persönlichen Assistenten vor, der in TypeScript entwickelt wurde. Mit 130 Sternen auf GitHub positioniert sich das Open-Source-Projekt als persönlicher Assistent aus der Zukunft.",
+            "why_it_matters": "Frühphasige Open-Source-Projekte in TypeScript geben Einblicke in aktuelle Entwicklertrends bei Assistenztools, auch wenn unabhängige Benchmarks und Leistungsdaten fehlen.",
+            "extended_analysis": "Das auf GitHub veröffentlichte Projekt gsv zieht durch seine Implementierung in TypeScript und die Beschreibung als Zukunftsassistent Aufmerksamkeit in der Open-Source-Community auf sich. Da die verfügbare Beschreibung jedoch sehr knapp gehalten ist, lassen sich daraus noch keine umfassenden technischen Fähigkeiten ableiten.\n\nIm breiteren Software-Ökosystem ist es wichtig, zwischen den Ankündigungen von Projekten und durch unabhängige Tests verifizierten Fakten zu unterscheiden. Das Fehlen von Leistungsmetriken erfordert eine vorsichtige Einschätzung des Nutzens.\n\nIn Zukunft lohnt sich ein Blick auf die Entwicklung des Repositories, um zu sehen, ob weitere technische Dokumentationen und konkrete Funktionen nachgereicht werden.",
+            "context": "Die Veröffentlichung experimenteller Assistenztools auf Plattformen wie GitHub ist im Open-Source-Bereich üblich, wobei TypeScript häufig für moderne Web- und Tooling-Ansätze genutzt wird.",
+            "key_takeaways": [
+              "Das Projekt ist in TypeScript programmiert.",
+              "Es verzeichnet 130 Sterne auf GitHub.",
+              "Die Beschreibung bezeichnet die Software als persönlichen Assistenten aus der Zukunft."
+            ],
+            "highlights": [
+              "Programmiert in TypeScript.",
+              "Verfügbar auf GitHub."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 15,
+        "editor_pick_reason": ""
+      }
     }
   },
   "daily": {
     "date": "2026-11-01",
-    "count": 12,
+    "count": 16,
     "picks": 0
   }
 }
