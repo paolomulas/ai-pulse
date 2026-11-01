@@ -1382,61 +1382,91 @@
       "editorial": {
         "editorial": {
           "it": {
-            "title": "IA per le Fortune 2000 e ingegneria AI-native con Tenex",
-            "summary": "Alex Lieberman e CJ Hess parlano con swyx ad AI Engineer New York dell'approccio di Tenex all'ingegneria AI-native. La discussione esplora il pagamento basato sui risultati, MetaHarness, l'adozione dell'IA aziendale e la ricostruzione del SaaS.",
-            "why_it_matters": "L'episodio offre spunti preziosi sulle strategie di adozione dell'IA aziendale e sui nuovi modelli operativi per lo sviluppo software, sebbene i dettagli completi dipendano dall'ascolto dell'audio originale.",
+            "title": "Intelligenza Artificiale per le Fortune 2000: il punto di vista di Tenex",
+            "summary": "In questo episodio registrato dal vivo all'AI Engineer New York, Alex Lieberman e CJ Hess discutono con swyx dell'approccio di Tenex all'ingegneria nativa IA, alla retribuzione basata sui risultati, a MetaHarness, all'adozione aziendale e alla ricostruzione del SaaS.",
+            "why_it_matters": "Comprendere come le grandi aziende integrano l'ingegneria nativa IA e ridiscutono i modelli di costo offre una prospettiva concreta sul futuro del software aziendale.",
+            "extended_analysis": "Il panorama dello sviluppo software aziendale sta attraversando una fase di profonda trasformazione guidata dall'adozione dell'intelligenza artificiale. In questo episodio di Latent Space, registrato ad AI Engineer New York, gli ospiti Alex Lieberman e CJ Hess esplorano il lavoro di Tenex nell'ambito dell'ingegneria nativa IA e l'uso di strumenti come MetaHarness.\n\nLa discussione affronta temi cruciali per il mercato delle Fortune 2000, tra cui i modelli di business basati sul pagamento in base ai risultati anziché sulle licenze tradizionali, e la necessità di ricostruire l'ecosistema SaaS in un'ottica completamente orientata all'intelligenza artificiale.\n\nNel prosieguo dell'analisi, gli ascoltatori possono esaminare come queste strategie impattino l'adozione aziendale e quali siano le sfide pratiche nel ridefinire i cicli di vita dello sviluppo software (SDLC) su scala enterprise.",
+            "context": "L'episodio si inserisce nel dibattito in corso sull'adozione dell'intelligenza artificiale generativa e dei sistemi autonomi nelle grandi organizzazioni, esplorando modelli commerciali innovativi per i servizi software.",
+            "key_takeaways": [
+              "L'approccio di Tenex all'ingegneria nativa IA per le Fortune 2000.",
+              "Il modello di business basato sul pagamento in base ai risultati.",
+              "Il ruolo di MetaHarness e la ricostruzione del SaaS aziendale."
+            ],
             "highlights": [
-              "Approccio di Tenex all'ingegneria AI-native e pagamento per risultati",
-              "Discussione su MetaHarness e adozione dell'IA nelle aziende",
-              "Riflessioni sulla ricostruzione del software as a service (SaaS)"
+              "Alex Lieberman e CJ Hess ospiti di swyx ad AI Engineer New York.",
+              "Discussione approfondita sull'adozione dell'IA aziendale e sui cicli di sviluppo software nativi IA."
             ]
           },
           "en": {
-            "title": "AI for Fortune 2000 and AI-Native SDLC with Tenex",
-            "summary": "Alex Lieberman and CJ Hess join swyx at AI Engineer New York to discuss Tenex's approach to AI-native engineering. The conversation covers paying for outcomes, MetaHarness, enterprise AI adoption, and rebuilding SaaS.",
-            "why_it_matters": "This episode provides direct insights into enterprise AI strategies and modern software development approaches, though specific claims should be verified directly against the audio.",
+            "title": "AI for the Fortune 2000: How Tenex Builds an AI-Native SDLC",
+            "summary": "Alex Lieberman and CJ Hess join swyx at AI Engineer New York to discuss Tenex’s approach to AI-native engineering, outcome-based pricing, MetaHarness, enterprise AI adoption, and the rebuilding of SaaS.",
+            "why_it_matters": "Examining how enterprise organizations adopt AI-native engineering and alternative payment models sheds light on the shifting landscape of software development.",
+            "extended_analysis": "As enterprise software enters a new paradigm, companies are actively rethinking how engineering teams build applications. In this episode from Latent Space recorded live at AI Engineer New York, guests Alex Lieberman and CJ Hess delve into Tenex's methodology for an AI-native Software Development Life Cycle (SDLC).\n\nThe conversation highlights the shift toward outcome-based pricing models, moving away from traditional software subscriptions, and introduces technical frameworks like MetaHarness. The guests also examine what it takes to drive meaningful AI adoption across the Fortune 2000.\n\nListeners gain valuable insight into the operational challenges and strategic decisions required to rebuild legacy SaaS architectures for an AI-first world, guided by practitioners working directly with enterprise clients.",
+            "context": "Recorded at AI Engineer New York, this episode captures current industry discussions around transforming enterprise engineering workflows and commercial models using generative AI.",
+            "key_takeaways": [
+              "Tenex's framework for building an AI-native SDLC.",
+              "The transition to outcome-based pricing models in enterprise services.",
+              "Insights on enterprise AI adoption and MetaHarness."
+            ],
             "highlights": [
-              "Tenex's approach to AI-native engineering and outcome-based pricing",
-              "Insights into MetaHarness and enterprise AI adoption",
-              "Perspectives on rebuilding SaaS applications"
+              "Alex Lieberman and CJ Hess discuss rebuilding SaaS with swyx.",
+              "Exploration of AI-native engineering strategies for Fortune 2000 companies."
             ]
           },
           "es": {
-            "title": "IA para Fortune 2000 y desarrollo nativo de IA con Tenex",
-            "summary": "Alex Lieberman y CJ Hess se unen a swyx en AI Engineer New York para debatir sobre el enfoque de Tenex hacia la ingeniería nativa de IA. Se aborda el pago por resultados, MetaHarness, la adopción de IA empresarial y la reinvención del SaaS.",
-            "why_it_matters": "Ofrece una perspectiva útil sobre la adopción empresarial de la inteligencia artificial y los nuevos modelos de desarrollo, manteniendo la cautela ante la falta de una transcripción completa.",
+            "title": "IA para las Fortune 2000: cómo Tenex construye un ciclo de desarrollo nativo",
+            "summary": "Alex Lieberman y CJ Hess se unen a swyx en AI Engineer New York para debatir sobre el enfoque de Tenex en la ingeniería nativa de IA, el pago por resultados, MetaHarness, la adopción empresarial y la reinvención del SaaS.",
+            "why_it_matters": "Analizar cómo las grandes empresas adoptan la ingeniería nativa de IA y nuevos modelos comerciales ayuda a comprender la evolución del desarrollo de software.",
+            "extended_analysis": "La adopción de la inteligencia artificial en el sector empresarial está impulsando nuevas formas de concebir el ciclo de vida del desarrollo de software. En este episodio de Latent Space, grabado en AI Engineer New York, los invitados Alex Lieberman y CJ Hess analizan la estrategia de Tenex.\n\nLa charla examina conceptos clave como el pago basado en resultados y el uso de MetaHarness, ofreciendo una perspectiva sobre cómo las empresas de la lista Fortune 2000 están integrando capacidades de inteligencia artificial en sus operaciones técnicas.\n\nAsimismo, se aborda la necesidad de reconstruir el ecosistema SaaS tradicional para adaptarlo a un paradigma donde la inteligencia artificial es el núcleo de la ingeniería de software.",
+            "context": "Este episodio refleja el debate actual sobre la transformación de los flujos de trabajo de ingeniería en las grandes empresas mediante el uso de inteligencia artificial.",
+            "key_takeaways": [
+              "El enfoque de Tenex hacia la ingeniería nativa de IA.",
+              "Modelos de pago basados en resultados para la adopción empresarial.",
+              "El papel de MetaHarness en la reestructuración del SaaS."
+            ],
             "highlights": [
-              "Enfoque de Tenex en ingeniería nativa de IA y pago por resultados",
-              "Uso de MetaHarness y adopción de IA en grandes empresas",
-              "Estrategias para la reconstrucción del modelo SaaS"
+              "Alex Lieberman y CJ Hess conversan con swyx en AI Engineer New York.",
+              "Discusión sobre la adopción de IA en las empresas Fortune 2000."
             ]
           },
           "zh-CN": {
-            "title": "面向财富2000强的AI与Tenex的AI原生软件开发",
-            "summary": "Alex Lieberman和CJ Hess在AI Engineer New York做客Latent Space，与swyx探讨Tenex的AI原生工程方法。讨论涵盖按成果付费、MetaHarness、企业AI采用以及重构SaaS。",
-            "why_it_matters": "本期节目探讨了企业级AI应用和软件工程的新方法，具体细节需参考实际音频内容。",
+            "title": "面向财富2000强的AI：Tenex如何构建AI原生软件开发生命周期",
+            "summary": "Alex Lieberman和CJ Hess在纽约AI工程师大会上做客Latent Space，与swyx共同探讨Tenex的AI原生工程方法、按成果付费模式、MetaHarness以及企业AI采用与SaaS重构。",
+            "why_it_matters": "了解大型企业如何采用AI原生工程以及探索替代性商业模式，为软件开发的未来提供了关键视角。",
+            "extended_analysis": "随着企业软件进入全新阶段，行业正积极反思工程团队构建应用程序的方式。在纽约AI工程师大会录制的本期Latent Space节目中，嘉宾Alex Lieberman和CJ Hess深入探讨了Tenex关于AI原生软件开发生命周期（SDLC）的方法论。\n\n对话重点关注了向按成果付费商业模式的转变，探讨了MetaHarness等技术框架，并分析了财富2000强企业实现有意义的AI采用所面临的机遇与挑战。\n\n听众可以从中了解到在AI优先的世界中重构传统SaaS架构所需的运营挑战与战略决策。",
+            "context": "本期节目记录了行业围绕利用生成式人工智能转型企业工程工作流和商业模式的深入讨论。",
+            "key_takeaways": [
+              "Tenex构建AI原生SDLC的实践方法。",
+              "企业服务中向按成果付费定价模式的转变。",
+              "关于企业AI采用与MetaHarness的专业见解。"
+            ],
             "highlights": [
-              "Tenex的AI原生工程方法与按成果付费模式",
-              "关于MetaHarness与企业AI采用的讨论",
-              "探讨如何重新构建SaaS应用"
+              "Alex Lieberman与CJ Hess同swyx探讨SaaS重构。",
+              "探讨面向财富2000强企业的AI原生工程策略。"
             ]
           },
           "de": {
-            "title": "KI für Fortune 2000 und KI-native Softwareentwicklung mit Tenex",
-            "summary": "Alex Lieberman und CJ Hess sprechen mit swyx bei AI Engineer New York über Tenex und deren Ansatz für KI-native Entwicklung. Thematisiert werden ergebnisbasiertes Bezahlen, MetaHarness, KI-Einführung in Unternehmen und die Neugestaltung von SaaS.",
-            "why_it_matters": "Die Episode bietet Einblicke in Strategien zur Einführung von Unternehmens-KI, wobei Aussagen und Benchmarks direkt anhand des Audios überprüft werden sollten.",
+            "title": "KI für die Fortune 2000: Wie Tenex einen KI-nativen SDLC entwickelt",
+            "summary": "Alex Lieberman und CJ Hess sprechen bei AI Engineer New York mit swyx über den Ansatz von Tenex für KI-native Softwareentwicklung, ergebnisbasierte Bezahlung, MetaHarness, KI-Einführung in Unternehmen und die Neugestaltung von SaaS.",
+            "why_it_matters": "Die Untersuchung, wie große Unternehmen KI-native Entwicklung und alternative Abrechnungsmodelle einführen, verdeutlicht den Wandel in der Softwarebranche.",
+            "extended_analysis": "Die Softwareentwicklung in Großunternehmen befindet sich in einer tiefgreifenden Transformation. In dieser bei AI Engineer New York aufgezeichneten Episode von Latent Space diskutieren die Gäste Alex Lieberman und CJ Hess den Ansatz von Tenex für einen KI-nativen Softwareentwicklungslebenszyklus (SDLC).\n\nIm Mittelpunkt stehen dabei ergebnisbasierte Preismodelle, die Abkehr von traditionellen Abonnements sowie der Einsatz technischer Frameworks wie MetaHarness. Zudem beleuchten die Gäste die Voraussetzungen für eine erfolgreiche KI-Adoption bei Fortune-2000-Unternehmen.\n\nDie Episode bietet praxisnahe Einblicke in die strategischen und operativen Herausforderungen bei der Neuausrichtung klassischer SaaS-Architekturen für eine von künstlicher Intelligenz geprägte Zukunft.",
+            "context": "Die Episode spiegelt aktuelle Branchengespräche über die Transformation von Entwicklungsabläufen und Geschäftsmodellen in Großkonzernen durch generative KI wider.",
+            "key_takeaways": [
+              "Tenex-Framework für einen KI-nativen SDLC.",
+              "Der Übergang zu ergebnisbasierten Preismodellen im Enterprise-Segment.",
+              "Einblicke in die unternehmerische KI-Adoption und MetaHarness."
+            ],
             "highlights": [
-              "Tenex-Ansatz für KI-native Entwicklung und ergebnisbasiertes Bezahlen",
-              "Einblicke in MetaHarness und Enterprise-KI-Adoption",
-              "Perspektiven zur Neugestaltung von SaaS"
+              "Alex Lieberman und CJ Hess zu Gast bei swyx auf der AI Engineer New York.",
+              "Diskussion über KI-native Ingenieurstrategien für Fortune-2000-Unternehmen."
             ]
           }
         },
         "editorial_level": "ai_curated",
         "editorial_status": "verified",
         "editorial_model": "gemini-3.5-flash-lite",
-        "editorial_version": 2,
-        "relevance_score": 70,
+        "editorial_version": 4,
+        "relevance_score": 0,
         "editor_pick_reason": ""
       }
     },
@@ -1597,60 +1627,90 @@
         "editorial": {
           "it": {
             "title": "Il Data Center Programmabile con Evan Conrad di SF Compute",
-            "summary": "Registrato a margine della Compute Trading track di AIE NYC, questo episodio di Latent Space vede ospite Evan Conrad di SF Compute. Si discute dei primi giorni del cloud e dei parallelismi con il lavoro di Martin Casado.",
-            "why_it_matters": "L'episodio offre spunti interessanti sull'evoluzione delle infrastrutture di calcolo e dei data center, collegando le lezioni del passato del cloud computing al panorama tecnologico odierno.",
+            "summary": "In questo episodio registrato a margine della traccia Compute Trading ad AIE NYC, Evan Conrad di SF Compute discute l'evoluzione dei data center programmabili. Vengono rievocati i primi giorni del cloud e l'impatto di Martin Casado.",
+            "why_it_matters": "Comprendere l'evoluzione e la programmabilità dei data center offre una prospettiva cruciale sulle infrastrutture che alimentano i carichi di lavoro dell'intelligenza artificiale moderna.",
+            "extended_analysis": "Registrato in occasione del nuovo evento Compute Trading ad AIE NYC, questo episodio di Latent Space esplora il panorama dei data center programmabili attraverso l'esperienza di Evan Conrad di SF Compute.\n\nIl dialogo richiama i primi giorni del cloud, tracciando un parallelismo con l'opera dirompente dell'ex ospite Martin Casado per riflettere su come le infrastrutture di calcolo stiano cambiando radicalmente per soddisfare le esigenze odierne.",
+            "context": "L'episodio si inserisce nel contesto degli eventi di settore dedicati al calcolo e agli ingegneri, documentando il fermento intorno all'infrastruttura di calcolo avanzata e ai mercati di compute.",
+            "key_takeaways": [
+              "Ascolta l'intervista a Evan Conrad di SF Compute registrata ad AIE NYC.",
+              "Scopri i paralleli storici con i primi giorni del cloud e l'impatto di Martin Casado.",
+              "Esplora il concetto di data center programmabile e le prospettive future."
+            ],
             "highlights": [
-              "Registrato dal vivo durante la Compute Trading track di AIE NYC.",
-              "Ospite Evan Conrad di SF Compute.",
-              "Vengono richiamati i primi giorni del cloud e l'impatto di Martin Casado."
+              "Registrato a margine della traccia Compute Trading ad AIE NYC.",
+              "Annunciato il prossimo evento AIE CODE."
             ]
           },
           "en": {
             "title": "The Programmable Data Center with Evan Conrad of SF Compute",
-            "summary": "Recorded on the sidelines of the Compute Trading track at AIE NYC, this Latent Space episode features guest Evan Conrad from SF Compute. The discussion touches upon the early days of cloud computing and former guest Martin Casado.",
-            "why_it_matters": "It provides valuable context on computing infrastructure by drawing parallels between early cloud disruptions and current industry developments.",
+            "summary": "Recorded on the sidelines of the Compute Trading track at AIE NYC, Evan Conrad of SF Compute joins Latent Space to discuss programmable data centers and early cloud evolution.",
+            "why_it_matters": "Insights into programmable data center infrastructure shed light on the architectural shifts required to scale modern computing demands and agentic workloads.",
+            "extended_analysis": "Recorded live at AIE NYC during the Compute Trading track, this episode features Evan Conrad from SF Compute discussing the architecture of programmable data centers.\n\nThe conversation revisits the foundational days of cloud computing, touching upon the disruptive work of former guest Martin Casado to contextualize current structural transformations in compute infrastructure.",
+            "context": "Captured within the ecosystem of specialized engineering gatherings like AIE NYC, the episode reflects ongoing industry discussions surrounding compute capacity, trading, and infrastructure programmability.",
+            "key_takeaways": [
+              "Explore programmable data center concepts with guest Evan Conrad.",
+              "Examine historical parallels from the early days of cloud computing.",
+              "Get a preview of upcoming flagship events like AIE CODE."
+            ],
             "highlights": [
-              "Recorded at the Compute Trading track at AIE NYC.",
-              "Features guest Evan Conrad from SF Compute.",
-              "References the early days of cloud and former guest Martin Casado."
+              "Guest: Evan Conrad from SF Compute.",
+              "Recorded on the sidelines of the Compute Trading track at AIE NYC."
             ]
           },
           "es": {
-            "title": "El centro de datos programable: Evan Conrad de SF Compute",
-            "summary": "Grabado al margen de la pista Compute Trading en AIE NYC, este episodio de Latent Space cuenta con Evan Conrad de SF Compute como invitado. La conversación aborda los primeros días de la nube y al exinvitado Martin Casado.",
-            "why_it_matters": "Ofrece una perspectiva sobre la evolución de la infraestructura de computación conectando el pasado del cloud computing con el panorama actual.",
+            "title": "El centro de datos programable con Evan Conrad de SF Compute",
+            "summary": "Grabado al margen de la pista Compute Trading en AIE NYC, Evan Conrad de SF Compute analiza la evolución de los centros de datos programables y los inicios de la nube.",
+            "why_it_matters": "Comprender la programabilidad de los centros de datos ayuda a descifrar los cambios estructurales en la infraestructura tecnológica actual.",
+            "extended_analysis": "Este episodio de Latent Space, grabado en el evento AIE NYC, cuenta con la participación de Evan Conrad de SF Compute para examinar el concepto de los centros de datos programables.\n\nA través de la charla se recuerda la época inicial de la nube y el impacto de Martin Casado, ofreciendo contexto sobre cómo evolucionan las necesidades de infraestructura y cálculo.",
+            "context": "El episodio refleja el debate actual en eventos tecnológicos sobre la gestión de la capacidad de cómputo y las nuevas demandas de ingeniería.",
+            "key_takeaways": [
+              "Descubre las perspectivas sobre los centros de datos programables con Evan Conrad.",
+              "Analiza la evolución histórica de la computación en la nube.",
+              "Conoce detalles sobre los eventos y la comunidad de AIE."
+            ],
             "highlights": [
-              "Grabado en el evento Compute Trading de AIE NYC.",
-              "Cuenta con la participación de Evan Conrad (SF Compute).",
-              "Menciona los primeros días de la nube y a Martin Casado."
+              "Invitado: Evan Conrad, de SF Compute.",
+              "Grabado durante la pista Compute Trading en AIE NYC."
             ]
           },
           "zh-CN": {
-            "title": "可编程数据中心 — 专访 SF Compute 的 Evan Conrad",
-            "summary": "本期节目在 AIE NYC 的 Compute Trading 专场期间录制，Latent Space 邀请了 SF Compute 的 Evan Conrad 作为嘉宾。讨论涉及云计算的早期发展以及前嘉宾 Martin Casado 的相关工作。",
-            "why_it_matters": "通过回顾云计算早期的颠覆性创新，为理解当前计算基础设施的演变提供了背景信息。",
+            "title": "可编程数据中心：对话 SF Compute 的 Evan Conrad",
+            "summary": "本期节目在 AIE NYC 的 Compute Trading 专场期间录制，SF Compute 的 Evan Conrad 做客探讨可编程数据中心及早期云计算的发展历程。",
+            "why_it_matters": "深入理解可编程数据中心有助于洞察支撑现代计算负载的基础设施变革与底层架构演进。",
+            "extended_analysis": "本期 Latent Space 播客录制于 AIE NYC 会议期间，嘉宾 Evan Conrad 探讨了可编程数据中心的相关议题。\n\n节目回顾了云计算早期阶段的发展，并提及前嘉宾 Martin Casado 的颠覆性工作，为听众梳理计算基础设施的演变脉络。",
+            "context": "节目背景依托于 AIE 等面向顶尖工程师的行业聚会，记录了计算交易与基础设施创新领域的最新讨论。",
+            "key_takeaways": [
+              "聆听 Evan Conrad 谈论可编程数据中心。",
+              "回顾云计算初期的历史与技术变革。",
+              "了解 AIE 社区及后续活动动态。"
+            ],
             "highlights": [
-              "录制于 AIE NYC 的 Compute Trading 专场活动。",
-              "嘉宾为 SF Compute 的 Evan Conrad。",
-              "提及云计算早期阶段及前嘉宾 Martin Casado。"
+              "嘉宾：SF Compute 的 Evan Conrad。",
+              "录制于 AIE NYC 的 Compute Trading 专场边缘。"
             ]
           },
           "de": {
             "title": "Das programmierbare Rechenzentrum mit Evan Conrad von SF Compute",
-            "summary": "Aufgezeichnet am Rande des Compute Trading Track auf der AIE NYC, begrüßt dieser Latent Space Podcast Evan Conrad von SF Compute als Gast. Die Diskussion blickt auf die Anfänge der Cloud und den früheren Gast Martin Casado zurück.",
-            "why_it_matters": "Die Episode beleuchtet die Entwicklung von Rechenzentren und schlägt eine Brücke von den frühen Tagen des Cloud Computings zu heutigen Infrastrukturen.",
+            "summary": "Aufgezeichnet am Rande des Compute-Trading-Tracks bei AIE NYC, diskutiert Evan Conrad von SF Compute über programmierbare Rechenzentren und die Ursprünge der Cloud.",
+            "why_it_matters": "Einblicke in programmierbare Rechenzentrumsinfrastrukturen verdeutlichen die architektonischen Veränderungen, die für moderne Rechenlasten erforderlich sind.",
+            "extended_analysis": "Diese Episode von Latent Space wurde live bei AIE NYC aufgenommen und beleuchtet mit Gast Evan Conrad von SF Compute die Entwicklung programmierbarer Rechenzentren.\n\nDas Gespräch schlägt eine Brücke zu den Anfängen des Cloud Computing und erinnert an die wegweisende Arbeit von Martin Casado, um aktuelle Infrastrukturtrends einzuordnen.",
+            "context": "Das Gespräch spiegelt den fachlichen Austausch auf spezialisierten Ingenieurskonferenzen über Rechenkapazitäten und Infrastrukturevolution wider.",
+            "key_takeaways": [
+              "Erfahren Sie mehr über programmierbare Rechenzentren von Evan Conrad.",
+              "Betrachten Sie historische Parallelen zur Frühzeit des Cloud Computing.",
+              "Erhalten Sie Einblicke in kommende AIE-Formate."
+            ],
             "highlights": [
-              "Aufgezeichnet beim Compute Trading Track der AIE NYC.",
-              "Zu Gast ist Evan Conrad von SF Compute.",
-              "Bezugnahme auf die Anfänge der Cloud und den früheren Gast Martin Casado."
+              "Gast: Evan Conrad von SF Compute.",
+              "Aufgezeichnet am Rande von AIE NYC (Compute Trading Track)."
             ]
           }
         },
         "editorial_level": "ai_curated",
         "editorial_status": "verified",
         "editorial_model": "gemini-3.5-flash-lite",
-        "editorial_version": 2,
-        "relevance_score": 45,
+        "editorial_version": 4,
+        "relevance_score": 40,
         "editor_pick_reason": ""
       }
     },
@@ -2434,87 +2494,87 @@
       }
     },
     "ac3db777f5aac1cf97986b034f59b4c3bba5699e627acc03ae32695b1a5719b2": {
-      "fingerprint": "fb0827184ca63cb0e586543cebd56a0baa1f591f122cade86e769e77990c4a33",
+      "fingerprint": "1071604b2143b4ae556ee23aaca7389c648c501c3b5825978910530d44222dbe",
       "editorial": {
         "editorial": {
           "it": {
-            "title": "TV-Detox: ringiovanire le vecchie Android TV con l'IA",
-            "summary": "Un nuovo progetto open source su GitHub intende velocizzare le vecchie Android TV rimuovendo bloatware, pubblicità e sezioni sponsorizzate. Sfruttando assistenti di codifica come Claude Code o Codex, il sistema promette di ripristinare una schermata iniziale pulita e priva di distrazioni.",
-            "why_it_matters": "La soluzione offre agli utenti un metodo basato sull'intelligenza artificiale per recuperare vecchi dispositivi hardware, eliminando le interfacce sovraccariche e pesanti dei produttori.",
-            "extended_analysis": "Il progetto tv-detox mira a risolvere il problema della obsolescenza percepita dei dispositivi smart TV attraverso l'automazione guidata dall'IA. Con l'ausilio di prompt specifici e strumenti come Claude Code o Codex, gli utenti possono interagire con il proprio televisore tramite la rete Wi-Fi locale.\n\nLa procedura punta a disattivare le applicazioni superflue e le righe sponsorizzate anziché rimuoverle definitivamente, riducendo i rischi di blocco del sistema. Viene fornito anche un meccanismo di ripristino per annullare le modifiche in caso di problemi operativi.",
-            "context": "Le interfacce moderne delle smart TV sono spesso appesantite da contenuti pubblicitari e applicazioni preinstallate che rallentano le prestazioni dei modelli meno recenti, spingendo verso la sostituzione prematura dell'hardware.",
+            "title": "TV-Detox: velocizza Android TV con l'IA",
+            "summary": "Il progetto GitHub tv-detox mira a velocizzare le vecchie Android TV rimuovendo bloatware, annunci e sezioni sponsorizzate. Utilizzando assistenti di codifica come Claude Code o Codex, fornisce una schermata iniziale pulita e priva di pubblicità.",
+            "why_it_matters": "Offre un modo pratico per riutilizzare hardware legacy, eliminando i fastidi legati all'interfaccia e alle pubblicità invasive delle smart TV.",
+            "extended_analysis": "Il repository GitHub introduce un approccio basato sull'intelligenza artificiale per alleggerire i dispositivi Android TV rallentati da applicazioni preinstallate non necessarie. Tramite un prompt guidato e l'uso di strumenti come Claude Code o Codex, gli utenti possono disattivare i processi superflui senza rischiare la cancellazione permanente dei dati.\n\nSebbene vengano segnalati possibili rischi legati alla disattivazione di app di sistema, il progetto rappresenta una soluzione interessante per il recupero di dispositivi obsoleti. Sarà utile monitorare l'evoluzione di questi script per valutare la stabilità a lungo termine.",
+            "context": "Molte smart TV moderne integrano interfacce pesanti e ricche di inserzioni pubblicitarie che ne peggiorano le prestazioni nel tempo. Progetti open source mirano a restituire il controllo agli utenti tramite l'ottimizzazione del software.",
             "key_takeaways": [
-              "Il progetto elimina pubblicità e bloatware dalle vecchie Android TV.",
-              "Utilizza assistenti di codifica come Claude Code o Codex per gestire il processo.",
-              "Disattiva le app indesiderate invece di disinstallarle, garantendo una funzione di ripristino."
+              "Rimuove bloatware e pubblicità dalle vecchie Android TV.",
+              "Sfrutta Claude Code o Codex per automatizzare la pulizia.",
+              "Le applicazioni vengono disattivate in sicurezza e non eliminate."
             ],
             "highlights": [
-              "Creazione di una schermata iniziale essenziale con sole app, ingressi HDMI e orologio.",
-              "Interazione tramite laptop sulla stessa rete Wi-Fi con abilitazione del debug USB."
+              "Disponibile come repository open source su GitHub.",
+              "Richiede l'attivazione del debug USB sul televisore."
             ]
           },
           "en": {
-            "title": "Reviving Old Android TVs with AI and Clean Interfaces",
-            "summary": "A new GitHub project called tv-detox aims to speed up sluggish Android TVs by stripping away ads, bloatware, and sponsored rows. Using AI coding assistants like Claude Code or Codex, the project provides a minimalist, ad-free home screen.",
-            "why_it_matters": "It demonstrates a practical application of AI agents for hardware optimization, giving consumers a way to reclaim performance on older devices choked by heavy vendor interfaces.",
-            "extended_analysis": "The tv-detox repository leverages conversational coding tools to automate the cleanup of resource-heavy television interfaces. By connecting a laptop to the TV over local Wi-Fi, users can prompt assistants to manage system packages safely.\n\nThe framework intentionally disables rather than uninstalls packages to prevent permanent damage, while including safety warnings about potential firmware quirks on specific brand models.",
-            "context": "Consumer smart televisions frequently suffer from interface bloat and targeted advertising that degrade performance over time, limiting the usable lifespan of otherwise functional hardware.",
+            "title": "TV-Detox: Speed Up Old Android TVs Using AI",
+            "summary": "The tv-detox GitHub project aims to speed up sluggish Android TVs by removing bloatware, ads, and sponsored rows. Using coding assistants like Claude Code or Codex, it provides a minimal, ad-free home screen.",
+            "why_it_matters": "It provides a practical way to repurpose legacy hardware, stripping away intrusive interfaces and heavy sponsored content.",
+            "extended_analysis": "The GitHub repository introduces an AI-driven approach to lightweight device management for Android TVs slowed down by pre-installed software. Through guided prompts and tools like Claude Code or Codex, users can disable unnecessary processes safely.\n\nWhile potential risks like system instability are noted, the project offers an alternative method for device optimization. Future updates will show how reliably these scripts handle diverse manufacturer builds.",
+            "context": "Modern smart TVs often feature resource-heavy interfaces filled with advertisements that degrade user experience over time. Open-source tools attempt to counter this device bloat.",
             "key_takeaways": [
-              "Removes ads and sponsored content from legacy Android TV units.",
-              "Relies on AI tools like Claude Code or Codex for automated execution.",
-              "Employs a safe disable approach with undo capabilities rather than hard deletions."
+              "Removes bloatware and ads from legacy Android TVs.",
+              "Leverages Claude Code or Codex for prompt-based cleanup.",
+              "Disables apps safely rather than deleting them permanently."
             ],
             "highlights": [
-              "Delivers a stripped-down home screen featuring only apps, inputs, and a clock.",
-              "Requires developer mode, USB debugging, and a shared local Wi-Fi connection."
+              "Hosted as an open-source repository on GitHub.",
+              "Requires USB debugging enabled on the target TV."
             ]
           },
           "es": {
-            "title": "TV-Detox: revitaliza viejos Android TV con la ayuda de la IA",
-            "summary": "Un proyecto alojado en GitHub busca acelerar Android TV antiguos eliminando la publicidad y el software innecesario. Mediante el uso de asistentes como Claude Code o Codex, se genera una pantalla de inicio minimalista y sin anuncios.",
-            "why_it_matters": "Permite a los usuarios prolongar la vida útil de su hardware antiguo mediante la automatización de tareas complejas de limpieza de sistemas mediante inteligencia artificial.",
-            "extended_analysis": "La herramienta utiliza la automatización impulsada por IA para simplificar las interfaces de televisión sobrecargadas. Con comandos sencillos y una conexión Wi-Fi compartida, el asistente ayuda a desactivar aplicaciones innecesarias.\n\nEl sistema opta por la desactivación de paquetes en lugar de su eliminación definitiva para mitigar riesgos técnicos, ofreciendo además vías de reversión en caso de fallos en el arranque.",
-            "context": "Las pantallas inteligentes actuales suelen integrar capas de software pesadas y anuncios persistentes que reducen la fluidez de los dispositivos con el paso de los años.",
+            "title": "TV-Detox: Acelera Android TV con IA",
+            "summary": "El proyecto de GitHub tv-detox busca acelerar televisores Android TV antiguos eliminando bloatware, anuncios y secciones patrocinadas. Mediante asistentes de código como Claude Code o Codex, ofrece una pantalla de inicio limpia y sin publicidad.",
+            "why_it_matters": "Ofrece una forma práctica de reutilizar hardware antiguo, eliminando interfaces pesadas y contenido publicitario intrusivo.",
+            "extended_analysis": "El repositorio presenta una alternativa asistida por inteligencia artificial para optimizar dispositivos ralentizados por software preinstalado. Utilizando herramientas como Claude Code o Codex, los usuarios pueden desactivar procesos innecesarios.\n\nAunque se advierte sobre riesgos potenciales en la estabilidad del sistema, el proyecto demuestra el uso práctico de la IA en la gestión de dispositivos. Su evolución dependerá de la compatibilidad con diferentes fabricantes.",
+            "context": "Los televisores inteligentes actuales suelen incluir interfaces sobrecargadas de publicidad que afectan el rendimiento con los años. Las iniciativas de código abierto buscan simplificar estas experiencias.",
             "key_takeaways": [
-              "Elimina bloatware y filas patrocinadas de televisores antiguos.",
-              "Integra herramientas de programación de IA para guiar el proceso.",
-              "Desactiva las apps en lugar de borrarlas para evitar fallos graves."
+              "Elimina aplicaciones preinstaladas y anuncios en Android TV.",
+              "Utiliza asistentes de código para guiar el proceso de limpieza.",
+              "Desactiva las aplicaciones sin eliminarlas definitivamente."
             ],
             "highlights": [
-              "Ofrece una interfaz limpia centrada en aplicaciones, entradas HDMI y reloj.",
-              "Requiere depuración USB activada y un ordenador en la misma red."
+              "Disponible como proyecto de código abierto en GitHub.",
+              "Requiere habilitar la depuración USB en el televisor."
             ]
           },
           "zh-CN": {
-            "title": "利用AI与精简界面为旧款Android TV提速",
-            "summary": "GitHub上的一个新项目旨在通过清除广告、臃肿软件和赞助内容来加速运行缓慢的旧款Android TV。借助Claude Code或Codex等AI编程助手，用户可以获得一个精简且无广告的主屏幕。",
-            "why_it_matters": "它展示了AI代理在硬件优化方面的实际应用，帮助消费者恢复因沉重厂商界面而变慢的旧设备性能。",
-            "extended_analysis": "tv-detox项目利用对话式编码工具来自动化清理资源消耗严重的电视界面。通过在本地Wi-Fi网络下将笔记本电脑连接到电视，用户可以提示助手安全地管理系统软件包。\n\n该框架刻意采用禁用而非卸载软件包的策略以防止永久性损坏，同时针对特定品牌型号的固件特性附带了安全警告。",
-            "context": "消费级智能电视经常受到界面臃肿和定向广告的困扰，这些因素随着时间的推移会降低性能，从而缩短本可正常使用硬件的寿命。",
+            "title": "TV-Detox：利用AI让旧版Android TV重新流畅",
+            "summary": "GitHub项目 tv-detox 旨在通过移除内置臃肿软件、广告和赞助内容来加速运行缓慢的旧款 Android TV。借助 Claude Code 或 Codex 等编程助手，它能提供一个无广告的极简主屏幕。",
+            "why_it_matters": "它为复用老旧硬件提供了一种实用方案，去除了智能电视上繁重的界面和侵入式广告。",
+            "extended_analysis": "该开源仓库引入了一种由 AI 驱动的方法，用于精简因预装软件而变慢的 Android TV 设备。通过引导式提示词和编码工具，用户可以安全地禁用不必要的系统进程。\n\n尽管文档提示了潜在的系统风险，该项目仍展示了 AI 在设备管理方面的应用潜力。未来需要观察其在不同电视型号上的适配稳定性。",
+            "context": "现代智能电视通常内置占用资源较多的广告界面，长期使用会降低性能。开源社区一直试图通过软件优化来改善这一状况。",
             "key_takeaways": [
-              "移除老旧Android TV设备上的广告和赞助内容。",
-              "依赖Claude Code或Codex等AI工具进行自动化执行。",
-              "采用安全的禁用方法并支持撤销功能，而非彻底删除。"
+              "清除旧款 Android TV 上的臃肿软件与广告。",
+              "利用 Claude Code 或 Codex 执行清理提示词。",
+              "安全停用应用而非彻底删除。"
             ],
             "highlights": [
-              "提供仅包含应用程序、输入源和时钟的极简主屏幕。",
-              "需要开启开发者模式、USB调试以及共享的本地Wi-Fi连接。"
+              "作为开源仓库托管在 GitHub 上。",
+              "需要在电视上开启 USB 调试模式。"
             ]
           },
           "de": {
-            "title": "TV-Detox: Alte Android TVs mit KI und schlanken Menüs beschleunigen",
-            "summary": "Ein neues GitHub-Projekt zielt darauf ab, träge Android TVs durch das Entfernen von Bloatware, Werbung und gesponserten Inhalten zu beschleunigen. Mithilfe von KI-Coding-Assistenten entsteht eine minimalistische, werbefreie Benutzeroberfläche.",
-            "why_it_matters": "Das Projekt zeigt einen praktischen Einsatz von KI-Assistenten zur Hardware-Optimierung, um die Nutzungsdauer älterer, durch schwere Herstellerschnittstellen belasteter Geräte zu verlängern.",
-            "extended_analysis": "Das tv-detox-Repository nutzt konversationelle Programmierwerkzeuge, um das Bereinigen ressourcenhungriger Fernsehoberflächen zu automatisieren. Über eine lokale WLAN-Verbindung zwischen Laptop und Fernseher steuern Assistenten die Systempakete.\n\nDas Framework deaktiviert Pakete, anstatt sie dauerhaft zu löschen, um Systemausfälle zu verhindern. Gleichzeitig warnt es vor modellabhängigen Firmware-Besonderheiten.",
-            "context": "Moderne Smart-TVs leiden häufig unter überladenen Menüs und zielgerichteter Werbung, die die Leistung im Laufe der Zeit mindern und die Nutzungsdauer funktionsfähiger Hardware einschränken.",
+            "title": "TV-Detox: Alte Android TVs mit KI beschleunigen",
+            "summary": "Das GitHub-Projekt tv-detox zielt darauf ab, träge Android TVs durch das Entfernen von Bloatware, Werbung und gesponserten Inhalten zu beschleunigen. Mithilfe von Coding-Assistenten wie Claude Code oder Codex entsteht ein werbefreier Startbildschirm.",
+            "why_it_matters": "Es bietet einen praktischen Ansatz zur Weiternutzung älterer Hardware, indem störende Benutzeroberflächen und Werbung entfernt werden.",
+            "extended_analysis": "Das GitHub-Repository stellt einen KI-gestützten Ansatz zur Bereinigung von Android-TV-Geräten vor. Durch gezielte Prompts und Werkzeuge wie Claude Code oder Codex können Anwender überflüssige Systemprozesse deaktivieren.\n\nObwohl auf potenzielle Risiken bei der Systemstabilität hingewiesen wird, zeigt das Projekt konkrete Anwendungsszenarien für KI im Gerätemanagement. Die Entwicklung hängt von der breiten Kompatibilität verschiedener TV-Modelle ab.",
+            "context": "Moderne Smart TVs leiden oft unter speicherintensiven Oberflächen und Werbung, die die Leistung beeinträchtigen. Open-Source-Projekte versuchen, die Kontrolle an die Nutzer zurückzugeben.",
             "key_takeaways": [
-              "Entfernt Werbung und gesponserte Inhalte von älteren Android-Fernsehern.",
-              "Nutzt KI-Tools wie Claude Code oder Codex für die automatisierte Ausführung.",
-              "Setzt auf Deaktivierung statt Löschung mit integrierten Wiederherstellungsoptionen."
+              "Entfernt Bloatware und Werbung von älteren Android TVs.",
+              "Nutzt Claude Code oder Codex für die automatisierte Bereinigung.",
+              "Deaktiviert Apps sicher, anstatt sie dauerhaft zu löschen."
             ],
             "highlights": [
-              "Schafft einen reduzierten Startbildschirm mit Apps, HDMI-Eingängen und Uhr.",
-              "Erfordert den Entwicklermodus, USB-Debugging und ein gemeinsames lokales WLAN."
+              "Als Open-Source-Repository auf GitHub verfügbar.",
+              "Erfordert aktivientes USB-Debugging auf dem Fernseher."
             ]
           }
         },
@@ -2618,11 +2678,104 @@
         "relevance_score": 45,
         "editor_pick_reason": ""
       }
+    },
+    "a2fef535478784e4a5c6f77f5e72299399b39eb5b44799a8357e45ba9747d8a9": {
+      "fingerprint": "1a26b94de5e233af831dc96f8c7cd518e66e54b74da21df67ab32df68f53737c",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Il repository GitHub di uzme per prodotti IA e automazione",
+            "summary": "La descrizione fornita per il repository GitHub uzme/uzme indica che Bahromjon Mengliyev sviluppa prodotti di intelligenza artificiale, applicazioni web e soluzioni di automazione. Mancano tuttavia dettagli specifici sulle prestazioni, sui benchmark o sulle caratteristiche tecniche del codice.",
+            "why_it_matters": "I repository focalizzati sull'automazione e sui prodotti IA offrono una panoramica sulle iniziative di sviluppo individuali, sebbene la mancanza di dati dettagliati richieda cautela nella valutazione.",
+            "extended_analysis": "Le informazioni disponibili sulla pagina GitHub si limitano a una breve presentazione del profilo e delle aree di interesse del creatore, senza fornire specifiche architetturali o documentazione approfondita. Nei prossimi sviluppi sarà utile osservare se il repository verrà arricchito con codice sorgente verificabile, documentazione tecnica o metriche di adozione.\n\nPoiché la descrizione del progetto è estremamente sintetica e priva di prove empiriche, qualsiasi valutazione delle capacità tecniche deve basarsi esclusivamente sugli aggiornamenti futuri del codice e sulla pubblicazione di rilasci ufficiali.",
+            "context": "Il panorama dei progetti open source su GitHub vede la presenza costante di iniziative personali orientate all'integrazione di strumenti basati sull'intelligenza artificiale e allo sviluppo di applicazioni web.",
+            "key_takeaways": [
+              "Il repository è associato allo sviluppatore Bahromjon Mengliyev.",
+              "Il focus dichiarato include prodotti IA, applicazioni web e automazione.",
+              "Non sono disponibili benchmark o dettagli tecnici verificabili nella descrizione."
+            ],
+            "highlights": [
+              "Linguaggio di programmazione principale: JavaScript.",
+              "Ultimo aggiornamento registrato nel novembre 2026."
+            ]
+          },
+          "en": {
+            "title": "GitHub repository uzme for AI products and web automation",
+            "summary": "The provided GitHub metadata for uzme/uzme indicates a focus by Bahromjon Mengliyev on AI products, web applications, and automation tools. The available description is currently insufficient to detail specific technical benchmarks or project features.",
+            "why_it_matters": "Individual repositories centered on automation and web applications highlight independent software initiatives, though sparse descriptions demand a cautious approach.",
+            "extended_analysis": "Available project details remain limited to a brief author statement without architectural specifications or extensive documentation. Future observation will show whether code releases, feature additions, or technical documentation are published.\n\nWithout independent testing or benchmark data, observers should rely strictly on official repository updates to evaluate the scope and utility of the project.",
+            "context": "Open-source platforms frequently host developer portfolios and early-stage projects exploring the intersection of web engineering and machine learning applications.",
+            "key_takeaways": [
+              "Project maintained by developer Bahromjon Mengliyev.",
+              "Stated focus on AI products, web applications, and automation.",
+              "Sparse descriptive metadata lacks performance or architectural details."
+            ],
+            "highlights": [
+              "Primary programming language is JavaScript.",
+              "Repository updated in November 2026."
+            ]
+          },
+          "es": {
+            "title": "Repositorio de GitHub uzme para productos de IA y automatización",
+            "summary": "La descripción del repositorio GitHub uzme/uzme señala que Bahromjon Mengliyev desarrolla productos de inteligencia artificial, aplicaciones web y automatización. Los datos actuales son insuficientes para ofrecer detalles técnicos profundos o pruebas de rendimiento.",
+            "why_it_matters": "Los proyectos de código abierto centrados en aplicaciones web y herramientas de IA reflejan el panorama de desarrollo independiente, aunque la escasez de datos exige prudencia.",
+            "extended_analysis": "La información pública se limita a una breve declaración del creador sin especificaciones técnicas detalladas. Será necesario seguir la evolución del repositorio para verificar la publicación de código o documentación adicional.\n\nA falta de evaluaciones independientes o métricas de rendimiento, las afirmaciones sobre el proyecto deben limitarse strictly a lo documentado en la fuente oficial.",
+            "context": "El ecosistema de código abierto alberga numerosos proyectos personales orientados a combinar el desarrollo web con soluciones de automatización basadas en inteligencia artificial.",
+            "key_takeaways": [
+              "Proyecto asociado al desarrollador Bahromjon Mengliyev.",
+              "Enfoque en productos de IA, aplicaciones web y automatización.",
+              "La descripción no incluye especificaciones técnicas ni benchmarks."
+            ],
+            "highlights": [
+              "Lenguaje de programación principal: JavaScript.",
+              "Última actualización registrada en noviembre de 2026."
+            ]
+          },
+          "zh-CN": {
+            "title": "GitHub uzme仓库：聚焦AI产品与自动化应用",
+            "summary": "GitHub仓库 uzme/uzme 的元数据显示，开发者 Bahromjon Mengliyev 致力于人工智能产品、Web应用程序和自动化工具的开发。目前的描述较为简略，尚不足以提供深入的技术基准或架构细节。",
+            "why_it_matters": "关注自动化和人工智能的开源代码库展示了独立的软件开发动态，但在描述有限的情况下，需要对项目保持审慎的评估态度。",
+            "extended_analysis": "公开信息目前仅限于创作者的简短介绍，缺乏具体的架构说明或详细文档。未来需要观察该仓库是否会发布实际的代码更新、功能模块或技术文档。\n\n由于缺乏独立测试数据，所有关于项目能力的判断都应以官方仓库的后续更新为准，切勿盲目推测。",
+            "context": "开源代码托管平台上存在大量由个人开发者维护的项目，探索Web工程与人工智能技术的结合与应用。",
+            "key_takeaways": [
+              "项目由开发者 Bahromjon Mengliyev 维护。",
+              "明确关注AI产品、Web应用与自动化。",
+              "描述信息缺少性能指标或详细的技术规格。"
+            ],
+            "highlights": [
+              "主要编程语言为 JavaScript。",
+              "仓库于2026年11月进行过更新。"
+            ]
+          },
+          "de": {
+            "title": "GitHub-Repository uzme für KI-Produkte und Web-Automatisierung",
+            "summary": "Die Metadaten des GitHub-Repositories uzme/uzme zeigen, dass Bahromjon Mengliyev an KI-Produkten, Webanwendungen und Automatisierungslösungen arbeitet. Die Beschreibung ist derzeit jedoch zu knapp, um technische Leistungsdaten oder Benchmarks zu nennen.",
+            "why_it_matters": "Individuelle Open-Source-Projekte im Bereich Automatisierung und Webanwendungen verdeutlichen die Bandbreite unabhängiger Softwareinitiativen, erfordern jedoch aufgrund spärlicher Details eine vorsichtige Einschätzung.",
+            "extended_analysis": "Die verfügbaren Angaben beschränken sich auf eine kurze Profilbeschreibung des Erstellers ohne weiterführende Architekturdetails oder Dokumentationen. In Zukunft wird zu beobachten sein, ob das Repository durch konkrete Code-Veröffentlichungen oder technische Leitfäden ergänzt wird.\n\nDa keine unabhängigen Testergebnisse vorliegen, sollten Aussagen über den Nutzen ausschließlich auf den offiziellen Aktualisierungen des Quellcodes basieren.",
+            "context": "Open-Source-Plattformen beherbergen zahlreiche Entwicklerprojekte, die sich mit der Integration von maschinellem Lernen und modernen Webanwendungen befassen.",
+            "key_takeaways": [
+              "Das Projekt wird von Bahromjon Mengliyev gepflegt.",
+              "Der Fokus liegt auf KI-Produkten, Webanwendungen und Automatisierung.",
+              "Es fehlen verifizierbare Leistungsdaten oder technische Spezifikationen."
+            ],
+            "highlights": [
+              "Primäre Programmiersprache ist JavaScript.",
+              "Letzte Aktualisierung des Repositories im November 2026."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 15,
+        "editor_pick_reason": ""
+      }
     }
   },
   "daily": {
     "date": "2026-11-01",
-    "count": 8,
+    "count": 12,
     "picks": 0
   }
 }
