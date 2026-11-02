@@ -2564,87 +2564,87 @@
       }
     },
     "ac3db777f5aac1cf97986b034f59b4c3bba5699e627acc03ae32695b1a5719b2": {
-      "fingerprint": "9b61a85e7f2ca9d1fe6d9cd7cf1b11310e3e40c4759a9eb8f2c227f66e44ae1a",
+      "fingerprint": "7a5ec72ef3f7c867b0526f67dd4d21d7d3ef29e473d7a48dcde17fe6db728fd8",
       "editorial": {
         "editorial": {
           "it": {
             "title": "TV-Detox: velocizza la vecchia Android TV con l'IA",
-            "summary": "Il progetto GitHub tv-detox punta a liberare le vecchie Android TV da pubblicità e bloatware utilizzando assistenti di codifica come Claude Code o Codex. Offre una schermata iniziale essenziale e senza annunci, gestita tramite prompt mirati.",
-            "why_it_matters": "Questo approccio sfrutta gli agenti di codifica per semplificare la manutenzione dei dispositivi domestici, riducendo l'ingombro pubblicitario e migliorando le prestazioni.",
-            "extended_analysis": "Il repository GitHub tv-detox introduce un metodo insolito per ottimizzare l'hardware datato delle smart TV tramite strumenti basati su intelligenza artificiale. L'utente collega la TV al laptop tramite Wi-Fi e impiega assistenti come Claude Code o Codex per eseguire una pulizia del sistema.\n\nIl pacchetto include script e una schermata iniziale ridotta al minimo, pensata per mostrare solo le app essenziali, gli ingressi HDMI e l'orologio. Vengono disattivate le righe sponsorizzate e i servizi superflui che spesso rallentano i dispositivi meno recenti.\n\nTuttavia, la documentazione avverte sui rischi associati alla disattivazione delle app di sistema, invitando a procedere con cautela per evitare blocchi del dispositivo. Resta un esempio interessante di come l'automazione tramite IA possa essere applicata alla gestione dei dispositivi consumer.",
-            "context": "Il mercato delle smart TV è sempre più monetizzato tramite interfacce ricche di pubblicità e contenuti sponsorizzati, che spesso appesantiscono i dispositivi più vecchi. Soluzioni fai-da-te e script di ottimizzazione cercano di restituire agli utenti il controllo sull'esperienza d'uso.",
+            "summary": "Il progetto open source tv-detox mira a ripulire le vecchie Android TV da bloatware, pubblicità e sezioni sponsorizzate tramite l'ausilio di assistenti di codifica come Claude Code o Codex. La soluzione offre una schermata iniziale essenziale, priva di annunci e focalizzata unicamente sulle app personali, sugli ingressi HDMI e su un orologio.",
+            "why_it_matters": "La crescente diffusione di interfacce sovraccariche di pubblicità sulle smart TV rende strumenti come tv-detox particolarmente rilevanti per recuperare velocità e controllo sui dispositivi meno recenti.",
+            "extended_analysis": "Il repository GitHub tv-detox offre un approccio basato su assistenti di intelligenza artificiale per guidare gli utenti nella rimozione di elementi superflui e app di sistema non necessarie. Collegando la TV in modalità di sviluppo e utilizzando comandi tramite strumenti come Claude Code o Codex, l'interfaccia viene ridotta all'essenziale.\n\nTuttavia, la documentazione stessa avverte dei rischi legati alla disattivazione delle app di sistema, che potrebbero causare blocchi o malfunzionamenti a seconda del modello di televisore. È quindi fondamentale procedere con cautela seguendo le avvertenze indicate.\n\nNei prossimi sviluppi sarà utile osservare come la community adatterà questo approccio a diversi ecosistemi hardware e se emergeranno soluzioni simili per altri dispositivi domestici.",
+            "context": "Molti televisori moderni e meno recenti integrano interfacce pesanti e ricche di inserzioni pubblicitarie che ne rallentano le prestazioni. Progetti di questo tipo sfruttano strumenti di programmazione assistita per semplificare la manutenzione dei dispositivi di consumo.",
             "key_takeaways": [
-              "Utilizza Claude Code o Codex per pulire le vecchie Android TV.",
-              "Rimuove pubblicità e bloatware offrendo una schermata pulita.",
-              "Richiede il debug USB attivo e la connessione sulla stessa rete Wi-Fi."
+              "Rimuove pubblicità e bloatware dalle vecchie Android TV.",
+              "Utilizza assistenti di codifica come Claude Code o Codex per automatizzare la pulizia.",
+              "Richiede l'attivazione della modalità sviluppatore e del debug USB sul televisore."
             ],
             "highlights": [
-              "Progetto ospitato su GitHub denominato tv-detox.",
-              "Include script di automazione e una schermata iniziale senza annunci."
+              "Elimina le righe sponsorizzate e i contenuti superflui dalla schermata iniziale.",
+              "Consente di disattivare le app senza eliminarle definitivamente, con opzioni di ripristino."
             ]
           },
           "en": {
-            "title": "TV-Detox: Speed Up Old Android TVs Using AI Coding Tools",
-            "summary": "The GitHub project tv-detox aims to revitalize slow Android TVs by removing ads and bloatware using coding assistants like Claude Code or Codex. It pairs a tiny, ad-free home screen with automated prompts to clean up the system.",
-            "why_it_matters": "It demonstrates how AI coding agents can be repurposed to maintain consumer hardware, stripping away unwanted ads and performance bloat with simple remote commands.",
-            "extended_analysis": "The tv-detox repository provides a structured toolkit to remove sponsored rows and heavy interfaces from older Android TVs. By connecting a laptop and the television over the same Wi-Fi network, users can deploy AI tools like Claude Code or Codex to execute system cleanups.\n\nThe project supplies a minimal interface replacement focusing purely on installed apps, HDMI inputs, and a clock. Unwanted system apps are disabled rather than deleted, allowing users to reverse changes if needed.\n\nBecause modifying system packages carries inherent risks, the documentation explicitly warns that certain devices could encounter startup issues if critical components are disabled incorrectly. It highlights a practical intersection between developer tooling and home hardware customization.",
-            "context": "Modern smart TV interfaces are heavily laden with advertisements and tracking modules, which frequently degrade performance on older hardware over time. Community-driven cleanup methods aim to restore snappy navigation and remove unwanted sponsored clutter.",
+            "title": "TV-Detox: Speed Up Old Android TVs Using AI Assistants",
+            "summary": "The open-source tv-detox project helps revive slow Android TVs by removing bloatware, ads, and sponsored rows using coding assistants like Claude Code or Codex. It replaces heavy manufacturer interfaces with a minimal, ad-free home screen featuring only apps, HDMI inputs, and a clock.",
+            "why_it_matters": "As modern smart TV interfaces become increasingly cluttered with advertisements and resource-heavy menus, this project offers a practical way to reclaim performance and user experience on older hardware.",
+            "extended_analysis": "The GitHub repository provides a structured prompt and helper scripts designed to be executed via AI coding tools while connected to a television in developer mode. By disabling non-essential system apps and bloatware, the interface is streamlined for speed.\n\nBecause modifying system apps carries inherent risks—such as potential device lockups on certain TV models—the documentation advises careful adherence to safety warnings before executing commands.\n\nFuture updates will likely demonstrate how community-driven prompt engineering can further automate system optimization across a broader range of consumer hardware.",
+            "context": "Consumer smart TV platforms frequently prioritize sponsored content and recommendations, often degrading system responsiveness over time. Lightweight alternatives and custom launchers have long existed, but integrating coding agents represents a novel workflow for device optimization.",
             "key_takeaways": [
-              "Employs Claude Code or Codex to automate TV cleanups.",
-              "Replaces heavy manufacturer interfaces with a minimal home screen.",
-              "Disables apps safely without permanently deleting system files."
+              "Removes ads and system bloatware from older Android TV devices.",
+              "Leverages AI coding tools like Claude Code or Codex for execution.",
+              "Requires developer mode and USB debugging enabled on the target TV."
             ],
             "highlights": [
-              "Open-source repository hosted on GitHub (tv-detox).",
-              "Requires USB debugging and local network connection."
+              "Provides a minimalist home screen showing only apps, inputs, and a clock.",
+              "Disables applications without permanently deleting them, allowing for potential reverts."
             ]
           },
           "es": {
-            "title": "TV-Detox: Acelera tu vieja Android TV con IA",
-            "summary": "El proyecto de GitHub tv-detox busca revitalizar televisores Android TV antiguos eliminando anuncios y bloatware mediante asistentes de código como Claude Code o Codex. Ofrece una interfaz minimalista libre de publicidad.",
-            "why_it_matters": "Muestra el uso práctico de los agentes de código para simplificar la gestión de dispositivos domésticos y mejorar su rendimiento eliminando la saturación comercial.",
-            "extended_analysis": "El repositorio tv-detox propone una alternativa para limpiar interfaces pesadas en televisores inteligentes antiguos mediante el uso de herramientas de inteligencia artificial. Conectando la televisión y un ordenador a la misma red Wi-Fi, es posible utilizar asistentes para automatizar el proceso de optimización.\n\nLa solución reemplaza la pantalla de inicio habitual por una alternativa reducida que muestra únicamente aplicaciones, entradas HDMI y un reloj, eliminando filas patrocinadas.\n\nLos creadores advierten que la desactivación de aplicaciones del sistema conlleva riesgos operativos en ciertos modelos, por lo que se recomienda precaución durante el proceso de depuración.",
-            "context": "Las interfaces de los televisores inteligentes actuales suelen priorizar los contenidos patrocinados y la publicidad, lo que afecta de forma negativa a la velocidad de los modelos más antiguos.",
+            "title": "TV-Detox: acelera tu viejo Android TV con ayuda de IA",
+            "summary": "El proyecto de código abierto tv-detox permite eliminar la publicidad y el bloatware de los televisores Android TV antiguos mediante asistentes de programación como Claude Code o Codex. El resultado es una interfaz limpia y minimalista centrada únicamente en las aplicaciones, las entradas HDMI y un reloj.",
+            "why_it_matters": "Ante la proliferación de interfaces saturadas de anuncios en los televisores inteligentes, herramientas de este tipo ofrecen una alternativa para recuperar la velocidad y simplificar la experiencia de uso.",
+            "extended_analysis": "El repositorio detalla un proceso en el que, tras activar el modo de desarrollador en el televisor y conectarlo a una red Wi-Fi, se utilizan herramientas de IA para guiar la limpieza del sistema. Las aplicaciones innecesarias se desactivan en lugar de borrarse por completo.\n\nNo obstante, los creadores advierten que modificar aplicaciones del sistema conlleva riesgos y algunos modelos podrían presentar problemas de arranque. Por ello, se recomienda seguir atentamente las advertencias de seguridad proporcionadas en la documentación.\n\nSerá interesante ver cómo evoluciona este tipo de optimización asistida por IA en otros dispositivos del hogar inteligente.",
+            "context": "Las plataformas de televisión inteligente suelen priorizar contenidos patrocinados que ralentizan los equipos con el paso del tiempo. Este proyecto explora el uso de agentes de desarrollo para simplificar el mantenimiento de hardware antiguo.",
             "key_takeaways": [
-              "Utiliza asistentes de código para automatizar la limpieza de Android TV.",
-              "Proporciona una pantalla de inicio ligera y sin anuncios.",
-              "Requiere habilitar el modo de depuración USB en el dispositivo."
+              "Elimina anuncios y aplicaciones preinstaladas innecesarias en Android TV.",
+              "Utiliza asistentes de código como Claude Code o Codex para guiar el proceso.",
+              "Requiere habilitar la depuración USB y el modo de desarrollador en el televisor."
             ],
             "highlights": [
-              "Disponible como repositorio público en GitHub.",
-              "Incluye scripts de instalación y desinstalación reversible."
+              "Ofrece una pantalla de inicio libre de distracciones y contenido patrocinado.",
+              "Las aplicaciones se desactivan de forma reversible sin eliminación permanente."
             ]
           },
           "zh-CN": {
-            "title": "TV-Detox：借助 AI 编码工具让旧款 Android TV 重焕流畅",
-            "summary": "GitHub 上的 tv-detox 项目旨在通过 Claude Code 或 Codex 等编码助手清除旧款 Android TV 上的广告与冗余软件。它结合了极简的无广告主屏幕与自动化提示词来精简系统。",
-            "why_it_matters": "它展示了如何将 AI 编码代理应用于消费级硬件维护，通过简单的远程指令移除烦人的广告和性能负担。",
-            "extended_analysis": "tv-detox 仓库提供了一套工具包，用于移除旧版智能电视上的推广内容和臃肿界面。通过将笔记本电脑与电视连接至同一 Wi-Fi 网络，用户可以借助 Claude Code 或 Codex 执行系统清理脚本。\n\n该项目提供了一个极简的主屏幕替代方案，仅保留应用、HDMI 输入和时钟。不需要的系统应用会被停用而非彻底删除，以便在需要时撤销更改。\n\n由于修改系统组件存在风险，文档特别提醒某些电视型号在操作不当时可能会遇到启动问题。这体现了开发者工具在智能家居硬件定制中的实际应用。",
-            "context": "现代智能 TV 界面充斥着广告和追踪模块，随着时间推移，这常常会导致老旧硬件的性能明显下降。社区驱动的清理方法旨在恢复流畅的导航并清除广告干扰。",
+            "title": "TV-Detox：借助 AI 助手让旧 Android 电视恢复流畅",
+            "summary": "开源项目 tv-detox 旨在借助 Claude Code 或 Codex 等编码助手，清除旧版 Android 电视上的臃肿软件、广告和赞助内容。它提供了一个无广告的极简主屏幕，仅保留应用、HDMI 输入和时钟。",
+            "why_it_matters": "随着现代智能电视界面充斥着各类广告和推荐内容，该项目为用户提供了一种提升旧设备性能和改善使用体验的实用方法。",
+            "extended_analysis": "该 GitHub 仓库通过配合电视的开发者模式，利用 AI 编程工具来指导用户精简系统应用。通过关闭非必要的系统预装软件，电视运行速度得以提升。\n\n由于修改系统应用存在一定风险，部分电视型号可能会出现异常卡顿，因此文档特别强调了操作前需注意的安全警告。\n\n未来我们可以关注此类由社区驱动的 AI 辅助优化方案是否会扩展至更多智能家居设备。",
+            "context": "主流智能电视系统往往预装大量推广内容，随着时间推移容易导致设备响应变慢。利用代码生成工具来简化系统维护代表了一种新颖的设备优化工作流。",
             "key_takeaways": [
-              "利用 Claude Code 或 Codex 自动化清理 Android TV。",
-              "将臃肿的厂商界面替换为极简无广告主屏幕。",
-              "以停用而非直接删除的方式处理系统应用。"
+              "清除旧版 Android 电视上的广告和冗余软件。",
+              "使用 Claude Code 或 Codex 等 AI 工具协助清理过程。",
+              "需要在电视上启用开发者选项和 USB 调试功能。"
             ],
             "highlights": [
-              "托管于 GitHub 的开源项目 tv-detox。",
-              "操作需要开启 USB 调试并处于同一本地网络。"
+              "打造仅包含应用、输入源和时钟的无干扰主屏幕。",
+              "通过禁用而非永久删除应用来保证可撤销性。"
             ]
           },
           "de": {
-            "title": "TV-Detox: Alte Android TVs mit KI-Hilfe beschleunigen",
-            "summary": "Das GitHub-Projekt tv-detox zielt darauf ab, alte Android TVs mithilfe von Coding-Assistenten wie Claude Code oder Codex von Werbung und Bloatware zu befreien. Es kombiniert einen werbefreien Startbildschirm mit automatisierten Skripten.",
-            "why_it_matters": "Es zeigt, wie KI-Coding-Agenten für die Wartung von Haushaltsgeräten eingesetzt werden können, um unerwünschte Werbung und Leistungsbremsen zu beseitigen.",
-            "extended_analysis": "Das GitHub-Repository tv-detox bietet einen Ansatz, um ältere Smart-TVs von herstellerspezifischen Bloatware- und Werbezeilen zu befreien. Über eine lokale WLAN-Verbindung zwischen Laptop und Fernseher lassen sich KI-Tools einsetzen, um Systembereinigungen durchzuführen.\n\nDas Projekt stellt eine minimalistische Benutzeroberfläche bereit, die lediglich installierte Apps, HDMI-Eingänge und eine Uhr anzeigt. Nicht benötigte System-Apps werden deaktiviert, wodurch sie bei Bedarf wiederherstellbar bleiben.\n\nDa Eingriffe in das System Risiken bergen, weist die Dokumentation darauf hin, dass bestimmte Fernsehmodelle bei unsachgemäßer Handhabung Startprobleme aufweisen können. Dies demonstriert eine praktische Verbindung von Entwickler-Tools und Hardware-Anpassung.",
-            "context": "Moderne Smart-TV-Oberflächen sind oft stark mit Werbung und Tracking-Diensten überladen, was die Leistung älterer Hardware im Laufe der Zeit spürbar beeinträchtigt. Community-basierte Bereinigungen zielen darauf ab, die Reaktionsfähigkeit wiederherzustellen.",
+            "title": "TV-Detox: Alte Android TVs mit KI-Assistenten beschleunigen",
+            "summary": "Das Open-Source-Projekt tv-detox hilft dabei, veraltete Android TVs von Bloatware und Werbung zu befreien, indem Programmierassistenten wie Claude Code oder Codex eingesetzt werden. Das Ergebnis ist ein minimalistischer, werbefreier Startbildschirm, der nur Apps, HDMI-Eingänge und eine Uhr anzeigt.",
+            "why_it_matters": "Da moderne Smart-TV-Oberflächen zunehmend mit Werbung und gesponserten Inhalten überladen sind, bietet dieses Projekt einen praktischen Ansatz zur Leistungs- und Rückgewinnungskontrolle auf älterer Hardware.",
+            "extended_analysis": "Das GitHub-Repository stellt Skripte und Prompts bereit, die über KI-Codierungstools ausgeführt werden, während sich der Fernseher im Entwicklermodus befindet. Durch das Deaktivieren nicht essenzieller System-Apps wird die Benutzeroberfläche verschlankt.\n\nDa Modifikationen am System jedoch Risiken bergen und bei einigen Fernsehmodellen zu Startproblemen führen können, weist die Dokumentation ausdrücklich auf notwendige Sicherheitsvorkehrungen hin.\n\nEs bleibt zu beobachten, wie sich derartige KI-gestützte Optimierungswerkzeuge für Unterhaltungselektronik weiterentwickeln.",
+            "context": "Smart-TV-Plattformen priorisieren häufig herstellerbezogene Inhalte, was die Systemleistung im Laufe der Zeit beeinträchtigen kann. Das Projekt nutzt moderne KI-Agenten, um die Wartung von Verbraucherhardware zu vereinfachen.",
             "key_takeaways": [
-              "Nutzt Claude Code oder Codex zur Bereinigung von Android TVs.",
-              "Ersetzt herstellerlastige Oberflächen durch einen minimalistischen Startbildschirm.",
-              "Deaktiviert System-Apps sicher, ohne sie dauerhaft zu löschen."
+              "Entfernt Werbung und Bloatware von älteren Android-Fernsehern.",
+              "Nutzt KI-Codierungstools wie Claude Code oder Codex zur Ausführung.",
+              "Erfordert die Aktivierung des Entwicklermodus und USB-Gusseibugs am TV."
             ],
             "highlights": [
-              "Open-Source-Repository auf GitHub (tv-detox).",
-              "Erfordert aktiviertes USB-Debugging und gemeinsames WLAN."
+              "Bietet einen ruhigen Startbildschirm mit Apps, Eingängen und Uhrzeit.",
+              "Deaktiviert Anwendungen, anstatt sie dauerhaft zu löschen, inklusive Undo-Option."
             ]
           }
         },
@@ -2652,7 +2652,7 @@
         "editorial_status": "verified",
         "editorial_model": "gemini-3.5-flash-lite",
         "editorial_version": 4,
-        "relevance_score": 35,
+        "relevance_score": 45,
         "editor_pick_reason": ""
       }
     },
@@ -3585,11 +3585,201 @@
         "relevance_score": 25,
         "editor_pick_reason": ""
       }
+    },
+    "833080721c699091a4c244566fb2c59273fb26097853737815bbbd939b6b82af": {
+      "fingerprint": "777ddeb7a12d76e56dc4362c04a25d35d139417db0c324f77514482a3ffbc3e7",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Come Jev sta cambiando lo sviluppo software con l'IA",
+            "summary": "In questo episodio, Diogo Almeida di TypeSafe discute Jev, un modello progettato per integrare intelligenza rapida e affidabile direttamente nel software, superando i limiti dei modelli testuali tradizionali.",
+            "why_it_matters": "L'episodio esamina perché i modelli basati sul testo faticano nell'automazione reale e come approcci come il reinforcement learning da decisioni calibrate possano ridefinire l'architettura dei software intelligenti.",
+            "extended_analysis": "Il panorama dello sviluppo guidato dall'intelligenza artificiale si sta evolvendo verso sistemi più ingegnerizzati, dove la singola architettura basata su modelli linguistici estesi cede il passo a soluzioni specializzate. Diogo Almeida, co-fondatore e amministratore delegato di TypeSafe, approfondisce il concetto di intelligenza nativa per le macchine e analizza le differenze tra Jev, i classificatori tradizionali e i metodi basati su LLM.\n\nVengono inoltre affrontati temi cruciali come l'apprendimento per rinforzo da decisioni calibrate, l'affidabilità nell'uso degli strumenti e il modo in cui tali modelli potrebbero trasformare gli agenti software e l'intera infrastruttura dello sviluppo moderno.",
+            "context": "L'episodio esplora l'evoluzione dell'ingegneria del software e dell'intelligenza artificiale, esaminando la necessità di superare i limiti dei modelli ottimizzati unicamente per la generazione di testo nei contesti di automazione pratica.",
+            "key_takeaways": [
+              "Jev è stato progettato da TypeSafe per portare intelligenza rapida e affidabile direttamente nel software.",
+              "L'apprendimento per rinforzo da decisioni calibrate gioca un ruolo centrale nell'affidabilità dei modelli.",
+              "I sistemi di intelligenza artificiale dovrebbero evolversi verso un approccio più ingegnerizzato anziché affidarsi a un unico modello."
+            ],
+            "highlights": [
+              "Diogo Almeida discute l'idea di intelligenza nativa per le macchine.",
+              "Vengono analizzate le differenze tra Jev, classificatori tradizionali e approcci basati su LLM."
+            ]
+          },
+          "en": {
+            "title": "How Jev Is Changing How We Build With AI",
+            "summary": "Diogo Almeida, co-founder and CEO of TypeSafe, joins the podcast to discuss Jev, a model designed to bring fast, reliable intelligence directly into software and reshape real-world automation.",
+            "why_it_matters": "The conversation explores why text-optimized models struggle with real-world decisions and how calibrated decision-making can make AI more useful as a software primitive.",
+            "extended_analysis": "As AI development matures, industry leaders are questioning whether single large language models can efficiently handle every automation task. Diogo Almeida discusses the concept of machine-native intelligence and explains how TypeSafe's Jev model diverges from traditional classifiers and standard LLM pipelines.\n\nThe discussion also covers reinforcement learning from calibrated decisions, the relationship between models and code, and how engineered AI systems could reshape software architecture, agent behavior, and tool use.",
+            "context": "The episode addresses the shifting paradigms in AI software architecture, contrasting monolithic text generators with specialized, reliable models designed for practical software decisions.",
+            "key_takeaways": [
+              "Jev is TypeSafe's model for bringing fast and reliable intelligence directly into software.",
+              "Reinforcement learning from calibrated decisions is central to improving software reliability.",
+              "Engineered AI systems are favored over relying on a single model for every task."
+            ],
+            "highlights": [
+              "Diogo Almeida introduces the concept of machine-native intelligence.",
+              "The episode details differences between Jev, traditional classifiers, and LLMs."
+            ]
+          },
+          "es": {
+            "title": "Cómo Jev está cambiando el desarrollo de software con IA",
+            "summary": "Diogo Almeida, cofundador y director ejecutivo de TypeSafe, analiza Jev, un modelo creado para integrar inteligencia rápida y confiable directamente en el software y redefinir la automatización.",
+            "why_it_matters": "El episodio explora por qué los modelos optimizados para texto fallan en decisiones del mundo real y cómo el aprendizaje por refuerzo basado en decisiones calibradas mejora la confiabilidad.",
+            "extended_analysis": "El diseño de sistemas basados en inteligencia artificial exige un enfoque más ingenieril, alejándose de la dependencia de un único modelo para todas las tareas. Diogo Almeida explora la inteligencia nativa para máquinas y detalla cómo Jev difiere de los clasificadores tradicionales y los enfoques de modelos de lenguaje.\n\nTambién se examina el papel del aprendizaje por refuerzo a partir de decisiones calibradas, la interacción entre código y modelos, y el impacto potencial en agentes y herramientas de software.",
+            "context": "Se analiza el contexto técnico de la automatización en el software real, evaluando las limitaciones de los modelos de texto y la necesidad de arquitecturas especializadas y confiables.",
+            "key_takeaways": [
+              "Jev busca integrar inteligencia rápida y confiable directamente en el software.",
+              "El aprendizaje por refuerzo con decisiones calibradas prioriza la precisión y la fiabilidad.",
+              "Se promueve un enfoque de ingeniería estructurado en lugar de un único modelo genérico."
+            ],
+            "highlights": [
+              "Diogo Almeida presenta el concepto de inteligencia nativa para máquinas.",
+              "Se comparan las diferencias entre Jev, clasificadores y enfoques basados en LLM."
+            ]
+          },
+          "zh-CN": {
+            "title": "Jev 如何改变我们使用人工智能构建软件的方式",
+            "summary": "TypeSafe 联合创始人兼首席执行官 Diogo Almeida 做客本期节目，探讨旨在将快速可靠的智能直接引入软件的模型 Jev，以及它如何重塑现实世界的自动化。",
+            "why_it_matters": "本期节目探讨了为什么优化文本生成的模型难以适应实际决策，以及如何通过校准决策强化学习让人工智能成为更可靠的软件基元。",
+            "extended_analysis": "随着人工智能工程化的不断深入，行业正在重新思考是否应依赖单一模型来处理所有任务。Diogo Almeida 探讨了“机器原生智能”的概念，并解释了 Jev 如何区别于传统分类器和大语言模型方法。\n\n讨论还涵盖了校准决策强化学习的作用、模型与代码之间的关系，以及此类模型将如何重塑智能体、工具使用和人工智能软件的整体架构。",
+            "context": "本节目聚焦于软件工程与人工智能的交汇点，探讨超越传统文本生成模型、实现更具工程化与可靠性的软件自动化架构。",
+            "key_takeaways": [
+              "Jev 是 TypeSafe 推出的旨在将快速可靠智能直接引入软件的模型。",
+              "校准决策强化学习是提升人工智能软件实用性的核心要素。",
+              "倡导采用更加工程化的 AI 系统架构，而非盲目依赖单一通用模型。"
+            ],
+            "highlights": [
+              "Diogo Almeida 讨论了机器原生智能的概念。",
+              "深入分析了 Jev 与传统分类器及 LLM 方法的区别。"
+            ]
+          },
+          "de": {
+            "title": "Wie Jev die Softwareentwicklung mit KI verändert",
+            "summary": "Diogo Almeida, Mitbegründer und CEO von TypeSafe, diskutiert Jev, ein Modell zur Integration schneller und zuverlässiger Intelligenz direkt in Software, das reale Automatisierungsprozesse neu gestaltet.",
+            "why_it_matters": "Die Episode beleuchtet, warum textoptimierte Modelle bei realen Entscheidungen an Grenzen stoßen und wie kalibrierte Entscheidungsfindung KI als Software-Primitiv nutzbarer macht.",
+            "extended_analysis": "Die Architektur von KI-gestützter Software entwickelt sich hin zu spezialisierteren Systemen, anstatt sich auf ein einziges monolithisches Modell zu verlassen. Diogo Almeida erläutert das Konzept der maschinennativen Intelligenz und zeigt auf, wie sich Jev von traditionellen Klassifikatoren und LLM-Ansätzen unterscheidet.\n\nZudem werden Reinforcement Learning aus kalibrierten Entscheidungen, die Interaktion zwischen Code und Modellen sowie die Auswirkungen auf Software-Agenten und Tool-Nutzung besprochen.",
+            "context": "Die Episode betrachtet die architektonischen Herausforderungen der Automatisierung und die Notwendigkeit robuster, technikorientierter Ansätze jenseits reiner Textgenerierungsmodelle.",
+            "key_takeaways": [
+              "Jev wurde entwickelt, um schnelle und zuverlässige Intelligenz direkt in Software zu bringen.",
+              "Kalibrierte Entscheidungsfindung ist zentral für die Verlässlichkeit von KI als Softwarekomponente.",
+              "Ingenieurmäßig gestaltete Systeme werden dem Einsatz eines einzigen Allzweckmodells vorgezogen."
+            ],
+            "highlights": [
+              "Diogo Almeida erörtert das Konzept der maschinennativen Intelligenz.",
+              "Es werden Unterschiede zwischen Jev, traditionellen Klassifikatoren und LLM-Ansätzen analysiert."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 40,
+        "editor_pick_reason": ""
+      }
+    },
+    "0551a2c6ccfe52199b49380407f48f2c12f7ec1180fcd129689811bc947bce5d": {
+      "fingerprint": "e2fdddf2258d01ae448717b605529d36b49d8e93fedf7cb9c89d62863ac52317",
+      "retry_after": "2026-11-02T15:59:33.334799+00:00"
+    },
+    "68253d1d35d34a0f3afc0c8b1e109dffeaf32251950a88c967e461772ee1eed4": {
+      "fingerprint": "a07f2e26512893accc8cc9c0d6f3ba7bc60867839e747bec722dd0d9839672ce",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Previsione della vita residua dei motori turbofan con reti LSTM",
+            "summary": "Un nuovo progetto GitHub rilasciato di recente applica il deep learning per prevedere la vita utile residua dei motori turbofan. Sfruttando reti neurali LSTM, il sistema analizza serie temporali di sensori multivariati.",
+            "why_it_matters": "Questo strumento open source offre un approccio basato sull'intelligenza artificiale per la manutenzione predittiva nel settore aerospaziale, utilizzando serie temporali complesse.",
+            "extended_analysis": "Il repository GitHub 'Turbofan-RUL-Prediction-using-LSTM' introduce un modello di deep learning focalizzato sulla previsione della vita utile residua (RUL). Il progetto impiega reti LSTM per elaborare dati multivariati provenienti da sensori di motori turbofan.\n\nNel contesto della manutenzione industriale e aerospaziale, l'uso di modelli basati su serie temporali è fondamentale per anticipare guasti e ridurre i costi operativi. Sebbene il progetto fornisca una base tecnica interessante, le prestazioni reali dipendono dalla validazione empirica su dati specifici.\n\nSarà importante monitorare futuri aggiornamenti del codice, eventuali metriche di valutazione pubblicate dagli sviluppatori e l'adozione della soluzione in scenari applicativi reali.",
+            "context": "La previsione della vita utile residua mediante apprendimento automatico e reti LSTM è un'area di ricerca attiva nell'ambito della manutenzione predittiva per sistemi industriali complessi.",
+            "key_takeaways": [
+              "Sfrutta reti LSTM per l'analisi di serie temporali.",
+              "Elabora dati di sensori multivariati da motori turbofan.",
+              "Progetto open source ospitato su GitHub."
+            ],
+            "highlights": [
+              "Modello di deep learning per la predizione RUL.",
+              "Utilizza dati di sensori multivariati."
+            ]
+          },
+          "en": {
+            "title": "Turbofan Engine RUL Prediction Using LSTM Networks",
+            "summary": "A newly updated GitHub repository applies deep learning to predict the Remaining Useful Life of turbofan engines. By leveraging LSTM networks, the project processes multivariate sensor time-series data.",
+            "why_it_matters": "This open-source project demonstrates an AI-based methodology for predictive maintenance in aerospace applications, handling complex temporal sensor streams.",
+            "extended_analysis": "The 'Turbofan-RUL-Prediction-using-LSTM' project focuses on Remaining Useful Life (RUL) estimation using deep learning architectures. It utilizes Long Short-Term Memory networks to interpret multivariate time-series datasets gathered from engine sensors.\n\nWithin industrial and aviation predictive maintenance, robust time-series modeling is essential for anticipating mechanical degradation and optimizing maintenance schedules. While the repository provides a structural implementation, real-world deployment requires thorough validation against empirical baselines.\n\nFuture updates to watch include code refinements, documented evaluation benchmarks, and community contributions to test its generalization capabilities.",
+            "context": "Predicting remaining useful life through neural networks addresses critical challenges in industrial engineering, combining sensor telemetry with deep learning architectures.",
+            "key_takeaways": [
+              "Implements LSTM networks for time-series forecasting.",
+              "Designed for multivariate sensor data analysis.",
+              "Available as an open-source GitHub repository."
+            ],
+            "highlights": [
+              "Deep learning approach for RUL estimation.",
+              "Processes multivariate turbofan sensor data."
+            ]
+          },
+          "es": {
+            "title": "Predicción de vida útil de motores turbofan con redes LSTM",
+            "summary": "Un proyecto de código abierto en GitHub aplica el aprendizaje profundo para predecir la vida útil restante de motores turbofan. Utilizando redes LSTM, analiza series temporales de sensores multivariados.",
+            "why_it_matters": "Esta iniciativa ofrece un enfoque basado en inteligencia artificial para el mantenimiento predictivo aeroespacial, procesando flujos complejos de datos de sensores.",
+            "extended_analysis": "El repositorio 'Turbofan-RUL-Prediction-using-LSTM' aborda la estimación de la vida útil restante (RUL) mediante técnicas de aprendizaje profundo. El sistema emplea redes de memoria a largo plazo (LSTM) para interpretar series temporales multivariadas procedentes de motores turbofan.\n\nEn el ámbito de la ingeniería y la aviación, los modelos predictivos basados en series temporales son clave para anticipar fallos mecánicos. Aunque el proyecto ofrece una estructura técnica inicial, su eficacia real depende de pruebas rigurosas y validación empírica.\n\nConviene seguir de cerca la evolución del código, la publicación de métricas de rendimiento y la adopción de este enfoque en escenarios industriales reales.",
+            "context": "La predicción de la vida útil en sistemas mecánicos complejos mediante redes neuronales es un campo relevante dentro del mantenimiento industrial y la analítica de series temporales.",
+            "key_takeaways": [
+              "Utiliza redes LSTM para modelar series temporales.",
+              "Procesa datos de sensores multivariados de turbofan.",
+              "Desarrollado como proyecto de código abierto en GitHub."
+            ],
+            "highlights": [
+              "Modelo de aprendizaje profundo para estimación RUL.",
+              "Análisis basado en datos de sensores multivariados."
+            ]
+          },
+          "zh-CN": {
+            "title": "基于LSTM网络的涡扇发动机剩余寿命预测",
+            "summary": "一个新的开源项目利用深度学习技术预测涡扇发动机的剩余有用寿命。该项目通过LSTM网络处理多变量传感器时间序列数据。",
+            "why_it_matters": "该开源项目展示了人工智能在航空航天预测性维护中的应用方法，处理复杂的传感器时间序列流。",
+            "extended_analysis": "名为'Turbofan-RUL-Prediction-using-LSTM'的项目专注于使用深度学习架构进行剩余有用寿命（RUL）估计。它利用长短期记忆网络来解释从发动机传感器收集的多变量时间序列数据集。\n\n在工业和航空预测性维护中，强大的时间序列建模对于预测机械退化至关重要。虽然该代码库提供了基础实现，但实际部署需要通过经验基准进行彻底验证。\n\n未来需要关注的方面包括代码更新、文档化的评估基准以及社区对泛化能力的测试。",
+            "context": "通过神经网络预测剩余使用寿命解决了解析复杂工业传感器遥测数据与深度学习架构结合的关键挑战。",
+            "key_takeaways": [
+              "采用LSTM网络进行时间序列预测。",
+              "专为多变量传感器数据分析而设计。",
+              "作为GitHub开源代码库提供。"
+            ],
+            "highlights": [
+              "用于RUL估计的深度学习方法。",
+              "处理多变量涡扇发动机传感器数据。"
+            ]
+          },
+          "de": {
+            "title": "RUL-Vorhersage für Turbofan-Triebwerke mit LSTM-Netzwerken",
+            "summary": "Ein GitHub-Projekt nutzt Deep Learning zur Vorhersage der verbleibenden Lebensdauer von Turbofan-Triebwerken. Durch den Einsatz von LSTM-Netzwerken werden multivariate Sensordaten verarbeitet.",
+            "why_it_matters": "Dieses Open-Source-Projekt zeigt einen KI-basierten Ansatz für die vorausschauende Wartung in der Luft- und Raumfahrt unter Verwendung komplexer Zeitreihendaten.",
+            "extended_analysis": "Das Repository 'Turbofan-RUL-Prediction-using-LSTM' widmet sich der Schätzung der verbleibenden Lebensdauer (Remaining Useful Life, RUL) mithilfe von Deep-Learning-Architekturen. Es verwendet Long Short-Term Memory-Netzwerke zur Auswertung multivariater Zeitreihendatensätze von Triebwerkssensoren.\n\nIn der industriellen und luftfahrtbezogenen vorausschauenden Wartung sind robuste Zeitreihenmodelle entscheidend, um mechanischen Verschleiß zu antizipieren. Während das Repository eine technische Grundlage bietet, erfordert der reale Einsatz eine gründliche Validierung anhand empirischer Benchmarks.\n\nZu den zukünftigen Beobachtungspunkten gehören Code-Aktualisierungen, dokumentierte Evaluierungsmetriken und Beiträge zur Verbesserung der Generalisierbarkeit.",
+            "context": "Die Vorhersage der Restlebensdauer durch neuronale Netze adressiert zentrale Herausforderungen im Industrie-Engineering durch die Kombination von Sensortelemetrie und Deep Learning.",
+            "key_takeaways": [
+              "Implementiert LSTM-Netzwerke für Zeitreihenanalysen.",
+              "Verarbeitet multivariate Sensordaten von Turbofan-Triebwerken.",
+              "Als Open-Source-Projekt auf GitHub verfügbar."
+            ],
+            "highlights": [
+              "Deep-Learning-Ansatz zur RUL-Schätzung.",
+              "Auswertung multivariater Sensordaten."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 42,
+        "editor_pick_reason": ""
+      }
     }
   },
   "daily": {
     "date": "2026-11-02",
-    "count": 4,
+    "count": 7,
     "picks": 0
   }
 }
