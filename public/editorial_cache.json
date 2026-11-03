@@ -3681,7 +3681,7 @@
     },
     "0551a2c6ccfe52199b49380407f48f2c12f7ec1180fcd129689811bc947bce5d": {
       "fingerprint": "e2fdddf2258d01ae448717b605529d36b49d8e93fedf7cb9c89d62863ac52317",
-      "retry_after": "2026-11-03T02:22:24.192786+00:00"
+      "retry_after": "2026-11-03T08:39:50.090169+00:00"
     },
     "68253d1d35d34a0f3afc0c8b1e109dffeaf32251950a88c967e461772ee1eed4": {
       "fingerprint": "a07f2e26512893accc8cc9c0d6f3ba7bc60867839e747bec722dd0d9839672ce",
@@ -3961,11 +3961,290 @@
         "relevance_score": 35,
         "editor_pick_reason": ""
       }
+    },
+    "49e27b8370c0db1aae1a84cdc423f7f869a742cda44ac43d500cbdc5639e8487": {
+      "fingerprint": "b4a868c55552f561240cf57a611bcd28cfcc8025dd1fa6bac0c469b73ff76e53",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Agenti legali e privacy dei dati: l'esperienza di Legora",
+            "summary": "In questo episodio di Latent Space, Jacob Lauritzen, CTO di Legora, spiega come costruire e testare agenti di intelligenza artificiale in ambito legale quando i dati dei clienti sono inaccessibili.",
+            "why_it_matters": "Affrontare la privacy e la riservatezza dei dati è una delle sfide cruciali nello sviluppo di strumenti di intelligenza artificiale per settori regolamentati come quello legale.",
+            "extended_analysis": "Lo sviluppo di agenti autonomi in contesti ad alta sensibilità informativa richiede soluzioni architetturali innovative per garantire la totale riservatezza. Poiché i dati appartengono ai clienti dello studio legale, i progettisti devono trovare metodi rigorosi per verificare le prestazioni senza violare il segreto professionale o accedere ai contenuti operativi.\n\nL'intervista con Jacob Lauritzen offre uno sguardo approfondito sulle metodologie ingegneristiche adottate da una delle aziende a maggiore crescita nel settore, evidenziando il bilanciamento tra automazione avanzata e rigidi vincoli di sicurezza dei dati.",
+            "context": "Il settore legale richiede standard di confidenzialità estremamente elevati, rendendo complessa l'adozione di soluzioni basate su modelli linguistici e agenti autonomi.",
+            "key_takeaways": [
+              "La gestione della riservatezza dei dati dei clienti nello sviluppo di agenti legali.",
+              "Le strategie di testing e sviluppo adottate in assenza di visibilità diretta sui dati.",
+              "L'approccio ingegneristico di Legora raccontato dal CTO Jacob Lauritzen."
+            ],
+            "highlights": [
+              "Ospite: Jacob Lauritzen, CTO di Legora.",
+              "Podcast: Latent Space."
+            ]
+          },
+          "en": {
+            "title": "Building Legal Agents Without Data Visibility with Jacob Lauritzen",
+            "summary": "In this Latent Space episode, Legora CTO Jacob Lauritzen discusses how to build and test legal AI agents when client data privacy prevents developers from viewing their execution traces.",
+            "why_it_matters": "Solving data confidentiality is essential for deploying AI agents in highly regulated industries like law, where data ownership and privacy are strictly protected.",
+            "extended_analysis": "Developing autonomous agents in information-sensitive environments demands innovative architectural solutions to ensure complete confidentiality. Because the data belongs to the law firm's clients, developers must engineer rigorous methods to verify system performance without inspecting actual operational content or breaching professional trust.\n\nThe conversation with Jacob Lauritzen provides a detailed look at the engineering methodologies utilized by one of the fastest-growing companies in the legal tech space, highlighting how technical teams balance advanced automation with uncompromising data security constraints.",
+            "context": "The legal sector imposes rigorous confidentiality standards, creating unique engineering hurdles for teams building modern AI agents and language models.",
+            "key_takeaways": [
+              "How to approach agent development when client data privacy restricts direct observation.",
+              "Testing and validation strategies used in highly confidential domains.",
+              "Insights from Jacob Lauritzen, CTO of Legora, on scaling legal tech infrastructure."
+            ],
+            "highlights": [
+              "Guest: Jacob Lauritzen, CTO of Legora.",
+              "Podcast: Latent Space."
+            ]
+          },
+          "es": {
+            "title": "Agentes legales y privacidad de datos con Jacob Lauritzen",
+            "summary": "En este episodio de Latent Space, el CTO de Legora, Jacob Lauritzen, analiza cómo construir y probar agentes de IA legales cuando los datos de los clientes son totalmente inaccesibles.",
+            "why_it_matters": "Garantizar la confidencialidad de los datos es un desafío fundamental al implementar agentes de inteligencia artificial en sectores altamente regulados como el derecho.",
+            "extended_analysis": "El desarrollo de agentes autónomos en entornos sensibles requiere soluciones arquitectónicas innovadoras para mantener la confidencialidad. Dado que los datos pertenecen a los clientes del bufete, los desarrolladores deben idear métodos rigurosos para verificar el rendimiento sin acceder al contenido operativo.\n\nLa entrevista con Jacob Lauritzen ofrece una perspectiva técnica sobre cómo una empresa de rápido crecimiento aborda el equilibrio entre la automatización avanzada y los estrictos límites de seguridad.",
+            "context": "El sector jurídico exige estándares estrictos de confidencialidad, lo que dificulta la integración de herramientas basadas en inteligencia artificial sin comprometer la privacidad.",
+            "key_takeaways": [
+              "Desarrollo de agentes de IA bajo estrictas restricciones de privacidad de datos.",
+              "Métodos de prueba y validación sin acceso directo a la información operativa.",
+              "Perspectivas de ingeniería de Legora explicadas por su CTO."
+            ],
+            "highlights": [
+              "Invitado: Jacob Lauritzen, CTO de Legora.",
+              "Podcast: Latent Space."
+            ]
+          },
+          "zh-CN": {
+            "title": "在无法查看数据的情况下构建法律AI代理：专访Jacob Lauritzen",
+            "summary": "在本期Latent Space播客中，Legora首席技术官Jacob Lauritzen探讨了当客户数据隐私禁止开发者查看执行轨迹时，如何构建和测试法律AI代理。",
+            "why_it_matters": "在法律等高度受监管的行业中部署AI代理时，解决数据保密性问题至关重要。",
+            "extended_analysis": "在信息敏感的环境中开发自主代理需要创新的架构解决方案以确保持续保密。由于数据属于律所的客户，开发人员必须设计出严格的方法来验证系统性能，而无需检查实际的操作内容。\n\n与Jacob Lauritzen的对话深入探讨了法律科技领域发展最快的公司之一所采用的工程方法，展示了技术团队如何在先进自动化与严格的数据安全约束之间取得平衡。",
+            "context": "法律行业对保密性有着极高的要求，这给构建现代AI代理和语言模型的工程团队带来了独特的挑战。",
+            "key_takeaways": [
+              "在客户数据隐私限制直接观察时如何进行代理开发。",
+              "在高度机密领域中使用的测试与验证策略。",
+              "Legora CTO Jacob Lauritzen关于扩展法律科技基础设施的见解。"
+            ],
+            "highlights": [
+              "嘉宾：Jacob Lauritzen，Legora首席技术官。",
+              "播客：Latent Space。"
+            ]
+          },
+          "de": {
+            "title": "Juristische KI-Agenten ohne Dateneinsicht mit Jacob Lauritzen",
+            "summary": "In dieser Episode von Latent Space spricht Legora-CTO Jacob Lauritzen darüber, wie man rechtliche KI-Agenten baut und testet, wenn Datenschutzvorgaben die Einsicht in die Ausführungsdaten verhindern.",
+            "why_it_matters": "Die Gewährleistung der Datendefinition ist entscheidend für den Einsatz von KI-Agenten in streng regulierten Branchen wie dem Rechtswesen.",
+            "extended_analysis": "Die Entwicklung autonomer Agenten in datensiblen Umgebungen erfordert innovative architektonische Lösungen zur Wahrung der Vertraulichkeit. Da die Daten den Mandanten der Anwaltskanzlei gehören, müssen Entwickler präzise Methoden finden, um die Systemleistung zu überprüfen, ohne operative Inhalte einzusehen.\n\nDas Gespräch mit Jacob Lauritzen bietet detaillierte Einblicke in die Engineering-Methoden eines der wachstumsstärksten Unternehmen im Legal-Tech-Bereich und zeigt, wie fortschrittliche Automatisierung mit strengen Sicherheitsvorgaben vereinbart wird.",
+            "context": "Der juristische Sektor stellt extrem hohe Anforderungen an die Vertraulichkeit, was die Integration moderner KI-Agenten vor enorme technische Hürden stellt.",
+            "key_takeaways": [
+              "Entwicklung von KI-Agenten unter strikten Datenschutzbeschränkungen.",
+              "Test- und Validierungsstrategien in hochsensiblen Bereichen.",
+              "Einblicke von Legora-CTO Jacob Lauritzen in die Legal-Tech-Infrastruktur."
+            ],
+            "highlights": [
+              "Gast: Jacob Lauritzen, CTO von Legora.",
+              "Podcast: Latent Space."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 0,
+        "editor_pick_reason": ""
+      }
+    },
+    "277870ffc8d71544c0465c137654062f6f2bf7e7d7a1ec8af9071c966d86edc3": {
+      "fingerprint": "a645db4f9a315b1ec7309cdd38bcd39a9feb43d969ecd80026f744fad6345bc4",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Scaling Git in casa OpenAI: nasce Pando",
+            "summary": "OpenAI ha presentato Pando, un backend compatibile con Git progettato appositamente per gestire i volumi di sviluppo resi possibili da Codex.",
+            "why_it_matters": "L'evoluzione degli strumenti di supporto è cruciale per reggere i carichi di lavoro e la scala dello sviluppo guidato dall'intelligenza artificiale.",
+            "extended_analysis": "Man mano che l'uso di strumenti di codifica basati sull'intelligenza artificiale come Codex accelera la produzione di codice, i sistemi di controllo di versione tradizionali possono incontrare limiti di scala. Per affrontare questa sfida, OpenAI ha sviluppato Pando, un backend compatibile con Git.\n\nQuesto progetto illustra come le infrastrutture interne debbano evolversi parallelamente ai modelli avanzati per supportare flussi di lavoro ingegneristici massicci. Gli sviluppatori dovranno monitorare l'evoluzione di Pando per capire se soluzioni simili verranno adottate più ampiamente.",
+            "context": "Lo sviluppo software assistito dall'IA genera una quantità di codice senza precedenti, mettendo alla prova le infrastrutture di controllo versione esistenti come Git.",
+            "key_takeaways": [
+              "OpenAI ha creato Pando come backend compatibile con Git.",
+              "Il sistema è progettato per la scala di sviluppo resa possibile da Codex.",
+              "Affronta le sfide infrastrutturali dell'ingegneria del software potenziata dall'IA."
+            ],
+            "highlights": [
+              "Sviluppato da OpenAI News.",
+              "Progettato per supportare la scala di Codex."
+            ]
+          },
+          "en": {
+            "title": "Scaling Git at OpenAI: The Story of Pando",
+            "summary": "OpenAI has introduced Pando, a Git-compatible backend built to handle the massive development scale enabled by Codex.",
+            "why_it_matters": "Infrastructure must adapt to keep pace with the immense volume of code generated by AI development tools.",
+            "extended_analysis": "As AI-driven tools like Codex accelerate software creation, conventional version control backends face unprecedented scaling hurdles. To address this, OpenAI engineered Pando, designed specifically to be Git-compatible while meeting the rigorous demands of modern AI-assisted engineering.\n\nThis development highlights the critical link between model capabilities and underlying developer tooling. Observers will watch to see how infrastructure requirements continue to shift alongside code generation capacity.",
+            "context": "Advanced AI coding assistants drastically increase code output, necessitating backend architectures capable of sustaining modern engineering demands.",
+            "key_takeaways": [
+              "OpenAI built Pando, a Git-compatible backend.",
+              "It addresses the scale of development enabled by Codex.",
+              "It bridges the gap between AI code generation and infrastructure limits."
+            ],
+            "highlights": [
+              "Announced via OpenAI News.",
+              "Tailored for Codex-scale development workloads."
+            ]
+          },
+          "es": {
+            "title": "Escalando Git en OpenAI: Así es Pando",
+            "summary": "OpenAI ha presentado Pando, un backend compatible con Git diseñado para soportar la enorme escala de desarrollo impulsada por Codex.",
+            "why_it_matters": "Las infraestructuras de desarrollo deben evolucionar para manejar el volumen de código generado por las herramientas de inteligencia artificial.",
+            "extended_analysis": "A medida que herramientas como Codex permiten una mayor velocidad y volumen en la creación de software, los sistemas tradicionales de control de versiones enfrentan nuevos retos de escala. Para solucionar esto, OpenAI desarrolló Pando, un backend compatible con Git.\n\nEste avance demuestra cómo los equipos de ingeniería adaptan su infraestructura interna para mantenerse al día con las capacidades de la IA. Será clave observar cómo evoluciona la adopción de estas soluciones en la industria.",
+            "context": "El auge de la programación asistida por IA exige mejoras sustanciales en los sistemas de backend para evitar cuellos de botella en el desarrollo.",
+            "key_takeaways": [
+              "OpenAI creó Pando como un backend compatible con Git.",
+              "Diseñado para responder a la escala de desarrollo de Codex.",
+              "Aborda los desafíos de infraestructura del software moderno."
+            ],
+            "highlights": [
+              "Publicado por OpenAI News.",
+              "Creado para la escala impulsada por Codex."
+            ]
+          },
+          "zh-CN": {
+            "title": "OpenAI 的 Git 扩展实践：Pando 后端解析",
+            "summary": "OpenAI 推出了 Pando，这是一个与 Git 兼容的后端系统，旨在应对 Codex 带来的巨大开发规模需求。",
+            "why_it_matters": "随着人工智能代码生成工具的普及，基础设施必须随之升级以处理海量的开发工作负载。",
+            "extended_analysis": "当像 Codex 这样的人工智能编程工具大幅加速软件生产时，传统的版本控制系统往往会面临严峻的扩展挑战。为此，OpenAI 构建了 Pando，一个兼容 Git 的后端。\n\n这一进展展示了先进 AI 模型与底层工程工具之间的紧密联系。未来需要关注这类基础设施如何适应更大规模的自动化代码生成。",
+            "context": "AI 辅助编程极大地提高了代码产出速度，对底层的版本控制和存储架构提出了新的考验。",
+            "key_takeaways": [
+              "OpenAI 开发了兼容 Git 的后端 Pando。",
+              "专为 Codex 实现的开发规模而设计。",
+              "解决 AI 时代的软件工程基础设施挑战。"
+            ],
+            "highlights": [
+              "由 OpenAI News 发布。",
+              "匹配 Codex 的开发规模需求。"
+            ]
+          },
+          "de": {
+            "title": "Git-Skalierung bei OpenAI: Vorstellung von Pando",
+            "summary": "OpenAI hat Pando vorgestellt, ein Git-kompatibles Backend, das für die durch Codex ermöglichte Entwicklungsdimension entwickelt wurde.",
+            "why_it_matters": "Die Infrastruktur muss sich anpassen, um mit dem massiven Code-Volumen Schritt zu halten, das durch KI-Tools generiert wird.",
+            "extended_analysis": "Da KI-gestützte Codierungswerkzeuge wie Codex die Softwareentwicklung beschleunigen, stoßen herkömmliche Versionskontrollsysteme an Skalierungsgrenzen. Als Reaktion darauf hat OpenAI Pando entwickelt, ein Git-kompatibles Backend.\n\nDies zeigt, wie wichtig die Anpassung der internen Infrastruktur an die Möglichkeiten moderner KI-Modelle ist. Beobachter werden verfolgen, wie sich solche spezialisierten Backends im Zuge der Automatisierung weiterentwickeln.",
+            "context": "KI-gestützte Softwareentwicklung erfordert leistungsfähigere Backend-Architekturen, um den wachsenden Anforderungen moderner Ingenieursteams gerecht zu werden.",
+            "key_takeaways": [
+              "OpenAI hat Pando als Git-kompatibles Backend entwickelt.",
+              "Es wurde für die Skalierung durch Codex konzipiert.",
+              "Es begegnet den Infrastrukturherausforderungen der KI-gestützten Entwicklung."
+            ],
+            "highlights": [
+              "Veröffentlicht über OpenAI News.",
+              "Entwickelt für die Skalierung von Codex."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 65,
+        "editor_pick_reason": ""
+      }
+    },
+    "b03ef4eb705761a31a658841a2378753a124126defa12c2b1001dfdbeda0d243": {
+      "fingerprint": "cb0ff12593ecb4f10fecd00d1c1d8014fcd9cd808aedb10469d999269d040a04",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Il profilo GitHub di Liane Heidemann: sviluppo e AI",
+            "summary": "Il profilo GitHub di Liane Heidemann evidenzia progetti legati allo sviluppo software, all'intelligenza artificiale, alla scienza dei dati e all'informatica.",
+            "why_it_matters": "I profili di sviluppo su GitHub offrono trasparenza sui lavori in corso e sulle competenze tecniche nel campo dell'ingegneria del software e dell'IA.",
+            "extended_analysis": "La pagina GitHub di Liane Heidemann raccoglie attività e progetti focalizzati su software, intelligenza artificiale, dati e informatica, con l'uso del linguaggio di programmazione Python.\n\nIn assenza di ulteriori dettagli sui singoli benchmark o sulle specifiche architetture, la documentazione rimane limitata alla presentazione generale del profilo sulla piattaforma.",
+            "context": "GitHub funge da principale repository per la condivisione e lo sviluppo di codice open source e progetti di ricerca nel settore tecnologico.",
+            "key_takeaways": [
+              "Profilo incentrato su sviluppo software e intelligenza artificiale.",
+              "Uso del linguaggio di programmazione Python.",
+              "Ultimo aggiornamento registrato a novembre 2026."
+            ],
+            "highlights": [
+              "Progetti dedicati a dati, AI e informatica.",
+              "Codice ospitato sulla piattaforma GitHub."
+            ]
+          },
+          "en": {
+            "title": "Liane Heidemann's GitHub Profile: Software and AI",
+            "summary": "Liane Heidemann's GitHub profile showcases software development, AI, data science, and computer science projects utilizing Python.",
+            "why_it_matters": "Developer profiles on GitHub provide direct insight into ongoing technical work, open-source contributions, and engineering capabilities in AI.",
+            "extended_analysis": "The repository listing highlights practical work spanning software engineering, artificial intelligence, and data science. Python serves as the primary programming language for these initiatives.\n\nBecause detailed metrics, benchmarks, or independent verifications are absent from the metadata, the presentation remains strictly limited to the profile's self-described focus.",
+            "context": "GitHub acts as a standard ecosystem for developers to manage codebases, collaborate, and showcase technical portfolios to the broader community.",
+            "key_takeaways": [
+              "Focuses on software development and artificial intelligence projects.",
+              "Utilizes Python as the primary programming language.",
+              "Profile updated as of November 2026."
+            ],
+            "highlights": [
+              "Showcases data and computer science projects.",
+              "Hosted publicly on GitHub."
+            ]
+          },
+          "es": {
+            "title": "Perfil de GitHub de Liane Heidemann: desarrollo y IA",
+            "summary": "El perfil de GitHub de Liane Heidemann muestra proyectos de desarrollo de software, inteligencia artificial, datos y ciencias de la computación.",
+            "why_it_matters": "Los perfiles de desarrollo en GitHub ofrecen una visión directa de los proyectos de ingeniería y las capacidades técnicas en el sector tecnológico.",
+            "extended_analysis": "La página de GitHub recopila iniciativas centradas en software, inteligencia artificial y ciencia de datos, empleando Python como lenguaje de programación principal.\n\nAl carecer de pruebas independientes o especificaciones de rendimiento detalladas, la evaluación se limita estricta y cautelosamente a los datos públicos del repositorio.",
+            "context": "GitHub se utiliza ampliamente como plataforma para la gestión de código fuente y la exhibición de proyectos de desarrollo de software y algoritmos.",
+            "key_takeaways": [
+              "Proyectos enfocados en desarrollo de software e inteligencia artificial.",
+              "Uso del lenguaje de programación Python.",
+              "Actualizado recientemente en noviembre de 2026."
+            ],
+            "highlights": [
+              "Enfoque en ciencia de datos y computación.",
+              "Repositorio alojado en GitHub."
+            ]
+          },
+          "zh-CN": {
+            "title": "Liane Heidemann 的 GitHub 个人资料：软件与人工智能",
+            "summary": "Liane Heidemann 的 GitHub 个人资料展示了涵盖软件开发、人工智能、数据科学以及计算机科学的项目。",
+            "why_it_matters": "GitHub 开发者个人资料为了解技术工作、开源贡献以及人工智能领域的工程能力提供了直接窗口。",
+            "extended_analysis": "该代码仓库页面汇集了围绕软件工程、人工智能和数据科学展开的各项实践工作，主要使用 Python 编程语言。\n\n由于元数据中未包含详细的性能基准或独立测试验证，相关展示严格受限于资料库的公开描述。",
+            "context": "GitHub 是技术行业中管理代码库、开展协作以及展示开发成果的核心平台。",
+            "key_takeaways": [
+              "专注于软件开发与人工智能项目。",
+              "使用 Python 作为主要编程语言。",
+              "最新更新时间为 2026 年 11 月。"
+            ],
+            "highlights": [
+              "展示数据与计算机科学项目。",
+              "托管于 GitHub 平台。"
+            ]
+          },
+          "de": {
+            "title": "Liane Heidemanns GitHub-Profil: Software und KI",
+            "summary": "Das GitHub-Profil von Liane Heidemann präsentiert Projekte zu Softwareentwicklung, künstlicher Intelligenz, Daten und Informatik.",
+            "why_it_matters": "Entwicklerprofile auf GitHub bieten Einblicke in laufende technische Arbeiten und praktische Kompetenzen im Bereich der Software- und KI-Entwicklung.",
+            "extended_analysis": "Die GitHub-Präsenz fasst praktische Arbeiten in den Bereichen Softwaretechnik, künstliche Intelligenz und Datenwissenschaft zusammen, wobei Python als Programmiersprache verwendet wird.\n\nDa keine detaillierten Benchmarks oder unabhängigen Leistungsüberprüfungen vorliegen, beschränkt sich die Darstellung streng auf die vorliegenden Metadaten des Profils.",
+            "context": "GitHub dient als zentrale Plattform für die Verwaltung von Quellcode und die Veröffentlichung von Software- und Forschungsprojekten.",
+            "key_takeaways": [
+              "Schwerpunkt auf Softwareentwicklung und künstlicher Intelligenz.",
+              "Verwendung der Programmiersprache Python.",
+              "Aktualisiert im November 2026."
+            ],
+            "highlights": [
+              "Präsentiert Daten- und Informatikprojekte.",
+              "Öffentlich gehostet auf GitHub."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 10,
+        "editor_pick_reason": ""
+      }
     }
   },
   "daily": {
-    "date": "2026-11-02",
-    "count": 10,
+    "date": "2026-11-03",
+    "count": 3,
     "picks": 0
   }
 }
