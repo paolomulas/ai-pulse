@@ -2565,7 +2565,7 @@
     },
     "ac3db777f5aac1cf97986b034f59b4c3bba5699e627acc03ae32695b1a5719b2": {
       "fingerprint": "9e1ad171cbf9efd1a593f240485110ffa2fa07cdbb708bc6a7c5df0a2fe05013",
-      "retry_after": "2026-11-05T21:49:45.439375+00:00"
+      "retry_after": "2026-11-06T03:59:16.341119+00:00"
     },
     "4bef08f5f83b5a9b7dbba2dd2b3d3c98c77e27648541df9e24f911a161e624f6": {
       "fingerprint": "4ef26b3b9607980053bf8f14f676e76507f9710a31f64fec4a074c0e1819ed73",
@@ -5550,7 +5550,7 @@
     },
     "e40a7b612725d59117f5e6313ab54b3ab63457646833fd983c46a81b0a0122ac": {
       "fingerprint": "3597a01cadc3206c09988b3c0ecba7c8a9ec723373fb986e77887f8fbe9aff36",
-      "retry_after": "2026-11-05T21:49:34.647791+00:00"
+      "retry_after": "2026-11-06T03:59:13.901317+00:00"
     },
     "1b52db8c5014f40414f6eda6e52c49a7e969e28611df92ca9d8ab9038ed553bd": {
       "fingerprint": "cc093f28edc464334d3cc51991a2c08c97ead2966f2dd7662a5434350900823e",
@@ -6210,11 +6210,15 @@
     },
     "f2044b4c0b2fa275235793775451f00d3258bbeed5d73be50281d9bdfacba926": {
       "fingerprint": "16f78cc686ca62342af445a445e649ab02d61ebb44a6b684438a24b5a88a8ac6",
-      "retry_after": "2026-11-05T21:49:34.021236+00:00"
+      "retry_after": "2026-11-06T03:59:11.181446+00:00"
     },
     "464fa28a00d16b52e39d66d93ada6c1dbebff15ad5e5f1d6b11b0b0b81feba0f": {
       "fingerprint": "f357e38291721d2878321d91cb187122c005df3b2a2da1f9ec53f7c66b92e59b",
       "retry_after": "2026-11-05T21:49:46.145797+00:00"
+    },
+    "f0c4ec3fde368a666933b5127aaee941199a5d04effe620e5d882750983d9785": {
+      "fingerprint": "fbc31b03167d865bb52315f28d2bef04f1aca43fc818fca04dd1ad362dcccbc9",
+      "retry_after": "2026-11-06T03:59:17.987741+00:00"
     }
   },
   "daily": {
