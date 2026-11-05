@@ -2564,97 +2564,8 @@
       }
     },
     "ac3db777f5aac1cf97986b034f59b4c3bba5699e627acc03ae32695b1a5719b2": {
-      "fingerprint": "f842d4222d290e5debbc50fdab5bcefb145da9e0c306d0d0a805fc46661da346",
-      "editorial": {
-        "editorial": {
-          "it": {
-            "title": "TV-Detox: rinvigorire le vecchie Android TV con l'IA",
-            "summary": "Il progetto GitHub tv-detox propone una soluzione per accelerare i dispositivi Android TV datati tramite l'uso di Claude Code o Codex. Fornisce una schermata iniziale essenziale e priva di pubblicità, accompagnata da prompt specifici per la pulizia del sistema.",
-            "why_it_matters": "Offre agli utenti un metodo basato sull'assistenza dell'intelligenza artificiale per rimuovere bloatware e pubblicità, migliorando la reattività dei vecchi dispositivi.",
-            "extended_analysis": "Il repository GitHub tv-detox affronta il problema comune delle smart TV rallentate da interfacce pesanti e inserzioni pubblicitarie. Sfruttando strumenti di codifica assistita come Claude Code o Codex, gli utenti possono guidare il processo di alleggerimento del sistema direttamente dalla propria rete locale.\n\nLa procedura prevede l'attivazione del debug USB e l'uso di prompt mirati per disattivare le applicazioni superflue senza eliminarle definitivamente, riducendo così i rischi operativi. Vengono inclusi script e istruzioni per gestire la configurazione in modo controllato.\n\nÈ importante considerare che la disattivazione delle app di sistema comporta rischi intrinseci, come evidenziato dalle avvertenze del progetto. Monitorare gli sviluppi futuri aiuterà a comprendere l'affidabilità a lungo termine di questo approccio per la manutenzione hardware.",
-            "context": "Molti dispositivi Android TV tendono a perdere prestazioni nel tempo a causa di aggiornamenti pesanti e contenuti sponsorizzati invasivi. Soluzioni di ottimizzazione basate su script e agenti IA offrono nuove vie per prolungare il ciclo di vita dell'hardware esistente.",
-            "key_takeaways": [
-              "Utilizza Claude Code o Codex per guidare la pulizia del sistema televisivo.",
-              "Sostituisce la schermata iniziale con un'interfaccia leggera, priva di pubblicità.",
-              "Disattiva temporaneamente le applicazioni senza cancellarle definitivamente."
-            ],
-            "highlights": [
-              "Rimuove bloatware, annunci e sezioni sponsorizzate.",
-              "Richiede l'abilitazione della modalità sviluppatore e del debug USB sulla TV."
-            ]
-          },
-          "en": {
-            "title": "TV-Detox: Reviving Old Android TVs with AI Coding Assistants",
-            "summary": "The GitHub project tv-detox helps speed up sluggish Android TVs using Claude Code or Codex. It combines a tiny, ad-free home screen replacement with precise prompts to clean up unwanted bloatware.",
-            "why_it_matters": "It demonstrates a practical application of AI coding agents to perform system maintenance and remove annoying advertisements from legacy hardware.",
-            "extended_analysis": "The tv-detox repository addresses the performance degradation often seen in older smart TVs burdened by heavy manufacturer interfaces and sponsored content. By integrating tools like Claude Code or Codex, users can execute systematic cleanup routines via local network connections.\n\nThe setup involves activating developer options and USB debugging, allowing the AI assistant to guide the disabling of system applications safely. Because apps are disabled rather than uninstalled, users retain an undo option, mitigating potential bricking risks.\n\nHowever, users must proceed with caution as modifying system apps carries inherent risks. Observing how community feedback shapes these scripts will be vital for assessing safety and stability.",
-            "context": "Smart TV interfaces frequently become bogged down over time due to heavy advertising networks and software bloat. Open-source tools leveraging modern AI workflows present novel pathways for device longevity.",
-            "key_takeaways": [
-              "Leverages Claude Code or Codex for guided system optimization.",
-              "Replaces default launchers with a minimalist, ad-free alternative.",
-              "Disables resource-heavy system apps safely with undo options."
-            ],
-            "highlights": [
-              "Eliminates bloatware and sponsored rows entirely.",
-              "Requires local Wi-Fi connection and developer mode enabled."
-            ]
-          },
-          "es": {
-            "title": "TV-Detox: Revitaliza tu viejo Android TV con la ayuda de la IA",
-            "summary": "El proyecto tv-detox en GitHub busca acelerar dispositivos Android TV antiguos mediante el uso de Claude Code o Codex. Ofrece una interfaz minimalista sin publicidad y directrices claras para eliminar el bloatware.",
-            "why_it_matters": "Proporciona una alternativa práctica asistida por IA para purgar aplicaciones innecesarias y anuncios en televisores heredados, mejorando su fluidez.",
-            "extended_analysis": "El repositorio aborda el problema del rendimiento en televisores inteligentes antiguos saturados de contenido promocional e interfaces pesadas. Mediante asistentes de código como Claude Code o Codex, los usuarios pueden automatizar tareas de limpieza en la red local.\n\nEl proceso requiere habilitar la depuración USB y seguir los pasos indicados para desactivar aplicaciones del sistema sin eliminarlas por completo. Esto permite revertir los cambios si surge algún inconveniente.\n\nNo obstante, la manipulación de aplicaciones del sistema conlleva riesgos operativos especificados por el autor. Analizar la evolución del proyecto permitirá evaluar su grado de seguridad a largo plazo.",
-            "context": "El rendimiento de los televisores inteligentes suele disminuir debido al peso de los sistemas operativos y la publicidad integrada. Las herramientas impulsadas por IA abren nuevas opciones para el mantenimiento de hardware antiguo.",
-            "key_takeaways": [
-              "Emplea Claude Code o Codex para guiar la optimización.",
-              "Proporciona una pantalla de inicio ligera y sin anuncios.",
-              "Desactiva las aplicaciones sin eliminarlas permanentemente."
-            ],
-            "highlights": [
-              "Elimina bloatware y filas patrocinadas.",
-              "Requiere activar el modo desarrollador y la depuración USB."
-            ]
-          },
-          "zh-CN": {
-            "title": "TV-Detox：借助 AI 编码助手让旧款 Android 电视焕发新生",
-            "summary": "GitHub 上的 tv-detox 项目利用 Claude Code 或 Codex 加速运行缓慢的旧版 Android 电视。它提供了一个轻量且无广告的主屏幕，并附带用于清理系统冗余应用的提示词。",
-            "why_it_matters": "它展示了如何利用 AI 编码工具来执行系统维护并移除老旧硬件上的广告与臃肿软件。",
-            "extended_analysis": "tv-detox 仓库旨在解决智能电视因制造商界面繁重和广告植入而导致的性能下降问题。通过集成 Claude Code 或 Codex 等工具，用户可以在本地网络连接下执行系统的精简清理。\n\n该过程需要开启开发者选项和 USB 调试，以便 AI 助手引导用户安全地停用系统应用。由于应用仅被停用而非卸载，用户保留了撤销操作的余地，从而降低了潜在风险。\n\n尽管如此，修改系统应用仍存在固有风险。观察社区对该项目的反馈将有助于评估其稳定性和安全性。",
-            "context": "由于广告网络和内置软件的膨胀，智能电视的性能往往会随时间推移而下降。利用现代 AI 工作流的开源工具为延长设备寿命提供了新途径。",
-            "key_takeaways": [
-              "利用 Claude Code 或 Codex 进行引导式系统优化。",
-              "用极简无广告的替代方案替换默认启动器。",
-              "安全地停用消耗资源的系统应用并支持撤销。"
-            ],
-            "highlights": [
-              "彻底清除冗余软件和赞助推荐行。",
-              "要求电视开启开发者模式与局域网连接。"
-            ]
-          },
-          "de": {
-            "title": "TV-Detox: Alte Android-Fernseher mit KI-Unterstützung beschleunigen",
-            "summary": "Das GitHub-Projekt tv-detox zielt darauf ab, träge Android-TVs mithilfe von Claude Code oder Codex zu beschleunigen. Es kombiniert einen minimalistischen, werbefreien Startbildschirm mit gezielten Prompts zur Systembereinigung.",
-            "why_it_matters": "Es zeigt einen praktischen Ansatz zur Nutzung von KI-Assistenten für die Systemwartung und das Entfernen unerwünschter Werbung auf älterer Hardware.",
-            "extended_analysis": "Das tv-detox-Repository widmet sich dem Leistungsabfall älterer Smart-TVs, die durch herstellerspezifische Oberflächen und gesponserte Inhalte belastet werden. Durch den Einsatz von Werkzeugen wie Claude Code oder Codex können Anwender Bereinigungsroutinen im lokalen Netzwerk durchführen.\n\nDie Einrichtung erfordert das Aktivieren von Entwickleroptionen und USB-Debugging, um die Deaktivierung von Systemanwendungen durch den KI-Assistenten anzuleiten. Da Apps lediglich deaktiviert und nicht deinstalliert werden, bleibt eine Rücksetzoption erhalten.\n\nDennoch birgt der Eingriff in Systemanwendungen gewisse Risiken, auf die in den Warnhinweisen hingewiesen wird. Die Beobachtung der weiteren Entwicklung wird zeigen, wie sich der Ansatz in der Praxis bewährt.",
-            "context": "Die Leistung von Smart-TVs lässt im Laufe der Zeit oft nach, bedingt durch umfangreiche Benutzeroberflächen und Werbung. Open-Source-Tools mit KI-Integration bieten neue Wege zur Verlängerung der Gerätelebensdauer.",
-            "key_takeaways": [
-              "Nutzt Claude Code oder Codex für eine geführte Systemoptimierung.",
-              "Ersetzt den Startbildschirm durch eine werbefreie Alternative.",
-              "Deaktiviert ressourcenintensive Apps vorübergehend mit Undo-Option."
-            ],
-            "highlights": [
-              "Entfernt Bloatware und gesponserte Zeilen vollständig.",
-              "Setzt den Entwicklermodus und USB-Debugging voraus."
-            ]
-          }
-        },
-        "editorial_level": "ai_curated",
-        "editorial_status": "verified",
-        "editorial_model": "gemini-3.5-flash-lite",
-        "editorial_version": 4,
-        "relevance_score": 65,
-        "editor_pick_reason": ""
-      }
+      "fingerprint": "9e1ad171cbf9efd1a593f240485110ffa2fa07cdbb708bc6a7c5df0a2fe05013",
+      "retry_after": "2026-11-05T21:49:45.439375+00:00"
     },
     "4bef08f5f83b5a9b7dbba2dd2b3d3c98c77e27648541df9e24f911a161e624f6": {
       "fingerprint": "4ef26b3b9607980053bf8f14f676e76507f9710a31f64fec4a074c0e1819ed73",
@@ -5639,7 +5550,7 @@
     },
     "e40a7b612725d59117f5e6313ab54b3ab63457646833fd983c46a81b0a0122ac": {
       "fingerprint": "3597a01cadc3206c09988b3c0ecba7c8a9ec723373fb986e77887f8fbe9aff36",
-      "retry_after": "2026-11-05T13:25:51.306985+00:00"
+      "retry_after": "2026-11-05T21:49:34.647791+00:00"
     },
     "1b52db8c5014f40414f6eda6e52c49a7e969e28611df92ca9d8ab9038ed553bd": {
       "fingerprint": "cc093f28edc464334d3cc51991a2c08c97ead2966f2dd7662a5434350900823e",
@@ -6296,6 +6207,14 @@
         "relevance_score": 42,
         "editor_pick_reason": ""
       }
+    },
+    "f2044b4c0b2fa275235793775451f00d3258bbeed5d73be50281d9bdfacba926": {
+      "fingerprint": "16f78cc686ca62342af445a445e649ab02d61ebb44a6b684438a24b5a88a8ac6",
+      "retry_after": "2026-11-05T21:49:34.021236+00:00"
+    },
+    "464fa28a00d16b52e39d66d93ada6c1dbebff15ad5e5f1d6b11b0b0b81feba0f": {
+      "fingerprint": "f357e38291721d2878321d91cb187122c005df3b2a2da1f9ec53f7c66b92e59b",
+      "retry_after": "2026-11-05T21:49:46.145797+00:00"
     }
   },
   "daily": {
