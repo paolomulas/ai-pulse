@@ -6219,11 +6219,294 @@
     "f0c4ec3fde368a666933b5127aaee941199a5d04effe620e5d882750983d9785": {
       "fingerprint": "fbc31b03167d865bb52315f28d2bef04f1aca43fc818fca04dd1ad362dcccbc9",
       "retry_after": "2026-11-06T03:59:17.987741+00:00"
+    },
+    "d6792e7c04215576beccb07809796bc9b36acc361d571b71eeecdae3a1f56411": {
+      "fingerprint": "8661cd8d7d52649f9db1cfbf8d57e252abe94d014088aaf4fad38dffb3a3b517",
+      "retry_after": "2026-11-06T08:26:05.321826+00:00"
+    },
+    "6d89105e05d1356adc6c5e5bff5bc3b883dd83afd8e02df161fe138f7acd59c8": {
+      "fingerprint": "2ce545d1abaf614b0bd1072eed728404b10f9a353f8907a75783381b13c1610c",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Modelli aperti e il futuro della Physical AI con NVIDIA",
+            "summary": "In questo episodio, Daniel e Chris accolgono Ming-Yu Liu, Vice President of Cosmos Lab di NVIDIA, per esplorare l'evoluzione dell'intelligenza artificiale verso i sistemi fisici, come robot e veicoli. Discutono il ruolo dei modelli aperti, dei world models e delle nuove frontiere della simulazione.",
+            "why_it_matters": "Comprendere come i modelli aperti e la simulazione avanzata stiano plasmando l'interazione dell'IA con il mondo fisico è fondamentale per anticipare le prossime innovazioni robotiche.",
+            "extended_analysis": "Con la transizione dell'IA dal cloud ai sistemi fisici, emergono nuove metodologie di inferenza e simulazione. La conversazione analizza le prospettive di NVIDIA su come i world models aiutino i sistemi artificiali a comprendere l'ambiente circostante.\n\nVengono inoltre esaminate le motivazioni per cui i modelli aperti favoriscono l'innovazione tecnologica, delineando le sfide necessarie per realizzare sistemi di Physical AI sempre più capaci ed efficienti.",
+            "context": "Il panorama dell'intelligenza artificiale si sta espandendo oltre i confini digitali per integrarsi in robotica e automotive, richiedendo approcci computazionali inediti e framework di simulazione complessi.",
+            "key_takeaways": [
+              "Il ruolo strategico dei modelli aperti nell'accelerare l'innovazione.",
+              "Come i world models supportano la comprensione e la simulazione del mondo fisico.",
+              "Le prospettive future per lo sviluppo di sistemi di Physical AI avanzati."
+            ],
+            "highlights": [
+              "Ospite: Ming-Yu Liu, Vice President of Cosmos Lab presso NVIDIA.",
+              "Conduttori: Daniel Whitenack e Chris Benson."
+            ]
+          },
+          "en": {
+            "title": "Open models and the future of Physical AI with NVIDIA",
+            "summary": "Daniel and Chris are joined by NVIDIA Cosmos Lab VP Ming-Yu Liu to discuss open models, world models, and the evolution of AI in physical systems like robots and vehicles. The conversation highlights new approaches to inference, simulation, and the broader impact of open innovation.",
+            "why_it_matters": "Exploring how open models and world models enable AI to comprehend and simulate physical environments offers a clear window into the next technological leap for robotics.",
+            "extended_analysis": "As artificial intelligence extends from cloud environments into physical devices, developers face unique demands in modeling and inference. This episode investigates NVIDIA's perspective on overcoming these challenges through specialized architectures.\n\nListeners can expect a detailed look at why openness accelerates collaborative development and what it takes to construct highly capable physical AI platforms.",
+            "context": "The expansion of AI into robotics and autonomous vehicles requires advanced simulation frameworks and robust world models to navigate real-world complexities safely and efficiently.",
+            "key_takeaways": [
+              "Why open models remain vital for collaborative technological innovation.",
+              "The function of world models in simulating physical environments for AI systems.",
+              "Perspectives on building scalable and capable physical AI infrastructure."
+            ],
+            "highlights": [
+              "Guest: Ming-Yu Liu, Vice President of Cosmos Lab at NVIDIA.",
+              "Hosts: Daniel Whitenack and Chris Benson."
+            ]
+          },
+          "es": {
+            "title": "Modelos abiertos y el futuro de la IA física con NVIDIA",
+            "summary": "Daniel y Chris conversan con Ming-Yu Liu, vicepresidente de Cosmos Lab en NVIDIA, sobre el avance de la inteligencia artificial hacia sistemas físicos como robots y vehículos. Analizan el impacto de los modelos abiertos y los modelos de mundos en la simulación.",
+            "why_it_matters": "Examinar cómo los modelos abiertos impulsan la comprensión y simulación del entorno físico ayuda a entender el rumbo de la robótica y los sistemas autónomos.",
+            "extended_analysis": "A medida que la IA trasciende la nube para integrarse en la realidad física, se requieren metodologías innovadoras de inferencia y simulación. El episodio explora la visión de NVIDIA sobre estas tecnologías emergentes.\n\nAsimismo, se debate la importancia de la apertura en los modelos para fomentar la innovación y los requisitos técnicos para desarrollar sistemas de IA física altamente funcionales.",
+            "context": "La convergencia entre la inteligencia artificial y el hardware físico impulsa el desarrollo de nuevos enfoques en simulación y modelado para aplicaciones robóticas y de vehículos autónomos.",
+            "key_takeaways": [
+              "La importancia de los modelos abiertos para fomentar la innovación colaborativa.",
+              "El papel de los modelos de mundos en la simulación del entorno físico.",
+              "Perspectivas sobre la construcción de sistemas de inteligencia artificial física."
+            ],
+            "highlights": [
+              "Invitado: Ming-Yu Liu, vicepresidente de Cosmos Lab en NVIDIA.",
+              "Presentadores: Daniel Whitenack y Chris Benson."
+            ]
+          },
+          "zh-CN": {
+            "title": "开放模型与NVIDIA物理AI的未来",
+            "summary": "Daniel和Chris邀请NVIDIA Cosmos Lab副总裁Ming-Yu Liu做客节目，探讨人工智能向机器人、车辆等物理系统延伸的趋势。他们共同讨论了开放模型、世界模型以及仿真技术的最新进展。",
+            "why_it_matters": "了解开放模型与世界模型如何帮助AI理解并模拟物理世界，对于把握机器人与自动驾驶技术的未来至关重要。",
+            "extended_analysis": "随着人工智能从云端走向现实世界的物理系统，推理、仿真和模型构建的方法正在发生深刻变化。本期节目探讨了NVIDIA在物理AI领域的视角与规划。\n\n讨论同时聚焦于开放模型对推动技术创新的重要意义，以及构建功能日益强大的物理AI系统所面临的关键考量。",
+            "context": "人工智能正加速向机器人学和智能交通等物理领域渗透，这促使业界寻找更加强大的仿真框架和世界模型来应对现实环境的复杂性。",
+            "key_takeaways": [
+              "开放模型在促进行业创新中的核心价值。",
+              "世界模型在辅助AI理解和模拟物理世界中的作用。",
+              "构建先进物理AI系统的未来发展方向。"
+            ],
+            "highlights": [
+              "嘉宾：NVIDIA Cosmos Lab副总裁Ming-Yu Liu。",
+              "主持人：Daniel Whitenack与Chris Benson。"
+            ]
+          },
+          "de": {
+            "title": "Offene Modelle und die Zukunft der Physical AI mit NVIDIA",
+            "summary": "Daniel und Chris sprechen mit Ming-Yu Liu, Vice President des Cosmos Lab bei NVIDIA, über den Übergang der KI in physische Systeme wie Roboter und Fahrzeuge. Sie beleuchten die Rolle offener Modelle, World Models und neuartiger Simulationsansätze.",
+            "why_it_matters": "Zu verstehen, wie offene Modelle und Simulationen KI-Systeme befähigen, die physische Welt zu begreifen, ist entscheidend für die nächste Welle robotischer Innovationen.",
+            "extended_analysis": "Während Künstliche Intelligenz zunehmend den Sprung aus der Cloud in physische Geräte vollzieht, entstehen neue Anforderungen an Inferenz und Modellierung. Die Episode beleuchtet NVIDIAs Perspektive auf diese technologischen Entwicklungen.\n\nDabei wird erörtert, warum Offenheit für die Innovationskraft unerlässlich ist und welche Voraussetzungen für die Konstruktion leistungsfähiger physischer KI-Systeme erfüllt sein müssen.",
+            "context": "Die Verschmelzung von KI mit Robotik und autonomen Fahrzeugen erfordert fortschrittliche Simulationsumgebungen und präzise World Models, um reale Umgebungen adäquat abbilden zu können.",
+            "key_takeaways": [
+              "Die Bedeutung offener Modelle für kollaborative technologische Fortschritte.",
+              "Wie World Models die Simulation und das Verständnis der physischen Welt unterstützen.",
+              "Einblicke in die Entwicklung leistungsfähiger Physical-AI-Infrastrukturen."
+            ],
+            "highlights": [
+              "Gast: Ming-Yu Liu, Vice President von Cosmos Lab bei NVIDIA.",
+              "Moderatoren: Daniel Whitenack und Chris Benson."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 35,
+        "editor_pick_reason": ""
+      }
+    },
+    "616c68177b707eae60eb2b7e618a86105e3926c540e149caa916945e5a2342dd": {
+      "fingerprint": "7f13a0835febc3cef2c034fe3a0f55a504f58a31d2886de69c88534a19fb2064",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Le università australiane puntano a laureati 'AI-native'",
+            "summary": "Gli atenei australiani stanno estendendo l'accesso a ChatGPT e integrando l'intelligenza artificiale nella didattica. L'obiettivo è preparare gli studenti a un mercato del lavoro sempre più orientato all'IA.",
+            "why_it_matters": "L'iniziativa mostra come l'istruzione superiore stia modificando i propri programmi per rispondere alla diffusione dell'IA nel mondo professionale.",
+            "extended_analysis": "Le istituzioni universitarie in Australia stanno modificando l'approccio educativo espandendo l'uso di strumenti come ChatGPT direttamente nei percorsi di studio. Questa mossa mira a formare una nuova generazione di professionisti capaci di operare con disinvoltura in contesti lavorativi digitali avanzati.\n\nSebbene i dettagli completi sui curricula non siano specificati, l'iniziativa riflette una tendenza globale volta a ripensare la didattica di fronte ai progressi tecnologici.",
+            "context": "Il mondo accademico affronta la sfida di adattare la formazione alle competenze richieste da un mercato del lavoro che adotta rapidamente sistemi di intelligenza artificiale generativa.",
+            "key_takeaways": [
+              "Estensione dell'accesso a ChatGPT nelle università australiane",
+              "Integrazione dell'IA nella didattica e nei metodi di insegnamento",
+              "Preparazione degli studenti per la forza lavoro del futuro"
+            ],
+            "highlights": [
+              "Coinvolgimento delle università australiane",
+              "Focus sull'utilizzo di strumenti basati su IA"
+            ]
+          },
+          "en": {
+            "title": "Australian universities shape AI-native graduates",
+            "summary": "Australian universities are expanding access to ChatGPT and embedding artificial intelligence into teaching and learning. This effort aims to equip students for an AI-enabled workforce.",
+            "why_it_matters": "This move highlights how higher education is adapting its academic frameworks to address the integration of AI across professional industries.",
+            "extended_analysis": "Higher education institutions across Australia are broadening access to platforms like ChatGPT to incorporate artificial intelligence directly into the learning experience. By doing so, they seek to prepare students for modern career environments shaped by automation and advanced digital tools.\n\nWhile specific course structures vary, the trend underscores a broader institutional shift toward embracing generative technology in mainstream education rather than restricting it.",
+            "context": "Educational bodies globally are rethinking assessment and curriculum design to keep pace with rapid advancements in generative artificial intelligence technologies.",
+            "key_takeaways": [
+              "Expansion of ChatGPT access across Australian campuses",
+              "Embedding artificial intelligence into teaching practices",
+              "Preparing graduates for an AI-driven professional workforce"
+            ],
+            "highlights": [
+              "Initiative led by Australian universities",
+              "Partnership or adoption reported via OpenAI News"
+            ]
+          },
+          "es": {
+            "title": "Universidades australianas forman graduados nativos en IA",
+            "summary": "Las universidades de Australia están ampliando el acceso a ChatGPT e integrando la inteligencia artificial en la enseñanza. La iniciativa busca preparar a los estudiantes para un mercado laboral digital.",
+            "why_it_matters": "Muestra cómo el sector educativo superior adapta sus métodos para responder a la presencia de la IA en los entornos profesionales.",
+            "extended_analysis": "Las instituciones académicas australianas están incorporando herramientas como ChatGPT en sus aulas para enriquecer los procesos de enseñanza y aprendizaje. El propósito principal es dotar a los estudiantes de competencias prácticas para un entorno laboral transformado por la tecnología.\n\nEsta evolución institucional marca un cambio importante respecto a las restricciones iniciales impuestas a las herramientas generativas en el ámbito educativo.",
+            "context": "El sistema educativo internacional debate cómo integrar de manera constructiva las tecnologías de inteligencia artificial en los planes de estudio universitarios.",
+            "key_takeaways": [
+              "Ampliación del acceso a ChatGPT en el ámbito universitario australiano",
+              "Integración de la inteligencia artificial en la enseñanza y el aprendizaje",
+              "Enfoque en la empleabilidad y preparación para el entorno laboral"
+            ],
+            "highlights": [
+              "Impulso en universidades de Australia",
+              "Adaptación de la enseñanza académica"
+            ]
+          },
+          "zh-CN": {
+            "title": "澳大利亚高校正着力培养具备AI素养的毕业生",
+            "summary": "澳大利亚各高校正在扩大对ChatGPT的访问权限，并将人工智能融入日常教学中。此举旨在为学生进入由人工智能赋能的职场做好准备。",
+            "why_it_matters": "这表明高等教育机构正在调整学术规划，以适应人工智能在各行各业中的广泛应用。",
+            "extended_analysis": "澳大利亚的高等教育机构正在通过引入ChatGPT等平台，将人工智能技术直接嵌入教学与学习环节。通过这种方式，校方希望帮助学生掌握现代职场所需要的数字化技能。\n\n尽管具体课程安排各有不同，但这反映出教育界正从最初的限制转变为积极拥抱生成式人工智能技术。",
+            "context": "全球教育界正面临如何调整课程设置和评估标准以跟上生成式人工智能技术迅猛发展的课题。",
+            "key_takeaways": [
+              "澳大利亚高校扩大ChatGPT使用权限",
+              "将人工智能整合进日常教学活动中",
+              "提升学生在未来人工智能职场的竞争力"
+            ],
+            "highlights": [
+              "澳大利亚高校参与其中",
+              "重点关注AI技术在教学中的应用"
+            ]
+          },
+          "de": {
+            "title": "Australische Universitäten bilden KI-native Absolventen aus",
+            "summary": "Australische Hochschulen weiten den Zugang zu ChatGPT aus und integrieren künstliche Intelligenz in Lehre und Studium. Damit sollen Studierende auf eine KI-geprägte Arbeitswelt vorbereitet werden.",
+            "why_it_matters": "Die Entwicklung verdeutlicht, wie das Hochschulwesen seine Programme anpasst, um auf den Einsatz von KI in der Berufswelt zu reagieren.",
+            "extended_analysis": "Universitäten in Australien erweitern die Nutzung von Plattformen wie ChatGPT, um künstliche Intelligenz direkt in den Lernprozess einzubinden. Ziel ist es, Studierende optimal auf moderne berufliche Anforderungen vorzubereiten, die stark von digitalen Technologien beeinflusst werden.\n\nDiese Anpassung zeigt einen Wandel hin zur aktiven Integration generativer Werkzeuge in die akademische Ausbildung anstelle von restriktiven Maßnahmen.",
+            "context": "Bildungseinrichtungen weltweit stehen vor der Aufgabe, Curricula und Lehrmethoden im Einklang mit den schnellen Fortschritten der künstlichen Intelligenz weiterzuentwickeln.",
+            "key_takeaways": [
+              "Erweiterter Zugang zu ChatGPT an australischen Universitäten",
+              "Integration von künstlicher Intelligenz in die Lehre",
+              "Vorbereitung der Studierenden auf einen KI-gestützten Arbeitsmarkt"
+            ],
+            "highlights": [
+              "Maßnahme australischer Universitäten",
+              "Fokus auf moderne Lehrmethoden mit KI"
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 65,
+        "editor_pick_reason": ""
+      }
+    },
+    "03fe4d4ed6b58972b32dea5c18aaf9c4b3e42c3b837fa1781b0de3db4a3a1e16": {
+      "fingerprint": "b5619665a5c096dec50d5b52c75fb0e3ce2fa0c214e5302b7f65b21b09c9e8a0",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Tokenix: ottimizzazione locale dei token in Rust",
+            "summary": "Il progetto GitHub tokenix offre ricerca semantica locale, grafi di simboli, scansione di segreti e filtri per l'output, promettendo di ridurre i token LLM del 60-90%. Scritto in Rust, lo strumento punta a tagliare i costi e i volumi di elaborazione.",
+            "why_it_matters": "La gestione efficiente dei token è cruciale per ridurre le spese operative e migliorare le prestazioni dei flussi di lavoro basati su modelli linguistici di grandi dimensioni.",
+            "extended_analysis": "Tokenix introduce diverse funzionalità locali tra cui ganci CLI e filtri per l'output progettati per ottimizzare l'interazione con i modelli. Sviluppato in Rust, il repository evidenzia un'attenzione particolare alle prestazioni e all'efficienza computazionale nell'elaborazione locale.\n\nAl momento, le informazioni disponibili provengono direttamente dai dati del progetto su GitHub, con una valutazione basata su metriche iniziali e 15 stelle. Sarà fondamentale osservare l'evoluzione del codice e l'adozione da parte della comunità per verificare l'effettivo risparmio dichiarato.",
+            "context": "Il controllo dei costi e la riduzione dell'ingombro nei prompt rappresentano sfide centrali per gli sviluppatori che integrano i modelli linguistici nelle applicazioni quotidiane.",
+            "key_takeaways": [
+              "Riduzione stimata dal 60% al 90% dei token LLM secondo le specifiche del progetto.",
+              "Implementato in Rust per garantire prestazioni elevate nell'esecuzione locale.",
+              "Include ricerca semantica, grafi di simboli e scansione dei segreti."
+            ],
+            "highlights": [
+              "Sviluppato come strumento in Rust con ganci CLI dedicati.",
+              "Disponibile su GitHub con aggiornamenti recenti."
+            ]
+          },
+          "en": {
+            "title": "Tokenix: Local Rust Tool for LLM Token Savings",
+            "summary": "The GitHub project tokenix provides local semantic search, symbol graphs, secret scanning, output filters, and CLI hooks designed to save 60-90% of LLM tokens. Written in Rust, it aims to drastically cut processing volume.",
+            "why_it_matters": "Controlling token consumption is essential for lowering operating expenses and streamlining large language model workflows.",
+            "extended_analysis": "Tokenix integrates multiple local capabilities, such as output filters and command-line interface hooks, to optimize how data is fed into language models. Built in Rust, the utility emphasizes speed and local resource management.\n\nAs the repository currently holds 15 stars, it remains an early-stage project. Observers should track future updates and community feedback to validate the project's claims regarding token efficiency in real-world scenarios.",
+            "context": "Minimizing token overhead is a key focus for developers seeking scalable and cost-effective AI application deployment.",
+            "key_takeaways": [
+              "Project claims a 60-90% reduction in LLM token usage.",
+              "Written in Rust for performance and reliability.",
+              "Features local semantic search and secret scanning."
+            ],
+            "highlights": [
+              "Open-source repository hosted on GitHub.",
+              "Includes CLI hooks and symbol graphs."
+            ]
+          },
+          "es": {
+            "title": "Tokenix: Optimización local de tokens en Rust",
+            "summary": "El proyecto de GitHub tokenix ofrece búsqueda semántica local, grafos de símbolos, escaneo de secretos y filtros de salida para reducir los tokens de LLM entre un 60% y un 90%. Desarrollado en Rust, busca optimizar el uso de recursos.",
+            "why_it_matters": "La eficiencia en el consumo de tokens es vital para disminuir los costos operativos y agilizar los flujos de trabajo con modelos de lenguaje.",
+            "extended_analysis": "Tokenix integra funciones locales como ganchos de CLI y filtros de salida para refinar la interacción con los modelos lingüísticos. Al estar programado en Rust, el proyecto prioriza el rendimiento y la ejecución local rápida.\n\nDado que cuenta con 15 estrellas en GitHub, se trata de una iniciativa en fase inicial. Será importante seguir su desarrollo para comprobar el alcance real de las reducciones de tokens anunciadas.",
+            "context": "La gestión del volumen de datos en los flujos de trabajo de inteligencia artificial sigue siendo un desafío operativo clave para los desarrolladores.",
+            "key_takeaways": [
+              "Promete un ahorro del 60-90% en tokens de LLM según sus creadores.",
+              "Programado en Rust para garantizar un alto rendimiento.",
+              "Integra herramientas de búsqueda semántica y análisis de secretos."
+            ],
+            "highlights": [
+              "Herramienta CLI y filtros de salida implementados en Rust.",
+              "Código disponible en el repositorio de GitHub."
+            ]
+          },
+          "zh-CN": {
+            "title": "Tokenix：基于 Rust 的本地大模型Token优化工具",
+            "summary": "GitHub 项目 tokenix 提供了本地语义搜索、符号图、密钥扫描、输出过滤和 CLI 钩子，可将大语言模型 token 节省 60-90%。该项目使用 Rust 编写，旨在削减处理开销。",
+            "why_it_matters": "有效控制 token 消耗对于降低大模型应用的运营成本和优化工作流具有重要意义。",
+            "extended_analysis": "Tokenix 集成了多种本地功能，例如输出过滤器和命令行钩子，旨在优化向大模型传输的数据量。由于使用 Rust 开发，该工具在本地运行性能上具备一定基础。\n\n目前该项目在 GitHub 上拥有 15 个星标，仍处于早期阶段。未来需要关注代码更新与社区反馈，以评估其实际优化效果。",
+            "context": "在开发和部署人工智能应用时，减少数据冗余和控制 token 开销是工程师面临的核心任务之一。",
+            "key_takeaways": [
+              "项目声称可节省 60-90% 的 LLM token。",
+              "采用 Rust 语言编写以保障运行效率。",
+              "具备本地语义搜索与密钥扫描功能。"
+            ],
+            "highlights": [
+              "托管在 GitHub 上的开源项目。",
+              "包含 CLI 钩子与符号图特性。"
+            ]
+          },
+          "de": {
+            "title": "Tokenix: Lokale Rust-Bibliothek zur LLM-Token-Einsparung",
+            "summary": "Das GitHub-Projekt tokenix bietet lokale Suche, Symbolgraphen, Geheimnis-Scanning und Ausgabefilter, die laut Projektbeschreibung 60-90% der LLM-Token einsparen sollen. Geschrieben in Rust, zielt es auf effiziente Verarbeitung ab.",
+            "why_it_matters": "Die Optimierung des Token-Verbrauchs ist entscheidend, um Betriebskosten zu senken und die Effizienz von Sprachmodell-Workflows zu verbessern.",
+            "extended_analysis": "Tokenix bündelt verschiedene lokale Funktionen wie CLI-Hooks und Ausgabefilter, um die Datenmenge bei der Interaktion mit Sprachmodellen zu verringern. Die Implementierung in Rust unterstreicht den Fokus auf Leistung und lokale Ressourcenverwaltung.\n\nMit 15 Sternen auf GitHub befindet sich das Tool in einer frühen Phase. Es bleibt abzuwarten, wie sich das Projekt weiterentwickelt und ob die Einsparungen in der Praxis validiert werden können.",
+            "context": "Die Reduzierung unnötiger Datenmengen in Prompts ist ein zentrales Anliegen bei der wirtschaftlichen Implementierung von KI-Anwendungen.",
+            "key_takeaways": [
+              "Projekt behauptet eine Reduzierung der LLM-Token um 60-90%.",
+              "Entwickelt in Rust für hohe Ausführungsgeschwindigkeit.",
+              "Enthält lokale semantische Suche und Geheimnis-Scanning."
+            ],
+            "highlights": [
+              "Open-Source-Projekt auf GitHub mit CLI-Hooks.",
+              "Fokus auf lokale Filter- und Suchfunktionen."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 35,
+        "editor_pick_reason": ""
+      }
     }
   },
   "daily": {
-    "date": "2026-11-05",
-    "count": 7,
+    "date": "2026-11-06",
+    "count": 3,
     "picks": 0
   }
 }
