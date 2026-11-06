@@ -2564,87 +2564,87 @@
       }
     },
     "ac3db777f5aac1cf97986b034f59b4c3bba5699e627acc03ae32695b1a5719b2": {
-      "fingerprint": "b4b2ce07cbfce637a609f7ad2eb7b5a44ce90a6b30485e7367b5eb70253ee6fe",
+      "fingerprint": "303449036a7de367feb1286c7080e0045cb0939cf617729fe9b0c34cf2e28204",
       "editorial": {
         "editorial": {
           "it": {
-            "title": "TV-Detox: ringiovanisci la tua Android TV con l'IA",
-            "summary": "Il progetto GitHub tv-detox punta a velocizzare le vecchie Android TV rimuovendo pubblicità e bloatware tramite assistenti di codifica come Claude Code o Codex. Fornisce una schermata iniziale essenziale e senza annunci, accompagnata da prompt specifici per la pulizia del sistema.",
-            "why_it_matters": "Offre un metodo pratico per riutilizzare hardware datato, eliminando i contenuti sponsorizzati e alleggerendo l'interfaccia delle smart TV.",
-            "extended_analysis": "Il repository GitHub tv-detox affronta il problema comune del rallentamento dei dispositivi Android TV nel tempo, causato da aggiornamenti pesanti e interfacce piene di pubblicità. Sfruttando strumenti basati su intelligenza artificiale come Claude Code o Codex, gli utenti possono seguire una procedura guidata per disabilitare le app di sistema superflue.\n\nLa soluzione propone un'interfaccia minimale che mostra solo le applicazioni installate, gli ingressi HDMI e l'orologio, eliminando le righe sponsorizzate. Poiché il processo disattiva applicazioni di sistema, è richiesta attenzione per evitare blocchi del dispositivo.",
-            "context": "Molte smart TV diventano lente nel giro di pochi anni a causa dell'accumulo di bloatware e di launcher proprietari ricchi di inserzioni pubblicitarie. L'uso di agenti di codifica IA per automatizzare la configurazione di strumenti di pulizia riflette la tendenza a sfruttare i modelli linguistici per la manutenzione tecnica quotidiana.",
+            "title": "TV-Detox: rinvigorire le vecchie Android TV con l'IA",
+            "summary": "Un nuovo progetto open source su GitHub intende velocizzare le vecchie Android TV rimuovendo bloatware, annunci e sezioni sponsorizzate. Utilizzando assistenti di codifica come Claude Code o Codex, gli utenti possono configurare una schermata iniziale leggera, pulita e priva di pubblicità.",
+            "why_it_matters": "L'iniziativa offre un metodo pratico per contrastare l'obsolescenza programmata dei dispositivi domestici, sfruttando strumenti di intelligenza artificiale per guidare la pulizia del sistema.",
+            "extended_analysis": "Il progetto tv-detox mira a semplificare l'esperienza utente delle smart TV rimuovendo le schermate affollate di contenuti promozionali pesanti e superflui. Attraverso l'ausilio di prompt specifici e assistenti software automatizzati, il sistema disattiva i pacchetti non necessari senza eliminarli definitivamente, preservando la possibilità di un ripristino.\n\nSebbene offra un'alternativa valida per alleggerire dispositivi rallentati dal tempo, l'uso di script di automazione su Android TV richiede attenzione. Gli sviluppatori ricordano infatti la necessità di abilitare il debug USB e di valutare i rischi legati alla disattivazione di componenti di sistema essenziali.",
+            "context": "Molte smart TV basate su Android tendono a rallentare nel corso degli anni a causa di aggiornamenti pesanti e interfacce sovraccariche di pubblicità. Soluzioni basate su strumenti di sviluppo assistiti da IA aprono nuove strade per la manutenzione tecnologica fai-da-te.",
             "key_takeaways": [
-              "Sfrutta Claude Code o Codex per guidare la pulizia della TV.",
-              "Crea una schermata iniziale minimale senza pubblicità.",
-              "Disattiva le app di sistema indesiderate senza eliminarle definitivamente."
+              "Elimina annunci pubblicitari e sezioni sponsorizzate dalle schermate principali.",
+              "Utilizza assistenti come Claude Code o Codex per eseguire la procedura.",
+              "Disattiva le app indesiderate senza cancellarle, consentendo il ripristino."
             ],
             "highlights": [
-              "Rimuove bloatware, annunci e righe sponsorizzate.",
-              "Mostra solo le app, gli ingressi HDMI e l'orologio."
+              "Disponibile come repository pubblico su GitHub.",
+              "Include istruzioni per l'attivazione del debug USB e la configurazione tramite Wi-Fi."
             ]
           },
           "en": {
-            "title": "TV-Detox: Speed Up Old Android TVs Using AI Assistants",
-            "summary": "The GitHub repository tv-detox aims to revitalize slow Android TVs by removing ads and bloatware using coding assistants like Claude Code or Codex. It provides a tiny, ad-free home screen and specific prompts to clean up the system.",
-            "why_it_matters": "It offers a practical way to repurpose older hardware by cutting out sponsored content and streamlining the smart TV interface.",
-            "extended_analysis": "The tv-detox project addresses the common issue of aging Android TVs becoming sluggish due to heavy updates and ad-heavy launchers. By leveraging AI coding tools like Claude Code or Codex, users can follow a guided procedure to disable unnecessary system apps.\n\nThe solution introduces a minimal interface displaying only installed apps, HDMI inputs, and a clock, removing sponsored rows entirely. Because the process turns off system applications, caution is advised to prevent device lockouts.",
-            "context": "Many smart TVs degrade in performance over time due to bloatware and proprietary launchers laden with ads. Using AI coding agents to automate technical maintenance highlights the growing utility of language models in everyday device management.",
+            "title": "TV-Detox: Speed Up Old Android TVs Using AI Coding Tools",
+            "summary": "A new GitHub repository named tv-detox helps users speed up slow Android TVs by providing a tiny, ad-free home screen and guided prompts. By leveraging AI coding assistants like Claude Code or Codex, users can remove bloatware and sponsored rows safely.",
+            "why_it_matters": "It demonstrates a practical application of AI assistants in consumer hardware maintenance, offering a way to combat device slowdowns and unwanted advertisements.",
+            "extended_analysis": "The project focuses on stripping away heavy launcher bloat and promotional clutter from aging smart televisions. By pairing a laptop running an AI coding assistant with a TV in developer mode, users execute prompts that disable non-essential system apps and replace the home interface with a minimalist clock, apps, and HDMI inputs list.\n\nWhile this approach promises a streamlined and faster user experience, it comes with operational cautions. Modifying system packages carries inherent risks, and improper execution could cause stability issues on certain television models, making careful following of the instructions essential.",
+            "context": "Aging smart TVs frequently suffer from sluggish performance due to continuous software bloat and aggressive advertising interfaces. Utilizing developer tooling and AI assistance provides a novel technical angle for local device optimization.",
             "key_takeaways": [
-              "Uses Claude Code or Codex to guide TV cleanup.",
-              "Provides a minimal, ad-free home screen.",
-              "Disables unwanted system apps without permanent deletion."
+              "Removes advertisements and sponsored interface rows from Android TV.",
+              "Relies on AI assistants like Claude Code or Codex for prompt-driven execution.",
+              "Disables bloatware applications rather than permanently deleting them."
             ],
             "highlights": [
-              "Removes bloatware, ads, and sponsored rows.",
-              "Keeps only apps, HDMI inputs, and a clock."
+              "Hosted openly on GitHub under the repository name Ansub/tv-detox.",
+              "Requires local Wi-Fi connection and enabled USB debugging on the target television."
             ]
           },
           "es": {
-            "title": "TV-Detox: Revitaliza tu vieja Android TV con ayuda de la IA",
-            "summary": "El proyecto de GitHub tv-detox busca acelerar Android TVs antiguas eliminando publicidad y bloatware mediante asistentes de código como Claude Code o Codex. Ofrece una interfaz minimalista sin anuncios y los comandos necesarios para limpiar el sistema.",
-            "why_it_matters": "Proporciona un método práctico para reutilizar hardware antiguo, eliminando contenido patrocinado y aligerando la interfaz del televisor.",
-            "extended_analysis": "El repositorio aborda el problema del rendimiento en televisores inteligentes antiguos que se vuelven lentos con el tiempo. Utilizando herramientas de IA, los usuarios pueden seguir instrucciones para desactivar aplicaciones de sistema innecesarias.\n\nLa propuesta incluye una pantalla de inicio reducida que muestra únicamente las aplicaciones, las entradas HDMI y un reloj, eliminando filas promocionales. Dado que desactiva aplicaciones de sistema, se advierte sobre posibles riesgos de bloqueo.",
-            "context": "Muchos televisores pierden velocidad debido a la acumulación de software preinstalado y menús repletos de anuncios. El uso de agentes de IA para la configuración técnica refleja la expansión de estos modelos hacia el mantenimiento de dispositivos.",
+            "title": "TV-Detox: Revitaliza tu vieja Android TV con ayuda de IA",
+            "summary": "Un proyecto alojado en GitHub permite acelerar Smart TVs antiguas eliminando aplicaciones preinstaladas pesadas y anuncios. Utilizando asistentes como Claude Code o Codex, crea una pantalla de inicio minimalista y libre de publicidad.",
+            "why_it_matters": "Ofrece una vía innovadora para prolongar la vida útil de dispositivos domésticos lentos mediante el uso práctico de la inteligencia artificial conversacional.",
+            "extended_analysis": "El sistema tv-detox aborda el problema del rendimiento degradado en televisores antiguos al reemplazar las interfaces comerciales recargadas por una pantalla limpia que muestra únicamente aplicaciones, entradas HDMI y un reloj. El proceso se gestiona conectando un asistente de código en un ordenador portátil con la televisión en modo de depuración.\n\nAunque la propuesta resulta atractiva para mejorar la fluidez del sistema, los creadores advierten sobre los riesgos de modificar las aplicaciones del sistema. La desactivación incorrecta de ciertos componentes puede generar bloqueos operativos, por lo que se recomienda precaución durante su aplicación.",
+            "context": "El software publicitario y las actualizaciones pesadas suelen ralentizar los televisores inteligentes con el paso de los años. Las herramientas de asistencia por IA facilitan la personalización técnica avanzada para usuarios avanzados.",
             "key_takeaways": [
-              "Emplea Claude Code o Codex para guiar la limpieza.",
-              "Establece una pantalla de inicio sin publicidad.",
-              "Desactiva aplicaciones de sistema en lugar de borrarlas."
+              "Elimina la publicidad y los elementos promocionales de la interfaz.",
+              "Utiliza asistentes de código para guiar el proceso de limpieza.",
+              "Desactiva las aplicaciones sin eliminarlas definitivamente."
             ],
             "highlights": [
-              "Elimina bloatware, anuncios y contenido patrocinado.",
-              "Mantiene solo las aplicaciones, entradas HDMI y reloj."
+              "Disponible en la plataforma GitHub como proyecto público.",
+              "Requiere habilitar el modo desarrollador y la depuración USB en el televisor."
             ]
           },
           "zh-CN": {
             "title": "TV-Detox：利用 AI 助手让旧 Android 电视恢复流畅",
-            "summary": "GitHub 上的 tv-detox 项目旨在通过 Claude Code 或 Codex 等编码助手，移除广告和臃肿预装软件，从而加速旧款 Android 电视。它提供了一个无广告的小型主屏幕以及用于清理系统的提示词。",
-            "why_it_matters": "它提供了一种重新利用旧硬件的实用方法，通过剔除赞助内容来精简智能电视界面。",
-            "extended_analysis": "该项目针对老旧 Android 电视因系统更新和广告繁多的启动器而变慢的常见问题。借助 Claude Code 或 Codex 等 AI 编程工具，用户可以按照指引禁用不需要的系统应用。\n\n该方案提供了一个极简的界面，仅显示已安装的应用、HDMI 输入和时钟，移除了所有赞助内容。由于该过程会关闭系统应用，官方提示需注意风险以避免设备卡死。",
-            "context": "许多智能 TV 随时间推移因臃肿软件和广告界面而性能下降。使用 AI 编码代理来自动化技术维护，体现了大语言模型在日常设备管理中的应用拓展。",
+            "summary": "GitHub 上的一个新开源项目 tv-detox 旨在清理旧版 Android 电视中的臃肿软件与广告。借助 Claude Code 或 Codex 等 AI 编码助手，用户可以快速部署一个极简且无广告的主屏幕。",
+            "why_it_matters": "它展示了如何将人工智能编程工具应用于消费级硬件维护，为解决智能电视卡顿和广告泛滥提供了一种新途径。",
+            "extended_analysis": "随着时间推移，许多智能电视会因为系统臃肿和广告推荐而变得运行迟缓。该项目通过在笔记本电脑上运行 AI 助手，连接处于开发者模式的电视，利用提示词一键精简系统，替换掉繁重的原生桌面，仅保留应用、HDMI 输入和时钟。\n\n尽管这一方案能显著提升旧设备的响应速度，但也伴随着一定风险。修改或停用系统应用可能导致部分电视型号出现异常，因此开发团队提醒用户在操作前务必仔细阅读相关警告说明。",
+            "context": "由于系统更新和商业广告增多，老旧的智能电视普遍面临性能下降的问题。利用开发者工具和 AI 辅助进行本地优化，正成为一种有趣的软硬件结合探索。",
             "key_takeaways": [
-              "利用 Claude Code 或 Codex 引导电视清理。",
-              "提供无广告的极简主屏幕。",
-              "禁用而非永久删除不需要的系统应用。"
+              "清除 Android 电视中的广告和内嵌推广内容。",
+              "结合 Claude Code 或 Codex 等 AI 助手执行优化指令。",
+              "通过停用而非永久删除的方式处理预装软件。"
             ],
             "highlights": [
-              "移除臃肿软件、广告和赞助内容。",
-              "仅保留应用、HDMI 输入及时钟。"
+              "项目已在 GitHub 平台开源发布。",
+              "操作过程需要开启电视的 USB 调试模式并处于同一局域网。"
             ]
           },
           "de": {
-            "title": "TV-Detox: Alte Android TVs mit KI-Hilfe wieder flott machen",
-            "summary": "Das GitHub-Projekt tv-detox zielt darauf ab, langsame Android TVs durch das Entfernen von Werbung und Bloatware mit Hilfe von Coding-Assistenten wie Claude Code oder Codex zu beschleunigen. Es bietet einen minimalistischen, werbefreien Startbildschirm samt Systembereinigungs-Prompts.",
-            "why_it_matters": "Es bietet eine praktische Methode, um ältere Hardware weiterzuverwenden, indem gesponserte Inhalte entfernt und die Benutzeroberfläche verschlankt wird.",
-            "extended_analysis": "Das Repository befasst sich mit dem Problem, dass ältere Smart TVs durch schwere Updates und werbelastige Launcher im Laufe der Zeit träge werden. Durch den Einsatz von KI-Programmiertools wie Claude Code oder Codex können Nutzer einer geführten Prozedur folgen, um unnötige System-Apps zu deaktivieren.\n\nDie Lösung stellt eine minimalistische Oberfläche bereit, die lediglich installierte Apps, HDMI-Eingänge und eine Uhr anzeigt und gesponserte Zeilen entfernt. Da dabei Systemanwendungen abgeschaltet werden, wird auf potenzielle Risiken hingewiesen.",
-            "context": "Viele Smart TVs verlieren im Laufe der Zeit an Leistung durch Bloatware und werbebasierte Startmenüs. Die Automatisierung technischer Wartungsarbeiten durch KI-Coding-Agenten verdeutlicht den zunehmenden Nutzen von Sprachmodellen bei der Geräteverwaltung.",
+            "title": "TV-Detox: Alte Android-Fernseher mit KI-Hilfe beschleunigen",
+            "summary": "Ein neues GitHub-Projekt namens tv-detox hilft dabei, träge Android-Fernseher durch das Entfernen von Bloatware und Werbung zu beschleunigen. Mithilfe von KI-Coding-Assistenten entsteht eine minimalistische, werbefreie Benutzeroberfläche.",
+            "why_it_matters": "Das Projekt demonstriert einen praktischen Ansatz zur Wiederbelebung älterer Unterhaltungselektronik durch den Einsatz moderner Software- und KI-Werkzeuge.",
+            "extended_analysis": "Mit der Zeit neigen viele Smart-TVs dazu, durch überladene Launcher und permanente Werbeeinblendungen langsam zu reagieren. Tv-detox setzt hier an, indem es über KI-Assistenten wie Claude Code oder Codex Systemanpassungen vornimmt, um eine schlanke Startseite mit Apps, HDMI-Eingängen und einer Uhrzeit bereitzustellen.\n\nObwohl die Methode eine spürbare Leistungssteigerung verspricht, ist Vorsicht geboten. Das Deaktivieren von Systemkomponenten greift tief in die Software ein und kann bei bestimmten Fernsehmodellen zu unerwarteten Stabilitätsproblemen führen, weshalb die Entwickler zu sorgfältigem Vorgehen raten.",
+            "context": "Die zunehmende kommerzielle Überladung von Smart-TV-Oberflächen führt bei älteren Geräten oft zu Leistungseinbußen. Automatisierte Skripte und KI-gestützte Anleitungen bieten technikaffinen Nutzern neue Möglichkeiten zur Fehlerbehebung.",
             "key_takeaways": [
-              "Nutzt Claude Code oder Codex zur Bereinigung des TVs.",
-              "Erstellt einen minimalistischen, werbefreien Startbildschirm.",
-              "Deaktiviert unerwünschte System-Apps ohne dauerhafte Löschung."
+              "Entfernt Werbung und gesponserte Inhalte von der Startseite.",
+              "Nutzt KI-Assistenten wie Claude Code oder Codex für die Ausführung.",
+              "Deaktiviert unerwünschte Apps, statt sie unwiderruflich zu löschen."
             ],
             "highlights": [
-              "Entfernt Bloatware, Werbung und gesponserte Inhalte.",
-              "Zeigt nur Apps, HDMI-Eingänge und eine Uhr an."
+              "Als Open-Source-Repository auf GitHub verfügbar.",
+              "Setzt den Entwicklermodus und aktiviertes USB-Debugging voraus."
             ]
           }
         },
@@ -6494,7 +6494,96 @@
     },
     "d6792e7c04215576beccb07809796bc9b36acc361d571b71eeecdae3a1f56411": {
       "fingerprint": "8661cd8d7d52649f9db1cfbf8d57e252abe94d014088aaf4fad38dffb3a3b517",
-      "retry_after": "2026-11-06T08:26:05.321826+00:00"
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Intelligenza narrativa e il vantaggio umano nell'era dell'IA",
+            "summary": "In questo episodio, Reed Frerichs si unisce a Daniel e Chris per esplorare come l'intelligenza narrativa, la leadership e la crescita personale aiutino a navigare in un mondo guidato dall'intelligenza artificiale, affrontando il cambiamento dei ruoli e l'incertezza.",
+            "why_it_matters": "Comprendere il fattore umano e l'identità personale è cruciale per adattarsi all'evoluzione tecnologica e sfruttare gli strumenti di IA in modo consapevole.",
+            "extended_analysis": "Mentre l'intelligenza artificiale ridefinisce il lavoro e la creatività, l'adattabilità richiede di andare oltre la tecnologia per esaminare le nostre storie e identità. Gli ospiti discutono l'importanza dello storytelling, della leadership e dello sviluppo dell'intelligenza emotiva.\n\nViene inoltre presentato il framework \"own, author, act\" di Reed Frerichs, pensato per offrire a imprenditori e leader strumenti concreti per affrontare l'incertezza e la trasformazione dei ruoli professionali nell'ecosistema guidato dall'IA.",
+            "context": "Il dibattito si inserisce nel contesto della trasformazione digitale promossa da Practical AI, esaminando l'intersezione tra innovazione tecnologica, crescita personale e leadership organizzativa.",
+            "key_takeaways": [
+              "Esplorazione del concetto di intelligenza narrativa e del suo valore nell'era dell'IA.",
+              "Presentazione del framework “own, author, act” per leader e imprenditori.",
+              "Discussione sullo sviluppo dell'intelligenza emotiva e sulla gestione dell'incertezza."
+            ],
+            "highlights": [
+              "Ospiti dell'episodio: Reed Frerichs, Daniel Whitenack e Chris Benson.",
+              "Approfondimento su leadership, storytelling e adattamento ai ruoli emergenti."
+            ]
+          },
+          "en": {
+            "title": "Narrative intelligence and the human advantage in AI",
+            "summary": "Reed Frerichs joins Daniel and Chris to explore narrative intelligence, storytelling, leadership, and personal growth, examining how entrepreneurs and leaders can adapt in an AI-driven world.",
+            "why_it_matters": "Understanding human stories and emotional intelligence helps leaders navigate changing roles, embrace uncertainty, and use AI tools more effectively.",
+            "extended_analysis": "As artificial intelligence reshapes work, creation, and professional roles, staying adaptable requires examining not just the technology itself, but our own identities and personal narratives.\n\nThe discussion covers practical approaches for entrepreneurs and leaders, introducing Reed Frerichs' “own, author, act” framework as a way to build emotional intelligence and navigate uncertainty alongside emerging AI capabilities.",
+            "context": "Produced by Practical AI, the episode reflects on the broader socio-economic implications of artificial intelligence integration across leadership and daily work environments.",
+            "key_takeaways": [
+              "Discover how narrative intelligence shapes human adaptability in tech-driven environments.",
+              "Explore Reed Frerichs' “own, author, act” framework for leadership and personal growth.",
+              "Examine strategies for cultivating emotional intelligence alongside modern AI tools."
+            ],
+            "highlights": [
+              "Featured guests: Reed Frerichs, Daniel Whitenack, and Chris Benson.",
+              "Focus on storytelling, uncertainty, and leadership in changing roles."
+            ]
+          },
+          "es": {
+            "title": "Inteligencia narrativa y la ventaja humana en la era de la IA",
+            "summary": "Reed Frerichs se une a Daniel y Chris para explorar la inteligencia narrativa, el liderazgo y el crecimiento personal, analizando cómo adaptarse y navegar roles cambiantes en un mundo impulsado por la IA.",
+            "why_it_matters": "Comprender nuestra identidad y desarrollar inteligencia emocional permite a los líderes gestionar la incertidumbre y aprovechar las herramientas de IA de forma óptima.",
+            "extended_analysis": "A medida que la IA transforma la forma en que trabajamos y creamos, la adaptabilidad exige comprender tanto la tecnología como nuestras propias historias y trayectorias personales.\n\nDurante la conversación, los participantes debaten sobre el liderazgo y presentan el marco de trabajo \"own, author, act\" de Reed Frerichs, diseñado para ayudar a los emprendedores a afrontar la incertidumbre profesional actual.",
+            "context": "Este episodio de Practical AI examina el impacto humano y organizativo de la adopción tecnológica, conectando la innovación de la IA con el desarrollo del liderazgo.",
+            "key_takeaways": [
+              "Análisis de la inteligencia narrativa y su relevancia para la adaptabilidad humana.",
+              "Exposición del marco “own, author, act” orientado a líderes y emprendedores.",
+              "Estrategias para fomentar la inteligencia emotiva frente a los cambios tecnológicos."
+            ],
+            "highlights": [
+              "Participantes destacados: Reed Frerichs, Daniel Whitenack y Chris Benson.",
+              "Enfoque en el storytelling, el liderazgo y la gestión de la incertidumbre."
+            ]
+          },
+          "zh-CN": {
+            "title": "叙事智能与人工智能时代的人类优势",
+            "summary": "Reed Frerichs 与 Daniel 和 Chris 一起探讨叙事智能、领导力与个人成长，研究创业者和领导者如何在人工智能驱动的世界中适应不断变化的角色。",
+            "why_it_matters": "理解人类自身的叙事与情感智能，对于在技术变革中应对不确定性、发挥领导力至关重要。",
+            "extended_analysis": "随着人工智能重塑我们的工作、创造力和日常角色，保持适应力不仅需要理解技术，还需要审视我们自己的故事与身份认同。\n\n节目深入讨论了讲故事技巧、领导力发展以及情商的重要性，并介绍了 Reed Frerichs 的“own, author, act”框架，为职场领导者在人工智能转型期导航提供思路。",
+            "context": "该播客由 Practical AI 推出，聚焦于人工智能普及背景下的组织领导力、社会经济转变以及人类自身优势的发展。",
+            "key_takeaways": [
+              "探讨叙事智能在技术环境中的核心作用与人类适应性。",
+              "了解 Reed Frerichs 提出的“own, author, act”领导力框架。",
+              "学习如何在人工智能浪潮中培养情商与应对不确定性。"
+            ],
+            "highlights": [
+              "特邀嘉宾：Reed Frerichs、Daniel Whitenack 与 Chris Benson。",
+              "聚焦讲故事、领导力与职业角色的演变。"
+            ]
+          },
+          "de": {
+            "title": "Narrative Intelligenz und der menschliche Vorteil im KI-Zeitalter",
+            "summary": "Reed Frerichs ist zu Gast bei Daniel und Chris, um narrative Intelligenz, Storytelling, Leadership und persönliche Entwicklung in einer von KI geprägten Welt zu diskutieren.",
+            "why_it_matters": "Das Verständnis der eigenen Identität und emotionaler Intelligenz hilft Führungskräften, Unsicherheiten zu bewältigen und Rollenwechsel erfolgreich zu gestalten.",
+            "extended_analysis": "Während künstliche Intelligenz Arbeit und Kreativität grundlegend verändert, erfordert Anpassungsfähigkeit nicht nur technologisches Know-how, sondern auch ein tieferes Verständnis unserer eigenen Geschichten und Identitäten.\n\nIm Gespräch werden Ansätze zu Storytelling und Führung beleuchtet. Dabei wird das Framework „own, author, act“ von Reed Frerichs vorgestellt, das Unternehmern und Führungskräften als Werkzeug dienen soll, um mit Unsicherheiten und veränderten Rollen umzugehen.",
+            "context": "Im Rahmen von Practical AI beleuchtet die Episode die sozio-technologischen Implikationen von KI, wobei der Schwerpunkt auf menschlicher Anpassung und Führungskompetenz liegt.",
+            "key_takeaways": [
+              "Untersuchung der narrativen Intelligenz für die menschliche Anpassungsfähigkeit.",
+              "Vorstellung des „own, author, act“-Frameworks für Führungskräfte.",
+              "Strategien zur Entwicklung emotionaler Intelligenz und zum Umgang mit Unsicherheit."
+            ],
+            "highlights": [
+              "Gäste der Episode: Reed Frerichs, Daniel Whitenack und Chris Benson.",
+              "Fokus auf Storytelling, Leadership und den Wandel beruflicher Rollen."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 35,
+        "editor_pick_reason": ""
+      }
     },
     "6d89105e05d1356adc6c5e5bff5bc3b883dd83afd8e02df161fe138f7acd59c8": {
       "fingerprint": "2ce545d1abaf614b0bd1072eed728404b10f9a353f8907a75783381b13c1610c",
@@ -6778,11 +6867,108 @@
     "4981f6fda01422bff91dfc2d7a00c1c65bc2d80d3337ecd1f15ab2887de7e0ac": {
       "fingerprint": "3f79594d2914293a7fcc2997f879001b4ca1484417c683eb2591f686601adee8",
       "retry_after": "2026-11-06T15:55:05.670214+00:00"
+    },
+    "8b0ab5f41b1b4a2c0ee3a5806227bc39c677ef319d5b0a112de7d1ce0a788396": {
+      "fingerprint": "38623e95392f4313e4acf63853d6dc57817898eb687808fd050f8d6a40641923",
+      "retry_after": "2026-11-06T23:29:34.357108+00:00"
+    },
+    "6a4c2b74532102f0c2f4c57bbfefacf1cbb5693c0160e5a93e12937328d6ca91": {
+      "fingerprint": "38064ffd6f503a6c1d8f474cad4680402ead39ffcc44a7ebc51f751e2ceefeb0",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Kornia: la libreria di visione artificiale geometrica per la Spatial AI",
+            "summary": "Kornia è una libreria Python open source focalizzata sulla computer vision geometrica per la Spatial AI. Con oltre 12.300 stelle su GitHub, offre strumenti specializzati per l'elaborazione spaziale.",
+            "why_it_matters": "Fornisce risorse essenziali basate su Python per gli sviluppatori che lavorano nel campo della visione artificiale e dell'intelligenza artificiale spaziale.",
+            "extended_analysis": "La descrizione fornita per Kornia indica che si tratta di una libreria di visione artificiale geometrica progettata specificamente per la Spatial AI, sviluppata in linguaggio Python. Attualmente il progetto ha raggiunto una notevole popolarità su GitHub con oltre 12.300 stelle ed è stato aggiornato nel novembre 2026.\n\nSebbene i dettagli tecnici specifici siano limitati, la natura open source e la base di utenti attiva suggeriscono un ruolo rilevante nello sviluppo di applicazioni geospaziali e di visione computazionale. Sarà importante monitorare i futuri aggiornamenti della repository per valutare nuove funzionalità ed espansioni.",
+            "context": "Il progetto risponde alla crescente domanda di strumenti avanzati in Python per la Spatial AI e la computer vision geometrica, un settore in forte espansione nell'ecosistema open source.",
+            "key_takeaways": [
+              "Libreria Python focalizzata sulla computer vision geometrica",
+              "Oltre 12.300 stelle registrate su GitHub",
+              "Ultimo aggiornamento tracciato a novembre 2026"
+            ],
+            "highlights": [
+              "Linguaggio di programmazione principale: Python",
+              "Ospitato e monitorato tramite la piattaforma GitHub"
+            ]
+          },
+          "en": {
+            "title": "Kornia: Geometric Computer Vision Library for Spatial AI",
+            "summary": "Kornia is an open source Python library designed for geometric computer vision in Spatial AI applications. With over 12,300 GitHub stars, it serves as a resource for spatial processing.",
+            "why_it_matters": "It offers Python-based capabilities for developers working on spatial computing and geometric vision tasks.",
+            "extended_analysis": "The available metadata describes Kornia as a geometric computer vision library tailored for Spatial AI, written in Python and hosted on GitHub. With a solid community backing of more than 12,300 stars and an update in November 2026, it represents a visible project within the open source AI ecosystem.\n\nGiven the concise nature of the provided metadata, further investigation of the repository is recommended to understand specific features and performance benchmarks. Observers should watch for upcoming releases and community contributions.",
+            "context": "The library addresses the needs of developers building computer vision and Spatial AI systems using Python within the open source community.",
+            "key_takeaways": [
+              "Open source Python library for geometric computer vision",
+              "Strong community presence with over 12,300 GitHub stars",
+              "Actively maintained with recent updates recorded"
+            ],
+            "highlights": [
+              "Developed primarily using Python",
+              "Targeted at Spatial AI and geometric processing"
+            ]
+          },
+          "es": {
+            "title": "Kornia: Biblioteca de visión por computador geométrica para Spatial AI",
+            "summary": "Kornia es una biblioteca de Python de código abierto orientada a la visión por computador geométrica para la IA espacial. Cuenta con más de 12.300 estrellas en GitHub.",
+            "why_it_matters": "Proporciona herramientas basadas en Python para desarrolladores enfocados en la computación espacial y la visión artificial.",
+            "extended_analysis": "La información disponible detalla que Kornia es una biblioteca de visión artificial geométrica para Spatial AI desarrollada en Python. Con más de 12.300 estrellas en GitHub y actividad registrada en noviembre de 2026, muestra una adopción significativa por parte de la comunidad.\n\nA falta de una descripción detallada de benchmarks en los metadatos, el proyecto se consolida como una referencia en su categoría. Conviene seguir de cerca sus futuros hitos de desarrollo y la evolución de su ecosistema.",
+            "context": "El proyecto se alinea con la creciente demanda de herramientas de código abierto en Python para abordar desafíos de visión espacial.",
+            "key_takeaways": [
+              "Biblioteca de código abierto escrita en Python",
+              "Supera las 12.300 estrellas en GitHub",
+              "Enfocada en visión geométrica e inteligencia artificial espacial"
+            ],
+            "highlights": [
+              "Linguaje principal: Python",
+              "Repositorio activo en GitHub"
+            ]
+          },
+          "zh-CN": {
+            "title": "Kornia：面向空间人工智能的几何计算机视觉库",
+            "summary": "Kornia 是一个专注于空间人工智能（Spatial AI）几何计算机视觉的开源 Python 库。目前在 GitHub 上已获得超过 12,300 颗星标。",
+            "why_it_matters": "它为从事空间计算和几何视觉任务的开发人员提供了基于 Python 的实用工具支持。",
+            "extended_analysis": "根据元数据，Kornia 是一个用 Python 编写的几何计算机视觉库，旨在支持空间人工智能应用。该项目在 GitHub 上拥有超过 12,300 颗星标，并在 2026 年 11 月进行了更新。\n\n由于提供的描述较为简练，具体的功能特性与基准测试仍需参考官方仓库。未来可继续关注其版本更新以及在开源社区中的应用进展。",
+            "context": "该项目反映了开源社区对 Python 环境下空间视觉与人工智能工具的持续需求。",
+            "key_takeaways": [
+              "专注于几何计算机视觉的 Python 库",
+              "在 GitHub 获得超过 12,300 颗星标",
+              "最近更新记录于 2026 年 11 月"
+            ],
+            "highlights": [
+              "主要编程语言为 Python",
+              "定位于 Spatial AI 领域"
+            ]
+          },
+          "de": {
+            "title": "Kornia: Geometrische Computer-Vision-Bibliothek für Spatial AI",
+            "summary": "Kornia ist eine Open-Source-Python-Bibliothek für geometrische Computer Vision in der räumlichen KI. Das Projekt zählt über 12.300 GitHub-Sterne.",
+            "why_it_matters": "Sie bietet Python-basierte Ressourcen für Entwickler, die an räumlicher Datenverarbeitung und Computer Vision arbeiten.",
+            "extended_analysis": "Die verfügbaren Metadaten beschreiben Kornia als eine geometrische Computer-Vision-Bibliothek für Spatial AI, die in Python programmiert ist. Mit über 12.300 Sternen auf GitHub und einer Aktualisierung im November 2026 weist das Projekt eine etablierte Präsenz auf.\n\nDa keine detaillierten Leistungsdaten oder Benchmarks vorliegen, empfiehlt sich ein Blick in die Repository, um den vollen Funktionsumfang zu prüfen. Beobachter sollten künftige Updates und die Weiterentwicklung der Community verfolgen.",
+            "context": "Die Bibliothek bedient den Bedarf an spezialisierten Open-Source-Werkzeugen für Python im Bereich der räumlichen künstlichen Intelligenz.",
+            "key_takeaways": [
+              "Open-Source-Python-Bibliothek für geometrische Computer Vision",
+              "Starke Community-Präsenz mit über 12.300 GitHub-Sternen",
+              "Kontinuierlich gepflegtes Repository"
+            ],
+            "highlights": [
+              "Hauptprogrammiersprache: Python",
+              "Fokus auf Spatial AI und räumliche Verarbeitung"
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 45,
+        "editor_pick_reason": ""
+      }
     }
   },
   "daily": {
     "date": "2026-11-06",
-    "count": 6,
+    "count": 9,
     "picks": 0
   }
 }
