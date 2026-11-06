@@ -2564,8 +2564,97 @@
       }
     },
     "ac3db777f5aac1cf97986b034f59b4c3bba5699e627acc03ae32695b1a5719b2": {
-      "fingerprint": "9e1ad171cbf9efd1a593f240485110ffa2fa07cdbb708bc6a7c5df0a2fe05013",
-      "retry_after": "2026-11-06T03:59:16.341119+00:00"
+      "fingerprint": "b4b2ce07cbfce637a609f7ad2eb7b5a44ce90a6b30485e7367b5eb70253ee6fe",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "TV-Detox: ringiovanisci la tua Android TV con l'IA",
+            "summary": "Il progetto GitHub tv-detox punta a velocizzare le vecchie Android TV rimuovendo pubblicità e bloatware tramite assistenti di codifica come Claude Code o Codex. Fornisce una schermata iniziale essenziale e senza annunci, accompagnata da prompt specifici per la pulizia del sistema.",
+            "why_it_matters": "Offre un metodo pratico per riutilizzare hardware datato, eliminando i contenuti sponsorizzati e alleggerendo l'interfaccia delle smart TV.",
+            "extended_analysis": "Il repository GitHub tv-detox affronta il problema comune del rallentamento dei dispositivi Android TV nel tempo, causato da aggiornamenti pesanti e interfacce piene di pubblicità. Sfruttando strumenti basati su intelligenza artificiale come Claude Code o Codex, gli utenti possono seguire una procedura guidata per disabilitare le app di sistema superflue.\n\nLa soluzione propone un'interfaccia minimale che mostra solo le applicazioni installate, gli ingressi HDMI e l'orologio, eliminando le righe sponsorizzate. Poiché il processo disattiva applicazioni di sistema, è richiesta attenzione per evitare blocchi del dispositivo.",
+            "context": "Molte smart TV diventano lente nel giro di pochi anni a causa dell'accumulo di bloatware e di launcher proprietari ricchi di inserzioni pubblicitarie. L'uso di agenti di codifica IA per automatizzare la configurazione di strumenti di pulizia riflette la tendenza a sfruttare i modelli linguistici per la manutenzione tecnica quotidiana.",
+            "key_takeaways": [
+              "Sfrutta Claude Code o Codex per guidare la pulizia della TV.",
+              "Crea una schermata iniziale minimale senza pubblicità.",
+              "Disattiva le app di sistema indesiderate senza eliminarle definitivamente."
+            ],
+            "highlights": [
+              "Rimuove bloatware, annunci e righe sponsorizzate.",
+              "Mostra solo le app, gli ingressi HDMI e l'orologio."
+            ]
+          },
+          "en": {
+            "title": "TV-Detox: Speed Up Old Android TVs Using AI Assistants",
+            "summary": "The GitHub repository tv-detox aims to revitalize slow Android TVs by removing ads and bloatware using coding assistants like Claude Code or Codex. It provides a tiny, ad-free home screen and specific prompts to clean up the system.",
+            "why_it_matters": "It offers a practical way to repurpose older hardware by cutting out sponsored content and streamlining the smart TV interface.",
+            "extended_analysis": "The tv-detox project addresses the common issue of aging Android TVs becoming sluggish due to heavy updates and ad-heavy launchers. By leveraging AI coding tools like Claude Code or Codex, users can follow a guided procedure to disable unnecessary system apps.\n\nThe solution introduces a minimal interface displaying only installed apps, HDMI inputs, and a clock, removing sponsored rows entirely. Because the process turns off system applications, caution is advised to prevent device lockouts.",
+            "context": "Many smart TVs degrade in performance over time due to bloatware and proprietary launchers laden with ads. Using AI coding agents to automate technical maintenance highlights the growing utility of language models in everyday device management.",
+            "key_takeaways": [
+              "Uses Claude Code or Codex to guide TV cleanup.",
+              "Provides a minimal, ad-free home screen.",
+              "Disables unwanted system apps without permanent deletion."
+            ],
+            "highlights": [
+              "Removes bloatware, ads, and sponsored rows.",
+              "Keeps only apps, HDMI inputs, and a clock."
+            ]
+          },
+          "es": {
+            "title": "TV-Detox: Revitaliza tu vieja Android TV con ayuda de la IA",
+            "summary": "El proyecto de GitHub tv-detox busca acelerar Android TVs antiguas eliminando publicidad y bloatware mediante asistentes de código como Claude Code o Codex. Ofrece una interfaz minimalista sin anuncios y los comandos necesarios para limpiar el sistema.",
+            "why_it_matters": "Proporciona un método práctico para reutilizar hardware antiguo, eliminando contenido patrocinado y aligerando la interfaz del televisor.",
+            "extended_analysis": "El repositorio aborda el problema del rendimiento en televisores inteligentes antiguos que se vuelven lentos con el tiempo. Utilizando herramientas de IA, los usuarios pueden seguir instrucciones para desactivar aplicaciones de sistema innecesarias.\n\nLa propuesta incluye una pantalla de inicio reducida que muestra únicamente las aplicaciones, las entradas HDMI y un reloj, eliminando filas promocionales. Dado que desactiva aplicaciones de sistema, se advierte sobre posibles riesgos de bloqueo.",
+            "context": "Muchos televisores pierden velocidad debido a la acumulación de software preinstalado y menús repletos de anuncios. El uso de agentes de IA para la configuración técnica refleja la expansión de estos modelos hacia el mantenimiento de dispositivos.",
+            "key_takeaways": [
+              "Emplea Claude Code o Codex para guiar la limpieza.",
+              "Establece una pantalla de inicio sin publicidad.",
+              "Desactiva aplicaciones de sistema en lugar de borrarlas."
+            ],
+            "highlights": [
+              "Elimina bloatware, anuncios y contenido patrocinado.",
+              "Mantiene solo las aplicaciones, entradas HDMI y reloj."
+            ]
+          },
+          "zh-CN": {
+            "title": "TV-Detox：利用 AI 助手让旧 Android 电视恢复流畅",
+            "summary": "GitHub 上的 tv-detox 项目旨在通过 Claude Code 或 Codex 等编码助手，移除广告和臃肿预装软件，从而加速旧款 Android 电视。它提供了一个无广告的小型主屏幕以及用于清理系统的提示词。",
+            "why_it_matters": "它提供了一种重新利用旧硬件的实用方法，通过剔除赞助内容来精简智能电视界面。",
+            "extended_analysis": "该项目针对老旧 Android 电视因系统更新和广告繁多的启动器而变慢的常见问题。借助 Claude Code 或 Codex 等 AI 编程工具，用户可以按照指引禁用不需要的系统应用。\n\n该方案提供了一个极简的界面，仅显示已安装的应用、HDMI 输入和时钟，移除了所有赞助内容。由于该过程会关闭系统应用，官方提示需注意风险以避免设备卡死。",
+            "context": "许多智能 TV 随时间推移因臃肿软件和广告界面而性能下降。使用 AI 编码代理来自动化技术维护，体现了大语言模型在日常设备管理中的应用拓展。",
+            "key_takeaways": [
+              "利用 Claude Code 或 Codex 引导电视清理。",
+              "提供无广告的极简主屏幕。",
+              "禁用而非永久删除不需要的系统应用。"
+            ],
+            "highlights": [
+              "移除臃肿软件、广告和赞助内容。",
+              "仅保留应用、HDMI 输入及时钟。"
+            ]
+          },
+          "de": {
+            "title": "TV-Detox: Alte Android TVs mit KI-Hilfe wieder flott machen",
+            "summary": "Das GitHub-Projekt tv-detox zielt darauf ab, langsame Android TVs durch das Entfernen von Werbung und Bloatware mit Hilfe von Coding-Assistenten wie Claude Code oder Codex zu beschleunigen. Es bietet einen minimalistischen, werbefreien Startbildschirm samt Systembereinigungs-Prompts.",
+            "why_it_matters": "Es bietet eine praktische Methode, um ältere Hardware weiterzuverwenden, indem gesponserte Inhalte entfernt und die Benutzeroberfläche verschlankt wird.",
+            "extended_analysis": "Das Repository befasst sich mit dem Problem, dass ältere Smart TVs durch schwere Updates und werbelastige Launcher im Laufe der Zeit träge werden. Durch den Einsatz von KI-Programmiertools wie Claude Code oder Codex können Nutzer einer geführten Prozedur folgen, um unnötige System-Apps zu deaktivieren.\n\nDie Lösung stellt eine minimalistische Oberfläche bereit, die lediglich installierte Apps, HDMI-Eingänge und eine Uhr anzeigt und gesponserte Zeilen entfernt. Da dabei Systemanwendungen abgeschaltet werden, wird auf potenzielle Risiken hingewiesen.",
+            "context": "Viele Smart TVs verlieren im Laufe der Zeit an Leistung durch Bloatware und werbebasierte Startmenüs. Die Automatisierung technischer Wartungsarbeiten durch KI-Coding-Agenten verdeutlicht den zunehmenden Nutzen von Sprachmodellen bei der Geräteverwaltung.",
+            "key_takeaways": [
+              "Nutzt Claude Code oder Codex zur Bereinigung des TVs.",
+              "Erstellt einen minimalistischen, werbefreien Startbildschirm.",
+              "Deaktiviert unerwünschte System-Apps ohne dauerhafte Löschung."
+            ],
+            "highlights": [
+              "Entfernt Bloatware, Werbung und gesponserte Inhalte.",
+              "Zeigt nur Apps, HDMI-Eingänge und eine Uhr an."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 45,
+        "editor_pick_reason": ""
+      }
     },
     "4bef08f5f83b5a9b7dbba2dd2b3d3c98c77e27648541df9e24f911a161e624f6": {
       "fingerprint": "4ef26b3b9607980053bf8f14f676e76507f9710a31f64fec4a074c0e1819ed73",
@@ -5550,7 +5639,96 @@
     },
     "e40a7b612725d59117f5e6313ab54b3ab63457646833fd983c46a81b0a0122ac": {
       "fingerprint": "3597a01cadc3206c09988b3c0ecba7c8a9ec723373fb986e77887f8fbe9aff36",
-      "retry_after": "2026-11-06T03:59:13.901317+00:00"
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Sviluppo di exploit, agenti IA e PoC falsi nella cybersecurity",
+            "summary": "In questo episodio di Practical AI, Daniel e Chris discutono con Spencer McIntyre di VulnCheck su come l'intelligenza artificiale stia accelerando la ricerca di vulnerabilità e lo sviluppo di exploit, affrontando anche il problema dei PoC inaffidabili.",
+            "why_it_matters": "Comprendere l'impatto dell'IA sulla sicurezza informatica aiuta a distinguere le reali minacce dai falsi allarmi, migliorando le strategie di difesa e intelligence.",
+            "extended_analysis": "Il panorama della sicurezza informatica sta affrontando trasformazioni significative grazie all'uso di agenti IA per la scoperta di vulnerabilità e lo sviluppo di exploit. Durante l'episodio, gli ospiti analizzano le sfide legate all'affidabilità dei proof-of-concept (PoC) e i limiti delle barriere di sicurezza (guardrails) per i ricercatori.\n\nVengono inoltre esaminate le soluzioni di intelligence per l'accesso iniziale, utili ai team di sicurezza per dare priorità alle minacce concrete, offrendo uno sguardo sulle prospettive future della threat intelligence.",
+            "context": "L'episodio esplora l'intersezione tra intelligenza artificiale e cybersecurity, evidenziando le nuove opportunità e i rischi associati all'automazione della ricerca sulle vulnerabilità.",
+            "key_takeaways": [
+              "L'IA accelera la ricerca di vulnerabilità e lo sviluppo di exploit.",
+              "Molti proof-of-concept (PoC) generati presentano limiti di affidabilità.",
+              "L'intelligence sull'accesso iniziale aiuta i team a prioritizzare le minacce reali."
+            ],
+            "highlights": [
+              "Intervista a Spencer McIntyre, Direttore dello Sviluppo Exploit presso VulnCheck.",
+              "Discussione sui limiti dei guardrail dell'IA per i ricercatori di sicurezza."
+            ]
+          },
+          "en": {
+            "title": "Exploit Development, Agentic Vulnerability Discovery, and Fake PoCs",
+            "summary": "In this Practical AI episode, Daniel and Chris talk with VulnCheck's Spencer McIntyre about how AI is accelerating vulnerability research, why many proof-of-concept exploits fail, and how initial access intelligence prioritizes threats.",
+            "why_it_matters": "Examining how AI transforms cybersecurity helps security teams navigate the complex landscape of automated threats, unreliable proofs-of-concept, and evolving defense strategies.",
+            "extended_analysis": "Artificial intelligence is reshaping cybersecurity by accelerating vulnerability research and exploit development. In this episode, the hosts and guest explore the utilization of agents for discovering security flaws and address the phenomenon where numerous proof-of-concept exploits fail to deliver functional results.\n\nThe conversation also covers the constraints of AI guardrails affecting security researchers and the role of initial access intelligence in helping teams focus on genuine threats within modern threat landscapes.",
+            "context": "The discussion reflects the broader industry dialogue regarding the integration of automated agents into offensive and defensive cybersecurity workflows.",
+            "key_takeaways": [
+              "AI is accelerating both vulnerability research and exploit development.",
+              "Many proof-of-concept exploits face significant reliability and execution issues.",
+              "Initial access intelligence supports security teams in prioritizing actual threats."
+            ],
+            "highlights": [
+              "Featuring Spencer McIntyre, Director of Exploit Development at VulnCheck.",
+              "Exploration of AI guardrail challenges for professional security researchers."
+            ]
+          },
+          "es": {
+            "title": "Desarrollo de exploits, descubrimiento agéntico y PoCs falsos",
+            "summary": "En este episodio de Practical AI, Daniel y Chris conversan con Spencer McIntyre de VulnCheck sobre el impacto de la IA en la investigación de vulnerabilidades, los fallos en proofs-of-concept y la inteligencia de acceso inicial.",
+            "why_it_matters": "Analizar cómo la inteligencia artificial transforma la ciberseguridad permite a los equipos priorizar amenazas reales frente a PoCs ineficaces y desafíos de automatización.",
+            "extended_analysis": "La inteligencia artificial está modificando la ciberseguridad al acelerar la investigación de vulnerabilidades y el desarrollo de exploits. Durante la charla, se examina cómo los agentes descubren fallos de seguridad y por qué numerosos exploits de prueba no logran funcionar adecuadamente.\n\nAsimismo, se debate sobre las limitaciones de las barreras de seguridad de la inteligencia artificial para los investigadores y la importancia de la inteligencia de acceso inicial en la priorización de riesgos.",
+            "context": "El episodio aborda el contexto actual donde la automatización y los agentes autónomos influyen en las operaciones de seguridad ofensiva y defensiva.",
+            "key_takeaways": [
+              "La IA acelera la investigación de vulnerabilidades y el desarrollo de exploits.",
+              "Muchos exploits de prueba (PoCs) presentan problemas de eficacia.",
+              "La inteligencia de acceso inicial ayuda a priorizar amenazas reales."
+            ],
+            "highlights": [
+              "Participación de Spencer McIntyre, Director de Desarrollo de Exploits en VulnCheck.",
+              "Discusión sobre los desafíos de los guardarraíles de la IA para investigadores."
+            ]
+          },
+          "zh-CN": {
+            "title": "漏洞利用开发、智能体漏洞发现与虚假PoC",
+            "summary": "在本期 Practical AI 节目中，Daniel 和 Chris 邀请 VulnCheck 的 Spencer McIntyre 探讨人工智能如何加速漏洞研究与利用开发，以及许多概念验证（PoC）失效的原因。",
+            "why_it_matters": "了解人工智能对网络安全的影响，有助于安全团队在自动化威胁与不可靠的漏洞利用之间甄别真实风险。",
+            "extended_analysis": "人工智能正在通过加速漏洞研究和漏洞利用开发来重塑网络安全。节目中探讨了利用智能体发现漏洞的应用方式，并剖析了许多概念验证无法正常运行的实际局限性。\n\n此外，对话还涉及了安全研究人员面临的AI安全防护栏挑战，以及初始访问情报如何帮助团队更有效地对威胁进行优先级排序。",
+            "context": "本期节目结合了当前网络安全行业的趋势，探讨自动化代理技术在攻防对抗中的实际应用与现实挑战。",
+            "key_takeaways": [
+              "人工智能正在加速漏洞研究和漏洞利用开发进程。",
+              "许多概念验证（PoC）在实际执行中暴露出可靠性问题。",
+              "初始访问情报有助于安全团队精准定位真实威胁。"
+            ],
+            "highlights": [
+              "嘉宾：VulnCheck 漏洞利用开发总监 Spencer McIntyre。",
+              "探讨了 AI 安全护栏对专业安全研究人员带来的限制与挑战。"
+            ]
+          },
+          "de": {
+            "title": "Exploit-Entwicklung, agentenbasierte Schwachstellensuche und PoCs",
+            "summary": "In dieser Episode von Practical AI sprechen Daniel und Chris mit Spencer McIntyre von VulnCheck darüber, wie KI die Schwachstellenforschung beschleunigt und warum viele Proof-of-Concepts versagen.",
+            "why_it_matters": "Die Untersuchung von KI in der Cybersicherheit hilft Sicherheitsteams, echte Bedrohungen von unzuverlässigen Proof-of-Concepts zu unterscheiden und Abwehrstrategien anzupassen.",
+            "extended_analysis": "Künstliche Intelligenz verändert die Cybersicherheit, indem sie die Erforschung von Schwachstellen und die Entwicklung von Exploits beschleunigt. Die Diskussion beleuchtet den Einsatz von Agenten zur Entdeckung von Sicherheitslücken und thematisiert, warum zahlreiche Proof-of-Concept-Exploits in der Praxis versagen.\n\nZudem werden die Einschränkungen von KI-Sicherheitsleitlinien für Forscher sowie die Bedeutung von Initial-Access-Intelligence für die Priorisierung realer Bedrohungen erörtert.",
+            "context": "Die Episode greift die technologische Entwicklung auf, bei der autonome Agenten zunehmend in sicherheitsrelevante Prozesse integriert werden.",
+            "key_takeaways": [
+              "KI beschleunigt die Schwachstellenforschung und die Erstellung von Exploits.",
+              "Viele Proof-of-Concept-Exploits weisen erhebliche Zuverlässigkeitsprobleme auf.",
+              "Initial-Access-Intelligence unterstützt Teams bei der Priorisierung echter Risiken."
+            ],
+            "highlights": [
+              "Mit Spencer McIntyre, Director of Exploit Development bei VulnCheck.",
+              "Diskussion über Herausforderungen von KI-Sicherheitsleitlinien für Forscher."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 45,
+        "editor_pick_reason": ""
+      }
     },
     "1b52db8c5014f40414f6eda6e52c49a7e969e28611df92ca9d8ab9038ed553bd": {
       "fingerprint": "cc093f28edc464334d3cc51991a2c08c97ead2966f2dd7662a5434350900823e",
@@ -6210,7 +6388,101 @@
     },
     "f2044b4c0b2fa275235793775451f00d3258bbeed5d73be50281d9bdfacba926": {
       "fingerprint": "16f78cc686ca62342af445a445e649ab02d61ebb44a6b684438a24b5a88a8ac6",
-      "retry_after": "2026-11-06T03:59:11.181446+00:00"
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Intelligenza Abbondante al Midwest AI Summit: Parte 2",
+            "summary": "Esploriamo come le organizzazioni definiscono confini, governance e ruoli umani nell'intelligenza artificiale. Con ospiti dal Midwest AI Summit, l'episodio approfondisce l'uso di charter etici, decisioni di gestione e agenti IA.",
+            "why_it_matters": "Comprendere le strategie organizzative per la governance dell'IA e l'automazione dei flussi di lavoro è cruciale per un'adozione aziendale responsabile.",
+            "extended_analysis": "In questo episodio di Practical AI, registrato in occasione del Midwest AI Summit, i professionisti del settore affrontano le sfide pratiche legate all'adozione dell'intelligenza artificiale nelle organizzazioni. Don Barger spiega il ruolo di un charter per stabilire limiti operativi, Mark Lay analizza i fattori chiave di gestione tra delega e responsabilità, e Darren Taillie mostra l'impiego di agenti IA e modelli di visione per l'automazione.\n\nIl dibattito evidenzia la necessità di bilanciare l'efficienza tecnologica con il controllo umano e la gestione del debito tecnico. Le esperienze condivise offrono spunti concreti su come le aziende affrontano l'integrazione di strumenti avanzati nei processi quotidiani.\n\nLe prospettive future includono l'evoluzione degli standard di governance e l'impiego di architetture basate su agenti autonomi, temi centrali per chi gestisce progetti tecnologici complessi.",
+            "context": "L'episodio fa parte della copertura del Midwest AI Summit e riflette le sfide attuali delle aziende nel definire linee guida, supervisione e automazione avanzata con i dati.",
+            "key_takeaways": [
+              "Definire un'AI charter aiuta a stabilire confini chiari sull'uso della tecnologia.",
+              "La gestione organizzativa richiede decisioni su delega, accountability e debito tecnico.",
+              "Gli agenti IA e i modelli text-to-SQL migliorano l'accesso ai dati e l'automazione."
+            ],
+            "highlights": [
+              "Don Barger discute l'adozione di un'AI charter presso l'International Mission Board.",
+              "Mark Lay di Noblis esplora quattro decisioni chiave per la gestione dell'IA.",
+              "Darren Taillie spiega l'uso di agenti IA e visione artificiale in Aerocore Technologies."
+            ]
+          },
+          "en": {
+            "title": "Abundant Intelligence at the Midwest AI Summit Part 2",
+            "summary": "Discover how organizations govern artificial intelligence, set operational boundaries, and maintain human oversight. This episode features insights from industry leaders at the Midwest AI Summit.",
+            "why_it_matters": "Practical strategies for organizational AI governance and workflow automation help teams balance technical efficiency with responsible control.",
+            "extended_analysis": "Recorded during the Midwest AI Summit, this episode of Practical AI examines how organizations establish frameworks for artificial intelligence deployment. Don Barger from the International Mission Board details the creation of an AI charter to define permitted uses. Mark Lay of Noblis outlines four core management decisions, covering delegation, accountability, and technical debt. Meanwhile, Darren Taillie of Aerocore Technologies demonstrates practical applications using AI agents, text-to-SQL, and vision models.\n\nThe discussion underscores the operational complexity of integrating emerging technologies into structured workflows. Speakers address the balance between automated task execution and human control, providing real-world context for enterprise AI adoption.\n\nListeners can expect a comprehensive look at organizational readiness, management strategies, and the evolving role of autonomous systems in modern data environments.",
+            "context": "Captured at the Midwest AI Summit, the discussions reflect the ongoing enterprise transition toward formalized AI governance and advanced workflow automation.",
+            "key_takeaways": [
+              "An AI charter helps organizations formally define boundaries and acceptable use cases.",
+              "Effective AI management addresses delegation, accountability, and technical debt.",
+              "AI agents and vision models streamline data access and automate verification tasks."
+            ],
+            "highlights": [
+              "Don Barger shares insights on establishing an organizational AI charter.",
+              "Mark Lay explores four key management decisions for enterprise AI.",
+              "Darren Taillie walks through automated work order verification using vision models."
+            ]
+          },
+          "es": {
+            "title": "Inteligencia abundante en la Cumbre de IA del Medio Oeste Parte 2",
+            "summary": "Analizamos cómo las organizaciones deciden el uso de la inteligencia artificial, establecen límites y mantienen el control humano. Con la participación de expertos en la Cumbre de IA del Medio Oeste.",
+            "why_it_matters": "Comprender la gobernanza corporativa de la IA y la automatización de procesos es clave para equilibrar la innovación y la supervisión responsable.",
+            "extended_analysis": "En este episodio de Practical AI grabado durante el Midwest AI Summit, varios profesionales analizan los retos de gestionar la inteligencia artificial a escala organizativa. Don Barger explica cómo un código ético o charter define los límites del uso de la IA. Mark Lay examina decisiones clave de gestión, desde la delegación hasta la deuda técnica. Por su parte, Darren Taillie detalla el uso de agentes de IA y modelos de visión en Aerocore Technologies.\n\nEl debate pone de relieve la importancia de alinear las capacidades tecnológicas con marcos de control humano claros. Las experiencias de los ponentes ofrecen una visión práctica sobre la integración de sistemas avanzados en entornos corporativos.\n\nEl episodio ofrece una perspectiva útil sobre la preparación organizativa y los retos operativos derivados de la adopción de agentes autónomos y herramientas de datos.",
+            "context": "El episodio se enmarca en la cobertura del Midwest AI Summit, abordando los retos actuales de gobernanza, automatización y gestión de la IA en las empresas.",
+            "key_takeaways": [
+              "Establecer un charter de IA define claramente los límites y usos permitidos.",
+              "La gestión organizacional abarca la delegación, la responsabilidad y la deuda técnica.",
+              "Los agentes de IA y text-to-SQL optimizan el acceso a los datos y la automatización."
+            ],
+            "highlights": [
+              "Don Barger detalla el uso de un charter de IA en el International Mission Board.",
+              "Mark Lay de Noblis analiza cuatro decisiones clave para gestionar la IA.",
+              "Darren Taillie explica la automatización de órdenes de trabajo con modelos de visión."
+            ]
+          },
+          "zh-CN": {
+            "title": "中西部人工智能峰会：丰饶智能（下集）",
+            "summary": "探讨组织如何确定人工智能的应用边界、制定治理规范并保持人类监督。本期节目汇集了来自中西部AI峰会的行业专家的实践分享。",
+            "why_it_matters": "了解企业级AI治理与工作流自动化的实际策略，有助于在技术效率与合规控制之间找到平衡。",
+            "extended_analysis": "本期 Practical AI 节目记录于中西部AI峰会，聚焦组织如何在实际运营中部署和管理人工智能。国际宣教团的 Don Barger 介绍了制定 AI 宪章以明确技术使用界限的经验。诺布利斯的 Mark Lay 探讨了组织管理 AI 的四项核心决策，涵盖授权、问责制和技术债务。同时，Aerocore Technologies 的 Darren Taillie 展示了其团队如何利用 AI 代理、文本转 SQL 和视觉模型来改善数据访问。\n\n讨论强调了在结构化工作流中平衡自动化执行与人工控制的必要性，为企业级AI采用提供了真实的参考背景。\n\n听众可以从中了解组织筹备、管理策略以及自主系统在现代数据环境中的演变趋势。",
+            "context": "节目内容源自中西部AI峰会，反映了当前企业在迈向规范化AI治理和高级工作流自动化过程中面临的实际挑战。",
+            "key_takeaways": [
+              "制定 AI 宪章有助于组织明确技术使用的边界与适用场景。",
+              "有效的AI管理需要处理好授权、问责机制与技术债务之间的关系。",
+              "AI代理与视觉模型能够简化数据访问并实现工作流验证自动化。"
+            ],
+            "highlights": [
+              "Don Barger 分享了建立组织 AI 宪章的实践经验。",
+              "Mark Lay 探讨了企业管理人工智能的四项关键决策。",
+              "Darren Taillie 演示了使用视觉模型进行工作订单验证的过程。"
+            ]
+          },
+          "de": {
+            "title": "Abundante Intelligenz beim Midwest AI Summit Teil 2",
+            "summary": "Erfahren Sie, wie Organisationen den Einsatz von KI steuern, Grenzen festlegen und menschliche Kontrolle wahren. Mit Einblicken von Experten des Midwest AI Summit.",
+            "why_it_matters": "Praxisnahe Strategien zur organisatorischen KI-Governance und Workflow-Automatisierung sind entscheidend für eine verantwortungsvolle Technikeinführung.",
+            "extended_analysis": "Diese Episode von Practical AI, aufgezeichnet auf dem Midwest AI Summit, beleuchtet die organisatorischen Herausforderungen bei der Einführung von Künstlicher Intelligenz. Don Barger erläutert, wie eine KI-Charta klare Grenzen für die Nutzung definiert. Mark Lay von Noblis beleuchtet vier zentrale Managemententscheidungen von der Delegation bis zur technischen Schuld. Zudem zeigt Darren Taillie von Aerocore Technologies, wie sein Team KI-Agenten und Visionsmodelle zur Automatisierung einsetzt.\n\nDie Diskussion verdeutlicht, wie wichtig es ist, technologische Effizienz mit menschlicher Aufsicht zu verbinden. Die Beiträge bieten wertvolle Einblicke in reale Unternehmensprozesse und den Umgang mit modernen Daten- und Automatisierungstools.\n\nHörer erhalten einen fundierten Überblick über Governance-Strategien, organisatorische Bereitschaft und den praktischen Einsatz autonomer Systeme in Unternehmen.",
+            "context": "Die im Rahmen des Midwest AI Summit aufgezeichneten Gespräche spiegeln die aktuellen Bestrebungen von Organisationen wider, KI-Governance und Automatisierung zu strukturieren.",
+            "key_takeaways": [
+              "Eine KI-Charta hilft Organisationen, klare Grenzen für den Technologieeinsatz festzulegen.",
+              "Effektives KI-Management berücksichtigt Delegation, Verantwortlichkeit und technische Schulden.",
+              "KI-Agenten und Visionsmodelle verbessern den Datenzugriff und automatisieren Prüfprozesse."
+            ],
+            "highlights": [
+              "Don Barger berichtet über die Einführung einer KI-Charta im International Mission Board.",
+              "Mark Lay von Noblis analysiert vier Kernentscheidungen für das organisatorische KI-Management.",
+              "Darren Taillie zeigt die Automatisierung von Arbeitsaufträgen mittels Visionsmodellen."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 45,
+        "editor_pick_reason": ""
+      }
     },
     "464fa28a00d16b52e39d66d93ada6c1dbebff15ad5e5f1d6b11b0b0b81feba0f": {
       "fingerprint": "f357e38291721d2878321d91cb187122c005df3b2a2da1f9ec53f7c66b92e59b",
@@ -6502,11 +6774,15 @@
         "relevance_score": 35,
         "editor_pick_reason": ""
       }
+    },
+    "4981f6fda01422bff91dfc2d7a00c1c65bc2d80d3337ecd1f15ab2887de7e0ac": {
+      "fingerprint": "3f79594d2914293a7fcc2997f879001b4ca1484417c683eb2591f686601adee8",
+      "retry_after": "2026-11-06T15:55:05.670214+00:00"
     }
   },
   "daily": {
     "date": "2026-11-06",
-    "count": 3,
+    "count": 6,
     "picks": 0
   }
 }
