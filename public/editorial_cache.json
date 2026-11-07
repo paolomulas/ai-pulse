@@ -6865,7 +6865,7 @@
     },
     "8b0ab5f41b1b4a2c0ee3a5806227bc39c677ef319d5b0a112de7d1ce0a788396": {
       "fingerprint": "38623e95392f4313e4acf63853d6dc57817898eb687808fd050f8d6a40641923",
-      "retry_after": "2026-11-06T23:29:34.357108+00:00"
+      "retry_after": "2026-11-07T08:23:35.757342+00:00"
     },
     "6a4c2b74532102f0c2f4c57bbfefacf1cbb5693c0160e5a93e12937328d6ca91": {
       "fingerprint": "38064ffd6f503a6c1d8f474cad4680402ead39ffcc44a7ebc51f751e2ceefeb0",
@@ -7238,11 +7238,290 @@
         "relevance_score": 35,
         "editor_pick_reason": ""
       }
+    },
+    "9beb72b2d2304cb154ed7c5fe1278657118be17719b9e5c4160feb6cd49114a9": {
+      "fingerprint": "5b1a4d8c862aeb9383626aca9fa4d93792d7830781bddf11edbaa8b228203944",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Visibilità nell'era della ricerca IA: come cambia la scoperta",
+            "summary": "In questo episodio, Daniel e Chris esplorano con Liam Dunne e Ben Moore di Discovered Labs la transizione dalla SEO tradizionale alla ricerca basata sull'intelligenza artificiale, analizzando il funzionamento dei modelli linguistici.",
+            "why_it_matters": "Comprendere le dinamiche della ricerca IA è fondamentale per adattarsi a un ecosistema in cui i modelli generano risposte dirette e interagiscono per conto degli utenti.",
+            "extended_analysis": "La ricerca basata sull'intelligenza artificiale sta ridefinendo il modo in cui le persone e i brand affrontano la visibilità online. Durante l'episodio, gli ospiti approfondiscono concetti chiave come la strategia su Reddit, il meccanismo di query fan-out, la rappresentazione nei pesi dei modelli e il consenso, offrendo uno sguardo dietro le quinte su ciò che accade quando un LLM genera una risposta. Vengono inoltre esaminate le implicazioni future di un web in cui gli agenti IA non si limitano a scoprire i siti, ma compiono azioni per gli utenti.",
+            "context": "Il passaggio dai motori di ricerca tradizionali ai sistemi di intelligenza artificiale genera nuove sfide per la visibilità digitale e la gestione dei contenuti online.",
+            "key_takeaways": [
+              "Differenze chiave tra SEO tradizionale e ricerca basata sull'IA.",
+              "Analisi di concetti come query fan-out, consenso e rappresentazione nei modelli.",
+              "Prospettive future sugli agenti IA che interagiscono direttamente con i siti web."
+            ],
+            "highlights": [
+              "Ospiti dell'episodio: Liam Dunne e Ben Moore, co-fondatori di Discovered Labs.",
+              "Conduttori: Daniel Whitenack e Chris Benson."
+            ]
+          },
+          "en": {
+            "title": "Getting Discovered in AI Search: Beyond Traditional SEO",
+            "summary": "Daniel and Chris speak with Discovered Labs co-founders Liam Dunne and Ben Moore about the shift from traditional SEO to AI search, exploring how LLMs generate answers and handle visibility.",
+            "why_it_matters": "As AI search reshapes how people discover information, understanding retrieval, citations, and model weights is essential for modern digital visibility.",
+            "extended_analysis": "AI search is fundamentally transforming information discovery and brand visibility. In this conversation, the speakers dive into the mechanics behind LLM-generated answers, discussing topics such as Reddit strategy, query fan-out, representation in model weights, and consensus. The discussion also looks ahead to a future where autonomous AI agents interact with websites and perform actions on behalf of users, moving beyond simple discovery.",
+            "context": "The evolution from keyword-based search engines to generative AI models introduces complex shifts in how digital content is indexed, cited, and discovered.",
+            "key_takeaways": [
+              "The operational shift from traditional SEO to AI search mechanics.",
+              "Deep dive into query fan-out, model weights, and consensus.",
+              "The future role of AI agents interacting directly with websites."
+            ],
+            "highlights": [
+              "Featuring guests Liam Dunne and Ben Moore, co-founders of Discovered Labs.",
+              "Hosted by Daniel Whitenack and Chris Benson."
+            ]
+          },
+          "es": {
+            "title": "Visibilidad en la búsqueda con IA: más allá del SEO tradicional",
+            "summary": "Daniel y Chris conversan con Liam Dunne y Ben Moore, cofundadores de Discovered Labs, sobre el cambio del SEO tradicional a la búsqueda por IA y cómo los LLM generan respuestas.",
+            "why_it_matters": "Comprender la visibilidad en la IA y la recuperación de información es crucial a medida que los modelos de lenguaje transforman la manera en que descubrimos contenido.",
+            "extended_analysis": "La búsqueda impulsada por inteligencia artificial está alterando profundamente la visibilidad de los contenidos y las marcas. Durante el episodio, los expertos analizan qué ocurre tras bambalinas cuando un modelo genera una respuesta, abordando estrategias en Reddit, el fenómeno de query fan-out, el consenso y la representación en los pesos de los modelos. Además, se examina el horizonte en el que los agentes de IA interactúan directamente con los sitios web en nombre de los usuarios.",
+            "context": "La transición hacia sistemas de búsqueda basados en inteligencia artificial plantea nuevos retos y paradigmas en la forma en que la información es procesada y descubierta.",
+            "key_takeaways": [
+              "La transición del SEO tradicional hacia los algoritmos de búsqueda por IA.",
+              "Análisis detallado de query fan-out, pesos de modelos y consenso.",
+              "El papel futuro de los agentes de IA en la interacción automatizada con sitios web."
+            ],
+            "highlights": [
+              "Participan Liam Dunne y Ben Moore, cofundadores de Discovered Labs.",
+              "Conducido por Daniel Whitenack y Chris Benson."
+            ]
+          },
+          "zh-CN": {
+            "title": "如何在AI搜索中脱颖而出：超越传统SEO",
+            "summary": "Daniel和Chris与Discovered Labs联合创始人Liam Dunne和Ben Moore探讨了从传统SEO向AI搜索的转变，分析了大语言模型生成答案背后的机制。",
+            "why_it_matters": "随着AI搜索彻底改变信息检索方式，理解模型权重、引用机制和可见性策略对于数字内容的传播至关重要。",
+            "extended_analysis": "人工智能搜索正在重塑人们发现信息以及品牌思考可见性的方式。在节目中，嘉宾深入探讨了LLM生成答案时的幕后过程，涵盖了Reddit策略、查询扩展（query fan-out）、模型权重中的表征以及共识机制。此外，讨论还展望了未来AI代理不仅能发现网站，还能代表用户与网站进行交互并采取行动的场景。",
+            "context": "从传统搜索引擎向生成式AI系统的演变，对数字内容的索引、引用和发现方式带来了深远的影响。",
+            "key_takeaways": [
+              "传统SEO与AI搜索机制之间的核心转变。",
+              "深入解析查询扩展、模型权重与共识机制。",
+              "AI代理与网站直接交互的未来趋势。"
+            ],
+            "highlights": [
+              "特邀嘉宾：Discovered Labs联合创始人Liam Dunne和Ben Moore。",
+              "由Daniel Whitenack和Chris Benson主持。"
+            ]
+          },
+          "de": {
+            "title": "Sichtbarkeit in der KI-Suche: Jenseits des klassischen SEO",
+            "summary": "Daniel und Chris sprechen mit Discovered Labs-Mitbegründer Liam Dunne und Ben Moore über den Wandel von klassischem SEO zur KI-Suche und die Mechanik von LLM-Antworten.",
+            "why_it_matters": "Da KI-Suchsysteme die Informationsfindung verändern, ist das Verständnis von Abrufmechanismen, Zitierungen und Modellgewichten entscheidend für die digitale Sichtbarkeit.",
+            "extended_analysis": "Die KI-gestützte Suche verändert grundlegend, wie Informationen entdeckt werden und wie Marken über Sichtbarkeit nachdenken. In dieser Episode beleuchten die Gäste, was hinter den Kulissen passiert, wenn ein Sprachmodell eine Antwort generiert. Dabei werden Themen wie Reddit-Strategien, Query Fan-Out, Repräsentation in Modellgewichten und Konsens diskutiert. Zudem wird ein Ausblick auf eine Zukunft geworfen, in der KI-Agenten nicht nur Webseiten entdecken, sondern eigenständig mit ihnen im Auftrag von Nutzern interagieren.",
+            "context": "Der Übergang von klassischen Suchmaschinen zu generativen KI-Modellen führt zu tiefgreifenden Veränderungen bei der Indexierung und Entdeckung digitaler Inhalte.",
+            "key_takeaways": [
+              "Der operative Wandel von klassischem SEO zu KI-Suchmechanismen.",
+              "Detaillierte Einblicke in Query Fan-Out, Modellgewichte und Konsens.",
+              "Die zukünftige Rolle von KI-Agenten bei der Interaktion mit Webseiten."
+            ],
+            "highlights": [
+              "Mit den Gästen Liam Dunne und Ben Moore, Mitbegründer von Discovered Labs.",
+              "Moderiert von Daniel Whitenack und Chris Benson."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 0,
+        "editor_pick_reason": ""
+      }
+    },
+    "5f721228af3682c2417b4131d4680ee3211f1024fcf682ecae1568fe5c5140e2": {
+      "fingerprint": "515b81b024181034d56068510805862d8f43a738f1e6df42cd589cdc94cf16e8",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "OpenAI lancia BioBasicsBench per la scienza di laboratorio",
+            "summary": "OpenAI ha presentato BioBasicsBench, un nuovo benchmark di 100 attività progettato per valutare la capacità degli agenti IA di interpretare dati sperimentali grezzi e gestire la scienza di laboratorio umido.",
+            "why_it_matters": "Questo strumento offre un modo per misurare le prestazioni dell'IA in compiti scientifici di laboratorio reali, colmando il divario tra i modelli teorici e l'applicazione pratica.",
+            "extended_analysis": "Il panorama dell'intelligenza artificiale si sta espandendo verso l'automazione scientifica e la ricerca di laboratorio. Con l'introduzione di BioBasicsBench, composto da cento compiti specifici, OpenAI punta a quantificare l'abilità degli agenti IA nel gestire dati sperimentali grezzi e procedure di laboratorio.\n\nSebbene si tratti di un'iniziativa del produttore, l'impatto di tali benchmark dipenderà da come la comunità scientifica valuterà l'affidabilità e la precisione dei risultati ottenuti dagli agenti nella pratica quotidiana.",
+            "context": "L'integrazione dell'intelligenza artificiale nei laboratori di ricerca biologica e chimica rappresenta una delle frontiere più discusse del settore tecnologico contemporaneo.",
+            "key_takeaways": [
+              "BioBasicsBench include 100 attività specifiche.",
+              "Misura l'interpretazione dei dati sperimentali grezzi.",
+              "Valuta la gestione della scienza di laboratorio umido."
+            ],
+            "highlights": [
+              "Creato da OpenAI per valutare gli agenti IA.",
+              "Focalizzato sulla scienza di laboratorio umido."
+            ]
+          },
+          "en": {
+            "title": "Measuring how AI agents handle everyday wet-lab science",
+            "summary": "OpenAI has introduced BioBasicsBench, a 100-task benchmark designed to measure how effectively AI agents interpret raw experimental data and manage routine wet-lab science.",
+            "why_it_matters": "It establishes a structured approach to evaluate AI capabilities in practical laboratory environments, bridging theoretical models and empirical science.",
+            "extended_analysis": "As artificial intelligence increasingly intersects with scientific research, assessing reliability in practical settings becomes crucial. OpenAI's BioBasicsBench addresses this by testing models across a standardized set of one hundred experimental tasks.\n\nObservers will monitor how widely this benchmark is adopted and whether it effectively captures the complexities of real-world laboratory workflows, distinguishing project claims from verified performance.",
+            "context": "The deployment of autonomous AI agents in scientific discovery is gaining traction, prompting the creation of new evaluation frameworks for complex technical tasks.",
+            "key_takeaways": [
+              "BioBasicsBench features 100 distinct evaluation tasks.",
+              "It measures raw experimental data interpretation.",
+              "It assesses everyday wet-lab science operations."
+            ],
+            "highlights": [
+              "Introduced by OpenAI News.",
+              "Focuses on wet-lab science and experimental data."
+            ]
+          },
+          "es": {
+            "title": "Midiendo cómo los agentes de IA manejan la ciencia de laboratorio",
+            "summary": "OpenAI ha presentado BioBasicsBench, un punto de referencia de 100 tareas para medir la capacidad de los agentes de IA al interpretar datos experimentales y gestionar la ciencia de laboratorio.",
+            "why_it_matters": "Proporciona un marco estructurado para evaluar el desempeño de la inteligencia artificial en tareas científicas prácticas y cotidianas.",
+            "extended_analysis": "La intersección entre la inteligencia artificial y la investigación científica requiere herramientas de evaluación rigurosas. BioBasicsBench busca medir cómo los agentes manejan datos experimentales sin procesar a través de cien tareas estandarizadas.\n\nEl desarrollo continuo de estos puntos de referencia permitirá a la comunidad examinar el progreso real de los agentes autónomos en entornos de laboratorio húmedo.",
+            "context": "El uso de agentes inteligentes en la investigación científica impulsa la necesidad de crear pruebas estandarizadas para medir su competencia técnica.",
+            "key_takeaways": [
+              "Consta de un conjunto de 100 tareas.",
+              "Mide la interpretación de datos experimentales brutos.",
+              "Evalúa la ciencia de laboratorio cotidiano."
+            ],
+            "highlights": [
+              "Desarrollado y presentado por OpenAI.",
+              "Enfocado en tareas de laboratorio húmedo."
+            ]
+          },
+          "zh-CN": {
+            "title": "评估AI代理如何处理日常湿实验室科学",
+            "summary": "OpenAI推出了BioBasicsBench，这是一个包含100项任务的基准测试，用于衡量AI代理在解释原始实验数据和处理日常湿实验室科学方面的能力。",
+            "why_it_matters": "它为评估人工智能在实际科学环境中的表现提供了结构化方法，连接了理论模型与实际应用。",
+            "extended_analysis": "随着人工智能在科学研究领域的应用不断增加，评估其在实际操作中的可靠性变得至关重要。OpenAI推出的BioBasicsBench通过一百项标准化实验任务来测试模型的表现。\n\n未来需要关注该基准在行业中的采用情况，以及它能否准确反映现实世界实验室工作流程的复杂性。",
+            "context": "将自动AI代理部署到科学发现中正在获得关注，这促使业界为复杂的科技任务创建新的评估框架。",
+            "key_takeaways": [
+              "BioBasicsBench包含100项不同的评估任务。",
+              "专注于衡量原始实验数据的解释能力。",
+              "评估日常湿实验室科学操作。"
+            ],
+            "highlights": [
+              "由OpenAI推出。",
+              "专注于湿实验室科学和实验数据。"
+            ]
+          },
+          "de": {
+            "title": "Wie KI-Agenten alltägliche Nasslabor-Wissenschaft bewältigen",
+            "summary": "OpenAI hat BioBasicsBench vorgestellt, einen Benchmark mit 100 Aufgaben zur Messung, wie gut KI-Agenten rohe experimentelle Daten interpretieren und Nasslabor-Wissenschaft handhaben.",
+            "why_it_matters": "Dies bietet einen strukturierten Ansatz zur Bewertung von KI-Fähigkeiten in praktischen Laborumgebungen und schließt die Lücke zur empirischen Wissenschaft.",
+            "extended_analysis": "Die Integration von künstlicher Intelligenz in die wissenschaftliche Forschung erfordert präzise Messinstrumente. Mit BioBasicsBench stellt OpenAI ein Set aus hundert Aufgaben vor, um die Leistung von Agenten bei der Auswertung roher experimenteller Daten zu testen.\n\nEs bleibt zu beobachten, wie sich dieser Benchmark in der Praxis bewährt und ob er die tatsächlichen Komplexitäten realer Laborabläufe adäquat abbilden kann.",
+            "context": "Der Einsatz autonomer KI-Agenten in der wissenschaftlichen Forschung gewinnt an Bedeutung und erfordert neue Bewertungsrahmen für komplexe Aufgaben.",
+            "key_takeaways": [
+              "BioBasicsBench umfasst 100 spezifische Aufgaben.",
+              "Misst die Interpretation roher experimenteller Daten.",
+              "Bewertet alltägliche Abläufe in der Nasslabor-Wissenschaft."
+            ],
+            "highlights": [
+              "Vorgestellt von OpenAI.",
+              "Konzentriert sich auf Nasslabor-Wissenschaft."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 75,
+        "editor_pick_reason": ""
+      }
+    },
+    "fdc98e4e70aebb2dde61b18e2b5f0c5c32a9624e4c09895d46a6b4963246176d": {
+      "fingerprint": "4882437ab4efd1d8db9105ec9abb7fbefe73257a9c43bab96db7660162d5437f",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Vercel rilascia l'AI SDK per TypeScript",
+            "summary": "Vercel ha sviluppato l'AI SDK, un toolkit open-source gratuito per TypeScript progettato per facilitare la creazione di applicazioni e agenti basati sull'intelligenza artificiale.",
+            "why_it_matters": "Questo strumento offre agli sviluppatori TypeScript un framework strutturato per integrare funzionalità di intelligenza artificiale e agenti all'interno delle applicazioni.",
+            "extended_analysis": "Creato dagli sviluppatori di Next.js, l'AI SDK di Vercel si propone come una risorsa per chi lavora con TypeScript nel campo dell'intelligenza artificiale.\n\nIl progetto è distribuito come libreria open-source gratuita e ha raccolto un notevole interesse sulla piattaforma GitHub, superando le 27.000 stelle.\n\nNei prossimi mesi sarà utile monitorare l'evoluzione della libreria, la sua adozione da parte della community e l'aggiunta di nuove funzionalità per la gestione degli agenti.",
+            "context": "Nel panorama dello sviluppo software moderno, TypeScript riveste un ruolo centrale per la creazione di applicazioni web scalabili. L'integrazione di strumenti dedicati all'intelligenza artificiale riflette la crescente richiesta di librerie specifiche per questo settore.",
+            "key_takeaways": [
+              "Libreria open-source gratuita per TypeScript.",
+              "Progettata per la costruzione di app e agenti AI.",
+              "Realizzata dai creatori di Next.js."
+            ],
+            "highlights": [
+              "Sviluppata da Vercel.",
+              "Oltre 27.700 stelle su GitHub."
+            ]
+          },
+          "en": {
+            "title": "Vercel releases AI SDK for TypeScript",
+            "summary": "Vercel has built the AI SDK, a free open-source TypeScript library designed to help developers build AI-powered applications and agents.",
+            "why_it_matters": "It provides TypeScript developers with a dedicated open-source toolkit to streamline the creation of modern AI applications and autonomous agents.",
+            "extended_analysis": "Created by the makers of Next.js, the Vercel AI SDK addresses the needs of developers looking to integrate artificial intelligence capabilities into TypeScript environments.\n\nThe project is available as a free open-source resource and has garnered significant attention on GitHub with over 27,000 stars.\n\nFuture developments will depend on how the community adopts the library and whether it expands its agent-building capabilities.",
+            "context": "As artificial intelligence features become standard in web development, specialized toolkits for popular languages like TypeScript help bridge the gap between traditional software architecture and machine learning models.",
+            "key_takeaways": [
+              "Free open-source library for TypeScript.",
+              "Built for creating AI applications and agents.",
+              "Developed by the creators of Next.js."
+            ],
+            "highlights": [
+              "Created by Vercel.",
+              "Over 27,700 stars on GitHub."
+            ]
+          },
+          "es": {
+            "title": "Vercel lanza el AI SDK para TypeScript",
+            "summary": "Vercel ha desarrollado el AI SDK, una librería gratuita de código abierto para TypeScript orientada a la creación de aplicaciones y agentes basados en inteligencia artificial.",
+            "why_it_matters": "Proporciona a los desarrolladores de TypeScript un kit de herramientas estructurado para integrar capacidades de IA y agentes de manera eficiente.",
+            "extended_analysis": "Creado por los creadores de Next.js, el AI SDK de Vercel busca facilitar el desarrollo de software inteligente utilizando TypeScript como lenguaje principal.\n\nEl proyecto se distribuye bajo un modelo de código abierto gratuito y cuenta con una comunidad activa en GitHub que supera las 27.000 estrellas.\n\nSerá importante observar la evolución de sus funciones para la construcción de agentes y su adopción general en el ecosistema web.",
+            "context": "La demanda de herramientas integradas para inteligencia artificial en lenguajes de programación populares como TypeScript sigue creciendo dentro del ecosistema de desarrollo de software.",
+            "key_takeaways": [
+              "Librería gratuita de código abierto para TypeScript.",
+              "Diseñada para aplicaciones y agentes de IA.",
+              "Desarrollada por los creadores de Next.js."
+            ],
+            "highlights": [
+              "Creado por Vercel.",
+              "Más de 27.700 estrellas en GitHub."
+            ]
+          },
+          "zh-CN": {
+            "title": "Vercel发布面向TypeScript的AI SDK",
+            "summary": "Vercel推出了AI SDK，这是一个免费开源的TypeScript工具包，旨在帮助开发者构建人工智能驱动的应用程序和智能体。",
+            "why_it_matters": "它为TypeScript开发者提供了一个结构化的开源框架，以便在现代软件项目中更轻松地集成人工智能和智能体功能。",
+            "extended_analysis": "该工具包由Next.js的创造者开发，专注于满足使用TypeScript构建智能应用的需求。\n\n作为一个免费的开源项目，它在GitHub上获得了广泛关注，收获了超过27,000颗星标。\n\n未来需要关注该库在智能体开发方面的功能扩展以及开发者的实际采用情况。",
+            "context": "随着人工智能在软件开发中的普及，针对主流编程语言如TypeScript的专业开发工具变得越来越重要。",
+            "key_takeaways": [
+              "面向TypeScript的免费开源库。",
+              "专为构建AI应用和智能体设计。",
+              "由Next.js团队打造。"
+            ],
+            "highlights": [
+              "由Vercel开发。",
+              "在GitHub上获得超过27,700颗星标。"
+            ]
+          },
+          "de": {
+            "title": "Vercel veröffentlicht AI SDK für TypeScript",
+            "summary": "Vercel hat das AI SDK entwickelt, eine kostenlose Open-Source-Bibliothek für TypeScript zur Erstellung von KI-gestützten Anwendungen und Agenten.",
+            "why_it_matters": "Es bietet TypeScript-Entwicklern ein strukturiertes Toolkit, um die Integration von künstlicher Intelligenz und Agenten in Softwareprojekte zu vereinfachen.",
+            "extended_analysis": "Das von den Machern von Next.js entworfene AI SDK richtet sich an Entwickler, die künstliche Intelligenz in TypeScript-Umgebungen einbinden möchten.\n\nDas Projekt wird als kostenlose Open-Source-Bibliothek bereitgestellt und verzeichnet auf GitHub über 27.000 Sterne.\n\nIn Zukunft wird zu beobachten sein, wie sich die Funktionen für Agenten weiterentwickeln und wie stark die Bibliothek angenommen wird.",
+            "context": "Die Nachfrage nach spezialisierten Software-Toolkits für künstliche Intelligenz in etablierten Programmiersprachen wie TypeScript wächst im modernen Web-Ökosystem stetig.",
+            "key_takeaways": [
+              "Kostenlose Open-Source-Bibliothek für TypeScript.",
+              "Entwickelt für KI-Anwendungen und Agenten.",
+              "Von den Schöpfern von Next.js."
+            ],
+            "highlights": [
+              "Entwickelt von Vercel.",
+              "Über 27.700 Sterne auf GitHub."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 65,
+        "editor_pick_reason": ""
+      }
     }
   },
   "daily": {
-    "date": "2026-11-06",
-    "count": 13,
+    "date": "2026-11-07",
+    "count": 3,
     "picks": 0
   }
 }
