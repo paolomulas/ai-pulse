@@ -2564,87 +2564,87 @@
       }
     },
     "ac3db777f5aac1cf97986b034f59b4c3bba5699e627acc03ae32695b1a5719b2": {
-      "fingerprint": "32e16f5cf5391b58e12a9ab0cae014ceeb042e13cd557f4a1083a9fba2c48a35",
+      "fingerprint": "7f4fa1fbdd6de0097a5d85e4f8ba074a5b80b001fba34c63b9e142c0532743d3",
       "editorial": {
         "editorial": {
           "it": {
-            "title": "TV Detox: ringiovanire le vecchie Android TV con l'IA",
-            "summary": "Un nuovo progetto open source su GitHub intitolata tv-detox promette di velocizzare le vecchie Android TV rimuovendo pubblicità e bloatware tramite strumenti di codifica basati su intelligenza artificiale come Claude Code o Codex.",
-            "why_it_matters": "Offre agli utenti un metodo assistito dall'intelligenza artificiale per ripulire l'interfaccia dei televisori rallentati, sostituendo le schermate affollate con un design essenziale privo di inserzioni.",
-            "extended_analysis": "Il progetto tv-detox sfrutta la combinazione di un'interfaccia minimale e di prompt guidati per l'agente di codifica, consentendo di disattivare le app di sistema non necessarie senza rimuoverle permanentemente.\n\nSebbene offra un'alternativa pulita alle interfacce originali cariche di sponsorizzazioni, la documentazione ricorda che la disattivazione di alcune applicazioni di sistema comporta rischi operativi e richiede attenzione durante l'esecuzione.",
-            "context": "Molte smart TV meno recenti subiscono rallentamenti progressivi a causa di aggiornamenti pesanti e interfacce piene di contenuti sponsorizzati, spingendo gli sviluppatori a cercare soluzioni alternative.",
+            "title": "tv-detox: ringiovanire le vecchie Android TV con l'IA",
+            "summary": "Il progetto GitHub tv-detox propone una soluzione per velocizzare le vecchie Android TV rimuovendo bloatware, pubblicità e schermate sponsorizzate tramite l'ausilio di assistenti di codifica come Claude Code o Codex.",
+            "why_it_matters": "Offre un metodo alternativo per ripristinare le prestazioni dei dispositivi televisivi datati attraverso un'interfaccia minimale e senza annunci pubblicitari.",
+            "extended_analysis": "Il repository GitHub tv-detox affronta il problema dell'obsolescenza software dei televisori Android più datati. Sfruttando strumenti di intelligenza artificiale orientati alla scrittura di codice come Claude Code o Codex, gli utenti possono seguire una procedura guidata per disattivare le applicazioni di sistema superflue.\n\nLa soluzione mira a sostituire la schermata principale originale con un'interfaccia ridotta all'osso, focalizzata unicamente sulle app installate, sugli ingressi HDMI e su un orologio. Il sistema prevede inoltre la possibilità di annullare le modifiche, disattivando temporaneamente i pacchetti software senza eliminarli definitivamente dal dispositivo.\n\nTuttavia, la documentazione stessa avverte che la manipolazione delle app di sistema comporta rischi operativi, inclusi possibili blocchi del dispositivo se non eseguita con attenzione.",
+            "context": "Molti dispositivi smart TV basati su Android tendono a rallentare nel corso degli anni a causa degli aggiornamenti software, delle applicazioni preinstallate dai produttori e dei contenuti pubblicitari dinamici inseriti nella schermata iniziale.",
             "key_takeaways": [
-              "Sostituisce le schermate piene di pubblicità con un'interfaccia essenziale.",
-              "Utilizza assistenti di codifica IA per guidare la pulizia del sistema.",
-              "Disattiva le app di sistema indesiderate senza eliminarle definitivamente."
+              "Utilizza assistenti di codifica come Claude Code o Codex per guidare la pulizia.",
+              "Fornisce una schermata iniziale minimale senza pubblicità o righe sponsorizzate.",
+              "Disattiva le applicazioni di sistema invece di eliminarle permanentemente, con opzione di ripristino."
             ],
             "highlights": [
-              "Richiede l'attivazione del debug USB e della modalità sviluppatore sulla TV.",
-              "Progetto disponibile su GitHub con licenza MIT."
+              "Rimuove bloatware e inserzioni pubblicitarie dalle vecchie Android TV.",
+              "Richiede l'attivazione della modalità sviluppatore e del debug USB sul televisore."
             ]
           },
           "en": {
-            "title": "TV Detox: Revitalizing Old Android TVs with AI Assistance",
-            "summary": "An open-source GitHub repository named tv-detox helps speed up slow Android TVs by providing a tiny, ad-free home screen replacement alongside prompts designed for AI coding tools like Claude Code or Codex.",
-            "why_it_matters": "It introduces a practical, AI-guided method to reclaim older hardware from bloated manufacturer interfaces and intrusive sponsored rows.",
-            "extended_analysis": "The project combines a lightweight alternative launcher with natural-language developer prompts that coordinate system cleanups over a local network. By disabling rather than deleting system apps, it preserves safety while stripping away unnecessary visual clutter.\n\nUsers must enable developer options and USB debugging on their television, keeping in mind that altering system apps carries inherent risks.",
-            "context": "Aging smart TV interfaces frequently degrade in performance over time due to heavy advertising payloads and background telemetry services.",
+            "title": "tv-detox: Speed up old Android TVs using Claude Code or Codex",
+            "summary": "The tv-detox GitHub repository offers a method to clean up and speed up old Android TVs by removing ads, bloatware, and sponsored rows using coding assistants like Claude Code or Codex.",
+            "why_it_matters": "It provides a practical way to repurpose sluggish hardware into a streamlined, ad-free viewing experience using automated prompts.",
+            "extended_analysis": "The project centers around a tiny, ad-free home screen replacement designed to strip away the performance-heavy elements typically found on older smart TVs. By employing AI coding agents such as Claude Code or Codex, users interact via prompts to manage and disable unnecessary system packages.\n\nThe setup process requires enabling developer options and USB debugging on the TV, followed by connecting a laptop on the same local network. The approach turns off applications rather than permanently deleting them, providing an undo mechanism in case functionality needs to be restored.\n\nDevelopers should note the explicit warnings in the repository documentation regarding the potential risks of system-level modifications, as improper execution can occasionally cause devices to become unresponsive.",
+            "context": "Aging smart television interfaces frequently suffer from lag and intrusive sponsored content due to accumulated background services and heavy proprietary launchers.",
             "key_takeaways": [
-              "Replaces standard launcher bloat with a clean apps-and-clock interface.",
-              "Leverages AI coding tools to execute device cleanup scripts.",
-              "Ensures safety by disabling apps rather than permanently deleting them."
+              "Leverages AI coding tools like Claude Code or Codex for automated execution.",
+              "Replaces standard launcher interfaces with a minimal screen featuring apps, inputs, and a clock.",
+              "Includes safety cautions and an undo path for disabled system apps."
             ],
             "highlights": [
-              "Hosted on GitHub under an MIT license.",
-              "Requires laptop and TV to be on the same local Wi-Fi network."
+              "Removes bloatware, ads, and sponsored rows from supported Android TV models.",
+              "Operates over local Wi-Fi utilizing standard Android debugging bridges."
             ]
           },
           "es": {
-            "title": "TV Detox: Revive Smart TVs antiguas con ayuda de IA",
-            "summary": "Un proyecto en GitHub llamado tv-detox propone acelerar televisores Android TV antiguos mediante una interfaz ligera sin anuncios y comandos orientados a herramientas de IA como Claude Code o Codex.",
-            "why_it_matters": "Proporciona una alternativa impulsada por inteligencia artificial para eliminar la publicidad y el exceso de software preinstalado que ralentizan los dispositivos antiguos.",
-            "extended_analysis": "La iniciativa utiliza un entorno minimalista que muestra únicamente aplicaciones, entradas HDMI y la hora, eliminando las filas patrocinadas habituales.\n\nLos usuarios interactúan a través de herramientas de código basadas en IA conectadas en la misma red Wi-Fi, aunque se advierte que modificar aplicaciones del sistema conlleva ciertos riesgos operativos.",
-            "context": "El rendimiento de los televisores inteligentes tiende a disminuir con los años debido a la acumulación de servicios en segundo plano y interfaces sobrecargadas.",
+            "title": "tv-detox: Revive tu vieja Android TV con ayuda de la IA",
+            "summary": "El repositorio tv-detox en GitHub permite acelerar televisores Android antiguos eliminando la publicidad y el bloatware mediante el uso de asistentes de código como Claude Code o Codex.",
+            "why_it_matters": "Presenta una alternativa para simplificar la interfaz de los televisores obsoletos, eliminando elementos innecesarios y optimizando el rendimiento general.",
+            "extended_analysis": "El proyecto aborda la lentitud de los dispositivos Android TV veteranos mediante una combinación de comandos guiados por inteligencia artificial y una pantalla de inicio minimalista y sin anuncios.\n\nUtilizando herramientas como Claude Code o Codex desde un ordenador conectado a la misma red Wi-Fi, los usuarios pueden desactivar aplicaciones de sistema que ralentizan el dispositivo. El enfoque prioriza la desactivación frente a la desinstalación total, permitiendo revertir los cambios si fuera necesario.\n\nNo obstante, los creadores advierten que la modificación de las aplicaciones del sistema conlleva riesgos, existiendo la posibilidad de que algunos modelos sufran bloqueos si el proceso no se realiza con precaución.",
+            "context": "Los televisores inteligentes con sistemas operativos basados en Android suelen acumular capas de software y contenido publicitario que degradan su fluidez con el paso del tiempo.",
             "key_takeaways": [
-              "Ofrece una pantalla de inicio minimalista y sin anuncios.",
-              "Utiliza agentes de IA para automatizar la limpieza del dispositivo.",
-              "Desactiva las aplicaciones problemáticas en lugar de eliminarlas."
+              "Emplea agentes de código de IA para automatizar la limpieza del sistema.",
+              "Sustituye la interfaz recargada por una pantalla limpia que muestra solo aplicaciones y entradas HDMI.",
+              "Incluye advertencias sobre los riesgos de modificar aplicaciones del sistema."
             ],
             "highlights": [
-              "Requiere habilitar la depuración USB en el televisor.",
-              "Repositorio disponible públicamente en GitHub."
+              "Elimina bloatware y filas patrocinadas de televisores antiguos.",
+              "Requiere habilitar la depuración USB y la conexión local por Wi-Fi."
             ]
           },
           "zh-CN": {
-            "title": "TV Detox：借助人工智能让旧版 Android 电视重新流畅",
-            "summary": "GitHub 上的一个开源项目 tv-detox 旨在通过精简、无广告的主屏幕替代方案，结合 Claude Code 或 Codex 等 AI 编码工具的提示词，让运行缓慢的旧款 Android TV 恢复速度。",
-            "why_it_matters": "它为用户提供了一种由人工智能辅助的方法，清理电视上的冗余应用和植入广告，带来更纯净的操作体验。",
-            "extended_analysis": "该项目通过轻量级主屏幕和本地网络连接的 AI 编码助手，帮助用户安全地禁用不需要的系统应用而非彻底删除。\n\n尽管能显著提升旧设备的响应速度，但官方文档也提醒修改系统应用存在潜在风险，操作前需开启开发者模式与 USB 调试。",
-            "context": "随着系统更新和广告内容增多，许多早期的智能电视逐渐出现运行卡顿和界面臃肿的问题。",
+            "title": "tv-detox：借助 AI 助手清理并加速老旧 Android 电视",
+            "summary": "GitHub 上的 tv-detox 项目利用 Claude Code 或 Codex 等编码助手，帮助用户清理老旧 Android 电视上的臃肿软件和广告，恢复运行速度。",
+            "why_it_matters": "它提供了一种精简老旧电视系统、移除多余广告与推广内容的方法，改善设备的响应表现。",
+            "extended_analysis": "随着时间推移，许多基于 Android 的智能电视会因为系统更新、预装软件和动态广告而变慢。tv-detox 项目通过精简的无广告主屏幕和由 AI 编码工具驱动的提示词流程来解决这一问题。\n\n用户需要在电视上开启开发者模式和 USB 调试，并通过同一局域网连接笔记本电脑来运行相关指令。该项目采用停用系统应用而非永久删除的方式，并提供了撤销机制。\n\n不过，官方文档也明确提示，修改系统级应用存在一定风险，部分电视型号在操作不当时可能会出现卡死现象。",
+            "context": "智能电视在长期使用后常常因后台进程堆积和繁重的桌面启动器而出现卡顿和广告泛滥的情况。",
             "key_takeaways": [
-              "提供仅包含应用、输入源和时钟的无广告界面。",
-              "利用 AI 编码工具自动执行精简脚本。",
-              "采用禁用而非删除应用的方式以保留恢复能力。"
+              "利用 Claude Code 或 Codex 等 AI 编码工具辅助执行清理流程。",
+              "提供仅包含应用、HDMI 输入及时钟的极简无广告主屏幕。",
+              "支持随时撤销操作，通过停用而非删除应用来保证灵活性。"
             ],
             "highlights": [
-              "托管于 GitHub 平台并采用 MIT 开源许可证。",
-              "要求电视与笔记本电脑连接至同一局域网。"
+              "清除 Android 电视上的臃肿软件、广告和赞助内容行。",
+              "需要电视开启 USB 调试并通过本地 Wi-Fi 连接进行操作。"
             ]
           },
           "de": {
-            "title": "TV Detox: Alte Android TVs mit KI-Hilfe beschleunigen",
-            "summary": "Ein GitHub-Projekt namens tv-detox zielt darauf ab, träge Android-Fernseher durch einen minimalistischen, werbefreien Startbildschirm und KI-gestützte Befehle für Tools wie Claude Code oder Codex zu beschleunigen.",
-            "why_it_matters": "Es bietet einen KI-unterstützten Ansatz, um ältere Hardware von überladenen Herstelleroberflächen und störender Werbung zu befreien.",
-            "extended_analysis": "Das Projekt kombiniert eine schlanke Benutzeroberfläche mit Skripten, die über KI-Codierungswerkzeuge im lokalen Netzwerk ausgeführt werden. System-Apps werden dabei deaktiviert statt dauerhaft gelöscht, um Risiken zu minimieren.\n\nDa Eingriffe in das System zu Problemen führen können, sind USB-Debugging und Vorsicht bei der Ausführung erforderlich.",
-            "context": "Mit der Zeit neigen ältere Smart-TV-Schnittstellen dazu, durch umfangreiche Werbung und Hintergrundprozesse an Leistung zu verlieren.",
+            "title": "tv-detox: Alte Android-Fernseher mit KI-Hilfe beschleunigen",
+            "summary": "Das GitHub-Projekt tv-detox bietet eine Methode, um träge Android-Fernseher durch das Entfernen von Bloatware und Werbung mit Hilfe von KI-Coding-Assistenten wie Claude Code oder Codex zu beschleunigen.",
+            "why_it_matters": "Es zeigt einen praktischen Ansatz, um ältere Fernseher durch eine minimalistische, werbefreie Benutzeroberfläche wieder nutzbar zu machen.",
+            "extended_analysis": "Viele ältere Smart-TVs mit Android-Betriebssystem neigen im Laufe der Zeit dazu, durch vorinstallierte Apps, Hintergrunddienste und Werbung langsamer zu werden. Das tv-detox-Repository setzt hier an, indem es eine minimalistische Startseite bereitstellt und KI-Agenten nutzt, um den Bereinigungsprozess zu steuern.\n\nÜber eine lokale WLAN-Verbindung und aktivierte USB-Debugging-Optionen auf dem Fernseher lassen sich mithilfe von Claude Code oder Codex Systemanwendungen deaktivieren, anstatt sie dauerhaft zu löschen. Dies erlaubt es, Änderungen bei Bedarf rückgängig zu machen.\n\nDie Dokumentation weist jedoch ausdrücklich darauf hin, dass Eingriffe in System-Apps Risiken bergen und bei einigen Fernsehmodellen zu unerwarteten Problemen führen können.",
+            "context": "Ältere Smart-TV-Oberflächen leiden häufig unter Leistungsabfällen und aufdringlichen Werbeeinblendungen, die durch umfangreiche Hersteller-Launcher und Bloatware verursacht werden.",
             "key_takeaways": [
-              "Ersetzt werbelastige Startbildschirme durch eine minimalistische Ansicht.",
-              "Nutzt KI-Agenten zur Ausführung von Bereinigungsbefehlen.",
-              "Deaktiviert Apps sicher, anstatt sie unwiderruflich zu löschen."
+              "Nutzt KI-Coding-Tools wie Claude Code oder Codex für automatisierte Befehle.",
+              "Ersetzt den Standard-Launcher durch einen übersichtlichen Startbildschirm ohne Werbung.",
+              "Ermöglicht das Deaktivieren statt Löschen von System-Apps mit integrierter Undo-Funktion."
             ],
             "highlights": [
-              "Verfügbar als GitHub-Repository mit MIT-Lizenz.",
-              "Setzt die Aktivierung des USB-Debuggings voraus."
+              "Entfernt Bloatware, Werbung und gesponserte Inhalte von Android-TVs.",
+              "Setzt die Aktivierung des Entwicklermodus und USB-Debuggings voraus."
             ]
           }
         },
@@ -8071,11 +8071,290 @@
         "relevance_score": 10,
         "editor_pick_reason": ""
       }
+    },
+    "edb1ffd4ab2cc68e373bb2e59e996bea1ed997ffc3fae509f743114bb144b00f": {
+      "fingerprint": "f1b269d60199a244cfdab94dda78a216ac7b2923bc7e9a02ebbee31d506cd17b",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Costruire le fondamenta per l'era dell'IA agentica",
+            "summary": "Angie Jones, VP della Agentic AI Foundation, discute con Chris degli standard aperti e dei progetti come MCP, A2A e Goose che plasmano il futuro dell'IA. L'episodio esplora l'adozione aziendale, gli standard neutrali e il bilanciamento tra deleghe all'IA e azione umana.",
+            "why_it_matters": "Comprendere gli standard aperti è fondamentale per consentire a sistemi, agenti e strumenti di cooperare su scala globale e guidare l'adozione tecnologica aziendale.",
+            "extended_analysis": "Nel panorama tecnologico attuale, la transizione verso sistemi in grado di operare autonomamente richiede un'infrastruttura condivisa e trasparente. Questo episodio esamina come la collaborazione aperta e protocolli specifici possano gettare le basi per un ecosistema interconnesso.\n\nVengono analizzate le sfide legate all'adozione dell'intelligenza artificiale all'interno delle organizzazioni e l'importanza di mantenere una prospettiva globale sugli standard neutrali, offrendo spunti su come bilanciare il lavoro umano e automatizzato.",
+            "context": "Il dibattito sugli standard aperti per l'intelligenza artificiale riflette la crescente necessità di interoperabilità tra differenti piattaforme e agenti autonomi nel contesto aziendale moderno.",
+            "key_takeaways": [
+              "Il ruolo degli standard aperti e dei progetti come MCP, A2A e Goose nell'era dell'IA.",
+              "Strategie e sfide per guidare l'adozione dell'IA in tutta l'organizzazione.",
+              "Il bilanciamento tra le attività delegate all'IA e quelle gestite dagli esseri umani."
+            ],
+            "highlights": [
+              "Ospite: Angie Jones, VP della Agentic AI Foundation.",
+              "Conduttore: Chris Benson."
+            ]
+          },
+          "en": {
+            "title": "Building the Foundation for the Agentic AI Era",
+            "summary": "Angie Jones, VP of the Agentic AI Foundation, joins Chris to discuss open standards and projects like MCP, A2A, and Goose shaping the agentic future. They explore enterprise AI adoption, neutral standards, and balancing human delegation.",
+            "why_it_matters": "Understanding open standards is essential for enabling disparate agents, tools, and systems to work together at scale across modern organizations.",
+            "extended_analysis": "As autonomous systems evolve, creating a collaborative ecosystem depends heavily on neutral frameworks and interoperability protocols. This episode provides a detailed look at the mechanisms driving cooperation in the agentic era.\n\nDiscussions focus on overcoming barriers to enterprise-wide adoption and evaluating the precise boundary where humans should delegate tasks versus maintaining direct control.",
+            "context": "The push toward agentic AI highlights a broader industry shift toward unified, open architectures to prevent fragmentation and support scalable deployments.",
+            "key_takeaways": [
+              "Open standards and projects shaping the agentic future including MCP, A2A, and Goose.",
+              "Key factors and challenges in driving AI adoption across an entire organization.",
+              "Finding the right balance between human intervention and AI delegation."
+            ],
+            "highlights": [
+              "Featuring Angie Jones, VP of the Agentic AI Foundation.",
+              "Hosted by Chris Benson."
+            ]
+          },
+          "es": {
+            "title": "Construyendo los cimientos para la era de la IA agéntica",
+            "summary": "Angie Jones, VP de la Agentic AI Foundation, conversa con Chris sobre los estándares abiertos y proyectos como MCP, A2A y Goose que dan forma al futuro agéntico. Exploran la adopción empresarial, los estándares neutrales y el equilibrio humano.",
+            "why_it_matters": "Los estándares abiertos son fundamentales para permitir que sistemas, herramientas y agentes operen conjuntamente a escala dentro de las organizaciones.",
+            "extended_analysis": "A medida que los sistemas autónomos avanzan, la necesidad de una infraestructura interoperable y neutral se vuelve prioritaria. Este episodio aborda las iniciativas clave que facilitan la colaboración en el ecosistema actual.\n\nSe analizan las complejidades de integrar la inteligencia artificial en toda la empresa y la importancia de definir correctamente qué tareas deben delegarse en los sistemas automatizados.",
+            "context": "La evolución hacia la IA agéntica responde a la necesidad de estandarizar la interoperabilidad para que múltiples herramientas colaboren de manera eficiente.",
+            "key_takeaways": [
+              "Proyectos y estándares abiertos clave como MCP, A2A y Goose.",
+              "Retos y estrategias para impulsar la adopción de IA en las empresas.",
+              "El equilibrio operativo entre la delegación a la IA y la intervención humana."
+            ],
+            "highlights": [
+              "Invitada: Angie Jones, VP de la Agentic AI Foundation.",
+              "Con la participación de Chris Benson."
+            ]
+          },
+          "zh-CN": {
+            "title": "为智能体AI时代构建基础架构",
+            "summary": "Agentic AI Foundation副总裁Angie Jones与Chris一同探讨塑造智能体未来的开放标准与项目，包括MCP、A2A和Goose。双方还探讨了企业AI采用、中立标准以及人类委托的平衡。",
+            "why_it_matters": "理解开放标准对于实现不同工具、系统和智能体在大规模环境下的协同工作至关重要。",
+            "extended_analysis": "随着自主系统的不断发展，构建一个能够协作的生态系统依赖于中立的框架和互操作性协议。本节目深入剖析了推动智能体时代合作的核心机制。\n\n讨论重点在于克服企业级应用的障碍，并评估人类应在何种程度上将任务委托给自动化系统与保持直接控制之间的平衡。",
+            "context": "向智能体AI的过渡反映了整个行业对统一、开放架构的追求，旨在防止碎片化并支持可扩展的部署。",
+            "key_takeaways": [
+              "塑造智能体未来的开放标准与项目，包括MCP、A2A和Goose。",
+              "在整个组织中推动AI采用的关键因素与挑战。",
+              "在人类干预和AI委托之间找到正确的平衡点。"
+            ],
+            "highlights": [
+              "嘉宾：Agentic AI Foundation副总裁Angie Jones。",
+              "主持人：Chris Benson。"
+            ]
+          },
+          "de": {
+            "title": "Das Fundament für die Ära der agentenbasierten KI legen",
+            "summary": "Angie Jones, VP der Agentic AI Foundation, spricht mit Chris über offene Standards und Projekte wie MCP, A2A und Goose, die die KI-Zukunft prägen. Sie beleuchten unternehmensweite Einführung, neutrale Standards und menschliche Delegation.",
+            "why_it_matters": "Offene Standards sind unerlässlich, damit unterschiedliche Agenten, Werkzeuge und Systeme in großem Maßstab nahtlos zusammenarbeiten können.",
+            "extended_analysis": "Mit der Weiterentwicklung autonomer Systeme wächst die Bedeutung neutraler Rahmenwerke und interoperabler Protokolle. Diese Episode beleuchtet die Mechanismen, die die Zusammenarbeit im Bereich der agentenbasierten KI vorantreiben.\n\nIm Fokus stehen die Bewältigung von Hürden bei der unternehmensweiten Implementierung sowie die Frage, wie die Grenze zwischen automatisierter Delegation und menschlicher Kontrolle gezogen werden sollte.",
+            "context": "Der Trend zur agentenbasierten KI verdeutlicht das branchenweite Bedürfnis nach einheitlichen, offenen Architekturen zur Vermeidung von Fragmentierung.",
+            "key_takeaways": [
+              "Offene Standards und Projekte wie MCP, A2A und Goose im Fokus.",
+              "Herausforderungen und Ansätze zur Förderung der KI-Einführung in Unternehmen.",
+              "Die richtige Balance zwischen menschlicher Kontrolle und KI-Delegation."
+            ],
+            "highlights": [
+              "Zu Gast: Angie Jones, VP der Agentic AI Foundation.",
+              "Moderation: Chris Benson."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 50,
+        "editor_pick_reason": ""
+      }
+    },
+    "10a1b7614cecae631e9560e02f9e9e65a7a701fb126552d70ec7955759c3a413": {
+      "fingerprint": "b538449cdff85add77466d38f899dc0a8332626bf7ee829b33e6c27894e328d7",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Competenza IA: da utenti a costruttori",
+            "summary": "Mentre l'intelligenza artificiale trasforma le organizzazioni, le aziende si interrogano su come definire la competenza IA per la forza lavoro. Ne discutono i conduttori con l'ospite Mike Lewis, esplorando il framework L0-L3 e il ruolo dei costruttori non tecnici.",
+            "why_it_matters": "Comprendere il passaggio da semplici utenti a costruttori di soluzioni IA consente alle aziende di superare la resistenza al cambiamento e trovare un reale valore di business misurabile.",
+            "extended_analysis": "L'episodio affronta la complessa transizione delle competenze all'interno delle organizzazioni che integrano l'intelligenza artificiale. Con il ritorno di Mike Lewis, Chief AI Architect presso TiER1 Performance, il dibattito si sposta su come guidare l'adattamento dei dipendenti senza imporre adozioni calate dall'alto.\n\nViene esaminato in dettaglio il framework L0-L3, ponendo l'accento sui costruttori non tecnici e su come trasformare la conoscenza tacita in processi aziendali duraturi. Vengono inoltre affrontate le dinamiche della resistenza all'IA e l'importanza di individuare le persone giuste per sviluppare soluzioni efficaci.",
+            "context": "Il panorama aziendale moderno richiede una riflessione strategica sull'alfabetizzazione digitale e sull'integrazione di agenti e flussi di lavoro basati sull'intelligenza artificiale.",
+            "key_takeaways": [
+              "Esplorazione del framework L0-L3 per la competenza IA.",
+              "Il ruolo cruciale dei costruttori non tecnici nelle organizzazioni.",
+              "Strategie per superare la resistenza all'IA e trovare valore di business."
+            ],
+            "highlights": [
+              "Mike Lewis, Chief AI Architect di TiER1 Performance, è l'ospite della puntata.",
+              "Discussione focalizzata sul passaggio da utenti a costruttori di soluzioni IA."
+            ]
+          },
+          "en": {
+            "title": "AI Proficiency: From Users to Builders",
+            "summary": "As AI reshapes organizations, companies are redefining workforce AI proficiency beyond mere adoption mandates. Guest Mike Lewis joins the hosts to explore the L0-L3 framework, non-technical builders, and measuring business value.",
+            "why_it_matters": "Navigating workforce transformation requires shifting employees from passive users to active builders while overcoming resistance and turning tacit knowledge into durable processes.",
+            "extended_analysis": "This episode delves into the evolving demands of artificial intelligence in the workplace, focusing on how organizations can foster adaptation rather than enforcing adoption. Returning guest Mike Lewis, Chief AI Architect at TiER1 Performance, guides the discussion alongside Dan and Chris.\n\nThe conversation breaks down the L0-L3 proficiency framework, highlighting the critical contributions of non-technical builders. They also tackle practical challenges such as addressing AI resistance, identifying the right talent to build solutions, and translating tacit knowledge into lasting operational workflows.",
+            "context": "Modern enterprises are actively seeking frameworks to measure and develop AI capabilities across diverse teams without relying purely on top-down mandates.",
+            "key_takeaways": [
+              "Understanding the L0-L3 AI proficiency framework.",
+              "Empowering non-technical builders within the workforce.",
+              "Converting tacit knowledge into measurable, durable business processes."
+            ],
+            "highlights": [
+              "Featuring Mike Lewis, Chief AI Architect at TiER1 Performance.",
+              "Discussion on overcoming AI resistance and identifying solution builders."
+            ]
+          },
+          "es": {
+            "title": "Competencia en IA: de usuarios a creadores",
+            "summary": "A medida que la IA transforma las organizaciones, las empresas evalúan cómo definir la competencia en IA sin imponer su adopción. El invitado Mike Lewis analiza el marco L0-L3 y el rol de los creadores no técnicos.",
+            "why_it_matters": "Definir la competencia en IA ayuda a las empresas a superar la resistencia interna y a transformar el conocimiento tácito en procesos comerciales duraderos y medibles.",
+            "extended_analysis": "El episodio aborda los retos de adaptar la fuerza laboral a la inteligencia artificial sin recurrir a mandatos forzosos. Con el regreso de Mike Lewis, arquitecto jefe de IA en TiER1 Performance, los conductores exploran el marco de competencia L0-L3.\n\nLa conversación examina cómo identificar a las personas adecuadas para crear soluciones basadas en IA y la importancia de los creadores no técnicos en el ecosistema empresarial actual.",
+            "context": "Las empresas buscan metodologías efectivas para integrar la inteligencia artificial de manera orgánica y medir su valor real en el rendimiento operativo.",
+            "key_takeaways": [
+              "Análisis detallado del marco de competencia L0-L3.",
+              "El papel fundamental de los creadores no técnicos.",
+              "Estrategias para superar la resistencia y hallar valor comercial."
+            ],
+            "highlights": [
+              "Participación de Mike Lewis, arquitecto jefe de IA en TiER1 Performance.",
+              "Enfoque en la transición de usuarios a creadores de soluciones de IA."
+            ]
+          },
+          "zh-CN": {
+            "title": "AI熟练度：从使用者到构建者",
+            "summary": "随着人工智能持续重塑组织，企业正在探索员工应具备何种AI熟练度，以及如何在不强制推行的情况下帮助员工适应。特邀嘉宾Mike Lewis与主播共同探讨了L0-L3框架与非技术构建者的角色。",
+            "why_it_matters": "通过科学的框架引导员工从被动使用者转变为主动构建者，企业能够有效克服对AI的抵触情绪，并实现可衡量的业务价值。",
+            "extended_analysis": "本期节目深入探讨了人工智能在企业组织中的实际落地与技能转型。TiER1 Performance首席AI架构师Mike Lewis做客节目，与主持人共同剖析了企业在面对AI浪潮时的适应策略。\n\n对话详细介绍了L0-L3熟练度框架，聚焦非技术背景人员如何成为解决方案的构建者，以及如何将隐性知识转化为持久的业务流程和长效价值。",
+            "context": "现代企业在将人工智能融入日常工作流程时，急需科学的评估框架与方法论来指导员工能力提升。",
+            "key_takeaways": [
+              "解析用于衡量AI熟练度的L0-L3框架。",
+              "探讨非技术人员在构建AI解决方案中的重要角色。",
+              "将隐性知识转化为持久商业价值的方法。"
+            ],
+            "highlights": [
+              "TiER1 Performance首席AI架构师Mike Lewis参与本期讨论。",
+              "探讨如何识别合适的人选并克服组织对AI的抵触。"
+            ]
+          },
+          "de": {
+            "title": "KI-Kompetenz: Von Nutzern zu Erstellern",
+            "summary": "Während KI Arbeitsumgebungen verändert, fragen sich Unternehmen, wie KI-Kompetenz aussehen und wie die Anpassung ohne Zwang gelingen kann. Gast Mike Lewis diskutiert mit dem Team das L0-L3-Framework und die Rolle nicht-technischer Gestalter.",
+            "why_it_matters": "Der Wandel hin zu aktiven KI-Gestaltern hilft Unternehmen, Widerstände zu überwinden und messbaren geschäftlichen Nutzen aus technologischen Neuerungen zu ziehen.",
+            "extended_analysis": "Diese Episode beleuchtet die organisatorischen Herausforderungen bei der Integration von künstlicher Intelligenz. Zusammen mit dem zurückkehrenden Gast Mike Lewis, Chief AI Architect bei TiER1 Performance, wird die Frage erörtert, wie Mitarbeiter gezielt gefördert werden können.\n\nIm Mittelpunkt steht dabei das L0-L3-Kompetenzframework sowie die Bedeutung nicht-technischer Ersteller, die implizites Wissen in dauerhafte Geschäftsprozesse übersetzen können. Zudem werden Wege zur Bewältigung von KI-Skepsis aufgezeigt.",
+            "context": "Unternehmen stehen vor der Aufgabe, organisatorische Fähigkeiten im Bereich der künstlichen Intelligenz strukturiert aufzubauen, ohne rein top-down gesteuerte Vorgaben zu nutzen.",
+            "key_takeaways": [
+              "Einführung in das L0-L3-Framework für KI-Kompetenz.",
+              "Die Bedeutung von nicht-technischen Gestaltern im Unternehmen.",
+              "Umsetzung von implizitem Wissen in messbare Geschäftsprozesse."
+            ],
+            "highlights": [
+              "Mitwirkender: Mike Lewis, Chief AI Architect bei TiER1 Performance.",
+              "Fokus auf den Übergang von der bloßen Nutzung zur aktiven Erstellung von KI-Lösungen."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 0,
+        "editor_pick_reason": ""
+      }
+    },
+    "6d2d49a7c0063ed8e6a2737421540393da0ca58e8031fc10a44574b6cd7796fc": {
+      "fingerprint": "d061a606f013d2859846b10f8723f88d98ba47ea2588372025dc43af12cbb8a4",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Libreria di libri multilingue di Faramarz Kowsari su GitHub",
+            "summary": "È stata pubblicata la libreria di libri multilingue ufficiale di Faramarz Kowsari su GitHub. La piattaforma raccoglie testi su intelligenza artificiale, prompt engineering, trading e data science, integrando anteprime di Google Books e navigazione per argomenti.",
+            "why_it_matters": "Questo repository centralizza risorse educative su temi chiave della tecnologia e del business, facilitando l'accesso a contenuti di apprendimento multilingue con strumenti di anteprima integrati.",
+            "extended_analysis": "Il progetto GitHub ospita una raccolta di pubblicazioni focalizzate su domini tecnici e di crescita personale, tra cui intelligenza artificiale, prompt engineering, trading e scienza dei dati. L'integrazione di Google Books e la suddivisione tematica offrono un'interfaccia strutturata per la consultazione.\n\nNon sono stati forniti benchmark o dati di adozione indipendenti. Sarà opportuno osservare l'evoluzione della libreria in termini di aggiornamenti e ampliamento del catalogo multilingue.",
+            "context": "La pubblicazione di raccolte di libri e risorse educative su piattaforme di codice open source riflette una tendenza crescente nella condivisione di materiali didattici digitali e guide tematiche.",
+            "key_takeaways": [
+              "Libreria di libri multilingue ufficiale su GitHub",
+              "Copertura di intelligenza artificiale, prompt engineering e trading",
+              "Integrazione di anteprime Google Books e navigazione per argomenti"
+            ],
+            "highlights": [
+              "Raccolta incentrata su intelligenza artificiale e data science",
+              "Include anteprime di Google Books e filtri tematici"
+            ]
+          },
+          "en": {
+            "title": "Faramarz Kowsari Multilingual Book Library Released on GitHub",
+            "summary": "The official multilingual book library by Faramarz Kowsari has been released on GitHub. It compiles works on artificial intelligence, prompt engineering, trading, data science, and business, featuring Google Books previews and topic browsing.",
+            "why_it_matters": "This repository organizes educational resources across technical and business domains, providing a centralized access point for multilingual readers and learners.",
+            "extended_analysis": "The GitHub repository serves as a centralized hub for books covering various subjects such as AI, prompt engineering, data science, psychology, and personal development. By leveraging Google Books previews and topic-based categorization, it offers an organized reading reference.\n\nNo independent performance benchmarks or user adoption metrics were provided. Future observation will track updates and the expansion of the multilingual catalog.",
+            "context": "Publishing curated educational libraries and indexes on open-source platforms highlights ongoing efforts to make multi-topic learning materials easily accessible.",
+            "key_takeaways": [
+              "Official multilingual book library hosted on GitHub",
+              "Focuses on artificial intelligence, prompt engineering, and trading",
+              "Features integrated Google Books previews and topic browsing"
+            ],
+            "highlights": [
+              "Repository includes books on data science and business",
+              "Provides topic-based browsing and book previews"
+            ]
+          },
+          "es": {
+            "title": "Librería de libros multilingüe de Faramarz Kowsari en GitHub",
+            "summary": "Se ha lanzado en GitHub la librería de libros multilingüe oficial de Faramarz Kowsari. La plataforma recopila obras sobre inteligencia artificial, prompt engineering, trading y ciencia de datos, con vistas previas de Google Books y navegación por temas.",
+            "why_it_matters": "Este repositorio centraliza recursos educativos en áreas técnicas y de negocios, facilitando el acceso a contenidos de lectura multilingüe de forma estructurada.",
+            "extended_analysis": "El proyecto en GitHub reúne publicaciones sobre inteligencia artificial, ingeniería de prompts, trading, ciencia de datos y desarrollo personal. La inclusión de vistas previas de Google Books y la clasificación por temas permiten una consulta directa.\n\nNo se han proporcionado datos sobre adopción o pruebas independientes. Conviene vigilar el mantenimiento del repositorio y la ampliación futura de su biblioteca.",
+            "context": "La publicación de bibliotecas de recursos y catálogos en plataformas abiertas demuestra el uso de repositorios de código para compartir materiales educativos y divulgativos.",
+            "key_takeaways": [
+              "Librería oficial de libros multilingüe en GitHub",
+              "Contiene temas sobre inteligencia artificial y prompt engineering",
+              "Incorpora vistas previas de Google Books y navegación temática"
+            ],
+            "highlights": [
+              "Colección centrada en tecnología, ciencia de datos y negocios",
+              "Usa vistas previas de Google Books para facilitar la consulta"
+            ]
+          },
+          "zh-CN": {
+            "title": "Faramarz Kowsari 多语言图书库在 GitHub 发布",
+            "summary": "Faramarz Kowsari 的官方多语言图书库已在 GitHub 上线。该项目收集了关于人工智能、提示词工程、交易和数据科学等主题的书籍，并整合了谷歌图书预览与主题浏览功能。",
+            "why_it_matters": "该代码库集中了多个技术与商业领域的教育资源，为多语言读者和学习者提供了结构化的查阅入口。",
+            "extended_analysis": "该 GitHub 仓库汇集了涵盖人工智能、提示词工程、数据科学、心理学及个人发展等领域的出版物。通过结合谷歌图书预览与基于主题的分类，它提供了一个直观的阅读参考界面。\n\n目前未提供独立的性能基准测试或采用率数据。未来可关注该代码库的更新情况及其多语言目录的扩展。\n\n在开源平台上发布精选的教育资源库和索引，体现了利用代码托管平台共享多主题学习资料的趋势。",
+            "context": "在开源平台上发布精选的教育资源库和索引，体现了利用代码托管平台共享多主题学习资料的趋势。",
+            "key_takeaways": [
+              "托管于 GitHub 的官方多语言图书库",
+              "涵盖人工智能、提示词工程与数据科学等主题",
+              "集成谷歌图书预览与主题浏览功能"
+            ],
+            "highlights": [
+              "收集人工智能、商业及个人发展类书籍",
+              "支持按主题浏览并提供谷歌图书预览"
+            ]
+          },
+          "de": {
+            "title": "Mehrsprachige Buchbibliothek von Faramarz Kowsari auf GitHub",
+            "summary": "Die offizielle mehrsprachige Buchbibliothek von Faramarz Kowsari wurde auf GitHub veröffentlicht. Sie bündelt Werke zu künstlicher Intelligenz, Prompt Engineering, Trading und Data Science mit integrierten Google-Books-Vorschauen und Themennavigation.",
+            "why_it_matters": "Dieses Repository zentralisiert Bildungsressourcen zu technischen und wirtschaftlichen Themen und bietet einen strukturierten Zugang zu mehrsprachigen Inhalten.",
+            "extended_analysis": "Das GitHub-Projekt dient als Sammlung von Publikationen zu Themen wie KI, Prompt Engineering, Data Science, Wirtschaft und persönlicher Entwicklung. Durch die Einbindung von Google-Books-Vorschauen und themenbasierter Navigation wird eine übersichtliche Recherche ermöglicht.\n\nEs wurden keine unabhängigen Leistungsbenchmarks oder Adoptionsmetriken vorgelegt. Zu beobachten sind künftige Aktualisierungen und der Ausbau des mehrsprachigen Katalogs.\n\nDie Veröffentlichung von kuratierten Bibliotheken auf Open-Source-Plattformen zeigt, wie Code-Repositories zunehmend für die Bereitstellung thematischer Bildungs- und Nachschlagewerke genutzt werden.",
+            "context": "Die Veröffentlichung von kuratierten Bibliotheken auf Open-Source-Plattformen zeigt, wie Code-Repositories zunehmend für die Bereitstellung thematischer Bildungs- und Nachschlagewerke genutzt werden.",
+            "key_takeaways": [
+              "Offizielle mehrsprachige Buchbibliothek auf GitHub",
+              "Schwerpunkte auf künstliche Intelligenz, Prompt Engineering und Trading",
+              "Integrierte Google-Books-Vorschauen und Themennavigation"
+            ],
+            "highlights": [
+              "Sammlung umfasst Fachliteratur zu Data Science und Business",
+              "Bietet themenbasierte Navigation und Buchvorschauen"
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 15,
+        "editor_pick_reason": ""
+      }
     }
   },
   "daily": {
     "date": "2026-11-07",
-    "count": 11,
+    "count": 15,
     "picks": 0
   }
 }
