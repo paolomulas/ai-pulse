@@ -9095,11 +9095,294 @@
         "relevance_score": 82,
         "editor_pick_reason": ""
       }
+    },
+    "a1e9223feb8ac5e5923dcf95848df8347405702e822f54a8a8d23a057c4bbbf0": {
+      "fingerprint": "7e95e6dc15f766e14ee4122a06e60dde50ef017fc7fb95540b6b559532ac3ad4",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "AI:AM: Carbonio nell'Arena, Mistral, economia degli agenti e novità",
+            "summary": "In questo episodio, il podcast esamina i dati reali sull'intelligenza artificiale, ospitando Anastasios Angelopoulos, cofondatore e CEO di Arena (ex LMArena). La discussione tocca temi chiave come il carbonio, il modello Le Chonk di Mistral, l'economia gestita da agenti e le nuove memorie ferroelectric RAM.",
+            "why_it_matters": "Comprendere come le metriche e i dati reali si scontrino con le percezioni comuni sull'IA è fondamentale per valutare lo stato attuale e futuro della tecnologia.",
+            "extended_analysis": "L'episodio offre una panoramica approfondita delle dinamiche attuali nel settore dell'intelligenza artificiale, esaminando il lavoro di Arena nell'audit delle conversazioni reali per individuare comportamenti disallineati.\n\nVengono inoltre esplorati sviluppi tecnici e di mercato rilevanti, tra cui le novità legate a Mistral e le prospettive economiche aperte dai sistemi basati su agenti.",
+            "context": "Il panorama dell'IA richiede sempre più strumenti di verifica rigorosi e analisi basate su dati empirici per superare le semplici enunciazioni teoriche.",
+            "key_takeaways": [
+              "Il ruolo di Arena nell'auditing delle conversazioni reali per la ricerca di comportamenti disallineati.",
+              "Analisi delle nuove tendenze tecnologiche tra cui Mistral Le Chonk e le memorie ferroelectric RAM.",
+              "Discussione sull'evoluzione verso un'economia guidata da agenti autonomi."
+            ],
+            "highlights": [
+              "Ospite Anastasios Angelopoulos, cofondatore e CEO di Arena.",
+              "Esame dei dati reali rispetto alle comuni percezioni sull'IA."
+            ]
+          },
+          "en": {
+            "title": "AI:AM: Carbon in the Arena, Mistral, Agent Economies, and Hacks",
+            "summary": "This episode explores how real-world data challenges common assumptions about AI, featuring Anastasios Angelopoulos, co-founder and CEO of Arena. Topics include carbon in the arena, Mistral's Le Chonk, the agent-run economy, and ferroelectric RAM.",
+            "why_it_matters": "Examining empirical data rather than assumptions helps stakeholders understand the actual behavior, alignment, and infrastructure demands of current AI systems.",
+            "extended_analysis": "The conversation delves into the audit processes used by Arena—formerly known as LMArena—to examine real conversations for misaligned behavior. It connects these evaluation challenges with broader developments across the AI landscape.\n\nListeners also get a glimpse into emerging technical hardware concepts like ferroelectric RAM and economic models driven by autonomous agents.",
+            "context": "As AI integration accelerates, robust evaluation frameworks and critical assessments of underlying resources and architectures become increasingly essential.",
+            "key_takeaways": [
+              "Insights from Arena CEO Anastasios Angelopoulos on auditing real conversational data.",
+              "Exploration of architectural and market developments including Mistral's Le Chonk.",
+              "Discussion on the emerging dynamics of an agent-run economy and hardware updates."
+            ],
+            "highlights": [
+              "Featuring Anastasios Angelopoulos discussing Arena's production data insights.",
+              "Coverage spanning carbon impacts, new models, hardware, and economic shifts."
+            ]
+          },
+          "es": {
+            "title": "AI:AM: Carbono en la Arena, Mistral, economía de agentes y novedades",
+            "summary": "Este episodio analiza cómo los datos reales contrastan con las suposiciones sobre la IA, contando con la participación de Anastasios Angelopoulos, cofundador y CEO de Arena. Se abordan temas como el carbono, Mistral Le Chonk, la economía de agentes y RAM ferroeléctrica.",
+            "why_it_matters": "Contrastar la teoría con los datos empíricos de producción es vital para entender el comportamiento real y los retos de infraestructura de la inteligencia artificial.",
+            "extended_analysis": "El programa examina cómo Arena (anteriormente LMArena) audita conversaciones reales en busca de comportamientos desalineados, ofreciendo una perspectiva basada en datos sobre el rendimiento de los modelos.\n\nAsimismo, se discuten desarrollos clave de la industria, desde nuevas propuestas de hardware hasta modelos económicos emergentes impulsados por agentes.",
+            "context": "El sector tecnológico demanda metodologías de evaluación más rigurosas a medida que los despliegues de IA se expanden en diversos sectores económicos.",
+            "key_takeaways": [
+              "Perspectivas de Arena sobre la auditoría de conversaciones reales y alineación.",
+              "Revisión de tendencias técnicas como Mistral Le Chonk y memorias ferroeléctricas.",
+              "Análisis de las implicaciones de una economía gestionada por agentes de IA."
+            ],
+            "highlights": [
+              "Entrevista con Anastasios Angelopoulos, CEO de Arena.",
+              "Discusión sobre datos de producción y nuevos vectores tecnológicos."
+            ]
+          },
+          "zh-CN": {
+            "title": "AI:AM：竞技场中的碳排放、Mistral、智能体经济与新技术",
+            "summary": "本期节目探讨了真实数据如何打破对人工智能的固有认知，并邀请了 Arena 联合创始人兼首席执行官 Anastasios Angelopoulos 做客。讨论涵盖碳排放、Mistral 的 Le Chonk、智能体驱动的经济以及铁电 RAM。",
+            "why_it_matters": "审视基于实际数据的生产表现有助于行业更客观地评估当前人工智能系统的行为特征与基础设施需求。",
+            "extended_analysis": "节目深入剖析了 Arena（前身为 LMArena）如何审计真实对话以发现未对齐行为，展现了基于数据驱动的评估方法。同时，讨论还涉及硬件创新与新兴智能体经济的发展动向。",
+            "context": "随着人工智能技术的深度落地，建立严格的评估机制与审视底层资源消耗已成为行业关注的核心议题。",
+            "key_takeaways": [
+              "Arena 负责人分享关于真实对话审计与行为对齐的见解。",
+              "探讨包括 Mistral Le Chonk 和铁电 RAM 在内的技术更新。",
+              "分析智能体经济对未来市场结构的潜在影响。"
+            ],
+            "highlights": [
+              "特邀 Arena 联合创始人兼 CEO Anastasios Angelopoulos。",
+              "全面涉猎从硬件、模型到生产数据的多维话题。"
+            ]
+          },
+          "de": {
+            "title": "AI:AM: Kohlenstoff in der Arena, Mistral, Agenten-Ökonomie und Updates",
+            "summary": "Diese Episode beleuchtet, wie reale Daten gängige Annahmen über KI auf den Prüfstand stellen. Zu Gast ist Anastasios Angelopoulos, Mitgründer und CEO von Arena, der Einblicke in die Auditierung realer Konversationen gibt.",
+            "why_it_matters": "Der Abgleich von theoretischen Annahmen mit empirischen Produktionsdaten ist entscheidend, um die tatsächlichen Fähigkeiten und Herausforderungen von KI-Systemen zu bewerten.",
+            "extended_analysis": "Die Sendung widmet sich der Arbeit von Arena (früher bekannt als LMArena) bei der Überprüfung realer Dialoge auf Fehlausrichtungen. Zudem werden aktuelle technologische und wirtschaftliche Entwicklungen beleuchtet.\n\nDazu zählen Erörterungen zu Mistral Le Chonk, hardwareseitigen Innovationen wie ferroelektrischem RAM sowie den breiteren Effekten einer durch Agenten geprägten Wirtschaft.",
+            "context": "In einer sich rasant entwickelnden Technologielandschaft gewinnen datenbasierte Validierungsmethoden und kritische Bestandsaufnahmen zunehmend an Bedeutung.",
+            "key_takeaways": [
+              "Einblicke von Arena-CEO Anastasios Angelopoulos in die Audits realer KI-Konversationen.",
+              "Diskussion technischer Neuerungen wie Mistral Le Chonk und ferroelektrischer RAM.",
+              "Betrachtung wirtschaftlicher und struktureller Trends durch autonome Agenten."
+            ],
+            "highlights": [
+              "Mitwirkender: Anastasios Angelopoulos (Arena).",
+              "Fokus auf reale Produktionsdaten und aktuelle Technologietrends."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 0,
+        "editor_pick_reason": ""
+      }
+    },
+    "b5148657e2fd51697074564973463de39e60484fb9381b3c0f468e4c7d45cf83": {
+      "fingerprint": "e7bbf9ce2f33b41d54b1fd6e7031fafb3aafc8e14d9dd9b23ad36dee944ede31",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Carbono nell'Arena, Mistral e l'economia degli agenti",
+            "summary": "In questo episodio di The Cognitive Revolution, Nathan Labenz e Prakash Narayanan analizzano intuizioni da spettacoli dal vivo. Gli argomenti includono dati sul disallineamento dei modelli nell'Arena, la RAM ferroelettrica di Kepler Computing, economie gestite da agenti e l'addestramento di modelli su larga scala di Mistral.",
+            "why_it_matters": "Esplorare lo stato attuale delle tecnologie emergenti e delle minacce informatiche legate all'IA offre una prospettiva cruciale sulle tendenze tecniche e di mercato odierne.",
+            "extended_analysis": "Il podcast affronta una panoramica di temi all'avanguardia presentati da Nathan Labenz e Prakash Narayanan. Vengono esaminati aspetti chiave come i dati sul disallineamento dei modelli nell'Arena e la RAM ferroelettrica di Kepler Computing.\n\nL'episodio si sposta poi su concetti avanzati come le economie guidate dagli agenti e le nuove minacce informatiche basate sull'IA, oltre all'addestramento di modelli su larga scala da parte di Mistral, delineando il panorama tecnico attuale.",
+            "context": "La discussione si inserisce nel contesto in rapida evoluzione dell'intelligenza artificiale, dove l'analisi dei dati di performance e l'architettura hardware avanzata definiscono il futuro dello sviluppo tecnologico.",
+            "key_takeaways": [
+              "Analisi dei dati sul disallineamento dei modelli nell'Arena.",
+              "Discussione sulla RAM ferroelettrica di Kepler Computing e nuove minacce informatiche.",
+              "Panoramica sull'addestramento di modelli su larga scala di Mistral e sulle economie gestite da agenti."
+            ],
+            "highlights": [
+              "Condotto da Nathan Labenz e Prakash Narayanan.",
+              "Include approfondimenti basati su spettacoli dal vivo."
+            ]
+          },
+          "en": {
+            "title": "Carbon in the Arena, Mistral, and Agent-Run Economies",
+            "summary": "In this episode of The Cognitive Revolution, Nathan Labenz and Prakash Narayanan discuss insights from live shows. Topics cover model misalignment data in the Arena, Kepler Computing's ferroelectric RAM, agent-run economies, AI cyber threats, and Mistral's large-scale model training.",
+            "why_it_matters": "Examining these diverse technological frontiers helps listeners understand the current intersection of hardware innovation, security risks, and advanced AI agent architectures.",
+            "extended_analysis": "Nathan Labenz and Prakash Narayanan guide listeners through insights gathered from live shows. The discussion spans hardware advancements like Kepler Computing's ferroelectric RAM and software challenges such as model misalignment data in the Arena.\n\nThe conversation also tackles complex future frameworks, including agent-run economies and evolving AI cyber threats, alongside details regarding Mistral's large-scale model training initiatives.",
+            "context": "The episode captures a broad spectrum of current technical developments in artificial intelligence, bridging hardware capabilities with economic and security implications of autonomous systems.",
+            "key_takeaways": [
+              "Insights into model misalignment data within the Arena framework.",
+              "Exploration of hardware innovation via Kepler Computing's ferroelectric RAM.",
+              "Overview of agent-run economies and large-scale model training by Mistral."
+            ],
+            "highlights": [
+              "Hosts: Nathan Labenz and Prakash Narayanan.",
+              "Covers AI cyber threats and Mistral's model training."
+            ]
+          },
+          "es": {
+            "title": "Carbono en la Arena, Mistral y la economía de agentes",
+            "summary": "En este episodio de The Cognitive Revolution, Nathan Labenz y Prakash Narayanan analizan perspectivas de presentaciones en vivo. Los temas incluyen datos de desalineación de modelos en la Arena, la RAM ferroeléctrica de Kepler Computing y economías gestionadas por agentes.",
+            "why_it_matters": "Explorar desarrollos recientes en hardware, ciberseguridad y arquitecturas de agentes autónomos ofrece una visión integral del panorama tecnológico actual.",
+            "extended_analysis": "Nathan Labenz y Prakash Narayanan presentan un recorrido por diversos temas avanzados discutidos en espectáculos en vivo. Se analizan datos sobre el desalineamiento de modelos en la Arena y las innovaciones de hardware de Kepler Computing con su RAM ferroeléctrica.\n\nAsimismo, el programa aborda el entrenamiento de modelos a gran escala de Mistral, las economías manejadas por agentes y las amenazas cibernéticas asociadas con la inteligencia artificial.",
+            "context": "La evolución de la inteligencia artificial abarca tanto mejoras en el hardware como la aparición de nuevos paradigmas económicos y de seguridad digital que moldean el sector.",
+            "key_takeaways": [
+              "Revisión de datos sobre el desalineamiento de modelos en la Arena.",
+              "Detalles sobre la RAM ferroeléctrica de Kepler Computing.",
+              "Discusión sobre el entrenamiento de modelos a gran escala de Mistral y economías de agentes."
+            ],
+            "highlights": [
+              "Presentado por Nathan Labenz y Prakash Narayanan.",
+              "Aborda amenazas cibernéticas de IA y economías de agentes."
+            ]
+          },
+          "zh-CN": {
+            "title": "竞技场中的碳、Mistral与智能体经济",
+            "summary": "在本期《The Cognitive Revolution》中，南森·拉本茨（Nathan Labenz）和普拉卡什·纳拉亚南（Prakash Narayanan）探讨了现场节目的见解。话题涵盖竞技场中的模型失调数据、开普勒计算的铁电RAM、智能体运营经济及Mistral的大规模模型训练。",
+            "why_it_matters": "深入了解硬件创新、安全威胁与智能体架构的前沿动态，有助于把握当前人工智能发展的多元趋势。",
+            "extended_analysis": "主持人在本期节目中梳理了多项现场讨论的核心内容。探讨范围从开普勒计算（Kepler Computing）的铁电RAM等硬件创新，延伸至竞技场中的模型失调数据分析。\n\n此外，节目还涉及Mistral的大规模模型训练、智能体运营经济以及人工智能网络安全威胁等重要议题。",
+            "context": "该讨论反映了当前人工智能领域多维度的技术交汇，涵盖了从底层硬件突破到上层经济与安全应用的广泛进展。",
+            "key_takeaways": [
+              "探讨竞技场中的模型失调数据。",
+              "分析开普勒计算的铁电RAM技术。",
+              "审视智能体运营经济与Mistral的模型训练。"
+            ],
+            "highlights": [
+              "由南森·拉本茨和普拉卡什·纳拉亚南主持。",
+              "涵盖人工智能网络安全威胁相关内容。"
+            ]
+          },
+          "de": {
+            "title": "Kohlenstoff in der Arena, Mistral und agentenbasierte Wirtschaft",
+            "summary": "In dieser Episode von The Cognitive Revolution diskutieren Nathan Labenz und Prakash Narayanan Einblicke aus Live-Shows. Themen sind Modellfehlausrichtungsdaten in der Arena, ferroelektrischer RAM von Kepler Computing, agentenbasierte Volkswirtschaften und Mistrals groß angelegtes Modelltraining.",
+            "why_it_matters": "Die Beleuchtung aktueller Hardware-Innovationen, Sicherheitsrisiken und autonomer Agentenstrukturen vermittelt ein umfassendes Bild der gegenwärtigen KI-Landschaft.",
+            "extended_analysis": "Nathan Labenz und Prakash Narayanan präsentieren Erkenntnisse aus Live-Auftritten. Die Sendung beleuchtet technische Details wie Modellfehlausrichtungsdaten in der Arena sowie Hardware-Entwicklungen wie den ferroelektrischen RAM von Kepler Computing.\n\nZudem werden Zukunftsthemen wie agentenbasierte Volkswirtschaften, KI-bezogene Bedrohungen im Cyberraum und das groß angelegte Training von Modellen durch Mistral erörtert.",
+            "context": "Der Podcast verbindet verschiedene Fäden der aktuellen technologischen Entwicklung im Bereich der künstlichen Intelligenz, von Speicherhardware bis hin zu sozioökonomischen Agentenmodellen.",
+            "key_takeaways": [
+              "Analyse von Modellfehlausrichtungsdaten in der Arena.",
+              "Einblicke in ferroelektrischen RAM von Kepler Computing.",
+              "Diskussion über Mistrals Modelltraining und agentenbasierte Volkswirtschaften."
+            ],
+            "highlights": [
+              "Modkiert von Nathan Labenz und Prakash Narayanan.",
+              "Behandelt KI-Bedrohungen im Cyberspace."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 35,
+        "editor_pick_reason": ""
+      }
+    },
+    "db9792e954d447010915e606e8fdb998d92778fb38af9f5ff78336a8db2d0092": {
+      "fingerprint": "e05d1260a460a8ff291b38dd3e75d9c5e4e50d34eb8a0c14eb8529e1eeaa726e",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Merge adotta le tecnologie OpenAI per prodotti e affari",
+            "summary": "Merge adotta GPT-6 Astra, ChatGPT e Codex per revisionare il codice e supportare il marketing. L'azienda sfrutta inoltre l'intelligenza artificiale per pianificare cene esecutive e preparare aggiornamenti di vendita.",
+            "why_it_matters": "L'adozione di strumenti avanzati di intelligenza artificiale in svariati reparti aziendali mostra come le tecnologie OpenAI trovino spazio sia nello sviluppo tecnico sia nella gestione operativa.",
+            "extended_analysis": "Merge impiega tecnologie OpenAI per diverse attività quotidiane, integrando soluzioni come GPT-6 Astra, ChatGPT e Codex. L'uso spazia dalla revisione del codice software al supporto per le attività di marketing.\n\nOltre agli aspetti tecnici, i team aziendali si affidano all'intelligenza artificiale anche per mansioni organizzative e commerciali, come la pianificazione di cene esecutive e la preparazione di aggiornamenti di vendita.",
+            "context": "Le aziende moderne integrano sempre più spesso modelli linguistici avanzati e strumenti di IA generativa per ottimizzare i flussi di lavoro, unendo lo sviluppo software alle operazioni commerciali.",
+            "key_takeaways": [
+              "Merge utilizza GPT-6 Astra, ChatGPT e Codex.",
+              "L'intelligenza artificiale supporta la revisione del codice e il marketing.",
+              "I team pianificano anche cene esecutive e aggiornamenti di vendita tramite IA."
+            ],
+            "highlights": [
+              "Adozione di GPT-6 Astra e Codex per la revisione del codice.",
+              "Impiego dell'IA per la pianificazione di cene esecutive."
+            ]
+          },
+          "en": {
+            "title": "Merge builds product and business tools with OpenAI technology",
+            "summary": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
+            "why_it_matters": "Integrating advanced AI tools across technical and business operations highlights the diverse ways organizations apply OpenAI technology in everyday workflows.",
+            "extended_analysis": "Merge has incorporated OpenAI technology into its product development and business operations. By using tools like GPT-6 Astra, ChatGPT, and Codex, engineering teams review product code while marketing functions receive direct support from language models.\n\nBeyond core technical applications, internal teams leverage AI for logistical and commercial coordination, including planning executive dinners and preparing sales updates.",
+            "context": "As AI models evolve, enterprise adoption increasingly spans both software engineering tasks and administrative or commercial business processes.",
+            "key_takeaways": [
+              "Merge implements GPT-6 Astra, ChatGPT, and Codex.",
+              "AI is deployed for product code review and marketing support.",
+              "Internal teams use AI to coordinate executive dinners and sales updates."
+            ],
+            "highlights": [
+              "Use of GPT-6 Astra and Codex for code review.",
+              "AI assistance applied to marketing and sales updates."
+            ]
+          },
+          "es": {
+            "title": "Merge integra tecnología de OpenAI en sus herramientas",
+            "summary": "Merge utiliza GPT-6 Astra, ChatGPT y Codex para revisar código de productos y respaldar el marketing. Sus equipos también emplean IA para planificar cenas ejecutivas y preparar actualizaciones de ventas.",
+            "why_it_matters": "La aplicación de herramientas avanzadas de IA en múltiples departamentos demuestra la versatilidad de la tecnología de OpenAI en entornos corporativos reales.",
+            "extended_analysis": "La compañía Merge ha incorporado diversas soluciones de OpenAI para optimizar tanto sus procesos técnicos como comerciales. Mediante el uso de GPT-6 Astra, ChatGPT y Codex, los equipos de desarrollo revisan código mientras el área de marketing recibe asistencia automatizada.\n\nAsimismo, las operaciones internas se benefician de la inteligencia artificial para coordinar tareas organizativas, como la planificación de cenas para directivos y la elaboración de informes de ventas.",
+            "context": "Las empresas adoptan tecnologías de IA generativa para agilizar flujos de trabajo que van desde la programación informática hasta la gestión administrativa y comercial.",
+            "key_takeaways": [
+              "Merge emplea GPT-6 Astra, ChatGPT y Codex.",
+              "La IA se utiliza para la revisión de código y tareas de marketing.",
+              "Los equipos planifican cenas ejecutivas y actualizaciones de ventas con IA."
+            ],
+            "highlights": [
+              "Revisión de código mediante GPT-6 Astra y Codex.",
+              "Uso de IA en la planificación ejecutiva y comercial."
+            ]
+          },
+          "zh-CN": {
+            "title": "Merge 借助 OpenAI 技术构建产品与业务工具",
+            "summary": "Merge 使用 GPT-6 Astra、ChatGPT 和 Codex 来审查产品代码并支持营销。其团队还利用人工智能来规划高管晚宴并准备销售更新。",
+            "why_it_matters": "在技术和业务运营中广泛集成先进的AI工具，展示了组织应用OpenAI技术的多样化实际场景。",
+            "extended_analysis": "Merge 已将 OpenAI 技术整合到其产品开发和商业运营中。通过使用 GPT-6 Astra、ChatGPT 和 Codex 等工具，工程团队能够审查产品代码，同时营销部门也获得了语言模型的支持。\n\n除了核心技术应用外，内部团队还利用人工智能来协调后勤和商业事务，包括规划高管晚宴以及准备销售更新报告。",
+            "context": "随着人工智能模型的不断发展，企业采用范围正日益扩展至软件工程任务以及行政和商业业务流程中。",
+            "key_takeaways": [
+              "Merge 部署了 GPT-6 Astra、ChatGPT 和 Codex。",
+              "人工智能被用于产品代码审查和营销支持。",
+              "内部团队利用AI来协调高管晚宴和销售更新。"
+            ],
+            "highlights": [
+              "使用 GPT-6 Astra 和 Codex 进行代码审查。",
+              "将AI协助应用于营销和销售更新。"
+            ]
+          },
+          "de": {
+            "title": "Merge baut Produkt- und Geschäftstools mit OpenAI-Technologie",
+            "summary": "Merge nutzt GPT-6 Astra, ChatGPT und Codex, um Produktcode zu überprüfen und das Marketing zu unterstützen. Die Teams verwenden KI zudem, um Executive Dinners zu planen und Vertriebsupdates vorzubereiten.",
+            "why_it_matters": "Die Integration fortschrittlicher KI-Werkzeuge in technische und geschäftliche Abläufe veranschaulicht die vielfältigen Einsatzmöglichkeiten von OpenAI-Technologien im Unternehmensalltag.",
+            "extended_analysis": "Merge hat OpenAI-Technologien in seine Produktentwicklung und Geschäftsprozesse integriert. Durch den Einsatz von Werkzeugen wie GPT-6 Astra, ChatGPT und Codex überprüfen Entwicklungsteams Produktcode, während Marketingaktivitäten durch Sprachmodelle unterstützt werden.\n\nNeben technischen Anwendungen nutzen interne Teams künstliche Intelligenz auch für administrative und kommerzielle Aufgaben, darunter die Planung von Führungskräftetreffen und das Vorbereiten von Vertriebsberichten.",
+            "context": "Unternehmen setzen zunehmend auf generative KI-Modelle, um Arbeitsabläufe zu optimieren, die sowohl die Softwareentwicklung als auch organisatorische und Vertriebsaufgaben umfassen.",
+            "key_takeaways": [
+              "Merge setzt GPT-6 Astra, ChatGPT und Codex ein.",
+              "KI wird für die Code-Überprüfung und im Marketing genutzt.",
+              "Teams planen Executive Dinners und Vertriebsupdates mithilfe von KI."
+            ],
+            "highlights": [
+              "Einsatz von GPT-6 Astra und Codex für Code-Reviews.",
+              "KI-Unterstützung bei Marketing- und Vertriebsaufgaben."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 45,
+        "editor_pick_reason": ""
+      }
+    },
+    "879883d754638bbbc4ee8a9cd340d0e95876d39f258960a73a7fb287986bd014": {
+      "fingerprint": "e67a2d283c621287611bc13bd7440b82962b2562898a061ccc74f389929ac72e",
+      "retry_after": "2026-11-08T15:30:04.016916+00:00"
     }
   },
   "daily": {
     "date": "2026-11-08",
-    "count": 4,
+    "count": 7,
     "picks": 0
   }
 }
