@@ -2564,190 +2564,12 @@
       }
     },
     "ac3db777f5aac1cf97986b034f59b4c3bba5699e627acc03ae32695b1a5719b2": {
-      "fingerprint": "cb53ef85aa85d56e7d834804977f32b91ee05aa5a5e7c66dfae18e18413ea6a7",
-      "editorial": {
-        "editorial": {
-          "it": {
-            "title": "TV-Detox: ringiovanire la vecchia Android TV con l'IA",
-            "summary": "Un nuovo progetto open source su GitHub sfrutta strumenti come Claude Code o Codex per ripulire le vecchie Android TV da bloatware, pubblicità e sezioni sponsorizzate. L'obiettivo è offrire una schermata iniziale essenziale, priva di annunci e focalizzata solo sulle app e sugli ingressi HDMI.",
-            "why_it_matters": "Trasforma dispositivi smart TV rallentati e sovraccarichi di pubblicità in interfacce pulite e veloci, utilizzando assistenti di programmazione IA per gestire il processo di pulizia.",
-            "extended_analysis": "Il progetto tv-detox, ospitato su GitHub, propone un approccio innovativo per estendere la vita utile di hardware televisivo altrimenti rallentato da interfacce pesanti e cariche di inserzioni. Sfruttando strumenti basati su IA come Claude Code o Codex, gli utenti possono interagire tramite prompt guidati per disabilitare le applicazioni di sistema superflue in modo sicuro.\n\nLa soluzione si concentra sulla creazione di una schermata iniziale minimale, riducendo al minimo il disordine visivo e migliorando la reattività complessiva del dispositivo. Resta fondamentale seguire le avvertenze iniziali fornite dal repository per evitare malfunzionamenti o blocchi del sistema operativo della TV.",
-            "context": "Molti televisori basati su Android TV tendono a rallentare nel corso del tempo a causa di aggiornamenti pesanti e sistemi pubblicitari integrati. Questo progetto open source unisce la gestione dei dispositivi Android tramite ADB e l'automazione offerta dagli assistenti di codifica IA.",
-            "key_takeaways": [
-              "Rimozione di bloatware e banner pubblicitari non necessari.",
-              "Utilizzo di Claude Code o Codex per guidare l'operazione di pulizia.",
-              "Creazione di una schermata iniziale essenziale con sole app e ingressi HDMI."
-            ],
-            "highlights": [
-              "Disponibile come repository open source su GitHub.",
-              "Permette di disattivare le app senza cancellarle definitivamente, con opzione di ripristino."
-            ]
-          },
-          "en": {
-            "title": "TV-Detox: Speed Up Old Android TVs Using AI Assistants",
-            "summary": "A new GitHub project leverages tools like Claude Code or Codex to clean up sluggish Android TVs by removing bloatware, ads, and sponsored rows. It aims to provide a tiny, ad-free home screen featuring only your apps, HDMI inputs, and a clock.",
-            "why_it_matters": "It revives slow, ad-cluttered smart TVs into streamlined, responsive devices by using AI coding assistants to automate the system cleanup process.",
-            "extended_analysis": "The tv-detox repository introduces a practical method to counter the slowdowns and clutter that plague older smart televisions over time. By pairing developer tools like Claude Code or Codex with standard Android debugging features, users can execute prompts that safely disable unwanted system apps and streamline the interface.\n\nThe project emphasizes minimalism, stripping away sponsored content to restore basic functionality and speed. Developers and users should carefully review the documentation and warnings included in the repository before modifying system software.",
-            "context": "Aging smart TVs frequently suffer from interface bloat and heavy advertising frameworks pushed by manufacturers. Combining command-line debugging tools with modern AI code generation offers a new avenue for consumer device customization.",
-            "key_takeaways": [
-              "Eliminates pre-installed bloatware and sponsored rows.",
-              "Leverages AI assistants like Claude Code and Codex for execution.",
-              "Restores a distraction-free home screen containing only essential apps and inputs."
-            ],
-            "highlights": [
-              "Hosted publicly on GitHub under an MIT license.",
-              "Features a reversible approach where system apps are disabled rather than permanently deleted."
-            ]
-          },
-          "es": {
-            "title": "TV-Detox: revitaliza tu viejo Android TV con asistencia de IA",
-            "summary": "Un nuevo proyecto en GitHub utiliza herramientas como Claude Code o Codex para limpiar televisores Android TV lentos, eliminando bloatware, anuncios y filas patrocinadas. El resultado es una interfaz minimalista y libre de publicidad centrada en tus aplicaciones y entradas HDMI.",
-            "why_it_matters": "Permite recuperar el rendimiento y la limpieza visual de televisores inteligentes antiguos mediante el uso de asistentes de IA para automatizar la depuración del sistema.",
-            "extended_analysis": "El repositorio tv-detox aborda el problema común de la degradación del rendimiento en televisores inteligentes antiguos debido a interfaces pesadas y contenido patrocinado. Mediante el uso de agentes de IA, los usuarios pueden seguir instrucciones sencillas para desactivar aplicaciones innecesarias del sistema operativo.\n\nLa iniciativa busca devolver la agilidad a los dispositivos mediante un lanzador limpio y sin distracciones. Es fundamental tener en cuenta las advertencias de seguridad indicadas en el proyecto para evitar problemas operativos en el hardware.",
-            "context": "Las plataformas de Smart TV a menudo acumulan software preinstalado y publicidad que saturan los recursos del dispositivo. Este proyecto conecta herramientas de desarrollo asistido por IA con la depuración de Android.",
-            "key_takeaways": [
-              "Eliminación de aplicaciones basura y anuncios molestos.",
-              "Automatización del proceso mediante Claude Code o Codex.",
-              "Interfaz simplificada con acceso directo solo a lo esencial."
-            ],
-            "highlights": [
-              "Proyecto de código abierto disponible en GitHub.",
-              "Permite revertir los cambios desactivando en lugar de desinstalar permanentemente."
-            ]
-          },
-          "zh-CN": {
-            "title": "TV-Detox：借助AI助手让老旧Android TV重新流畅",
-            "summary": "GitHub上的一项新项目利用Claude Code或Codex等工具清理旧款Android TV中的臃肿软件、广告和赞助内容。该项目旨在打造一个无广告的极简主屏幕，仅保留您的应用程序、HDMI输入和时钟。",
-            "why_it_matters": "通过AI编程助手简化系统清理流程，将运行缓慢、充斥广告的智能电视转变为响应迅速的精简设备。",
-            "extended_analysis": "tv-detox项目为解决老旧智能电视因系统臃肿和广告过多而导致的卡顿问题提供了一种新思路。通过将Claude Code或Codex等AI工具与Android调试桥结合，用户可以按照提示安全地禁用不必要的系统应用。\n\n该方案专注于极简主义设计，去除了多余的赞助内容以恢复基础性能。用户在操作前应仔细阅读仓库中的提示与警告，以确保系统稳定运行。",
-            "context": "随着时间推移，许多智能电视会因厂商的更新和广告推送而变慢。该项目展示了如何将AI编码助手应用于消费级硬件的深度定制与优化。",
-            "key_takeaways": [
-              "清除预装的臃肿软件和广告推荐行。",
-              "使用Claude Code或Codex引导清理流程。",
-              "恢复无干扰的主屏幕，仅显示应用和输入源。"
-            ],
-            "highlights": [
-              "作为开源代码库托管在GitHub上。",
-              "采用停用而非永久删除应用的方式，支持随时撤销更改。"
-            ]
-          },
-          "de": {
-            "title": "TV-Detox: Alte Android-Fernseher mit KI-Hilfe beschleunigen",
-            "summary": "Ein neues GitHub-Projekt nutzt Tools wie Claude Code oder Codex, um träge Android-TV-Geräte von Bloatware, Werbung und gesponserten Inhalten zu befreien. Ziel ist ein minimalistischer, werbefreier Startbildschirm, der nur Apps, HDMI-Eingänge und eine Uhr anzeigt.",
-            "why_it_matters": "Es verwandelt verlangsamte Smart-TVs in aufgeräumte, reaktionsschnelle Geräte, indem KI-basierte Programmierassistenten für die Systembereinigung eingesetzt werden.",
-            "extended_analysis": "Das tv-detox-Repository bietet einen praktischen Lösungsansatz gegen die zunehmende Verlangsamung älterer Smart-TVs durch überladene Benutzeroberflächen und Werbung. Durch die Kombination von KI-Assistenten wie Claude Code oder Codex mit Android-Debugging können Nutzer nicht benötigte System-Apps sicher deaktivieren.\n\nDas Projekt setzt auf radikale Minimalisierung, um die Geräteleistung wiederherzustellen. Nutzer sollten vor der Durchführung unbedingt die im Repository aufgeführten Warnhinweise und Anleitungen beachten, um Kompatibilitätsprobleme zu vermeiden.",
-            "context": "Ältere Smart-TV-Plattformen leiden häufig unter speicherlastigen Benutzeroberflächen und integrierten Werbenetzwerken. Dieses Projekt verknüpft moderne KI-Automatisierung mit klassischen Android-Entwicklerwerkzeugen.",
-            "key_takeaways": [
-              "Entfernung von Bloatware und gesponserten Zeilen.",
-              "Unterstützung durch Claude Code oder Codex bei der Ausführung.",
-              "Wiederherstellung eines ablenkungsfreien Startbildschirms."
-            ],
-            "highlights": [
-              "Öffentlich verfügbar als GitHub-Repository.",
-              "Apps werden deaktiviert statt gelöscht, wodurch Änderungen jederzeit rückgängig gemacht werden können."
-            ]
-          }
-        },
-        "editorial_level": "ai_curated",
-        "editorial_status": "verified",
-        "editorial_model": "gemini-3.5-flash-lite",
-        "editorial_version": 4,
-        "relevance_score": 45,
-        "editor_pick_reason": ""
-      }
+      "fingerprint": "1a811f65a0670511f0072b26a6c56fce2db0f12c8436c790dbe0ba02e77263df",
+      "retry_after": "2026-11-09T12:26:58.313167+00:00"
     },
     "4bef08f5f83b5a9b7dbba2dd2b3d3c98c77e27648541df9e24f911a161e624f6": {
-      "fingerprint": "f4a573c5116203dbf44b7c74c5a9ac19a1b4471d87130b2baca4f7d7652817d6",
-      "editorial": {
-        "editorial": {
-          "it": {
-            "title": "CleanYourTV: rimuovi il bloatware e rinnova la tua smart TV",
-            "summary": "Un progetto open source su GitHub permette di rimuovere il bloatware da qualsiasi Android o Google TV tramite Wi-Fi, trasformando l'interfaccia con uno stile simile ad Apple TV.",
-            "why_it_matters": "Offre agli utenti un metodo per alleggerire i dispositivi smart TV da software indesiderati e personalizzare l'esperienza visiva direttamente via rete domestica.",
-            "extended_analysis": "Il repository GitHub 'cleanyourtv' di Gathin23 affronta il problema comune dei sistemi smart TV sovraccarichi di applicazioni preinstallate e pubblicità invasive.\n\nSfruttando la connessione Wi-Fi, il progetto mira a ripulire Android TV e Google TV dai file superflui, modificando l'interfaccia grafica per avvicinarla al design minimalista di Apple TV. La documentazione disponibile sul repository fornisce le indicazioni per orientarsi tra i passaggi tecnici necessari.\n\nÈ importante verificare la compatibilità del proprio dispositivo e seguire con attenzione le istruzioni fornite dagli sviluppatori per evitare malfunzionamenti di sistema.",
-            "context": "Il mercato delle smart TV è dominato da interfacce spesso ricche di contenuti sponsorizzati e applicazioni non rimovibili, spingendo la community degli sviluppatori a creare strumenti di personalizzazione e rimozione del bloatware.",
-            "key_takeaways": [
-              "Progetto ospitato su GitHub focalizzato sulla pulizia di Android e Google TV.",
-              "Utilizza la connessione Wi-Fi per eseguire le operazioni di rimozione.",
-              "Mira a offrire un'interfaccia grafica ispirata ad Apple TV."
-            ],
-            "highlights": [
-              "Rimozione del bloatware tramite Wi-Fi.",
-              "Interfaccia ispirata ad Apple TV per Android e Google TV."
-            ]
-          },
-          "en": {
-            "title": "CleanYourTV: Debloat Android and Google TV over Wi-Fi",
-            "summary": "A GitHub project lets users debloat any Android or Google TV over Wi-Fi, replacing the standard interface with an Apple TV-style home screen.",
-            "why_it_matters": "It provides a direct way for users to clean up cluttered smart TV interfaces and remove unwanted pre-installed applications without complex wired setups.",
-            "extended_analysis": "The 'cleanyourtv' repository by Gathin23 addresses the prevalence of pre-installed software and advertising on modern television interfaces.\n\nBy connecting over Wi-Fi, the project facilitates the removal of unnecessary components from Android and Google TV devices. It also reorganizes the home screen layout to mimic the aesthetic of an Apple TV interface.\n\nUsers should review the project documentation on GitHub to understand the required steps and ensure compatibility with their specific television models before proceeding.",
-            "context": "Smart TV platforms often come bundled with proprietary launcher software and promotional content that cannot easily be disabled through standard settings menus.",
-            "key_takeaways": [
-              "Open-source repository hosted on GitHub.",
-              "Designed for Android TV and Google TV hardware.",
-              "Features Wi-Fi connectivity for configuration and cleanup."
-            ],
-            "highlights": [
-              "Debloat Android or Google TV over Wi-Fi.",
-              "Apple TV-style home screen customization."
-            ]
-          },
-          "es": {
-            "title": "CleanYourTV: Elimina bloatware en Android y Google TV vía Wi-Fi",
-            "summary": "Un proyecto en GitHub permite limpiar el bloatware de cualquier Android o Google TV mediante Wi-Fi, ofreciendo una interfaz de inicio similar a Apple TV.",
-            "why_it_matters": "Ofrece a los usuarios una alternativa para simplificar las interfaces de sus televisores inteligentes y eliminar aplicaciones preinstaladas no deseadas.",
-            "extended_analysis": "El repositorio 'cleanyourtv' en GitHub se centra en optimizar el rendimiento y la interfaz de los dispositivos impulsados por Android TV y Google TV.\n\nA través de la red Wi-Fi, el software ayuda a eliminar archivos y aplicaciones superfluas que suelen venir de fábrica. Asimismo, rediseña la pantalla de inicio para asemejarse al estilo visual de Apple TV.\n\nSe recomienda consultar la documentación oficial del proyecto para conocer los requisitos técnicos y seguir los procedimientos adecuados.",
-            "context": "Las plataformas de televisión inteligente suelen incluir aplicaciones preinstaladas y anuncios que saturan el espacio de almacenamiento y la experiencia de navegación.",
-            "key_takeaways": [
-              "Herramienta de código abierto disponible en GitHub.",
-              "Compatible con dispositivos Android TV y Google TV.",
-              "Utiliza la conexión Wi-Fi para realizar las modificaciones."
-            ],
-            "highlights": [
-              "Eliminación de bloatware mediante conexión Wi-Fi.",
-              "Interfaz gráfica inspirada en Apple TV."
-            ]
-          },
-          "zh-CN": {
-            "title": "CleanYourTV：通过Wi-Fi清理安卓与谷歌电视冗余软件",
-            "summary": "GitHub上的一项开源项目允许用户通过Wi-Fi清理任意Android或Google TV上的臃肿预装软件，并带来Apple TV风格的主界面。",
-            "why_it_matters": "它为用户提供了一种精简智能电视系统、移除多余预装应用并改善界面视觉体验的实用方案。",
-            "extended_analysis": "Gathin23在GitHub上发布的‘cleanyourtv’仓库主要针对智能电视系统中常见的预装软件过多和广告干扰问题。\n\n该项目通过Wi-Fi连接运行，旨在帮助用户移除Android TV和Google TV设备中的冗余组件，同时调整桌面布局以呈现出类似Apple TV的风格。\n\n在操作前，建议仔细阅读GitHub仓库中的官方文档和指南，以确保设备兼容并了解具体的操作步骤。",
-            "context": "现代智能电视系统通常预装了大量无法直接卸载的应用程序和推广内容，这促使开发者社群开发各类精简与美化工具。",
-            "key_takeaways": [
-              "托管于GitHub的开源项目。",
-              "适配Android TV与Google TV设备。",
-              "支持通过Wi-Fi网络进行配置与清理。"
-            ],
-            "highlights": [
-              "通过Wi-Fi去除Android和Google TV的臃肿软件。",
-              "提供Apple TV风格的主屏幕外观。"
-            ]
-          },
-          "de": {
-            "title": "CleanYourTV: Bloatware auf Android- und Google TVs via Wi-Fi entfernen",
-            "summary": "Ein GitHub-Projekt ermöglicht das Entfernen von Bloatware auf Android- und Google TVs über WLAN und bietet eine Benutzeroberfläche im Apple TV-Stil.",
-            "why_it_matters": "Es bietet Nutzern eine Möglichkeit, überladene Smart-TV-Oberflächen zu bereinigen und unerwünschte vorinstallierte Anwendungen zu entfernen.",
-            "extended_analysis": "Das GitHub-Repository 'cleanyourtv' widmet sich der Optimierung von Fernsehgeräten, die mit Android TV oder Google TV laufen.\n\nÜber eine WLAN-Verbindung unterstützt das Projekt dabei, nicht benötigte Systembestandteile und Apps zu entfernen. Gleichzeitig wird die Startoberfläche so angepasst, dass sie optisch an das Design von Apple TV erinnert.\n\nInteressierte sollten die Dokumentation auf GitHub prüfen, um die Kompatibilität sicherzustellen und die Installationsschritte korrekt nachzuvollziehen.",
-            "context": "Smart-TV-Plattformen sind häufig mit herstellerspezifischen Programmen und Benutzeroberflächen ausgestattet, die sich über Standardmenüs nur schwer anpassen lassen.",
-            "key_takeaways": [
-              "Open-Source-Projekt auf GitHub verfügbar.",
-              "Entwickelt für Android TV und Google TV.",
-              "Verwendet WLAN für die Einrichtung und Bereinigung."
-            ],
-            "highlights": [
-              "Bloatware-Entfernung über WLAN.",
-              "Apple TV-ähnliches Layout für die Benutzeroberfläche."
-            ]
-          }
-        },
-        "editorial_level": "ai_curated",
-        "editorial_status": "verified",
-        "editorial_model": "gemini-3.5-flash-lite",
-        "editorial_version": 4,
-        "relevance_score": 45,
-        "editor_pick_reason": ""
-      }
+      "fingerprint": "cb793ac37a8c33f36117bb4ceb988481dcd44060a955736b0d590ee3a133fed5",
+      "retry_after": "2026-11-09T12:27:17.578998+00:00"
     },
     "a2fef535478784e4a5c6f77f5e72299399b39eb5b44799a8357e45ba9747d8a9": {
       "fingerprint": "1a26b94de5e233af831dc96f8c7cd518e66e54b74da21df67ab32df68f53737c",
@@ -10122,11 +9944,197 @@
         "relevance_score": 65,
         "editor_pick_reason": ""
       }
+    },
+    "bce45d90f96c68d3eaf8d15d47ecc968f610109e58d55316c2e77d45793eb8be": {
+      "fingerprint": "3010580c1801cd7e1ed4084b73ef67e66adf3991183fbbafeaa75229ea55f4d0",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "AI:AM: Chi tiene il volante? Agenti autonomi e sicurezza",
+            "summary": "In questo episodio di The Cognitive Revolution, Nathan Labenz e Prakash Narayanan analizzano le sfide del controllo umano sugli agenti IA autonomi. La discussione spazia dai rischi di sicurezza reali alla verifica formale per i bug software e ai segnali nascosti nei modelli linguistici.",
+            "why_it_matters": "Mentre gli agenti IA diventano sempre più autonomi, comprendere come preservare il controllo umano e mitigare i rischi di sicurezza informatica diventa una priorità fondamentale.",
+            "extended_analysis": "Il podcast affronta temi cruciali per il futuro dell'intelligenza artificiale, esaminando scenari in cui gli agenti operano con autonomia avanzata, come nel caso in cui un agente imposta password in autonomia. Vengono inoltre esplorate tecniche di verifica formale applicate alla ricerca di bug nei sistemi Linux e l'analisi di segnali nascosti o valenze nei modelli linguistici.\n\nGli ascoltatori possono approfondire come la ricerca stia affrontando il delicato equilibrio tra automazione e supervisione umana, un tema centrale per lo sviluppo sicuro di sistemi intelligenti.",
+            "context": "L'episodio si inserisce nel dibattito contemporaneo sulla sicurezza dell'IA e sull'allineamento dei sistemi autonomi, offrendo una prospettiva tecnica sulle sfide della supervisione umana.",
+            "key_takeaways": [
+              "Esame delle strategie per mantenere il controllo umano sugli agenti IA autonomi.",
+              "Discussione sui rischi di sicurezza nel mondo reale legati al comportamento degli agenti.",
+              "Applicazione della verifica formale per individuare bug nei sistemi Linux."
+            ],
+            "highlights": [
+              "Condotto da Nathan Labenz e Prakash Narayanan nel podcast The Cognitive Revolution.",
+              "Analisi di segnali nascosti all'interno dei modelli linguistici."
+            ]
+          },
+          "en": {
+            "title": "AI:AM: Where's the Steering Wheel? Control and Autonomous Agents",
+            "summary": "In this episode of The Cognitive Revolution, Nathan Labenz and Prakash Narayanan explore the challenges of maintaining human control over autonomous AI agents. They examine real-world security risks, formal verification for software bugs, and hidden signals within language models.",
+            "why_it_matters": "As AI agents gain autonomy, understanding how to maintain human oversight and address underlying security vulnerabilities is crucial for safe deployment.",
+            "extended_analysis": "The discussion covers critical aspects of modern artificial intelligence deployment, focusing on scenarios where agents exhibit high levels of autonomy, such as setting passwords independently. The episode also explores advanced topics like formal verification to discover Linux system bugs and the detection of hidden valences or signals within language models.\n\nListeners get a technical look at the measures needed to keep autonomous systems aligned and secure, providing insight into the ongoing efforts of researchers in the field.",
+            "context": "The episode reflects current industry discussions on agentic workflows, system safety, and the technical mechanisms required to oversee increasingly capable AI models.",
+            "key_takeaways": [
+              "Strategies and challenges for preserving human control over autonomous AI agents.",
+              "Real-world security implications arising from agentic behaviors.",
+              "The use of formal verification methods to uncover software bugs in Linux."
+            ],
+            "highlights": [
+              "Hosted by Nathan Labenz and Prakash Narayanan on The Cognitive Revolution.",
+              "Exploration of hidden valence and signals inside language models."
+            ]
+          },
+          "es": {
+            "title": "AI:AM: ¿Dónde está el volante? Agentes autónomos y control",
+            "summary": "En este episodio de The Cognitive Revolution, Nathan Labenz y Prakash Narayanan analizan cómo mantener el control humano sobre los agentes de IA autónomos. Examinan riesgos de seguridad reales, verificación formal para errores de software y señales ocultas en modelos de lenguaje.",
+            "why_it_matters": "A medida que los agentes de IA adquieren mayor autonomía, comprender cómo asegurar la supervisión humana y abordar los riesgos de seguridad resulta fundamental.",
+            "extended_analysis": "El podcast aborda cuestiones clave sobre el desarrollo de sistemas autónomos, analizando situaciones en las que los agentes actúan con gran independencia, como la gestión autónoma de contraseñas. También se examina el uso de la verificación formal para detectar errores en sistemas Linux y la presencia de señales ocultas en los modelos de lenguaje.\n\nLos oyentes pueden conocer mejor los retos técnicos y de seguridad que plantea la integración de agentes inteligentes en entornos reales.",
+            "context": "Este episodio se enmarca en el debate actual sobre la seguridad y el control de los sistemas de inteligencia artificial altamente autónomos.",
+            "key_takeaways": [
+              "Métodos y retos para mantener el control humano sobre la IA autónoma.",
+              "Análisis de riesgos de seguridad en el mundo real relacionados con agentes.",
+              "Aplicación de la verificación formal para encontrar fallos en Linux."
+            ],
+            "highlights": [
+              "Presentado por Nathan Labenz y Prakash Narayanan en The Cognitive Revolution.",
+              "Estudio de señales ocultas dentro de los modelos de lenguaje."
+            ]
+          },
+          "zh-CN": {
+            "title": "AI:AM：方向盘在哪里？自主智能体与人类控制",
+            "summary": "在《The Cognitive Revolution》这一期节目中，Nathan Labenz与Prakash Narayanan探讨了如何在自主AI智能体中保持人类控制。讨论涵盖了现实世界的安全风险、用于软件漏洞的形式化验证以及语言模型中的隐藏信号。",
+            "why_it_matters": "随着AI智能体自主性不断增强，理解如何维持人类监督并防范潜在安全风险对于安全部署至关重要。",
+            "extended_analysis": "节目深入剖析了人工智能发展中的关键议题，关注智能体展现出高度自主行为时的监管挑战，例如智能体自行设定密码的情况。同时，讨论还涉及利用形式化验证来寻找Linux系统漏洞，以及探索语言模型内部的隐藏效价与信号。\n\n听众可以从中了解到研究人员为确保智能系统安全可控所做出的技术探索与实践。",
+            "context": "本期节目反映了当前业界关于智能体工作流、系统安全性以及监督日益强大的AI模型所需技术机制的讨论。",
+            "key_takeaways": [
+              "探讨保持对自主AI智能体人类控制的策略与挑战。",
+              "分析与智能体行为相关的现实世界安全风险。",
+              "利用形式化验证方法发现Linux软件漏洞。"
+            ],
+            "highlights": [
+              "由Nathan Labenz和Prakash Narayanan在《The Cognitive Revolution》节目中主持。",
+              "探讨语言模型内部的隐藏信号与效价。"
+            ]
+          },
+          "de": {
+            "title": "AI:AM: Wo ist das Lenkrad? Autonome Agenten und Kontrolle",
+            "summary": "In dieser Episode von The Cognitive Revolution untersuchen Nathan Labenz und Prakash Narayanan, wie die menschliche Kontrolle über autonome KI-Agenten gewahrt werden kann. Sie beleuchten reale Sicherheitsrisiken, formale Verifikation für Softwarefehler und versteckte Signale in Sprachmodellen.",
+            "why_it_matters": "Da KI-Agenten zunehmend autonom agieren, ist es für einen sicheren Einsatz entscheidend zu verstehen, wie menschliche Aufsicht und Sicherheit gewährleistet bleiben.",
+            "extended_analysis": "Der Podcast widmet sich zentralen Fragestellungen rund um den Einsatz autonomer Systeme. Diskutiert werden Szenarien, in denen Agenten weitreichende Eigenständigkeit zeigen, etwa beim eigenständigen Festlegen von Passwörtern. Zudem werden die formale Verifikation zur Erkennung von Linux-Softwarefehlern sowie versteckte Signale und Valenzen in Sprachmodellen analysiert.\n\nHörer erhalten Einblicke in die technischen und sicherheitsbezogenen Herausforderungen, denen sich Forscher bei der Überwachung hochentwickelter KI-Systeme stellen.",
+            "context": "Die Episode spiegelt die aktuelle Debatte über die Sicherheit autonomer KI-Agenten und die technischen Mechanismen zu deren Kontrolle wider.",
+            "key_takeaways": [
+              "Strategien zur Aufrechterhaltung der menschlichen Kontrolle über autonome KI-Agenten.",
+              "Reale Sicherheitsrisiken im Zusammenhang mit dem Verhalten von Agenten.",
+              "Einsatz formaler Verifikation zur Entdeckung von Fehlern in Linux."
+            ],
+            "highlights": [
+              "Moderiert von Nathan Labenz und Prakash Narayanan bei The Cognitive Revolution.",
+              "Untersuchung versteckter Signale und Valenzen in Sprachmodellen."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 55,
+        "editor_pick_reason": ""
+      }
+    },
+    "dab95152a747f820da16ba7c04d48c8dca842d5a8181aa15d2f3dfc3cb3e9c9b": {
+      "fingerprint": "1fff33995c0e533d9110f8cd1f818fa8a8b94e26e75b0309dbdb693cda704a0b",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Cubicore: trasformare gli agenti AI in aziende su misura",
+            "summary": "Il progetto GitHub velo4705/cubicore introduce una soluzione in TypeScript per trasformare un agente di intelligenza artificiale in un'azienda strutturata secondo le proprie necessità. La descrizione attualmente disponibile è limitata e richiede cautela nell'analisi delle funzionalità effettive.",
+            "why_it_matters": "Questo approccio esplora nuove modalità di organizzazione e automazione del lavoro tramite agenti AI, puntando a configurare entità operative personalizzate.",
+            "extended_analysis": "La descrizione fornita dal repository GitHub velo4705/cubicore è estremamente sintetica e non offre dettagli tecnici approfonditi su benchmark, metriche di adozione o architettura interna. Trattandosi di un progetto basato su TypeScript, è opportuno monitorare gli sviluppi futuri e la documentazione rilasciata per verificare le reali capacità operative promesse dagli sviluppatori.",
+            "context": "Nel panorama attuale dell'intelligenza artificiale, cresce l'interesse verso framework capaci di coordinare agenti autonomi per simulare processi lavorativi complessi o strutture organizzative aziendali.",
+            "key_takeaways": [
+              "Il progetto si chiama cubicore ed è ospitato su GitHub.",
+              "Utilizza il linguaggio di programmazione TypeScript.",
+              "L'obiettivo dichiarato è trasformare gli agenti AI in strutture aziendali personalizzate."
+            ],
+            "highlights": [
+              "Sviluppato in TypeScript.",
+              "Progetto open source su GitHub."
+            ]
+          },
+          "en": {
+            "title": "Cubicore: Turn Your AI Agent into a Custom Company",
+            "summary": "The GitHub project velo4705/cubicore introduces a TypeScript solution designed to turn an AI agent into a company built around specific user needs. The available description is concise, and further documentation is needed to evaluate its operational scope.",
+            "why_it_matters": "This project explores innovative ways to structure and automate workflows by organizing AI agents into tailored operational frameworks.",
+            "extended_analysis": "The repository description for velo4705/cubicore is brief and does not provide detailed architectural breakdowns, benchmarks, or independent testing data. Because the description is quite minimal, observers should monitor updates to the repository to see how these organizational concepts are implemented in TypeScript.",
+            "context": "The AI community increasingly explores multi-agent architectures and frameworks aimed at simulating business processes or structured organizational environments.",
+            "key_takeaways": [
+              "Cubicore is hosted on GitHub under velo4705/cubicore.",
+              "The codebase is written in TypeScript.",
+              "The stated goal is to build a company structure around your AI agent."
+            ],
+            "highlights": [
+              "Built with TypeScript.",
+              "Hosted on GitHub."
+            ]
+          },
+          "es": {
+            "title": "Cubicore: convierte tu agente de IA en una empresa",
+            "summary": "El proyecto de GitHub velo4705/cubicore presenta una solución en TypeScript para convertir un agente de inteligencia artificial en una empresa adaptada a tus necesidades. La información disponible es muy limitada, por lo que se requiere cautela.",
+            "why_it_matters": "Esta iniciativa explora nuevas formas de estructurar la automatización y el trabajo mediante agentes de IA organizados en entidades operativas personalizadas.",
+            "extended_analysis": "La descripción del repositorio velo4705/cubicore es sumamente escueta y no detalla benchmarks, pruebas independientes ni especificaciones técnicas profundas. Al tratarse de un proyecto en fase temprana o con poca documentación pública en este momento, conviene seguir de cerca sus actualizaciones en TypeScript.",
+            "context": "En el ecosistema tecnológico actual, existe un interés creciente por herramientas que permitan coordinar agentes inteligentes para replicar estructuras de trabajo y procesos empresariales.",
+            "key_takeaways": [
+              "El proyecto se aloja en GitHub como velo4705/cubicore.",
+              "Utiliza TypeScript como lenguaje de programación.",
+              "Su premisa es estructurar un agente de IA como una empresa."
+            ],
+            "highlights": [
+              "Desarrollado en TypeScript.",
+              "Disponible en GitHub."
+            ]
+          },
+          "zh-CN": {
+            "title": "Cubicore：将您的AI智能体打造成定制化公司",
+            "summary": "GitHub项目 velo4705/cubicore 推出了一种使用 TypeScript 构建的方案，旨在根据用户需求将 AI 智能体转化为一家公司。目前的公开描述非常简短，在评估其实际功能时需要保持审慎。",
+            "why_it_matters": "该项目探索了通过将 AI 智能体组织为定制化运营实体来管理工作流和实现自动化的创新方向。",
+            "extended_analysis": "关于 velo4705/cubicore 仓库的描述较为简略，并未提供详细的架构说明、基准测试或独立验证数据。由于现有信息有限，未来需要关注该 TypeScript 项目的后续更新与文档完善情况，以了解其实际技术路线。",
+            "context": "当前人工智能领域正涌现出大量旨在模拟商业流程或组织结构的多智能体协作框架与工具。",
+            "key_takeaways": [
+              "项目托管于 GitHub，仓库名为 velo4705/cubicore。",
+              "采用 TypeScript 编程语言编写。",
+              "旨在围绕用户需求将 AI 智能体构建为公司结构。"
+            ],
+            "highlights": [
+              "使用 TypeScript 开发。",
+              "开源托管于 GitHub。"
+            ]
+          },
+          "de": {
+            "title": "Cubicore: Verwandeln Sie Ihren KI-Agenten in ein Unternehmen",
+            "summary": "Das GitHub-Projekt velo4705/cubicore stellt eine TypeScript-Lösung vor, um einen KI-Agenten in ein auf Ihre Bedürfnisse zugeschnittenes Unternehmen zu verwandeln. Die Beschreibung ist knapp, weshalb eine vorsichtige Bewertung geboten ist.",
+            "why_it_matters": "Das Projekt untersucht neue Ansätze zur Automatisierung und Arbeitsorganisation, indem KI-Agenten in maßgeschneiderte operative Einheiten überführt werden.",
+            "extended_analysis": "Die Beschreibung des Repositorys velo4705/cubicore ist sehr kurz gefasst und enthält keine detaillierten technischen Spezifikationen, Benchmarks oder unabhängigen Testergebnisse. Da die verfügbaren Informationen spärlich sind, sollten zukünftige Updates und Dokumentationen des TypeScript-Projekts beobachtet werden.",
+            "context": "In der aktuellen KI-Landschaft wächst das Interesse an Frameworks, die autonome Agenten koordinieren, um geschäftsprozessähnliche oder organisatorische Strukturen abzubilden.",
+            "key_takeaways": [
+              "Das Projekt ist auf GitHub unter velo4705/cubicore zu finden.",
+              "Es wurde in TypeScript geschrieben.",
+              "Ziel ist der Aufbau einer Unternehmensstruktur rund um einen KI-Agenten."
+            ],
+            "highlights": [
+              "Programmiert in TypeScript.",
+              "Gehostet auf GitHub."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 40,
+        "editor_pick_reason": ""
+      }
     }
   },
   "daily": {
     "date": "2026-11-09",
-    "count": 4,
+    "count": 6,
     "picks": 0
   }
 }
