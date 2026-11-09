@@ -3959,87 +3959,87 @@
       }
     },
     "c0ea33f4bb9725ae73cda1dcdc0942d1f2132757f61ba37d54f982564759842d": {
-      "fingerprint": "f7228d0544ea6d462304097ba8e6d8c654759ba0e3aaf675e41fbeb19c8f3084",
+      "fingerprint": "62cddc5a9d69dc28188dbab8dcb055cc8d2bff0d75fc3a75c148157838ac8276",
       "editorial": {
         "editorial": {
           "it": {
-            "title": "Risorse per corsi di IA in Python, C# e Lean4 su GitHub",
-            "summary": "Il repository GitHub jsboige/CoursIA raccoglie risorse didattiche e laboratori pratici per l'intelligenza artificiale, scritti in Python, C# e Lean4. Aggiornato recentemente, offre materiali mirati per lo studio di queste tecnologie.",
-            "why_it_matters": "La disponibilità di materiali di studio multilinguaggio in Python, C# e Lean4 facilita l'apprendimento pratico dell'intelligenza artificiale su piattaforme aperte.",
-            "extended_analysis": "Il deposito offre materiali didattici e TPs dedicati all'intelligenza artificiale, coprendo linguaggi come Python, C# e Lean4. Sebbene le informazioni disponibili siano limitate, la combinazione di questi ambienti di programmazione e verifica formale rappresenta una risorsa utile per studenti e docenti.\n\nSarà importante monitorare futuri aggiornamenti del repository per verificare l'espansione dei contenuti e la struttura dei laboratori proposti.",
-            "context": "I repository di codice aperto su GitHub sono strumenti fondamentali per la condivisione di materiali didattici e risorse pratiche nell'ambito dell'istruzione tecnologica.",
+            "title": "Corso di IA in Python, C# e Lean4",
+            "summary": "Il repository GitHub jsboige/CoursIA raccoglie risorse e laboratori pratici per un corso di intelligenza artificiale sviluppato in Python, C# e Lean4. Con 16 stelle, il progetto offre materiale didattico basato su Jupyter Notebook.",
+            "why_it_matters": "La disponibilità di risorse didattiche multilinguaggio e multi-linguaggio di programmazione facilita l'apprendimento e la sperimentazione pratica nell'ambito dell'intelligenza artificiale.",
+            "extended_analysis": "Il deposito open source curato da jsboige fornisce un percorso strutturato per lo studio dell'intelligenza artificiale, integrando linguaggi differenti come Python, C# e Lean4 all'interno di notebook Jupyter.\n\nSebbene la descrizione sia limitata, la natura aperta del progetto permette di monitorare futuri aggiornamenti e l'eventuale ampliamento del materiale didattico.",
+            "context": "Le piattaforme di condivisione di codice open source come GitHub ospitano frequentemente risorse educative per la formazione tecnica in ambito IA, sebbene le informazioni fornite siano circoscritte.",
             "key_takeaways": [
-              "Raccolta di risorse didattiche e TPs per l'intelligenza artificiale.",
-              "Utilizzo dei linguaggi Python, C# e Lean4.",
-              "Repository disponibile pubblicamente su GitHub."
+              "Contiene risorse e TPs per un corso di IA.",
+              "Utilizza Python, C# e Lean4 come linguaggi di programmazione.",
+              "Basato su Jupyter Notebook con 16 stelle su GitHub."
             ],
             "highlights": [
-              "Contiene risorse in Python, C# e Lean4.",
-              "Aggiornato a novembre 2026."
+              "Repository GitHub: jsboige/CoursIA",
+              "Linguaggio principale: Jupyter Notebook"
             ]
           },
           "en": {
-            "title": "AI Course Resources in Python, C#, and Lean4 on GitHub",
-            "summary": "The GitHub repository jsboige/CoursIA provides educational resources and practical labs for artificial intelligence using Python, C#, and Lean4. Recently updated, it serves as a practical reference for learners and educators.",
-            "why_it_matters": "Access to open educational materials across multiple programming languages supports structured learning and hands-on practice in artificial intelligence.",
-            "extended_analysis": "The repository contains course resources and practical exercises (TPs) focusing on AI across Python, C#, and Lean4. Given the description is relatively brief, further details on curriculum depth depend on inspecting the source repository directly.\n\nObservers should watch for subsequent updates or contributions to the repository to see how the course structure and lab materials evolve over time.",
-            "context": "Open-source repositories on platforms like GitHub serve as common hubs for distributing educational curricula and technical documentation.",
+            "title": "AI Course Resources in Python, C# and Lean4",
+            "summary": "The GitHub repository jsboige/CoursIA provides resources and practical labs for an artificial intelligence course implemented in Python, C#, and Lean4. Featuring Jupyter Notebooks, the project has gathered 16 stars.",
+            "why_it_matters": "Access to structured educational materials across diverse programming languages supports practical learning and experimentation in artificial intelligence.",
+            "extended_analysis": "This repository offers a collection of coursework and practical sessions designed for AI education. By incorporating Python, C#, and Lean4, it spans traditional and formal verification approaches within Jupyter Notebook environments.\n\nGiven the concise nature of the available metadata, observers should consult the repository directly for the most up-to-date curriculum details and documentation.",
+            "context": "Educational repositories on GitHub serve as open resources for students and educators, reflecting ongoing efforts to structure machine learning and computer science curricula.",
             "key_takeaways": [
-              "Educational repository for artificial intelligence courses.",
-              "Implements Python, C#, and Lean4.",
-              "Hosted publicly on GitHub."
+              "Includes resources and lab work for an AI course.",
+              "Built using Python, C#, and Lean4.",
+              "Utilizes Jupyter Notebook format and holds 16 stars."
             ],
             "highlights": [
-              "Includes course resources and practical labs.",
-              "Features Jupyter Notebook as a primary programming language environment."
+              "GitHub Repository: jsboige/CoursIA",
+              "Primary language: Jupyter Notebook"
             ]
           },
           "es": {
-            "title": "Recursos para cursos de IA en Python, C# y Lean4 en GitHub",
-            "summary": "El repositorio de GitHub jsboige/CoursIA recopila recursos educativos y prácticas de inteligencia artificial en Python, C# y Lean4. Actualizado recientemente, ofrece soporte didáctico para el estudio de estas tecnologías.",
-            "why_it_matters": "Contar con materiales de estudio abiertos en múltiples lenguajes facilita el aprendizaje práctico y la enseñanza de la inteligencia artificial.",
-            "extended_analysis": "El proyecto ofrece recursos y trabajos prácticos (TPs) orientados a la enseñanza de la IA mediante Python, C# y Lean4. Al tratarse de una descripción breve, es necesario consultar directamente el repositorio para evaluar el alcance completo de los materiales.\n\nConviene seguir de cerca la evolución del repositorio y posibles actualizaciones futuras en el contenido educativo.",
-            "context": "Los repositorios de código abierto en plataformas como GitHub son canales habituales para compartir recursos docentes y guías técnicas.",
+            "title": "Recursos de curso de IA en Python, C# y Lean4",
+            "summary": "El repositorio de GitHub jsboige/CoursIA recopila recursos y trabajos prácticos para un curso de inteligencia artificial en Python, C# y Lean4. El proyecto cuenta con 16 estrellas y utiliza Jupyter Notebook.",
+            "why_it_matters": "La disponibilidad de materiales educativos abiertos facilita el estudio estructurado y la práctica en el desarrollo de la inteligencia artificial.",
+            "extended_analysis": "Este depósito ofrece un enfoque didáctico mediante el uso de múltiples lenguajes de programación en cuadernos Jupyter, abarcando desde Python hasta C# y Lean4.\n\nDebido a la escasez de detalles adicionales en la metadata, se aconseja revisar directamente el repositorio para seguir la evolución de su contenido y actualizaciones.",
+            "context": "Los repositorios de código abierto en plataformas como GitHub son herramientas comunes para la difusión de materiales académicos y guías de estudio en informática.",
             "key_takeaways": [
-              "Recursos educativos y TPs de inteligencia artificial.",
-              "Soporte para Python, C# y Lean4.",
-              "Disponible en GitHub."
+              "Ofrece recursos y TPs para un curso de IA.",
+              "Soporta Python, C# y Lean4.",
+              "Desarrollado en Jupyter Notebook con 16 estrellas."
             ],
             "highlights": [
-              "Contiene materiales didácticos actualizados.",
-              "Utiliza Jupyter Notebook."
+              "Repositorio GitHub: jsboige/CoursIA",
+              "Lenguaje principal: Jupyter Notebook"
             ]
           },
           "zh-CN": {
-            "title": "GitHub上的Python、C#与Lean4人工智能课程资源库",
-            "summary": "GitHub开源仓库 jsboige/CoursIA 汇集了使用 Python、C# 和 Lean4 进行人工智能教学的资源与实验练习。该项目近期进行了更新，为相关技术学习提供了公开参考。",
-            "why_it_matters": "多语言开源教学资源的提供，有助于促进人工智能技术的实践学习与知识普及。",
-            "extended_analysis": "该仓库包含了面向人工智能课程的教学资源与实践练习（TPs），涵盖了 Python、C# 和 Lean4 等语言环境。由于描述信息较为简短，其实际课程深度与实验设计需通过访问仓库进一步了解。\n\n未来可继续关注该仓库的更新动态，以观察其教学内容的扩充与完善情况。",
-            "context": "GitHub 等平台上的开源仓库是分发教育课程、技术文档和实践指南的常见渠道。",
+            "title": "包含Python、C#与Lean4的AI课程资源库",
+            "summary": "GitHub代码库 jsboige/CoursIA 汇集了使用 Python、C# 和 Lean4 编写的人工智能课程资源与实验练习。该项目基于 Jupyter Notebook，目前获得 16 颗星。",
+            "why_it_matters": "多语言和结构化的开源教育资源为人工智能的学习与实践提供了便利的基础材料。",
+            "extended_analysis": "该项目由 jsboige 维护，通过 Jupyter Notebook 提供了涵盖多种编程语言的教学材料。由于元数据信息有限，实际内容与后续更新需以开源仓库的公开记录为准。",
+            "context": "开源代码托管平台常被用于发布和共享计算机科学与人工智能领域的学术及自学课程资料。",
             "key_takeaways": [
-              "包含人工智能课程资源与实验练习。",
-              "支持 Python、C# 和 Lean4。",
-              "托管于 GitHub 平台。"
+              "包含人工智能课程的资源与实验练习。",
+              "涉及 Python、C# 和 Lean4 语言。",
+              "基于 Jupyter Notebook 并拥有 16 颗星。"
             ],
             "highlights": [
-              "涵盖多种编程语言环境。",
-              "近期有代码库更新记录。"
+              "GitHub 仓库：jsboige/CoursIA",
+              "主要语言：Jupyter Notebook"
             ]
           },
           "de": {
-            "title": "KI-Kursressourcen für Python, C# und Lean4 auf GitHub",
-            "summary": "Das GitHub-Repository jsboige/CoursIA bietet Lehrmaterialien und praktische Übungen für Künstliche Intelligenz in Python, C# und Lean4. Die kürzlich aktualisierte Sammlung dient als praktische Referenz.",
-            "why_it_matters": "Der Zugriff auf offene Bildungsmaterialien in verschiedenen Programmiersprachen unterstützt das strukturierte Lernen und die praktische Anwendung im Bereich der KI.",
-            "extended_analysis": "Das Repository enthält Kursressourcen und praktische Aufgaben (TPs) mit Schwerpunkt auf KI unter Verwendung von Python, C# und Lean4. Da die Beschreibung kurz gehalten ist, lässt sich der genaue Umfang am besten direkt im Quellcode-Repository einsehen.\n\nEs empfiehlt sich, künftige Aktualisierungen des Repositorys zu beobachten, um die Entwicklung der Kursinhalte und Laborübungen zu verfolgen.",
-            "context": "Open-Source-Repositories auf Plattformen wie GitHub dienen als gängige Anlaufstellen für die Bereitstellung von Bildungs- und Kursmaterialien.",
+            "title": "KI-Kursressourcen in Python, C# und Lean4",
+            "summary": "Das GitHub-Repository jsboige/CoursIA enthält Materialien und praktische Übungen für einen Kurs zum Thema künstliche Intelligenz in Python, C# und Lean4. Das Projekt nutzt Jupyter Notebook und hat 16 Sterne.",
+            "why_it_matters": "Der Zugriff auf strukturierte Lehrmaterialien in verschiedenen Programmiersprachen unterstützt das praktische Erlernen von Konzepten der künstlichen Intelligenz.",
+            "extended_analysis": "Das Repository stellt Kursinhalte und praktische Einheiten bereit, die auf Jupyter Notebooks basieren. Die Verwendung von Python, C# und Lean4 zeigt einen breiten methodischen Ansatz.\n\nAufgrund der begrenzten Beschreibung sollten Interessierte das Repository direkt konsultieren, um den genauen Umfang und zukünftige Aktualisierungen zu verfolgen.",
+            "context": "Open-Source-Plattformen dienen häufig als Austauschort für akademische und autodidaktische Lehrmaterialien im Bereich der Informatik und künstlichen Intelligenz.",
             "key_takeaways": [
-              "Bildungsressourcen und praktische Übungen für KI-Kurse.",
-              "Nutzung von Python, C# und Lean4.",
-              "Öffentlich zugänglich auf GitHub."
+              "Beinhaltet Ressourcen und Übungen für einen KI-Kurs.",
+              "Implementiert in Python, C# und Lean4.",
+              "Basiert auf Jupyter Notebook mit 16 Sternen."
             ],
             "highlights": [
-              "Beinhaltet Kursmaterialien und TPs.",
-              "Aktualisiert im November 2026."
+              "GitHub Repository: jsboige/CoursIA",
+              "Primäre Sprache: Jupyter Notebook"
             ]
           }
         },
@@ -4047,7 +4047,7 @@
         "editorial_status": "verified",
         "editorial_model": "gemini-3.5-flash-lite",
         "editorial_version": 4,
-        "relevance_score": 35,
+        "relevance_score": 10,
         "editor_pick_reason": ""
       }
     },
@@ -9843,11 +9843,290 @@
         "relevance_score": 40,
         "editor_pick_reason": ""
       }
+    },
+    "122e1a6b0d306f80db434c3a829514c3fe51ea6570735405d17ba9264f32c771": {
+      "fingerprint": "73cc2bbb609dbe29b03a47a7d4a9067f26138faef9165b9b7100e1fefb4769c2",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Come Stanford insegna l'ingegneria basata sull'IA con Mihail Eric",
+            "summary": "In un'epoca in cui un agente di codifica può completare i compiti dello scorso anno con un solo prompt, come si evolve la didattica? Questo episodio speciale di Latent Space esplora la seconda edizione del corso CS146S di Stanford insieme a Mihail Eric.",
+            "why_it_matters": "Ridefinisce la formazione tecnica quando gli strumenti di IA automatizzano la programmazione di base, spingendo gli studenti ad affrontare repository open-source complessi e a proporre modifiche reali.",
+            "extended_analysis": "Con la diffusione di agenti di codifica capaci di svolgere i vecchi compiti scolastici in un solo passaggio, la didattica universitaria deve reinventarsi. Nel secondo ciclo del corso CS146S di Stanford, l'approccio educativo si sposta verso sfide reali, come l'integrazione di manutentori open-source all'interno del percorso accademico.\n\nGli studenti si trovano così a dover esplorare codebase a loro sconosciute, comprendere logiche altrui e proporre modifiche concrete. Questo episodio speciale offre una prospettiva su come preparare la prossima generazione di ingegneri a un panorama tecnologico radicalmente trasformato dall'intelligenza artificiale.",
+            "context": "Il panorama dello sviluppo software sta cambiando rapidamente grazie agli strumenti di intelligenza artificiale generativa per il codice, costringendo le università a ripensare i metodi di insegnamento tradizionali.",
+            "key_takeaways": [
+              "Esame della seconda edizione del corso CS146S all'Università di Stanford.",
+              "Coinvolgimento diretto di manutentori open-source all'interno del percorso didattico.",
+              "Nuovi metodi d'insegnamento per affrontare l'era degli agenti di codifica automatizzati."
+            ],
+            "highlights": [
+              "Ospite dell'episodio è Mihail Eric, che discute il corso CS146S di Stanford.",
+              "Analisi di come gestire compiti e progetti di fronte all'evoluzione degli agenti di programmazione."
+            ]
+          },
+          "en": {
+            "title": "How Stanford Teaches AI-Native Engineering with Mihail Eric",
+            "summary": "When a coding agent can finish last year's homework in a single prompt, how does education adapt? This special episode of Latent Space examines the second run of Stanford's CS146S course with guest Mihail Eric.",
+            "why_it_matters": "It highlights how computer science education is shifting as AI automates routine coding, forcing students to tackle unfamiliar open-source repositories and propose real changes.",
+            "extended_analysis": "As coding agents become capable of completing legacy coursework in a single prompt, technical education faces an urgent need for reinvention. In the second iteration of Stanford's CS146S course, the curriculum brings open-source maintainers directly into the classroom experience.\n\nStudents are challenged to navigate unfamiliar codebases, understand complex architectures, and propose substantive changes. This special episode provides a window into how academic institutions are adapting their teaching models for an AI-native engineering workforce.",
+            "context": "The rise of advanced coding agents has disrupted traditional computer science assignments, prompting top universities to redesign their curricula around real-world software maintenance and collaboration.",
+            "key_takeaways": [
+              "Insights into the second run of Stanford's CS146S course.",
+              "The integration of open-source maintainers into the student learning process.",
+              "Educational strategies for a world where coding agents handle routine assignments."
+            ],
+            "highlights": [
+              "Features Mihail Eric discussing Stanford's CS146S course.",
+              "Explores the pedagogical challenges posed by automated coding agents."
+            ]
+          },
+          "es": {
+            "title": "Cómo enseña Stanford ingeniería nativa de IA con Mihail Eric",
+            "summary": "Cuando un agente de programación puede terminar los deberes del año pasado en un solo aviso, ¿cómo se adapta la enseñanza? Este episodio especial de Latent Space explora la segunda edición del curso CS146S de Stanford junto a Mihail Eric.",
+            "why_it_matters": "Muestra la evolución de la educación técnica ante la automatización del código por parte de la IA, obligando a los estudiantes a lidiar con repositorios de código abierto desconocidos.",
+            "extended_analysis": "Con la llegada de agentes capaces de resolver tareas antiguas en una sola instrucción, las universidades deben replantearse sus métodos. En la segunda entrega del curso CS146S de Stanford, se introducen mantenedores de código abierto directamente en la dinámica del curso.\n\nLos alumnos deben aprender a desenvolverse en repositorios ajenos y proponer modificaciones reales. Este episodio ofrece una perspectiva sobre cómo se forma a los futuros ingenieros en la era de la inteligencia artificial.",
+            "context": "La irrupción de la IA en el desarrollo de software está transformando los métodos pedagógicos tradicionales en las principales instituciones académicas.",
+            "key_takeaways": [
+              "Revisión de la segunda edición del curso CS146S de Stanford.",
+              "Colaboración con mantenedores de proyectos de código abierto en el ámbito académico.",
+              "Nuevos enfoques educativos ante la automatización de tareas de programación."
+            ],
+            "highlights": [
+              "Participación de Mihail Eric analizando el curso CS146S de Stanford.",
+              "Discusión sobre el impacto de los agentes de programación en la enseñanza."
+            ]
+          },
+          "zh-CN": {
+            "title": "斯坦福如何教授AI原生工程学：对话Mihail Eric",
+            "summary": "当AI编程助手只需一个提示词就能完成去年的家庭作业时，教育该如何适应？Latent Space的这期特别节目邀请Mihail Eric，共同探讨斯坦福CS146S课程的第二期内容。",
+            "why_it_matters": "它展示了在AI自动化基础编程的背景下，计算机教育如何转变，促使学生去处理陌生的开源仓库并提出实际修改方案。",
+            "extended_analysis": "随着编程智能体能够在一轮提示中完成以往的课程作业，技术教育正面临重塑的需求。在斯坦福CS146S课程的第二轮授课中，课程引入了开源项目的维护者参与其中。\n\n学生们必须学会摸索不熟悉的社群代码库，理解他人代码并提出实质性的修改建议。这期特别节目为我们提供了一个窗口，了解学术界如何为AI原生工程时代培养人才。",
+            "context": "生成式AI工具在软件开发中的普及，迫使顶尖高校重新审视并设计其计算机科学课程，以应对自动编程带来的挑战。",
+            "key_takeaways": [
+              "深入了解斯坦福大学CS146S课程的第二轮教学实践。",
+              "将开源项目维护者引入课堂的学习模式。",
+              "探讨在自动化编程时代下教育方式的调整与应对。"
+            ],
+            "highlights": [
+              "嘉宾Mihail Eric探讨斯坦福大学的CS146S课程。",
+              "分析编程智能体对传统计算机作业和教学带来的影响。"
+            ]
+          },
+          "de": {
+            "title": "Wie Stanford KI-native Softwaretechnik lehrt mit Mihail Eric",
+            "summary": "Wenn ein Programmierassistent die Hausaufgaben des Vorjahres mit einem einzigen Prompt erledigt, wie passt sich die Lehre an? Diese Sonderfolge von Latent Space beleuchtet die zweite Auflage von Stanfords CS146S-Kurs mit Mihail Eric.",
+            "why_it_matters": "Es zeigt, wie sich die technische Ausbildung wandelt, während KI routinehafte Programmierarbeiten automatisiert und Studenten vor die Aufgabe stellt, fremde Open-Source-Repositories zu bearbeiten.",
+            "extended_analysis": "Da Code-Agenten in der Lage sind, klassische Programmieraufgaben in einem einzigen Durchgang zu lösen, steht die technische Ausbildung vor einer grundlegenden Neuausrichtung. In der zweiten Runde des Kurses CS146S an der Stanford University wurden Open-Source-Maintainer direkt in den Lehrplan integriert.\n\nDie Studierenden lernen dabei, sich in unbekannte Repositories einzuarbeiten, bestehende Strukturen zu verstehen und konkrete Änderungen vorzuschlagen. Diese Sonderepisode bietet Einblicke in die Anpassung akademischer Lehrmethoden an ein durch künstliche Intelligenz geprägtes Umfeld.",
+            "context": "Der Vormarsch fortschrittlicher Programmier-Agenten stellt traditionelle Aufgabenformate in der Informatik vor neue Herausforderungen und treibt Universitäten dazu an, ihre Lehrpläne anzupassen.",
+            "key_takeaways": [
+              "Einblicke in die zweite Durchführung des CS146S-Kurses an der Stanford University.",
+              "Einbindung von Open-Source-Maintainern in den Lernprozess der Studierenden.",
+              "Pädagogische Ansätze für eine Welt automatisierter Programmierwerkzeuge."
+            ],
+            "highlights": [
+              "Mitwirkender ist Mihail Eric im Gespräch über den Stanford-Kurs CS146S.",
+              "Diskussion über die Auswirkungen von KI-Agenten auf die Programmierausbildung."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 40,
+        "editor_pick_reason": ""
+      }
+    },
+    "b99a8c9f333759e0d208e58959cf587758902ec5d1909fd034d708d2d8f8b8e9": {
+      "fingerprint": "9520197d69cd5676a680407032f60fcfa9a114b0812e1efaf5c1a8c9a7982d73",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Modelli del mondo e biologia: Alex Rives spiega la spinta da 1,8 miliardi di Biohub",
+            "summary": "In questo episodio, il capo della scienza di Biohub Alex Rives discute gli sforzi per creare modelli di cellule virtuali predittivi e simulare la biologia. Vengono esplorati i requisiti di dati, le svolte nella modellazione e gli strumenti di misurazione al centro di un'iniziativa da 1,8 miliardi di dollari per sradicare le malattie.",
+            "why_it_matters": "Comprendere come i modelli computazionali avanzati possano simulare i sistemi biologici offre nuove prospettive per affrontare complesse sfide mediche e sanitarie.",
+            "extended_analysis": "L'episodio esamina il lavoro pionieristico svolto da Biohub per decodificare i sistemi biologici complessi attraverso modelli computazionali su larga scala. Vengono analizzati i requisiti di dati necessari per alimentare tali architetture e i recenti progressi nella misurazione.\n\nLa discussione offre uno sguardo approfondito sugli investimenti e sulle strategie impiegate per accelerare la ricerca scientifica e avvicinare la medicina a traguardi storici nella lotta alle malattie.",
+            "context": "Il panorama della ricerca biomedica sta integrando sempre più strumenti di intelligenza artificiale e modellazione predittiva per superare i limiti dei metodi di laboratorio tradizionali.",
+            "key_takeaways": [
+              "Sforzi in corso per sviluppare modelli di cellule virtuali predittivi",
+              "Analisi dei requisiti di dati e delle innovazioni nella misurazione biologica",
+              "Panoramica dell'iniziativa da 1,8 miliardi di dollari di Biohub"
+            ],
+            "highlights": [
+              "Intervista ad Alex Rives, Head of Science di Biohub",
+              "Discussione focalizzata sulla simulazione della biologia e la ricerca medica"
+            ]
+          },
+          "en": {
+            "title": "A World Model of Life: Alex Rives on Biohub's $1.8B Virtual Cell Push",
+            "summary": "Biohub Head of Science Alex Rives discusses efforts to create predictive virtual cell models and simulate biology. The episode details the data requirements, modeling breakthroughs, and measurement tools driving Biohub's 1.8 billion dollar initiative to eradicate disease.",
+            "why_it_matters": "Scaling predictive biological models could fundamentally transform how researchers understand cellular mechanisms and approach disease eradication.",
+            "extended_analysis": "This conversation explores the intersection of computational modeling and cellular biology through the lens of Biohub's major scientific push. Alex Rives outlines the massive data needs and technical breakthroughs required to build reliable virtual cells.\n\nThe discussion highlights how advanced measurement tools and predictive frameworks are shaping the future of life sciences, offering a detailed look at large-scale biomedical investments.",
+            "context": "Modern biotechnology increasingly relies on data-intensive computational models to simulate complex living systems and accelerate therapeutic discoveries.",
+            "key_takeaways": [
+              "Development strategies for predictive virtual cell models",
+              "Key data requirements and measurement tools in biological simulation",
+              "Insights into Biohub's 1.8 billion dollar research initiative"
+            ],
+            "highlights": [
+              "Features Biohub Head of Science Alex Rives",
+              "Focuses on modeling breakthroughs and disease eradication efforts"
+            ]
+          },
+          "es": {
+            "title": "Un modelo mundial de la vida: Alex Rives y la iniciativa de celdas virtuales",
+            "summary": "Alex Rives, jefe de ciencia de Biohub, analiza los esfuerzos para crear modelos de células virtuales predictivos y simular la biología. Se detallan los requisitos de datos, los avances en modelado y las herramientas de medición que impulsan la iniciativa de 1.8 mil millones de dólares.",
+            "why_it_matters": "Explorar modelos biológicos computacionales avanzados abre nuevas vías para comprender la complejidad celular y combatir enfermedades a gran escala.",
+            "extended_analysis": "El episodio profundiza en las estrategias científicas de Biohub para simular procesos biológicos mediante modelos avanzados. Se examinan las demandas de datos y las herramientas de medición que sustentan estos ambiciosos objetivos de investigación.\n\nLa conversación ofrece una perspectiva clara sobre cómo la tecnología de modelos virtuales busca transformar el panorama de las ciencias de la vida y la medicina preventiva.",
+            "context": "La intersección entre la biología y la computación avanzada está redefiniedo la manera en que se investigan y simulan los sistemas vivos complejos.",
+            "key_takeaways": [
+              "Esfuerzos para construir modelos de células virtuales predictivos",
+              "Requisitos de datos y avances en herramientas de medición biológica",
+              "Detalles sobre la iniciativa de investigación de 1.8 mil millones de dólares"
+            ],
+            "highlights": [
+              "Participación de Alex Rives, jefe de ciencia de Biohub",
+              "Enfoque en la simulación de la biología y la erradicación de enfermedades"
+            ]
+          },
+          "zh-CN": {
+            "title": "生命的世界模型：Alex Rives谈Biohub的虚拟细胞与18亿美元计划",
+            "summary": "Biohub科学负责人Alex Rives探讨了构建预测性虚拟细胞模型和模拟生物学的努力。节目详细介绍了推动Biohub 18亿美元根除疾病计划的数据需求、建模突破与测量工具。",
+            "why_it_matters": "利用计算模型深入模拟复杂的生物系统，可能为未来攻克重大疾病和理解细胞机制提供全新路径。",
+            "extended_analysis": "本期节目聚焦Biohub在生物模拟领域的重大科学布局。Alex Rives深入剖析了构建可靠虚拟细胞所需的庞大数据基础设施以及最新的测量技术突破。\n\n讨论揭示了大规模科研投入如何推动生命科学向前发展，展现了计算生物学在应对医学挑战方面的应用前景。",
+            "context": "现代生物医药研究正加速与前沿计算模型融合，力求通过数据驱动的方法模拟复杂的生命动态过程。",
+            "key_takeaways": [
+              "开发预测性虚拟细胞模型的核心策略",
+              "生物模拟所需的数据需求与测量工具创新",
+              "Biohub 18亿美元科研计划的深度解析"
+            ],
+            "highlights": [
+              "特邀Biohub科学负责人Alex Rives做客节目",
+              "聚焦生物学模拟与疾病根除研究的最新进展"
+            ]
+          },
+          "de": {
+            "title": "Ein Weltmodell des Lebens: Alex Rives über Biohubs virtuelle Zellen",
+            "summary": "Biohub-Forschungschef Alex Rives diskutiert Bemühungen zur Erstellung prädiktiver virtueller zellulärer Modelle und zur Simulation von Biologie. Die Episode beleuchtet die Datenanforderungen und Messwerkzeuge hinter Biohubs 1,8-Milliarden-Dollar-Initiative.",
+            "why_it_matters": "Die Weiterentwicklung prädiktiver biologischer Modelle könnte die Erforschung zellulärer Mechanismen und den Kampf gegen Krankheiten nachhaltig verändern.",
+            "extended_analysis": "Das Gespräch beleuchtet die wissenschaftlichen und technischen Ansätze von Biohub zur Simulation komplexer biologischer Systeme. Alex Rives erläutert die enormen Datenmengen und methodischen Durchbrüche, die für die Entwicklung virtueller Zellen erforderlich sind.\n\nDabei wird analysiert, wie moderne Messinstrumente und rechnergestützte Rahmenwerke die Zukunft der biomedizinischen Forschung prägen.",
+            "context": "Die biomedizinische Forschung setzt zunehmend auf datenintensive Computersimulationen, um biologische Prozesse präzise abzubilden und Therapien zu beschleunigen.",
+            "key_takeaways": [
+              "Entwicklungsansätze für prädiktive virtuelle Zellmodelle",
+              "Datenanforderungen und Messwerkzeuge in der biologischen Simulation",
+              "Einblicke in Biohubs 1,8-Milliarden-Dollar-Forschungsinitiative"
+            ],
+            "highlights": [
+              "Mit Biohub Head of Science Alex Rives",
+              "Fokus auf biologische Simulationen und Krankheitsbekämpfung"
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 45,
+        "editor_pick_reason": ""
+      }
+    },
+    "25fa4dd18ec78a48a9233cc009a7e10d7c8c98f49986ed2e5b02c4eebf5890b1": {
+      "fingerprint": "1b64ec597fa2ffa3b87bda280804062d4e22b3cb465039b38a710572840042d2",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Un nuovo standard per le infrastrutture IA responsabili",
+            "summary": "OpenAI ha introdotto il National Community Compact e il Compute Campus Policy Blueprint. Queste iniziative mirano a proteggere le risorse locali, generare occupazione e guidare lo sviluppo responsabile delle infrastrutture per l'intelligenza artificiale.",
+            "why_it_matters": "La gestione delle infrastrutture di calcolo sta diventando un tema cruciale per bilanciare la crescita tecnologica con le esigenze delle comunità locali e la sostenibilità delle risorse.",
+            "extended_analysis": "OpenAI ha presentato il National Community Compact e il Compute Campus Policy Blueprint per definire linee guida mirate a proteggere le risorse locali e creare posti di lavoro. Questo approccio riflette la crescente necessità di regolare l'impatto territoriale dei campus di calcolo necessari per i carichi di lavoro dell'intelligenza artificiale.\n\nNel contesto attuale, l'espansione dei data center solleva interrogativi importanti sull'uso del territorio e delle risorse. Sarà fondamentale osservare come queste politiche verranno applicate concretamente nelle diverse regioni.",
+            "context": "L'aumento esponenziale della domanda di calcolo per l'intelligenza artificiale richiede infrastrutture fisiche imponenti, ponendo sfide inedite per la pianificazione territoriale e l'impatto economico locale.",
+            "key_takeaways": [
+              "Presentato il National Community Compact.",
+              "Introdotto il Compute Campus Policy Blueprint.",
+              "Obiettivo di proteggere risorse locali e creare posti di lavoro."
+            ],
+            "highlights": [
+              "Annuncio ufficiale da parte di OpenAI.",
+              "Focus sullo sviluppo responsabile delle infrastrutture IA."
+            ]
+          },
+          "en": {
+            "title": "Setting a new standard for responsible AI infrastructure",
+            "summary": "OpenAI has introduced its National Community Compact and Compute Campus Policy Blueprint. These initiatives aim to protect local resources, create jobs, and guide the responsible development of AI infrastructure.",
+            "why_it_matters": "Addressing the local impact of massive computing infrastructure is critical as AI development scales up and interacts with regional resources and communities.",
+            "extended_analysis": "OpenAI's introduction of the National Community Compact and Compute Campus Policy Blueprint outlines a framework aimed at balancing technological expansion with local interests. By focusing on resource protection and job creation, these policies attempt to address community concerns regarding large-scale AI infrastructure.\n\nAs the industry grows, the physical footprint of AI data centers remains a focal point for policymakers and local populations. Observers will monitor how these policy blueprints translate into tangible community agreements and operational guidelines.",
+            "context": "The rapid expansion of artificial intelligence workloads demands unprecedented physical compute facilities, raising important questions about regional sustainability and economic integration.",
+            "key_takeaways": [
+              "Launch of the National Community Compact.",
+              "Introduction of the Compute Campus Policy Blueprint.",
+              "Designed to protect local resources and generate jobs."
+            ],
+            "highlights": [
+              "Announced by OpenAI News.",
+              "Aimed at guiding responsible AI infrastructure development."
+            ]
+          },
+          "es": {
+            "title": "Un nuevo estándar para la infraestructura de IA responsable",
+            "summary": "OpenAI ha presentado su National Community Compact y su Compute Campus Policy Blueprint. Estas iniciativas buscan proteger los recursos locales, generar empleo y guiar el desarrollo responsable de la infraestructura de IA.",
+            "why_it_matters": "La gestión del impacto territorial de los centros de cómputo es esencial a medida que la tecnología de inteligencia artificial expande su presencia física en las comunidades.",
+            "extended_analysis": "Con el lanzamiento del National Community Compact y el Compute Campus Policy Blueprint, OpenAI propone directrices orientadas a salvaguardar los recursos locales y fomentar la creación de empleo. Estas medidas buscan estructurar de manera sostenible el crecimiento de las instalaciones físicas necesarias para la IA.\n\nA medida que el secteur avanza, la relación entre los campus tecnológicos y las comunidades locales cobra mayor relevancia. Será clave observar la implementación práctica de estas políticas en el futuro.",
+            "context": "El crecimiento de la inteligencia artificial requiere infraestructuras de computación a gran escala, generando debates sobre el uso sostenible de los recursos regionales y el desarrollo económico local.",
+            "key_takeaways": [
+              "Presentación del National Community Compact.",
+              "Lanzamiento del Compute Campus Policy Blueprint.",
+              "Enfoque en la protección de recursos y empleo local."
+            ],
+            "highlights": [
+              "Anuncio oficial por parte de OpenAI.",
+              "Orientado al desarrollo responsable de infraestructuras."
+            ]
+          },
+          "zh-CN": {
+            "title": "为负责任的人工智能基础设施设定新标准",
+            "summary": "OpenAI 推出了国家社区契约与计算园区政策蓝图。这些举措旨在保护地方资源、创造就业机会，并指导人工智能基础设施的负责任发展。",
+            "why_it_matters": "随着人工智能技术的普及，如何平衡庞大的计算需求与地方资源保护及社区利益，已成为行业发展的重要议题。",
+            "extended_analysis": "OpenAI 推出的国家社区契约和计算园区政策蓝图旨在建立一套框架，平衡技术扩张与地方社区的需求。通过关注资源保护和就业增长，这些政策试图回应大规模人工智能基础设施带来的实际挑战。\n\n随着计算需求的不断攀升，大型数据中心对地方经济和环境的影响受到广泛关注。未来需要观察这些政策蓝图如何在实际项目中落地执行。",
+            "context": "人工智能工作负载的激增推动了物理计算设施的大规模建设，同时也引发了关于区域可持续发展和地方经济融合的讨论。",
+            "key_takeaways": [
+              "推出国家社区契约。",
+              "发布计算园区政策蓝图。",
+              "旨在保护地方资源并创造就业。"
+            ],
+            "highlights": [
+              "由 OpenAI 官方发布。",
+              "聚焦负责任的 AI 基础设施建设。"
+            ]
+          },
+          "de": {
+            "title": "Ein neuer Standard für verantwortungsvolle KI-Infrastruktur",
+            "summary": "OpenAI hat den National Community Compact und den Compute Campus Policy Blueprint vorgestellt. Diese Initiativen zielen darauf ab, lokale Ressourcen zu schützen, Arbeitsplätze zu schaffen und eine verantwortungsvolle Entwicklung der KI-Infrastruktur zu leiten.",
+            "why_it_matters": "Die Bewältigung der lokalen Auswirkungen großer Rechenzentren ist entscheidend, während die KI-Technologie wächst und sich auf regionale Ressourcen und Gemeinschaften auswirkt.",
+            "extended_analysis": "Mit der Einführung des National Community Compact und des Compute Campus Policy Blueprint legt OpenAI einen Rahmen vor, der darauf abzielt, technologisches Wachstum mit lokalen Interessen in Einklang zu bringen. Der Fokus liegt dabei auf Ressourcenschutz und der Schaffung von Arbeitsplätzen.\n\nAngesichts des anhaltenden Ausbaus von Rechenkapazitäten rückt die physische Präsenz von KI-Infrastrukturen stärker in den Fokus von Öffentlichkeit und Politik. Beobachter werden verfolgen, wie sich diese politischen Entwürfe in der Praxis bewähren.",
+            "context": "Der rasante Ausbau von KI-Anwendungen erfordert umfangreiche physische Rechenkapazitäten und wirft wichtige Fragen zur regionalen Nachhaltigkeit und wirtschaftlichen Einbindung auf.",
+            "key_takeaways": [
+              "Einführung des National Community Compact.",
+              "Vorstellung des Compute Campus Policy Blueprint.",
+              "Fokus auf Ressourcenschutz und lokale Arbeitsplätze."
+            ],
+            "highlights": [
+              "Offizielle Bekanntgabe durch OpenAI.",
+              "Gerichtet auf die verantwortungsvolle Entwicklung von KI-Infrastrukturen."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 65,
+        "editor_pick_reason": ""
+      }
     }
   },
   "daily": {
-    "date": "2026-11-08",
-    "count": 15,
+    "date": "2026-11-09",
+    "count": 4,
     "picks": 0
   }
 }
