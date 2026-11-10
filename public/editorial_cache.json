@@ -2564,87 +2564,87 @@
       }
     },
     "ac3db777f5aac1cf97986b034f59b4c3bba5699e627acc03ae32695b1a5719b2": {
-      "fingerprint": "8e8cb98cd755757c462779f0ec5ea6bdf851a18d0f9186dd22493d1f43c024e9",
+      "fingerprint": "6aaa0a0cc25932f48c85f39adf161dcfd4193ebd81abe51d863d27645d23ab57",
       "editorial": {
         "editorial": {
           "it": {
-            "title": "TV-Detox: ringiovanire vecchi Android TV con l'IA",
-            "summary": "Il progetto GitHub tv-detox propone una soluzione per accelerare i vecchi Android TV rimuovendo annunci e bloatware tramite l'ausilio di assistenti di codifica come Claude Code o Codex. Fornisce una schermata iniziale leggera e priva di pubblicità guidata da prompt dedicati.",
-            "why_it_matters": "Offre agli utenti un metodo pratico per recuperare dispositivi hardware rallentati da interfacce pesanti e cariche di inserzioni, sfruttando l'automazione dei moderni agenti di IA.",
-            "extended_analysis": "Molti dispositivi Smart TV tendono a rallentare nel tempo a causa di aggiornamenti software pesanti, pubblicità invasive e bloatware preinstallati dai produttori. Il repository tv-detox affronta questo problema combinando una schermata iniziale essenziale con istruzioni strutturate per strumenti di codifica basati su intelligenza artificiale.\n\nIl processo richiede l'abilitazione del debug USB sul televisore e l'esecuzione di comandi tramite un assistente come Claude Code o Codex sulla stessa rete locale. La natura reversibile degli interventi, che disattivano le app di sistema senza rimuoverle definitivamente, offre un margine di sicurezza per gli utenti disposti a sperimentare.",
-            "context": "L'ecosistema delle smart TV è spesso criticato per l'abbondanza di contenuti sponsorizzati e interfacce poco reattive. Strumenti leggeri e soluzioni open source rispondono alla crescente richiesta di dispositivi domestici più veloci e controllabili.",
+            "title": "TV Detox: accelerare le vecchie Android TV con l'IA",
+            "summary": "Il progetto GitHub tv-detox offre una schermata iniziale leggera e priva di pubblicità per velocizzare i vecchi dispositivi Android TV. Sfruttando assistenti di codifica come Claude Code o Codex, gli utenti possono rimuovere il bloatware e i contenuti sponsorizzati.",
+            "why_it_matters": "Questo approccio mostra come l'intelligenza artificiale possa essere applicata alla manutenzione dei dispositivi di consumo, offrendo un controllo maggiore sui sistemi operativi esistenti.",
+            "extended_analysis": "Il progetto open source tv-detox mira a risolvere i problemi di lentezza dei televisori Android TV meno recenti eliminando le schermate piene di pubblicità e file superflui. Utilizzando strumenti basati su LLM come Claude Code o Codex, il sistema guida gli utenti attraverso un prompt per pulire il dispositivo, disattivando le applicazioni di sistema non necessarie senza rimuoverle permanentemente.\n\nSebbene offra un'interfaccia pulita focalizzata solo su app, ingressi HDMI e orologio, la documentazione avverte che la disattivazione delle app di sistema comporta rischi operativi e potrebbe potenzialmente bloccare alcuni modelli di televisori.",
+            "context": "Molti dispositivi Smart TV tendono a rallentare nel tempo a causa di aggiornamenti pesanti e interfacce sovraccariche di annunci pubblicitari, spingendo gli sviluppatori a cercare soluzioni alternative basate su script e automazioni.",
             "key_takeaways": [
-              "Elimina annunci pubblicitari e bloatware dalle vecchie smart TV.",
-              "Utilizza assistenti di codifica IA come Claude Code o Codex per la configurazione.",
-              "Offre un'interfaccia pulita focalizzata solo su app, ingressi HDMI e orologio."
+              "Fornisce una schermata iniziale minimalista e senza pubblicità.",
+              "Utilizza assistenti di codifica come Claude Code o Codex per gestire la configurazione.",
+              "Disattiva le app indesiderate invece di eliminarle, con la possibilità di ripristinarle."
             ],
             "highlights": [
-              "Disponibile come repository open source su GitHub con licenza MIT.",
-              "Richiede l'attivazione del debug USB e la connessione Wi-Fi comune."
+              "Progetto open source disponibile su GitHub con licenza MIT.",
+              "Richiede l'attivazione del debug USB sulla TV e una connessione Wi-Fi comune."
             ]
           },
           "en": {
-            "title": "TV-Detox: Speed Up Old Android TVs Using AI Assistants",
-            "summary": "The GitHub project tv-detox aims to speed up older Android TVs by removing ads and bloatware using coding assistants like Claude Code or Codex. It pairs a tiny, ad-free home screen with specific prompts to clean up the system.",
-            "why_it_matters": "It provides a practical method to reclaim hardware slowed down by heavy interfaces and ad-heavy launchers, utilizing modern AI coding agents for execution.",
-            "extended_analysis": "Many smart TV devices slow down over time due to resource-heavy updates, mandatory ads, and manufacturer bloatware. The tv-detox repository tackles this by combining a streamlined launcher alternative with guided instructions executed via AI coding tools.\n\nThe process involves enabling USB debugging on the TV and running prompts through an assistant like Claude Code or Codex connected on the same Wi-Fi network. System apps are disabled rather than permanently deleted, providing a rollback option for cautious users.",
-            "context": "Smart TV interfaces have increasingly become vehicles for targeted advertising and sponsored rows, often degrading device performance over time. Open-source minimalism provides an alternative for users seeking speed and privacy.",
+            "title": "TV Detox: Speed Up Old Android TVs Using AI Coding Assistants",
+            "summary": "The GitHub project tv-detox introduces a lightweight, ad-free home screen designed to make older Android TV devices fast again. By pairing standard tools with AI coding agents like Claude Code or Codex, users can prompt the system to clean out bloatware and sponsored rows.",
+            "why_it_matters": "It demonstrates a practical consumer application for AI coding assistants, extending hardware longevity by cleaning up bloated operating systems.",
+            "extended_analysis": "The tv-detox repository provides a minimalistic approach to reviving sluggish smart TVs by replacing bloated manufacturer interfaces with a clean layout containing only apps, HDMI inputs, and a clock. Users interact with Claude Code or Codex via a laptop on the same network to execute the cleanup process.\n\nWhile the solution aims to restore speed by disabling unnecessary system apps rather than deleting them, the developer documentation notes potential risks, such as certain television models becoming stuck during the process.",
+            "context": "Aging smart televisions frequently suffer from performance degradation due to heavy launchers and intrusive advertisements, prompting community-driven lightweight alternatives.",
             "key_takeaways": [
-              "Removes ads, sponsored rows, and manufacturer bloatware from Android TV.",
-              "Uses AI coding tools like Claude Code or Codex to execute cleanup prompts.",
-              "Delivers a minimalist home screen showing only apps, inputs, and a clock."
+              "Replaces heavy system launchers with a clean, ad-free alternative.",
+              "Leverages AI coding tools like Claude Code and Codex to execute setup.",
+              "Safely disables apps rather than permanently deleting them."
             ],
             "highlights": [
-              "Hosted as an open-source project on GitHub under the MIT license.",
-              "Requires enabling USB debugging and connecting via local Wi-Fi."
+              "Hosted openly on GitHub under the MIT license.",
+              "Requires USB debugging enabled on the target Android TV device."
             ]
           },
           "es": {
-            "title": "TV-Detox: Acelera viejos Android TV con IA",
-            "summary": "El proyecto de GitHub tv-detox busca acelerar televisores Android TV antiguos eliminando anuncios y software preinstalado mediante asistentes de código como Claude Code o Codex. Combina una pantalla de inicio ligera sin publicidad con comandos específicos.",
-            "why_it_matters": "Ofrece un método práctico para rescatar hardware ralentizado por interfaces pesadas y publicidad, aprovechando la automatización de agentes de inteligencia artificial.",
-            "extended_analysis": "Muchos dispositivos de televisión inteligente pierden velocidad con el tiempo debido a actualizaciones pesadas y contenido patrocinado. El repositorio tv-detox aborda este problema uniendo una interfaz minimalista con instrucciones guiadas para herramientas de código basadas en IA.\n\nEl procedimiento requiere habilitar la depuración USB en el televisor y utilizar un asistente como Claude Code o Codex en la misma red Wi-Fi. Las aplicaciones del sistema se desactivan en lugar de borrarse por completo, permitiendo revertir los cambios si es necesario.",
-            "context": "Las interfaces de los televisores inteligentes suelen priorizar los espacios publicitarios, lo que a menudo afecta el rendimiento general. Las soluciones abiertas ofrecen a los usuarios mayor control sobre sus dispositivos.",
+            "title": "TV Detox: Revitaliza viejos Android TV con la ayuda de la IA",
+            "summary": "El proyecto de GitHub tv-detox ofrece una pantalla de inicio ligera y sin publicidad para acelerar dispositivos Android TV antiguos. Mediante el uso de agentes de IA como Claude Code o Codex, los usuarios pueden eliminar aplicaciones preinstaladas innecesarias.",
+            "why_it_matters": "Muestra cómo las herramientas de desarrollo de IA pueden reutilizarse para simplificar la gestión de dispositivos domésticos y alargar su vida útil.",
+            "extended_analysis": "El repositorio tv-detox busca solucionar la ralentización típica de los televisores inteligentes antiguos reemplazando las interfaces pesadas por una pantalla simplificada. Con la ayuda de Claude Code o Codex, el sistema guía al usuario para desactivar el bloatware mediante comandos simples.\n\nLa documentación advierte que la desactivación de aplicaciones del sistema conlleva ciertos riesgos operativos y algunos modelos de televisión podrían experimentar bloqueos.",
+            "context": "Los televisores inteligentes antiguos suelen acumular bloatware y interfaces pesadas que ralentizan su funcionamiento con el paso del tiempo.",
             "key_takeaways": [
-              "Elimina anuncios y aplicaciones preinstaladas innecesarias.",
-              "Se apoya en asistentes de IA como Claude Code o Codex para el proceso.",
-              "Muestra una pantalla de inicio limpia con accesos directos y reloj."
+              "Introduce una interfaz limpia sin anuncios ni filas patrocinadas.",
+              "Utiliza asistentes de código como Claude Code o Codex para el proceso.",
+              "Desactiva las aplicaciones en lugar de eliminarlas definitivamente."
             ],
             "highlights": [
               "Disponible en GitHub bajo licencia MIT.",
-              "Requiere modo de desarrollador y depuración USB habilitados."
+              "Requiere habilitar el modo de depuración USB en el televisor."
             ]
           },
           "zh-CN": {
-            "title": "TV-Detox：借助AI助手让旧版Android TV重新流畅",
-            "summary": "GitHub开源项目tv-detox旨在通过Claude Code或Codex等编码助手，清理旧款Android TV中的广告和臃肿软件。它提供了一个无广告的小型主屏幕以及对应的清理提示词。",
-            "why_it_matters": "它为用户提供了一种利用AI代理清理老旧电视硬件、摆脱沉重广告界面的实用方案。",
-            "extended_analysis": "由于系统更新和厂商预装软件，许多智能电视在使用一段时间后会变得迟缓。tv-detox项目结合了极简的主屏幕设计与AI编码工具的引导指令，帮助用户优化电视性能。\n\n该过程需要在电视上开启USB调试，并通过同一Wi-Fi网络运行Claude Code或Codex等助手。系统应用采用禁用而非永久删除的方式，在一定程度上保证了操作的可逆性。",
-            "context": "智能电视界面充斥着广告和赞助内容，往往导致设备性能下降。开源极简方案为追求速度的用户提供了替代选择。",
+            "title": "TV Detox：利用AI编程助手让老旧Android TV重新流畅",
+            "summary": "GitHub项目 tv-detox 提供了一个轻量级且无广告的主屏幕，旨在让旧款 Android TV 运行得更快。借助 Claude Code 或 Codex 等 AI 编程助手，用户可以通过提示词清理系统中的臃肿软件。",
+            "why_it_matters": "该项目展示了AI代理在消费电子设备维护中的实际应用，为延长硬件寿命提供了一条新途径。",
+            "extended_analysis": "tv-detox 旨在解决老旧智能电视因系统臃肿和广告过多而变慢的问题。它通过精简界面，只保留应用、HDMI输入和时钟。用户在同一Wi-Fi网络下通过笔记本运行 Claude Code 或 Codex 来执行清理流程。\n\n尽管该方案通过禁用而非删除系统应用来提升速度，但文档也提醒用户注意潜在风险，例如某些电视型号在操作过程中可能会遇到卡顿或系统卡死的情况。",
+            "context": "随着时间和系统更新，许多智能电视由于界面复杂和广告植入而出现性能下降，社区开发者因此寻求各种替代方案。",
             "key_takeaways": [
-              "移除Android TV上的广告与冗余预装软件。",
-              "借助Claude Code或Codex等AI编程工具执行清理。",
-              "提供仅显示应用、HDMI输入和时钟的极简主屏幕。"
+              "提供无广告的极简电视主屏幕界面。",
+              "借助 Claude Code 或 Codex 等工具简化配置过程。",
+              "采用禁用而非直接删除的方式处理系统应用。"
             ],
             "highlights": [
-              "作为开源项目托管在GitHub上并采用MIT许可证。",
-              "需要开启电视开发者模式和USB调试功能。"
+              "基于MIT开源协议托管在GitHub上。",
+              "需要开启电视的开发者选项及USB调试功能。"
             ]
           },
           "de": {
-            "title": "TV-Detox: Alte Android TVs mit KI-Assistenten beschleunigen",
-            "summary": "Das GitHub-Projekt tv-detox zielt darauf ab, ältere Android TVs durch das Entfernen von Werbung und Bloatware mithilfe von KI-Codierungsassistenten wie Claude Code oder Codex zu beschleunigen. Es kombiniert einen werbefreien Startbildschirm mit gezielten Befehlen.",
-            "why_it_matters": "Es bietet eine praktische Methode, um durch schwere Oberflächen und Werbung verlangsamte Hardware mithilfe moderner KI-Agenten wieder nutzbar zu machen.",
-            "extended_analysis": "Viele Smart-TV-Geräte werden im Laufe der Zeit durch umfangreiche Updates und vorinstallierte Software langsamer. Das tv-detox-Repository begegnet diesem Problem, indem es einen minimalistischen Launcher mit strukturierten Anweisungen für KI-basierte Werkzeuge verbindet.\n\nDer Prozess erfordert die Aktivierung des USB-Debugging auf dem Fernseher und die Ausführung von Befehlen über einen Assistenten wie Claude Code oder Codex im selben WLAN. System-Apps werden dabei deaktiviert statt dauerhaft gelöscht, was eine gewisse Rücksetzbarkeit ermöglicht.",
-            "context": "Smart-TV-Oberflächen enthalten häufig stark werbebasierte Startseiten, die die Geräteleistung beeinträchtigen können. Open-Source-Ansätze bieten hierbei Alternativen für mehr Kontrolle und Geschwindigkeit.",
+            "title": "TV Detox: Ältere Android TVs mit KI-Assistenz beschleunigen",
+            "summary": "Das GitHub-Projekt tv-detox bietet einen minimalistischen, werbefreien Startbildschirm, um ältere Android-TV-Geräte wieder schnell zu machen. Mit Unterstützung von KI-Coding-Assistenten wie Claude Code oder Codex können Bloatware und gesponserte Inhalte entfernt werden.",
+            "why_it_matters": "Es veranschaulicht, wie KI-Entwicklungswerkzeuge für die praktische Wartung von Unterhaltungselektronik eingesetzt werden können.",
+            "extended_analysis": "Das Open-Source-Projekt tv-detox zielt darauf ab, träge Smart-TVs zu beschleunigen, indem die überladene Benutzeroberfläche durch eine schlanke Ansicht ersetzt wird, die nur Apps, HDMI-Eingänge und eine Uhr enthält. Über Claude Code oder Codex auf einem Laptop im selben WLAN wird der Bereinigungsprozess gesteuert.\n\nDie Lösung deaktiviert unnötige System-Apps, anstatt sie dauerhaft zu löschen. Die Dokumentation weist jedoch darauf hin, dass dieser Eingriff Risiken birgt und bei einigen Fernsehmodellen zu Problemen führen kann.",
+            "context": "Ältere Smart-TVs neigen im Laufe der Zeit dazu, durch umfangreiche Updates und Werbung langsamer zu werden, was zu gemeinschaftlichen Optimierungsversuchen führt.",
             "key_takeaways": [
-              "Entfernt Werbung und Hersteller-Bloatware von Android TV.",
-              "Nutzt KI-Codierungswerkzeuge wie Claude Code oder Codex zur Ausführung.",
-              "Bietet einen minimalistischen Startbildschirm mit Apps, Eingängen und Uhrzeit."
+              "Ersetzt herstellerspezifische Launcher durch eine werbefreie Ansicht.",
+              "Nutzt KI-Codierungstools zur Ausführung der Konfiguration.",
+              "Deaktiviert System-Apps vorübergehend statt sie zu löschen."
             ],
             "highlights": [
-              "Als Open-Source-Projekt auf GitHub unter MIT-Lizenz veröffentlicht.",
-              "Erfordert die Aktivierung des USB-Debugging im Entwicklermodus."
+              "Verfügbar auf GitHub unter der MIT-Lizenz.",
+              "Setzt die Aktivierung des USB-Debuggings auf dem Fernseher voraus."
             ]
           }
         },
@@ -2652,102 +2652,13 @@
         "editorial_status": "verified",
         "editorial_model": "gemini-3.5-flash-lite",
         "editorial_version": 4,
-        "relevance_score": 42,
+        "relevance_score": 35,
         "editor_pick_reason": ""
       }
     },
     "4bef08f5f83b5a9b7dbba2dd2b3d3c98c77e27648541df9e24f911a161e624f6": {
-      "fingerprint": "1c1112f137d11ecef93f94b4169605a3a76d9bb60052509cbc447fb8747ba511",
-      "editorial": {
-        "editorial": {
-          "it": {
-            "title": "CleanYourTV: pulizia e interfaccia stile Apple TV per Android TV",
-            "summary": "Rilasciato su GitHub il progetto cleanyourtv, uno strumento per rimuovere i bloatware e pulire qualsiasi Android o Google TV tramite Wi-Fi, offrendo al contempo un'esperienza di schermata iniziale ispirata ad Apple TV.",
-            "why_it_matters": "Il progetto risponde alle esigenze di personalizzazione e privacy degli utenti che utilizzano dispositivi basati su Android TV e Google TV, semplificando la rimozione di software indesiderato.",
-            "extended_analysis": "Il repository GitHub Gathin23/cleanyourtv fornisce una soluzione orientata alla gestione dei dispositivi smart TV basati sul sistema operativo Google. Sfruttando la connessione Wi-Fi, il progetto mira a rimuovere i componenti superflui e a modificare l'interfaccia utente per avvicinarla allo stile visivo di Apple TV.\n\nLa documentazione indica l'uso di strumenti di assistenza alla programmazione per completare le operazioni in circa quindici minuti, sebbene il supporto sia limitato ai dispositivi Android o Google TV, escludendo piattaforme proprietarie come Samsung, LG o Roku per le quali sono previste solo guide di orientamento sulla privacy.",
-            "context": "Molte smart TV moderne integrano interfacce ricche di pubblicità e applicazioni preinstallate non rimovibili, sollevando spesso questioni relative alla privacy e all'esperienza d'uso complessiva.",
-            "key_takeaways": [
-              "Permette di rimuovere il bloatware da Android e Google TV via Wi-Fi.",
-              "Modifica l'interfaccia principale per somigliare ad Apple TV.",
-              "Non è compatibile con sistemi operativi proprietari come Tizen di Samsung o webOS di LG."
-            ],
-            "highlights": [
-              "Progetto ospitato su GitHub con oltre 55.000 stelle.",
-              "Richiede circa quindici minuti di configurazione tramite assistenti di codifica."
-            ]
-          },
-          "en": {
-            "title": "CleanYourTV: Debloat Android and Google TV via Wi-Fi",
-            "summary": "The cleanyourtv project on GitHub lets users debloat any Android or Google TV over Wi-Fi while introducing an Apple TV-style home interface.",
-            "why_it_matters": "It addresses common user pain points regarding unwanted pre-installed software and interface clutter on smart TV platforms.",
-            "extended_analysis": "Hosted on GitHub, the cleanyourtv repository provides tools to streamline smart TV interfaces by removing excess bloatware over a Wi-Fi connection. The project reorganizes the user experience to mirror an Apple TV-style layout.\n\nAccording to the documentation, setup can be handled using coding assistants in roughly fifteen minutes. Compatibility is restricted to Android TV and Google TV hardware, while other proprietary television operating systems require alternative approaches.",
-            "context": "Smart TV ecosystems frequently bundle numerous applications and telemetry features that consumers cannot easily disable through standard settings menus.",
-            "key_takeaways": [
-              "Removes unwanted software from Android and Google TV devices over Wi-Fi.",
-              "Replaces the default launcher experience with an Apple TV-style home.",
-              "Focused exclusively on Android-based television platforms."
-            ],
-            "highlights": [
-              "Open-source repository available on GitHub.",
-              "Employs coding assistant workflows for rapid deployment."
-            ]
-          },
-          "es": {
-            "title": "CleanYourTV: Elimina bloatware en Android y Google TV vía Wi-Fi",
-            "summary": "El proyecto cleanyourtv en GitHub permite limpiar y eliminar bloatware en cualquier Android o Google TV mediante Wi-Fi, ofreciendo una interfaz al estilo Apple TV.",
-            "why_it_matters": "Ofrece a los usuarios una alternativa para simplificar la interfaz de sus televisores inteligentes y eliminar aplicaciones preinstaladas innecesarias.",
-            "extended_analysis": "El repositorio Gathin23/cleanyourtv propone un método para optimizar dispositivos Android TV y Google TV a través de conexiones inalámbricas Wi-Fi. Su objetivo principal es eliminar el software preinstalado superfluo y rediseñar la pantalla de inicio con una estética similar a la de Apple TV.\n\nLa documentación destaca el uso de asistentes de código para facilitar el proceso de configuración en aproximadamente un cuarto de hora, delimitando su compatibilidad estrictamente a los sistemas operativos de Google y Android.",
-            "context": "La proliferación de servicios integrados y publicidad en las interfaces de televisión inteligente ha impulsado el desarrollo de herramientas independientes de optimización.",
-            "key_takeaways": [
-              "Elimina software innecesario en Android TV y Google TV por Wi-Fi.",
-              "Proporciona una interfaz de inicio inspirada en Apple TV.",
-              "No es compatible con plataformas propietarias como Samsung o LG."
-            ],
-            "highlights": [
-              "Disponible como repositorio público en GitHub.",
-              "Diseñado para configuraciones rápidas asistidas por herramientas de programación."
-            ]
-          },
-          "zh-CN": {
-            "title": "CleanYourTV：通过 Wi-Fi 清理安卓及谷歌电视并更换界面",
-            "summary": "GitHub 上的 cleanyourtv 项目允许用户通过 Wi-Fi 清理任意 Android TV 或 Google TV 上的内置冗余软件，并提供类似 Apple TV 风格的主屏幕界面。",
-            "why_it_matters": "它为智能电视用户提供了一种精简系统、去除预装应用和提升界面体验的实用方案。",
-            "extended_analysis": "开源项目 cleanyourtv 托管于 GitHub，旨在通过无线网络对运行 Android 或 Google TV 系统的设备进行精简优化。除了移除多余的预装应用外，该项目还致力于提供模仿 Apple TV 布局的主页风格。\n\n根据项目文档说明，借助代码助手可以在大约十五分钟内完成相关配置。需要注意的是，该工具仅适用于 Android 电视生态系统，不支持其他品牌的封闭系统。",
-            "context": "当前的智能电视普遍内置了大量无法直接卸载的应用和服务，这促使开发者社群寻找技术手段来优化用户的观看与使用体验。",
-            "key_takeaways": [
-              "支持通过 Wi-Fi 深度清理 Android 和 Google TV 设备。",
-              "带来类似 Apple TV 的全新主屏幕视觉体验。",
-              "仅适用于 Android 电视平台，无法在其他专有电视系统上运行。"
-            ],
-            "highlights": [
-              "托管于 GitHub 平台的开源代码仓库。",
-              "可利用代码编写助手在短时间内快速部署。"
-            ]
-          },
-          "de": {
-            "title": "CleanYourTV: Android und Google TV via WLAN von Bloatware befreien",
-            "summary": "Das GitHub-Projekt cleanyourtv ermöglicht es, Android- oder Google-TV-Geräte über WLAN von Bloatware zu befreien und eine Benutzeroberfläche im Stil von Apple TV einzurichten.",
-            "why_it_matters": "Es bietet Nutzern eine Möglichkeit, vorinstallierte Software zu entfernen und die Benutzeroberfläche von Smart-TVs übersichtlicher zu gestalten.",
-            "extended_analysis": "Das auf GitHub veröffentlichte Repository cleanyourtv zielt darauf ab, Android-TV- und Google-TV-Hardware mithilfe einer WLAN-Verbindung zu optimieren. Dabei werden überflüssige Systemanwendungen entfernt und die Startoberfläche optisch an das Layout von Apple TV angepasst.\n\nDer Dokumentation zufolge lässt sich die Einrichtung mithilfe von Programmierassistenten in rund fünfzehn Minuten durchführen. Das Projekt beschränkt sich rein auf Android-basierte Fernsehgeräte und unterstützt keine alternativen herstellerspezifischen Plattformen.",
-            "context": "Viele moderne Fernseher enthalten zahlreiche herstellerspezifische Apps und Werbeelemente, die sich über normale Menüs oft nicht vollständig deaktivieren lassen.",
-            "key_takeaways": [
-              "Entfernt unerwünschte Bloatware von Android- und Google-TV-Geräten.",
-              "Bietet ein Startbildschirm-Design nach Vorbild von Apple TV.",
-              "Ist exklusiv für Android-TV-Plattformen konzipiert."
-            ],
-            "highlights": [
-              "Frei zugängliches Repository auf GitHub.",
-              "Nutzt Coding-Assistenten für eine schnelle Einrichtung."
-            ]
-          }
-        },
-        "editorial_level": "ai_curated",
-        "editorial_status": "verified",
-        "editorial_model": "gemini-3.5-flash-lite",
-        "editorial_version": 4,
-        "relevance_score": 42,
-        "editor_pick_reason": ""
-      }
+      "fingerprint": "5c9beb1697219aa417096e0a9c1599b9189cd0dcf40f5be0373d3fb8a7e85227",
+      "retry_after": "2026-11-10T21:49:54.269083+00:00"
     },
     "a2fef535478784e4a5c6f77f5e72299399b39eb5b44799a8357e45ba9747d8a9": {
       "fingerprint": "1a26b94de5e233af831dc96f8c7cd518e66e54b74da21df67ab32df68f53737c",
@@ -7046,97 +6957,8 @@
       }
     },
     "6a4c2b74532102f0c2f4c57bbfefacf1cbb5693c0160e5a93e12937328d6ca91": {
-      "fingerprint": "38064ffd6f503a6c1d8f474cad4680402ead39ffcc44a7ebc51f751e2ceefeb0",
-      "editorial": {
-        "editorial": {
-          "it": {
-            "title": "Kornia: la libreria di visione artificiale geometrica per la Spatial AI",
-            "summary": "Kornia è una libreria Python open source focalizzata sulla computer vision geometrica per la Spatial AI. Con oltre 12.300 stelle su GitHub, offre strumenti specializzati per l'elaborazione spaziale.",
-            "why_it_matters": "Fornisce risorse essenziali basate su Python per gli sviluppatori che lavorano nel campo della visione artificiale e dell'intelligenza artificiale spaziale.",
-            "extended_analysis": "La descrizione fornita per Kornia indica che si tratta di una libreria di visione artificiale geometrica progettata specificamente per la Spatial AI, sviluppata in linguaggio Python. Attualmente il progetto ha raggiunto una notevole popolarità su GitHub con oltre 12.300 stelle ed è stato aggiornato nel novembre 2026.\n\nSebbene i dettagli tecnici specifici siano limitati, la natura open source e la base di utenti attiva suggeriscono un ruolo rilevante nello sviluppo di applicazioni geospaziali e di visione computazionale. Sarà importante monitorare i futuri aggiornamenti della repository per valutare nuove funzionalità ed espansioni.",
-            "context": "Il progetto risponde alla crescente domanda di strumenti avanzati in Python per la Spatial AI e la computer vision geometrica, un settore in forte espansione nell'ecosistema open source.",
-            "key_takeaways": [
-              "Libreria Python focalizzata sulla computer vision geometrica",
-              "Oltre 12.300 stelle registrate su GitHub",
-              "Ultimo aggiornamento tracciato a novembre 2026"
-            ],
-            "highlights": [
-              "Linguaggio di programmazione principale: Python",
-              "Ospitato e monitorato tramite la piattaforma GitHub"
-            ]
-          },
-          "en": {
-            "title": "Kornia: Geometric Computer Vision Library for Spatial AI",
-            "summary": "Kornia is an open source Python library designed for geometric computer vision in Spatial AI applications. With over 12,300 GitHub stars, it serves as a resource for spatial processing.",
-            "why_it_matters": "It offers Python-based capabilities for developers working on spatial computing and geometric vision tasks.",
-            "extended_analysis": "The available metadata describes Kornia as a geometric computer vision library tailored for Spatial AI, written in Python and hosted on GitHub. With a solid community backing of more than 12,300 stars and an update in November 2026, it represents a visible project within the open source AI ecosystem.\n\nGiven the concise nature of the provided metadata, further investigation of the repository is recommended to understand specific features and performance benchmarks. Observers should watch for upcoming releases and community contributions.",
-            "context": "The library addresses the needs of developers building computer vision and Spatial AI systems using Python within the open source community.",
-            "key_takeaways": [
-              "Open source Python library for geometric computer vision",
-              "Strong community presence with over 12,300 GitHub stars",
-              "Actively maintained with recent updates recorded"
-            ],
-            "highlights": [
-              "Developed primarily using Python",
-              "Targeted at Spatial AI and geometric processing"
-            ]
-          },
-          "es": {
-            "title": "Kornia: Biblioteca de visión por computador geométrica para Spatial AI",
-            "summary": "Kornia es una biblioteca de Python de código abierto orientada a la visión por computador geométrica para la IA espacial. Cuenta con más de 12.300 estrellas en GitHub.",
-            "why_it_matters": "Proporciona herramientas basadas en Python para desarrolladores enfocados en la computación espacial y la visión artificial.",
-            "extended_analysis": "La información disponible detalla que Kornia es una biblioteca de visión artificial geométrica para Spatial AI desarrollada en Python. Con más de 12.300 estrellas en GitHub y actividad registrada en noviembre de 2026, muestra una adopción significativa por parte de la comunidad.\n\nA falta de una descripción detallada de benchmarks en los metadatos, el proyecto se consolida como una referencia en su categoría. Conviene seguir de cerca sus futuros hitos de desarrollo y la evolución de su ecosistema.",
-            "context": "El proyecto se alinea con la creciente demanda de herramientas de código abierto en Python para abordar desafíos de visión espacial.",
-            "key_takeaways": [
-              "Biblioteca de código abierto escrita en Python",
-              "Supera las 12.300 estrellas en GitHub",
-              "Enfocada en visión geométrica e inteligencia artificial espacial"
-            ],
-            "highlights": [
-              "Linguaje principal: Python",
-              "Repositorio activo en GitHub"
-            ]
-          },
-          "zh-CN": {
-            "title": "Kornia：面向空间人工智能的几何计算机视觉库",
-            "summary": "Kornia 是一个专注于空间人工智能（Spatial AI）几何计算机视觉的开源 Python 库。目前在 GitHub 上已获得超过 12,300 颗星标。",
-            "why_it_matters": "它为从事空间计算和几何视觉任务的开发人员提供了基于 Python 的实用工具支持。",
-            "extended_analysis": "根据元数据，Kornia 是一个用 Python 编写的几何计算机视觉库，旨在支持空间人工智能应用。该项目在 GitHub 上拥有超过 12,300 颗星标，并在 2026 年 11 月进行了更新。\n\n由于提供的描述较为简练，具体的功能特性与基准测试仍需参考官方仓库。未来可继续关注其版本更新以及在开源社区中的应用进展。",
-            "context": "该项目反映了开源社区对 Python 环境下空间视觉与人工智能工具的持续需求。",
-            "key_takeaways": [
-              "专注于几何计算机视觉的 Python 库",
-              "在 GitHub 获得超过 12,300 颗星标",
-              "最近更新记录于 2026 年 11 月"
-            ],
-            "highlights": [
-              "主要编程语言为 Python",
-              "定位于 Spatial AI 领域"
-            ]
-          },
-          "de": {
-            "title": "Kornia: Geometrische Computer-Vision-Bibliothek für Spatial AI",
-            "summary": "Kornia ist eine Open-Source-Python-Bibliothek für geometrische Computer Vision in der räumlichen KI. Das Projekt zählt über 12.300 GitHub-Sterne.",
-            "why_it_matters": "Sie bietet Python-basierte Ressourcen für Entwickler, die an räumlicher Datenverarbeitung und Computer Vision arbeiten.",
-            "extended_analysis": "Die verfügbaren Metadaten beschreiben Kornia als eine geometrische Computer-Vision-Bibliothek für Spatial AI, die in Python programmiert ist. Mit über 12.300 Sternen auf GitHub und einer Aktualisierung im November 2026 weist das Projekt eine etablierte Präsenz auf.\n\nDa keine detaillierten Leistungsdaten oder Benchmarks vorliegen, empfiehlt sich ein Blick in die Repository, um den vollen Funktionsumfang zu prüfen. Beobachter sollten künftige Updates und die Weiterentwicklung der Community verfolgen.",
-            "context": "Die Bibliothek bedient den Bedarf an spezialisierten Open-Source-Werkzeugen für Python im Bereich der räumlichen künstlichen Intelligenz.",
-            "key_takeaways": [
-              "Open-Source-Python-Bibliothek für geometrische Computer Vision",
-              "Starke Community-Präsenz mit über 12.300 GitHub-Sternen",
-              "Kontinuierlich gepflegtes Repository"
-            ],
-            "highlights": [
-              "Hauptprogrammiersprache: Python",
-              "Fokus auf Spatial AI und räumliche Verarbeitung"
-            ]
-          }
-        },
-        "editorial_level": "ai_curated",
-        "editorial_status": "verified",
-        "editorial_model": "gemini-3.5-flash-lite",
-        "editorial_version": 4,
-        "relevance_score": 45,
-        "editor_pick_reason": ""
-      }
+      "fingerprint": "25251fb98c8c5a105c9feff7845097f8a80c9e455f593f1ca0fdeca811071779",
+      "retry_after": "2026-11-10T21:49:55.829968+00:00"
     },
     "91f3b4776fff341ff92c35c84d9ed4969d4577f7a24cf2208085606ad4f6071b": {
       "fingerprint": "ba443973f9a4e8fe93abc63134b453293652e570cf7985e81c67f48fd2dfb25d",
@@ -11060,11 +10882,15 @@
         "relevance_score": 45,
         "editor_pick_reason": ""
       }
+    },
+    "ecc0466d0cdfaf8344f1c8e9de516114b946508d5586be7465d2b9ebb194dc93": {
+      "fingerprint": "88400d75659bfcfc3f5c09ec55b60fd06d543b59003a369d0d1f3a69cf045a94",
+      "retry_after": "2026-11-10T21:49:53.244941+00:00"
     }
   },
   "daily": {
     "date": "2026-11-10",
-    "count": 6,
+    "count": 7,
     "picks": 0
   }
 }
