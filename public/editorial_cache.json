@@ -10886,11 +10886,294 @@
     "ecc0466d0cdfaf8344f1c8e9de516114b946508d5586be7465d2b9ebb194dc93": {
       "fingerprint": "88400d75659bfcfc3f5c09ec55b60fd06d543b59003a369d0d1f3a69cf045a94",
       "retry_after": "2026-11-10T21:49:53.244941+00:00"
+    },
+    "0ed321095b411aa1f4b93b5f8605c67134af045f5e1fb6ea799142941102501d": {
+      "fingerprint": "edb7762c647f20f9a797d74f5e554aa940a7e4540e5765912bc17385fbe01cc1",
+      "retry_after": "2026-11-11T03:48:33.314957+00:00"
+    },
+    "b5a8e44c595e096d1c53cd70356710f528aa8713dbef602341de18ef08e9eeaf": {
+      "fingerprint": "e76be30c515b7c7d347d3889256dff35e603e70e6bb33e7dddac56edf0f37e15",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Canva e l'evoluzione del design con Stefano Corazza",
+            "summary": "In questo episodio del TWIML AI Podcast, Stefano Corazza, responsabile della ricerca sull'IA di Canva, discute come il team affronta i flussi di lavoro di design iterativo attraverso modelli personalizzati e agenti. Vengono analizzati i compromessi nell'addestramento dei modelli, l'uso di dati proprietari e strumenti come Craft e Brush.",
+            "why_it_matters": "Comprendere come le aziende software integrano l'intelligenza artificiale nei processi di design iterativo offre uno sguardo prezioso sul futuro degli strumenti creativi e sull'ottimizzazione dei costi di servizio.",
+            "extended_analysis": "L'episodio esplora il lavoro svolto da Canva per affrontare i problemi del design basato sull'intelligenza artificiale, focalizzandosi su flussi di lavoro iterativi. Vengono esaminate le differenze tra l'addestramento di modelli da zero e l'adattamento di modelli con pesi aperti, evidenziando il ruolo dei dati di design proprietari.\n\nVengono inoltre presentati strumenti specifici come Craft, che separa la pianificazione del layout dalla generazione dei pixel, e Brush, che sfrutta feedback visivi per creare e revisionare composizioni. La discussione si estende alle sfide della valutazione della qualità del design e all'impatto di API e protocolli come MCP.",
+            "context": "Il contesto si inserisce nell'evoluzione dell'intelligenza artificiale applicata ai software di produttività e design, dove l'adozione di agenti autonomi e modelli specializzati sta ridefinendo le modalità di interazione tra utenti e strumenti digitali.",
+            "key_takeaways": [
+              "I modelli personalizzati e gli agenti supportano flussi di lavoro di design iterativo.",
+              "Strumenti come Craft e Brush gestiscono la pianificazione del layout e il feedback visivo.",
+              "La valutazione della qualità del design richiede l'uso combinato di modelli linguistici visivi e valutazione umana."
+            ],
+            "highlights": [
+              "Stefano Corazza spiega i compromessi tra modelli da zero e pesi aperti.",
+              "Viene esaminato l'impatto di API e MCP nell'espandere l'accesso alle capacità di design."
+            ]
+          },
+          "en": {
+            "title": "Tackling AI Design Workflows with Canva's Stefano Corazza",
+            "summary": "Stefano Corazza, head of AI research at Canva, joins The TWIML AI Podcast to discuss custom models, iterative design workflows, and specialized tools like Craft and Brush. The conversation covers model training tradeoffs, evaluation challenges, and serving cost optimization.",
+            "why_it_matters": "Exploring how major design platforms build specialized AI agents and models sheds light on the technical and economic realities of integrating generative tools into creative workflows.",
+            "extended_analysis": "In this episode, the discussion focuses on how Canva develops custom models and agents centered around iterative design processes. Stefano Corazza explains the strategic choices between training models from scratch versus adapting open weights models, alongside the utility of proprietary design data.\n\nThe conversation highlights specific tools: Craft separates layout planning from pixel generation, while Brush uses design tools and visual feedback for composition revision. Furthermore, the episode addresses the complexities of evaluating design quality using vision language models as judges, the simplification of agent harnesses, and how APIs and MCP expand access.",
+            "context": "As software companies increasingly build tools tailored for both human users and AI agents, understanding the underlying infrastructure, inference speed, and evaluation methodologies becomes crucial for industry development.",
+            "key_takeaways": [
+              "Custom models and agents can be structured around iterative design workflows.",
+              "Craft separates layout planning from pixel generation, while Brush handles visual feedback.",
+              "Evaluating design quality involves both human review and vision language models."
+            ],
+            "highlights": [
+              "Discussion on training models from scratch versus adapting open weights models.",
+              "Examination of how APIs and MCP expand access to AI capabilities."
+            ]
+          },
+          "es": {
+            "title": "Diseño con IA en Canva junto a Stefano Corazza",
+            "summary": "Stefano Corazza, jefe de investigación de IA en Canva, analiza en este episodio cómo su equipo construye modelos personalizados y agentes para flujos de diseño iterativo. Se exploran herramientas como Craft y Brush, los desafíos de evaluación y la optimización de costos.",
+            "why_it_matters": "Analizar cómo las plataformas de diseño integran la IA en flujos iterativos permite entender los retos técnicos y económicos en el desarrollo de herramientas creativas avanzadas.",
+            "extended_analysis": "El episodio aborda las estrategias detrás de la creación de modelos personalizados y agentes orientados al diseño iterativo. Se debaten las diferencias entre entrenar desde cero y adaptar modelos de pesos abiertos, utilizando datos propietarios para lograr una mayor especialización.\n\nTambién se detallan herramientas como Craft, que divide la planificación del diseño de la generación de píxeles, y Brush, enfocada en la revisión mediante feedback visual. La charla concluye analizando la evaluación de la calidad y el impacto de las API y MCP en la accesibilidad de estas capacidades.",
+            "context": "Este análisis se enmarca en la transformación del software de diseño, donde la integración de agentes y modelos especializados redefine la creación de contenidos visuales.",
+            "key_takeaways": [
+              "Los modelos personalizados optimizan los flujos de diseño iterativo.",
+              "Craft y Brush separan la estructura del diseño y el feedback visual.",
+              "La evaluación de la calidad combina modelos visuales de lenguaje y humanos."
+            ],
+            "highlights": [
+              "Stefano Corazza detalla los compromisos en el entrenamiento de modelos.",
+              "Se examina el rol de las API y MCP en la expansión de capacidades."
+            ]
+          },
+          "zh-CN": {
+            "title": "对话Canva斯蒂法诺·科拉萨：攻克AI设计难题",
+            "summary": "在本期播客中，Canva人工智能研究负责人斯蒂法诺·科拉萨（Stefano Corazza）探讨了其团队如何围绕迭代设计工作流构建自定义模型和智能体。讨论涵盖模型训练权衡、评估挑战以及Craft与Brush等工具的应用。",
+            "why_it_matters": "了解主流设计平台如何构建专门的AI模型与智能体，有助于深入洞察将生成式工具融入创意工作流的技术与经济考量。",
+            "extended_analysis": "本期节目深入探讨了Canva如何通过自定义模型和智能体应对迭代设计中的难题。斯蒂法诺·科拉萨解释了从头训练模型与适配开源权重模型之间的权衡，并说明了专有设计数据对专业化的支持作用。\n\n对话还介绍了具体工具：Craft将布局规划与像素生成分离，而Brush则利用设计工具和视觉反馈来创建和修改构图。此外，节目还讨论了使用视觉语言模型作为评判标准评估设计质量的挑战，以及API和MCP如何扩展相关功能的应用。",
+            "context": "随着软件公司开始为人类用户和AI智能体共同构建工具，探索其底层架构、推理速度及评估方法具有重要的行业参考价值。",
+            "key_takeaways": [
+              "自定义模型和智能体可用于支持迭代设计工作流。",
+              "Craft和Brush分别用于处理布局规划与视觉反馈机制。",
+              "评估设计质量需要结合视觉语言模型与人工评估。"
+            ],
+            "highlights": [
+              "探讨了从头训练模型与适配开源权重模型的优劣。",
+              "分析了API和MCP如何扩大AI设计能力的访问范围。"
+            ]
+          },
+          "de": {
+            "title": "KI-Design-Workflows bei Canva mit Stefano Corazza",
+            "summary": "Stefano Corazza, Leiter der KI-Forschung bei Canva, spricht im TWIML AI Podcast über die Entwicklung benutzerdefinierter Modelle und Agenten für iterative Design-Workflows. Thematisiert werden Modelltraining, Evaluierung und Werkzeuge wie Craft und Brush.",
+            "why_it_matters": "Die Einblicke in die Entwicklung spezialisierter KI-Modelle durch große Designplattformen verdeutlichen die technischen und wirtschaftlichen Aspekte generativer Werkzeuge.",
+            "extended_analysis": "In dieser Episode wird beleuchtet, wie das Team von Canva benutzerdefinierte Modelle und Agenten rund um iterative Designprozesse aufbaut. Stefano Corazza erörtert die Abwägungen zwischen dem Training von Modellen von Grund auf und der Anpassung von Open-Weights-Modellen.\n\nZudem werden spezifische Tools vorgestellt: Craft trennt die Layout-Planung von der Pixelgenerierung, während Brush visuelles Feedback nutzt, um Kompositionen zu überarbeiten. Weitere Themen sind die Herausforderungen bei der Bewertung von Designqualität sowie die Rolle von APIs und MCP.",
+            "context": "Vor dem Hintergrund, dass Softwareunternehmen zunehmend Werkzeuge sowohl für menschliche Anwender als auch für KI-Agenten entwickeln, bietet die Episode Einblicke in moderne Architekturen und Inferenz-Optimierungen.",
+            "key_takeaways": [
+              "Benutzerdefinierte Modelle unterstützen iterative Design-Workflows.",
+              "Craft und Brush teilen Layout-Planung und visuelles Feedback auf.",
+              "Die Qualitätsbewertung stützt sich auf visuelle Sprachmodelle und menschliche Prüfer."
+            ],
+            "highlights": [
+              "Diskussion über Modelltraining von Grund auf versus Open-Weights-Modelle.",
+              "Einsatz von APIs und MCP zur Eriterung von Designfunktionen."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 35,
+        "editor_pick_reason": ""
+      }
+    },
+    "a989f1582084d0cf153c32d2fa32483a4ec12dee696b65f0f20a1d5ab4b8abfd": {
+      "fingerprint": "0c95832d37ea3ed1ba9fb157fd01cbd3a9b337829f3c6c9b89031c68f40aa0cf",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Anthropic lancia Claude Fable 5.2 e Claude Mythos 5.2",
+            "summary": "Anthropic ha presentato Claude Fable 5.2 e Claude Mythos 5.2, nuovi modelli progettati per affrontare le sfide tecniche più complesse in campi come programmazione, finanza e scienze. I modelli offrono una maggiore velocità di generazione dei token e costi ridotti rispetto alle versioni precedenti.",
+            "why_it_matters": "Questi nuovi modelli mirano a risolvere problemi tecnici ambiziosi e a migliorare le prestazioni in aree specializzate, offrendo al contempo protezioni avanzate contro gli usi impropri.",
+            "extended_analysis": "Claude Fable e Claude Mythos condividono la stessa architettura di base, ma si differenziano per le politiche di accesso: Fable è disponibile per tutti grazie a forti tutele integrate per cybersecurity e biologia, mentre Mythos richiede l'accesso tramite programmi di verifica dedicati.\n\nDurante i test preliminari, i modelli hanno mostrato progressi in ragionamento, visione e programmazione agentica, oltre a una maggiore efficienza economica e a una modalità rapida opzionale per accelerare la produzione di token.",
+            "context": "Nel panorama dei modelli linguistici avanzati, Anthropic continua a segmentare la propria offerta per compiti specifici, distinguendo tra modelli di uso quotidiano e varianti specializzate per ricerche scientifiche e sfide ingegneristiche complesse.",
+            "key_takeaways": [
+              "Presentati i modelli Claude Fable 5.2 e Claude Mythos 5.2 per compiti tecnici complessi.",
+              "Fable 5.2 è accessibile a tutti, mentre Mythos richiede programmi di verifica specifici.",
+              "I modelli offrono una generazione fino al 30% più rapida e una nuova opzione di modalità veloce."
+            ],
+            "highlights": [
+              "Fable 5.2 e Mythos 5.2 condividono lo stesso modello sottostante ma hanno safeguard differenti.",
+              "Disponibili a un prezzo di base di 8 dollari per milione di token di input e 40 dollari per milione di output."
+            ]
+          },
+          "en": {
+            "title": "Anthropic Announces Claude Fable 5.2 and Claude Mythos 5.2",
+            "summary": "Anthropic has released Claude Fable 5.2 and Claude Mythos 5.2, advanced models built to tackle complex technical challenges in coding, finance, and science. The updated models deliver faster token generation and lower pricing compared to their predecessors.",
+            "why_it_matters": "These models push the boundaries of technical problem-solving and rigorous scientific reasoning while incorporating robust safeguards against misuse.",
+            "extended_analysis": "Sharing the same core model architecture, Fable and Mythos serve distinct deployment paths: Fable includes built-in safeguards for widespread availability, whereas Mythos requires approval through specialized verification programs.\n\nPrerelease testing demonstrated improvements across coding, reasoning, and vision capabilities, alongside faster generation speeds and an optional fast mode for demanding workloads.",
+            "context": "Anthropic's release expands its specialized model portfolio, providing targeted tools for complex technical environments alongside its general-purpose daily drivers.",
+            "key_takeaways": [
+              "Claude Fable 5.2 and Mythos 5.2 target hard technical and scientific challenges.",
+              "Fable features broad availability with robust safeguards; Mythos requires specialized verification.",
+              "Outputs are generated up to 30% faster with lowered baseline pricing."
+            ],
+            "highlights": [
+              "Base pricing set at $8 per million input tokens and $40 per million output tokens.",
+              "Includes an optional fast mode for higher token generation speed at an increased price."
+            ]
+          },
+          "es": {
+            "title": "Anthropic presenta Claude Fable 5.2 y Claude Mythos 5.2",
+            "summary": "Anthropic ha lanzado Claude Fable 5.2 y Claude Mythos 5.2, nuevos modelos diseñados para resolver desafíos técnicos avanzados en programación, finanzas y ciencias. Los sistemas ofrecen mayor velocidad y precios reducidos en comparación con las versiones anteriores.",
+            "why_it_matters": "Estas herramientas buscan impulsar la resolución de problemas técnicos complejos y el razonamiento científico riguroso con medidas de seguridad mejoradas.",
+            "extended_analysis": "Aunque comparten la misma arquitectura fundamental, Fable se distribuye de forma general gracias a sus salvaguardas integradas, mientras que Mythos está sujeto a programas de verificación especializados para organizaciones en ciberseguridad e investigación biomédica.\n\nLas pruebas preliminares indican avances en codificación, razonamiento y visión, acompañados de una mayor eficiencia y una modalidad rápida opcional.",
+            "context": "El lanzamiento amplía la gama de modelos avanzados de Anthropic, ofreciendo opciones especializadas para entornos técnicos exigentes más allá de las tareas generales.",
+            "key_takeaways": [
+              "Nuevos modelos orientados a retos técnicos y científicos exigentes.",
+              "Fable disponible para el público general; Mythos requiere verificación especializada.",
+              "Velocidad de generación mejorada y menor costo base por token."
+            ],
+            "highlights": [
+              "Precio base de 8 dólares por millón de tokens de entrada y 40 por millón de salida.",
+              "Disponibilidad de un modo rápido opcional para acelerar la producción de tokens."
+            ]
+          },
+          "zh-CN": {
+            "title": "Anthropic 发布 Claude Fable 5.2 与 Claude Mythos 5.2",
+            "summary": "Anthropic 推出了 Claude Fable 5.2 和 Claude Mythos 5.2，旨在解决编程、金融和科学领域最艰巨的技术挑战。新模型在保持强大安全防护的同时，提升了生成速度并降低了价格。",
+            "why_it_matters": "这些模型为复杂的工程与科学研究提供更强的推理和编程能力，拓展了人工智能在专业高难度领域的应用边界。",
+            "extended_analysis": "Fable 5.2 与 Mythos 5.2 基于相同的底层架构。Fable 具备内置安全防护，可供所有用户使用；而 Mythos 则通过生命科学和网络验证计划向特定组织开放。\n\n测试显示，新模型在编码、推理和视觉方面表现提升，生成速度比上一代快高达 30%，并提供可选的快速模式以进一步缩短等待时间。",
+            "context": "Anthropic 通过推出高阶专业模型，进一步细分其产品矩阵，为日常通用任务和高度复杂的技术工程任务提供差异化选择。",
+            "key_takeaways": [
+              "发布针对技术与科学难题的 Fable 5.2 和 Mythos 5.2 模型。",
+              "Fable面向大众开放，Mythos需通过验证计划申请访问。",
+              "输出速度提升高达30%，并引入可选的快速模式。"
+            ],
+            "highlights": [
+              "基础定价为每百万输入标记 8 美元，每百万输出标记 40 美元。",
+              "预发布测试显示其在编程、科学研究等任务中表现出显著改进。"
+            ]
+          },
+          "de": {
+            "title": "Anthropic kündigt Claude Fable 5.2 und Claude Mythos 5.2 an",
+            "summary": "Anthropic hat Claude Fable 5.2 und Claude Mythos 5.2 veröffentlicht, neue Modelle für anspruchsvolle technische Herausforderungen in den Bereichen Programmierung, Finanzen und Naturwissenschaften. Die Modelle bieten eine schnellere Generierung und günstigere Preise.",
+            "why_it_matters": "Die neuen Versionen erweitern die Möglichkeiten zur Lösung komplexer technischer Probleme und wissenschaftlicher Fragestellungen bei gleichzeitiger Integration strenger Sicherheitsvorkehrungen.",
+            "extended_analysis": "Beide Modelle basieren auf demselben Grundmodell, verfolgen jedoch unterschiedliche Zugangswege: Fable ist für alle Nutzer mit integrierten Sicherheitsvorkehrungen verfügbar, während Mythos über spezielle Verifizierungsprogramme für berechtigte Organisationen beantragt werden kann.\n\nVorabtests zeigten Verbesserungen bei Programmierung, Argumentation und Bildverarbeitung sowie eine deutlich gesteigerte Token-Generierungsgeschwindigkeit und eine optionale Schnellmodus-Funktion.",
+            "context": "Mit diesen Veröffentlichungen ergänzt Anthropic sein Portfolio um spezialisierte Modelle für hochkomplexe wissenschaftliche und technische Arbeitslasten neben den alltäglichen Standardmodellen.",
+            "key_takeaways": [
+              "Einführung von Claude Fable 5.2 und Mythos 5.2 für komplexe technische Aufgaben.",
+              "Fable ist allgemein zugänglich, Mythos erfordert spezielle Verifizierungsprogramme.",
+              "Bis zu 30 % schnellere Token-Generierung bei gesenkten Einstiegspreisen."
+            ],
+            "highlights": [
+              "Grundpreise von 8 USD pro Million Eingabe-Tokens und 40 USD pro Million Ausgabe-Tokens.",
+              "Optionaler Schnellmodus für eine bis zu 2,5-fache Erhöhung der Generierungsgeschwindigkeit verfügbar."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 85,
+        "editor_pick_reason": ""
+      }
+    },
+    "a6dcab63bbffc0a7333581fdb49cac38f0ce75ecfc7f98547ee6dbb9c5904881": {
+      "fingerprint": "ad4ce4b997ee69f2f4ac850153d3b02f0855abe91c6f11e04e2381e3d313d1fe",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Individual-Zero: Open Science nell'IA Embodied",
+            "summary": "Il progetto GitHub individual-zero esplora l'IA incarnata e le architetture cognitive. L'iniziativa punta sull'apprendimento autonomo da esperienza in prima persona tramite esperimenti riproducibili.",
+            "why_it_matters": "Offre una base di ricerca aperta e trasparente nello sviluppo di intelligenze artificiali capaci di apprendere in modo autonomo dall'esperienza diretta.",
+            "extended_analysis": "La ricerca aperta nelle architetture cognitive e nell'IA incarnata rappresenta un campo cruciale per comprendere come i sistemi autonomi possano elaborare l'esperienza. Sviluppato in Python e aggiornato a novembre 2026, il progetto mette a disposizione della comunità un framework di ricerca riproducibile.\n\nNei prossimi mesi sarà importante monitorare gli sviluppi del codice su GitHub, l'adozione da parte di altri ricercatori e la pubblicazione di eventuali nuovi risultati sperimentali.",
+            "context": "L'IA incarnata e le architetture cognitive mirano a dotare i sistemi artificiali di forme di apprendimento simili a quelle biologiche, basate sull'interazione diretta con l'ambiente circostante.",
+            "key_takeaways": [
+              "Focus su IA incarnata e architetture cognitive.",
+              "Apprendimento autonomo basato su esperienza in prima persona.",
+              "Progetto open source sviluppato in Python."
+            ],
+            "highlights": [
+              "Repository GitHub: josselin-orta-lab/individual-zero",
+              "Linguaggio di programmazione principale: Python"
+            ]
+          },
+          "en": {
+            "title": "Individual-Zero: Open Research in Embodied AI",
+            "summary": "The individual-zero GitHub repository investigates embodied AI and cognitive architectures. The initiative focuses on autonomous learning from first-person experience via reproducible experiments.",
+            "why_it_matters": "It provides an open and transparent research foundation for developing artificial intelligence systems capable of learning autonomously from direct experience.",
+            "extended_analysis": "Open research in cognitive architectures and embodied AI represents a crucial field for understanding how autonomous systems process experience. Developed in Python and updated in November 2026, the project offers the community a reproducible research framework.\n\nIn the coming months, it will be important to monitor code updates on GitHub, adoption by other researchers, and the publication of any new experimental findings.",
+            "context": "Embodied AI and cognitive architectures aim to equip artificial systems with learning mechanisms similar to biological ones, based on direct interaction with the environment.",
+            "key_takeaways": [
+              "Focus on embodied AI and cognitive architectures.",
+              "Autonomous learning from first-person experience.",
+              "Open-source project developed in Python."
+            ],
+            "highlights": [
+              "GitHub repository: josselin-orta-lab/individual-zero",
+              "Primary programming language: Python"
+            ]
+          },
+          "es": {
+            "title": "Individual-Zero: Investigación Abierta en IA Incorporada",
+            "summary": "El repositorio de GitHub individual-zero investiga la IA incorporada y las arquitecturas cognitivas. La iniciativa se centra en el aprendizaje autónomo a partir de la experiencia en primera persona.",
+            "why_it_matters": "Proporciona una base de investigación abierta y transparente para desarrollar sistemas de inteligencia artificial capaces de aprender de forma autónoma.",
+            "extended_analysis": "La investigación abierta en arquitecturas cognitivas e IA incorporada es un campo crucial para entender cómo los sistemas autónomos procesan la experiencia. Desarrollado en Python y actualizado en noviembre de 2026, el proyecto ofrece un marco de investigación reproducible.\n\nEn los próximos meses será importante vigilar las actualizaciones del código en GitHub, su adopción por otros investigadores y la publicación de nuevos resultados experimentales.",
+            "context": "La IA incorporada y las arquitecturas cognitivas buscan dotar a los sistemas artificiales de formas de aprendizaje basadas en la interacción directa con el entorno.",
+            "key_takeaways": [
+              "Enfoque en IA incorporada y arquitecturas cognitivas.",
+              "Aprendizaje autónomo desde la experiencia en primera persona.",
+              "Proyecto de código abierto desarrollado en Python."
+            ],
+            "highlights": [
+              "Repositorio de GitHub: josselin-orta-lab/individual-zero",
+              "Lenguaje de programación principal: Python"
+            ]
+          },
+          "zh-CN": {
+            "title": "Individual-Zero：具身智能开源研究项目",
+            "summary": "GitHub项目 individual-zero 正在探索具身智能与认知架构。该倡议致力于通过可复现的实验研究来自第一人称体验的自主学习。",
+            "why_it_matters": "它为开发能够从直接经验中自主学习的人工智能系统提供了一个开放且透明的研究基础。",
+            "extended_analysis": "认知架构和具身智能领域的开放研究对于理解自主系统如何处理经验至关重要。该项目使用 Python 开发，并于 2026 年 11 月更新，为社区提供了一个可复现的研究框架。\n\n在未来几个月里，监测 GitHub 上的代码更新、其他研究人员的采用情况以及任何新实验结果的发布将非常重要。",
+            "context": "具身智能和认知架构旨在赋予人工系统类似于生物的学习机制，这种机制建立在与周围环境的直接交互之上。",
+            "key_takeaways": [
+              "聚焦具身智能与认知架构。",
+              "基于第一人称体验的自主学习。",
+              "使用 Python 开发的开源项目。"
+            ],
+            "highlights": [
+              "GitHub 仓库：josselin-orta-lab/individual-zero",
+              "主要编程语言：Python"
+            ]
+          },
+          "de": {
+            "title": "Individual-Zero: Offene Forschung zu Embodied AI",
+            "summary": "Das GitHub-Repository individual-zero untersucht verkörperte KI und kognitive Architekturen. Die Initiative konzentriert sich auf autonomes Lernen aus Ich-Perspektive durch reproduzierbare Experimente.",
+            "why_it_matters": "Es bietet eine offene und transparente Forschungsbasis für die Entwicklung künstlicher Intelligenz, die autonom aus direktem Erleben lernen kann.",
+            "extended_analysis": "Offene Forschung zu kognitiven Architekturen und verkörperter KI ist ein entscheidendes Feld, um zu verstehen, wie autonome Systeme Erfahrungen verarbeiten. Das in Python entwickelte und im November 2026 aktualisierte Projekt stellt der Community einen reproduzierbaren Forschungsrahmen zur Verfügung.\n\nIn den kommenden Monaten wird es wichtig sein, Code-Updates auf GitHub, die Annahme durch andere Forscher und die Veröffentlichung neuer experimenteller Ergebnisse zu verfolgen.",
+            "context": "Verkörperte KI und kognitive Architekturen zielen darauf ab, künstliche Systeme mit biologisch ähnlichen Lernmechanismen auszustatten, die auf direkter Interaktion mit der Umwelt basieren.",
+            "key_takeaways": [
+              "Fokus auf verkörperte KI und kognitive Architekturen.",
+              "Autonomes Lernen aus der Ich-Perspektive.",
+              "Open-Source-Projekt in Python entwickelt."
+            ],
+            "highlights": [
+              "GitHub-Repository: josselin-orta-lab/individual-zero",
+              "Primäre Programmiersprache: Python"
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 45,
+        "editor_pick_reason": ""
+      }
     }
   },
   "daily": {
     "date": "2026-11-10",
-    "count": 7,
+    "count": 10,
     "picks": 0
   }
 }
