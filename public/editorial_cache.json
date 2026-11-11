@@ -2564,97 +2564,8 @@
       }
     },
     "ac3db777f5aac1cf97986b034f59b4c3bba5699e627acc03ae32695b1a5719b2": {
-      "fingerprint": "6aaa0a0cc25932f48c85f39adf161dcfd4193ebd81abe51d863d27645d23ab57",
-      "editorial": {
-        "editorial": {
-          "it": {
-            "title": "TV Detox: accelerare le vecchie Android TV con l'IA",
-            "summary": "Il progetto GitHub tv-detox offre una schermata iniziale leggera e priva di pubblicità per velocizzare i vecchi dispositivi Android TV. Sfruttando assistenti di codifica come Claude Code o Codex, gli utenti possono rimuovere il bloatware e i contenuti sponsorizzati.",
-            "why_it_matters": "Questo approccio mostra come l'intelligenza artificiale possa essere applicata alla manutenzione dei dispositivi di consumo, offrendo un controllo maggiore sui sistemi operativi esistenti.",
-            "extended_analysis": "Il progetto open source tv-detox mira a risolvere i problemi di lentezza dei televisori Android TV meno recenti eliminando le schermate piene di pubblicità e file superflui. Utilizzando strumenti basati su LLM come Claude Code o Codex, il sistema guida gli utenti attraverso un prompt per pulire il dispositivo, disattivando le applicazioni di sistema non necessarie senza rimuoverle permanentemente.\n\nSebbene offra un'interfaccia pulita focalizzata solo su app, ingressi HDMI e orologio, la documentazione avverte che la disattivazione delle app di sistema comporta rischi operativi e potrebbe potenzialmente bloccare alcuni modelli di televisori.",
-            "context": "Molti dispositivi Smart TV tendono a rallentare nel tempo a causa di aggiornamenti pesanti e interfacce sovraccariche di annunci pubblicitari, spingendo gli sviluppatori a cercare soluzioni alternative basate su script e automazioni.",
-            "key_takeaways": [
-              "Fornisce una schermata iniziale minimalista e senza pubblicità.",
-              "Utilizza assistenti di codifica come Claude Code o Codex per gestire la configurazione.",
-              "Disattiva le app indesiderate invece di eliminarle, con la possibilità di ripristinarle."
-            ],
-            "highlights": [
-              "Progetto open source disponibile su GitHub con licenza MIT.",
-              "Richiede l'attivazione del debug USB sulla TV e una connessione Wi-Fi comune."
-            ]
-          },
-          "en": {
-            "title": "TV Detox: Speed Up Old Android TVs Using AI Coding Assistants",
-            "summary": "The GitHub project tv-detox introduces a lightweight, ad-free home screen designed to make older Android TV devices fast again. By pairing standard tools with AI coding agents like Claude Code or Codex, users can prompt the system to clean out bloatware and sponsored rows.",
-            "why_it_matters": "It demonstrates a practical consumer application for AI coding assistants, extending hardware longevity by cleaning up bloated operating systems.",
-            "extended_analysis": "The tv-detox repository provides a minimalistic approach to reviving sluggish smart TVs by replacing bloated manufacturer interfaces with a clean layout containing only apps, HDMI inputs, and a clock. Users interact with Claude Code or Codex via a laptop on the same network to execute the cleanup process.\n\nWhile the solution aims to restore speed by disabling unnecessary system apps rather than deleting them, the developer documentation notes potential risks, such as certain television models becoming stuck during the process.",
-            "context": "Aging smart televisions frequently suffer from performance degradation due to heavy launchers and intrusive advertisements, prompting community-driven lightweight alternatives.",
-            "key_takeaways": [
-              "Replaces heavy system launchers with a clean, ad-free alternative.",
-              "Leverages AI coding tools like Claude Code and Codex to execute setup.",
-              "Safely disables apps rather than permanently deleting them."
-            ],
-            "highlights": [
-              "Hosted openly on GitHub under the MIT license.",
-              "Requires USB debugging enabled on the target Android TV device."
-            ]
-          },
-          "es": {
-            "title": "TV Detox: Revitaliza viejos Android TV con la ayuda de la IA",
-            "summary": "El proyecto de GitHub tv-detox ofrece una pantalla de inicio ligera y sin publicidad para acelerar dispositivos Android TV antiguos. Mediante el uso de agentes de IA como Claude Code o Codex, los usuarios pueden eliminar aplicaciones preinstaladas innecesarias.",
-            "why_it_matters": "Muestra cómo las herramientas de desarrollo de IA pueden reutilizarse para simplificar la gestión de dispositivos domésticos y alargar su vida útil.",
-            "extended_analysis": "El repositorio tv-detox busca solucionar la ralentización típica de los televisores inteligentes antiguos reemplazando las interfaces pesadas por una pantalla simplificada. Con la ayuda de Claude Code o Codex, el sistema guía al usuario para desactivar el bloatware mediante comandos simples.\n\nLa documentación advierte que la desactivación de aplicaciones del sistema conlleva ciertos riesgos operativos y algunos modelos de televisión podrían experimentar bloqueos.",
-            "context": "Los televisores inteligentes antiguos suelen acumular bloatware y interfaces pesadas que ralentizan su funcionamiento con el paso del tiempo.",
-            "key_takeaways": [
-              "Introduce una interfaz limpia sin anuncios ni filas patrocinadas.",
-              "Utiliza asistentes de código como Claude Code o Codex para el proceso.",
-              "Desactiva las aplicaciones en lugar de eliminarlas definitivamente."
-            ],
-            "highlights": [
-              "Disponible en GitHub bajo licencia MIT.",
-              "Requiere habilitar el modo de depuración USB en el televisor."
-            ]
-          },
-          "zh-CN": {
-            "title": "TV Detox：利用AI编程助手让老旧Android TV重新流畅",
-            "summary": "GitHub项目 tv-detox 提供了一个轻量级且无广告的主屏幕，旨在让旧款 Android TV 运行得更快。借助 Claude Code 或 Codex 等 AI 编程助手，用户可以通过提示词清理系统中的臃肿软件。",
-            "why_it_matters": "该项目展示了AI代理在消费电子设备维护中的实际应用，为延长硬件寿命提供了一条新途径。",
-            "extended_analysis": "tv-detox 旨在解决老旧智能电视因系统臃肿和广告过多而变慢的问题。它通过精简界面，只保留应用、HDMI输入和时钟。用户在同一Wi-Fi网络下通过笔记本运行 Claude Code 或 Codex 来执行清理流程。\n\n尽管该方案通过禁用而非删除系统应用来提升速度，但文档也提醒用户注意潜在风险，例如某些电视型号在操作过程中可能会遇到卡顿或系统卡死的情况。",
-            "context": "随着时间和系统更新，许多智能电视由于界面复杂和广告植入而出现性能下降，社区开发者因此寻求各种替代方案。",
-            "key_takeaways": [
-              "提供无广告的极简电视主屏幕界面。",
-              "借助 Claude Code 或 Codex 等工具简化配置过程。",
-              "采用禁用而非直接删除的方式处理系统应用。"
-            ],
-            "highlights": [
-              "基于MIT开源协议托管在GitHub上。",
-              "需要开启电视的开发者选项及USB调试功能。"
-            ]
-          },
-          "de": {
-            "title": "TV Detox: Ältere Android TVs mit KI-Assistenz beschleunigen",
-            "summary": "Das GitHub-Projekt tv-detox bietet einen minimalistischen, werbefreien Startbildschirm, um ältere Android-TV-Geräte wieder schnell zu machen. Mit Unterstützung von KI-Coding-Assistenten wie Claude Code oder Codex können Bloatware und gesponserte Inhalte entfernt werden.",
-            "why_it_matters": "Es veranschaulicht, wie KI-Entwicklungswerkzeuge für die praktische Wartung von Unterhaltungselektronik eingesetzt werden können.",
-            "extended_analysis": "Das Open-Source-Projekt tv-detox zielt darauf ab, träge Smart-TVs zu beschleunigen, indem die überladene Benutzeroberfläche durch eine schlanke Ansicht ersetzt wird, die nur Apps, HDMI-Eingänge und eine Uhr enthält. Über Claude Code oder Codex auf einem Laptop im selben WLAN wird der Bereinigungsprozess gesteuert.\n\nDie Lösung deaktiviert unnötige System-Apps, anstatt sie dauerhaft zu löschen. Die Dokumentation weist jedoch darauf hin, dass dieser Eingriff Risiken birgt und bei einigen Fernsehmodellen zu Problemen führen kann.",
-            "context": "Ältere Smart-TVs neigen im Laufe der Zeit dazu, durch umfangreiche Updates und Werbung langsamer zu werden, was zu gemeinschaftlichen Optimierungsversuchen führt.",
-            "key_takeaways": [
-              "Ersetzt herstellerspezifische Launcher durch eine werbefreie Ansicht.",
-              "Nutzt KI-Codierungstools zur Ausführung der Konfiguration.",
-              "Deaktiviert System-Apps vorübergehend statt sie zu löschen."
-            ],
-            "highlights": [
-              "Verfügbar auf GitHub unter der MIT-Lizenz.",
-              "Setzt die Aktivierung des USB-Debuggings auf dem Fernseher voraus."
-            ]
-          }
-        },
-        "editorial_level": "ai_curated",
-        "editorial_status": "verified",
-        "editorial_model": "gemini-3.5-flash-lite",
-        "editorial_version": 4,
-        "relevance_score": 35,
-        "editor_pick_reason": ""
-      }
+      "fingerprint": "9d6dc47444f6db3cf5ed789c6bb4bf2d2e3acbe0690fcf7f3b0347173e481de6",
+      "retry_after": "2026-11-11T07:56:29.900767+00:00"
     },
     "4bef08f5f83b5a9b7dbba2dd2b3d3c98c77e27648541df9e24f911a161e624f6": {
       "fingerprint": "5c9beb1697219aa417096e0a9c1599b9189cd0dcf40f5be0373d3fb8a7e85227",
@@ -11169,11 +11080,201 @@
         "relevance_score": 45,
         "editor_pick_reason": ""
       }
+    },
+    "1daa04700edc51cf79ccc06ac7090ea64c5410d3df280577317937691d5fdedd": {
+      "fingerprint": "5057cd59c64c0a41e2369e56f34d89ae75cc9640a69e0874431de7b6e60b3f48",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Decodificare i modelli linguistici: Curt Tigges su interpretabilità e basis",
+            "summary": "In questo episodio di The Cognitive Revolution, il conduttore esplora con Curt Tigges di Goodfire la ricerca sul paper \"Neurons as an Interpretable Basis\". L'intervista approfondisce l'interpretabilità agentica, la monosemanticità e il reverse engineering dei modelli.",
+            "why_it_matters": "Comprendere come i singoli neuroni e le basi interpretabili operino all'interno dei grandi modelli linguistici è cruciale per demistificare il loro funzionamento interno e avanzare verso sistemi più trasparenti.",
+            "extended_analysis": "L'episodio vede come ospite Curt Tigges, membro dello staff tecnico di Goodfire e coautore insieme a Nick Cammarata del nuovo paper \"Neurons as an Interpretable Basis\". Questo lavoro si presenta come la controparte più accademica e focalizzata sui modelli linguistici rispetto alle recenti pubblicazioni di Cammarata.\n\nLa discussione si muove attorno ai concetti chiave di interpretabilità agentica, monosemanticità e reverse engineering dei sistemi di intelligenza artificiale. Attraverso il dialogo, emergono i tentativi di decodificare il funzionamento profondo dei modelli complessi, offrendo spunti tecnici di rilievo per ricercatori e addetti ai lavori.",
+            "context": "Il dibattito sull'interpretabilità dei modelli di intelligenza artificiale mira a superare la natura di \"scatola nera\" dei sistemi attuali. Ricerche come quella discussa nel podcast cercano di mappare le rappresentazioni interne dei modelli per renderli più comprensibili.",
+            "key_takeaways": [
+              "Presentazione del paper \"Neurons as an Interpretable Basis\" di Curt Tigges e Nick Cammarata.",
+              "Analisi dei concetti di interpretabilità agentica e monosemanticità nei modelli linguistici.",
+              "Discussione sulle tecniche di reverse engineering applicate ai sistemi di IA."
+            ],
+            "highlights": [
+              "Ospite dell'episodio è Curt Tigges, membro dello staff tecnico di Goodfire.",
+              "Il paper discusso è il compagno più accademico e orientato ai LLM dei recenti lavori di Nick Cammarata."
+            ]
+          },
+          "en": {
+            "title": "Decoding Language Models: Curt Tigges on Agentic Interp and Monosemanticity",
+            "summary": "In this episode of The Cognitive Revolution, host speaks with Curt Tigges of Goodfire about the new paper, \"Neurons as an Interpretable Basis.\" The conversation explores agentic interpretability, monosemanticity, and reverse engineering.",
+            "why_it_matters": "Understanding the internal representations of large language models is essential for moving beyond black-box systems and achieving greater transparency in artificial intelligence.",
+            "extended_analysis": "The episode features Curt Tigges, a member of the technical staff at Goodfire and co-author alongside Nick Cammarata of the paper \"Neurons as an Interpretable Basis.\" This work serves as the more academic and LLM-focused companion to recent publications by Cammarata.\n\nThe discussion centers on agentic interpretability, monosemanticity, and the reverse engineering of complex systems. By examining how individual neurons function as an interpretable basis, the conversation sheds light on ongoing efforts to map and comprehend the internal machinery of modern language models.",
+            "context": "The field of mechanistic interpretability focuses on reverse engineering neural networks to understand how specific internal components drive model behavior, addressing safety and transparency concerns.",
+            "key_takeaways": [
+              "Exploration of the research paper \"Neurons as an Interpretable Basis.\"",
+              "Insights into agentic interpretability and monosemanticity in large language models.",
+              "Discussion on reverse engineering techniques for neural networks."
+            ],
+            "highlights": [
+              "Guest Curt Tigges is a technical staff member at Goodfire.",
+              "The paper is co-authored by Curt Tigges and Nick Cammarata."
+            ]
+          },
+          "es": {
+            "title": "Descodificando modelos: Curt Tigges sobre interpretabilidad y monosemia",
+            "summary": "En este episodio de The Cognitive Revolution, el invitado Curt Tigges de Goodfire analiza el artículo \"Neurons as an Interpretable Basis\". La charla explora la interpretabilidad agéntica, la monosemia y la ingeniería inversa en modelos.",
+            "why_it_matters": "Comprender los mecanismos internos de los grandes modelos de lenguaje es fundamental para superar el enfoque de caja negra y lograr una mayor transparencia en la inteligencia artificial.",
+            "extended_analysis": "El episodio cuenta con Curt Tigges, miembro del equipo técnico de Goodfire y coautor junto a Nick Cammarata del trabajo \"Neurons as an Interpretable Basis\". Este documento actúa como el compañero más académico y enfocado en modelos de lenguaje de las publicaciones recientes de Cammarata.\n\nDurante la entrevista, se examinan conceptos avanzados como la interpretabilidad agéntica, la monosemia y los métodos de ingeniería inversa. La conversación ofrece una perspectiva técnica sobre cómo los investigadores intentan desentrañar las representaciones internas de las redes neuronales.",
+            "context": "La interpretabilidad en la inteligencia artificial busca desglosar el funcionamiento interno de los modelos complejos para examinar cómo procesan la información y toman decisiones.",
+            "key_takeaways": [
+              "Revisión del artículo de investigación \"Neurons as an Interpretable Basis\".",
+              "Análisis de la interpretabilidad agéntica y la monosemia en modelos lingüísticos.",
+              "Enfoque en técnicas de ingeniería inversa para sistemas de IA."
+            ],
+            "highlights": [
+              "El invitado Curt Tigges forma parte del personal técnico en Goodfire.",
+              "El artículo discutido fue coescrito por Curt Tigges y Nick Cammarata."
+            ]
+          },
+          "zh-CN": {
+            "title": "解码语言模型：Curt Tigges谈智能体可解释性与单义性",
+            "summary": "在本期《The Cognitive Revolution》中，主持人与Goodfire技术人员Curt Tigges探讨了新论文《Neurons as an Interpretable Basis》。讨论深入审视了智能体可解释性、单义性以及模型逆向工程。",
+            "why_it_matters": "理解大型语言模型的内部表征对于打破黑盒系统、实现更高水平的AI透明度具有重要意义。",
+            "extended_analysis": "本期节目邀请了Goodfire技术人员Curt Tigges作为嘉宾，他与Nick Cammarata共同撰写了新论文《Neurons as an Interpretable Basis》。该论文是Nick近期作品中更具学术性、更聚焦大语言模型的配套研究。\n\n对话围绕智能体可解释性、单义性以及人工智能系统的逆向工程展开。通过探讨神经元如何作为可解释的基础发挥作用，节目展现了研究人员在揭示复杂模型内部机制方面的最新进展。",
+            "context": "机制可解释性研究致力于对神经网络进行逆向工程，以便厘清模型内部组件如何协同工作，从而提升人工智能的可靠性与透明度。",
+            "key_takeaways": [
+              "深入解析研究论文《Neurons as an Interpretable Basis》。",
+              "探讨大型语言模型中的智能体可解释性与单义性概念。",
+              "审视面向神经网络的逆向工程方法与技术应用。"
+            ],
+            "highlights": [
+              "特邀嘉宾Curt Tigges是Goodfire的技术团队成员。",
+              "讨论聚焦于Curt Tigges与Nick Cammarata共同合作的论文。"
+            ]
+          },
+          "de": {
+            "title": "Sprachmodelle entschlüsseln: Curt Tigges über Interpretierbarkeit",
+            "summary": "In dieser Episode von The Cognitive Revolution spricht der Host mit Curt Tigges von Goodfire über das neue Paper „Neurons as an Interpretable Basis“. Im Fokus stehen agentische Interpretierbarkeit, Monosemantizität und Reverse Engineering.",
+            "why_it_matters": "Die Entschlüsselung der internen Repräsentationen großer Sprachmodelle ist entscheidend, um Black-Box-Systeme besser zu verstehen und die Transparenz in der künstlichen Intelligenz zu erhöhen.",
+            "extended_analysis": "Zu Gast in dieser Episode ist Curt Tigges, technischer Mitarbeiter bei Goodfire und Co-Autor des Papers „Neurons as an Interpretable Basis“ an der Seite von Nick Cammarata. Diese Arbeit fungiert als akademischere und stärker auf Sprachmodelle ausgerichtete Ergänzung zu Cammaratas jüngsten Veröffentlichungen.\n\nDas Gespräch beleuchtet zentrale Themen wie agentische Interpretierbarkeit, Monosemantizität und das Reverse Engineering komplexer Systeme. Dabei wird erörtert, wie Forscher versuchen, die internen Mechanismen neuronaler Netze messbar und verständlich zu machen.",
+            "context": "Die mechanistische Interpretierbarkeit zielt darauf ab, neuronale Netze zu analysieren, um nachzuvollziehen, wie spezifische interne Strukturen das Verhalten von KI-Modellen steuern.",
+            "key_takeaways": [
+              "Vorstellung des Forschungsapers „Neurons as an Interpretable Basis“.",
+              "Diskussion über agentische Interpretierbarkeit und Monosemantizität in Sprachmodellen.",
+              "Einblicke in Methoden des Reverse Engineerings für neuronale Netzwerke."
+            ],
+            "highlights": [
+              "Gast ist Curt Tigges, technischer Mitarbeiter bei Goodfire.",
+              "Das diskutierte Paper wurde gemeinsam von Curt Tigges und Nick Cammarata verfasst."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 35,
+        "editor_pick_reason": ""
+      }
+    },
+    "5ef45369063212c320a1505f2c061d33e116f95cb8ecadde51a976430a4d4d5a": {
+      "fingerprint": "6605f9b1e5078a18d4c9c6f5a04dbb5fafa26158c15846564079be29022aae81",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Decodificare i modelli linguistici con Curt Tigges di Goodfire",
+            "summary": "In questo episodio, il ricercatore Curt Tigges di Goodfire approfondisce l'interpretabilità dei modelli linguistici. Vengono esaminate le ipotesi secondo cui i singoli neuroni MLP possiedono significati più compatti e leggibili del previsto, grazie ad architetture gated moderne e metodi agentici.",
+            "why_it_matters": "Comprendere il funzionamento interno dei modelli linguistici è cruciale per la trasparenza e il controllo dell'intelligenza artificiale, aprendo la strada a un reverse engineering più efficace.",
+            "extended_analysis": "Il panorama dell'intelligenza artificiale richiede una comprensione sempre più profonda dei meccanismi interni che guidano le decisioni dei modelli. Durante la conversazione, vengono esplorate le basi neuronali e la monosemanticità, offrendo spunti su come le architetture moderne facilitino l'analisi della sparsità di attivazione.\n\nSebbene la descrizione disponibile sia sintetica, l'episodio promette di chiarire concetti avanzati di reverse engineering attraverso l'esperienza diretta di un ricercatore attivo nel settore.",
+            "context": "Il dibattito sull'interpretabilità dei modelli di linguaggio di grandi dimensioni si concentra sulla capacità di decodificare il ruolo dei singoli componenti interni. L'uso di approcci agentici rappresenta una frontiera emergente per automatizzare e approfondire questa analisi.",
+            "key_takeaways": [
+              "I singoli neuroni MLP potrebbero avere significati più compatti e leggibili del previsto.",
+              "Le architetture gated moderne e i metodi agentici supportano un reverse engineering più profondo.",
+              "L'interpretabilità e la sparsità di attivazione sono temi centrali per l'analisi dei modelli."
+            ],
+            "highlights": [
+              "Ospite Curt Tigges, ricercatore di Goodfire.",
+              "Discussione su interpretabilità, monosemanticity e reverse engineering."
+            ]
+          },
+          "en": {
+            "title": "Reverse Engineering Language Models with Goodfire's Curt Tigges",
+            "summary": "Goodfire researcher Curt Tigges joins the podcast to discuss language model interpretability. The conversation explores how individual MLP neurons may hold more compact, legible meanings than previously assumed through modern gated architectures and agentic methods.",
+            "why_it_matters": "Gaining clarity into the internal representations of neural networks is vital for building safer, more transparent, and predictable artificial intelligence systems.",
+            "extended_analysis": "As language models grow in capability and complexity, the challenge of interpreting their internal mechanics becomes increasingly pressing. This episode examines the premise that individual neurons and specific architectural choices can reveal structured, monosemantic patterns.\n\nWhile the source metadata offers a concise overview, listeners can expect an exploration of how agentic techniques and modern gated designs aid in reverse engineering complex activation patterns.",
+            "context": "Interpretability research aims to bridge the gap between black-box model outputs and mechanistic understanding. Advances in tracking activation sparsity and architectural features are central to current academic and industry investigations.",
+            "key_takeaways": [
+              "Individual MLP neurons may exhibit more compact and legible meanings.",
+              "Modern gated architectures enable deeper reverse engineering approaches.",
+              "Agentic methods play a role in advancing model interpretability."
+            ],
+            "highlights": [
+              "Features Goodfire researcher Curt Tigges.",
+              "Covers agentic interpretability, monosemanticity, and activation sparsity."
+            ]
+          },
+          "es": {
+            "title": "Ingeniería inversa en modelos de lenguaje con Curt Tigges",
+            "summary": "El investigador de Goodfire, Curt Tigges, analiza la interpretabilidad de los modelos de lenguaje y argumenta que los neuronas MLP individuales poseen significados más compactos de lo esperado, impulsados por arquitecturas con compuertas y métodos agénticos.",
+            "why_it_matters": "Comprender los mecanismos internos de los sistemas de IA es fundamental para mejorar su transparencia, interpretabilidad y seguridad a medida que evolucionan.",
+            "extended_analysis": "A medida que los sistemas de inteligencia artificial se vuelven más complejos, la necesidad de desentrañar su funcionamiento interno se intensifica. Este episodio aborda cómo las arquitecturas modernas facilitan el análisis detallado de las activaciones neuronales.\n\nLa descripción disponible detalla el enfoque en la monosemanticiad y los métodos de ingeniería inversa, ofreciendo una perspectiva técnica sobre las investigaciones actuales en el campo.",
+            "context": "La interpretabilidad mecanicista busca descifrar los patrones ocultos en las redes neuronales para hacer que el comportamiento de los modelos sea más comprensible para los investigadores.",
+            "key_takeaways": [
+              "Los neuronas MLP individuales muestran significados potencialmente más legibles.",
+              "Las arquitecturas gated modernas facilitan un análisis más profundo.",
+              "Los métodos agénticos potencian las técnicas de ingeniería inversa."
+            ],
+            "highlights": [
+              "Invitado Curt Tigges, investigador de Goodfire.",
+              "Enfoque en interpretabilidad agéntica y monosemanticidad."
+            ]
+          },
+          "zh-CN": {
+            "title": "与Goodfire的Curt Tigges一起探讨语言模型逆向工程",
+            "summary": "Goodfire研究员Curt Tigges探讨了语言模型的可解释性，认为在现代门控架构和智能体方法的支持下，单个MLP神经元具有比以往假设更紧凑、更清晰的含义。",
+            "why_it_matters": "深入理解神经网络内部机制对于提高人工智能系统的透明度、可控性和可预测性具有重要意义。",
+            "extended_analysis": "随着大语言模型的广泛应用，如何解构其内部工作原理成为了研究热点。本期节目探讨了通过先进架构和逆向工程方法来揭示模型内部激活模式的可能性。\n\n尽管现有元数据较为简练，但内容聚焦于单语义性、稀疏激活以及智能体方法在模型解释中的实际应用。",
+            "context": "可解释性研究致力于打开深度学习的黑盒，通过解析内部神经元和特征来理解模型的推理过程。",
+            "key_takeaways": [
+              "单个MLP神经元可能展现出更紧凑和可读的含义。",
+              "现代门控架构支持更深入的逆向工程方法。",
+              "智能体方法有助于推动模型的可解释性研究。"
+            ],
+            "highlights": [
+              "嘉宾为Goodfire研究员Curt Tigges。",
+              "探讨了智能体可解释性、单语义性和逆向工程。"
+            ]
+          },
+          "de": {
+            "title": "Modellinterpretation und Reverse Engineering mit Curt Tigges",
+            "summary": "Goodfire-Forscher Curt Tigges diskutiert die Interpretierbarkeit von Sprachmodellen und argumentiert, dass einzelne MLP-Neuronen kompaktere Bedeutungen aufweisen können, unterstützt durch moderne Gated-Architekturen und agentenbasierte Methoden.",
+            "why_it_matters": "Ein tieferes Verständnis der internen Mechanismen neuronaler Netze ist entscheidend, um die Transparenz und Verlässlichkeit von KI-Systemen zu erhöhen.",
+            "extended_analysis": "Die Untersuchung der internen Repräsentationen von Sprachmodellen steht im Fokus aktueller Forschung. Diese Episode beleuchtet, wie moderne Architekturen und Reverse-Engineering-Techniken dazu beitragen, Aktivierungsmuster genauer zu analysieren.\n\nDie verfügbare Beschreibung bietet einen präzisen Ausblick auf Themen wie Monosemantizität und die Rolle agentenbasierter Ansätze in der Modellforschung.",
+            "context": "Die mechanistische Interpretierbarkeit versucht, die Black-Box-Natur großer Sprachmodelle zu überwinden, indem interne Aktivierungen und neuronale Strukturen entschlüsselt werden.",
+            "key_takeaways": [
+              "Einzelne MLP-Neuronen zeigen möglicherweise kompaktere und lesbarere Bedeutungen.",
+              "Moderne Gated-Architekturen ermöglichen tiefere Reverse-Engineering-Ansätze.",
+              "Agentenbasierte Methoden unterstützen die Analyse der Aktivierungssparsamkeit."
+            ],
+            "highlights": [
+              "Zu Gast ist Curt Tigges von Goodfire.",
+              "Themen umfassen Interpretierbarkeit, Monosemantizität und Reverse Engineering."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 45,
+        "editor_pick_reason": ""
+      }
+    },
+    "d8da5da19364e9fea3a9ab66bbde8e49c898f3145256e679a0bf5ab5525c7356": {
+      "fingerprint": "462f5f00e058be5ff22ea05ebcfe5603cad5f1902cb8f7de983cc0393da97e0e",
+      "retry_after": "2026-11-11T07:56:38.431954+00:00"
     }
   },
   "daily": {
-    "date": "2026-11-10",
-    "count": 10,
+    "date": "2026-11-11",
+    "count": 2,
     "picks": 0
   }
 }
