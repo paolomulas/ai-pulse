@@ -2564,12 +2564,190 @@
       }
     },
     "ac3db777f5aac1cf97986b034f59b4c3bba5699e627acc03ae32695b1a5719b2": {
-      "fingerprint": "9d6dc47444f6db3cf5ed789c6bb4bf2d2e3acbe0690fcf7f3b0347173e481de6",
-      "retry_after": "2026-11-11T07:56:29.900767+00:00"
+      "fingerprint": "04bfbe969772a3ff3ad14739b581717b705e0f1dbcce2c1138a47c2aa7cb395a",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "TV-Detox: ringiovanire le vecchie Android TV con l'IA",
+            "summary": "Un nuovo progetto open source su GitHub intitolato tv-detox sfrutta strumenti di intelligenza artificiale come Claude Code o Codex per ripulire e velocizzare i vecchi dispositivi Android TV. Offre una schermata iniziale essenziale priva di pubblicità e bloatware, disattivando le app di sistema non necessarie tramite comandi guidati dall'IA.",
+            "why_it_matters": "Questo approccio mostra come gli agenti di codifica e gli strumenti di IA possano essere impiegati per attività di manutenzione domestica e personalizzazione dell'hardware esistente.",
+            "extended_analysis": "Il progetto tv-detox mira a risolvere il problema dei dispositivi smart TV che diventano lenti nel tempo a causa di aggiornamenti pesanti e pubblicità invasive. Utilizzando assistenti di programmazione come Claude Code o Codex, gli utenti possono seguire una procedura guidata per disattivare i componenti superflui senza rimuovere definitivamente i file di sistema.\n\nSebbene il progetto offra una soluzione pratica, richiede attenzione poiché la modifica o la disattivazione delle app di sistema comporta rischi operativi, come avverte la stessa documentazione. Monitorare l'evoluzione di questi strumenti di personalizzazione basati su IA aiuterà a capire la loro affidabilità su piattaforme consumer.",
+            "context": "Il mercato delle smart TV è spesso saturo di interfacce cariche di sponsorizzazioni e contenuti preconfezionati che appesantiscono l'hardware meno recente. Soluzioni fai-da-te assistite dall'IA offrono nuove vie per prolungare il ciclo di vita dei dispositivi elettronici esistenti.",
+            "key_takeaways": [
+              "Sfrutta Claude Code o Codex per automatizzare la pulizia delle vecchie Android TV.",
+              "Crea una schermata iniziale minimale, senza pubblicità o righe sponsorizzate.",
+              "Richiede l'attivazione del debug USB e l'uso di comandi da laptop connessi alla stessa rete Wi-Fi."
+            ],
+            "highlights": [
+              "Disattiva il bloatware e le applicazioni di sistema senza eliminarle definitivamente.",
+              "Include una procedura per ripristinare le configurazioni precedenti in caso di problemi."
+            ]
+          },
+          "en": {
+            "title": "TV-Detox: Speed Up Old Android TVs Using Claude Code or Codex",
+            "summary": "The GitHub project tv-detox uses AI coding tools like Claude Code or Codex to help users clean up and speed up older Android TV devices. It provides a tiny, ad-free home screen and guided prompts to remove bloatware and sponsored rows safely.",
+            "why_it_matters": "It demonstrates a practical consumer application for AI coding agents, shifting their utility from software development to everyday device optimization.",
+            "extended_analysis": "Older smart TVs frequently suffer from sluggish performance due to heavy interfaces and embedded advertisements. The tv-detox repository offers an alternative by leveraging AI assistants to guide users through disabling system apps and streamlining the television's user interface.\n\nWhile the project presents an innovative way to repurpose older hardware, the developers note potential risks, such as devices becoming unresponsive if critical packages are altered. Users are advised to proceed cautiously and understand the implications of modifying system settings.",
+            "context": "Consumer electronic devices often experience performance degradation as software updates introduce more resource-heavy features and targeted advertisements. Community-driven and AI-assisted projects explore alternative ways to reclaim device usability.",
+            "key_takeaways": [
+              "Uses Claude Code or Codex to interact with Android TVs via local Wi-Fi connection.",
+              "Replaces cluttered default interfaces with a minimal, ad-free home screen.",
+              "Provides prompts and scripts designed to disable unwanted pre-installed software."
+            ],
+            "highlights": [
+              "Apps are turned off rather than permanently deleted, allowing for an undo option.",
+              "Requires enabling developer mode and USB debugging on the target television."
+            ]
+          },
+          "es": {
+            "title": "TV-Detox: Revitaliza tu vieja Android TV con ayuda de IA",
+            "summary": "Un proyecto alojado en GitHub llamado tv-detox utiliza herramientas como Claude Code o Codex para limpiar y acelerar televisores Android TV antiguos. La iniciativa ofrece una pantalla de inicio minimalista y sin publicidad mediante la desactivación de aplicaciones preinstaladas no deseadas.",
+            "why_it_matters": "Ilustra cómo los asistentes de código basados en inteligencia artificial pueden aplicarse a la optimización de dispositivos de consumo cotidiano.",
+            "extended_analysis": "A medida que los televisores inteligentes envejecen, sus interfaces suelen volverse lentas debido a la acumulación de contenido publicitario y software pesado. El repositorio tv-detox aborda este inconveniente guiando al usuario a través de un proceso asistido por IA para simplificar el sistema.\n\nNo obstante, la manipulación de aplicaciones del sistema conlleva ciertos riesgos operativos que los creadores advierten en su documentación. Es fundamental seguir las precauciones indicadas para evitar bloqueos en el dispositivo.",
+            "context": "La obsolescencia percibida en los dispositivos multimedia domésticos a menudo impulsa a la comunidad a buscar alternativas de optimización al margen de las actualizaciones oficiales de los fabricantes.",
+            "key_takeaways": [
+              "Emplea herramientas de IA para simplificar la gestión de paquetes en Android TV.",
+              "Elimina filas patrocinadas y contenido publicitario de la interfaz principal.",
+              "Requiere la configuración previa del modo de depuración USB en el televisor."
+            ],
+            "highlights": [
+              "Las aplicaciones se desactivan temporalmente y pueden revertirse.",
+              "Requiere conectar el televisor y el ordenador a la misma red Wi-Fi."
+            ]
+          },
+          "zh-CN": {
+            "title": "使用 TV-Detox 借助 AI 工具为旧款安卓电视瘦身提速",
+            "summary": "GitHub 上的开源项目 tv-detox 利用 Claude Code 或 Codex 等人工智能编码工具，帮助用户清理和加速旧款安卓电视。通过精简的无广告主屏幕和引导式提示，项目旨在移除臃肿软件并恢复设备性能。",
+            "why_it_matters": "该项目展示了人工智能代理在消费电子设备维护和日常优化中的一种创新应用方式。",
+            "extended_analysis": "随着系统更新和广告内容的增加，许多旧款智能电视的运行速度逐渐变慢。tv-detox 项目尝试通过 AI 辅助提示词，指导用户安全地关闭系统中的冗余应用，从而打造更加清爽的电视主屏幕。\n\n尽管该工具有助提升设备响应速度，但修改系统应用仍存在一定风险。文档中提醒用户注意操作步骤，并提供了解除更改的途径以应对潜在问题。",
+            "context": "智能电视硬件在长期使用后常常面临性能下降和界面臃肿的问题，开源社区正通过各种技术手段探索延长设备使用寿命的方法。",
+            "key_takeaways": [
+              "借助 Claude Code 或 Codex 在本地网络环境中优化安卓电视。",
+              "提供无广告、无赞助内容的极简电视主屏幕体验。",
+              "通过提示词引导用户关闭不需要的系统预装软件。"
+            ],
+            "highlights": [
+              "应用被关闭而非永久删除，支持撤销操作。",
+              "使用前需在电视上启用开发者模式和 USB 调试。"
+            ]
+          },
+          "de": {
+            "title": "TV-Detox: Alte Android-Fernseher mit KI-Unterstützung beschleunigen",
+            "summary": "Das GitHub-Projekt tv-detox nutzt KI-Codierungswerkzeuge wie Claude Code oder Codex, um ältere Android-Fernseher von Bloatware zu befreien und zu beschleunigen. Es stellt eine minimalistische, werbefreie Benutzeroberfläche und geführte Befehle zur Bereinigung bereit.",
+            "why_it_matters": "Es veranschaulicht den praktischen Nutzen von KI-Assistenten bei der alltäglichen Optimierung und Wartung von Unterhaltungselektronik.",
+            "extended_analysis": "Ältere Smart-TVs neigen im Laufe der Zeit dazu, durch umfangreiche Updates und integrierte Werbung träge zu reagieren. Das tv-detox-Repository bietet einen Ansatz, bei dem KI-Assistenten die Nutzer dabei unterstützen, System-Apps zu deaktivieren und die Benutzeroberfläche zu verschlanken.\n\nObwohl das Projekt eine funktionale Möglichkeit zur Wiederbelebung älterer Hardware darstellt, weisen die Entwickler auf mögliche Risiken hin, falls kritische Systempakete verändert werden. Eine sorgfältige Handhabung ist daher ratsam.",
+            "context": "Die zunehmende Belastung von Smart-TV-Oberflächen durch Werbung und ressourcenintensive Software führt oft zu einer Verschlechterung der Nutzererfahrung, was gemeinschaftliche Optimierungsprojekte antreibt.",
+            "key_takeaways": [
+              "Verwendet Claude Code oder Codex zur Steuerung und Bereinigung über lokales WLAN.",
+              "Ersetzt überladene Standardoberflächen durch einen minimalistischen Startbildschirm.",
+              "Bietet strukturierte Prompts zur Deaktivierung unerwünschter Apps."
+            ],
+            "highlights": [
+              "Anwendungen werden deaktiviert und nicht dauerhaft gelöscht, um Rückgängig-Optionen zu wahren.",
+              "Setzt die Aktivierung des Entwicklermodus und USB-Rubbelns auf dem Fernseher voraus."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 42,
+        "editor_pick_reason": ""
+      }
     },
     "4bef08f5f83b5a9b7dbba2dd2b3d3c98c77e27648541df9e24f911a161e624f6": {
-      "fingerprint": "5c9beb1697219aa417096e0a9c1599b9189cd0dcf40f5be0373d3fb8a7e85227",
-      "retry_after": "2026-11-10T21:49:54.269083+00:00"
+      "fingerprint": "1b39459e526e77f66681875431a783be733961530ccc2eb6ad251b20dd518103",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "CleanYourTV: rimuovi il bloatware e rinnova la tua smart TV",
+            "summary": "Il progetto open source CleanYourTV per Android e Google TV consente di eliminare il bloatware tramite Wi-Fi, offrendo un'interfaccia ispirata ad Apple TV. Ospitato su GitHub, lo strumento punta a ottimizzare l'esperienza utente delle smart TV.",
+            "why_it_matters": "La gestione personalizzata delle interfacce TV e la rimozione di software indesiderato offrono agli utenti maggiore controllo sui propri dispositivi domestici connessi.",
+            "extended_analysis": "Rilasciato su GitHub e forte di una vasta community, CleanYourTV risponde all'esigenza di alleggerire i sistemi operativi delle smart TV da applicazioni preinstallate non necessarie. Sfruttando la connessione Wi-Fi, il progetto mira a riconfigurare l'aspetto e le prestazioni dei dispositivi basati su Android e Google TV.\n\nIl panorama dei sistemi operativi per la televisione è spesso dominato da interfacce sovraccariche di contenuti promozionali. Strumenti orientati al cosiddetto debloat offrono un'alternativa per chi cerca un'esperienza visiva più pulita, simile a quella proposta da Apple TV.",
+            "context": "Le piattaforme di smart TV integrano spesso servizi pubblicitari e applicazioni commerciali fisse. Soluzioni open source consentono agli utenti avanzati di intervenire direttamente sulla configurazione di sistema.",
+            "key_takeaways": [
+              "Strumento open source per Android e Google TV.",
+              "Funzionalità di debloat e pulizia tramite Wi-Fi.",
+              "Interfaccia ispirata allo stile Apple TV."
+            ],
+            "highlights": [
+              "Ospitato sulla piattaforma GitHub con oltre 56.000 stelle.",
+              "Supporta la rimozione del bloatware su dispositivi compatibili."
+            ]
+          },
+          "en": {
+            "title": "CleanYourTV: Debloat Android and Google TV over Wi-Fi",
+            "summary": "The open-source CleanYourTV project for Android and Google TV allows users to remove bloatware over Wi-Fi and adopt an Apple TV-style home screen. Hosted on GitHub, the repository provides tools to streamline smart TV interfaces.",
+            "why_it_matters": "Customizing TV interfaces and removing unwanted pre-installed software gives users greater control over their connected home entertainment hardware.",
+            "extended_analysis": "Hosted on GitHub, CleanYourTV addresses the common issue of cluttered user interfaces and pre-installed applications on smart televisions. By connecting over Wi-Fi, the project provides a structured approach to removing bloatware and modernizing the TV's visual layout.\n\nThe consumer smart TV ecosystem often includes heavy advertising layers and rigid manufacturer interfaces. Open-source customization projects reflect a growing consumer demand for minimalist design and streamlined navigation on living room displays.",
+            "context": "Smart TV operating systems frequently bundle manufacturer applications and sponsored content. Community-driven configuration tools allow users to modify these default environments.",
+            "key_takeaways": [
+              "Open-source utility designed for Android and Google TV.",
+              "Performs system debloat routines over Wi-Fi connections.",
+              "Transforms the home environment with an Apple TV-style layout."
+            ],
+            "highlights": [
+              "Hosted on GitHub with over 56,000 community stars.",
+              "Aims to remove unnecessary software and streamline TV navigation."
+            ]
+          },
+          "es": {
+            "title": "CleanYourTV: elimina el bloatware en Android y Google TV",
+            "summary": "El proyecto de código abierto CleanYourTV para Android y Google TV permite eliminar bloatware mediante Wi-Fi y obtener una interfaz similar a Apple TV. Alojado en GitHub, este repositorio busca simplificar la experiencia en televisores inteligentes.",
+            "why_it_matters": "La personalización de interfaces y la eliminación de software innecesario otorgan a los usuarios un mayor control sobre sus dispositivos de entretenimiento doméstico.",
+            "extended_analysis": "Alojado en GitHub, CleanYourTV aborda la saturación de aplicaciones preinstaladas en los sistemas de televisión inteligente. Mediante conexiones inalámbricas, el proyecto facilita la limpieza del sistema operativo y la modernización visual de la pantalla de inicio.\n\nEl mercado de las smart TVs suele incorporar interfaces densas con contenido publicitario predeterminado. Las herramientas de optimización impulsadas por la comunidad ofrecen alternativas para quienes buscan un diseño más limpio y directo.",
+            "context": "Los sistemas operativos para televisores inteligentes integran habitualmente aplicaciones comerciales y menús complejos. Las iniciativas de código abierto permiten modificar estos entornos predeterminados.",
+            "key_takeaways": [
+              "Herramienta de código abierto para Android y Google TV.",
+              "Funciones de eliminación de bloatware mediante Wi-Fi.",
+              "Diseño de interfaz inspirado en el estilo Apple TV."
+            ],
+            "highlights": [
+              "Disponible en GitHub con más de 56.000 estrellas.",
+              "Orientado a optimizar la experiencia en televisores compatibles."
+            ]
+          },
+          "zh-CN": {
+            "title": "CleanYourTV：通过Wi-Fi清理电视系统与精简应用",
+            "summary": "开源项目 CleanYourTV 专为 Android 和 Google TV 设计，允许用户通过 Wi-Fi 清理冗余应用并获得类似 Apple TV 的主界面。该项目托管在 GitHub 上，致力于优化智能电视的用户体验。",
+            "why_it_matters": "自定义电视界面并移除不需要的预装软件，使用户对家庭娱乐硬件拥有了更多的控制权。",
+            "extended_analysis": "CleanYourTV 托管于 GitHub，旨在解决智能电视中常见的系统臃肿和预装应用过多的问题。通过 Wi-Fi 连接，该项目提供了一种精简系统和重构电视视觉布局的途径。\n\n当前的智能电视生态系统通常包含大量的广告层和固定的厂商界面。开源定制项目反映了消费者对客厅显示设备极简设计和流畅导航的持续需求。",
+            "context": "智能电视操作系统常常捆绑厂商应用和赞助内容。社区驱动的配置工具允许用户修改这些默认的运行环境。",
+            "key_takeaways": [
+              "针对 Android 和 Google TV 的开源实用工具。",
+              "支持通过 Wi-Fi 执行系统精简和应用清理。",
+              "将电视主界面转变为 Apple TV 风格的布局。"
+            ],
+            "highlights": [
+              "托管于 GitHub，获得超过 56,000 个社区星标。",
+              "旨在移除多余软件并简化电视导航操作。"
+            ]
+          },
+          "de": {
+            "title": "CleanYourTV: Bloatware auf Android- und Google TV entfernen",
+            "summary": "Das Open-Source-Projekt CleanYourTV für Android und Google TV ermöglicht das Entfernen von Bloatware über WLAN und bietet eine Benutzeroberfläche im Apple-TV-Stil. Auf GitHub gehostet, optimiert das Tool die Smart-TV-Oberfläche.",
+            "why_it_matters": "Die Anpassung von TV-Oberflächen und das Entfernen unerwünschter Vorabinstallationen geben Nutzern mehr Kontrolle über ihre Unterhaltungselektronik im Wohnzimmer.",
+            "extended_analysis": "Auf GitHub gehostet, widmet sich CleanYourTV dem Problem überladener Benutzeroberflächen und vorinstallierter Anwendungen auf Smart-TVs. Über eine WLAN-Verbindung bietet das Projekt strukturierte Ansätze, um Bloatware zu entfernen und das visuelle Layout des Fernsehers zu modernisieren.\n\nDas Ökosystem von Smart-TVs enthält oft umfangreiche Werbeschichten und starre Herstellermenüs. Open-Source-Anpassungsprojekte spiegeln das wachsende Bedürfnis nach minimalistischem Design und übersichtlicher Navigation wider.",
+            "context": "Betriebssysteme für Smart-TVs bündeln häufig Herstelleranwendungen und gesponserte Inhalte. Community-gesteuerte Konfigurationswerkzeuge ermöglichen es Benutzern, diese Standardumgebungen anzupassen.",
+            "key_takeaways": [
+              "Open-Source-Dienstprogramm für Android und Google TV.",
+              "Führt Bereinigungen von Bloatware über WLAN aus.",
+              "Transformiert die Benutzeroberfläche im Apple-TV-Stil."
+            ],
+            "highlights": [
+              "Auf GitHub mit über 56.000 Sternen gelistet.",
+              "Zielt darauf ab, unnötige Software zu entfernen und die Navigation zu vereinfachen."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 15,
+        "editor_pick_reason": ""
+      }
     },
     "a2fef535478784e4a5c6f77f5e72299399b39eb5b44799a8357e45ba9747d8a9": {
       "fingerprint": "1a26b94de5e233af831dc96f8c7cd518e66e54b74da21df67ab32df68f53737c",
@@ -10800,7 +10978,96 @@
     },
     "0ed321095b411aa1f4b93b5f8605c67134af045f5e1fb6ea799142941102501d": {
       "fingerprint": "edb7762c647f20f9a797d74f5e554aa940a7e4540e5765912bc17385fbe01cc1",
-      "retry_after": "2026-11-11T03:48:33.314957+00:00"
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Progettare per gli agenti AI: la prospettiva di Zeno Rocha su Resend",
+            "summary": "In questo episodio di Latent Space, Zeno Rocha, fondatore e CEO di Resend, racconta come i coding agent scelgano autonomamente i servizi analizzando i flussi di lavoro. Attraverso il caso in cui un agente ha scelto Resend per una pull request, l'episodio esplora l'ottimizzazione per i motori di risposta.",
+            "why_it_matters": "Comprendere come gli agenti autonomi prendano decisioni tecniche al posto degli sviluppatori ridefinisce le strategie di visibilità e adozione dei prodotti software.",
+            "extended_analysis": "Il panorama dello sviluppo software sta cambiando rapidamente con l'introduzione di agenti di codifica autonomi capaci di compiere scelte tecniche in autonomia, come l'integrazione di servizi di posta elettronica. Zeno Rocha offre una prospettiva privilegiata su questo fenomeno, analizzando cosa significhi trovarsi dal lato ricevente di una raccomandazione generata da un'intelligenza artificiale.\n\nL'episodio approfondisce il concetto di answer engine optimization (AEO) e il suo impatto sulle aziende tecnologiche. Quando i software non si rivolgono più solo agli utenti umani ma dialogano direttamente con gli agenti, le dinamiche di mercato e di branding subiscono una trasformazione radicale.",
+            "context": "La discussione si inserisce nel contesto dell'evoluzione degli strumenti di intelligenza artificiale per gli sviluppatori, dove gli agenti autonomi passano dall'essere semplici assistenti a veri e propri decisori operativi nei flussi di lavoro.",
+            "key_takeaways": [
+              "I coding agent possono scegliere autonomamente i servizi software durante la scrittura del codice.",
+              "Zeno Rocha spiega l'ottimizzazione per i motori di risposta (AEO) dal punto di vista di un'azienda.",
+              "Il ruolo degli strumenti di sviluppo si sposta dall'interazione umana a quella guidata dagli agenti."
+            ],
+            "highlights": [
+              "Ospite: Zeno Rocha, fondatore e CEO di Resend.",
+              "Conduttore: swyx, che condivide l'esperienza pratica con gli agenti di codifica."
+            ]
+          },
+          "en": {
+            "title": "Designing for Agents: Zeno Rocha on Resend and Autonomous Software",
+            "summary": "In this Latent Space episode, Resend founder and CEO Zeno Rocha discusses how coding agents autonomously choose services. Prompted by an event where an agent quietly selected Resend via a pull request, the conversation explores answer engine optimization from the receiving end.",
+            "why_it_matters": "As coding agents increasingly make independent architectural choices, understanding how software is discovered and selected by AI shifts product strategy entirely.",
+            "extended_analysis": "The intersection of autonomous agents and developer tooling is creating new paradigms for how software is adopted. When swyx connected Cloudflare email and a coding agent subsequently opened a pull request selecting Resend, it highlighted a shift in how technical products gain traction.\n\nZeno Rocha breaks down the mechanics of this shift, discussing answer engine optimization (AEO) and what it means for infrastructure companies when AI agents become the primary decision-makers. This episode offers a look into the future where software is built for both human developers and autonomous coding systems.",
+            "context": "The episode reflects the growing trend of AI coding agents executing complex workflows and making automated architectural decisions on behalf of developers.",
+            "key_takeaways": [
+              "Coding agents can independently select backend services based on project context.",
+              "Answer engine optimization (AEO) redefines how developer tools gain visibility.",
+              "Resend CEO Zeno Rocha shares insights from receiving an AI-driven service selection."
+            ],
+            "highlights": [
+              "Featured guest: Zeno Rocha, founder and CEO of Resend.",
+              "Context driven by swyx's real-world coding agent experience."
+            ]
+          },
+          "es": {
+            "title": "Diseñando para agentes: Zeno Rocha sobre Resend y el software autónomo",
+            "summary": "En este episodio de Latent Space, Zeno Rocha, fundador y CEO de Resend, analiza cómo los agentes de código eligen servicios de forma autónoma. A partir de una pull request donde un agente seleccionó Resend, se examina la optimización para motores de respuesta.",
+            "why_it_matters": "A medida que los agentes de programación toman decisiones técnicas independientes, comprender cómo las IA descubren el software redefine las estrategias comerciales.",
+            "extended_analysis": "El desarrollo de software se enfrenta a un cambio de paradigma en el que los agentes autónomos de código ya no solo ayudan, sino que toman decisiones activas sobre qué servicios integrar en los flujos de trabajo de los desarrolladores.\n\nZeno Rocha examina este fenómeno desde la perspectiva empresarial, analizando la optimización para motores de respuesta (AEO) y cómo las herramientas tecnológicas deben adaptarse a un ecosistema donde los clientes son sistemas de inteligencia artificial.",
+            "context": "La charla aborda el impacto de los agentes de codificación autónomos en la infraestructura moderna y la adopción de software.",
+            "key_takeaways": [
+              "Los agentes de código pueden seleccionar servicios tecnológicos de forma autónoma.",
+              "Zeno Rocha analiza el concepto de AEO desde el lado receptor.",
+              "Se examinan los cambios en la adopción de herramientas para desarrolladores."
+            ],
+            "highlights": [
+              "Invitado: Zeno Rocha, fundador y CEO de Resend.",
+              "Presentado por swyx en Latent Space."
+            ]
+          },
+          "zh-CN": {
+            "title": "为代理而设计：Zeno Rocha 谈 Resend 与自主软件选择",
+            "summary": "在本期 Latent Space 节目中，Resend 创始人兼 CEO Zeno Rocha 探讨了编码代理如何自主选择服务。通过一个编码代理在拉取请求中自动选择 Resend 的实际案例，节目深入剖析了回答引擎优化（AEO）的实际运作。",
+            "why_it_matters": "随着编码代理逐渐代替开发者做出独立的架构选择，理解人工智能如何发现并采用软件已成为产品战略的核心。",
+            "extended_analysis": "自主编码代理正在重塑软件开发的格局。当人工智能代理在工作流中自主选择后端服务时，技术产品的推广和获客方式也发生了深刻变化。\n\nZeno Rocha 分享了作为服务提供商如何看待这一趋势，探讨了回答引擎优化（AEO）的概念以及当 AI 成为决策者时对基础设施企业的影响。",
+            "context": "本期节目聚焦于人工智能编码代理在实际开发中的表现，以及它们如何改变软件工具的评估和采用流程。",
+            "key_takeaways": [
+              "编码代理能够在编写代码时自主挑选后端服务。",
+              "Zeno Rocha 解析了来自服务接收端的回答引擎优化（AEO）。",
+              "探讨了开发者工具在人工智能时代的全新可见性挑战。"
+            ],
+            "highlights": [
+              "特邀嘉宾：Resend 创始人兼 CEO Zeno Rocha。",
+              "主持人 swyx 结合实际开发体验展开对话。"
+            ]
+          },
+          "de": {
+            "title": "Design für Agenten: Zeno Rocha über Resend und autonome Software",
+            "summary": "In dieser Episode von Latent Space spricht Zeno Rocha, Gründer und CEO von Resend, darüber, wie Coding-Agenten eigenständig Dienste auswählen. Anhand des Beispiels, bei dem ein Agent Resend über einen Pull Request wählte, wird Answer Engine Optimization beleuchtet.",
+            "why_it_matters": "Wenn autonome Agenten eigenständig technische Entscheidungen treffen, verändert dies grundlegend, wie Softwareprodukte entdeckt und in Entwickler-Workflows integriert werden.",
+            "extended_analysis": "Die zunehmende Verbreitung autonomer Coding-Agenten verändert die Art und Weise, wie Software-Infrastrukturen ausgewählt werden. Wenn Agenten eigenständig Dienste wie Resend in Pull Requests einbinden, stehen Anbieter vor neuen Herausforderungen.\n\nZeno Rocha analysiert dieses Phänomen aus der Praxis und beleuchtet, was Answer Engine Optimization (AEO) für Technologieunternehmen bedeutet, wenn KI-Systeme zu aktiven Entscheidungsträgern werden.",
+            "context": "Die Diskussion beleuchtet die Integration von autonomen KI-Agenten in moderne Entwicklungsprozesse und deren Einfluss auf die Produktauswahl.",
+            "key_takeaways": [
+              "Coding-Agenten können Dienste im Projektverlauf autonom auswählen.",
+              "Zeno Rocha erklärt Answer Engine Optimization aus Sicht des Anbieters.",
+              "Die Rolle von Entwicklertools wandelt sich durch KI-gestützte Workflows."
+            ],
+            "highlights": [
+              "Gast: Zeno Rocha, Gründer und CEO von Resend.",
+              "Moderation durch swyx im Podcast Latent Space."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 50,
+        "editor_pick_reason": ""
+      }
     },
     "b5a8e44c595e096d1c53cd70356710f528aa8713dbef602341de18ef08e9eeaf": {
       "fingerprint": "e76be30c515b7c7d347d3889256dff35e603e70e6bb33e7dddac56edf0f37e15",
@@ -11270,11 +11537,15 @@
     "d8da5da19364e9fea3a9ab66bbde8e49c898f3145256e679a0bf5ab5525c7356": {
       "fingerprint": "462f5f00e058be5ff22ea05ebcfe5603cad5f1902cb8f7de983cc0393da97e0e",
       "retry_after": "2026-11-11T07:56:38.431954+00:00"
+    },
+    "ecb8f8c653319dac6ab6692f300882d89ae5b8a3a291c70bd76f0d2218ade233": {
+      "fingerprint": "e254187f934f19e5a4d0979e7ece12bd99e164a28ad99bcea6fe1aa629baa964",
+      "retry_after": "2026-11-11T15:25:49.690334+00:00"
     }
   },
   "daily": {
     "date": "2026-11-11",
-    "count": 2,
+    "count": 5,
     "picks": 0
   }
 }
