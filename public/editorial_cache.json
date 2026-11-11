@@ -2564,87 +2564,87 @@
       }
     },
     "ac3db777f5aac1cf97986b034f59b4c3bba5699e627acc03ae32695b1a5719b2": {
-      "fingerprint": "04bfbe969772a3ff3ad14739b581717b705e0f1dbcce2c1138a47c2aa7cb395a",
+      "fingerprint": "ec83c943c23352973c666e2c19dd00c8d15e9eba530b785dbed50ac6462fe5a2",
       "editorial": {
         "editorial": {
           "it": {
             "title": "TV-Detox: ringiovanire le vecchie Android TV con l'IA",
-            "summary": "Un nuovo progetto open source su GitHub intitolato tv-detox sfrutta strumenti di intelligenza artificiale come Claude Code o Codex per ripulire e velocizzare i vecchi dispositivi Android TV. Offre una schermata iniziale essenziale priva di pubblicità e bloatware, disattivando le app di sistema non necessarie tramite comandi guidati dall'IA.",
-            "why_it_matters": "Questo approccio mostra come gli agenti di codifica e gli strumenti di IA possano essere impiegati per attività di manutenzione domestica e personalizzazione dell'hardware esistente.",
-            "extended_analysis": "Il progetto tv-detox mira a risolvere il problema dei dispositivi smart TV che diventano lenti nel tempo a causa di aggiornamenti pesanti e pubblicità invasive. Utilizzando assistenti di programmazione come Claude Code o Codex, gli utenti possono seguire una procedura guidata per disattivare i componenti superflui senza rimuovere definitivamente i file di sistema.\n\nSebbene il progetto offra una soluzione pratica, richiede attenzione poiché la modifica o la disattivazione delle app di sistema comporta rischi operativi, come avverte la stessa documentazione. Monitorare l'evoluzione di questi strumenti di personalizzazione basati su IA aiuterà a capire la loro affidabilità su piattaforme consumer.",
-            "context": "Il mercato delle smart TV è spesso saturo di interfacce cariche di sponsorizzazioni e contenuti preconfezionati che appesantiscono l'hardware meno recente. Soluzioni fai-da-te assistite dall'IA offrono nuove vie per prolungare il ciclo di vita dei dispositivi elettronici esistenti.",
+            "summary": "Un nuovo progetto open source su GitHub intende velocizzare le vecchie Android TV rimuovendo bloatware, pubblicità e sezioni sponsorizzate tramite assistenti di codifica come Claude Code o Codex. L'approccio sostituisce la schermata iniziale con un'interfaccia leggera e priva di annunci pubblicitari.",
+            "why_it_matters": "La soluzione offre agli utenti un metodo pratico per contrastare l'obsolescenza programmata dei dispositivi di streaming, recuperando reattività e rimuovendo i contenuti promozionali indesiderati.",
+            "extended_analysis": "Il progetto tv-detox sfrutta strumenti di intelligenza artificiale assistita per guidare gli utenti nella pulizia e nell'ottimizzazione dei dispositivi televisivi meno recenti. L'interfaccia ridotta al minimo mostra soltanto le applicazioni installate, gli ingressi HDMI e l'orologio, eliminando la confusione visiva tipica dei menu originali.\n\nLe applicazioni indesiderate o superflue vengono disattivate anziché eliminate definitivamente, riducendo i rischi e consentendo procedure di ripristino tramite appositi script di supporto presenti nel repository GitHub. L'interazione richiede l'attivazione della modalità sviluppatore sulla TV e l'uso di comandi guidati dal computer.",
+            "context": "Molti dispositivi Android TV tendono a rallentare nel corso del tempo a causa di aggiornamenti pesanti, inserimenti pubblicitari e applicazioni preinstallate non rimovibili dai menu tradizionali.",
             "key_takeaways": [
-              "Sfrutta Claude Code o Codex per automatizzare la pulizia delle vecchie Android TV.",
-              "Crea una schermata iniziale minimale, senza pubblicità o righe sponsorizzate.",
-              "Richiede l'attivazione del debug USB e l'uso di comandi da laptop connessi alla stessa rete Wi-Fi."
+              "Sostituzione della schermata iniziale con un'interfaccia leggera e senza pubblicità.",
+              "Utilizzo di Claude Code o Codex per automatizzare la pulizia guidata del sistema.",
+              "Disattivazione temporanea delle app non essenziali con possibilità di ripristino."
             ],
             "highlights": [
-              "Disattiva il bloatware e le applicazioni di sistema senza eliminarle definitivamente.",
-              "Include una procedura per ripristinare le configurazioni precedenti in caso di problemi."
+              "Progetto ospitato su GitHub denominato tv-detox.",
+              "Richiede l'attivazione della modalità sviluppatore e il debug USB sulla TV."
             ]
           },
           "en": {
-            "title": "TV-Detox: Speed Up Old Android TVs Using Claude Code or Codex",
-            "summary": "The GitHub project tv-detox uses AI coding tools like Claude Code or Codex to help users clean up and speed up older Android TV devices. It provides a tiny, ad-free home screen and guided prompts to remove bloatware and sponsored rows safely.",
-            "why_it_matters": "It demonstrates a practical consumer application for AI coding agents, shifting their utility from software development to everyday device optimization.",
-            "extended_analysis": "Older smart TVs frequently suffer from sluggish performance due to heavy interfaces and embedded advertisements. The tv-detox repository offers an alternative by leveraging AI assistants to guide users through disabling system apps and streamlining the television's user interface.\n\nWhile the project presents an innovative way to repurpose older hardware, the developers note potential risks, such as devices becoming unresponsive if critical packages are altered. Users are advised to proceed cautiously and understand the implications of modifying system settings.",
-            "context": "Consumer electronic devices often experience performance degradation as software updates introduce more resource-heavy features and targeted advertisements. Community-driven and AI-assisted projects explore alternative ways to reclaim device usability.",
+            "title": "TV-Detox: Speed Up Old Android TVs Using AI Assistants",
+            "summary": "A new GitHub project called tv-detox aims to make old Android TVs fast again by removing bloatware, ads, and sponsored rows using coding assistants like Claude Code or Codex. It provides a tiny, ad-free home screen replacement showing only essential apps and HDMI inputs.",
+            "why_it_matters": "This project provides a practical way to combat smart TV sluggishness and intrusive advertising, allowing users to reclaim performance on older hardware.",
+            "extended_analysis": "The repository offers scripts and prompts designed to clean up slower television hardware through guided interaction with AI coding agents. By replacing heavy manufacturer launchers with a minimal home screen consisting solely of user apps, HDMI inputs, and a clock, the system aims to restore responsiveness.\n\nApplications are safely disabled rather than permanently deleted, and undo mechanisms are included to reverse changes if necessary. Setup requires enabling developer options and USB debugging on the television.",
+            "context": "Aging smart TVs frequently suffer from performance degradation due to heavy operating system updates, background telemetry, and unremovable sponsored content.",
             "key_takeaways": [
-              "Uses Claude Code or Codex to interact with Android TVs via local Wi-Fi connection.",
-              "Replaces cluttered default interfaces with a minimal, ad-free home screen.",
-              "Provides prompts and scripts designed to disable unwanted pre-installed software."
+              "Replaces cluttered manufacturer interfaces with a clean, ad-free home screen.",
+              "Leverages AI coding tools like Claude Code or Codex to execute system cleanup.",
+              "Disables bloatware safely with built-in undo capabilities."
             ],
             "highlights": [
-              "Apps are turned off rather than permanently deleted, allowing for an undo option.",
-              "Requires enabling developer mode and USB debugging on the target television."
+              "Open-source repository available on GitHub (ansub/tv-detox).",
+              "Requires local Wi-Fi connection and developer mode enabled on the TV."
             ]
           },
           "es": {
-            "title": "TV-Detox: Revitaliza tu vieja Android TV con ayuda de IA",
-            "summary": "Un proyecto alojado en GitHub llamado tv-detox utiliza herramientas como Claude Code o Codex para limpiar y acelerar televisores Android TV antiguos. La iniciativa ofrece una pantalla de inicio minimalista y sin publicidad mediante la desactivación de aplicaciones preinstaladas no deseadas.",
-            "why_it_matters": "Ilustra cómo los asistentes de código basados en inteligencia artificial pueden aplicarse a la optimización de dispositivos de consumo cotidiano.",
-            "extended_analysis": "A medida que los televisores inteligentes envejecen, sus interfaces suelen volverse lentas debido a la acumulación de contenido publicitario y software pesado. El repositorio tv-detox aborda este inconveniente guiando al usuario a través de un proceso asistido por IA para simplificar el sistema.\n\nNo obstante, la manipulación de aplicaciones del sistema conlleva ciertos riesgos operativos que los creadores advierten en su documentación. Es fundamental seguir las precauciones indicadas para evitar bloqueos en el dispositivo.",
-            "context": "La obsolescencia percibida en los dispositivos multimedia domésticos a menudo impulsa a la comunidad a buscar alternativas de optimización al margen de las actualizaciones oficiales de los fabricantes.",
+            "title": "TV-Detox: Revitaliza viejas Android TV con asistencia de IA",
+            "summary": "Un nuevo proyecto en GitHub llamado tv-detox busca acelerar las Android TV antiguas eliminando aplicaciones preinstaladas innecesarias y anuncios mediante asistentes de código como Claude Code o Codex. Ofrece una pantalla de inicio minimalista y sin publicidad.",
+            "why_it_matters": "Ofrece a los usuarios una alternativa práctica para recuperar la velocidad en dispositivos de streaming antiguos y reducir la presencia de contenido promocional intrusivo.",
+            "extended_analysis": "El proyecto utiliza herramientas de inteligencia artificial para simplificar el proceso técnico de limpieza en televisores lentos. La interfaz resultante muestra exclusivamente las aplicaciones del usuario, las entradas HDMI y un reloj, eliminando elementos innecesarios.\n\nLas aplicaciones del sistema no deseadas se desactivan en lugar de borrarse por completo, lo que minimiza riesgos y permite deshacer los cambios mediante scripts incluidos. La configuración requiere habilitar la depuración USB y el modo de desarrollador en el televisor.",
+            "context": "Con el paso del tiempo, los televisores inteligentes suelen volverse lentos debido a interfaces sobrecargadas de anuncios y actualizaciones pesadas del sistema operativo.",
             "key_takeaways": [
-              "Emplea herramientas de IA para simplificar la gestión de paquetes en Android TV.",
-              "Elimina filas patrocinadas y contenido publicitario de la interfaz principal.",
-              "Requiere la configuración previa del modo de depuración USB en el televisor."
+              "Sustitución de la interfaz predeterminada por una pantalla de inicio ligera.",
+              "Uso de asistentes de IA para guiar la limpieza y optimización del sistema.",
+              "Desactivación segura de aplicaciones con opción de revertir los cambios."
             ],
             "highlights": [
-              "Las aplicaciones se desactivan temporalmente y pueden revertirse.",
-              "Requiere conectar el televisor y el ordenador a la misma red Wi-Fi."
+              "Disponible como repositorio público en GitHub.",
+              "Requiere habilitar las opciones de desarrollador en el dispositivo."
             ]
           },
           "zh-CN": {
-            "title": "使用 TV-Detox 借助 AI 工具为旧款安卓电视瘦身提速",
-            "summary": "GitHub 上的开源项目 tv-detox 利用 Claude Code 或 Codex 等人工智能编码工具，帮助用户清理和加速旧款安卓电视。通过精简的无广告主屏幕和引导式提示，项目旨在移除臃肿软件并恢复设备性能。",
-            "why_it_matters": "该项目展示了人工智能代理在消费电子设备维护和日常优化中的一种创新应用方式。",
-            "extended_analysis": "随着系统更新和广告内容的增加，许多旧款智能电视的运行速度逐渐变慢。tv-detox 项目尝试通过 AI 辅助提示词，指导用户安全地关闭系统中的冗余应用，从而打造更加清爽的电视主屏幕。\n\n尽管该工具有助提升设备响应速度，但修改系统应用仍存在一定风险。文档中提醒用户注意操作步骤，并提供了解除更改的途径以应对潜在问题。",
-            "context": "智能电视硬件在长期使用后常常面临性能下降和界面臃肿的问题，开源社区正通过各种技术手段探索延长设备使用寿命的方法。",
+            "title": "TV-Detox：借助AI工具清理并加速老旧Android电视",
+            "summary": "GitHub上的一项新开源项目tv-detox旨在通过Claude Code或Codex等编码助手，移除老旧Android电视上的预装软件、广告和赞助内容，从而恢复设备运行速度。它提供了一个小巧且无广告的主屏幕。",
+            "why_it_matters": "该项目为用户提供了一种切实可行的方法，用以对抗智能电视的运行卡顿和烦人的广告干扰，延长旧设备的实用寿命。",
+            "extended_analysis": "该项目利用人工智能辅助工具引导用户完成电视系统的精简与优化。精简后的主屏幕仅显示用户的应用程序、HDMI输入端口以及时钟，彻底去除了厂商原本臃肿的界面设计。\n\n系统中的冗余应用采用停用而非直接删除的方式处理，并在脚本中提供了撤销机制，以确保操作的安全性。配置过程需要用户在电视上开启开发者选项与USB调试功能。",
+            "context": "随着系统更新和广告内容的增加，老旧的智能电视往往会出现明显的性能下降和界面卡顿现象。",
             "key_takeaways": [
-              "借助 Claude Code 或 Codex 在本地网络环境中优化安卓电视。",
-              "提供无广告、无赞助内容的极简电视主屏幕体验。",
-              "通过提示词引导用户关闭不需要的系统预装软件。"
+              "使用轻量、无广告的主屏幕替换臃肿的厂商启动器。",
+              "借助Claude Code或Codex自动化执行电视系统的清理工作。",
+              "安全禁用系统应用，并支持随时撤销更改。"
             ],
             "highlights": [
-              "应用被关闭而非永久删除，支持撤销操作。",
-              "使用前需在电视上启用开发者模式和 USB 调试。"
+              "托管于GitHub的开源项目（ansub/tv-detox）。",
+              "需要开启电视的开发者模式和USB调试功能。"
             ]
           },
           "de": {
-            "title": "TV-Detox: Alte Android-Fernseher mit KI-Unterstützung beschleunigen",
-            "summary": "Das GitHub-Projekt tv-detox nutzt KI-Codierungswerkzeuge wie Claude Code oder Codex, um ältere Android-Fernseher von Bloatware zu befreien und zu beschleunigen. Es stellt eine minimalistische, werbefreie Benutzeroberfläche und geführte Befehle zur Bereinigung bereit.",
-            "why_it_matters": "Es veranschaulicht den praktischen Nutzen von KI-Assistenten bei der alltäglichen Optimierung und Wartung von Unterhaltungselektronik.",
-            "extended_analysis": "Ältere Smart-TVs neigen im Laufe der Zeit dazu, durch umfangreiche Updates und integrierte Werbung träge zu reagieren. Das tv-detox-Repository bietet einen Ansatz, bei dem KI-Assistenten die Nutzer dabei unterstützen, System-Apps zu deaktivieren und die Benutzeroberfläche zu verschlanken.\n\nObwohl das Projekt eine funktionale Möglichkeit zur Wiederbelebung älterer Hardware darstellt, weisen die Entwickler auf mögliche Risiken hin, falls kritische Systempakete verändert werden. Eine sorgfältige Handhabung ist daher ratsam.",
-            "context": "Die zunehmende Belastung von Smart-TV-Oberflächen durch Werbung und ressourcenintensive Software führt oft zu einer Verschlechterung der Nutzererfahrung, was gemeinschaftliche Optimierungsprojekte antreibt.",
+            "title": "TV-Detox: Alte Android TVs mit KI-Assistenten beschleunigen",
+            "summary": "Ein neues GitHub-Projekt namens tv-detox zielt darauf ab, träge Android TVs durch das Entfernen von Bloatware und Werbung mithilfe von KI-Assistenten wie Claude Code oder Codex zu beschleunigen. Es ersetzt den Homescreen durch eine minimalistische, werbefreie Benutzeroberfläche.",
+            "why_it_matters": "Das Projekt bietet einen praktischen Ansatz, um der Verlangsamung älterer Smart-TVs und aufdringlicher Werbung entgegenzuwirken und die Systemleistung zu verbessern.",
+            "extended_analysis": "Das Repository nutzt KI-gestützte Codierungswerkzeuge, um Benutzer durch die Bereinigung und Optimierung älterer Fernsehgeräte zu leiten. Die reduzierte Benutzeroberfläche zeigt lediglich installierte Apps, HDMI-Eingänge und eine Uhr an, wodurch visueller Ballast entfernt wird.\n\nNicht benötigte Anwendungen werden deaktiviert statt permanent gelöscht, und entsprechende Skripte erlauben das Rückgängigmachen der Änderungen. Für die Einrichtung müssen der Entwicklermodus und das USB-Debugging auf dem Fernseher aktiviert werden.",
+            "context": "Ältere Smart-TVs neigen im Laufe der Zeit zu Leistungseinbußen, die durch umfangreiche Systemaktualisierungen und integrierte Werbeoberflächen verursacht werden.",
             "key_takeaways": [
-              "Verwendet Claude Code oder Codex zur Steuerung und Bereinigung über lokales WLAN.",
-              "Ersetzt überladene Standardoberflächen durch einen minimalistischen Startbildschirm.",
-              "Bietet strukturierte Prompts zur Deaktivierung unerwünschter Apps."
+              "Ersetzung des herstellerseitigen Launchers durch einen werbefreien Homescreen.",
+              "Einsatz von KI-Assistenten zur automatisierten Systembereinigung.",
+              "Sichere Deaktivierung von Bloatware mit integrierter Undo-Funktion."
             ],
             "highlights": [
-              "Anwendungen werden deaktiviert und nicht dauerhaft gelöscht, um Rückgängig-Optionen zu wahren.",
-              "Setzt die Aktivierung des Entwicklermodus und USB-Rubbelns auf dem Fernseher voraus."
+              "Open-Source-Repository auf GitHub (ansub/tv-detox).",
+              "Erfordert aktivierten Entwicklermodus und USB-Debugging auf dem TV."
             ]
           }
         },
@@ -2652,13 +2652,102 @@
         "editorial_status": "verified",
         "editorial_model": "gemini-3.5-flash-lite",
         "editorial_version": 4,
-        "relevance_score": 42,
+        "relevance_score": 72,
         "editor_pick_reason": ""
       }
     },
     "4bef08f5f83b5a9b7dbba2dd2b3d3c98c77e27648541df9e24f911a161e624f6": {
-      "fingerprint": "6081e685e1fe834f560660777afeb79f6f2b3813bbe1a0f9a98d0a983bc89c5b",
-      "retry_after": "2026-11-11T23:28:19.010771+00:00"
+      "fingerprint": "e32f79f310ab0abd6169ff2a5ce756a53ee8bb05fe6ddc7d2327f52ae8a13f8a",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "CleanYourTV: pulizia e interfaccia stile Apple TV per Android TV",
+            "summary": "Il progetto open source CleanYourTV permette di rimuovere il bloatware da qualsiasi Android o Google TV tramite Wi-Fi, offrendo al contempo un'interfaccia ispirata ad Apple TV. Ospitato su GitHub, lo strumento punta a semplificare la gestione e l'aspetto dei dispositivi smart TV.",
+            "why_it_matters": "Offre agli utenti un metodo strutturato per ottimizzare le proprie smart TV, riducendo i contenuti superflui e rinnovando l'esperienza visiva direttamente tramite connessione wireless.",
+            "extended_analysis": "CleanYourTV affronta due delle lamentele più comuni tra i possessori di smart TV: le interfacce affollate da pubblicità e i software preinstallati non necessari. Sfruttando la connessione Wi-Fi, il progetto mira a semplificare procedure tecniche che in passato richiedevano configurazioni complesse tramite cavo o strumenti di sviluppo.\n\nSebbene il repository fornisca indicazioni generali e file di configurazione, l'adozione richiede attenzione alle specifiche del proprio dispositivo. Resta da monitorare come evolverà il supporto per i diversi marchi e la stabilità delle modifiche apportate nel tempo.",
+            "context": "Il mercato delle smart TV è dominato da interfacce fortemente monetizzate tramite suggerimenti di contenuti e inserzioni pubblicitarie. Strumenti orientati al cosiddetto debloat rispondono alla crescente richiesta di controllo da parte degli utenti sui propri dispositivi domestici.",
+            "key_takeaways": [
+              "Rimuove i software superflui da Android e Google TV tramite Wi-Fi.",
+              "Introduce un'interfaccia grafica ispirata allo stile Apple TV.",
+              "Progetto open source ospitato sulla piattaforma GitHub."
+            ],
+            "highlights": [
+              "Strumento per la rimozione di bloatware su Android e Google TV.",
+              "Disponibile pubblicamente tramite il repository GitHub Gathin23/cleanyourtv."
+            ]
+          },
+          "en": {
+            "title": "CleanYourTV: Debloat Android and Google TV Over Wi-Fi",
+            "summary": "CleanYourTV is an open-source GitHub project designed to debloat Android and Google TV devices over Wi-Fi while introducing an Apple TV-style home interface. The repository offers tools to streamline smart TV software and customize user experience.",
+            "why_it_matters": "It gives users a practical way to clean up cluttered smart TV interfaces and remove unwanted pre-installed software wirelessly.",
+            "extended_analysis": "Smart TV platforms often ship with dense menus and extensive pre-installed applications that cannot be easily removed through standard settings. CleanYourTV leverages wireless connections to help users declutter their television operating systems and adopt a cleaner layout.\n\nAs an open-source project, its effectiveness depends on community contributions and ongoing maintenance. Users should review the repository details and instructions carefully before applying modifications to their hardware.",
+            "context": "Consumer dissatisfaction with smart TV interfaces laden with advertisements and sponsored recommendations has driven interest in alternative launchers and system clean-up utilities.",
+            "key_takeaways": [
+              "Cleans up unnecessary software on Android and Google TV devices.",
+              "Provides an Apple TV-inspired home interface layout.",
+              "Operates over Wi-Fi for simplified wireless management."
+            ],
+            "highlights": [
+              "Hosted as a public repository by Gathin23 on GitHub.",
+              "Aims to replace cluttered vendor launchers with a streamlined alternative."
+            ]
+          },
+          "es": {
+            "title": "CleanYourTV: Optimiza tu Android o Google TV vía Wi-Fi",
+            "summary": "CleanYourTV es un proyecto de código abierto en GitHub que permite eliminar aplicaciones preinstaladas innecesarias en Android y Google TV mediante Wi-Fi, ofreciendo además una interfaz al estilo de Apple TV.",
+            "why_it_matters": "Permite a los usuarios limpiar interfaces saturadas de televisión inteligente y gestionar el software de manera inalámbrica.",
+            "extended_analysis": "Las interfaces de las smart TV suelen venir cargadas de recomendaciones comerciales y aplicaciones que ocupan espacio y recursos. Este proyecto busca simplificar la experiencia de uso mediante herramientas de optimización remota.\n\nAl tratarse de una iniciativa colaborativa en GitHub, es importante seguir las directrices técnicas del repositorio para evitar problemas de compatibilidad en diferentes modelos de televisores.",
+            "context": "La proliferación de publicidad y contenidos patrocinados en las pantallas de inicio de los televisores inteligentes ha incrementado el interés por herramientas de personalización y limpieza de software.",
+            "key_takeaways": [
+              "Elimina software innecesario en televisores Android y Google TV.",
+              "Implementa un diseño de pantalla de inicio similar a Apple TV.",
+              "Utiliza la conexión Wi-Fi para facilitar el proceso."
+            ],
+            "highlights": [
+              "Proyecto disponible en el repositorio de GitHub Gathin23/cleanyourtv.",
+              "Enfocado en la privacidad y la mejora de la interfaz."
+            ]
+          },
+          "zh-CN": {
+            "title": "CleanYourTV：通过Wi-Fi清理安卓与谷歌电视",
+            "summary": "CleanYourTV是一个托管在GitHub上的开源项目，旨在通过Wi-Fi清理Android或Google TV上的冗余预装软件，并带来类似于Apple TV的主屏幕界面风格。",
+            "why_it_matters": "它为用户提供了一种无线优化智能电视界面的实用方法，去除了繁杂的内置应用。",
+            "extended_analysis": "智能电视系统常常预装大量难以直接卸载的应用，且主界面充斥着各类推荐和广告。CleanYourTV利用无线连接帮助用户精简电视系统并更换界面布局。\n\n作为一个开源项目，其具体效果取决于社区的持续维护与更新。用户在操作前应仔细阅读相关代码库说明。",
+            "context": "随着智能电视广告和推广内容的增加，消费者对于精简系统、掌控设备界面的需求日益增长。",
+            "key_takeaways": [
+              "通过Wi-Fi移除Android和Google TV上的冗余软件。",
+              "引入类似Apple TV的主屏幕界面风格。",
+              "基于GitHub平台的开源项目。"
+            ],
+            "highlights": [
+              "由开发者Gathin23在GitHub上发布的开源项目。",
+              "专注于智能电视去 bloatware 与界面定制。"
+            ]
+          },
+          "de": {
+            "title": "CleanYourTV: Android- und Google TV via WLAN bereinigen",
+            "summary": "CleanYourTV ist ein Open-Source-Projekt auf GitHub, mit dem sich Android- und Google-TV-Geräte über WLAN von überflüssiger Software befreien lassen, während gleichzeitig eine Benutzeroberfläche im Apple-TV-Stil eingeführt wird.",
+            "why_it_matters": "Es bietet Nutzern eine drahtlose Möglichkeit, unübersichtliche Smart-TV-Oberflächen aufzuräumen und vorinstallierte Apps zu entfernen.",
+            "extended_analysis": "Viele Smart-TV-Systeme sind mit schwer zu entfernenden Apps und stark werbebasierten Startbildschirmen ausgestattet. CleanYourTV setzt auf eine kabellose Verwaltung, um das Betriebssystem übersichtlicher zu gestalten.\n\nDa es sich um ein gemeinschaftliches Projekt handelt, sollten Nutzer die Dokumentation auf GitHub vor der Anwendung genau prüfen und die Kompatibilität mit ihrem jeweiligen Fernsehmodell beachten.",
+            "context": "Die zunehmende Kommerzialisierung und Werbeüberflutung von Smart-TV-Oberflächen führt zu einer steigenden Nachfrage nach Werkzeugen zur Systembereinigung und alternativen Launchern.",
+            "key_takeaways": [
+              "Entfernt unerwünschte Software auf Android- und Google-TV-Geräten.",
+              "Bietet ein Startbildschirm-Design im Stil von Apple TV.",
+              "Funktioniert drahtlos über eine WLAN-Verbindung."
+            ],
+            "highlights": [
+              "Öffentliches GitHub-Repository von Gathin23.",
+              "Entwickelt für die Anpassung und Bereinigung von Smart-TV-Systemen."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 45,
+        "editor_pick_reason": ""
+      }
     },
     "a2fef535478784e4a5c6f77f5e72299399b39eb5b44799a8357e45ba9747d8a9": {
       "fingerprint": "1a26b94de5e233af831dc96f8c7cd518e66e54b74da21df67ab32df68f53737c",
@@ -11455,7 +11544,96 @@
     },
     "f044646b7df1eba9e9e4d84e2d6807345bfc44343aaa3feb273a2f1daa3a0402": {
       "fingerprint": "ea165de49d8395c09583a5f853d537ae2b8f3ee24c68a24acd90547829c35e65",
-      "retry_after": "2026-11-11T23:28:11.414069+00:00"
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Agenti che pensano insieme: Cisco e l'allineamento semantico",
+            "summary": "In questo episodio di The Cognitive Revolution, Vijoy Pandey di Cisco esplora il concetto di Internet of Cognition, approfondendo come gli agenti IA condividano il contesto e si allineino sugli intenti tramite accordi semantici.",
+            "why_it_matters": "Comprendere come gli agenti IA possono comunicare e coordinarsi apre a nuove prospettive per i protocolli di intelligenza artificiale di prossima generazione.",
+            "extended_analysis": "L'episodio esamina i temi dell'allineamento semantico, dello scope, di Accord e Concord discussi da Vijoy Pandey, SVP e GM di Outshift by Cisco. Basandosi sulla sua precedente apparizione a marzo, la conversazione si addentra nell'evoluzione dell'Internet of Cognition e sui protocolli avanzati necessari affinché gli agenti IA collaborino efficacemente.\n\nGli ascoltatori possono esplorare concetti chiave legati all'architettura e alla condivisione del contesto tra sistemi intelligenti, offrendo una prospettiva unica sulle direzioni future dell'infrastruttura di rete per l'intelligenza artificiale.",
+            "context": "Il podcast The Cognitive Revolution analizza le frontiere dell'intelligenza artificiale, focalizzandosi in questo episodio sulle architetture di rete e sui protocolli di collaborazione per agenti autonomi.",
+            "key_takeaways": [
+              "Approfondimento sull'Internet of Cognition con Vijoy Pandey di Cisco.",
+              "Discussione su allineamento semantico, scope, Accord e Concord.",
+              "Analisi dei protocolli necessari per la condivisione del contesto tra agenti IA."
+            ],
+            "highlights": [
+              "Ospite: Vijoy Pandey, SVP e GM di Outshift by Cisco.",
+              "Continuazione della precedente discussione di marzo sull'Internet of Cognition."
+            ]
+          },
+          "en": {
+            "title": "Agents That Think Together: Cisco's Vijoy Pandey on Semantic Alignment",
+            "summary": "In this episode of The Cognitive Revolution, Cisco's Vijoy Pandey discusses the Internet of Cognition, examining how AI agents share context and align on intent through semantic alignment, scope, Accord, and Concord.",
+            "why_it_matters": "Exploring how AI agents coordinate and share context is crucial for understanding the next generation of intelligent network protocols and collaborative systems.",
+            "extended_analysis": "Building on his previous appearance in March, Vijoy Pandey, SVP and GM of Outshift by Cisco, returns to discuss higher-order protocols for AI agents. The conversation centers on semantic alignment, scope, Accord, and Concord, offering a deep dive into the infrastructure required for cohesive agent networks.\n\nListeners gain insights into Cisco's vision for interconnected agent systems and the technical frameworks designed to enable seamless collaboration and shared intent among autonomous AI entities.",
+            "context": "The Cognitive Revolution podcast explores the cutting edge of artificial intelligence, bringing industry leaders together to discuss infrastructural and architectural advancements.",
+            "key_takeaways": [
+              "Examination of the Internet of Cognition and agent collaboration.",
+              "Detailed look at semantic alignment, scope, Accord, and Concord.",
+              "Insights from Cisco's Outshift division on AI agent protocols."
+            ],
+            "highlights": [
+              "Guest: Vijoy Pandey, SVP and GM of Outshift by Cisco.",
+              "Follow-up to the March discussion on agent intent and context."
+            ]
+          },
+          "es": {
+            "title": "Agentes que piensan juntos: Vijoy Pandey de Cisco sobre alineación",
+            "summary": "En este episodio de The Cognitive Revolution, Vijoy Pandey de Cisco analiza el Internet of Cognition, explorando cómo los agentes de IA comparten contexto y alinean intenciones mediante alineación semántica, scope, Accord y Concord.",
+            "why_it_matters": "Comprender la coordinación entre agentes de IA es fundamental para el desarrollo de futuros protocolos y sistemas de inteligencia artificial colaborativa.",
+            "extended_analysis": "Retomando su aparición previa en marzo, Vijoy Pandey, SVP y GM de Outshift by Cisco, explora los protocolos de orden superior que los agentes de IA necesitan para compartir contexto. La conversación aborda conceptos clave como el alineamiento semántico, el scope, Accord y Concord.\n\nLos oyentes pueden conocer la visión de Cisco sobre las redes de agentes interconectados y los marcos técnicos necesarios para una colaboración fluida entre inteligencias artificiales autónomas.",
+            "context": "El podcast The Cognitive Revolution analiza las fronteras de la inteligencia artificial, centrándose en las innovaciones de infraestructura y arquitectura para sistemas autónomos.",
+            "key_takeaways": [
+              "Debate sobre el Internet of Cognition con Vijoy Pandey de Cisco.",
+              "Análisis de la alineación semántica, scope, Accord y Concord.",
+              "Exploración de protocolos de compartición de contexto para agentes."
+            ],
+            "highlights": [
+              "Invitado: Vijoy Pandey, SVP y GM de Outshift by Cisco.",
+              "Continuación de la charla de marzo sobre protocolos de agentes de IA."
+            ]
+          },
+          "zh-CN": {
+            "title": "协同思考的智能体：思科 Vijoy Pandey 谈语义对齐与协议",
+            "summary": "在本期《The Cognitive Revolution》播客中，思科 Outshift 总经理 Vijoy Pandey 探讨了认知互联网（Internet of Cognition），深入分析了 AI 智能体如何通过语义对齐、scope、Accord 和 Concord 来共享上下文并对齐意图。",
+            "why_it_matters": "研究 AI 智能体如何实现协同与上下文共享，对于构建下一代智能网络协议具有重要意义。",
+            "extended_analysis": "延续三月份的讨论，思科 Outshift 高级副总裁兼总经理 Vijoy Pandey 再次做客节目，探讨 AI 智能体所需的更高阶协议。对话聚焦于语义对齐、scope、Accord 和 Concord，深入解析了构建连贯智能体网络的基础设施需求。\n\n听众可以从中了解思科对互联智能体系统的愿景，以及旨在实现自主 AI 实体之间无缝协作的技术框架。",
+            "context": "《The Cognitive Revolution》播客专注于探讨人工智能的前沿发展，本期聚焦于自主系统的基础设施与架构创新。",
+            "key_takeaways": [
+              "探讨由思科 Vijoy Pandey 提出的认知互联网概念。",
+              "深入解析语义对齐、scope、Accord 与 Concord。",
+              "了解 AI 智能体共享上下文的协议与技术框架。"
+            ],
+            "highlights": [
+              "嘉宾：Vijoy Pandey，思科 Outshift 高级副总裁兼总经理。",
+              "对三月份关于 AI 智能体意图与上下文讨论的延续。"
+            ]
+          },
+          "de": {
+            "title": "Gemeinsam denkende Agenten: Ciscos Vijoy Pandey über semantische Ausrichtung",
+            "summary": "In dieser Episode von The Cognitive Revolution spricht Vijoy Pandey von Cisco über das Internet of Cognition und beleuchtet, wie KI-Agenten über semantische Ausrichtung, Scope, Accord und Concord Kontext und Intentionen teilen.",
+            "why_it_matters": "Die Untersuchung, wie KI-Agenten kooperieren und Kontext austauschen, ist entscheidend für das Verständnis zukünftiger intelligenter Netzwerkprotokolle.",
+            "extended_analysis": "Aufbauend auf seinem Auftritt im März kehrt Vijoy Pandey, SVP und GM von Outshift by Cisco, zurück, um über übergeordnete Protokolle für KI-Agenten zu sprechen. Das Gespräch dreht sich um semantische Ausrichtung, Scope, Accord und Concord und bietet Einblicke in die Infrastruktur für kohärente Agenten-Netzwerke.\n\nHöherrangige Protokolle und die gemeinsame Nutzung von Kontext stehen im Mittelpunkt dieser Diskussion über die Zukunft autonomer KI-Systeme und deren Vernetzung.",
+            "context": "Der Podcast The Cognitive Revolution beleuchtet die neuesten Entwicklungen der künstlichen Intelligenz und konzentriert sich dabei auf infrastrukturelle und architektonische Fortschritte.",
+            "key_takeaways": [
+              "Einblicke in das Internet of Cognition mit Vijoy Pandey von Cisco.",
+              "Detaillierte Betrachtung von semantischer Ausrichtung, Scope, Accord und Concord.",
+              "Diskussion über Protokolle zur Kontextteilung zwischen KI-Agenten."
+            ],
+            "highlights": [
+              "Gast: Vijoy Pandey, SVP und GM von Outshift by Cisco.",
+              "Fortsetzung der Diskussion vom März über Intentionen und Kontext von Agenten."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 45,
+        "editor_pick_reason": ""
+      }
     },
     "5f72290ac8fbc8e4f6bb5b2bf7e96cdae6f2803d3f985fb3d12557b9716a0654": {
       "fingerprint": "fb4e09f41b96e8b95df88eb373fc719acb96253b68415ee3b9af04896402eea7",
@@ -11549,11 +11727,104 @@
         "relevance_score": 45,
         "editor_pick_reason": ""
       }
+    },
+    "1c0f36d7b0e130e52e4a38aab84d043afa485f26134e429f6e52e6fe03dfa7df": {
+      "fingerprint": "c0f7b265852561ef86ca030488cf72a038bd287a53210fe9bc75598f58c9953d",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Meaning-Model: grammatica e motore per mondi progressivi",
+            "summary": "Rilasciato su GitHub il progetto emergent-wisdom/meaning-model, una grammatica e un metodo per mondi, concetti e storie a risoluzione progressiva. Include un motore scritto in Rust e un server MCP.",
+            "why_it_matters": "L'integrazione di un motore Rust con un server MCP offre nuove basi tecniche per gestire concetti complessi e strutture narrative in evoluzione.",
+            "extended_analysis": "Il repository ospita un sistema orientato alla risoluzione progressiva di mondi e storie. La presenza di un motore in Rust e di un server Model Context Protocol (MCP) evidenza l'architettura tecnica scelta.\n\nAl momento la descrizione disponibile è sintetica e non fornisce dati su benchmark o adozione effettiva. Sarà importante osservare gli aggiornamenti del codice e la documentazione futura per valutarne le applicazioni pratiche.",
+            "context": "Il progetto si inserisce nell'ecosistema dei server MCP e degli strumenti di sviluppo in Rust, mirando a strutturare concetti e mondi complessi.",
+            "key_takeaways": [
+              "Include un motore in Rust e un server MCP.",
+              "Progettato per mondi, concetti e storie a risoluzione progressiva.",
+              "Disponibile open source su GitHub."
+            ],
+            "highlights": [
+              "Linguaggio di programmazione principale: JavaScript.",
+              "Aggiornato a novembre 2026."
+            ]
+          },
+          "en": {
+            "title": "Meaning-Model: Grammar and Engine for Progressive Worlds",
+            "summary": "The emergent-wisdom/meaning-model repository has been released on GitHub, featuring a grammar and method for progressively resolved worlds, concepts, and stories, complete with a Rust engine and an MCP server.",
+            "why_it_matters": "Combining a Rust engine with an MCP server provides a structured technical foundation for handling complex concepts and evolving narratives.",
+            "extended_analysis": "The project introduces a methodology for progressively resolved conceptual and narrative worlds. Its technical implementation relies on a Rust engine alongside a Model Context Protocol (MCP) server.\n\nGiven the concise nature of the initial description, details on independent testing or adoption are currently unavailable. Future repository updates will clarify its practical use cases.",
+            "context": "This project contributes to the growing tooling around MCP servers and Rust-based engines for structured data and narrative generation.",
+            "key_takeaways": [
+              "Features a Rust engine and an MCP server.",
+              "Focuses on progressively resolved concepts and stories.",
+              "Open source repository hosted on GitHub."
+            ],
+            "highlights": [
+              "Primary programming language: JavaScript.",
+              "Updated in November 2026."
+            ]
+          },
+          "es": {
+            "title": "Meaning-Model: gramática y motor para mundos progresivos",
+            "summary": "Se ha publicado en GitHub emergent-wisdom/meaning-model, una gramática y método para mundos, conceptos e historias con resolución progresiva, que incluye un motor en Rust y un servidor MCP.",
+            "why_it_matters": "La combinación de un motor en Rust y un servidor MCP aporta bases técnicas para gestionar estructuras conceptuales y narrativas complejas.",
+            "extended_analysis": "El proyecto propone un enfoque metodológico para la resolución progresiva de mundos y relatos. Su arquitectura técnica se apoya en un motor escrito en Rust y un servidor MCP.\n\nLa información disponible es limitada y no detalla benchmarks ni adopción real. Conviene seguir el desarrollo del repositorio para comprobar su evolución.",
+            "context": "La iniciativa se alinea con el desarrollo de servidores MCP y herramientas en Rust para el modelado de información compleja.",
+            "key_takeaways": [
+              "Incluye un motor en Rust y un servidor MCP.",
+              "Orientado a conceptos e historias de resolución progresiva.",
+              "Disponible como código abierto en GitHub."
+            ],
+            "highlights": [
+              "Lenguaje de programación principal: JavaScript.",
+              "Actualizado en noviembre de 2026."
+            ]
+          },
+          "zh-CN": {
+            "title": "Meaning-Model：渐进式世界与概念的语法和引擎",
+            "summary": "GitHub上发布了 emergent-wisdom/meaning-model 项目，提供了一种用于渐进式解析世界、概念和故事的语法与方法，包含Rust引擎和MCP服务器。",
+            "why_it_matters": "Rust引擎与MCP服务器的结合，为处理复杂概念和演进中的叙事结构提供了新的技术基础。",
+            "extended_analysis": "该项目引入了一种针对概念和故事渐进解析的方法论。其技术实现依托于Rust引擎以及模型上下文协议（MCP）服务器。\n\n目前的公开描述较为简短，尚未提供基准测试或实际采用情况的数据。后续需要关注代码库的更新以了解其实际应用效果。",
+            "context": "该项目丰富了MCP服务器和Rust语言在结构化内容与叙事生成领域的工具生态。",
+            "key_takeaways": [
+              "包含Rust引擎和MCP服务器。",
+              "专注于渐进式解析的世界和故事。",
+              "在GitHub上开源托管。"
+            ],
+            "highlights": [
+              "主要编程语言：JavaScript。",
+              "更新于2026年11月。"
+            ]
+          },
+          "de": {
+            "title": "Meaning-Model: Grammatik und Engine für progressive Welten",
+            "summary": "Auf GitHub wurde emergent-wisdom/meaning-model veröffentlicht, eine Grammatik und Methode für progressiv aufgelöste Welten, Konzepte und Geschichten mit einer Rust-Engine und einem MCP-Server.",
+            "why_it_matters": "Die Verbindung einer Rust-Engine mit einem MCP-Server bietet eine technische Basis zur Handhabung komplexer Konzepte und narrativer Strukturen.",
+            "extended_analysis": "Das Projekt stellt einen methodischen Ansatz für die progressive Auflösung von Konzepten und Welten vor. Die technische Architektur stützt sich auf eine Rust-Engine und einen MCP-Server.\n\nDa die Beschreibung derzeit sehr knapp gehalten ist, liegen keine Angaben zu Benchmarks oder tatsächlicher Verbreitung vor. Zünftige Updates des Repositorys werden zeigen, wie sich das Projekt einsetzt lässt.",
+            "context": "Das Projekt reiht sich in die Entwicklung von MCP-Servern und Rust-basierten Werkzeugen zur strukturierten Informationsverarbeitung ein.",
+            "key_takeaways": [
+              "Enthält eine Rust-Engine und einen MCP-Server.",
+              "Fokus auf progressiv aufgelöste Konzepte und Geschichten.",
+              "Open-Source-Repository auf GitHub."
+            ],
+            "highlights": [
+              "Primäre Programmiersprache: JavaScript.",
+              "Aktualisiert im November 2026."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 45,
+        "editor_pick_reason": ""
+      }
     }
   },
   "daily": {
     "date": "2026-11-11",
-    "count": 7,
+    "count": 11,
     "picks": 0
   }
 }
