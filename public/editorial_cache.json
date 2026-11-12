@@ -2599,190 +2599,12 @@
       }
     },
     "ac3db777f5aac1cf97986b034f59b4c3bba5699e627acc03ae32695b1a5719b2": {
-      "fingerprint": "ec83c943c23352973c666e2c19dd00c8d15e9eba530b785dbed50ac6462fe5a2",
-      "editorial": {
-        "editorial": {
-          "it": {
-            "title": "TV-Detox: ringiovanire le vecchie Android TV con l'IA",
-            "summary": "Un nuovo progetto open source su GitHub intende velocizzare le vecchie Android TV rimuovendo bloatware, pubblicità e sezioni sponsorizzate tramite assistenti di codifica come Claude Code o Codex. L'approccio sostituisce la schermata iniziale con un'interfaccia leggera e priva di annunci pubblicitari.",
-            "why_it_matters": "La soluzione offre agli utenti un metodo pratico per contrastare l'obsolescenza programmata dei dispositivi di streaming, recuperando reattività e rimuovendo i contenuti promozionali indesiderati.",
-            "extended_analysis": "Il progetto tv-detox sfrutta strumenti di intelligenza artificiale assistita per guidare gli utenti nella pulizia e nell'ottimizzazione dei dispositivi televisivi meno recenti. L'interfaccia ridotta al minimo mostra soltanto le applicazioni installate, gli ingressi HDMI e l'orologio, eliminando la confusione visiva tipica dei menu originali.\n\nLe applicazioni indesiderate o superflue vengono disattivate anziché eliminate definitivamente, riducendo i rischi e consentendo procedure di ripristino tramite appositi script di supporto presenti nel repository GitHub. L'interazione richiede l'attivazione della modalità sviluppatore sulla TV e l'uso di comandi guidati dal computer.",
-            "context": "Molti dispositivi Android TV tendono a rallentare nel corso del tempo a causa di aggiornamenti pesanti, inserimenti pubblicitari e applicazioni preinstallate non rimovibili dai menu tradizionali.",
-            "key_takeaways": [
-              "Sostituzione della schermata iniziale con un'interfaccia leggera e senza pubblicità.",
-              "Utilizzo di Claude Code o Codex per automatizzare la pulizia guidata del sistema.",
-              "Disattivazione temporanea delle app non essenziali con possibilità di ripristino."
-            ],
-            "highlights": [
-              "Progetto ospitato su GitHub denominato tv-detox.",
-              "Richiede l'attivazione della modalità sviluppatore e il debug USB sulla TV."
-            ]
-          },
-          "en": {
-            "title": "TV-Detox: Speed Up Old Android TVs Using AI Assistants",
-            "summary": "A new GitHub project called tv-detox aims to make old Android TVs fast again by removing bloatware, ads, and sponsored rows using coding assistants like Claude Code or Codex. It provides a tiny, ad-free home screen replacement showing only essential apps and HDMI inputs.",
-            "why_it_matters": "This project provides a practical way to combat smart TV sluggishness and intrusive advertising, allowing users to reclaim performance on older hardware.",
-            "extended_analysis": "The repository offers scripts and prompts designed to clean up slower television hardware through guided interaction with AI coding agents. By replacing heavy manufacturer launchers with a minimal home screen consisting solely of user apps, HDMI inputs, and a clock, the system aims to restore responsiveness.\n\nApplications are safely disabled rather than permanently deleted, and undo mechanisms are included to reverse changes if necessary. Setup requires enabling developer options and USB debugging on the television.",
-            "context": "Aging smart TVs frequently suffer from performance degradation due to heavy operating system updates, background telemetry, and unremovable sponsored content.",
-            "key_takeaways": [
-              "Replaces cluttered manufacturer interfaces with a clean, ad-free home screen.",
-              "Leverages AI coding tools like Claude Code or Codex to execute system cleanup.",
-              "Disables bloatware safely with built-in undo capabilities."
-            ],
-            "highlights": [
-              "Open-source repository available on GitHub (ansub/tv-detox).",
-              "Requires local Wi-Fi connection and developer mode enabled on the TV."
-            ]
-          },
-          "es": {
-            "title": "TV-Detox: Revitaliza viejas Android TV con asistencia de IA",
-            "summary": "Un nuevo proyecto en GitHub llamado tv-detox busca acelerar las Android TV antiguas eliminando aplicaciones preinstaladas innecesarias y anuncios mediante asistentes de código como Claude Code o Codex. Ofrece una pantalla de inicio minimalista y sin publicidad.",
-            "why_it_matters": "Ofrece a los usuarios una alternativa práctica para recuperar la velocidad en dispositivos de streaming antiguos y reducir la presencia de contenido promocional intrusivo.",
-            "extended_analysis": "El proyecto utiliza herramientas de inteligencia artificial para simplificar el proceso técnico de limpieza en televisores lentos. La interfaz resultante muestra exclusivamente las aplicaciones del usuario, las entradas HDMI y un reloj, eliminando elementos innecesarios.\n\nLas aplicaciones del sistema no deseadas se desactivan en lugar de borrarse por completo, lo que minimiza riesgos y permite deshacer los cambios mediante scripts incluidos. La configuración requiere habilitar la depuración USB y el modo de desarrollador en el televisor.",
-            "context": "Con el paso del tiempo, los televisores inteligentes suelen volverse lentos debido a interfaces sobrecargadas de anuncios y actualizaciones pesadas del sistema operativo.",
-            "key_takeaways": [
-              "Sustitución de la interfaz predeterminada por una pantalla de inicio ligera.",
-              "Uso de asistentes de IA para guiar la limpieza y optimización del sistema.",
-              "Desactivación segura de aplicaciones con opción de revertir los cambios."
-            ],
-            "highlights": [
-              "Disponible como repositorio público en GitHub.",
-              "Requiere habilitar las opciones de desarrollador en el dispositivo."
-            ]
-          },
-          "zh-CN": {
-            "title": "TV-Detox：借助AI工具清理并加速老旧Android电视",
-            "summary": "GitHub上的一项新开源项目tv-detox旨在通过Claude Code或Codex等编码助手，移除老旧Android电视上的预装软件、广告和赞助内容，从而恢复设备运行速度。它提供了一个小巧且无广告的主屏幕。",
-            "why_it_matters": "该项目为用户提供了一种切实可行的方法，用以对抗智能电视的运行卡顿和烦人的广告干扰，延长旧设备的实用寿命。",
-            "extended_analysis": "该项目利用人工智能辅助工具引导用户完成电视系统的精简与优化。精简后的主屏幕仅显示用户的应用程序、HDMI输入端口以及时钟，彻底去除了厂商原本臃肿的界面设计。\n\n系统中的冗余应用采用停用而非直接删除的方式处理，并在脚本中提供了撤销机制，以确保操作的安全性。配置过程需要用户在电视上开启开发者选项与USB调试功能。",
-            "context": "随着系统更新和广告内容的增加，老旧的智能电视往往会出现明显的性能下降和界面卡顿现象。",
-            "key_takeaways": [
-              "使用轻量、无广告的主屏幕替换臃肿的厂商启动器。",
-              "借助Claude Code或Codex自动化执行电视系统的清理工作。",
-              "安全禁用系统应用，并支持随时撤销更改。"
-            ],
-            "highlights": [
-              "托管于GitHub的开源项目（ansub/tv-detox）。",
-              "需要开启电视的开发者模式和USB调试功能。"
-            ]
-          },
-          "de": {
-            "title": "TV-Detox: Alte Android TVs mit KI-Assistenten beschleunigen",
-            "summary": "Ein neues GitHub-Projekt namens tv-detox zielt darauf ab, träge Android TVs durch das Entfernen von Bloatware und Werbung mithilfe von KI-Assistenten wie Claude Code oder Codex zu beschleunigen. Es ersetzt den Homescreen durch eine minimalistische, werbefreie Benutzeroberfläche.",
-            "why_it_matters": "Das Projekt bietet einen praktischen Ansatz, um der Verlangsamung älterer Smart-TVs und aufdringlicher Werbung entgegenzuwirken und die Systemleistung zu verbessern.",
-            "extended_analysis": "Das Repository nutzt KI-gestützte Codierungswerkzeuge, um Benutzer durch die Bereinigung und Optimierung älterer Fernsehgeräte zu leiten. Die reduzierte Benutzeroberfläche zeigt lediglich installierte Apps, HDMI-Eingänge und eine Uhr an, wodurch visueller Ballast entfernt wird.\n\nNicht benötigte Anwendungen werden deaktiviert statt permanent gelöscht, und entsprechende Skripte erlauben das Rückgängigmachen der Änderungen. Für die Einrichtung müssen der Entwicklermodus und das USB-Debugging auf dem Fernseher aktiviert werden.",
-            "context": "Ältere Smart-TVs neigen im Laufe der Zeit zu Leistungseinbußen, die durch umfangreiche Systemaktualisierungen und integrierte Werbeoberflächen verursacht werden.",
-            "key_takeaways": [
-              "Ersetzung des herstellerseitigen Launchers durch einen werbefreien Homescreen.",
-              "Einsatz von KI-Assistenten zur automatisierten Systembereinigung.",
-              "Sichere Deaktivierung von Bloatware mit integrierter Undo-Funktion."
-            ],
-            "highlights": [
-              "Open-Source-Repository auf GitHub (ansub/tv-detox).",
-              "Erfordert aktivierten Entwicklermodus und USB-Debugging auf dem TV."
-            ]
-          }
-        },
-        "editorial_level": "ai_curated",
-        "editorial_status": "verified",
-        "editorial_model": "gemini-3.5-flash-lite",
-        "editorial_version": 4,
-        "relevance_score": 72,
-        "editor_pick_reason": ""
-      }
+      "fingerprint": "c415f2004f6a32f66f814231415d3f2174aeb3e0055d01753506fa1b03e56dd0",
+      "retry_after": "2026-11-12T19:17:11.086747+00:00"
     },
     "4bef08f5f83b5a9b7dbba2dd2b3d3c98c77e27648541df9e24f911a161e624f6": {
-      "fingerprint": "e32f79f310ab0abd6169ff2a5ce756a53ee8bb05fe6ddc7d2327f52ae8a13f8a",
-      "editorial": {
-        "editorial": {
-          "it": {
-            "title": "CleanYourTV: pulizia e interfaccia stile Apple TV per Android TV",
-            "summary": "Il progetto open source CleanYourTV permette di rimuovere il bloatware da qualsiasi Android o Google TV tramite Wi-Fi, offrendo al contempo un'interfaccia ispirata ad Apple TV. Ospitato su GitHub, lo strumento punta a semplificare la gestione e l'aspetto dei dispositivi smart TV.",
-            "why_it_matters": "Offre agli utenti un metodo strutturato per ottimizzare le proprie smart TV, riducendo i contenuti superflui e rinnovando l'esperienza visiva direttamente tramite connessione wireless.",
-            "extended_analysis": "CleanYourTV affronta due delle lamentele più comuni tra i possessori di smart TV: le interfacce affollate da pubblicità e i software preinstallati non necessari. Sfruttando la connessione Wi-Fi, il progetto mira a semplificare procedure tecniche che in passato richiedevano configurazioni complesse tramite cavo o strumenti di sviluppo.\n\nSebbene il repository fornisca indicazioni generali e file di configurazione, l'adozione richiede attenzione alle specifiche del proprio dispositivo. Resta da monitorare come evolverà il supporto per i diversi marchi e la stabilità delle modifiche apportate nel tempo.",
-            "context": "Il mercato delle smart TV è dominato da interfacce fortemente monetizzate tramite suggerimenti di contenuti e inserzioni pubblicitarie. Strumenti orientati al cosiddetto debloat rispondono alla crescente richiesta di controllo da parte degli utenti sui propri dispositivi domestici.",
-            "key_takeaways": [
-              "Rimuove i software superflui da Android e Google TV tramite Wi-Fi.",
-              "Introduce un'interfaccia grafica ispirata allo stile Apple TV.",
-              "Progetto open source ospitato sulla piattaforma GitHub."
-            ],
-            "highlights": [
-              "Strumento per la rimozione di bloatware su Android e Google TV.",
-              "Disponibile pubblicamente tramite il repository GitHub Gathin23/cleanyourtv."
-            ]
-          },
-          "en": {
-            "title": "CleanYourTV: Debloat Android and Google TV Over Wi-Fi",
-            "summary": "CleanYourTV is an open-source GitHub project designed to debloat Android and Google TV devices over Wi-Fi while introducing an Apple TV-style home interface. The repository offers tools to streamline smart TV software and customize user experience.",
-            "why_it_matters": "It gives users a practical way to clean up cluttered smart TV interfaces and remove unwanted pre-installed software wirelessly.",
-            "extended_analysis": "Smart TV platforms often ship with dense menus and extensive pre-installed applications that cannot be easily removed through standard settings. CleanYourTV leverages wireless connections to help users declutter their television operating systems and adopt a cleaner layout.\n\nAs an open-source project, its effectiveness depends on community contributions and ongoing maintenance. Users should review the repository details and instructions carefully before applying modifications to their hardware.",
-            "context": "Consumer dissatisfaction with smart TV interfaces laden with advertisements and sponsored recommendations has driven interest in alternative launchers and system clean-up utilities.",
-            "key_takeaways": [
-              "Cleans up unnecessary software on Android and Google TV devices.",
-              "Provides an Apple TV-inspired home interface layout.",
-              "Operates over Wi-Fi for simplified wireless management."
-            ],
-            "highlights": [
-              "Hosted as a public repository by Gathin23 on GitHub.",
-              "Aims to replace cluttered vendor launchers with a streamlined alternative."
-            ]
-          },
-          "es": {
-            "title": "CleanYourTV: Optimiza tu Android o Google TV vía Wi-Fi",
-            "summary": "CleanYourTV es un proyecto de código abierto en GitHub que permite eliminar aplicaciones preinstaladas innecesarias en Android y Google TV mediante Wi-Fi, ofreciendo además una interfaz al estilo de Apple TV.",
-            "why_it_matters": "Permite a los usuarios limpiar interfaces saturadas de televisión inteligente y gestionar el software de manera inalámbrica.",
-            "extended_analysis": "Las interfaces de las smart TV suelen venir cargadas de recomendaciones comerciales y aplicaciones que ocupan espacio y recursos. Este proyecto busca simplificar la experiencia de uso mediante herramientas de optimización remota.\n\nAl tratarse de una iniciativa colaborativa en GitHub, es importante seguir las directrices técnicas del repositorio para evitar problemas de compatibilidad en diferentes modelos de televisores.",
-            "context": "La proliferación de publicidad y contenidos patrocinados en las pantallas de inicio de los televisores inteligentes ha incrementado el interés por herramientas de personalización y limpieza de software.",
-            "key_takeaways": [
-              "Elimina software innecesario en televisores Android y Google TV.",
-              "Implementa un diseño de pantalla de inicio similar a Apple TV.",
-              "Utiliza la conexión Wi-Fi para facilitar el proceso."
-            ],
-            "highlights": [
-              "Proyecto disponible en el repositorio de GitHub Gathin23/cleanyourtv.",
-              "Enfocado en la privacidad y la mejora de la interfaz."
-            ]
-          },
-          "zh-CN": {
-            "title": "CleanYourTV：通过Wi-Fi清理安卓与谷歌电视",
-            "summary": "CleanYourTV是一个托管在GitHub上的开源项目，旨在通过Wi-Fi清理Android或Google TV上的冗余预装软件，并带来类似于Apple TV的主屏幕界面风格。",
-            "why_it_matters": "它为用户提供了一种无线优化智能电视界面的实用方法，去除了繁杂的内置应用。",
-            "extended_analysis": "智能电视系统常常预装大量难以直接卸载的应用，且主界面充斥着各类推荐和广告。CleanYourTV利用无线连接帮助用户精简电视系统并更换界面布局。\n\n作为一个开源项目，其具体效果取决于社区的持续维护与更新。用户在操作前应仔细阅读相关代码库说明。",
-            "context": "随着智能电视广告和推广内容的增加，消费者对于精简系统、掌控设备界面的需求日益增长。",
-            "key_takeaways": [
-              "通过Wi-Fi移除Android和Google TV上的冗余软件。",
-              "引入类似Apple TV的主屏幕界面风格。",
-              "基于GitHub平台的开源项目。"
-            ],
-            "highlights": [
-              "由开发者Gathin23在GitHub上发布的开源项目。",
-              "专注于智能电视去 bloatware 与界面定制。"
-            ]
-          },
-          "de": {
-            "title": "CleanYourTV: Android- und Google TV via WLAN bereinigen",
-            "summary": "CleanYourTV ist ein Open-Source-Projekt auf GitHub, mit dem sich Android- und Google-TV-Geräte über WLAN von überflüssiger Software befreien lassen, während gleichzeitig eine Benutzeroberfläche im Apple-TV-Stil eingeführt wird.",
-            "why_it_matters": "Es bietet Nutzern eine drahtlose Möglichkeit, unübersichtliche Smart-TV-Oberflächen aufzuräumen und vorinstallierte Apps zu entfernen.",
-            "extended_analysis": "Viele Smart-TV-Systeme sind mit schwer zu entfernenden Apps und stark werbebasierten Startbildschirmen ausgestattet. CleanYourTV setzt auf eine kabellose Verwaltung, um das Betriebssystem übersichtlicher zu gestalten.\n\nDa es sich um ein gemeinschaftliches Projekt handelt, sollten Nutzer die Dokumentation auf GitHub vor der Anwendung genau prüfen und die Kompatibilität mit ihrem jeweiligen Fernsehmodell beachten.",
-            "context": "Die zunehmende Kommerzialisierung und Werbeüberflutung von Smart-TV-Oberflächen führt zu einer steigenden Nachfrage nach Werkzeugen zur Systembereinigung und alternativen Launchern.",
-            "key_takeaways": [
-              "Entfernt unerwünschte Software auf Android- und Google-TV-Geräten.",
-              "Bietet ein Startbildschirm-Design im Stil von Apple TV.",
-              "Funktioniert drahtlos über eine WLAN-Verbindung."
-            ],
-            "highlights": [
-              "Öffentliches GitHub-Repository von Gathin23.",
-              "Entwickelt für die Anpassung und Bereinigung von Smart-TV-Systemen."
-            ]
-          }
-        },
-        "editorial_level": "ai_curated",
-        "editorial_status": "verified",
-        "editorial_model": "gemini-3.5-flash-lite",
-        "editorial_version": 4,
-        "relevance_score": 45,
-        "editor_pick_reason": ""
-      }
+      "fingerprint": "8933bad2939186f514cfaae0793075c6ec22bb464dd930e90276ef1b22920997",
+      "retry_after": "2026-11-12T19:17:13.946661+00:00"
     },
     "a2fef535478784e4a5c6f77f5e72299399b39eb5b44799a8357e45ba9747d8a9": {
       "fingerprint": "1a26b94de5e233af831dc96f8c7cd518e66e54b74da21df67ab32df68f53737c",
@@ -11863,6 +11685,14 @@
     "ac94b61a25ade5edbf713f0897cc9ad6ba8f24621b9aed0d512136947920d1f0": {
       "fingerprint": "2a78d99a21c1fdac58005acf78e24a52c846e0ad8afdaac1c8a732f6424fe40d",
       "retry_after": "2026-11-12T10:20:15.563404+00:00"
+    },
+    "0c2b04345c6694a7539de27b7a096dc46229c67ce6868e6ac89609b86e01ea20": {
+      "fingerprint": "4f5424107583a10f1f173e55cfcf773dbbd4b6379aeb8b8f1afe0a496a5b07e4",
+      "retry_after": "2026-11-12T19:17:13.309635+00:00"
+    },
+    "7fc08de27bce1b0c7e7a8143093b769d261f651c2bca76fe7b35df9f3db087f4": {
+      "fingerprint": "2904a62c9c92845ff3b8ea8f2a5c062a92886afa0759bd3ff1aa92536d9d43b8",
+      "retry_after": "2026-11-12T19:17:17.355473+00:00"
     }
   },
   "daily": {
