@@ -2600,11 +2600,11 @@
     },
     "ac3db777f5aac1cf97986b034f59b4c3bba5699e627acc03ae32695b1a5719b2": {
       "fingerprint": "c415f2004f6a32f66f814231415d3f2174aeb3e0055d01753506fa1b03e56dd0",
-      "retry_after": "2026-11-12T19:17:11.086747+00:00"
+      "retry_after": "2026-11-13T02:54:22.909283+00:00"
     },
     "4bef08f5f83b5a9b7dbba2dd2b3d3c98c77e27648541df9e24f911a161e624f6": {
-      "fingerprint": "8933bad2939186f514cfaae0793075c6ec22bb464dd930e90276ef1b22920997",
-      "retry_after": "2026-11-12T19:17:13.946661+00:00"
+      "fingerprint": "ca0bf498715c57a223111e31b87848ac7fccf9e5bd20b8036ede8849a26b35c6",
+      "retry_after": "2026-11-13T02:54:32.074855+00:00"
     },
     "a2fef535478784e4a5c6f77f5e72299399b39eb5b44799a8357e45ba9747d8a9": {
       "fingerprint": "1a26b94de5e233af831dc96f8c7cd518e66e54b74da21df67ab32df68f53737c",
@@ -3816,97 +3816,8 @@
       }
     },
     "c0ea33f4bb9725ae73cda1dcdc0942d1f2132757f61ba37d54f982564759842d": {
-      "fingerprint": "62cddc5a9d69dc28188dbab8dcb055cc8d2bff0d75fc3a75c148157838ac8276",
-      "editorial": {
-        "editorial": {
-          "it": {
-            "title": "Corso di IA in Python, C# e Lean4",
-            "summary": "Il repository GitHub jsboige/CoursIA raccoglie risorse e laboratori pratici per un corso di intelligenza artificiale sviluppato in Python, C# e Lean4. Con 16 stelle, il progetto offre materiale didattico basato su Jupyter Notebook.",
-            "why_it_matters": "La disponibilità di risorse didattiche multilinguaggio e multi-linguaggio di programmazione facilita l'apprendimento e la sperimentazione pratica nell'ambito dell'intelligenza artificiale.",
-            "extended_analysis": "Il deposito open source curato da jsboige fornisce un percorso strutturato per lo studio dell'intelligenza artificiale, integrando linguaggi differenti come Python, C# e Lean4 all'interno di notebook Jupyter.\n\nSebbene la descrizione sia limitata, la natura aperta del progetto permette di monitorare futuri aggiornamenti e l'eventuale ampliamento del materiale didattico.",
-            "context": "Le piattaforme di condivisione di codice open source come GitHub ospitano frequentemente risorse educative per la formazione tecnica in ambito IA, sebbene le informazioni fornite siano circoscritte.",
-            "key_takeaways": [
-              "Contiene risorse e TPs per un corso di IA.",
-              "Utilizza Python, C# e Lean4 come linguaggi di programmazione.",
-              "Basato su Jupyter Notebook con 16 stelle su GitHub."
-            ],
-            "highlights": [
-              "Repository GitHub: jsboige/CoursIA",
-              "Linguaggio principale: Jupyter Notebook"
-            ]
-          },
-          "en": {
-            "title": "AI Course Resources in Python, C# and Lean4",
-            "summary": "The GitHub repository jsboige/CoursIA provides resources and practical labs for an artificial intelligence course implemented in Python, C#, and Lean4. Featuring Jupyter Notebooks, the project has gathered 16 stars.",
-            "why_it_matters": "Access to structured educational materials across diverse programming languages supports practical learning and experimentation in artificial intelligence.",
-            "extended_analysis": "This repository offers a collection of coursework and practical sessions designed for AI education. By incorporating Python, C#, and Lean4, it spans traditional and formal verification approaches within Jupyter Notebook environments.\n\nGiven the concise nature of the available metadata, observers should consult the repository directly for the most up-to-date curriculum details and documentation.",
-            "context": "Educational repositories on GitHub serve as open resources for students and educators, reflecting ongoing efforts to structure machine learning and computer science curricula.",
-            "key_takeaways": [
-              "Includes resources and lab work for an AI course.",
-              "Built using Python, C#, and Lean4.",
-              "Utilizes Jupyter Notebook format and holds 16 stars."
-            ],
-            "highlights": [
-              "GitHub Repository: jsboige/CoursIA",
-              "Primary language: Jupyter Notebook"
-            ]
-          },
-          "es": {
-            "title": "Recursos de curso de IA en Python, C# y Lean4",
-            "summary": "El repositorio de GitHub jsboige/CoursIA recopila recursos y trabajos prácticos para un curso de inteligencia artificial en Python, C# y Lean4. El proyecto cuenta con 16 estrellas y utiliza Jupyter Notebook.",
-            "why_it_matters": "La disponibilidad de materiales educativos abiertos facilita el estudio estructurado y la práctica en el desarrollo de la inteligencia artificial.",
-            "extended_analysis": "Este depósito ofrece un enfoque didáctico mediante el uso de múltiples lenguajes de programación en cuadernos Jupyter, abarcando desde Python hasta C# y Lean4.\n\nDebido a la escasez de detalles adicionales en la metadata, se aconseja revisar directamente el repositorio para seguir la evolución de su contenido y actualizaciones.",
-            "context": "Los repositorios de código abierto en plataformas como GitHub son herramientas comunes para la difusión de materiales académicos y guías de estudio en informática.",
-            "key_takeaways": [
-              "Ofrece recursos y TPs para un curso de IA.",
-              "Soporta Python, C# y Lean4.",
-              "Desarrollado en Jupyter Notebook con 16 estrellas."
-            ],
-            "highlights": [
-              "Repositorio GitHub: jsboige/CoursIA",
-              "Lenguaje principal: Jupyter Notebook"
-            ]
-          },
-          "zh-CN": {
-            "title": "包含Python、C#与Lean4的AI课程资源库",
-            "summary": "GitHub代码库 jsboige/CoursIA 汇集了使用 Python、C# 和 Lean4 编写的人工智能课程资源与实验练习。该项目基于 Jupyter Notebook，目前获得 16 颗星。",
-            "why_it_matters": "多语言和结构化的开源教育资源为人工智能的学习与实践提供了便利的基础材料。",
-            "extended_analysis": "该项目由 jsboige 维护，通过 Jupyter Notebook 提供了涵盖多种编程语言的教学材料。由于元数据信息有限，实际内容与后续更新需以开源仓库的公开记录为准。",
-            "context": "开源代码托管平台常被用于发布和共享计算机科学与人工智能领域的学术及自学课程资料。",
-            "key_takeaways": [
-              "包含人工智能课程的资源与实验练习。",
-              "涉及 Python、C# 和 Lean4 语言。",
-              "基于 Jupyter Notebook 并拥有 16 颗星。"
-            ],
-            "highlights": [
-              "GitHub 仓库：jsboige/CoursIA",
-              "主要语言：Jupyter Notebook"
-            ]
-          },
-          "de": {
-            "title": "KI-Kursressourcen in Python, C# und Lean4",
-            "summary": "Das GitHub-Repository jsboige/CoursIA enthält Materialien und praktische Übungen für einen Kurs zum Thema künstliche Intelligenz in Python, C# und Lean4. Das Projekt nutzt Jupyter Notebook und hat 16 Sterne.",
-            "why_it_matters": "Der Zugriff auf strukturierte Lehrmaterialien in verschiedenen Programmiersprachen unterstützt das praktische Erlernen von Konzepten der künstlichen Intelligenz.",
-            "extended_analysis": "Das Repository stellt Kursinhalte und praktische Einheiten bereit, die auf Jupyter Notebooks basieren. Die Verwendung von Python, C# und Lean4 zeigt einen breiten methodischen Ansatz.\n\nAufgrund der begrenzten Beschreibung sollten Interessierte das Repository direkt konsultieren, um den genauen Umfang und zukünftige Aktualisierungen zu verfolgen.",
-            "context": "Open-Source-Plattformen dienen häufig als Austauschort für akademische und autodidaktische Lehrmaterialien im Bereich der Informatik und künstlichen Intelligenz.",
-            "key_takeaways": [
-              "Beinhaltet Ressourcen und Übungen für einen KI-Kurs.",
-              "Implementiert in Python, C# und Lean4.",
-              "Basiert auf Jupyter Notebook mit 16 Sternen."
-            ],
-            "highlights": [
-              "GitHub Repository: jsboige/CoursIA",
-              "Primäre Sprache: Jupyter Notebook"
-            ]
-          }
-        },
-        "editorial_level": "ai_curated",
-        "editorial_status": "verified",
-        "editorial_model": "gemini-3.5-flash-lite",
-        "editorial_version": 4,
-        "relevance_score": 10,
-        "editor_pick_reason": ""
-      }
+      "fingerprint": "f7228d0544ea6d462304097ba8e6d8c654759ba0e3aaf675e41fbeb19c8f3084",
+      "retry_after": "2026-11-13T02:54:33.101940+00:00"
     },
     "49e27b8370c0db1aae1a84cdc423f7f869a742cda44ac43d500cbdc5639e8487": {
       "fingerprint": "b4a868c55552f561240cf57a611bcd28cfcc8025dd1fa6bac0c469b73ff76e53",
@@ -11693,6 +11604,10 @@
     "7fc08de27bce1b0c7e7a8143093b769d261f651c2bca76fe7b35df9f3db087f4": {
       "fingerprint": "2904a62c9c92845ff3b8ea8f2a5c062a92886afa0759bd3ff1aa92536d9d43b8",
       "retry_after": "2026-11-12T19:17:17.355473+00:00"
+    },
+    "89486d5c5a19ed5bc72b211d28c84ca7260205bbed9454bf16cb1faba630940e": {
+      "fingerprint": "e8631e5529cbe8b024b86ca1ed06e9b6655e77688e93fbefa4a5993dd5a7a9fa",
+      "retry_after": "2026-11-13T02:54:24.685183+00:00"
     }
   },
   "daily": {
