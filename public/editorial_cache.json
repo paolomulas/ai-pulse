@@ -12257,8 +12257,97 @@
       }
     },
     "c82bb7771b9a1fcee662ea942598d47bdba9d179b5cf68a6205bd21c811082b7": {
-      "fingerprint": "ff45cd78be1eeaeafaac8a92df2cb436e7fe4ea7d545817768ff16ac969710cc",
-      "retry_after": "2026-11-13T23:23:34.050456+00:00"
+      "fingerprint": "0494bbe3473b17211d404c4375dc39fdef1ae765db65155416560eca7c7690d5",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "OpenBMB rilascia MiniCPM-OCR per l'analisi efficiente di documenti",
+            "summary": "OpenBMB ha pubblicato MiniCPM-OCR, un sistema per il riconoscimento ottico e l'analisi di documenti in cinese e inglese. Il progetto include strumenti per la valutazione della correttezza e il supporto multipiattaforma.",
+            "why_it_matters": "Il sistema offre funzionalità di parsing documentale ottimizzate per dispositivi mobili e ambienti locali, rispondendo alle esigenze di elaborazione offline e controllo della qualità.",
+            "extended_analysis": "Il repository OpenBMB MiniCPM-OCR introduce modelli focalizzati sull'efficienza e sulla qualità nella scansione di documenti complessi, come pagine curve o fotografie. La componente MiniCPM-OCR Jev valuta i risultati a livello di singola regione per identificare parti problematiche.\n\nGli aggiornamenti recenti includono il supporto per l'esecuzione offline su dispositivi iOS, Android e HarmonyOS, oltre alla disponibilità di immagini Docker con vLLM integrato per l'uso lato server e di un SDK Python.",
+            "context": "Lo sviluppo di strumenti OCR leggeri e locali riflette la crescente domanda di soluzioni di elaborazione documentale che tutelino la privacy e funzionino senza connessione Internet permanente.",
+            "key_takeaways": [
+              "MiniCPM-OCR 1.0 gestisce documenti in lingua cinese e inglese.",
+              "Il modulo Jev valuta l'affidabilità dei risultati OCR a livello di regione.",
+              "Sono disponibili pacchetti per iOS, Android, HarmonyOS e Docker."
+            ],
+            "highlights": [
+              "Supporto per parsing locale su dispositivi mobili senza connessione.",
+              "Immagine Docker ufficiale con vLLM per il deployment end-to-end."
+            ]
+          },
+          "en": {
+            "title": "OpenBMB Launches MiniCPM-OCR for Efficient Document Parsing",
+            "summary": "OpenBMB has released MiniCPM-OCR, a model family designed for efficient document parsing and text recognition in Chinese and English. The repository includes correctness assessment tools and cross-platform deployment options.",
+            "why_it_matters": "The project combines text recognition with region-level quality assessment, aiming to help users identify unreliable output across challenging inputs like scans and photos.",
+            "extended_analysis": "MiniCPM-OCR 1.0 addresses difficult inputs such as curved pages, recaptured documents, and scans. Alongside the base parsing models, MiniCPM-OCR Jev evaluates OCR outputs at the region level to separate reliable content from problematic areas requiring review.\n\nRecent project updates document mobile execution capabilities for iOS, Android, and HarmonyOS for offline parsing, as well as an official Docker image bundling model weights and vLLM for server deployments.",
+            "context": "Efficient OCR models that can operate locally or on edge devices are increasingly relevant for secure, offline document workflows and automated data extraction pipelines.",
+            "key_takeaways": [
+              "MiniCPM-OCR 1.0 parses Chinese and English documents and PDFs.",
+              "MiniCPM-OCR Jev provides region-level correctness assessment for OCR outputs.",
+              "Deployment options range from mobile SDKs to official Docker images."
+            ],
+            "highlights": [
+              "Offline mobile support for iOS, Android, and HarmonyOS.",
+              "Docker image integration with vLLM for end-to-end workflows."
+            ]
+          },
+          "es": {
+            "title": "OpenBMB presenta MiniCPM-OCR para análisis eficiente de documentos",
+            "summary": "OpenBMB ha lanzado MiniCPM-OCR, una familia de modelos para el reconocimiento de texto y análisis de documentos en chino e inglés. El proyecto incluye evaluación de corrección y soporte multiplataforma.",
+            "why_it_matters": "Integra el reconocimiento óptico con herramientas de evaluación de calidad por región, facilitando la identificación de resultados problemáticos en entradas complejas.",
+            "extended_analysis": "MiniCPM-OCR 1.0 procesa documentos y archivos PDF en chino e inglés, abarcando entradas desafiantes como páginas curvas, escaneos y fotografías. Su herramienta MiniCPM-OCR Jev evalúa los resultados a nivel de región para localizar contenido que requiere revisión.\n\nLas actualizaciones recientes documentan la ejecución en dispositivos iOS, Android y HarmonyOS sin necesidad de red, además de una imagen Docker oficial con vLLM integrado.",
+            "context": "La demanda de sistemas OCR capaces de ejecutarse de forma local y eficiente responde al interés por procesar datos documentales de manera autónoma y privada.",
+            "key_takeaways": [
+              "Soporta análisis de documentos en chino e inglés.",
+              "Incluye evaluación de corrección a nivel de región mediante Jev.",
+              "Ofrece despliegue en móviles y contenedores Docker."
+            ],
+            "highlights": [
+              "Capacidad de análisis offline en iOS, Android y HarmonyOS.",
+              "Disponibilidad de SDK en Python y despliegue con Docker."
+            ]
+          },
+          "zh-CN": {
+            "title": "OpenBMB发布MiniCPM-OCR：高效文档解析与评估",
+            "summary": "OpenBMB推出了MiniCPM-OCR模型系列，用于中英文文档解析和文字识别。该项目集成了识别结果的正确性评估工具，并支持多端部署。",
+            "why_it_matters": "该项目将文字识别与区域级质量评估相结合，帮助用户在复杂扫描件和照片中定位需要检查的内容，兼顾本地化运行需求。",
+            "extended_analysis": "MiniCPM-OCR 1.0 能够处理扫描件、照片、弯曲页面等具有挑战性的中英文文档和PDF。其中的 MiniCPM-OCR Jev 组件可在区域层面对识别结果进行评估，区分可靠区域与可能存在问题的区域。\n\n近期更新显示，该模型已支持在 iOS、Android 和鸿蒙（HarmonyOS）设备上完全离线运行，同时官方还提供了集成 vLLM 的 Docker 镜像和 Python SDK。",
+            "context": "边缘端与本地化 OCR 模型的发展，满足了开发者对高效、隐私友好的文档自动化处理工具的实际需求。",
+            "key_takeaways": [
+              "MiniCPM-OCR 1.0 支持中英文文档与PDF解析。",
+              "MiniCPM-OCR Jev 提供区域级别的结果正确性评估。",
+              "提供移动端离线运行能力及官方 Docker 部署方案。"
+            ],
+            "highlights": [
+              "支持 iOS、Android 和 HarmonyOS 离线解析。",
+              "提供包含模型权重和 vLLM 的官方 Docker 镜像。"
+            ]
+          },
+          "de": {
+            "title": "OpenBMB veröffentlicht MiniCPM-OCR für effiziente Dokumentenanalyse",
+            "summary": "OpenBMB hat MiniCPM-OCR vorgestellt, eine Modellfamilie für effizientes Parsen von Dokumenten und Texterkennung für Chinesisch und Englisch. Das Projekt enthält Tools zur Korrektheitsbewertung.",
+            "why_it_matters": "Es verknüpft Texterkennung mit einer regionalen Qualitätsprüfung, um problematische Ergebnisse bei schwierigen Eingaben wie Scans oder Fotos leichter zu identifizieren.",
+            "extended_analysis": "MiniCPM-OCR 1.0 verarbeitet chinesische und englische Dokumente sowie PDFs und bewältigt dabei anspruchsvolle Vorlagen wie gekrümmte Seiten oder Fotos. Ergänzend dazu bewertet MiniCPM-OCR Jev die Erkennungsergebnisse auf Regionenebene, um überprüfungsbedürftige Inhalte zu lokalisieren.\n\nJüngste Updates ermöglichen die Offline-Ausführung auf iOS, Android und HarmonyOS. Zudem stehen ein offizielles Docker-Image mit integriertem vLLM sowie ein Python-SDK zur Verfügung.",
+            "context": "Leichtgewichtige und lokale OCR-Modelle spiegeln den Bedarf an datenschutzfreundlichen und netzwerkunabhängigen Werkzeugen für die Dokumentenverarbeitung wider.",
+            "key_takeaways": [
+              "MiniCPM-OCR 1.0 verarbeitet chinesische und englische Dokumente.",
+              "MiniCPM-OCR Jev bietet eine Korrektheitsprüfung auf Regionenebene.",
+              "Bereitstellung für mobile Plattformen und Docker-Umgebungen."
+            ],
+            "highlights": [
+              "Offline-Ausführung auf iOS, Android und HarmonyOS.",
+              "Offizielles Docker-Image mit vLLM für Server-Deployments."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 65,
+        "editor_pick_reason": ""
+      }
     },
     "137ebc899af74dcede9b84f6ad9ed4c177f50376f9d47a412f6533a14cd44c60": {
       "fingerprint": "3a23c01dbf519c07677dca7c101b0247a77897031b2753494b0791c53e0252c8",
@@ -12356,11 +12445,290 @@
         "relevance_score": 35,
         "editor_pick_reason": ""
       }
+    },
+    "1195b818ab7e08752457f2683356551a857e264fc80861a231ed403b1faf294c": {
+      "fingerprint": "137a392cbade6ecf52969d066e566b6fe119c4a029e79fbd20b820defd8a9456",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Federated Learning e AI Agentica",
+            "summary": "In questo episodio, Chris e l'ospite Lorenzo Sani esplorano come il federated learning permetta di addestrare i modelli di intelligenza artificiale su dati privati preservandone la riservatezza.",
+            "why_it_matters": "La tecnologia del federated learning espande l'accesso a dati riservati per i modelli linguistici di grandi dimensioni e migliora i sistemi di IA agentica.",
+            "extended_analysis": "L'episodio affronta l'uso di modelli open-weight e le applicazioni pratiche di agenti di IA ospitati localmente in ambiti come la sanità, la robotica e l'automazione quotidiana. Vengono esaminate le traiettorie dei modelli per ottimizzare i sistemi agentici e l'importanza della collaborazione per superare i limiti di privacy.",
+            "context": "La discussione si inserisce nel panorama attuale dell'intelligenza artificiale, dove la tutela della privacy dei dati e lo sviluppo di agenti autonomi rappresentano priorità centrali per la ricerca e l'industria.",
+            "key_takeaways": [
+              "Il federated learning consente l'apprendimento su dati privati senza comprometterne la sicurezza.",
+              "I modelli open-weight offrono vantaggi significativi per lo sviluppo collaborativo.",
+              "Le applicazioni spaziano dalla sanità alla robotica e all'automazione."
+            ],
+            "highlights": [
+              "Lorenzo Sani è Research Scientist presso Flower Labs e dottorando a Cambridge.",
+              "Vengono discusse le applicazioni reali di agenti di IA ospitati localmente."
+            ]
+          },
+          "en": {
+            "title": "Implementing Federated Learning for Agentic AI",
+            "summary": "Chris is joined by Lorenzo Sani from Flower Labs and Cambridge to explore federated learning, privacy-preserving AI, and collaborative training for large language models.",
+            "why_it_matters": "Federated learning expands access to private data for training while preserving privacy, improving agentic AI systems and utilizing open-weight models.",
+            "extended_analysis": "The conversation covers real-world applications of locally hosted AI agents across healthcare, robotics, and everyday automation. They discuss how model trajectories can help improve agentic AI systems and the benefits of open-weight models in collaborative environments.",
+            "context": "As privacy concerns grow alongside the adoption of autonomous AI agents, federated learning offers a potential framework for secure and collaborative model training.",
+            "key_takeaways": [
+              "Federated learning enables AI models to learn from private data securely.",
+              "Model trajectories help improve agentic AI systems.",
+              "Locally hosted AI agents have diverse applications in healthcare and robotics."
+            ],
+            "highlights": [
+              "Guest Lorenzo Sani is a Research Scientist at Flower Labs and PhD researcher at Cambridge.",
+              "The episode highlights open-weight models and real-world deployment scenarios."
+            ]
+          },
+          "es": {
+            "title": "Aprendizaje federado para mejorar la IA agéntica",
+            "summary": "Chris conversa con Lorenzo Sani sobre el aprendizaje federado y la privacidad en la inteligencia artificial, analizando el entrenamiento colaborativo de grandes modelos de lenguaje.",
+            "why_it_matters": "Permite ampliar el acceso a datos privados de forma segura, mejorando los sistemas de IA agéntica y aprovechando las ventajas de los modelos de pesos abiertos.",
+            "extended_analysis": "Se abordan aplicaciones prácticas de agentes de IA locales en sectores como la salud, la robótica y la automatización cotidiana. La charla examina el papel de las trayectorias de los modelos en el perfeccionamiento de sistemas agénticos.",
+            "context": "Este enfoque responde a la necesidad de entrenar modelos de IA protegiendo la confidencialidad de los datos mediante técnicas de aprendizaje colaborativo.",
+            "key_takeaways": [
+              "El aprendizaje federado protege los datos privados durante el entrenamiento.",
+              "Los modelos de pesos abiertos ofrecen beneficios clave para la colaboración.",
+              "Se exploran casos de uso en salud, robótica y automatización."
+            ],
+            "highlights": [
+              "Participa Lorenzo Sani, investigador en Flower Labs y doctorando en Cambridge.",
+              "Se discuten aplicaciones en el mundo real de agentes alojados localmente."
+            ]
+          },
+          "zh-CN": {
+            "title": "实施联邦学习以增强智能体AI",
+            "summary": "Chris与来自Flower Labs和剑桥大学的研究员Lorenzo Sani探讨了联邦学习以及如何在不泄露隐私的前提下利用私有数据训练AI模型。",
+            "why_it_matters": "联邦学习扩展了大语言模型对私有数据的访问权限，同时保护了隐私并改善了智能体AI系统。",
+            "extended_analysis": "对话深入探讨了本地托管AI机器人在医疗保健、机器人技术以及日常生活自动化中的实际应用。嘉宾还讨论了模型轨迹如何帮助改进智能体AI系统，以及开源权重模型的优势。",
+            "context": "在数据隐私日益受到关注的背景下，联邦学习为安全协作训练AI模型提供了一种极具潜力的技术方案。",
+            "key_takeaways": [
+              "联邦学习使AI模型能够在保护隐私的同时从私有数据中学习。",
+              "模型轨迹有助于提升智能体AI系统的性能。",
+              "本地托管的AI代理在医疗和机器人领域有广泛应用。"
+            ],
+            "highlights": [
+              "特邀嘉宾Lorenzo Sani是Flower Labs的研究科学家及剑桥大学博士研究员。",
+              "探讨了本地托管AI代理的实际应用场景。"
+            ]
+          },
+          "de": {
+            "title": "Föderiertes Lernen zur Verbesserung agentischer KI",
+            "summary": "Chris spricht mit Lorenzo Sani von Flower Labs und Cambridge über föderiertes Lernen, datenschutzfreundliche KI und das kollaborative Training von Sprachmodellen.",
+            "why_it_matters": "Föderiertes Lernen erweitert den Zugriff auf private Daten für das Training, schützt die Privatsphäre und verbessert agentische KI-Systeme.",
+            "extended_analysis": "Die Episode beleuchtet reale Anwendungen lokal gehosteter KI-Agenten in Bereichen wie Gesundheitswesen, Robotik und Alltagsautomatisierung. Zudem werden die Vorteile von Open-Weight-Modellen und Modelltrajektorien diskutiert.",
+            "context": "Angesichts steigender Datenschutzanforderungen bietet das föderierte Lernen einen Lösungsansatz, um Modelle kollaborativ zu trainieren, ohne sensible Daten offenzulegen.",
+            "key_takeaways": [
+              "Föderiertes Lernen ermöglicht das Training mit privaten Daten unter Wahrung der Sicherheit.",
+              "Modelltrajektorien tragen zur Verbesserung agentischer KI-Systeme bei.",
+              "Lokal gehostete KI-Agenten bieten vielfältige Einsatzmöglichkeiten in der Robotik und Medizin."
+            ],
+            "highlights": [
+              "Gast Lorenzo Sani ist Research Scientist bei Flower Labs und PhD-Forscher in Cambridge.",
+              "Es werden reale Anwendungsfälle für lokal gehostete KI-Agenten besprochen."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 0,
+        "editor_pick_reason": ""
+      }
+    },
+    "83128184b0c8fba34fff2de377bfc0db310270802edbb91db48e409a8c2e5aab": {
+      "fingerprint": "9988d3f12b5ee792b8e4b95fa70574d0269ccef0c80da4fa3ad7b0b6c5db7fe9",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Marimo: il notebook Python reattivo e nativo per l'IA",
+            "summary": "Marimo è un notebook reattivo per Python che consente di eseguire esperimenti riproducibili, interrogare dati con SQL e distribuire applicazioni. Sviluppato come codice Python puro, si integra con un editor moderno pensato per l'era dell'intelligenza artificiale.",
+            "why_it_matters": "Offre agli sviluppatori e ai ricercatori uno strumento basato su script Python puri, facilitando il controllo di versione con git e la riproducibilità degli esperimenti.",
+            "extended_analysis": "Nel panorama dello sviluppo in Python e dell'intelligenza artificiale, la gestione dei notebook di ricerca richiede strumenti che uniscano la flessibilità del codice tradizionale alle funzionalità interattive.\n\nMarimo risponde a questa esigenza proponendosi come un ambiente reattivo in cui ogni cella e operazione è memorizzata come puro script Python, superando i limiti dei formati proprietari e semplificando la collaborazione tramite git.\n\nGli sviluppatori dovranno osservare l'evoluzione della community e l'adozione di questo editor nativo per l'IA, valutandone l'efficacia reale nei flussi di lavoro orientati al machine learning e all'analisi dati.",
+            "context": "I notebook tradizionali spesso presentano criticità legate alla riproducibilità e alla gestione dei file di progetto. Soluzioni basate su codice puro mirano a integrarsi meglio con i moderni flussi di ingegneria del software.",
+            "key_takeaways": [
+              "Notebook Python reattivo per esperimenti riproducibili",
+              "Archiviazione in formato di puro codice Python",
+              "Supporto per query SQL e distribuzione come app"
+            ],
+            "highlights": [
+              "Oltre 23.000 stelle su GitHub",
+              "Interamente scritto in Python"
+            ]
+          },
+          "en": {
+            "title": "Marimo: The Reactive, AI-Native Python Notebook",
+            "summary": "Marimo is a reactive Python notebook built for reproducible experiments, SQL queries, script execution, and app deployment. Stored entirely as pure Python, it features a modern, AI-native editor.",
+            "why_it_matters": "It provides developers and researchers with a pure Python codebase approach, simplifying version control with git and enhancing experiment reproducibility.",
+            "extended_analysis": "In Python-based development and artificial intelligence research, managing interactive notebooks effectively remains crucial for reproducible science.\n\nMarimo addresses this challenge by storing notebooks as pure Python scripts, enabling seamless tracking with git while supporting SQL queries and application deployment.\n\nObservers should monitor community growth and adoption metrics to see how this AI-native editor influences modern machine learning workflows.",
+            "context": "Traditional computational notebooks can face hurdles regarding state synchronization and code versioning. Pure-script alternatives aim to bridge the gap between interactive exploration and standard software engineering.",
+            "key_takeaways": [
+              "Reactive Python notebook for reproducible workflows",
+              "Stored as pure Python for easy git versioning",
+              "Capabilities for SQL querying and app deployment"
+            ],
+            "highlights": [
+              "Over 23,500 GitHub stars",
+              "Built for Python environments"
+            ]
+          },
+          "es": {
+            "title": "Marimo: El cuaderno de Python reactivo y nativo de IA",
+            "summary": "Marimo es un cuaderno reactivo para Python que permite ejecutar experimentos reproducibles, consultar con SQL y desplegar aplicaciones. Almacenado como código Python puro, cuenta con un editor moderno nativo de IA.",
+            "why_it_matters": "Proporciona un entorno basado en código Python puro, facilitando el control de versiones con git y mejorando la reproducibilidad de los experimentos.",
+            "extended_analysis": "En el desarrollo de software y la investigación en inteligencia artificial, la gestión de cuadernos interactivos exige herramientas robustas y transparentes.\n\nMarimo aborda esta necesidad al guardar todo como un script de Python puro, lo que simplifica la colaboración y el versionado mediante git, además de integrar consultas SQL y despliegue de aplicaciones.\n\nConviene seguir de cerca la evolución de este proyecto y su adopción en flujos de trabajo de ciencia de datos e IA.",
+            "context": "Los cuadernos interactivos convencionales suelen presentar retos en la gestión de estados y control de versiones. Las alternativas basadas en scripts puros buscan alinear la experimentación con la ingeniería de software estándar.",
+            "key_takeaways": [
+              "Cuaderno de Python reactivo para experimentos reproducibles",
+              "Almacenamiento en formato de Python puro",
+              "Soporte para consultas SQL y despliegue de aplicaciones"
+            ],
+            "highlights": [
+              "Más de 23.500 estrellas en GitHub",
+              "Desarrollado para el ecosistema Python"
+            ]
+          },
+          "zh-CN": {
+            "title": "Marimo：面向Python的响应式AI原生笔记本",
+            "summary": "Marimo是一个用于Python的响应式笔记本，支持运行可复现实验、进行SQL查询、作为脚本执行以及部署为应用程序。它完全以纯Python代码存储，并配备了现代化的AI原生编辑器。",
+            "why_it_matters": "它为开发者和研究人员提供了一种基于纯Python脚本的方案，简化了git版本控制并增强了实验的可复现性。",
+            "extended_analysis": "在Python开发和人工智能研究中，高效管理交互式笔记本对于科学计算至关重要。\n\nMarimo通过将内容存储为纯Python脚本来应对这一挑战，从而能够无缝集成git版本控制，并支持SQL查询和应用部署。\n\n未来需要关注该开源项目的社区增长及其在机器学习工作流中的实际应用情况。",
+            "context": "传统的计算笔记本在状态同步和代码版本控制方面常面临挑战。纯脚本替代方案旨在缩短交互式探索与标准软件工程之间的差距。",
+            "key_takeaways": [
+              "用于可复现实验的响应式Python笔记本",
+              "以纯Python存储以便进行git版本控制",
+              "支持SQL查询与应用程序部署"
+            ],
+            "highlights": [
+              "GitHub上获得超过23,500枚星标",
+              "基于Python语言构建"
+            ]
+          },
+          "de": {
+            "title": "Marimo: Das reaktive und KI-native Python-Notebook",
+            "summary": "Marimo ist ein reaktives Python-Notebook für reproduzierbare Experimente, SQL-Abfragen, Skriptausführung und App-Bereitstellung. Es wird als reines Python gespeichert und bietet einen modernen, KI-nativen Editor.",
+            "why_it_matters": "Es bietet Entwicklern und Forschern einen Ansatz auf Basis reinen Python-Codes, was die Versionskontrolle mit git und die Reproduzierbarkeit von Experimenten erleichtert.",
+            "extended_analysis": "In der Python-Entwicklung und KI-Forschung ist die effektive Verwaltung interaktiver Notebooks entscheidend für reproduzierbare Ergebnisse.\n\nMarimo begegnet dieser Herausforderung, indem es Notebooks als reine Python-Skripte speichert, was eine einfache Nachverfolgung über git sowie SQL-Abfragen und App-Deployments ermöglicht.\n\nBeobachter sollten die Community-Entwicklung und die Akzeptanz dieses KI-nativen Editors in modernen Workflows im Auge behalten.",
+            "context": "Herkömmliche Rechen-Notebooks stoßen bisweilen bei der Zustandssynchronisation und Code-Versionierung an Grenzen. Rein skriptbasierte Alternativen schlagen eine Brücke zur klassischen Softwareentwicklung.",
+            "key_takeaways": [
+              "Reaktives Python-Notebook für reproduzierbare Experimente",
+              "Speicherung als reiner Python-Code für git-Versionskontrolle",
+              "Funktionen für SQL-Abfragen und App-Bereitstellung"
+            ],
+            "highlights": [
+              "Über 23.500 GitHub-Sterne",
+              "Entwickelt für das Python-Ökosystem"
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 65,
+        "editor_pick_reason": ""
+      }
+    },
+    "81d49555a14229266c654c01e7bfd02958899055fb9b9a959f07f40f5e28c660": {
+      "fingerprint": "d1c947b51bd70b3b0c8e3026caef24fc0124399207116789a9573b3915a6f1a6",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Xiaomi-OCR-0: il nuovo modello da 0,8B per l'analisi dei documenti",
+            "summary": "Xiaomi Research ha rilasciato Xiaomi-OCR-0, un modello di visione-linguaggio unificato da 0,8 miliardi di parametri basato su Qwen3.5-0.8B. Il progetto è stato addestrato su un corpus incentrato sull'OCR e combina tecniche di pre-addestramento continuo e apprendimento per rinforzo.",
+            "why_it_matters": "Il modello punta a offrire capacità avanzate di analisi documentale e riconoscimento con un'architettura relativamente compatta, superando in alcuni test versioni più grandi.",
+            "extended_analysis": "Il repository GitHub descrive Xiaomi-OCR-0 come un sistema unificato per il parsing dei documenti e la comprensione OCR. Sviluppato a partire da Qwen3.5-0.8B, sfrutta un corpus di circa 170 milioni di campioni e adotta metodologie come Q-Mask text anchoring e Mix-RL.\n\nLe specifiche tecniche evidenziate nella documentazione includono prestazioni rilevanti in benchmark di settore, come punteggi elevati su OmniDocBench, UniMER-Test per il riconoscimento di formule e PubTabNet per le tabelle. Vengono inoltre citati risultati nel riconoscimento di scritture storiche e calligrafie.\n\nGli sviluppatori interessati possono consultare il codice sorgente, la pipeline di valutazione e i dettagli di installazione direttamente nella repository pubblica sotto licenza Apache-2.0.",
+            "context": "Il rilascio si inserisce nel panorama dei modelli linguistici di dimensioni ridotte ottimizzati per compiti specifici di visione e testo, dove l'efficienza parametrica è centrale.",
+            "key_takeaways": [
+              "Modello unificato da 0,8B basato su Qwen3.5-0.8B.",
+              "Addestrato su un corpus di circa 170 milioni di campioni OCR.",
+              "Rilasciato su GitHub con licenza Apache-2.0 e risorse di valutazione."
+            ],
+            "highlights": [
+              "Punteggio di 95.24 su Real5-OmniDocBench.",
+              "Supporto per il riconoscimento di formule, tabelle e scritture storiche."
+            ]
+          },
+          "en": {
+            "title": "Xiaomi-OCR-0: A Unified 0.8B Document Parsing and OCR Model",
+            "summary": "Xiaomi Research has introduced Xiaomi-OCR-0, a unified 0.8B vision-language model for document parsing and OCR understanding. Built on Qwen3.5-0.8B, it leverages continued pretraining and mixed-task reinforcement learning on a large OCR-centric corpus.",
+            "why_it_matters": "The project demonstrates competitive document analysis capabilities in a compact parameter footprint, offering an open-source tool for specialized text extraction tasks.",
+            "extended_analysis": "Hosted on GitHub, Xiaomi-OCR-0 uses a corpus of roughly 170 million OCR-centric samples combined with Q-Mask text anchoring. The documentation outlines performance across multiple benchmarks, including table and formula recognition tasks, as well as historical handwriting evaluations.\n\nThe repository provides the codebase, evaluation pipelines, and resources for developers looking to integrate or test the system locally under an Apache-2.0 license.\n\nObservers can track further updates and community contributions directly through the project repository as development continues.",
+            "context": "Compact vision-language models designed for document layout analysis and text extraction represent an active area of research for efficient on-device or server deployment.",
+            "key_takeaways": [
+              "Built from Qwen3.5-0.8B with specialized OCR training.",
+              "Utilizes roughly 170M samples and Mix-RL methodology.",
+              "Available under an Apache-2.0 license on GitHub."
+            ],
+            "highlights": [
+              "Achieved 97.84 on UniMER-Test for formula recognition.",
+              "Mean score of 83.2 across five OCR-centric VQA benchmarks."
+            ]
+          },
+          "es": {
+            "title": "Xiaomi-OCR-0: Un modelo unificado de 0.8B para análisis de documentos",
+            "summary": "Xiaomi Research ha presentado Xiaomi-OCR-0, un modelo visual-lingüístico unificado de 0.8B parámetros para análisis de documentos y tareas de OCR. Está basado en Qwen3.5-0.8B y entrenado con un corpus enfocado en OCR mediante técnicas de refuerzo.",
+            "why_it_matters": "El sistema busca ofrecer capacidades avanzadas de extracción de texto y reconocimiento de estructuras con un tamaño de modelo reducido.",
+            "extended_analysis": "El repositorio detalla que el modelo se desarrolló a partir de Qwen3.5-0.8B utilizando un corpus de aproximadamente 170 millones de muestras y aprendizaje por refuerzo en tareas mixtas. La documentación incluye resultados en diversos bancos de pruebas de reconocimiento de tablas, fórmulas y escrituras históricas.\n\nLos usuarios pueden acceder al código, la tubería de evaluación y los archivos de configuración en GitHub bajo la licencia Apache-2.0.\n\nEl proyecto continúa recibiendo actualizaciones y colaboración de la comunidad en su página oficial de desarrollo.",
+            "context": "La optimización de modelos pequeños para el procesamiento de documentos responde a la necesidad de equilibrar el rendimiento computacional y la precisión.",
+            "key_takeaways": [
+              "Arquitectura de 0.8B parámetros basada en Qwen3.5.",
+              "Entrenamiento con corpus OCR de 170 millones de muestras.",
+              "Licencia Apache-2.0 disponible en GitHub."
+            ],
+            "highlights": [
+              "Puntuación destacada en benchmarks de fórmulas y tablas.",
+              "Incluye soporte para evaluación y demostraciones prácticas."
+            ]
+          },
+          "zh-CN": {
+            "title": "小米发布 Xiaomi-OCR-0：面向文档解析的 0.8B 模型",
+            "summary": "小米研究团队推出了 Xiaomi-OCR-0，这是一个基于 Qwen3.5-0.8B 构建的 0.8B 统一视觉语言模型，专注于文档解析和 OCR 理解。该模型使用约 1.7 亿样本的 OCR 语料库进行训练。",
+            "why_it_matters": "该项目展示了在较小参数规模下实现高效文档结构解析和文字识别的能力，为开发者提供了新的开源选项。",
+            "extended_analysis": "根据 GitHub 仓库说明，Xiaomi-OCR-0 结合了持续预训练与混合任务强化学习技术。文档列出了其在多个基准测试中的表现，涵盖公式识别、表格提取以及历史手写体识别等任务。\n\n该开源项目采用 Apache-2.0 许可证，并在仓库中提供了代码、评估流程和示例图片，方便开发者进行本地部署与测试。\n\n未来可继续关注该项目的代码更新与社区贡献动态。",
+            "context": "轻量级视觉语言模型在文档数字化和结构化提取领域备受关注，平衡了计算资源与识别准确率。",
+            "key_takeaways": [
+              "基于 Qwen3.5-0.8B 的统一视觉语言模型。",
+              "采用约 1.7 亿规模的 OCR 专属语料库训练。",
+              "在 GitHub 开源并采用 Apache-2.0 许可证。"
+            ],
+            "highlights": [
+              "在多项文档解析基准测试中取得较高评分。",
+              "支持公式、表格识别及历史手写体处理。"
+            ]
+          },
+          "de": {
+            "title": "Xiaomi-OCR-0: Ein einheitliches 0,8B-Modell für Dokumentenanalyse",
+            "summary": "Xiaomi Research hat Xiaomi-OCR-0 vorgestellt, ein einheitliches 0,8B Vision-Language-Modell für Dokumentenparsing und OCR-Verständnis. Es basiert auf Qwen3.5-0.8B und wurde mit einem umfangreichen OCR-zentrierten Korpus trainiert.",
+            "why_it_matters": "Das Projekt zielt darauf ab, präzise Texterkennung und Dokumentenanalyse in einem kompakten Modellformat bereitzustellen.",
+            "extended_analysis": "Laut GitHub-Repository nutzt das Modell ein Trainingsverfahren mit fortgesetztem Vortraining und Mix-RL auf Basis von rund 170 Millionen OCR-Proben. Die Dokumentation dokumentiert Testergebnisse in Bereichen wie Formel- und Tabellenerkennung sowie historischen Handschriften.\n\nDas Projekt ist unter der Apache-2.0-Lizenz auf GitHub verfügbar und stellt den Quellcode sowie Evaluierungspipelines bereit.\n\nInteressierte Entwickler können die Repository-Aktivitäten für künftige Aktualisierungen verfolgen.",
+            "context": "Kompakte multimodale Modelle für die Texterkennung gewinnen im Bereich der effizienten Dokumentenverarbeitung an Bedeutung.",
+            "key_takeaways": [
+              "0,8B-Modell auf Basis von Qwen3.5.",
+              "Trainiert mit einem Korpus von rund 170 Millionen Proben.",
+              "Open-Source-Veröffentlichung auf GitHub unter Apache-2.0."
+            ],
+            "highlights": [
+              "Leistungsdaten für Formel- und Tabellenerkennung dokumentiert.",
+              "Beinhaltet Evaluierungspipelines und Demodateien."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 62,
+        "editor_pick_reason": ""
+      }
     }
   },
   "daily": {
     "date": "2026-11-13",
-    "count": 8,
+    "count": 12,
     "picks": 0
   }
 }
