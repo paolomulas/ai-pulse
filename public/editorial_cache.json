@@ -11599,7 +11599,96 @@
     },
     "0c2b04345c6694a7539de27b7a096dc46229c67ce6868e6ac89609b86e01ea20": {
       "fingerprint": "4f5424107583a10f1f173e55cfcf773dbbd4b6379aeb8b8f1afe0a496a5b07e4",
-      "retry_after": "2026-11-12T19:17:13.309635+00:00"
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Vybe Intelligence Vault: un archivio open source per agenti AI",
+            "summary": "Rilasciato rxmna8502/vybe-intelligence-vault, un deposito open source ad aggiornamento automatico pensato per agenti IA, sistemi RAG, server MCP, prompt e strumenti di sviluppo web di nuova generazione.",
+            "why_it_matters": "Offre una risorsa strutturata e aperta per chi sviluppa applicazioni basate su intelligenza artificiale, aggregando strumenti utili per l'ecosistema degli agenti e dei modelli.",
+            "extended_analysis": "Il progetto si posiziona come un punto di riferimento per sviluppatori e ricercatori che lavorano con intelligenza artificiale generativa e architetture di recupero informazioni. Raccogliendo prompt, server MCP e template in un unico spazio aggiornato automaticamente, mira a semplificare l'integrazione di componenti complessi nello sviluppo web moderno.\n\nSebbene la descrizione evidenzi le ambizioni del repository, occorre considerare che si tratta di un'iniziativa open source indipendente con 22 stelle. Sarà importante osservare l'effettiva adozione da parte della community e la continuità degli aggiornamenti nel tempo.",
+            "context": "La crescente diffusione di agenti autonomi e sistemi di Retrieval-Augmented Generation (RAG) richiede strumenti di supporto sempre più organizzati. In questo panorama, i repository open source svolgono un ruolo chiave nella condivisione di standard e risorse.",
+            "key_takeaways": [
+              "Deposito open source ad aggiornamento automatico per strumenti IA.",
+              "Supporto per agenti AI, sistemi RAG e server MCP.",
+              "Raccolta di template, prompt e risorse per il web development."
+            ],
+            "highlights": [
+              "Progetto ospitato su GitHub con 22 stelle.",
+              "Aggiornato al 13 novembre 2026."
+            ]
+          },
+          "en": {
+            "title": "Vybe Intelligence Vault: An Open-Source Vault for AI Agents",
+            "summary": "rxmna8502/vybe-intelligence-vault launches as an auto-updating open-source repository designed for AI agents, RAG systems, MCP servers, prompts, and next-generation web tools.",
+            "why_it_matters": "It provides a centralized, open resource for developers building modern AI applications, streamlining access to essential templates, prompts, and server components.",
+            "extended_analysis": "The repository addresses the fragmentation in AI development by grouping diverse components—such as MCP servers and RAG resources—into a single managed vault. By focusing on automation and open-source collaboration, it attempts to lower the friction of building advanced agentic workflows.\n\nAs an independent project with 22 stars, its long-term value will depend on community contributions and sustained maintenance. Developers should evaluate its contents directly against specific technical requirements.",
+            "context": "As autonomous agents and retrieval-augmented generation architectures mature, developers increasingly rely on shared repositories and standardized components to accelerate deployment.",
+            "key_takeaways": [
+              "Auto-updating open-source intelligence vault for AI workflows.",
+              "Targeted support for RAG systems, MCP servers, and prompts.",
+              "Includes resources and templates for modern web development."
+            ],
+            "highlights": [
+              "GitHub repository with 22 stars.",
+              "Last updated on November 13, 2026."
+            ]
+          },
+          "es": {
+            "title": "Vybe Intelligence Vault: un repositorio abierto para agentes de IA",
+            "summary": "Se presenta rxmna8502/vybe-intelligence-vault, un depósito de código abierto que se actualiza automáticamente para albergar agentes de IA, sistemas RAG, servidores MCP y herramientas web.",
+            "why_it_matters": "Facilita el acceso a recursos estructurados para desarrolladores que trabajan con arquitecturas de inteligencia artificial modernas y sistemas avanzados de recuperación de información.",
+            "extended_analysis": "Este proyecto de código abierto busca agrupar una amplia gama de elementos de desarrollo, desde prompts hasta servidores MCP y plantillas para la web de próxima generación. Su enfoque automatizado pretende mantener los recursos al día para la comunidad de desarrolladores.\n\nDado que cuenta con 22 estrellas en GitHub, su utilidad real dependerá del crecimiento de su comunidad y de la verificación de sus contenidos en entornos de producción reales.",
+            "context": "El ecosistema de la inteligencia artificial evoluciona rápidamente hacia la adopción de agentes autónomos y sistemas RAG, incrementando la demanda de repositorios y plantillas estandarizadas.",
+            "key_takeaways": [
+              "Depósito abierto y de actualización automática para ingenieros de IA.",
+              "Enfoque en sistemas RAG, servidores MCP y prompts.",
+              "Recursos orientados al desarrollo web de nueva generación."
+            ],
+            "highlights": [
+              "Repositorio alojado en GitHub con 22 estrellas.",
+              "Actualizado por última vez el 13 de noviembre de 2026."
+            ]
+          },
+          "zh-CN": {
+            "title": "Vybe Intelligence Vault：面向AI代理的开源知识库",
+            "summary": "rxmna8502/vybe-intelligence-vault正式推出，这是一个支持自动更新的开源代码库，专门为AI代理、RAG系统、MCP服务器、提示词和新一代网络开发提供资源。",
+            "why_it_matters": "它为构建现代人工智能应用的开发者提供了一个集中化的开源资源库，简化了提示词和相关工具的获取流程。",
+            "extended_analysis": "该项目旨在将构建高级AI工作流所需的各类组件（包括MCP服务器和RAG系统）进行系统化整合。通过开源和自动更新机制，它试图减轻开发人员搜寻和维护相关工具的负担。\n\n作为一个拥有22颗星的独立GitHub项目，其实际效用仍需观察其社区活跃度与后续维护情况。开发者在采用时应当结合自身的技术栈进行评估。",
+            "context": "随着自主代理和检索增强生成技术的普及，开发者越来越需要标准化的组件和共享资源库来加速应用部署。",
+            "key_takeaways": [
+              "支持自动更新的AI工作流开源资源库。",
+              "专项支持RAG系统、MCP服务器与提示词工具。",
+              "包含面向下一代网络开发的模板与工具。"
+            ],
+            "highlights": [
+              "托管于GitHub，拥有22颗星。",
+              "更新于2026年11月13日。"
+            ]
+          },
+          "de": {
+            "title": "Vybe Intelligence Vault: Ein Open-Source-Archiv für KI-Agenten",
+            "summary": "Mit rxmna8502/vybe-intelligence-vault erscheint ein automatisch aktualisiertes Open-Source-Repository für KI-Agenten, RAG-Systeme, MCP-Server, Prompts und moderne Webentwicklung.",
+            "why_it_matters": "Es bietet Entwicklern eine zentralisierte, offene Sammlung von Werkzeugen und Vorlagen, um die Erstellung moderner, agentenbasierter Anwendungen zu vereinfachen.",
+            "extended_analysis": "Das Projekt bündelt verschiedene Komponenten wie MCP-Server, RAG-Ressourcen und Prompts in einem einzigen, automatisiert gepflegten Speicher. Damit soll die Fragmentierung bei der Entwicklung von KI-Anwendungen verringert werden.\n\nDa es sich um ein unabhängiges Open-Source-Projekt mit 22 Sternen handelt, hängt der tatsächliche Nutzen von der fortlaufenden Pflege und dem Feedback der Entwicklercommunity ab.",
+            "context": "Die zunehmende Verbreitung autonomer Agenten und Retrieval-Augmented-Generation-Architekturen erfordert gut strukturierte Repositories und standardisierte Bausteine.",
+            "key_takeaways": [
+              "Automatisch aktualisiertes Open-Source-Archiv für KI-Tools.",
+              "Unterstützung für RAG-Systeme, MCP-Server und Prompts.",
+              "Vorlagen und Ressourcen für die Webentwicklung der nächsten Generation."
+            ],
+            "highlights": [
+              "GitHub-Repository mit 22 Sternen.",
+              "Aktualisiert am 13. November 2026."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 45,
+        "editor_pick_reason": ""
+      }
     },
     "7fc08de27bce1b0c7e7a8143093b769d261f651c2bca76fe7b35df9f3db087f4": {
       "fingerprint": "2904a62c9c92845ff3b8ea8f2a5c062a92886afa0759bd3ff1aa92536d9d43b8",
@@ -11608,11 +11697,201 @@
     "89486d5c5a19ed5bc72b211d28c84ca7260205bbed9454bf16cb1faba630940e": {
       "fingerprint": "e8631e5529cbe8b024b86ca1ed06e9b6655e77688e93fbefa4a5993dd5a7a9fa",
       "retry_after": "2026-11-13T02:54:24.685183+00:00"
+    },
+    "67672a694e389b29af5588bf1be29a978063408e3c6a0262fcadf6da500500d7": {
+      "fingerprint": "86ac72847122d34816b2f9d965c18a2abd802f7d266842820038f596be6be36e",
+      "retry_after": "2026-11-13T07:50:08.433629+00:00"
+    },
+    "d7d40172ed5da375ca89b242d465973f7f7ae3a8c67e76a889c5fb2c54efeac0": {
+      "fingerprint": "45151609adc0e4be8a75cfdcfe71c71d7295e0955cf0e1241a46035272c1da34",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "cpzjunior/writings: una raccolta open source su AI e architettura",
+            "summary": "Il repository GitHub cpzjunior/writings offre una collezione di riflessioni dedicate alla tecnologia, all'architettura software e all'intelligenza artificiale. Aggiornato di recente nel novembre 2026, lo spazio raccoglie scritti curati dall'autore.",
+            "why_it_matters": "Queste risorse offrono punti di vista e approfondimenti tecnici utili per chi esplora l'evoluzione dell'architettura software e dell'intelligenza artificiale.",
+            "extended_analysis": "La pubblicazione di raccolte di testi tecnici su piattaforme aperte come GitHub rappresenta un metodo comune per condividere riflessioni e documentazione nel settore tecnologico. Questo repository si concentra su argomenti rilevanti per sviluppatori e professionisti del digitale.\n\nNon sono disponibili metriche dettagliate o test indipendenti sui contenuti specifici, ma la natura aperta del progetto consente agli utenti di consultare liberamente i materiali pubblicati e monitorarne gli aggiornamenti nel tempo.",
+            "context": "Il panorama dello sviluppo software vede spesso la condivisione di riflessioni e guide attraverso repository di codice e piattaforme di documentazione aperta, facilitando il confronto tra professionisti.",
+            "key_takeaways": [
+              "Collezione di scritti su tecnologia e AI",
+              "Ospitato sulla piattaforma GitHub",
+              "Ultimo aggiornamento registrato a novembre 2026"
+            ],
+            "highlights": [
+              "Raccolta focalizzata su software e intelligenza artificiale",
+              "Disponibile pubblicamente online"
+            ]
+          },
+          "en": {
+            "title": "cpzjunior/writings: An Open Source Collection on AI and Software",
+            "summary": "The GitHub repository cpzjunior/writings features a curated collection of essays focusing on technology, software architecture, and artificial intelligence. Recently updated in November 2026, it serves as an open space for technical writings.",
+            "why_it_matters": "Such repositories provide accessible perspectives and technical notes for practitioners navigating software architecture and artificial intelligence trends.",
+            "extended_analysis": "Publishing technical essays and architectural notes in open repositories is a frequent practice for sharing knowledge within the engineering community. This repository compiles thoughts on multiple technology domains.\n\nWhile independent benchmarks or adoption metrics are absent, the open nature of the platform allows developers and researchers to examine the text materials directly and track future updates.",
+            "context": "The software ecosystem often relies on open platforms to distribute documentation, essays, and architectural insights, supporting community learning and discussion.",
+            "key_takeaways": [
+              "Collection of essays on technology and AI",
+              "Hosted publicly on GitHub",
+              "Updated in November 2026"
+            ],
+            "highlights": [
+              "Focuses on software architecture and AI",
+              "Open access repository structure"
+            ]
+          },
+          "es": {
+            "title": "cpzjunior/writings: Colección abierta sobre tecnología e inteligencia artificial",
+            "summary": "El repositorio de GitHub cpzjunior/writings presenta una colección de escritos centrados en la tecnología, la arquitectura de software y la inteligencia artificial. Actualizado en noviembre de 2026, reúne reflexiones del autor.",
+            "why_it_matters": "Estos espacios ofrecen perspectivas técnicas y notas de interés para quienes analizan el desarrollo del software y los sistemas de inteligencia artificial.",
+            "extended_analysis": "La publicación de textos técnicos en plataformas abiertas permite compartir reflexiones y documentación de manera accesible dentro de la comunidad de desarrollo. El repositorio recopila diversos temas de interés tecnológico.\n\nAl carecer de pruebas independientes o métricas de adopción, la utilidad del recurso depende de la lectura directa de los materiales y del seguimiento de sus futuras actualizaciones.",
+            "context": "El intercambio de notas técnicas y ensayos a través de repositorios abiertos es una práctica habitual en el sector tecnológico para documentar ideas y enfoques.",
+            "key_takeaways": [
+              "Colección de escritos sobre tecnología e IA",
+              "Disponible públicamente en GitHub",
+              "Actualizado en noviembre de 2026"
+            ],
+            "highlights": [
+              "Enfoque en arquitectura de software e IA",
+              "Acceso abierto en plataforma de código"
+            ]
+          },
+          "zh-CN": {
+            "title": "cpzjunior/writings：聚焦AI与软件架构的开源文集",
+            "summary": "GitHub代码库 cpzjunior/writings 提供了一系列关于技术、软件架构和人工智能的精选文集。该项目于2026年11月进行了更新，汇集了作者的相关思考与记录。",
+            "why_it_matters": "这类公开文集为探索软件架构与人工智能发展的技术人员提供了有价值的参考视角和思考内容。",
+            "extended_analysis": "在开源平台上发布技术文章与架构笔记是科技行业中分享知识与交流观点常见的方式。该文集涵盖了多个技术领域的探讨。\n\n由于缺乏独立测试或采用率指标，项目的具体价值需由读者通过查阅公开内容并关注其后续更新来评估。",
+            "context": "技术社区经常利用开放平台发布文档与文集，以促进专业人士之间的经验交流与知识传播。",
+            "key_takeaways": [
+              "包含技术与AI相关文集的代码库",
+              "托管于GitHub平台",
+              "于2026年11月更新"
+            ],
+            "highlights": [
+              "聚焦软件架构与人工智能主题",
+              "采用开源访问结构"
+            ]
+          },
+          "de": {
+            "title": "cpzjunior/writings: Eine Open-Source-Sammlung zu KI und Software",
+            "summary": "Das GitHub-Repository cpzjunior/writings bietet eine Sammlung von Texten zu Technologie, Softwarearchitektur und künstlicher Intelligenz. Die im November 2026 aktualisierte Sammlung bündelt fachliche Betrachtungen des Autors.",
+            "why_it_matters": "Solche Sammlungen bieten Entwicklern und Interessierten zugängliche Einblicke und technische Perspektiven zu aktuellen Software- und KI-Themen.",
+            "extended_analysis": "Die Veröffentlichung technischer Essays in offenen Repositories ist eine verbreitete Methode, um architektonische Überlegungen und technisches Wissen innerhalb der Community zu teilen.\n\nDa keine unabhängigen Benchmarks oder Admetriken vorliegen, lässt sich der Wert der Inhalte am besten durch die direkte Lektüre der bereitgestellten Dokumente und die Beobachtung künftiger Aktualisierungen einschätzen.",
+            "context": "Das Technologieökosystem nutzt offene Plattformen häufig zur Bereitstellung von Dokumentationen, Essays und architektonischen Konzepten.",
+            "key_takeaways": [
+              "Sammlung von Texten zu Technologie und KI",
+              "Öffentlich gehostet auf GitHub",
+              "Aktualisiert im November 2026"
+            ],
+            "highlights": [
+              "Schwerpunkt auf Softwarearchitektur und KI",
+              "Frei zugängliches Repository"
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 15,
+        "editor_pick_reason": ""
+      }
+    },
+    "b9840fd67063a36a400d5e1d91fe182c1b415df6997c889b681a58ba22957843": {
+      "fingerprint": "b658d9bc917999b924efa1a198a190b90656cd14b380b955e42261753ca24354",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Gondola raddoppia i ricavi grazie all'impiego di Codex e ChatGPT",
+            "summary": "La piattaforma Gondola ha raddoppiato i propri ricavi mentre il team accelera lo sviluppo grazie a Codex, che ha incrementato del 50% la produttività del lead engineer. Nel frattempo, l'utilizzo di ChatGPT ha semplificato le attività lavorative quotidiane.",
+            "why_it_matters": "Mostra come l'adozione di strumenti basati sull'intelligenza artificiale possa incidere concretamente sulla produttività dei singoli ingegneri e sulla crescita aziendale complessiva.",
+            "extended_analysis": "Gondola, un servizio progettato per aiutare i creativi a ottenere riconoscimenti e trovare lavoro, ha condiviso la propria esperienza sull'uso delle tecnologie di OpenAI. L'introduzione di Codex ha permesso di potenziare l'efficienza del team di ingegneria, mentre ChatGPT viene impiegato per alleggerire i carichi di lavoro operativi quotidiani. \n\nQuesto caso studio evidenzia le potenzialità dell'integrazione di strumenti di programmazione assistita e modelli linguistici nelle PMI creative, sebbene rifletta principalmente i risultati dichiarati dall'azienda stessa.",
+            "context": "Il panorama degli strumenti di sviluppo assistito da IA vede una crescente adozione di soluzioni come Codex e ChatGPT in vari settori industriali per ottimizzare i flussi di lavoro tecnici e amministrativi.",
+            "key_takeaways": [
+              "Gondola ha raddoppiato i ricavi accelerando i processi di sviluppo.",
+              "La produttività del lead engineer è aumentata del 50% grazie a Codex.",
+              "ChatGPT viene utilizzato per semplificare e velocizzare il lavoro quotidiano."
+            ],
+            "highlights": [
+              "Raddoppio dei ricavi dichiarato da Gondola.",
+              "Incremento del 50% della produttività del lead engineer con Codex."
+            ]
+          },
+          "en": {
+            "title": "Gondola doubles revenue as its team builds more with Codex",
+            "summary": "Gondola has doubled its revenue while accelerating development with Codex, which increased its lead engineer's output by 50%. Additionally, ChatGPT has helped simplify day-to-day operations for the team.",
+            "why_it_matters": "It illustrates how AI coding tools and language models can directly impact engineering output and support business growth in digital platforms.",
+            "extended_analysis": "Gondola, a platform built to help creatives get credit and secure employment, integrated OpenAI technologies to scale its operations. According to the customer story, Codex boosted the lead engineer's productivity by 50%, allowing the lean team to ship features faster. Concurrently, ChatGPT is utilized to streamline routine tasks.\n\nWhile these figures reflect internal project claims rather than independent benchmarks, they offer a tangible look at how creative tech startups incorporate generative AI into their daily workflows.",
+            "context": "Companies of varying sizes are increasingly integrating specialized coding assistants and conversational AI into their technical stacks to enhance development speed and operational efficiency.",
+            "key_takeaways": [
+              "Gondola doubled its revenue while scaling product development.",
+              "Codex reportedly raised the lead engineer's output by 50%.",
+              "ChatGPT is deployed to streamline everyday operational tasks."
+            ],
+            "highlights": [
+              "Gondola reports a doubling of revenue.",
+              "Lead engineer output increased by 50% using Codex."
+            ]
+          },
+          "es": {
+            "title": "Gondola duplica sus ingresos gracias al uso de Codex y ChatGPT",
+            "summary": "Gondola ha duplicado sus ingresos mientras su equipo acelera el desarrollo con Codex, que aumentó la productividad de su ingeniero principal en un 50%. Además, ChatGPT simplifica el trabajo diario.",
+            "why_it_matters": "Muestra el impacto práctico de las herramientas de asistencia de IA en la productividad del software y el crecimiento empresarial dentro de una plataforma digital.",
+            "extended_analysis": "Gondola, una plataforma diseñada para ayudar a los creadores a obtener reconocimiento y empleo, ha compartido su experiencia con las tecnologías de OpenAI. La integración de Codex elevó en un 50% el rendimiento de su ingeniero principal, facilitando la creación de productos, mientras que ChatGPT agiliza las operaciones cotidianas.\n\nEste caso de estudio destaca cómo las empresas emergentes adoptan la IA generativa para optimizar sus recursos, basándose en los datos proporcionados por la propia compañía.",
+            "context": "El uso de asistentes de código y modelos de lenguaje se ha convertido en una práctica común para muchas empresas tecnológicas que buscan optimizar sus ciclos de desarrollo.",
+            "key_takeaways": [
+              "Gondola duplicó sus ingresos al tiempo que ampliaba su desarrollo.",
+              "Codex incrementó un 50% la producción del ingeniero principal.",
+              "ChatGPT ayuda a simplificar las tareas rutinarias del equipo."
+            ],
+            "highlights": [
+              "Duplicación de ingresos reportada por Gondola.",
+              "Aumento del 50% en la productividad del ingeniero principal con Codex."
+            ]
+          },
+          "zh-CN": {
+            "title": "Gondola 借助 Codex 提升开发效率并实现收入翻倍",
+            "summary": "Gondola 在使用 Codex 加速产品开发的同时实现了收入翻倍，其首席工程师的工作效率提升了 50%。与此同时，ChatGPT 也简化了团队的日常工作。",
+            "why_it_matters": "它展示了人工智能编码工具和语言模型如何实际影响工程产出，并支持数字平台的业务增长。",
+            "extended_analysis": "Gondola 是一个旨在帮助创意人员获得署名和工作机会的平台，该团队近期分享了其利用 OpenAI 技术扩展业务的经验。据介绍，Codex 使其首席工程师的产出提高了 50%，从而加快了功能开发速度，而 ChatGPT 则用于简化日常运营任务。\n\n尽管这些数据主要反映了企业自身的项目声明而非第三方基准测试，但它们依然为小型团队如何将生成式 AI 融入实际业务提供了一个观察窗口。",
+            "context": "随着生成式AI的普及，越来越多的科技企业将编程助手和语言模型深度整合到日常技术栈中，以期提升开发速度和运营效率。",
+            "key_takeaways": [
+              "Gondola 在推进产品开发的同时实现了收入翻倍。",
+              "Codex 据报将首席工程师的工作效率提升了 50%。",
+              "ChatGPT 被用于简化日常的行政和技术任务。"
+            ],
+            "highlights": [
+              "Gondola 报告称收入实现翻倍。",
+              "借助 Codex，首席工程师的产出提高了 50%。"
+            ]
+          },
+          "de": {
+            "title": "Gondola verdoppelt Umsatz durch den Einsatz von Codex und ChatGPT",
+            "summary": "Gondola hat seinen Umsatz verdoppelt, während das Team die Entwicklung mit Codex beschleunigte und die Leistung des Lead Engineers um 50 % steigern konnte. Zudem vereinfacht ChatGPT die tägliche Arbeit.",
+            "why_it_matters": "Es veranschaulicht, wie generative KI-Tools die Entwicklungsleistung direkt beeinflussen und das Unternehmenswachstum digitaler Plattformen unterstützen können.",
+            "extended_analysis": "Gondola, eine Plattform zur Unterstützung von Kreativen bei der Arbeitsvermittlung und Anerkennung, hat Einblicke in den Einsatz von OpenAI-Technologien gegeben. Laut dem Bericht steigerte Codex den Output des Hauptentwicklers um 50 %, wodurch das kleine Team schneller agieren konnte. Gleichzeitig wird ChatGPT zur Bewältigung alltäglicher Aufgaben eingesetzt.\n\nObwohl diese Angaben auf unternehmensinternen Berichten und nicht auf unabhängigen Benchmarks basieren, verdeutlichen sie anschaulich die praktische Integration von KI in den Arbeitsalltag.",
+            "context": "Die Integration von KI-gestützten Programmierassistenten und Sprachmodellen gehört branchenweit zu den Methoden, mit denen Unternehmen versuchen, ihre Entwicklungsprozesse zu beschleunigen.",
+            "key_takeaways": [
+              "Gondola verdoppelte den Umsatz bei gleichzeitiger Beschleunigung der Entwicklung.",
+              "Codex steigerte den Output des Lead Engineers laut Angaben um 50 %.",
+              "ChatGPT unterstützt das Team bei der Vereinfachung täglicher Aufgaben."
+            ],
+            "highlights": [
+              "Gondola meldet eine Verdopplung des Umsatzes.",
+              "50 % Steigerung der Entwicklerleistung durch Codex."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 35,
+        "editor_pick_reason": ""
+      }
     }
   },
   "daily": {
-    "date": "2026-11-12",
-    "count": 2,
-    "picks": 1
+    "date": "2026-11-13",
+    "count": 3,
+    "picks": 0
   }
 }
