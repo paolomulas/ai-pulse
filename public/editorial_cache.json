@@ -13380,11 +13380,205 @@
         "relevance_score": 35,
         "editor_pick_reason": ""
       }
+    },
+    "d7c21c501eb23f12ba47c2340d026d981857380497913d0eb9b51d95ebac21c6": {
+      "fingerprint": "05a5b36e57dd490cd7227a985c28ae63a5cb8938a924e9d0a6a466582545f85d",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Google presenta Gemini 4 Hydrogen per i flussi di lavoro",
+            "summary": "Google ha annunciato il lancio di Gemini 4 Hydrogen, un modello progettato per gestire flussi di lavoro basati su agenti e compiti quotidiani. L'annuncio evidenzia l'obiettivo di offrire un'intelligenza avanzata e accessibile per sviluppatori e aziende.",
+            "why_it_matters": "Questo rilascio amplia l'ecosistema di modelli di Google, puntando a migliorare l'efficienza e la velocità nei flussi di lavoro operativi e nello sviluppo software quotidiano.",
+            "extended_analysis": "L'introduzione di Gemini 4 Hydrogen rappresenta un nuovo passo nella strategia di Google per l'integrazione di modelli specializzati nell'ecosistema di intelligenza artificiale. La descrizione ufficiale menziona l'attenzione verso l'efficienza nei carichi di lavoro multi-modello e l'esecuzione affidabile su scala.\n\nSebbene i dettagli tecnici completi debbano essere ancora approfonditi dalla documentazione ufficiale, la disponibilità immediata del modello segnala l'intenzione di offrire strumenti avanzati direttamente agli utenti e agli sviluppatori.",
+            "context": "Il panorama dei modelli linguistici si sta evolvendo verso soluzioni sempre più orientate all'automazione dei flussi di lavoro tramite agenti software, con una crescente attenzione all'efficienza operativa.",
+            "key_takeaways": [
+              "Presentazione ufficiale di Gemini 4 Hydrogen da parte di Google.",
+              "Progettato specificamente come strumento quotidiano per flussi di lavoro agentici.",
+              "Disponibile per sviluppatori, aziende e utenti generali."
+            ],
+            "highlights": [
+              "Annunciato ufficialmente da Google nel novembre 2026.",
+              "Ottimizzato per velocità ed efficienza nei compiti quotidiani."
+            ]
+          },
+          "en": {
+            "title": "Google Introduces Gemini 4 Hydrogen for Agentic Workflows",
+            "summary": "Google has announced Gemini 4 Hydrogen, positioned as a daily driver for agentic workflows and everyday tasks. The release aims to bring efficient, advanced intelligence to developers, enterprises, and general users alike.",
+            "why_it_matters": "The model expands Google's lineup, focusing on practical speed and efficiency for automated agent tasks and software development workflows.",
+            "extended_analysis": "The launch of Gemini 4 Hydrogen adds a new option to Google's model ecosystem, targeting multi-model workloads and scalable execution. Official descriptions emphasize its role in everyday assistance and developer operations.\n\nAs the AI sector shifts toward specialized execution layers, offerings like Gemini 4 Hydrogen highlight the ongoing push to make agentic workflows faster and more accessible in production environments.",
+            "context": "The AI industry is increasingly focusing on agentic architectures capable of autonomous task execution, driving demand for optimized daily-driver models.",
+            "key_takeaways": [
+              "Google announced Gemini 4 Hydrogen for agentic workflows.",
+              "Aims to balance advanced intelligence with everyday operational speed.",
+              "Targeted at developers, enterprise tasks, and general app integration."
+            ],
+            "highlights": [
+              "Official launch announced in November 2026.",
+              "Positioned as a core model for everyday agent operations."
+            ]
+          },
+          "es": {
+            "title": "Google presenta Gemini 4 Hydrogen para flujos de trabajo",
+            "summary": "Google ha anunciado Gemini 4 Hydrogen, un modelo diseñado para servir como herramienta diaria en flujos de trabajo basados en agentes. El lanzamiento busca ofrecer inteligencia avanzada y eficiente para desarrolladores y usuarios.",
+            "why_it_matters": "Esta incorporación amplía las opciones de modelos de Google, enfocándose en la velocidad y la eficiencia práctica para la automatización y tareas cotidianas.",
+            "extended_analysis": "La llegada de Gemini 4 Hydrogen refuerza la apuesta de Google por modelos versátiles orientados a la productividad y la ejecución de agentes. La información inicial destaca su enfoque en cargas de trabajo eficientes y accesibilidad general.\n\nA medida que el ecosistema evoluciona, disponer de opciones optimizadas para tareas continuas resulta clave para la adopción empresarial y el desarrollo de software.",
+            "context": "El mercado de la inteligencia artificial prioriza la creación de modelos eficientes capaces de sostener flujos de trabajo automatizados y complejos.",
+            "key_takeaways": [
+              "Lanzamiento oficial de Gemini 4 Hydrogen por parte de Google.",
+              "Enfocado en flujos de trabajo de agentes y tareas cotidianas.",
+              "Diseñado para ofrecer velocidad y eficiencia a escala."
+            ],
+            "highlights": [
+              "Anuncio realizado en noviembre de 2026.",
+              "Orientado a desarrolladores, empresas y usuarios generales."
+            ]
+          },
+          "zh-CN": {
+            "title": "谷歌发布面向智能体工作流的 Gemini 4 Hydrogen",
+            "summary": "谷歌正式推出 Gemini 4 Hydrogen，将其定位为处理智能体工作流和日常任务的核心模型。该模型旨在为开发者和企业提供高效且先进的AI能力。",
+            "why_it_matters": "该版本的推出扩展了谷歌的模型矩阵，重点提升自动化智能体任务和日常软件开发工作流的实际运行效率。",
+            "extended_analysis": "Gemini 4 Hydrogen 的发布丰富了谷歌在人工智能领域的模型布局，强调多模型工作负载的效率与可扩展性。官方信息表明其旨在提供快速且实用的日常辅助。\n\n随着行业向更复杂的智能体应用演进，针对日常操作优化的模型成为了提升实际生产力的关键环节。",
+            "context": "当前人工智能行业正加速向具备自主任务执行能力的智能体架构转型，市场对高效、实用的基础模型需求日益增长。",
+            "key_takeaways": [
+              "谷歌正式宣布推出 Gemini 4 Hydrogen 模型。",
+              "专为智能体工作流及日常高效任务而设计。",
+              "面向广大开发者、企业及日常应用场景。"
+            ],
+            "highlights": [
+              "于2026年11月由谷歌官方发布。",
+              "专注于提供高效且实用的智能体操作支持。"
+            ]
+          },
+          "de": {
+            "title": "Google stellt Gemini 4 Hydrogen für Agenten-Workflows vor",
+            "summary": "Google hat Gemini 4 Hydrogen angekündigt, ein Modell für agentenbasierte Workflows und alltägliche Aufgaben. Die Veröffentlichung zielt darauf ab, effiziente und fortschrittliche Intelligenz für Entwickler und Unternehmen bereitzustellen.",
+            "why_it_matters": "Das neue Modell erweitert das Google-Ökosystem und konzentriert sich auf praktische Geschwindigkeit und Effizienz bei automatisierten Agentenaufgaben und der Softwareentwicklung.",
+            "extended_analysis": "Die Einführung von Gemini 4 Hydrogen ergänzt Googles Modellfamilie um eine spezialisierte Option für agentenbasierte Arbeitsabläufe. Die offiziellen Beschreibungen betonen die Effizienz bei Multi-Modell-Workloads und die skalierbare Ausführung.\n\nIn einer Zeit, in der autonome Agenten immer wichtiger werden, sind optimierte Modelle für den täglichen Einsatz entscheidend für die praktische Anwendbarkeit.",
+            "context": "Die KI-Branche entwickelt sich zunehmend in Richtung autonomer Agentensysteme, was den Bedarf an optimierten Modellen für den täglichen Betrieb erhöht.",
+            "key_takeaways": [
+              "Offizielle Ankündigung von Gemini 4 Hydrogen durch Google.",
+              "Fokus auf agentenbasierte Workflows und alltägliche Aufgaben.",
+              "Entwickelt für Effizienz und Skalierbarkeit bei Entwicklern und Anwendern."
+            ],
+            "highlights": [
+              "Offiziell vorgestellt im November 2026.",
+              "Konzipiert als tägliches Werkzeug für automatisierte Agentenprozesse."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 75,
+        "editor_pick_reason": ""
+      }
+    },
+    "e16892ed1d1e48a15e6e4fe67b7dd1a8b285541e5e08b3a6af4972d3f169decd": {
+      "fingerprint": "435b5959edac9e8d0bda01d15d12e1e3282c5d6044d451b7df7749fe051ceafe",
+      "retry_after": "2026-11-14T22:44:11.668682+00:00"
+    },
+    "02bfed5e7aa817ea9dcb99d63f8534e8e78ab10e8ae50e00c6e9b6a68bd6b403": {
+      "fingerprint": "81678cf2242317b041d035b3c3e56aa19b77f1535bc8b02769828a200679cedb",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Gemini Decisions API: decisioni multimodali rapide e calibrate",
+            "summary": "Google ha introdotto la Gemini Decisions API, basata sul nuovo modello Gemini Decision 1. Questo strumento consente di valutare fino a 1.000 domande binarie, a scelta multipla o basate su rubriche in un unico passaggio veloce attraverso testo, immagini, audio, video e PDF.",
+            "why_it_matters": "L'API calcola punteggi di affidabilità in un singolo passaggio, offrendo una soluzione efficiente per elaborare flussi di lavoro complessi e multimodali su vari formati di dati.",
+            "extended_analysis": "Annunciata da Google DeepMind tramite i product manager e i ricercatori coinvolti, la Gemini Decisions API mira a semplificare i compiti di valutazione decisionale. Sfruttando le capacità del modello Gemini Decision 1, il sistema è progettato per gestire grandi volumi di quesiti strutturati, come domande a risposta sì/no o valutazioni basate su criteri specifici, direttamente su input misti che includono file multimediali e documenti.\n\nSebbene i dettagli tecnici completi sulle metriche di performance dipendano dall'implementazione pratica, l'approccio mira a ridurre la complessità computazionale rispetto alle chiamate API tradizionali multiple. Gli sviluppatori dovrebbero monitorare come l'integrazione di formati diversi influisca sulla latenza e sulla precisione dei punteggi di confidenza forniti.",
+            "context": "Nel panorama attuale degli strumenti per sviluppatori di intelligenza artificiale, la gestione di input multimodali complessi richiede spesso numerose chiamate separate. Google risponde a questa esigenza con un'architettura mirata a elaborare molteplici quesiti in una sola passata.",
+            "key_takeaways": [
+              "Alimentato dal nuovo modello Gemini Decision 1.",
+              "Capace di valutare fino a 1.000 domande in un unico passaggio.",
+              "Supporta input misti tra cui testo, immagini, audio, video e PDF."
+            ],
+            "highlights": [
+              "Gestisce domande sì/no, a scelta multipla e basate su rubriche.",
+              "Fornisce punteggi di confidenza per le decisioni elaborate."
+            ]
+          },
+          "en": {
+            "title": "Gemini Decisions API: Fast, Calibrated Multimodal Decisions",
+            "summary": "Google has introduced the Gemini Decisions API, powered by the Gemini Decision 1 model. It evaluates up to 1,000 yes/no, choice, and rubric-scoring questions in a single fast pass across text, images, audio, video, and PDFs.",
+            "why_it_matters": "By computing confidence scores in a single pass across multiple formats, the tool streamlines complex decision-making workflows for developers.",
+            "extended_analysis": "Introduced by Google DeepMind teams, the Gemini Decisions API addresses the need for efficient multimodal evaluation. The underlying Gemini Decision 1 model handles structured questions—such as binary choices or criteria-based rubrics—against diverse media inputs including documents and video streams.\n\nAs developers look to scale automated decision processes, tools that minimize repetitive API calls can significantly impact cost and performance. Monitoring integration requirements and output calibration will be key to understanding real-world utility.",
+            "context": "AI development increasingly demands tools capable of analyzing mixed media formats efficiently. Google's new API reflects the shift toward unified multimodal processing for structured evaluation tasks.",
+            "key_takeaways": [
+              "Powered by the Gemini Decision 1 model.",
+              "Processes up to 1,000 questions in a single pass.",
+              "Supports text, images, audio, video, and PDFs."
+            ],
+            "highlights": [
+              "Evaluates yes/no, choice, and rubric-scoring questions.",
+              "Computes confidence scores for decisions."
+            ]
+          },
+          "es": {
+            "title": "Gemini Decisions API: decisiones multimodales rápidas y calibradas",
+            "summary": "Google ha presentado la Gemini Decisions API, impulsada por el modelo Gemini Decision 1. Permite evaluar hasta 1.000 preguntas de sí/no, opción y puntuación por rúbrica en una sola pasada rápida a través de texto, imágenes, audio, vídeo y archivos PDF.",
+            "why_it_matters": "Esta herramienta calcula puntuaciones de confianza en una sola pasada, optimizando los flujos de trabajo de toma de decisiones en múltiples formatos de datos.",
+            "extended_analysis": "Anunciada por Google DeepMind, la Gemini Decisions API busca simplificar las tareas de evaluación automatizada. Al aprovechar el modelo Gemini Decision 1, el sistema procesa grandes volúmenes de preguntas estructuradas directamente sobre entradas mixtas que incluyen contenido multimedia y documentos.\n\nA medida que los desarrolladores buscan escalar procesos de decisión, minimizar las llamadas múltiples a la API representa un avance en eficiencia. Será importante observar cómo se comporta la calibración de confianza en escenarios de producción variados.",
+            "context": "El desarrollo de aplicaciones de IA requiere métodos eficientes para analizar datos multimodales complejos. La nueva API de Google aborda este desafío unificando la evaluación de múltiples preguntas en una sola operación.",
+            "key_takeaways": [
+              "Impulsado por el modelo Gemini Decision 1.",
+              "Capacidad para evaluar hasta 1.000 preguntas en una sola pasada.",
+              "Compatible con texto, imágenes, audio, vídeo y PDF."
+            ],
+            "highlights": [
+              "Evalúa preguntas de sí/no, opciones y rúbricas.",
+              "Calcula puntuaciones de confianza para las decisiones."
+            ]
+          },
+          "zh-CN": {
+            "title": "Gemini Decisions API：快速且经过校准的多模态决策",
+            "summary": "谷歌推出了 Gemini Decisions API，该接口由全新的 Gemini Decision 1 模型驱动。它能够在单次快速运行中，跨文本、图像、音频、视频和 PDF 评估最多 1,000 个“是/否”、选择题以及评分标准问题。",
+            "why_it_matters": "该工具通过单次运行计算多种格式的置信度评分，为开发者简化了复杂的多模态决策工作流。",
+            "extended_analysis": "由谷歌 DeepMind 团队推出的 Gemini Decisions API 旨在满足高效多模态评估的需求。底层的 Gemini Decision 1 模型能够针对包括文档和视频流在内的多样化媒体输入，处理结构化问题（如二元选择或基于标准评分的测验）。\n\n随着开发者寻求扩展自动化决策流程，减少重复 API 调用的工具可以显著影响成本与性能。观察其集成要求和输出校准将是理解实际效用的关键。",
+            "context": "人工智能开发日益需要能够高效分析混合媒体格式的工具。谷歌的新 API 反映了朝向统一多模态处理以完成结构化评估任务的发展趋势。",
+            "key_takeaways": [
+              "由 Gemini Decision 1 模型驱动。",
+              "单次运行可评估最多 1,000 个问题。",
+              "支持文本、图像、音频、视频和 PDF。"
+            ],
+            "highlights": [
+              "评估“是/否”、选择题以及评分标准问题。",
+              "为决策计算置信度评分。"
+            ]
+          },
+          "de": {
+            "title": "Gemini Decisions API: Schnelle, kalibrierte multimodale Entscheidungen",
+            "summary": "Google hat die Gemini Decisions API vorgestellt, angetrieben vom Gemini Decision 1 Modell. Sie wertet bis zu 1.000 Ja/Nein-, Auswahl- und rubrikenbasierte Fragen in einem einzigen schnellen Durchgang über Text, Bilder, Audio, Video und PDFs aus.",
+            "why_it_matters": "Durch die Berechnung von Konfidenzwerte in einem einzigen Durchgang über mehrere Formate hinweg optimiert das Tool komplexe Entscheidungsworkflows für Entwickler.",
+            "extended_analysis": "Die von Google DeepMind vorgestellte Gemini Decisions API adressiert den Bedarf an effizienter multimodaler Auswertung. Das zugrundeliegende Gemini Decision 1 Modell verarbeitet strukturierte Fragen – wie binäre Entscheidungen oder kriterienbasierte Rubriken – anhand verschiedener Medieneingaben einschließlich Dokumenten und Video-Streams.\n\nDa Entwickler automatisierte Entscheidungsprozesse skalieren möchten, können Werkzeuge, die wiederholte API-Aufrufe minimieren, die Leistung und Kosten erheblich beeinflussen. Die Überprüfung der Integrationsanforderungen und der Ausgabekalibrierung wird für den praktischen Nutzen entscheidend sein.",
+            "context": "Die KI-Entwicklung erfordert zunehmend Werkzeuge, die gemischte Medienformate effizient analysieren können. Googles neue API spiegelt den Trend zu einer einheitlichen multimodalen Verarbeitung für strukturierte Auswertungsaufgaben wider.",
+            "key_takeaways": [
+              "Angetrieben durch das Gemini Decision 1 Modell.",
+              "Verarbeitet bis zu 1.000 Fragen in einem einzigen Durchgang.",
+              "Unterstützt Text, Bilder, Audio, Video und PDFs."
+            ],
+            "highlights": [
+              "Wertet Ja/Nein-, Auswahl- und Rubrikfragen aus.",
+              "Berechnet Konfidenzwerte für Entscheidungen."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 75,
+        "editor_pick_reason": ""
+      }
+    },
+    "076cc08aee66a91e6055c956013a264c008d005e419ff31cbb6266f09e0bf28d": {
+      "fingerprint": "c8440e721a3af8b0dc560e33515e56a525e8a810f9d45c6e2f368bb0eac1677f",
+      "retry_after": "2026-11-14T22:44:23.015758+00:00"
     }
   },
   "daily": {
     "date": "2026-11-14",
-    "count": 8,
+    "count": 10,
     "picks": 0
   }
 }
