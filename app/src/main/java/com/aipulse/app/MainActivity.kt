@@ -96,6 +96,8 @@ private object I18n {
              "radar_models" to "MODELLI DI FRONTIERA", "radar_models_body" to "La corsa ai modelli più capaci, efficienti e aperti.",
              "radar_creator" to "SIMONE RIZZO · RADAR DEI CREATOR", "radar_creator_body" to "Voci indipendenti che spiegano cosa sta succedendo dietro il prossimo rilascio.",
              "top_repos" to "TOP REPOSITORIES · GIT RADAR", "open_github" to "Apri su GitHub ↗", "open_episode" to "Ascolta sul web ↗",
+             "radar_tab_signals" to "Segnali & Creator", "radar_tab_repos" to "Hit Parade Git",
+             "scouted_badge" to "SCOUTED VIA RADAR · SEGNALE DI FRONTIERA", "primary_source_label" to "Fonte primaria:",
              "read_more" to "Leggi approfondimento ↗", "radar_frontier" to "CREATOR RADAR & ANALISI DI FRONTIERA",
             "speak_kicker" to "SPEAK UP", "speak_title" to "Le voci dell'AI", "speak_subtitle" to "Briefing audio e conversazioni per ascoltare la frontiera.",
             "play_episode" to "Riproduci episodio", "my_pulse_kicker" to "MY PULSE", "my_pulse_title" to "Personalizza il tuo Briefing",
@@ -120,7 +122,9 @@ private object I18n {
              "radar_agents" to "AUTONOMOUS AGENTS", "radar_agents_body" to "Systems learning to plan, use tools and act in the world.",
              "radar_models" to "FRONTIER MODELS", "radar_models_body" to "The race for more capable, efficient and open models.",
              "radar_creator" to "SIMONE RIZZO · CREATOR RADAR", "radar_creator_body" to "Independent voices explaining what is happening behind the next release.",
-             "top_repos" to "TOP REPOSITORIES · GIT RADAR", "open_github" to "Open on GitHub ↗", "open_episode" to "Listen on web ↗",
+              "top_repos" to "TOP REPOSITORIES · GIT RADAR", "open_github" to "Open on GitHub ↗", "open_episode" to "Listen on web ↗",
+              "radar_tab_signals" to "Signals & Creators", "radar_tab_repos" to "Git Hit Parade",
+              "scouted_badge" to "SCOUTED VIA RADAR · FRONTIER SIGNAL", "primary_source_label" to "Primary source:",
              "read_more" to "Read more ↗", "radar_frontier" to "CREATOR RADAR & FRONTIER ANALYSIS",
             "speak_kicker" to "SPEAK UP", "speak_title" to "The voices of AI", "speak_subtitle" to "Audio briefings and conversations from the frontier.",
             "play_episode" to "Play episode", "my_pulse_kicker" to "MY PULSE", "my_pulse_title" to "Customize your Briefing",
@@ -143,7 +147,9 @@ private object I18n {
              "radar_agents" to "AGENTES AUTÓNOMOS", "radar_agents_body" to "Sistemas que aprenden a planificar, usar herramientas y actuar en el mundo.",
              "radar_models" to "MODELOS DE VANGUARDIA", "radar_models_body" to "La carrera por modelos más capaces, eficientes y abiertos.",
              "radar_creator" to "SIMONE RIZZO · RADAR DE CREADORES", "radar_creator_body" to "Voces independientes que explican qué ocurre detrás del próximo lanzamiento.",
-             "top_repos" to "TOP REPOSITORIOS · RADAR GIT", "open_github" to "Abrir en GitHub ↗", "open_episode" to "Escuchar en web ↗",
+              "top_repos" to "TOP REPOSITORIOS · RADAR GIT", "open_github" to "Abrir en GitHub ↗", "open_episode" to "Escuchar en web ↗",
+              "radar_tab_signals" to "Señales y Creadores", "radar_tab_repos" to "Hit Parade Git",
+              "scouted_badge" to "SCOUTED VIA RADAR · SEÑAL DE VANGUARDIA", "primary_source_label" to "Fuente primaria:",
              "read_more" to "Leer análisis ↗", "radar_frontier" to "RADAR DE CREADORES Y ANÁLISIS DE VANGUARDIA",
             "speak_kicker" to "SPEAK UP", "speak_title" to "Las voces de la IA", "speak_subtitle" to "Briefings de audio y conversaciones para escuchar la frontera.",
             "play_episode" to "Reproducir episodio", "my_pulse_kicker" to "MI PULSE", "my_pulse_title" to "Personaliza tu Briefing", "my_pulse_subtitle" to "Elige qué quieres entender cada mañana.",
@@ -160,7 +166,9 @@ private object I18n {
             "loading" to "正在加载原始来源…", "no_stories" to "没有符合您偏好的故事。请更新“我的 Pulse”或重试。", "radar_kicker" to "雷达", "radar_title" to "AI 正在何处发展", "radar_subtitle" to "值得关注的主题、人物与信号。",
              "radar_agents" to "自主智能体", "radar_agents_body" to "学习规划、使用工具并在现实世界中行动的系统。", "radar_models" to "前沿模型", "radar_models_body" to "更强大、高效且开放的模型竞赛。",
              "radar_creator" to "SIMONE RIZZO · 创作者雷达", "radar_creator_body" to "独立声音，解读下一次发布背后的动态。", "speak_kicker" to "AI之声", "speak_title" to "AI 的声音", "speak_subtitle" to "聆听前沿的音频简报与对话。",
-             "top_repos" to "热门开源仓库 · GIT雷达", "open_github" to "在GitHub打开 ↗", "open_episode" to "网页收听 ↗",
+              "top_repos" to "热门开源仓库 · GIT雷达", "open_github" to "在GitHub打开 ↗", "open_episode" to "网页收听 ↗",
+              "radar_tab_signals" to "信号与创作者", "radar_tab_repos" to "Git 热门榜",
+              "scouted_badge" to "SCOUTED VIA RADAR · 前沿信号", "primary_source_label" to "原始来源:",
              "read_more" to "阅读详情 ↗", "radar_frontier" to "创作者雷达与前沿分析",
             "play_episode" to "播放剧集", "my_pulse_kicker" to "我的 PULSE", "my_pulse_title" to "定制您的简报", "my_pulse_subtitle" to "选择您每天早上想了解的内容。",
             "topics" to "您的主题", "briefing_language" to "简报语言", "editorial_level" to "编辑级别", "curated_only" to "仅精选摘要", "all_news" to "所有新闻",
@@ -175,7 +183,9 @@ private object I18n {
             "loading" to "Originalquellen werden geladen…", "no_stories" to "Keine Geschichte passt zu Ihren Präferenzen. Aktualisieren Sie My Pulse oder versuchen Sie es erneut.", "radar_kicker" to "RADAR", "radar_title" to "Wo sich die KI bewegt", "radar_subtitle" to "Themen, Personen und Signale, die Sie im Blick behalten sollten.",
              "radar_agents" to "AUTONOME AGENTEN", "radar_agents_body" to "Systeme, die lernen zu planen, Werkzeuge zu nutzen und in der Welt zu handeln.", "radar_models" to "GRENZMODELLE", "radar_models_body" to "Der Wettlauf um leistungsfähigere, effizientere und offene Modelle.",
              "radar_creator" to "SIMONE RIZZO · CREATOR-RADAR", "radar_creator_body" to "Unabhängige Stimmen erklären, was hinter der nächsten Veröffentlichung passiert.", "speak_kicker" to "SPEAK UP", "speak_title" to "Die Stimmen der KI", "speak_subtitle" to "Audio-Briefings und Gespräche von der Grenze des Machbaren.",
-             "top_repos" to "TOP REPOSITORIES · GIT RADAR", "open_github" to "Auf GitHub öffnen ↗", "open_episode" to "Im Web anhören ↗",
+              "top_repos" to "TOP REPOSITORIES · GIT RADAR", "open_github" to "Auf GitHub öffnen ↗", "open_episode" to "Im Web anhören ↗",
+              "radar_tab_signals" to "Signale & Creator", "radar_tab_repos" to "Git-Hitparade",
+              "scouted_badge" to "SCOUTED VIA RADAR · GRENZSIGNAL", "primary_source_label" to "Primärquelle:",
              "read_more" to "Mehr lesen ↗", "radar_frontier" to "CREATOR-RADAR & GRENZANALYSE",
             "play_episode" to "Episode abspielen", "my_pulse_kicker" to "MEIN PULSE", "my_pulse_title" to "Passen Sie Ihr Briefing an", "my_pulse_subtitle" to "Wählen Sie, was Sie jeden Morgen verstehen möchten.",
             "topics" to "IHRE THEMEN", "briefing_language" to "BRIEFING-SPRACHE", "editorial_level" to "REDAKTIONELLES NIVEAU", "curated_only" to "Nur kuratierte Zusammenfassungen", "all_news" to "Alle Nachrichten",
@@ -523,6 +533,7 @@ private fun formatStars(stars: Int): String =
 @Composable
 private fun RadarScreen(stories: List<Story>, language: String, padding: PaddingValues) {
     val context = LocalContext.current
+    var selectedTab by remember { mutableStateOf(0) }
     val repositories = stories.filter { it.type == "github" }.sortedByDescending { it.stars }
     val radarStories = stories.filter { it.type != "github" && it.type != "speak_up" }
     ScreenColumn(padding) { modifier ->
@@ -533,59 +544,85 @@ private fun RadarScreen(stories: List<Story>, language: String, padding: Padding
                 Text(I18n.tr("radar_subtitle", language), color = Muted, fontSize = 14.sp)
             }
             item {
-                Text(I18n.tr("top_repos", language), color = Terra, fontSize = 10.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.2.sp)
-            }
-            items(repositories, key = { it.id }) { story ->
-                Card(
-                    Modifier.fillMaxWidth().clickable {
-                        runCatching { context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(story.url))) }
-                    },
-                    colors = CardDefaults.cardColors(containerColor = Color.White),
-                    shape = RoundedCornerShape(16.dp)
+                Row(
+                    Modifier.fillMaxWidth().background(Warm, RoundedCornerShape(28.dp)).padding(4.dp),
+                    horizontalArrangement = Arrangement.spacedBy(4.dp)
                 ) {
-                    Column(Modifier.padding(17.dp)) {
-                        Row(verticalAlignment = Alignment.CenterVertically) {
-                            Text(story.title, modifier = Modifier.weight(1f), fontFamily = FontFamily.Serif, fontSize = 20.sp, fontWeight = FontWeight.Bold)
-                            Spacer(Modifier.width(8.dp))
-                            Surface(color = Warm, shape = RoundedCornerShape(6.dp)) {
-                                Text(formatStars(story.stars), modifier = Modifier.padding(horizontal = 8.dp, vertical = 5.dp), color = Terra, fontSize = 12.sp, fontWeight = FontWeight.Bold)
-                            }
-                        }
-                        if (story.language.isNotBlank()) {
-                            Spacer(Modifier.height(6.dp))
-                            Text(story.language, color = Sage, fontSize = 11.sp, fontWeight = FontWeight.Bold)
-                        }
-                        Spacer(Modifier.height(7.dp))
-                        Text(story.summary, color = Muted, fontSize = 13.sp, lineHeight = 19.sp, maxLines = 4, overflow = TextOverflow.Ellipsis)
-                        TextButton(onClick = {
-                            runCatching { context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(story.url))) }
-                        }, contentPadding = PaddingValues(0.dp)) {
-                            Text(I18n.tr("open_github", language), color = Terra, fontWeight = FontWeight.Bold)
+                    listOf("radar_tab_signals", "radar_tab_repos").forEachIndexed { index, key ->
+                        Surface(
+                            Modifier.weight(1f).clickable { selectedTab = index },
+                            color = if (selectedTab == index) Color.White else Color.Transparent,
+                            shape = RoundedCornerShape(24.dp),
+                            shadowElevation = if (selectedTab == index) 1.dp else 0.dp
+                        ) {
+                            Text(
+                                I18n.tr(key, language),
+                                modifier = Modifier.padding(horizontal = 10.dp, vertical = 10.dp),
+                                color = if (selectedTab == index) Ink else Muted,
+                                fontSize = 12.sp,
+                                fontWeight = if (selectedTab == index) FontWeight.Bold else FontWeight.Medium,
+                                textAlign = androidx.compose.ui.text.style.TextAlign.Center
+                            )
                         }
                     }
                 }
             }
-            item {
-                Text(I18n.tr("radar_frontier", language), color = Terra, fontSize = 10.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.2.sp)
-            }
-            items(radarStories, key = { it.id }) { story ->
-                Card(
-                    Modifier.fillMaxWidth().clickable {
-                        runCatching { context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(story.url))) }
-                    },
-                    colors = CardDefaults.cardColors(containerColor = Color.White),
-                    shape = RoundedCornerShape(16.dp)
-                ) {
-                    Column(Modifier.padding(17.dp)) {
-                        Text(story.source.uppercase(), color = Sage, fontSize = 10.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.1.sp)
-                        Spacer(Modifier.height(7.dp))
-                        Text(story.title, fontFamily = FontFamily.Serif, fontSize = 20.sp, fontWeight = FontWeight.Bold)
-                        Spacer(Modifier.height(7.dp))
-                        Text(story.summary, color = Muted, fontSize = 13.sp, lineHeight = 19.sp, maxLines = 4, overflow = TextOverflow.Ellipsis)
-                        TextButton(onClick = {
+            if (selectedTab == 0) {
+                items(radarStories, key = { it.id }) { story ->
+                    val localized = I18n.editorial(story, language)
+                    val title = localized?.optString("title")?.takeIf { it.isNotBlank() } ?: story.title
+                    val summary = localized?.optString("summary")?.takeIf { it.isNotBlank() } ?: story.summary
+                    Card(
+                        Modifier.fillMaxWidth().clickable {
                             runCatching { context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(story.url))) }
-                        }, contentPadding = PaddingValues(0.dp)) {
-                            Text(I18n.tr("read_more", language), color = Terra, fontWeight = FontWeight.Bold)
+                        },
+                        colors = CardDefaults.cardColors(containerColor = Color.White),
+                        shape = RoundedCornerShape(16.dp)
+                    ) {
+                        Column(Modifier.padding(17.dp)) {
+                            Text(I18n.tr("scouted_badge", language), color = Sage, fontSize = 10.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.1.sp)
+                            Spacer(Modifier.height(7.dp))
+                            Text(title, fontFamily = FontFamily.Serif, fontSize = 20.sp, fontWeight = FontWeight.Bold)
+                            Spacer(Modifier.height(7.dp))
+                            Text(summary, color = Muted, fontSize = 13.sp, lineHeight = 19.sp, maxLines = 3, overflow = TextOverflow.Ellipsis)
+                            Spacer(Modifier.height(7.dp))
+                            Text("${I18n.tr("primary_source_label", language)} ${story.source}", color = Terra, fontSize = 11.sp, fontWeight = FontWeight.Medium)
+                            TextButton(onClick = {
+                                runCatching { context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(story.url))) }
+                            }, contentPadding = PaddingValues(0.dp)) {
+                                Text(I18n.tr("read_more", language), color = Terra, fontWeight = FontWeight.Bold)
+                            }
+                        }
+                    }
+                }
+            } else {
+                items(repositories, key = { it.id }) { story ->
+                    Card(
+                        Modifier.fillMaxWidth().clickable {
+                            runCatching { context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(story.url))) }
+                        },
+                        colors = CardDefaults.cardColors(containerColor = Color.White),
+                        shape = RoundedCornerShape(16.dp)
+                    ) {
+                        Column(Modifier.padding(17.dp)) {
+                            Row(verticalAlignment = Alignment.CenterVertically) {
+                                Text(story.title, modifier = Modifier.weight(1f), fontFamily = FontFamily.Serif, fontSize = 20.sp, fontWeight = FontWeight.Bold)
+                                Spacer(Modifier.width(8.dp))
+                                Surface(color = Warm, shape = RoundedCornerShape(6.dp)) {
+                                    Text(formatStars(story.stars), modifier = Modifier.padding(horizontal = 8.dp, vertical = 5.dp), color = Terra, fontSize = 12.sp, fontWeight = FontWeight.Bold)
+                                }
+                            }
+                            if (story.language.isNotBlank()) {
+                                Spacer(Modifier.height(6.dp))
+                                Text(story.language, color = Sage, fontSize = 11.sp, fontWeight = FontWeight.Bold)
+                            }
+                            Spacer(Modifier.height(7.dp))
+                            Text(story.summary, color = Muted, fontSize = 13.sp, lineHeight = 19.sp, maxLines = 3, overflow = TextOverflow.Ellipsis)
+                            TextButton(onClick = {
+                                runCatching { context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(story.url))) }
+                            }, contentPadding = PaddingValues(0.dp)) {
+                                Text(I18n.tr("open_github", language), color = Terra, fontWeight = FontWeight.Bold)
+                            }
                         }
                     }
                 }
@@ -607,6 +644,9 @@ private fun SpeakUpScreen(stories: List<Story>, language: String, padding: Paddi
                 Text(I18n.tr("speak_subtitle", language), color = Muted, fontSize = 14.sp)
             }
             items(episodes, key = { it.id }) { story ->
+                val localized = I18n.editorial(story, language)
+                val title = localized?.optString("title")?.takeIf { it.isNotBlank() } ?: story.title
+                val summary = localized?.optString("summary")?.takeIf { it.isNotBlank() } ?: story.summary
                 Card(
                     Modifier.fillMaxWidth().clickable {
                         runCatching { context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(story.url))) }
@@ -617,9 +657,9 @@ private fun SpeakUpScreen(stories: List<Story>, language: String, padding: Paddi
                     Column(Modifier.padding(17.dp)) {
                         Text(story.source.uppercase() + if (story.duration.isNotBlank()) " · ${story.duration}" else "", color = Sage, fontSize = 10.sp, fontWeight = FontWeight.Bold)
                         Spacer(Modifier.height(7.dp))
-                        Text(story.title, fontFamily = FontFamily.Serif, fontSize = 20.sp, fontWeight = FontWeight.Bold)
+                        Text(title, fontFamily = FontFamily.Serif, fontSize = 20.sp, fontWeight = FontWeight.Bold)
                         Spacer(Modifier.height(5.dp))
-                        Text(story.summary, color = Muted, fontSize = 13.sp, lineHeight = 19.sp)
+                        Text(summary, color = Muted, fontSize = 13.sp, lineHeight = 19.sp, maxLines = 2, overflow = TextOverflow.Ellipsis)
                         val audioUrl = audioUrlFor(story, language)
                         TextButton(onClick = {
                             runCatching {
