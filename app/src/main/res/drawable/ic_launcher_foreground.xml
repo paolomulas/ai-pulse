@@ -1,16 +1,35 @@
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="108dp" android:height="108dp"
-    android:viewportWidth="108" android:viewportHeight="108">
-    <group android:translateX="0" android:translateY="0">
-        <path android:fillColor="#00000000" android:strokeColor="#FAF9F5"
-            android:strokeWidth="4" android:strokeLineCap="round"
-            android:pathData="M54,54 L54,27 M54,54 L77,40 M54,54 L77,68 M54,54 L54,81 M54,54 L31,68 M54,54 L31,40"/>
-        <path android:fillColor="#FAF9F5" android:pathData="M49,49h10v10h-10z"/>
-        <path android:fillColor="#FAF9F5" android:pathData="M49,19a8,8 0,1 0,10 0a8,8 0,1 0,-10 0"/>
-        <path android:fillColor="#FAF9F5" android:pathData="M75,31a7,7 0,1 0,9 0a7,7 0,1 0,-9 0"/>
-        <path android:fillColor="#FAF9F5" android:pathData="M75,62a7,7 0,1 0,9 0a7,7 0,1 0,-9 0"/>
-        <path android:fillColor="#FAF9F5" android:pathData="M49,73a8,8 0,1 0,10 0a8,8 0,1 0,-10 0"/>
-        <path android:fillColor="#FAF9F5" android:pathData="M24,62a7,7 0,1 0,9 0a7,7 0,1 0,-9 0"/>
-        <path android:fillColor="#FAF9F5" android:pathData="M24,31a7,7 0,1 0,9 0a7,7 0,1 0,-9 0"/>
-    </group>
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Radar Pulse Wave Orbit -->
+    <path
+        android:strokeColor="#3A3530"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M26,54 A28,28 0 1,1 82,54 A28,28 0 1,1 26,54" />
+    <!-- Pulse Wave Outer Arcs -->
+    <path
+        android:strokeColor="#C6613F"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M34,34 A28,28 0 0,1 74,34" />
+    <path
+        android:strokeColor="#C6613F"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M34,74 A28,28 0 0,0 74,74" />
+    <!-- AI Core Emblem (4-point curved star inspired by Claude & Gemini) -->
+    <path
+        android:fillColor="#C6613F"
+        android:pathData="M54,26 C54,42 42,54 26,54 C42,54 54,66 54,82 C54,66 66,54 82,54 C66,54 54,42 54,26 Z" />
+    <!-- Inner Radiant Core -->
+    <path
+        android:fillColor="#FAF9F5"
+        android:pathData="M54,39 C54,47 47,54 39,54 C47,54 54,61 54,69 C54,61 61,54 69,54 C61,54 54,47 54,39 Z" />
+    <!-- Discovery Radar Spark Node -->
+    <path
+        android:fillColor="#FAF9F5"
+        android:pathData="M78,28 A3.5,3.5 0 1,1 85,28 A3.5,3.5 0 1,1 78,28" />
 </vector>
