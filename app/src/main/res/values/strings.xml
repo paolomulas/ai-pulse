@@ -4,8 +4,8 @@
     <string name="app_tagline">THE DAILY AI BRIEFING</string>
     <string name="refresh">Aggiorna notizie</string>
     <string name="daily_briefing">DAILY BRIEFING</string>
-    <string name="briefing_title">Capire l&apos;AI.\nUn giorno alla volta.</string>
-    <string name="briefing_summary">Notizie, idee e progetti che stanno muovendo il mondo dell&apos;intelligenza artificiale.</string>
+    <string name="briefing_title">Capire l\'AI.\nUn giorno alla volta.</string>
+    <string name="briefing_summary">Notizie, idee e progetti che stanno muovendo il mondo dell\'intelligenza artificiale.</string>
     <string name="language">LINGUA</string>
     <string name="editorial_level">LIVELLO EDITORIALE</string>
     <string name="selected">Selezionati</string>
@@ -13,11 +13,11 @@
     <string name="raw">Raw</string>
     <string name="ai_curated">AI Curated</string>
     <string name="editors_pick">Pick</string>
-    <string name="listen">Ascolta ♫</string>
-    <string name="audio">Audio ♫</string>
-    <string name="source_link">Fonte: %1$s  ·  Apri ↗</string>
-    <string name="privacy_policy">Privacy Policy ↗</string>
-    <string name="editorial_contact">Contatti e informazioni editoriali ↗</string>
-    <string name="editorial_guidelines">Linee editoriali ↗</string>
+    <string name="listen">Ascolta</string>
+    <string name="audio">Audio</string>
+    <string name="source_link" formatted="false">Fonte: %1$s - Apri</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="editorial_contact">Contatti e informazioni editoriali</string>
+    <string name="editorial_guidelines">Linee editoriali</string>
     <string name="contact_email">Contatti: paolomulas@gmail.com</string>
 </resources>
