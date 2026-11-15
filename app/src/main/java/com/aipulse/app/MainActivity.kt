@@ -1,43 +1,76 @@
 package com.aipulse.app
 
+import android.content.Context
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
+import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
-import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.AutoAwesome
-import androidx.compose.material.icons.filled.Code
+import androidx.compose.material.icons.filled.Check
+import androidx.compose.material.icons.filled.Explore
 import androidx.compose.material.icons.filled.GraphicEq
+import androidx.compose.material.icons.filled.Person
 import androidx.compose.material.icons.filled.Refresh
-import androidx.compose.material.icons.filled.Star
-import androidx.compose.material3.*
-import androidx.compose.runtime.*
+import androidx.compose.material.icons.filled.Tune
+import androidx.compose.material.icons.filled.VolumeUp
+import androidx.compose.material3.Button
+import androidx.compose.material3.ButtonDefaults
+import androidx.compose.material3.Card
+import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.Checkbox
+import androidx.compose.material3.HorizontalDivider
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.NavigationBar
+import androidx.compose.material3.NavigationBarItem
+import androidx.compose.material3.RadioButton
+import androidx.compose.material3.Scaffold
+import androidx.compose.material3.Surface
+import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
-import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.withContext
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 import org.json.JSONObject
 import java.net.HttpURLConnection
 import java.net.URL
-import kotlin.math.cos
-import kotlin.math.sin
 
 private val Paper = Color(0xFFFAF9F5)
 private val Warm = Color(0xFFF0EEE6)
@@ -47,7 +80,6 @@ private val Terra = Color(0xFFC6613F)
 private val Sage = Color(0xFF788C5D)
 
 private object AppConfig {
-    // Switch this base URL to https://pulseai.info when the custom domain is live.
     private const val SITE_BASE_URL = "https://paolomulas.github.io/ai-pulse"
     const val FEED_URL = "https://raw.githubusercontent.com/paolomulas/ai-pulse/main/public/feed.json"
     const val PRIVACY_URL = "$SITE_BASE_URL/privacy.html"
@@ -66,7 +98,6 @@ private data class Story(
     val type: String,
     val duration: String = "",
     val language: String = "en",
-    val podcastCategory: String = "frontier",
     val audioUrl: String = "",
     val ttsAudioUrl: String = "",
     val ttsAudioByLanguage: JSONObject? = null,
@@ -74,6 +105,37 @@ private data class Story(
     val editorialLevel: String = "raw_feed",
     val editorPickReason: String = ""
 )
+
+private data class PulsePreferences(
+    val topics: Set<String> = setOf("Agenti Autonomi", "LLM & Modelli"),
+    val language: String = "it",
+    val curatedOnly: Boolean = true,
+    val synced: Boolean = false
+)
+
+private val topicOptions = listOf(
+    "Agenti Autonomi", "LLM & Modelli", "Open Source",
+    "Ricerca & Sviluppo", "Chip & Robotica", "Business AI"
+)
+
+private fun loadPreferences(context: Context): PulsePreferences {
+    val prefs = context.getSharedPreferences("pulse_preferences", Context.MODE_PRIVATE)
+    return PulsePreferences(
+        topics = prefs.getStringSet("topics", null)?.toSet() ?: PulsePreferences().topics,
+        language = prefs.getString("language", "it") ?: "it",
+        curatedOnly = prefs.getBoolean("curated_only", true),
+        synced = prefs.getBoolean("synced", false)
+    )
+}
+
+private fun savePreferences(context: Context, preferences: PulsePreferences) {
+    context.getSharedPreferences("pulse_preferences", Context.MODE_PRIVATE).edit()
+        .putStringSet("topics", preferences.topics)
+        .putString("language", preferences.language)
+        .putBoolean("curated_only", preferences.curatedOnly)
+        .putBoolean("synced", preferences.synced)
+        .apply()
+}
 
 private suspend fun loadFeed(): List<Story> = withContext(Dispatchers.IO) {
     val connection = (URL(AppConfig.FEED_URL).openConnection() as HttpURLConnection).apply {
@@ -84,12 +146,11 @@ private suspend fun loadFeed(): List<Story> = withContext(Dispatchers.IO) {
         setRequestProperty("User-Agent", "AIPulse-Android")
     }
     try {
-        val body = connection.inputStream.bufferedReader(Charsets.UTF_8).use { it.readText() }
-        val items = JSONObject(body).optJSONArray("items") ?: return@withContext emptyList()
+        val items = JSONObject(connection.inputStream.bufferedReader(Charsets.UTF_8).use { it.readText() })
+            .optJSONArray("items") ?: return@withContext emptyList()
         buildList {
             for (index in 0 until items.length()) {
                 val item = items.optJSONObject(index) ?: continue
-                // Creator-radar videos are discovery inputs only, never publishable stories.
                 if (item.optString("sourceKind") == "creator_radar" || item.optBoolean("discoveryOnly")) continue
                 val url = item.optString("sourceUrl")
                 val title = item.optString("title")
@@ -98,28 +159,26 @@ private suspend fun loadFeed(): List<Story> = withContext(Dispatchers.IO) {
                 val section = when (type) {
                     "github" -> "OPEN SOURCE"
                     "speak_up" -> "SPEAK UP"
-                    else -> if (item.optString("sourceKind") == "primary_source") "NEWS · FONTE ORIGINALE" else item.optString("sourceKind", "NEWS").uppercase()
+                    else -> if (item.optString("sourceKind") == "primary_source") "NEWS · FONTE ORIGINALE"
+                    else item.optString("sourceKind", "NEWS").uppercase()
                 }
-                add(
-                    Story(
-                        id = item.optString("id", "$index-$title"),
-                        section = section,
-                        title = title,
-                        summary = item.optString("summary"),
-                        source = item.optString("sourceName", "Fonte"),
-                        url = url,
-                        type = type,
-                        duration = item.optString("duration"),
-                        language = item.optString("language", "en"),
-                        podcastCategory = item.optString("podcastCategory", "frontier"),
-                        audioUrl = item.optString("audioUrl"),
-                        ttsAudioUrl = item.optString("ttsAudioUrl"),
-                        ttsAudioByLanguage = item.optJSONObject("ttsAudioByLanguage"),
-                        editorial = item.optJSONObject("editorial"),
-                        editorialLevel = item.optString("editorial_level", "raw_feed"),
-                        editorPickReason = item.optString("editor_pick_reason")
-                    )
-                )
+                add(Story(
+                    id = item.optString("id", "$index-$title"),
+                    section = section,
+                    title = title,
+                    summary = item.optString("summary"),
+                    source = item.optString("sourceName", "Fonte"),
+                    url = url,
+                    type = type,
+                    duration = item.optString("duration"),
+                    language = item.optString("language", "en"),
+                    audioUrl = item.optString("audioUrl"),
+                    ttsAudioUrl = item.optString("ttsAudioUrl"),
+                    ttsAudioByLanguage = item.optJSONObject("ttsAudioByLanguage"),
+                    editorial = item.optJSONObject("editorial"),
+                    editorialLevel = item.optString("editorial_level", "raw_feed"),
+                    editorPickReason = item.optString("editor_pick_reason")
+                ))
             }
         }
     } finally {
@@ -142,299 +201,335 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-private fun PulseGlyph() {
-    Canvas(Modifier.size(32.dp)) {
-        val c = size.minDimension / 2f
-        val r = size.minDimension * 0.34f
-        val dot = 2.7.dp.toPx()
-        for (i in 0 until 6) {
-            val angle = (Math.PI * 2.0 * i / 6.0) - Math.PI / 2.0
-            val point = Offset(c + cos(angle).toFloat() * r, c + sin(angle).toFloat() * r)
-            drawLine(Terra, Offset(c, c), point, strokeWidth = 1.8.dp.toPx())
-            drawCircle(Terra, dot, point)
+private fun PulseScreen() {
+    val context = LocalContext.current
+    val scope = rememberCoroutineScope()
+    var selectedTab by remember { mutableStateOf(0) }
+    var preferences by remember { mutableStateOf(loadPreferences(context)) }
+    var stories by remember { mutableStateOf<List<Story>>(emptyList()) }
+    var loading by remember { mutableStateOf(true) }
+
+    fun refresh() {
+        scope.launch {
+            loading = true
+            stories = runCatching { loadFeed() }.getOrDefault(emptyList())
+            loading = false
         }
-        drawCircle(Terra, 3.8.dp.toPx(), Offset(c, c))
+    }
+    LaunchedEffect(Unit) { refresh() }
+
+    MaterialTheme(colorScheme = androidx.compose.material3.lightColorScheme(
+        background = Paper, surface = Paper, onBackground = Ink, onSurface = Ink,
+        primary = Terra, secondary = Sage
+    )) {
+        Scaffold(
+            containerColor = Paper,
+            bottomBar = {
+                NavigationBar(containerColor = Color.White) {
+                    listOf(
+                        "Briefing" to Icons.Default.AutoAwesome,
+                        "Radar" to Icons.Default.Explore,
+                        "Speak Up" to Icons.Default.VolumeUp,
+                        "My Pulse" to Icons.Default.Person
+                    ).forEachIndexed { index, item ->
+                        NavigationBarItem(
+                            selected = selectedTab == index,
+                            onClick = { selectedTab = index },
+                            icon = { Icon(item.second, contentDescription = item.first) },
+                            label = { Text(item.first, fontSize = 10.sp) }
+                        )
+                    }
+                }
+            }
+        ) { padding ->
+            when (selectedTab) {
+                0 -> BriefingScreen(stories, preferences, loading, ::refresh, padding)
+                1 -> RadarScreen(padding)
+                2 -> SpeakUpScreen(stories, preferences.language, padding)
+                else -> MyPulseScreen(preferences, { newPreferences ->
+                    preferences = newPreferences
+                    savePreferences(context, newPreferences)
+                    Toast.makeText(context, "Preferenze salvate", Toast.LENGTH_SHORT).show()
+                }, padding)
+            }
+        }
     }
 }
 
 @Composable
-private fun PulseScreen() {
-    var filter by remember { mutableStateOf("Tutto") }
-    var language by remember { mutableStateOf("it") }
-    var levelFilter by remember { mutableStateOf("editorial") }
-    var liveStories by remember { mutableStateOf<List<Story>>(emptyList()) }
-    var isLoading by remember { mutableStateOf(true) }
-    val context = LocalContext.current
-    val scope = rememberCoroutineScope()
+private fun ScreenColumn(padding: PaddingValues, content: @Composable (Modifier) -> Unit) {
+    content(Modifier.fillMaxSize().padding(padding))
+}
 
-    fun refreshFeed() {
-        scope.launch {
-            isLoading = true
-            try {
-                liveStories = loadFeed()
-            } catch (_: Exception) {
-                liveStories = emptyList()
-            } finally {
-                isLoading = false
+@Composable
+private fun Masthead(onRefresh: () -> Unit) {
+    Row(
+        Modifier.fillMaxWidth().padding(bottom = 18.dp),
+        horizontalArrangement = Arrangement.SpaceBetween,
+        verticalAlignment = Alignment.CenterVertically
+    ) {
+        Column {
+            Text("PULSE AI", fontFamily = FontFamily.Serif, fontSize = 28.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.5.sp)
+            Text("INTELLIGENCE FOR THE AUTONOMOUS ERA", color = Muted, fontSize = 9.sp, letterSpacing = 1.2.sp)
+        }
+        IconButton(onClick = onRefresh) { Icon(Icons.Default.Refresh, "Aggiorna", tint = Terra) }
+    }
+}
+
+private fun matchesTopic(story: Story, topics: Set<String>): Boolean {
+    if (topics.isEmpty()) return true
+    val text = "${story.title} ${story.summary} ${story.section}".lowercase()
+    return topics.any { topic ->
+        when (topic) {
+            "Agenti Autonomi" -> listOf("agent", "autonom", "agentic").any(text::contains)
+            "LLM & Modelli" -> listOf("llm", "model", "gpt", "language").any(text::contains)
+            "Open Source" -> listOf("open source", "github", "opensource").any(text::contains)
+            "Ricerca & Sviluppo" -> listOf("research", "ricerca", "science", "paper").any(text::contains)
+            "Chip & Robotica" -> listOf("chip", "robot", "hardware", "nvidia").any(text::contains)
+            else -> listOf("business", "market", "funding", "company").any(text::contains)
+        }
+    }
+}
+
+@Composable
+private fun BriefingScreen(
+    stories: List<Story>,
+    preferences: PulsePreferences,
+    loading: Boolean,
+    refresh: () -> Unit,
+    padding: PaddingValues
+) {
+    val context = LocalContext.current
+    val visible = stories.filter { matchesTopic(it, preferences.topics) && (!preferences.curatedOnly || it.editorialLevel != "raw_feed") }
+    val hero = visible.firstOrNull()
+    ScreenColumn(padding) { modifier ->
+        LazyColumn(modifier, contentPadding = PaddingValues(20.dp), verticalArrangement = Arrangement.spacedBy(16.dp)) {
+            item { Masthead(refresh) }
+            item {
+                Text("THE DAILY BRIEFING", color = Terra, fontSize = 10.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.6.sp)
+                Spacer(Modifier.height(7.dp))
+                Text("Intelligenza, senza rumore.", fontFamily = FontFamily.Serif, fontSize = 32.sp, lineHeight = 36.sp, fontWeight = FontWeight.Bold)
+                Spacer(Modifier.height(6.dp))
+                Text("Una selezione ragionata delle idee e dei sistemi che stanno definendo l'era autonoma.", color = Muted, fontSize = 14.sp, lineHeight = 20.sp)
+            }
+            if (hero != null) {
+                item { StoryCard(hero, preferences.language, true) }
+                items(visible.drop(1), key = { it.id }) { story -> StoryCard(story, preferences.language, false) }
+            } else {
+                item {
+                    Text(
+                        if (loading) "Caricamento delle fonti originali…" else "Nessuna storia corrisponde alle tue preferenze. Aggiorna My Pulse o riprova.",
+                        color = Muted, fontSize = 14.sp, lineHeight = 20.sp
+                    )
+                }
+            }
+            item { Footer(context) }
+        }
+    }
+}
+
+@Composable
+private fun StoryCard(story: Story, language: String, hero: Boolean) {
+    val context = LocalContext.current
+    val localized = story.editorial?.optJSONObject(language)
+        ?: story.editorial?.optJSONObject("en")
+        ?: story.editorial?.optJSONObject("it")
+    val curated = localized != null && story.editorialLevel != "raw_feed"
+    val title = if (curated) localized?.optString("title")?.takeIf { it.isNotBlank() } ?: story.title else story.title
+    val summary = if (curated) localized?.optString("summary")?.takeIf { it.isNotBlank() } ?: story.summary else story.summary
+    val why = if (curated) localized?.optString("why_it_matters")?.takeIf { it.isNotBlank() } else null
+    Card(
+        Modifier.fillMaxWidth().clickable { runCatching { context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(story.url))) } },
+        colors = CardDefaults.cardColors(containerColor = if (hero) Warm else Color.White),
+        shape = RoundedCornerShape(if (hero) 4.dp else 16.dp)
+    ) {
+        Column(Modifier.padding(if (hero) 22.dp else 17.dp)) {
+            Text(
+                if (hero) "EXCLUSIVE" else if (story.editorialLevel == "editors_pick") "EDITOR'S PICK" else "FEATURED ANALYSIS",
+                color = Terra, fontSize = 10.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.4.sp
+            )
+            Spacer(Modifier.height(9.dp))
+            Text(title, fontFamily = FontFamily.Serif, fontSize = if (hero) 27.sp else 19.sp, lineHeight = if (hero) 31.sp else 24.sp, fontWeight = FontWeight.Bold)
+            Spacer(Modifier.height(8.dp))
+            Text(summary, color = Muted, fontSize = 13.sp, lineHeight = 19.sp, maxLines = if (hero) 6 else 4, overflow = TextOverflow.Ellipsis)
+            if (!why.isNullOrBlank()) {
+                Spacer(Modifier.height(14.dp))
+                Surface(color = Color.White.copy(alpha = .72f), shape = RoundedCornerShape(4.dp)) {
+                    Column(Modifier.padding(12.dp)) {
+                        Text(if (language == "it") "PERCHÉ CONTA" else "WHY IT MATTERS", color = Terra, fontSize = 9.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.sp)
+                        Spacer(Modifier.height(4.dp))
+                        Text(why, fontSize = 12.sp, lineHeight = 17.sp)
+                    }
+                }
+            }
+            Spacer(Modifier.height(13.dp))
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Text("Fonte: ${story.source}", color = Terra, fontSize = 11.sp, fontWeight = FontWeight.Medium, modifier = Modifier.weight(1f))
+                audioUrlFor(story, language)?.let { audioUrl ->
+                    TextButton(onClick = {
+                        runCatching { context.startActivity(Intent(Intent.ACTION_VIEW).apply { setDataAndType(Uri.parse(audioUrl), "audio/*") }) }
+                    }, contentPadding = PaddingValues(0.dp)) {
+                        Icon(Icons.Default.GraphicEq, null, tint = Terra, modifier = Modifier.size(16.dp))
+                        Spacer(Modifier.width(4.dp))
+                        Text("Ascolta", color = Terra, fontWeight = FontWeight.Bold)
+                    }
+                }
             }
         }
     }
+}
 
-    LaunchedEffect(Unit) { refreshFeed() }
-
-    val live = liveStories.isNotEmpty()
-    val sourceStories = liveStories
-    val filters = listOf("Tutto", "News", "GitHub", "Speak Up")
-    val visible = sourceStories.filter {
-        (filter == "Tutto" ||
-            (filter == "News" && it.type == "news") ||
-            (filter == "GitHub" && it.type == "github") ||
-            (filter == "Speak Up" && it.type == "speak_up")) &&
-            (levelFilter == "all" ||
-                (levelFilter == "editorial" && it.editorialLevel != "raw_feed") ||
-                it.editorialLevel == levelFilter)
+@Composable
+private fun RadarScreen(padding: PaddingValues) {
+    ScreenColumn(padding) { modifier ->
+        LazyColumn(modifier, contentPadding = PaddingValues(20.dp), verticalArrangement = Arrangement.spacedBy(14.dp)) {
+            item {
+                Text("RADAR", color = Terra, fontSize = 10.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.6.sp)
+                Text("Dove si muove l'AI", fontFamily = FontFamily.Serif, fontSize = 31.sp, fontWeight = FontWeight.Bold)
+                Text("Temi, persone e segnali da tenere d'occhio.", color = Muted, fontSize = 14.sp)
+            }
+            items(listOf(
+                "AGENTI AUTONOMI" to "I sistemi che imparano a pianificare, usare strumenti e agire nel mondo.",
+                "FRONTIER MODELS" to "La corsa ai modelli più capaci, efficienti e aperti.",
+                "SIMONE RIZZO · CREATOR RADAR" to "Voci indipendenti che spiegano cosa sta succedendo dietro il prossimo rilascio."
+            )) { (kicker, body) ->
+                Card(colors = CardDefaults.cardColors(containerColor = Color.White), shape = RoundedCornerShape(16.dp)) {
+                    Column(Modifier.padding(18.dp)) {
+                        Text(kicker, color = Terra, fontSize = 10.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.1.sp)
+                        Spacer(Modifier.height(7.dp))
+                        Text(body, fontFamily = FontFamily.Serif, fontSize = 20.sp, fontWeight = FontWeight.Bold)
+                    }
+                }
+            }
+        }
     }
+}
 
-    MaterialTheme(colorScheme = lightColorScheme(
-        background = Paper, surface = Paper, onBackground = Ink, onSurface = Ink,
-        primary = Terra, secondary = Sage
-    )) {
-        Scaffold(containerColor = Paper) { padding ->
-            LazyColumn(
-                modifier = Modifier.fillMaxSize().padding(padding),
-                contentPadding = PaddingValues(20.dp),
-                verticalArrangement = Arrangement.spacedBy(15.dp)
-            ) {
-                item {
-                    Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.SpaceBetween) {
+@Composable
+private fun SpeakUpScreen(stories: List<Story>, language: String, padding: PaddingValues) {
+    val context = LocalContext.current
+    val episodes = stories.filter { it.type == "speak_up" }
+    ScreenColumn(padding) { modifier ->
+        LazyColumn(modifier, contentPadding = PaddingValues(20.dp), verticalArrangement = Arrangement.spacedBy(14.dp)) {
+            item {
+                Icon(Icons.Default.VolumeUp, null, tint = Terra, modifier = Modifier.size(28.dp))
+                Text("SPEAK UP", color = Terra, fontSize = 10.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.6.sp)
+                Text("Le voci dell'AI", fontFamily = FontFamily.Serif, fontSize = 31.sp, fontWeight = FontWeight.Bold)
+                Text("Briefing audio e conversazioni per ascoltare la frontiera.", color = Muted, fontSize = 14.sp)
+            }
+            items(episodes, key = { it.id }) { story ->
+                Card(colors = CardDefaults.cardColors(containerColor = Color.White), shape = RoundedCornerShape(16.dp)) {
+                    Column(Modifier.padding(17.dp)) {
+                        Text(story.source.uppercase() + if (story.duration.isNotBlank()) " · ${story.duration}" else "", color = Sage, fontSize = 10.sp, fontWeight = FontWeight.Bold)
+                        Spacer(Modifier.height(7.dp))
+                        Text(story.title, fontFamily = FontFamily.Serif, fontSize = 20.sp, fontWeight = FontWeight.Bold)
+                        Spacer(Modifier.height(5.dp))
+                        Text(story.summary, color = Muted, fontSize = 13.sp, lineHeight = 19.sp)
+                        audioUrlFor(story, language)?.let { url ->
+                            TextButton(onClick = { runCatching { context.startActivity(Intent(Intent.ACTION_VIEW).apply { setDataAndType(Uri.parse(url), "audio/*") }) } }, contentPadding = PaddingValues(0.dp)) {
+                                Icon(Icons.Default.GraphicEq, null, tint = Terra)
+                                Spacer(Modifier.width(5.dp))
+                                Text("Riproduci episodio", color = Terra, fontWeight = FontWeight.Bold)
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@Composable
+private fun MyPulseScreen(
+    saved: PulsePreferences,
+    onSave: (PulsePreferences) -> Unit,
+    padding: PaddingValues
+) {
+    var topics by remember(saved) { mutableStateOf(saved.topics) }
+    var language by remember(saved) { mutableStateOf(saved.language) }
+    var curated by remember(saved) { mutableStateOf(saved.curatedOnly) }
+    var synced by remember(saved) { mutableStateOf(saved.synced) }
+    ScreenColumn(padding) { modifier ->
+        LazyColumn(modifier, contentPadding = PaddingValues(20.dp), verticalArrangement = Arrangement.spacedBy(18.dp)) {
+            item {
+                Text("MY PULSE", color = Terra, fontSize = 10.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.6.sp)
+                Text("Personalizza il tuo Briefing", fontFamily = FontFamily.Serif, fontSize = 30.sp, lineHeight = 34.sp, fontWeight = FontWeight.Bold)
+                Text("Scegli cosa vuoi capire ogni mattina.", color = Muted, fontSize = 14.sp)
+            }
+            item {
+                SectionLabel("I TUOI ARGOMENTI")
+                topicOptions.forEach { topic ->
+                    Row(Modifier.fillMaxWidth().clickable {
+                        topics = if (topic in topics) topics - topic else topics + topic
+                    }, verticalAlignment = Alignment.CenterVertically) {
+                        Checkbox(checked = topic in topics, onCheckedChange = { checked -> topics = if (checked) topics + topic else topics - topic })
+                        Text(topic, fontSize = 14.sp)
+                    }
+                }
+            }
+            item {
+                SectionLabel("LINGUA DEL BRIEFING")
+                listOf("it" to "Italiano", "en" to "English", "es" to "Español", "zh" to "中文", "de" to "Deutsch").forEach { (code, label) ->
+                    Row(Modifier.fillMaxWidth().clickable { language = code }, verticalAlignment = Alignment.CenterVertically) {
+                        RadioButton(selected = language == code, onClick = { language = code })
+                        Text("${code.uppercase()}  $label", fontSize = 14.sp)
+                    }
+                }
+            }
+            item {
+                SectionLabel("LIVELLO EDITORIALE")
+                listOf(true to "Solo Sintesi Curate (Curated)", false to "Tutte le Notizie (All Feed)").forEach { (value, label) ->
+                    Row(Modifier.fillMaxWidth().clickable { curated = value }, verticalAlignment = Alignment.CenterVertically) {
+                        RadioButton(selected = curated == value, onClick = { curated = value })
+                        Text(label, fontSize = 14.sp)
+                    }
+                }
+            }
+            item {
+                Card(colors = CardDefaults.cardColors(containerColor = Warm), shape = RoundedCornerShape(16.dp)) {
+                    Column(Modifier.padding(17.dp)) {
                         Row(verticalAlignment = Alignment.CenterVertically) {
-                            PulseGlyph()
-                            Spacer(Modifier.width(9.dp))
-                            Column {
-                                 Text(stringResource(R.string.app_name).uppercase(), fontSize = 21.sp, fontWeight = FontWeight.ExtraBold, color = Ink, letterSpacing = 1.sp)
-                                 Text(stringResource(R.string.app_tagline), fontSize = 9.sp, color = Muted, letterSpacing = 1.4.sp)
+                            Box(Modifier.size(32.dp).background(Color.White, RoundedCornerShape(50)), contentAlignment = Alignment.Center) {
+                                Text("G", color = Color(0xFF4285F4), fontSize = 20.sp, fontWeight = FontWeight.Bold)
                             }
-                        }
-                         IconButton(onClick = { filter = "Tutto"; refreshFeed() }) { Icon(Icons.Default.Refresh, stringResource(R.string.refresh), tint = Terra) }
-                    }
-                }
-                item {
-                    Column(Modifier.fillMaxWidth().background(Warm, RoundedCornerShape(22.dp)).padding(20.dp)) {
-                         Text(stringResource(R.string.daily_briefing), color = Terra, fontSize = 10.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.5.sp)
-                        Spacer(Modifier.height(8.dp))
-                         Text(stringResource(R.string.briefing_title), color = Ink, fontSize = 29.sp, lineHeight = 34.sp, fontWeight = FontWeight.SemiBold)
-                        Spacer(Modifier.height(8.dp))
-                         Text(stringResource(R.string.briefing_summary), color = Muted, fontSize = 14.sp, lineHeight = 20.sp)
-                    }
-                }
-                item {
-                    Row(horizontalArrangement = Arrangement.spacedBy(7.dp)) {
-                        filters.forEach { f ->
-                            FilterChip(selected = filter == f, onClick = { filter = f }, label = { Text(f, fontSize = 11.sp) })
-                        }
-                    }
-                }
-                item {
-                    Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                         Text(stringResource(R.string.language), color = Muted, fontSize = 9.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.sp)
-                        Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
-                            listOf("it" to "🇮🇹 IT", "en" to "🇬🇧 EN", "es" to "🇪🇸 ES", "zh-CN" to "🇨🇳 中文", "de" to "🇩🇪 DE").forEach { (code, label) ->
-                                FilterChip(selected = language == code, onClick = { language = code }, label = { Text(label, fontSize = 10.sp) })
+                            Spacer(Modifier.width(10.dp))
+                            Column(Modifier.weight(1f)) {
+                                Text("Sincronizza il tuo Pulse", fontWeight = FontWeight.Bold)
+                                Text("Accedi con Google per sincronizzare le tue preferenze e ricevere il Briefing mattutino", color = Muted, fontSize = 12.sp, lineHeight = 17.sp)
                             }
-                        }
-                         Text(stringResource(R.string.editorial_level), color = Muted, fontSize = 9.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.sp)
-                        Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
-                            listOf("editorial" to "Selezionati", "all" to "Tutti", "raw_feed" to "Raw", "ai_curated" to "AI Curated", "editors_pick" to "Pick").forEach { (code, label) ->
-                                FilterChip(selected = levelFilter == code, onClick = { levelFilter = code }, label = { Text(label, fontSize = 10.sp) })
-                            }
-                        }
-                    }
-                }
-                if (filter == "Speak Up") {
-                    item {
-                        Column(Modifier.fillMaxWidth().background(Warm, RoundedCornerShape(22.dp)).padding(18.dp)) {
-                            Row(verticalAlignment = Alignment.CenterVertically) {
-                                Icon(Icons.Default.GraphicEq, null, tint = Terra, modifier = Modifier.size(27.dp))
-                                Spacer(Modifier.width(10.dp))
-                                Column {
-                                    Text("SPEAK UP", color = Terra, fontSize = 10.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.5.sp)
-                                    Text("Le voci dell'AI", color = Ink, fontSize = 24.sp, fontWeight = FontWeight.SemiBold)
-                                }
-                            }
-                            Spacer(Modifier.height(8.dp))
-                            Text("Podcast e conversazioni selezionati per seguire ricerca, strumenti e idee che stanno cambiando l'intelligenza artificiale.", color = Muted, fontSize = 13.sp, lineHeight = 19.sp)
-                            Spacer(Modifier.height(12.dp))
-                            Row(horizontalArrangement = Arrangement.spacedBy(7.dp)) {
-                                listOf("🧠 Research", "🛠 Builders", "🚀 Frontier").forEach { label ->
-                                    Surface(color = Color.White, shape = RoundedCornerShape(30.dp)) {
-                                        Text(label, modifier = Modifier.padding(horizontal = 10.dp, vertical = 6.dp), color = Muted, fontSize = 10.sp)
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-                item {
-                    Row(verticalAlignment = Alignment.CenterVertically) {
-                        Box(Modifier.size(7.dp).background(if (live) Sage else Terra, RoundedCornerShape(50)))
-                        Spacer(Modifier.width(7.dp))
-                        Text(
-                            when {
-                                live -> "FEED LIVE · FONTI ORIGINALI"
-                                isLoading -> "CARICAMENTO DEL FEED"
-                                else -> "FEED NON DISPONIBILE · RIPROVA"
-                            },
-                            color = Muted, fontSize = 9.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.sp
-                        )
-                    }
-                }
-                items(visible, key = { it.id }) { story ->
-                    Column(
-                        Modifier.fillMaxWidth().background(Color.White, RoundedCornerShape(18.dp))
-                            .clickable { runCatching { context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(story.url))) } }
-                            .padding(17.dp)
-                    ) {
-                        Row(verticalAlignment = Alignment.CenterVertically) {
-                            val icon = when (story.type) {
-                                "github" -> Icons.Default.Code
-                                "speak_up" -> Icons.Default.GraphicEq
-                                else -> Icons.Default.AutoAwesome
-                            }
-                            Icon(icon, null, tint = Terra, modifier = Modifier.size(15.dp))
-                            Spacer(Modifier.width(6.dp))
-                            Text(story.section, color = Terra, fontSize = 9.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.sp)
                         }
                         Spacer(Modifier.height(10.dp))
-                        if (story.type == "speak_up") {
-                            Text(story.source.uppercase() + if (story.duration.isNotBlank()) " · ${story.duration}" else "", color = Sage, fontSize = 10.sp, fontWeight = FontWeight.Bold, letterSpacing = 0.8.sp)
-                            Spacer(Modifier.height(5.dp))
+                        Button(onClick = { synced = true }, colors = ButtonDefaults.buttonColors(containerColor = if (synced) Sage else Ink)) {
+                            if (synced) Icon(Icons.Default.Check, null, modifier = Modifier.size(16.dp))
+                            Text(if (synced) "Account sincronizzato" else "Accedi con Google")
                         }
-                        val localized = story.editorial?.optJSONObject(language)
-                            ?: story.editorial?.optJSONObject("en")
-                            ?: story.editorial?.optJSONObject("it")
-                        val curated = localized != null && story.editorialLevel != "raw_feed"
-                        val displayTitle = if (curated) localized?.optString("title")?.takeIf { it.isNotBlank() } ?: story.title else story.title
-                        val displaySummary = if (curated) localized?.optString("summary")?.takeIf { it.isNotBlank() } ?: story.summary else story.summary
-                        val displayWhy = if (curated) localized?.optString("why_it_matters")?.takeIf { it.isNotBlank() } else null
-                        Surface(color = if (story.editorialLevel == "editors_pick") Ink else Warm, shape = RoundedCornerShape(30.dp)) {
-                            Row(Modifier.padding(horizontal = 9.dp, vertical = 5.dp), verticalAlignment = Alignment.CenterVertically) {
-                                Icon(if (story.editorialLevel == "editors_pick") Icons.Default.Star else Icons.Default.AutoAwesome, null, tint = if (story.editorialLevel == "editors_pick") Color(0xFFF2D69A) else Terra, modifier = Modifier.size(12.dp))
-                                Spacer(Modifier.width(5.dp))
-                                Text(when (story.editorialLevel) { "editors_pick" -> "EDITOR'S PICK"; "ai_curated" -> "AI CURATED"; else -> "RAW FEED" }, color = if (story.editorialLevel == "editors_pick") Color(0xFFF2D69A) else Terra, fontSize = 9.sp, fontWeight = FontWeight.Bold, letterSpacing = 0.8.sp)
-                            }
-                        }
-                        Spacer(Modifier.height(9.dp))
-                        Text(displayTitle, color = Ink, fontSize = 18.sp, lineHeight = 23.sp, fontWeight = FontWeight.SemiBold)
-                        Spacer(Modifier.height(7.dp))
-                        Text(displaySummary, color = Muted, fontSize = 13.sp, lineHeight = 19.sp, maxLines = 5, overflow = TextOverflow.Ellipsis)
-                        if (!displayWhy.isNullOrBlank()) {
-                            Spacer(Modifier.height(9.dp))
-                             Text(
-                                 when (language) {
-                                     "it" -> "PERCHÉ È INTERESSANTE"
-                                     "de" -> "WARUM DAS WICHTIG IST"
-                                     "es" -> "POR QUÉ IMPORTA"
-                                     "zh-CN" -> "为何重要"
-                                     else -> "WHY IT MATTERS"
-                                 },
-                                 color = Terra, fontSize = 9.sp, fontWeight = FontWeight.Bold, letterSpacing = 0.8.sp
-                             )
-                            Text(displayWhy, color = Ink, fontSize = 12.sp, lineHeight = 17.sp)
-                        }
-                        if (story.editorialLevel == "editors_pick" && story.editorPickReason.isNotBlank()) {
-                            Spacer(Modifier.height(6.dp))
-                            Text(story.editorPickReason, color = Sage, fontSize = 11.sp, lineHeight = 16.sp, fontWeight = FontWeight.Medium)
-                        }
-                         Spacer(Modifier.height(12.dp))
-                         audioUrlFor(story, language)?.let { audioUrl ->
-                             TextButton(
-                                 onClick = {
-                                     runCatching {
-                                         context.startActivity(
-                                             Intent(Intent.ACTION_VIEW).apply {
-                                                 setDataAndType(Uri.parse(audioUrl), "audio/*")
-                                             }
-                                         )
-                                     }
-                                 },
-                                 contentPadding = PaddingValues(0.dp)
-                             ) {
-                                 Text(
-                                     if (story.type == "speak_up") stringResource(R.string.listen)
-                                     else stringResource(R.string.audio),
-                                     color = Terra, fontSize = 11.sp, fontWeight = FontWeight.Bold
-                                 )
-                             }
-                         }
-                         Text(stringResource(R.string.source_link, story.source), color = Terra, fontSize = 11.sp, fontWeight = FontWeight.Medium)
-                    }
-                }
-                if (visible.isEmpty()) {
-                    item {
-                        Text(
-                            if (filter == "Speak Up") "Nessun episodio disponibile al momento. Il feed podcast viene aggiornato automaticamente." else "Nessun contenuto in questa sezione. Riprova più tardi.",
-                            color = Muted, fontSize = 13.sp, lineHeight = 19.sp
-                        )
-                    }
-                }
-                item {
-                    Column(
-                        Modifier.fillMaxWidth().padding(top = 18.dp, bottom = 28.dp),
-                        verticalArrangement = Arrangement.spacedBy(7.dp)
-                    ) {
-                        Text("AI PULSE · INDEPENDENT AI JOURNAL", color = Muted, fontSize = 9.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.sp)
-                        Text("Contenuti e collegamenti rimandano sempre alle fonti originali.", color = Muted, fontSize = 11.sp, lineHeight = 16.sp)
-                        Text(
-                            stringResource(R.string.privacy_policy),
-                            color = Terra,
-                            fontSize = 11.sp,
-                            fontWeight = FontWeight.SemiBold,
-                            modifier = Modifier.clickable {
-                                runCatching {
-                                    context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(AppConfig.PRIVACY_URL)))
-                                }
-                            }
-                        )
-                        Text(
-                            stringResource(R.string.editorial_contact),
-                            color = Terra,
-                            fontSize = 11.sp,
-                            fontWeight = FontWeight.SemiBold,
-                            modifier = Modifier.clickable {
-                                runCatching {
-                                    context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(AppConfig.CONTACT_URL)))
-                                }
-                            }
-                        )
-                        Text(
-                            stringResource(R.string.editorial_guidelines),
-                            color = Terra,
-                            fontSize = 11.sp,
-                            fontWeight = FontWeight.SemiBold,
-                            modifier = Modifier.clickable {
-                                runCatching {
-                                    context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(AppConfig.GUIDELINES_URL)))
-                                }
-                            }
-                        )
-                        Text(
-                            stringResource(R.string.contact_email),
-                            color = Terra,
-                            fontSize = 11.sp,
-                            modifier = Modifier.clickable {
-                                runCatching {
-                                    context.startActivity(Intent(Intent.ACTION_SENDTO, Uri.parse(AppConfig.CONTACT_EMAIL)))
-                                }
-                            }
-                        )
-                    }
-                }
-                if (!live && !isLoading) {
-                    item {
-                        Text("Feed temporaneamente non disponibile. Riprova con il pulsante di aggiornamento.", color = Muted, fontSize = 11.sp, lineHeight = 16.sp)
                     }
                 }
             }
+            item {
+                Button(
+                    onClick = { onSave(PulsePreferences(topics, language, curated, synced)) },
+                    modifier = Modifier.fillMaxWidth(),
+                    colors = ButtonDefaults.buttonColors(containerColor = Terra),
+                    shape = RoundedCornerShape(8.dp)
+                ) { Text("Salva Preferenze", fontWeight = FontWeight.Bold) }
+            }
         }
+    }
+}
+
+@Composable
+private fun SectionLabel(text: String) {
+    Text(text, color = Muted, fontSize = 10.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.2.sp)
+    HorizontalDivider(Modifier.padding(vertical = 6.dp), color = Warm)
+}
+
+@Composable
+private fun Footer(context: Context) {
+    Column(Modifier.padding(top = 18.dp, bottom = 20.dp), verticalArrangement = Arrangement.spacedBy(7.dp)) {
+        Text("PULSE AI · INDEPENDENT AI JOURNAL", color = Muted, fontSize = 9.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.sp)
+        Text("Contenuti e collegamenti rimandano sempre alle fonti originali.", color = Muted, fontSize = 11.sp)
+        Text("Privacy Policy", color = Terra, fontSize = 11.sp, modifier = Modifier.clickable { runCatching { context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(AppConfig.PRIVACY_URL))) } })
+        Text("Contatti e informazioni editoriali", color = Terra, fontSize = 11.sp, modifier = Modifier.clickable { runCatching { context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(AppConfig.CONTACT_URL))) } })
     }
 }

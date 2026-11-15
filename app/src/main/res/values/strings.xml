@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">AI Pulse</string>
-    <string name="app_tagline">THE DAILY AI BRIEFING</string>
+    <string name="app_tagline">INTELLIGENCE FOR THE AUTONOMOUS ERA</string>
     <string name="refresh">Aggiorna notizie</string>
     <string name="daily_briefing">DAILY BRIEFING</string>
     <string name="briefing_title">Capire l\'AI.\nUn giorno alla volta.</string>
