@@ -341,32 +341,31 @@ private fun PulseScreen() {
                 Column {
                     HorizontalDivider(color = Warm, thickness = 1.dp)
                     NavigationBar(
-                        modifier = Modifier.height(64.dp),
                         containerColor = Paper,
                         tonalElevation = 0.dp,
                         windowInsets = androidx.compose.material3.NavigationBarDefaults.windowInsets
                     ) {
-                    listOf(
-                        I18n.tr("nav_briefing", preferences.language) to Icons.Default.AutoAwesome,
-                        I18n.tr("nav_radar", preferences.language) to Icons.Default.Explore,
-                        I18n.tr("nav_speak_up", preferences.language) to Icons.Default.VolumeUp,
-                        I18n.tr("nav_my_pulse", preferences.language) to Icons.Default.Person
-                    ).forEachIndexed { index, item ->
-                        NavigationBarItem(
-                            selected = selectedTab == index,
-                            onClick = { selectedTab = index },
-                            icon = { Icon(item.second, contentDescription = item.first) },
-                            label = { Text(item.first, fontSize = 10.sp) },
-                            colors = NavigationBarItemDefaults.colors(
-                                selectedIconColor = Terra,
-                                selectedTextColor = Terra,
-                                indicatorColor = Warm,
-                                unselectedIconColor = Muted,
-                                unselectedTextColor = Muted
+                        listOf(
+                            I18n.tr("nav_briefing", preferences.language) to Icons.Default.AutoAwesome,
+                            I18n.tr("nav_radar", preferences.language) to Icons.Default.Explore,
+                            I18n.tr("nav_speak_up", preferences.language) to Icons.Default.VolumeUp,
+                            I18n.tr("nav_my_pulse", preferences.language) to Icons.Default.Person
+                        ).forEachIndexed { index, item ->
+                            NavigationBarItem(
+                                selected = selectedTab == index,
+                                onClick = { selectedTab = index },
+                                icon = { Icon(item.second, contentDescription = item.first) },
+                                label = { Text(item.first, fontSize = 10.sp) },
+                                colors = NavigationBarItemDefaults.colors(
+                                    selectedIconColor = Terra,
+                                    selectedTextColor = Terra,
+                                    indicatorColor = Color(0xFFE8E4DA),
+                                    unselectedIconColor = Color(0xFF4A453E),
+                                    unselectedTextColor = Color(0xFF4A453E)
+                                )
                             )
-                        )
+                        }
                     }
-                }
                 }
             }
         ) { padding ->
