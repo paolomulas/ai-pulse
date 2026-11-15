@@ -44,6 +44,7 @@ import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.NavigationBar
 import androidx.compose.material3.NavigationBarItem
+import androidx.compose.material3.NavigationBarItemDefaults
 import androidx.compose.material3.RadioButton
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Surface
@@ -78,6 +79,118 @@ private val Ink = Color(0xFF25231F)
 private val Muted = Color(0xFF777166)
 private val Terra = Color(0xFFC6613F)
 private val Sage = Color(0xFF788C5D)
+
+private object I18n {
+    private val values = mapOf(
+        "it" to mapOf(
+            "nav_briefing" to "Briefing", "nav_radar" to "Radar", "nav_speak_up" to "Speak Up", "nav_my_pulse" to "My Pulse",
+            "tagline" to "INTELLIGENCE FOR THE AUTONOMOUS ERA", "refresh" to "Aggiorna",
+            "daily_briefing" to "IL BRIEFING QUOTIDIANO", "briefing_title" to "Intelligenza, senza rumore.",
+            "briefing_subtitle" to "Una selezione ragionata delle idee e dei sistemi che stanno definendo l'era autonoma.",
+            "exclusive" to "ESCLUSIVA", "editors_pick" to "SCELTA DELLA REDAZIONE", "featured_analysis" to "ANALISI IN EVIDENZA",
+            "why_it_matters" to "PERCHÉ CONTA", "source" to "Fonte:", "listen" to "Ascolta",
+            "loading" to "Caricamento delle fonti originali…", "no_stories" to "Nessuna storia corrisponde alle tue preferenze. Aggiorna My Pulse o riprova.",
+            "radar_kicker" to "RADAR", "radar_title" to "Dove si muove l'AI", "radar_subtitle" to "Temi, persone e segnali da tenere d'occhio.",
+            "radar_agents" to "AGENTI AUTONOMI", "radar_agents_body" to "I sistemi che imparano a pianificare, usare strumenti e agire nel mondo.",
+            "radar_models" to "MODELLI DI FRONTIERA", "radar_models_body" to "La corsa ai modelli più capaci, efficienti e aperti.",
+            "radar_creator" to "SIMONE RIZZO · RADAR DEI CREATOR", "radar_creator_body" to "Voci indipendenti che spiegano cosa sta succedendo dietro il prossimo rilascio.",
+            "speak_kicker" to "SPEAK UP", "speak_title" to "Le voci dell'AI", "speak_subtitle" to "Briefing audio e conversazioni per ascoltare la frontiera.",
+            "play_episode" to "Riproduci episodio", "my_pulse_kicker" to "MY PULSE", "my_pulse_title" to "Personalizza il tuo Briefing",
+            "my_pulse_subtitle" to "Scegli cosa vuoi capire ogni mattina.", "topics" to "I TUOI ARGOMENTI",
+            "briefing_language" to "LINGUA DEL BRIEFING", "editorial_level" to "LIVELLO EDITORIALE",
+            "curated_only" to "Solo sintesi curate", "all_news" to "Tutte le notizie", "sync_title" to "Sincronizza il tuo Pulse",
+            "sync_body" to "Accedi con Google per sincronizzare le tue preferenze e ricevere il Briefing mattutino",
+            "sign_in_google" to "Accedi con Google", "synced_account" to "Account sincronizzato", "save" to "Salva Preferenze",
+            "saved" to "Preferenze salvate", "footer_brand" to "PULSE AI · INDEPENDENT AI JOURNAL",
+            "footer_sources" to "Contenuti e collegamenti rimandano sempre alle fonti originali", "privacy" to "Privacy Policy", "contact" to "Contatti",
+            "refresh_content" to "Aggiorna", "topic_agents" to "Agenti Autonomi", "topic_llm" to "LLM & Modelli",
+            "topic_open_source" to "Open Source", "topic_research" to "Ricerca & Sviluppo", "topic_chips" to "Chip & Robotica", "topic_business" to "Business AI"
+        ),
+        "en" to mapOf(
+            "nav_briefing" to "Briefing", "nav_radar" to "Radar", "nav_speak_up" to "Speak Up", "nav_my_pulse" to "My Pulse",
+            "tagline" to "INTELLIGENCE FOR THE AUTONOMOUS ERA", "refresh" to "Refresh", "daily_briefing" to "THE DAILY BRIEFING",
+            "briefing_title" to "Intelligence, without the noise.", "briefing_subtitle" to "A considered selection of the ideas and systems defining the autonomous era.",
+            "exclusive" to "EXCLUSIVE", "editors_pick" to "EDITOR'S PICK", "featured_analysis" to "FEATURED ANALYSIS",
+            "why_it_matters" to "WHY IT MATTERS", "source" to "Source:", "listen" to "Listen", "loading" to "Loading original sources…",
+            "no_stories" to "No story matches your preferences. Update My Pulse or try again.", "radar_kicker" to "RADAR",
+            "radar_title" to "Where AI is moving", "radar_subtitle" to "Topics, people and signals to watch.",
+            "radar_agents" to "AUTONOMOUS AGENTS", "radar_agents_body" to "Systems learning to plan, use tools and act in the world.",
+            "radar_models" to "FRONTIER MODELS", "radar_models_body" to "The race for more capable, efficient and open models.",
+            "radar_creator" to "SIMONE RIZZO · CREATOR RADAR", "radar_creator_body" to "Independent voices explaining what is happening behind the next release.",
+            "speak_kicker" to "SPEAK UP", "speak_title" to "The voices of AI", "speak_subtitle" to "Audio briefings and conversations from the frontier.",
+            "play_episode" to "Play episode", "my_pulse_kicker" to "MY PULSE", "my_pulse_title" to "Customize your Briefing",
+            "my_pulse_subtitle" to "Choose what you want to understand every morning.", "topics" to "YOUR TOPICS",
+            "briefing_language" to "BRIEFING LANGUAGE", "editorial_level" to "EDITORIAL LEVEL", "curated_only" to "Curated summaries only",
+            "all_news" to "All news", "sync_title" to "Sync your Pulse", "sync_body" to "Sign in with Google to sync your preferences and receive the morning Briefing",
+            "sign_in_google" to "Sign in with Google", "synced_account" to "Account synced", "save" to "Save Preferences",
+            "saved" to "Preferences saved", "footer_brand" to "PULSE AI · INDEPENDENT AI JOURNAL",
+            "footer_sources" to "Content and links always point to the original sources", "privacy" to "Privacy Policy", "contact" to "Contact",
+            "refresh_content" to "Refresh", "topic_agents" to "Autonomous Agents", "topic_llm" to "LLM & Models",
+            "topic_open_source" to "Open Source", "topic_research" to "Research & Development", "topic_chips" to "Chips & Robotics", "topic_business" to "Business AI"
+        ),
+        "es" to mapOf(
+            "nav_briefing" to "Briefing", "nav_radar" to "Radar", "nav_speak_up" to "Speak Up", "nav_my_pulse" to "Mi Pulse", "tagline" to "INTELIGENCIA PARA LA ERA AUTÓNOMA",
+            "refresh" to "Actualizar", "daily_briefing" to "EL BRIEFING DIARIO", "briefing_title" to "Inteligencia, sin ruido.",
+            "briefing_subtitle" to "Una selección razonada de las ideas y sistemas que definen la era autónoma.", "exclusive" to "EXCLUSIVA",
+            "editors_pick" to "SELECCIÓN EDITORIAL", "featured_analysis" to "ANÁLISIS DESTACADO", "why_it_matters" to "POR QUÉ IMPORTA",
+            "source" to "Fuente:", "listen" to "Escuchar", "loading" to "Cargando fuentes originales…", "no_stories" to "Ninguna historia coincide con tus preferencias. Actualiza Mi Pulse o inténtalo de nuevo.",
+            "radar_kicker" to "RADAR", "radar_title" to "Dónde se mueve la IA", "radar_subtitle" to "Temas, personas y señales que conviene observar.",
+            "radar_agents" to "AGENTES AUTÓNOMOS", "radar_agents_body" to "Sistemas que aprenden a planificar, usar herramientas y actuar en el mundo.",
+            "radar_models" to "MODELOS DE VANGUARDIA", "radar_models_body" to "La carrera por modelos más capaces, eficientes y abiertos.",
+            "radar_creator" to "SIMONE RIZZO · RADAR DE CREADORES", "radar_creator_body" to "Voces independientes que explican qué ocurre detrás del próximo lanzamiento.",
+            "speak_kicker" to "SPEAK UP", "speak_title" to "Las voces de la IA", "speak_subtitle" to "Briefings de audio y conversaciones para escuchar la frontera.",
+            "play_episode" to "Reproducir episodio", "my_pulse_kicker" to "MI PULSE", "my_pulse_title" to "Personaliza tu Briefing", "my_pulse_subtitle" to "Elige qué quieres entender cada mañana.",
+            "topics" to "TUS TEMAS", "briefing_language" to "IDIOMA DEL BRIEFING", "editorial_level" to "NIVEL EDITORIAL", "curated_only" to "Solo resúmenes seleccionados",
+            "all_news" to "Todas las noticias", "sync_title" to "Sincroniza tu Pulse", "sync_body" to "Accede con Google para sincronizar tus preferencias y recibir el Briefing matutino",
+            "sign_in_google" to "Acceder con Google", "synced_account" to "Cuenta sincronizada", "save" to "Guardar Preferencias", "saved" to "Preferencias guardadas",
+            "footer_brand" to "PULSE AI · REVISTA INDEPENDIENTE DE IA", "footer_sources" to "El contenido y los enlaces siempre remiten a las fuentes originales", "privacy" to "Política de privacidad", "contact" to "Contacto",
+            "refresh_content" to "Actualizar", "topic_agents" to "Agentes Autónomos", "topic_llm" to "LLM y Modelos", "topic_open_source" to "Código Abierto", "topic_research" to "Investigación y Desarrollo", "topic_chips" to "Chips y Robótica", "topic_business" to "Negocios de IA"
+        ),
+        "zh" to mapOf(
+            "nav_briefing" to "简报", "nav_radar" to "雷达", "nav_speak_up" to "AI之声", "nav_my_pulse" to "我的 Pulse", "tagline" to "自主时代的智能",
+            "refresh" to "刷新", "daily_briefing" to "每日简报", "briefing_title" to "智能，摒除噪音。", "briefing_subtitle" to "精选定义自主时代的思想与系统。",
+            "exclusive" to "独家", "editors_pick" to "编辑精选", "featured_analysis" to "重点分析", "why_it_matters" to "核心看点", "source" to "来源:", "listen" to "收听",
+            "loading" to "正在加载原始来源…", "no_stories" to "没有符合您偏好的故事。请更新“我的 Pulse”或重试。", "radar_kicker" to "雷达", "radar_title" to "AI 正在何处发展", "radar_subtitle" to "值得关注的主题、人物与信号。",
+            "radar_agents" to "自主智能体", "radar_agents_body" to "学习规划、使用工具并在现实世界中行动的系统。", "radar_models" to "前沿模型", "radar_models_body" to "更强大、高效且开放的模型竞赛。",
+            "radar_creator" to "SIMONE RIZZO · 创作者雷达", "radar_creator_body" to "独立声音，解读下一次发布背后的动态。", "speak_kicker" to "AI之声", "speak_title" to "AI 的声音", "speak_subtitle" to "聆听前沿的音频简报与对话。",
+            "play_episode" to "播放剧集", "my_pulse_kicker" to "我的 PULSE", "my_pulse_title" to "定制您的简报", "my_pulse_subtitle" to "选择您每天早上想了解的内容。",
+            "topics" to "您的主题", "briefing_language" to "简报语言", "editorial_level" to "编辑级别", "curated_only" to "仅精选摘要", "all_news" to "所有新闻",
+            "sync_title" to "同步您的 Pulse", "sync_body" to "使用 Google 登录，同步您的偏好并接收每日早报", "sign_in_google" to "使用 Google 登录", "synced_account" to "账号已同步", "save" to "保存偏好设置", "saved" to "偏好设置已保存",
+            "footer_brand" to "PULSE AI · 独立人工智能杂志", "footer_sources" to "内容和链接始终指向原始来源", "privacy" to "隐私政策", "contact" to "联系我们", "refresh_content" to "刷新",
+            "topic_agents" to "自主智能体", "topic_llm" to "大语言模型", "topic_open_source" to "开源", "topic_research" to "研发", "topic_chips" to "芯片与机器人", "topic_business" to "AI 商业"
+        ),
+        "de" to mapOf(
+            "nav_briefing" to "Briefing", "nav_radar" to "Radar", "nav_speak_up" to "Speak Up", "nav_my_pulse" to "Mein Pulse", "tagline" to "INTELLIGENZ FÜR DAS AUTONOME ZEITALTER",
+            "refresh" to "Aktualisieren", "daily_briefing" to "DAS TÄGLICHE BRIEFING", "briefing_title" to "Intelligenz, ohne Rauschen.", "briefing_subtitle" to "Eine kuratierte Auswahl der Ideen und Systeme, die das autonome Zeitalter prägen.",
+            "exclusive" to "EXKLUSIV", "editors_pick" to "REDAKTIONSAUSWAHL", "featured_analysis" to "HERVORGEHOBENE ANALYSE", "why_it_matters" to "WARUM ES WICHTIG IST", "source" to "Quelle:", "listen" to "Anhören",
+            "loading" to "Originalquellen werden geladen…", "no_stories" to "Keine Geschichte passt zu Ihren Präferenzen. Aktualisieren Sie My Pulse oder versuchen Sie es erneut.", "radar_kicker" to "RADAR", "radar_title" to "Wo sich die KI bewegt", "radar_subtitle" to "Themen, Personen und Signale, die Sie im Blick behalten sollten.",
+            "radar_agents" to "AUTONOME AGENTEN", "radar_agents_body" to "Systeme, die lernen zu planen, Werkzeuge zu nutzen und in der Welt zu handeln.", "radar_models" to "GRENZMODELLE", "radar_models_body" to "Der Wettlauf um leistungsfähigere, effizientere und offene Modelle.",
+            "radar_creator" to "SIMONE RIZZO · CREATOR-RADAR", "radar_creator_body" to "Unabhängige Stimmen erklären, was hinter der nächsten Veröffentlichung passiert.", "speak_kicker" to "SPEAK UP", "speak_title" to "Die Stimmen der KI", "speak_subtitle" to "Audio-Briefings und Gespräche von der Grenze des Machbaren.",
+            "play_episode" to "Episode abspielen", "my_pulse_kicker" to "MEIN PULSE", "my_pulse_title" to "Passen Sie Ihr Briefing an", "my_pulse_subtitle" to "Wählen Sie, was Sie jeden Morgen verstehen möchten.",
+            "topics" to "IHRE THEMEN", "briefing_language" to "BRIEFING-SPRACHE", "editorial_level" to "REDAKTIONELLES NIVEAU", "curated_only" to "Nur kuratierte Zusammenfassungen", "all_news" to "Alle Nachrichten",
+            "sync_title" to "Synchronisieren Sie Ihren Pulse", "sync_body" to "Melden Sie sich mit Google an, um Ihre Präferenzen zu synchronisieren und das morgendliche Briefing zu erhalten", "sign_in_google" to "Mit Google anmelden", "synced_account" to "Konto synchronisiert", "save" to "Einstellungen speichern", "saved" to "Einstellungen gespeichert",
+            "footer_brand" to "PULSE AI · UNABHÄNGIGES KI-JOURNAL", "footer_sources" to "Inhalte und Links verweisen immer auf die Originalquellen", "privacy" to "Datenschutzrichtlinie", "contact" to "Kontakt", "refresh_content" to "Aktualisieren",
+            "topic_agents" to "Autonome Agenten", "topic_llm" to "LLMs & Modelle", "topic_open_source" to "Open Source", "topic_research" to "Forschung & Entwicklung", "topic_chips" to "Chips & Robotik", "topic_business" to "KI-Geschäft"
+        )
+    )
+
+    fun tr(key: String, lang: String): String = values[lang]?.get(key) ?: values["it"]?.get(key) ?: key
+    fun topic(topic: String, lang: String): String = tr(
+        when (topic) {
+            "Agenti Autonomi" -> "topic_agents"; "LLM & Modelli" -> "topic_llm"; "Open Source" -> "topic_open_source"
+            "Ricerca & Sviluppo" -> "topic_research"; "Chip & Robotica" -> "topic_chips"; else -> "topic_business"
+        }, lang
+    )
+    fun languageName(code: String, lang: String): String = mapOf(
+        "it" to mapOf("it" to "Italiano", "en" to "Italian", "es" to "Italiano", "zh" to "意大利语", "de" to "Italienisch"),
+        "en" to mapOf("it" to "Inglese", "en" to "English", "es" to "Inglés", "zh" to "英语", "de" to "Englisch"),
+        "es" to mapOf("it" to "Spagnolo", "en" to "Spanish", "es" to "Español", "zh" to "西班牙语", "de" to "Spanisch"),
+        "zh" to mapOf("it" to "Cinese", "en" to "Chinese", "es" to "Chino", "zh" to "中文", "de" to "Chinesisch"),
+        "de" to mapOf("it" to "Tedesco", "en" to "German", "es" to "Alemán", "zh" to "德语", "de" to "Deutsch")
+    )[code]?.get(lang) ?: code
+    fun editorial(story: Story, lang: String): JSONObject? = story.editorial?.optJSONObject(if (lang == "zh") "zh-CN" else lang)
+        ?: story.editorial?.optJSONObject(lang) ?: story.editorial?.optJSONObject("en") ?: story.editorial?.optJSONObject("it")
+}
 
 private object AppConfig {
     private const val SITE_BASE_URL = "https://paolomulas.github.io/ai-pulse"
@@ -225,31 +338,46 @@ private fun PulseScreen() {
         Scaffold(
             containerColor = Paper,
             bottomBar = {
-                NavigationBar(containerColor = Color.White) {
+                Column {
+                    HorizontalDivider(color = Warm, thickness = 1.dp)
+                    NavigationBar(
+                        modifier = Modifier.height(64.dp),
+                        containerColor = Paper,
+                        tonalElevation = 0.dp,
+                        windowInsets = androidx.compose.material3.NavigationBarDefaults.windowInsets
+                    ) {
                     listOf(
-                        "Briefing" to Icons.Default.AutoAwesome,
-                        "Radar" to Icons.Default.Explore,
-                        "Speak Up" to Icons.Default.VolumeUp,
-                        "My Pulse" to Icons.Default.Person
+                        I18n.tr("nav_briefing", preferences.language) to Icons.Default.AutoAwesome,
+                        I18n.tr("nav_radar", preferences.language) to Icons.Default.Explore,
+                        I18n.tr("nav_speak_up", preferences.language) to Icons.Default.VolumeUp,
+                        I18n.tr("nav_my_pulse", preferences.language) to Icons.Default.Person
                     ).forEachIndexed { index, item ->
                         NavigationBarItem(
                             selected = selectedTab == index,
                             onClick = { selectedTab = index },
                             icon = { Icon(item.second, contentDescription = item.first) },
-                            label = { Text(item.first, fontSize = 10.sp) }
+                            label = { Text(item.first, fontSize = 10.sp) },
+                            colors = NavigationBarItemDefaults.colors(
+                                selectedIconColor = Terra,
+                                selectedTextColor = Terra,
+                                indicatorColor = Warm,
+                                unselectedIconColor = Muted,
+                                unselectedTextColor = Muted
+                            )
                         )
                     }
+                }
                 }
             }
         ) { padding ->
             when (selectedTab) {
                 0 -> BriefingScreen(stories, preferences, loading, ::refresh, padding)
-                1 -> RadarScreen(padding)
+                1 -> RadarScreen(preferences.language, padding)
                 2 -> SpeakUpScreen(stories, preferences.language, padding)
                 else -> MyPulseScreen(preferences, { newPreferences ->
                     preferences = newPreferences
                     savePreferences(context, newPreferences)
-                    Toast.makeText(context, "Preferenze salvate", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(context, I18n.tr("saved", newPreferences.language), Toast.LENGTH_SHORT).show()
                 }, padding)
             }
         }
@@ -262,7 +390,7 @@ private fun ScreenColumn(padding: PaddingValues, content: @Composable (Modifier)
 }
 
 @Composable
-private fun Masthead(onRefresh: () -> Unit) {
+private fun Masthead(language: String, onRefresh: () -> Unit) {
     Row(
         Modifier.fillMaxWidth().padding(bottom = 18.dp),
         horizontalArrangement = Arrangement.SpaceBetween,
@@ -270,9 +398,9 @@ private fun Masthead(onRefresh: () -> Unit) {
     ) {
         Column {
             Text("PULSE AI", fontFamily = FontFamily.Serif, fontSize = 28.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.5.sp)
-            Text("INTELLIGENCE FOR THE AUTONOMOUS ERA", color = Muted, fontSize = 9.sp, letterSpacing = 1.2.sp)
+            Text(I18n.tr("tagline", language), color = Muted, fontSize = 9.sp, letterSpacing = 1.2.sp)
         }
-        IconButton(onClick = onRefresh) { Icon(Icons.Default.Refresh, "Aggiorna", tint = Terra) }
+        IconButton(onClick = onRefresh) { Icon(Icons.Default.Refresh, I18n.tr("refresh", language), tint = Terra) }
     }
 }
 
@@ -304,13 +432,13 @@ private fun BriefingScreen(
     val hero = visible.firstOrNull()
     ScreenColumn(padding) { modifier ->
         LazyColumn(modifier, contentPadding = PaddingValues(20.dp), verticalArrangement = Arrangement.spacedBy(16.dp)) {
-            item { Masthead(refresh) }
+            item { Masthead(preferences.language, refresh) }
             item {
-                Text("THE DAILY BRIEFING", color = Terra, fontSize = 10.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.6.sp)
+                Text(I18n.tr("daily_briefing", preferences.language), color = Terra, fontSize = 10.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.6.sp)
                 Spacer(Modifier.height(7.dp))
-                Text("Intelligenza, senza rumore.", fontFamily = FontFamily.Serif, fontSize = 32.sp, lineHeight = 36.sp, fontWeight = FontWeight.Bold)
+                Text(I18n.tr("briefing_title", preferences.language), fontFamily = FontFamily.Serif, fontSize = 32.sp, lineHeight = 36.sp, fontWeight = FontWeight.Bold)
                 Spacer(Modifier.height(6.dp))
-                Text("Una selezione ragionata delle idee e dei sistemi che stanno definendo l'era autonoma.", color = Muted, fontSize = 14.sp, lineHeight = 20.sp)
+                Text(I18n.tr("briefing_subtitle", preferences.language), color = Muted, fontSize = 14.sp, lineHeight = 20.sp)
             }
             if (hero != null) {
                 item { StoryCard(hero, preferences.language, true) }
@@ -318,12 +446,12 @@ private fun BriefingScreen(
             } else {
                 item {
                     Text(
-                        if (loading) "Caricamento delle fonti originali…" else "Nessuna storia corrisponde alle tue preferenze. Aggiorna My Pulse o riprova.",
+                        if (loading) I18n.tr("loading", preferences.language) else I18n.tr("no_stories", preferences.language),
                         color = Muted, fontSize = 14.sp, lineHeight = 20.sp
                     )
                 }
             }
-            item { Footer(context) }
+            item { Footer(context, preferences.language) }
         }
     }
 }
@@ -331,9 +459,7 @@ private fun BriefingScreen(
 @Composable
 private fun StoryCard(story: Story, language: String, hero: Boolean) {
     val context = LocalContext.current
-    val localized = story.editorial?.optJSONObject(language)
-        ?: story.editorial?.optJSONObject("en")
-        ?: story.editorial?.optJSONObject("it")
+    val localized = I18n.editorial(story, language)
     val curated = localized != null && story.editorialLevel != "raw_feed"
     val title = if (curated) localized?.optString("title")?.takeIf { it.isNotBlank() } ?: story.title else story.title
     val summary = if (curated) localized?.optString("summary")?.takeIf { it.isNotBlank() } ?: story.summary else story.summary
@@ -345,7 +471,7 @@ private fun StoryCard(story: Story, language: String, hero: Boolean) {
     ) {
         Column(Modifier.padding(if (hero) 22.dp else 17.dp)) {
             Text(
-                if (hero) "EXCLUSIVE" else if (story.editorialLevel == "editors_pick") "EDITOR'S PICK" else "FEATURED ANALYSIS",
+                if (hero) I18n.tr("exclusive", language) else if (story.editorialLevel == "editors_pick") I18n.tr("editors_pick", language) else I18n.tr("featured_analysis", language),
                 color = Terra, fontSize = 10.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.4.sp
             )
             Spacer(Modifier.height(9.dp))
@@ -356,7 +482,7 @@ private fun StoryCard(story: Story, language: String, hero: Boolean) {
                 Spacer(Modifier.height(14.dp))
                 Surface(color = Color.White.copy(alpha = .72f), shape = RoundedCornerShape(4.dp)) {
                     Column(Modifier.padding(12.dp)) {
-                        Text(if (language == "it") "PERCHÉ CONTA" else "WHY IT MATTERS", color = Terra, fontSize = 9.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.sp)
+                        Text(I18n.tr("why_it_matters", language), color = Terra, fontSize = 9.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.sp)
                         Spacer(Modifier.height(4.dp))
                         Text(why, fontSize = 12.sp, lineHeight = 17.sp)
                     }
@@ -364,14 +490,14 @@ private fun StoryCard(story: Story, language: String, hero: Boolean) {
             }
             Spacer(Modifier.height(13.dp))
             Row(verticalAlignment = Alignment.CenterVertically) {
-                Text("Fonte: ${story.source}", color = Terra, fontSize = 11.sp, fontWeight = FontWeight.Medium, modifier = Modifier.weight(1f))
+                Text("${I18n.tr("source", language)} ${story.source}", color = Terra, fontSize = 11.sp, fontWeight = FontWeight.Medium, modifier = Modifier.weight(1f))
                 audioUrlFor(story, language)?.let { audioUrl ->
                     TextButton(onClick = {
                         runCatching { context.startActivity(Intent(Intent.ACTION_VIEW).apply { setDataAndType(Uri.parse(audioUrl), "audio/*") }) }
                     }, contentPadding = PaddingValues(0.dp)) {
                         Icon(Icons.Default.GraphicEq, null, tint = Terra, modifier = Modifier.size(16.dp))
                         Spacer(Modifier.width(4.dp))
-                        Text("Ascolta", color = Terra, fontWeight = FontWeight.Bold)
+                        Text(I18n.tr("listen", language), color = Terra, fontWeight = FontWeight.Bold)
                     }
                 }
             }
@@ -380,18 +506,18 @@ private fun StoryCard(story: Story, language: String, hero: Boolean) {
 }
 
 @Composable
-private fun RadarScreen(padding: PaddingValues) {
+private fun RadarScreen(language: String, padding: PaddingValues) {
     ScreenColumn(padding) { modifier ->
         LazyColumn(modifier, contentPadding = PaddingValues(20.dp), verticalArrangement = Arrangement.spacedBy(14.dp)) {
             item {
-                Text("RADAR", color = Terra, fontSize = 10.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.6.sp)
-                Text("Dove si muove l'AI", fontFamily = FontFamily.Serif, fontSize = 31.sp, fontWeight = FontWeight.Bold)
-                Text("Temi, persone e segnali da tenere d'occhio.", color = Muted, fontSize = 14.sp)
+                Text(I18n.tr("radar_kicker", language), color = Terra, fontSize = 10.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.6.sp)
+                Text(I18n.tr("radar_title", language), fontFamily = FontFamily.Serif, fontSize = 31.sp, fontWeight = FontWeight.Bold)
+                Text(I18n.tr("radar_subtitle", language), color = Muted, fontSize = 14.sp)
             }
             items(listOf(
-                "AGENTI AUTONOMI" to "I sistemi che imparano a pianificare, usare strumenti e agire nel mondo.",
-                "FRONTIER MODELS" to "La corsa ai modelli più capaci, efficienti e aperti.",
-                "SIMONE RIZZO · CREATOR RADAR" to "Voci indipendenti che spiegano cosa sta succedendo dietro il prossimo rilascio."
+                I18n.tr("radar_agents", language) to I18n.tr("radar_agents_body", language),
+                I18n.tr("radar_models", language) to I18n.tr("radar_models_body", language),
+                I18n.tr("radar_creator", language) to I18n.tr("radar_creator_body", language)
             )) { (kicker, body) ->
                 Card(colors = CardDefaults.cardColors(containerColor = Color.White), shape = RoundedCornerShape(16.dp)) {
                     Column(Modifier.padding(18.dp)) {
@@ -413,9 +539,9 @@ private fun SpeakUpScreen(stories: List<Story>, language: String, padding: Paddi
         LazyColumn(modifier, contentPadding = PaddingValues(20.dp), verticalArrangement = Arrangement.spacedBy(14.dp)) {
             item {
                 Icon(Icons.Default.VolumeUp, null, tint = Terra, modifier = Modifier.size(28.dp))
-                Text("SPEAK UP", color = Terra, fontSize = 10.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.6.sp)
-                Text("Le voci dell'AI", fontFamily = FontFamily.Serif, fontSize = 31.sp, fontWeight = FontWeight.Bold)
-                Text("Briefing audio e conversazioni per ascoltare la frontiera.", color = Muted, fontSize = 14.sp)
+                Text(I18n.tr("speak_kicker", language), color = Terra, fontSize = 10.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.6.sp)
+                Text(I18n.tr("speak_title", language), fontFamily = FontFamily.Serif, fontSize = 31.sp, fontWeight = FontWeight.Bold)
+                Text(I18n.tr("speak_subtitle", language), color = Muted, fontSize = 14.sp)
             }
             items(episodes, key = { it.id }) { story ->
                 Card(colors = CardDefaults.cardColors(containerColor = Color.White), shape = RoundedCornerShape(16.dp)) {
@@ -429,7 +555,7 @@ private fun SpeakUpScreen(stories: List<Story>, language: String, padding: Paddi
                             TextButton(onClick = { runCatching { context.startActivity(Intent(Intent.ACTION_VIEW).apply { setDataAndType(Uri.parse(url), "audio/*") }) } }, contentPadding = PaddingValues(0.dp)) {
                                 Icon(Icons.Default.GraphicEq, null, tint = Terra)
                                 Spacer(Modifier.width(5.dp))
-                                Text("Riproduci episodio", color = Terra, fontWeight = FontWeight.Bold)
+                                Text(I18n.tr("play_episode", language), color = Terra, fontWeight = FontWeight.Bold)
                             }
                         }
                     }
@@ -449,36 +575,37 @@ private fun MyPulseScreen(
     var language by remember(saved) { mutableStateOf(saved.language) }
     var curated by remember(saved) { mutableStateOf(saved.curatedOnly) }
     var synced by remember(saved) { mutableStateOf(saved.synced) }
+    val uiLanguage = language
     ScreenColumn(padding) { modifier ->
         LazyColumn(modifier, contentPadding = PaddingValues(20.dp), verticalArrangement = Arrangement.spacedBy(18.dp)) {
             item {
-                Text("MY PULSE", color = Terra, fontSize = 10.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.6.sp)
-                Text("Personalizza il tuo Briefing", fontFamily = FontFamily.Serif, fontSize = 30.sp, lineHeight = 34.sp, fontWeight = FontWeight.Bold)
-                Text("Scegli cosa vuoi capire ogni mattina.", color = Muted, fontSize = 14.sp)
+                Text(I18n.tr("my_pulse_kicker", uiLanguage), color = Terra, fontSize = 10.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.6.sp)
+                Text(I18n.tr("my_pulse_title", uiLanguage), fontFamily = FontFamily.Serif, fontSize = 30.sp, lineHeight = 34.sp, fontWeight = FontWeight.Bold)
+                Text(I18n.tr("my_pulse_subtitle", uiLanguage), color = Muted, fontSize = 14.sp)
             }
             item {
-                SectionLabel("I TUOI ARGOMENTI")
+                SectionLabel(I18n.tr("topics", uiLanguage))
                 topicOptions.forEach { topic ->
                     Row(Modifier.fillMaxWidth().clickable {
                         topics = if (topic in topics) topics - topic else topics + topic
                     }, verticalAlignment = Alignment.CenterVertically) {
                         Checkbox(checked = topic in topics, onCheckedChange = { checked -> topics = if (checked) topics + topic else topics - topic })
-                        Text(topic, fontSize = 14.sp)
+                        Text(I18n.topic(topic, uiLanguage), fontSize = 14.sp)
                     }
                 }
             }
             item {
-                SectionLabel("LINGUA DEL BRIEFING")
-                listOf("it" to "Italiano", "en" to "English", "es" to "Español", "zh" to "中文", "de" to "Deutsch").forEach { (code, label) ->
-                    Row(Modifier.fillMaxWidth().clickable { language = code }, verticalAlignment = Alignment.CenterVertically) {
-                        RadioButton(selected = language == code, onClick = { language = code })
-                        Text("${code.uppercase()}  $label", fontSize = 14.sp)
+                SectionLabel(I18n.tr("briefing_language", uiLanguage))
+                    listOf("it", "en", "es", "zh", "de").forEach { code ->
+                        Row(Modifier.fillMaxWidth().clickable { language = code }, verticalAlignment = Alignment.CenterVertically) {
+                            RadioButton(selected = language == code, onClick = { language = code })
+                            Text("${code.uppercase()}  ${I18n.languageName(code, uiLanguage)}", fontSize = 14.sp)
+                        }
                     }
-                }
             }
             item {
-                SectionLabel("LIVELLO EDITORIALE")
-                listOf(true to "Solo Sintesi Curate (Curated)", false to "Tutte le Notizie (All Feed)").forEach { (value, label) ->
+                SectionLabel(I18n.tr("editorial_level", uiLanguage))
+                listOf(true to I18n.tr("curated_only", uiLanguage), false to I18n.tr("all_news", uiLanguage)).forEach { (value, label) ->
                     Row(Modifier.fillMaxWidth().clickable { curated = value }, verticalAlignment = Alignment.CenterVertically) {
                         RadioButton(selected = curated == value, onClick = { curated = value })
                         Text(label, fontSize = 14.sp)
@@ -494,14 +621,14 @@ private fun MyPulseScreen(
                             }
                             Spacer(Modifier.width(10.dp))
                             Column(Modifier.weight(1f)) {
-                                Text("Sincronizza il tuo Pulse", fontWeight = FontWeight.Bold)
-                                Text("Accedi con Google per sincronizzare le tue preferenze e ricevere il Briefing mattutino", color = Muted, fontSize = 12.sp, lineHeight = 17.sp)
+                                Text(I18n.tr("sync_title", uiLanguage), fontWeight = FontWeight.Bold)
+                                Text(I18n.tr("sync_body", uiLanguage), color = Muted, fontSize = 12.sp, lineHeight = 17.sp)
                             }
                         }
                         Spacer(Modifier.height(10.dp))
                         Button(onClick = { synced = true }, colors = ButtonDefaults.buttonColors(containerColor = if (synced) Sage else Ink)) {
                             if (synced) Icon(Icons.Default.Check, null, modifier = Modifier.size(16.dp))
-                            Text(if (synced) "Account sincronizzato" else "Accedi con Google")
+                            Text(if (synced) I18n.tr("synced_account", uiLanguage) else I18n.tr("sign_in_google", uiLanguage))
                         }
                     }
                 }
@@ -512,7 +639,7 @@ private fun MyPulseScreen(
                     modifier = Modifier.fillMaxWidth(),
                     colors = ButtonDefaults.buttonColors(containerColor = Terra),
                     shape = RoundedCornerShape(8.dp)
-                ) { Text("Salva Preferenze", fontWeight = FontWeight.Bold) }
+                ) { Text(I18n.tr("save", uiLanguage), fontWeight = FontWeight.Bold) }
             }
         }
     }
@@ -525,11 +652,11 @@ private fun SectionLabel(text: String) {
 }
 
 @Composable
-private fun Footer(context: Context) {
+private fun Footer(context: Context, language: String) {
     Column(Modifier.padding(top = 18.dp, bottom = 20.dp), verticalArrangement = Arrangement.spacedBy(7.dp)) {
-        Text("PULSE AI · INDEPENDENT AI JOURNAL", color = Muted, fontSize = 9.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.sp)
-        Text("Contenuti e collegamenti rimandano sempre alle fonti originali.", color = Muted, fontSize = 11.sp)
-        Text("Privacy Policy", color = Terra, fontSize = 11.sp, modifier = Modifier.clickable { runCatching { context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(AppConfig.PRIVACY_URL))) } })
-        Text("Contatti e informazioni editoriali", color = Terra, fontSize = 11.sp, modifier = Modifier.clickable { runCatching { context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(AppConfig.CONTACT_URL))) } })
+        Text(I18n.tr("footer_brand", language), color = Muted, fontSize = 9.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.sp)
+        Text(I18n.tr("footer_sources", language), color = Muted, fontSize = 11.sp)
+        Text(I18n.tr("privacy", language), color = Terra, fontSize = 11.sp, modifier = Modifier.clickable { runCatching { context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(AppConfig.PRIVACY_URL))) } })
+        Text(I18n.tr("contact", language), color = Terra, fontSize = 11.sp, modifier = Modifier.clickable { runCatching { context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(AppConfig.CONTACT_URL))) } })
     }
 }
