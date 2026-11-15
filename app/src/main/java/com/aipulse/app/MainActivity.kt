@@ -25,6 +25,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
@@ -44,7 +45,16 @@ private val Ink = Color(0xFF25231F)
 private val Muted = Color(0xFF777166)
 private val Terra = Color(0xFFC6613F)
 private val Sage = Color(0xFF788C5D)
-private const val FEED_URL = "https://raw.githubusercontent.com/paolomulas/ai-pulse/main/public/feed.json"
+
+private object AppConfig {
+    // Switch this base URL to https://pulseai.info when the custom domain is live.
+    private const val SITE_BASE_URL = "https://paolomulas.github.io/ai-pulse"
+    const val FEED_URL = "https://raw.githubusercontent.com/paolomulas/ai-pulse/main/public/feed.json"
+    const val PRIVACY_URL = "$SITE_BASE_URL/privacy.html"
+    const val CONTACT_URL = "$SITE_BASE_URL/contact.html"
+    const val GUIDELINES_URL = "$SITE_BASE_URL/editorial-guidelines.html"
+    const val CONTACT_EMAIL = "mailto:paolomulas@gmail.com"
+}
 
 private data class Story(
     val id: String,
@@ -57,13 +67,16 @@ private data class Story(
     val duration: String = "",
     val language: String = "en",
     val podcastCategory: String = "frontier",
+    val audioUrl: String = "",
+    val ttsAudioUrl: String = "",
+    val ttsAudioByLanguage: JSONObject? = null,
     val editorial: JSONObject? = null,
     val editorialLevel: String = "raw_feed",
     val editorPickReason: String = ""
 )
 
 private suspend fun loadFeed(): List<Story> = withContext(Dispatchers.IO) {
-    val connection = (URL(FEED_URL).openConnection() as HttpURLConnection).apply {
+    val connection = (URL(AppConfig.FEED_URL).openConnection() as HttpURLConnection).apply {
         connectTimeout = 10000
         readTimeout = 15000
         requestMethod = "GET"
@@ -99,6 +112,9 @@ private suspend fun loadFeed(): List<Story> = withContext(Dispatchers.IO) {
                         duration = item.optString("duration"),
                         language = item.optString("language", "en"),
                         podcastCategory = item.optString("podcastCategory", "frontier"),
+                        audioUrl = item.optString("audioUrl"),
+                        ttsAudioUrl = item.optString("ttsAudioUrl"),
+                        ttsAudioByLanguage = item.optJSONObject("ttsAudioByLanguage"),
                         editorial = item.optJSONObject("editorial"),
                         editorialLevel = item.optString("editorial_level", "raw_feed"),
                         editorPickReason = item.optString("editor_pick_reason")
@@ -110,6 +126,13 @@ private suspend fun loadFeed(): List<Story> = withContext(Dispatchers.IO) {
         connection.disconnect()
     }
 }
+
+private fun audioUrlFor(story: Story, language: String): String? =
+    story.audioUrl.takeIf { it.isNotBlank() }
+        ?: story.ttsAudioByLanguage?.optString(language)?.takeIf { it.isNotBlank() }
+        ?: story.ttsAudioByLanguage?.optString("en")?.takeIf { it.isNotBlank() }
+        ?: story.ttsAudioByLanguage?.optString("it")?.takeIf { it.isNotBlank() }
+        ?: story.ttsAudioUrl.takeIf { it.isNotBlank() }
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -188,20 +211,20 @@ private fun PulseScreen() {
                             PulseGlyph()
                             Spacer(Modifier.width(9.dp))
                             Column {
-                                Text("AI PULSE", fontSize = 21.sp, fontWeight = FontWeight.ExtraBold, color = Ink, letterSpacing = 1.sp)
-                                Text("THE DAILY AI BRIEFING", fontSize = 9.sp, color = Muted, letterSpacing = 1.4.sp)
+                                 Text(stringResource(R.string.app_name).uppercase(), fontSize = 21.sp, fontWeight = FontWeight.ExtraBold, color = Ink, letterSpacing = 1.sp)
+                                 Text(stringResource(R.string.app_tagline), fontSize = 9.sp, color = Muted, letterSpacing = 1.4.sp)
                             }
                         }
-                        IconButton(onClick = { filter = "Tutto"; refreshFeed() }) { Icon(Icons.Default.Refresh, "Aggiorna notizie", tint = Terra) }
+                         IconButton(onClick = { filter = "Tutto"; refreshFeed() }) { Icon(Icons.Default.Refresh, stringResource(R.string.refresh), tint = Terra) }
                     }
                 }
                 item {
                     Column(Modifier.fillMaxWidth().background(Warm, RoundedCornerShape(22.dp)).padding(20.dp)) {
-                        Text("DAILY BRIEFING", color = Terra, fontSize = 10.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.5.sp)
+                         Text(stringResource(R.string.daily_briefing), color = Terra, fontSize = 10.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.5.sp)
                         Spacer(Modifier.height(8.dp))
-                        Text("Capire l'AI.\nUn giorno alla volta.", color = Ink, fontSize = 29.sp, lineHeight = 34.sp, fontWeight = FontWeight.SemiBold)
+                         Text(stringResource(R.string.briefing_title), color = Ink, fontSize = 29.sp, lineHeight = 34.sp, fontWeight = FontWeight.SemiBold)
                         Spacer(Modifier.height(8.dp))
-                        Text("Notizie, idee e progetti che stanno muovendo il mondo dell'intelligenza artificiale.", color = Muted, fontSize = 14.sp, lineHeight = 20.sp)
+                         Text(stringResource(R.string.briefing_summary), color = Muted, fontSize = 14.sp, lineHeight = 20.sp)
                     }
                 }
                 item {
@@ -213,13 +236,13 @@ private fun PulseScreen() {
                 }
                 item {
                     Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                        Text("LINGUA", color = Muted, fontSize = 9.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.sp)
+                         Text(stringResource(R.string.language), color = Muted, fontSize = 9.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.sp)
                         Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
                             listOf("it" to "🇮🇹 IT", "en" to "🇬🇧 EN", "es" to "🇪🇸 ES", "zh-CN" to "🇨🇳 中文", "de" to "🇩🇪 DE").forEach { (code, label) ->
                                 FilterChip(selected = language == code, onClick = { language = code }, label = { Text(label, fontSize = 10.sp) })
                             }
                         }
-                        Text("LIVELLO EDITORIALE", color = Muted, fontSize = 9.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.sp)
+                         Text(stringResource(R.string.editorial_level), color = Muted, fontSize = 9.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.sp)
                         Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
                             listOf("editorial" to "Selezionati", "all" to "Tutti", "raw_feed" to "Raw", "ai_curated" to "AI Curated", "editors_pick" to "Pick").forEach { (code, label) ->
                                 FilterChip(selected = levelFilter == code, onClick = { levelFilter = code }, label = { Text(label, fontSize = 10.sp) })
@@ -286,7 +309,9 @@ private fun PulseScreen() {
                             Text(story.source.uppercase() + if (story.duration.isNotBlank()) " · ${story.duration}" else "", color = Sage, fontSize = 10.sp, fontWeight = FontWeight.Bold, letterSpacing = 0.8.sp)
                             Spacer(Modifier.height(5.dp))
                         }
-                        val localized = story.editorial?.optJSONObject(language) ?: story.editorial?.optJSONObject("it")
+                        val localized = story.editorial?.optJSONObject(language)
+                            ?: story.editorial?.optJSONObject("en")
+                            ?: story.editorial?.optJSONObject("it")
                         val curated = localized != null && story.editorialLevel != "raw_feed"
                         val displayTitle = if (curated) localized?.optString("title")?.takeIf { it.isNotBlank() } ?: story.title else story.title
                         val displaySummary = if (curated) localized?.optString("summary")?.takeIf { it.isNotBlank() } ?: story.summary else story.summary
@@ -304,15 +329,44 @@ private fun PulseScreen() {
                         Text(displaySummary, color = Muted, fontSize = 13.sp, lineHeight = 19.sp, maxLines = 5, overflow = TextOverflow.Ellipsis)
                         if (!displayWhy.isNullOrBlank()) {
                             Spacer(Modifier.height(9.dp))
-                            Text(when (language) { "it" -> "PERCHÉ È INTERESSANTE"; "de" -> "WARUM DAS WICHTIG IST"; else -> "WHY IT MATTERS" }, color = Terra, fontSize = 9.sp, fontWeight = FontWeight.Bold, letterSpacing = 0.8.sp)
+                             Text(
+                                 when (language) {
+                                     "it" -> "PERCHÉ È INTERESSANTE"
+                                     "de" -> "WARUM DAS WICHTIG IST"
+                                     "es" -> "POR QUÉ IMPORTA"
+                                     "zh-CN" -> "为何重要"
+                                     else -> "WHY IT MATTERS"
+                                 },
+                                 color = Terra, fontSize = 9.sp, fontWeight = FontWeight.Bold, letterSpacing = 0.8.sp
+                             )
                             Text(displayWhy, color = Ink, fontSize = 12.sp, lineHeight = 17.sp)
                         }
                         if (story.editorialLevel == "editors_pick" && story.editorPickReason.isNotBlank()) {
                             Spacer(Modifier.height(6.dp))
                             Text(story.editorPickReason, color = Sage, fontSize = 11.sp, lineHeight = 16.sp, fontWeight = FontWeight.Medium)
                         }
-                        Spacer(Modifier.height(12.dp))
-                        Text("Fonte: ${story.source}  ·  Apri ↗", color = Terra, fontSize = 11.sp, fontWeight = FontWeight.Medium)
+                         Spacer(Modifier.height(12.dp))
+                         audioUrlFor(story, language)?.let { audioUrl ->
+                             TextButton(
+                                 onClick = {
+                                     runCatching {
+                                         context.startActivity(
+                                             Intent(Intent.ACTION_VIEW).apply {
+                                                 setDataAndType(Uri.parse(audioUrl), "audio/*")
+                                             }
+                                         )
+                                     }
+                                 },
+                                 contentPadding = PaddingValues(0.dp)
+                             ) {
+                                 Text(
+                                     if (story.type == "speak_up") stringResource(R.string.listen)
+                                     else stringResource(R.string.audio),
+                                     color = Terra, fontSize = 11.sp, fontWeight = FontWeight.Bold
+                                 )
+                             }
+                         }
+                         Text(stringResource(R.string.source_link, story.source), color = Terra, fontSize = 11.sp, fontWeight = FontWeight.Medium)
                     }
                 }
                 if (visible.isEmpty()) {
@@ -331,45 +385,45 @@ private fun PulseScreen() {
                         Text("AI PULSE · INDEPENDENT AI JOURNAL", color = Muted, fontSize = 9.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.sp)
                         Text("Contenuti e collegamenti rimandano sempre alle fonti originali.", color = Muted, fontSize = 11.sp, lineHeight = 16.sp)
                         Text(
-                            "Privacy Policy ↗",
+                            stringResource(R.string.privacy_policy),
                             color = Terra,
                             fontSize = 11.sp,
                             fontWeight = FontWeight.SemiBold,
                             modifier = Modifier.clickable {
                                 runCatching {
-                                    context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://paolomulas.github.io/ai-pulse/privacy.html")))
+                                    context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(AppConfig.PRIVACY_URL)))
                                 }
                             }
                         )
                         Text(
-                            "Contatti e informazioni editoriali ↗",
+                            stringResource(R.string.editorial_contact),
                             color = Terra,
                             fontSize = 11.sp,
                             fontWeight = FontWeight.SemiBold,
                             modifier = Modifier.clickable {
                                 runCatching {
-                                    context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://paolomulas.github.io/ai-pulse/contact.html")))
+                                    context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(AppConfig.CONTACT_URL)))
                                 }
                             }
                         )
                         Text(
-                            "Linee editoriali ↗",
+                            stringResource(R.string.editorial_guidelines),
                             color = Terra,
                             fontSize = 11.sp,
                             fontWeight = FontWeight.SemiBold,
                             modifier = Modifier.clickable {
                                 runCatching {
-                                    context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://paolomulas.github.io/ai-pulse/editorial-guidelines.html")))
+                                    context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(AppConfig.GUIDELINES_URL)))
                                 }
                             }
                         )
                         Text(
-                            "Contatti: paolomulas@gmail.com",
+                            stringResource(R.string.contact_email),
                             color = Terra,
                             fontSize = 11.sp,
                             modifier = Modifier.clickable {
                                 runCatching {
-                                    context.startActivity(Intent(Intent.ACTION_SENDTO, Uri.parse("mailto:paolomulas@gmail.com")))
+                                    context.startActivity(Intent(Intent.ACTION_SENDTO, Uri.parse(AppConfig.CONTACT_EMAIL)))
                                 }
                             }
                         )
