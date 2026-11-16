@@ -121,6 +121,7 @@ private object I18n {
             "refresh_content" to "Aggiorna", "topic_agents" to "Agenti Autonomi", "topic_llm" to "LLM & Modelli",
              "topic_open_source" to "Open Source", "topic_research" to "Ricerca & Sviluppo", "topic_chips" to "Chip & Robotica", "topic_business" to "Business AI",
              "morning_edition" to "EDIZIONE MATTINA", "top_story" to "STORIA IN EVIDENZA", "key_takeaways" to "PUNTI CHIAVE", "share" to "Condividi", "open_source_link" to "Apri fonte originale ↗", "read_time" to "MIN DI LETTURA"
+             ,"git_filter_all" to "Tutti", "git_filter_weekly" to "⚡ Trending Settimana", "git_filter_monthly" to "🌟 Top Mese"
         ),
         "en" to mapOf(
             "nav_briefing" to "Briefing", "nav_radar" to "Radar", "nav_speak_up" to "Speak Up", "nav_my_pulse" to "My Pulse",
@@ -147,7 +148,8 @@ private object I18n {
             "footer_sources" to "Content and links always point to the original sources", "privacy" to "Privacy Policy", "contact" to "Contact",
             "refresh_content" to "Refresh", "topic_agents" to "Autonomous Agents", "topic_llm" to "LLM & Models",
              "topic_open_source" to "Open Source", "topic_research" to "Research & Development", "topic_chips" to "Chips & Robotics", "topic_business" to "Business AI",
-             "morning_edition" to "MORNING EDITION", "top_story" to "TOP STORY", "key_takeaways" to "KEY TAKEAWAYS", "share" to "Share", "open_source_link" to "Open original source ↗", "read_time" to "MIN READ"
+              "morning_edition" to "MORNING EDITION", "top_story" to "TOP STORY", "key_takeaways" to "KEY TAKEAWAYS", "share" to "Share", "open_source_link" to "Open original source ↗", "read_time" to "MIN READ"
+              ,"git_filter_all" to "All", "git_filter_weekly" to "⚡ Weekly Trending", "git_filter_monthly" to "🌟 Monthly Top"
         ),
         "es" to mapOf(
             "nav_briefing" to "Briefing", "nav_radar" to "Radar", "nav_speak_up" to "Speak Up", "nav_my_pulse" to "Mi Pulse", "tagline" to "INTELIGENCIA PARA LA ERA AUTÓNOMA",
@@ -170,7 +172,8 @@ private object I18n {
             "sign_in_google" to "Acceder con Google", "synced_account" to "Cuenta sincronizada", "save" to "Guardar Preferencias", "saved" to "Preferencias guardadas",
             "footer_brand" to "PULSE AI · REVISTA INDEPENDIENTE DE IA", "footer_sources" to "El contenido y los enlaces siempre remiten a las fuentes originales", "privacy" to "Política de privacidad", "contact" to "Contacto",
              "refresh_content" to "Actualizar", "topic_agents" to "Agentes Autónomos", "topic_llm" to "LLM y Modelos", "topic_open_source" to "Código Abierto", "topic_research" to "Investigación y Desarrollo", "topic_chips" to "Chips y Robótica", "topic_business" to "Negocios de IA",
-             "morning_edition" to "EDICIÓN DE LA MAÑANA", "top_story" to "HISTORIA DESTACADA", "key_takeaways" to "PUNTOS CLAVE", "share" to "Compartir", "open_source_link" to "Abrir fuente original ↗", "read_time" to "MIN DE LECTURA"
+              "morning_edition" to "EDICIÓN DE LA MAÑANA", "top_story" to "HISTORIA DESTACADA", "key_takeaways" to "PUNTOS CLAVE", "share" to "Compartir", "open_source_link" to "Abrir fuente original ↗", "read_time" to "MIN DE LECTURA"
+              ,"git_filter_all" to "Todos", "git_filter_weekly" to "⚡ Tendencias Semana", "git_filter_monthly" to "🌟 Top Mes"
         ),
         "zh" to mapOf(
             "nav_briefing" to "简报", "nav_radar" to "雷达", "nav_speak_up" to "AI之声", "nav_my_pulse" to "我的 Pulse", "tagline" to "自主时代的智能",
@@ -188,7 +191,8 @@ private object I18n {
             "sync_title" to "同步您的 Pulse", "sync_body" to "使用 Google 登录，同步您的偏好并接收每日早报", "sign_in_google" to "使用 Google 登录", "synced_account" to "账号已同步", "save" to "保存偏好设置", "saved" to "偏好设置已保存",
             "footer_brand" to "PULSE AI · 独立人工智能杂志", "footer_sources" to "内容和链接始终指向原始来源", "privacy" to "隐私政策", "contact" to "联系我们", "refresh_content" to "刷新",
              "topic_agents" to "自主智能体", "topic_llm" to "大语言模型", "topic_open_source" to "开源", "topic_research" to "研发", "topic_chips" to "芯片与机器人", "topic_business" to "AI 商业",
-             "morning_edition" to "早间版", "top_story" to "重点故事", "key_takeaways" to "关键要点", "share" to "分享", "open_source_link" to "打开原始来源 ↗", "read_time" to "分钟阅读"
+              "morning_edition" to "早间版", "top_story" to "重点故事", "key_takeaways" to "关键要点", "share" to "分享", "open_source_link" to "打开原始来源 ↗", "read_time" to "分钟阅读"
+              ,"git_filter_all" to "全部", "git_filter_weekly" to "⚡ 本周热门", "git_filter_monthly" to "🌟 本月精选"
         ),
         "de" to mapOf(
             "nav_briefing" to "Briefing", "nav_radar" to "Radar", "nav_speak_up" to "Speak Up", "nav_my_pulse" to "Mein Pulse", "tagline" to "INTELLIGENZ FÜR DAS AUTONOME ZEITALTER",
@@ -206,7 +210,8 @@ private object I18n {
             "sync_title" to "Synchronisieren Sie Ihren Pulse", "sync_body" to "Melden Sie sich mit Google an, um Ihre Präferenzen zu synchronisieren und das morgendliche Briefing zu erhalten", "sign_in_google" to "Mit Google anmelden", "synced_account" to "Konto synchronisiert", "save" to "Einstellungen speichern", "saved" to "Einstellungen gespeichert",
             "footer_brand" to "PULSE AI · UNABHÄNGIGES KI-JOURNAL", "footer_sources" to "Inhalte und Links verweisen immer auf die Originalquellen", "privacy" to "Datenschutzrichtlinie", "contact" to "Kontakt", "refresh_content" to "Aktualisieren",
              "topic_agents" to "Autonome Agenten", "topic_llm" to "LLMs & Modelle", "topic_open_source" to "Open Source", "topic_research" to "Forschung & Entwicklung", "topic_chips" to "Chips & Robotik", "topic_business" to "KI-Geschäft",
-             "morning_edition" to "MORGENAUSGABE", "top_story" to "TOP-STORY", "key_takeaways" to "DIE WICHTIGSTEN PUNKTE", "share" to "Teilen", "open_source_link" to "Originalquelle öffnen ↗", "read_time" to "MIN LESEZEIT"
+              "morning_edition" to "MORGENAUSGABE", "top_story" to "TOP-STORY", "key_takeaways" to "DIE WICHTIGSTEN PUNKTE", "share" to "Teilen", "open_source_link" to "Originalquelle öffnen ↗", "read_time" to "MIN LESEZEIT"
+              ,"git_filter_all" to "Alle", "git_filter_weekly" to "⚡ Trending Woche", "git_filter_monthly" to "🌟 Top Monat"
         )
     )
 
@@ -254,8 +259,12 @@ private data class Story(
     val editorial: JSONObject? = null,
     val editorialLevel: String = "raw_feed",
     val editorPickReason: String = "",
-    val relevanceScore: Int = 0,
-    val keyTakeaways: List<String> = emptyList(),
+     val relevanceScore: Int = 0,
+     val hypeVelocity: Double? = null,
+     val hypeScore: Int = 0,
+     val hypeLabel: String = "",
+     val period: String = "",
+     val keyTakeaways: List<String> = emptyList(),
     val extendedAnalysis: String = ""
 )
 
@@ -341,8 +350,12 @@ private suspend fun loadFeed(): List<Story> = withContext(Dispatchers.IO) {
                     duration = item.optString("duration"),
                     language = item.optString("language"),
                      audioUrl = item.optString("audioUrl"),
-                     stars = item.optInt("stars", 0),
-                    ttsAudioUrl = item.optString("ttsAudioUrl"),
+                      stars = item.optInt("stars", 0),
+                     hypeVelocity = item.optDouble("hype_velocity", Double.NaN).takeIf { !it.isNaN() },
+                     hypeScore = item.optInt("hype_score", 0),
+                     hypeLabel = item.optString("hype_label"),
+                     period = item.optString("period"),
+                     ttsAudioUrl = item.optString("ttsAudioUrl"),
                     ttsAudioByLanguage = item.optJSONObject("ttsAudioByLanguage"),
                      editorial = editorial,
                      editorialLevel = item.optString("editorial_level", "raw_feed"),
@@ -747,11 +760,63 @@ private fun ReaderView(story: Story, language: String, onClose: () -> Unit) {
 private fun formatStars(stars: Int): String =
     if (stars >= 1000) "★ %.1fk".format(Locale.US, stars / 1000.0) else "★ $stars"
 
+private fun formatVelocity(velocity: Double): String =
+    "+${String.format(Locale.US, "%.0f", velocity)} stars/day"
+
+private fun isPeriod(story: Story, period: String): Boolean =
+    story.period.equals(period, ignoreCase = true)
+
+@Composable
+private fun HypeBadge(story: Story) {
+    val explosive = story.hypeLabel.contains("EXPLOSIVE", ignoreCase = true) || story.hypeScore >= 85
+    val trending = explosive || story.hypeLabel.contains("TRENDING", ignoreCase = true) || story.hypeScore >= 55
+    if (!explosive && !trending && story.hypeVelocity == null && story.period.isBlank()) return
+
+    Column(verticalArrangement = Arrangement.spacedBy(5.dp)) {
+        if (explosive || trending) {
+            Surface(
+                color = if (explosive) Color(0xFFFFE0C2) else Color(0xFFFFF1D2),
+                shape = RoundedCornerShape(50),
+                border = androidx.compose.foundation.BorderStroke(1.dp, if (explosive) Color(0xFFE8794F) else Color(0xFFE2B24A))
+            ) {
+                Text(
+                    if (explosive) "🔥 EXPLOSIVE HYPE" else "⚡ TRENDING",
+                    modifier = Modifier.padding(horizontal = 9.dp, vertical = 5.dp),
+                    color = if (explosive) Color(0xFFB94D2E) else Color(0xFF9A6A00),
+                    fontSize = 10.sp,
+                    fontWeight = FontWeight.Bold
+                )
+            }
+        }
+        Row(horizontalArrangement = Arrangement.spacedBy(5.dp), verticalAlignment = Alignment.CenterVertically) {
+            story.hypeVelocity?.let { velocity ->
+                Text(formatVelocity(velocity), color = Terra, fontSize = 11.sp, fontWeight = FontWeight.Bold)
+            }
+            if (story.period.equals("weekly", ignoreCase = true) || story.period.equals("monthly", ignoreCase = true)) {
+                Surface(color = Warm, shape = RoundedCornerShape(50)) {
+                    Text(
+                        if (story.period.equals("weekly", ignoreCase = true)) "SETTIMANA" else "MESE",
+                        modifier = Modifier.padding(horizontal = 7.dp, vertical = 4.dp),
+                        color = Muted, fontSize = 9.sp, fontWeight = FontWeight.Bold
+                    )
+                }
+            }
+        }
+    }
+}
+
 @Composable
 private fun RadarScreen(stories: List<Story>, language: String, padding: PaddingValues) {
     val context = LocalContext.current
     var selectedTab by remember { mutableStateOf(0) }
-    val repositories = stories.filter { it.type == "github" }.sortedByDescending { it.stars }
+    var gitFilter by remember { mutableStateOf(0) }
+    val repositories = stories.filter { story ->
+        story.type == "github" && when (gitFilter) {
+            1 -> isPeriod(story, "weekly")
+            2 -> isPeriod(story, "monthly")
+            else -> true
+        }
+    }.sortedWith(compareByDescending<Story> { it.hypeScore }.thenByDescending { it.hypeVelocity ?: 0.0 }.thenByDescending { it.stars })
     val radarStories = stories.filter { it.type != "github" && it.type != "speak_up" }
     ScreenColumn(padding) { modifier ->
         LazyColumn(modifier, contentPadding = PaddingValues(20.dp), verticalArrangement = Arrangement.spacedBy(14.dp)) {
@@ -813,6 +878,32 @@ private fun RadarScreen(stories: List<Story>, language: String, padding: Padding
                     }
                 }
             } else {
+                item {
+                    Row(
+                        Modifier.fillMaxWidth().background(Warm, RoundedCornerShape(20.dp)).padding(3.dp),
+                        horizontalArrangement = Arrangement.spacedBy(3.dp)
+                    ) {
+                        listOf("git_filter_all", "git_filter_weekly", "git_filter_monthly").forEachIndexed { index, key ->
+                            Surface(
+                                Modifier.weight(1f).clickable { gitFilter = index },
+                                color = if (gitFilter == index) Color.White else Color.Transparent,
+                                shape = RoundedCornerShape(18.dp),
+                                shadowElevation = if (gitFilter == index) 1.dp else 0.dp
+                            ) {
+                                Text(
+                                    I18n.tr(key, language),
+                                    modifier = Modifier.padding(horizontal = 4.dp, vertical = 8.dp),
+                                    color = if (gitFilter == index) Ink else Muted,
+                                    fontSize = 10.sp,
+                                    fontWeight = if (gitFilter == index) FontWeight.Bold else FontWeight.Medium,
+                                    textAlign = TextAlign.Center,
+                                    maxLines = 2,
+                                    overflow = TextOverflow.Ellipsis
+                                )
+                            }
+                        }
+                    }
+                }
                 items(repositories, key = { it.id }) { story ->
                     Card(
                         Modifier.fillMaxWidth().clickable {
@@ -825,11 +916,13 @@ private fun RadarScreen(stories: List<Story>, language: String, padding: Padding
                             Row(verticalAlignment = Alignment.CenterVertically) {
                                 Text(story.title, modifier = Modifier.weight(1f), fontFamily = FontFamily.Serif, fontSize = 20.sp, fontWeight = FontWeight.Bold)
                                 Spacer(Modifier.width(8.dp))
-                                Surface(color = Warm, shape = RoundedCornerShape(6.dp)) {
-                                    Text(formatStars(story.stars), modifier = Modifier.padding(horizontal = 8.dp, vertical = 5.dp), color = Terra, fontSize = 12.sp, fontWeight = FontWeight.Bold)
-                                }
-                            }
-                            if (story.language.isNotBlank()) {
+                                 Surface(color = Warm, shape = RoundedCornerShape(6.dp)) {
+                                     Text(formatStars(story.stars), modifier = Modifier.padding(horizontal = 8.dp, vertical = 5.dp), color = Terra, fontSize = 12.sp, fontWeight = FontWeight.Bold)
+                                 }
+                             }
+                             Spacer(Modifier.height(9.dp))
+                             HypeBadge(story)
+                             if (story.language.isNotBlank()) {
                                 Spacer(Modifier.height(6.dp))
                                 Text(story.language, color = Sage, fontSize = 11.sp, fontWeight = FontWeight.Bold)
                             }
