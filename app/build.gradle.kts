@@ -16,12 +16,13 @@ val releaseSigningConfigured = uploadKeystore.exists() &&
 android {
     namespace = "com.aipulse.app"
     compileSdk = 36
+    buildToolsVersion = "36.0.0"
     defaultConfig {
         applicationId = "com.aipulse.app"
         minSdk = 26
         targetSdk = 36
-        versionCode = 3
-        versionName = "0.3.0"
+        versionCode = 4
+        versionName = "1.0.0"
     }
     if (releaseSigningConfigured) {
         signingConfigs {

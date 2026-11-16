@@ -8,6 +8,55 @@
       "weight": 10
     },
     {
+      "name": "Datapizza · Editorial Radar",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCKssZEARhK7TT_5DEZmtMpw",
+      "channel_url": "https://www.youtube.com/@datapizza",
+      "kind": "creator_radar",
+      "weight": 10
+    },
+    {
+      "name": "Matthew Berman · Creator Radar",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCawZsQWqfGSbCI5yjkdVkTA",
+      "channel_url": "https://www.youtube.com/@matthew_berman",
+      "kind": "creator_radar",
+      "weight": 10
+    },
+    {
+      "name": "AI Explained · Creator Radar",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
+      "channel_url": "https://www.youtube.com/@aiexplained-official",
+      "kind": "creator_radar",
+      "weight": 10
+    },
+    {
+      "name": "Yannic Kilcher · Creator Radar",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCZHmQk67mSJgfCCTn7xBfew",
+      "channel_url": "https://www.youtube.com/@YannicKilcher",
+      "kind": "creator_radar",
+      "weight": 10
+    },
+    {
+      "name": "Wes Roth · Creator Radar",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCqcbQf6yw5KzRoDDcZ_wBSw",
+      "channel_url": "https://www.youtube.com/@WesRoth",
+      "kind": "creator_radar",
+      "weight": 10
+    },
+    {
+      "name": "Two Minute Papers · Creator Radar",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
+      "channel_url": "https://www.youtube.com/@twominutepapers",
+      "kind": "creator_radar",
+      "weight": 10
+    },
+    {
+      "name": "David Ondrej · Creator Radar",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCPGrgwfbkjTIgPoOh2q1BAg",
+      "channel_url": "https://www.youtube.com/@davidondrej",
+      "kind": "creator_radar",
+      "weight": 10
+    },
+    {
       "name": "OpenAI News",
       "url": "https://openai.com/news/rss.xml",
       "kind": "official",

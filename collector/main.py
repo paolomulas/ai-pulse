@@ -57,6 +57,37 @@ PROMOTIONAL_OR_SOCIAL_DOMAINS = {
     "x.com", "twitter.com", "tiktok.com", "patreon.com", "rizzoaiacademy.com"
 }
 MAX_CREATOR_SOURCE_ITEMS = 8
+CREATOR_RADAR_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.5-flash-lite")
+
+IMPACT_KEYWORDS = (
+    "breakthrough", "reasoning", "open weights", "benchmark", "sota",
+    "autonomous agent", "agentic", "architecture", "frontier", "scaling",
+    "multimodal", "gpt-5", "claude", "gemini", "deepseek",
+)
+
+def compute_impact_score(item):
+    """Return a deterministic editorial priority score for a collected item."""
+    score = 0
+    source_kind = str(item.get("sourceKind", "")).lower()
+    source_text = " ".join((str(item.get(field, "")) for field in ("sourceUrl", "sourceName"))).lower()
+    if source_kind == "primary_source":
+        score += 40
+    if any(name in source_text for name in ("openai", "deepmind", "anthropic", "meta", "arxiv")):
+        score += 35
+    elif any(name in source_text for name in ("techcrunch", "venturebeat", "technologyreview")):
+        score += 25
+    else:
+        score += 15
+
+    try:
+        stars = int(item.get("stars") or 0)
+    except (TypeError, ValueError):
+        stars = 0
+    score += 35 if stars > 5000 else 25 if stars > 1000 else 15 if stars > 200 else 5 if stars > 0 else 0
+
+    text = " ".join((str(item.get(field, "")) for field in ("title", "summary"))).lower()
+    keyword_points = sum(7 for keyword in IMPACT_KEYWORDS if keyword in text)
+    return score + min(keyword_points, 25)
 
 def approved_primary_url(url):
     try:
@@ -120,40 +151,79 @@ def fetch_primary_page(url):
         print(f"WARN primary source fetch {url}: {exc}")
         return None
 
-def resolve_creator_radar(leads, existing_urls=None):
-    """Turn video-discovered primary links into original-source stories; never emit videos."""
+def gemini_resolve_creator_lead(lead, api_key):
+    """Classify a creator video and resolve it to one fetched, primary-source story."""
+    prompt = f"""You are an AI technology news fact checker. Analyze this creator video lead.
+Decide whether it reports a genuine external AI technology news event, model release,
+benchmark, breakthrough, or research paper. Reject courses, tutorials, prompt tips,
+academy pitches, sponsorships, affiliate content, and personal-opinion vlogs without
+an external technical release (is_news must be false).
+If it is news, select or infer the exact canonical URL of the primary technical source:
+an arXiv paper, GitHub repository, or official announcement from the relevant company.
+Ignore YouTube, social, affiliate, and promotional URLs. Do not invent a URL.
+Return ONLY valid JSON with this exact shape:
+{{"is_news": false, "primary_source_url": null, "subject": "", "confidence": 0,
+"rejection_reason": ""}}
+
+CREATOR: {lead.get('sourceName', '')}
+VIDEO TITLE: {lead.get('title', '')}
+FULL DESCRIPTION:
+{lead.get('summary', '')}
+"""
+    endpoint = f"https://generativelanguage.googleapis.com/v1beta/models/{CREATOR_RADAR_MODEL}:generateContent"
+    response = requests.post(endpoint, params={"key": api_key}, json={
+        "contents": [{"parts": [{"text": prompt}]}],
+        "generationConfig": {"responseMimeType": "application/json", "maxOutputTokens": 800}
+    }, headers=HEADERS, timeout=45)
+    response.raise_for_status()
+    data = response.json()
+    text = data["candidates"][0]["content"]["parts"][0]["text"]
+    result = json.loads(text)
+    if not result.get("is_news"):
+        return None
+    url = result.get("primary_source_url")
+    confidence = float(result.get("confidence", 0) or 0)
+    if not url or confidence < 0.5 or not approved_primary_url(url):
+        return None
+    page = fetch_primary_page(url)
+    if not page:
+        return None
+    source_url = page["url"]
+    return {
+        "id": item_id(source_url), "type": "news", "title": page["title"],
+        "summary": page["description"] or page["evidence"][:900],
+        "sourceName": primary_source_name(source_url), "sourceUrl": source_url,
+        "publishedAt": lead.get("publishedAt"), "collectedAt": iso_now(),
+        "sourceKind": "primary_source", "sourceWeight": 10, "priorityScore": 40,
+        "sourceEvidence": page["evidence"],
+        "sourceVerificationLevel": "official_primary_page_fetched",
+        "radarSubject": clean_text(result.get("subject", ""), 400),
+        "tags": ["AI", "SCOUTED VIA RADAR"],
+        "attribution": primary_source_name(source_url)
+    }
+
+def resolve_creator_radar(leads, api_key=None, existing_urls=None):
+    """Turn video leads into original-source stories; never emit videos."""
     existing = set(existing_urls or [])
     created, seen = [], set()
+    if not api_key:
+        print("Creator radar: Gemini disabled; video posts suppressed")
+        return created
     for lead in leads:
-        for candidate in lead.get("primarySourceCandidates", []):
-            if len(created) >= MAX_CREATOR_SOURCE_ITEMS:
-                break
-            if not approved_primary_url(candidate):
+        if len(created) >= MAX_CREATOR_SOURCE_ITEMS:
+            break
+        try:
+            item = gemini_resolve_creator_lead(lead, api_key)
+            if not item:
                 continue
-            page = fetch_primary_page(candidate)
-            if not page:
-                continue
-            source_url = page["url"]
+            source_url = item["sourceUrl"]
             key = canonical(source_url)
             if key in existing or key in seen:
                 continue
             seen.add(key)
-            created.append({
-                "id": item_id(source_url),
-                "type": "news",
-                "title": page["title"],
-                "summary": page["description"] or page["evidence"][:900],
-                "sourceName": primary_source_name(source_url),
-                "sourceUrl": source_url,
-                "publishedAt": lead.get("publishedAt"),
-                "collectedAt": iso_now(),
-                "sourceKind": "primary_source",
-                "sourceWeight": 10,
-                "sourceEvidence": page["evidence"],
-                "sourceVerificationLevel": "official_primary_page_fetched",
-                "tags": ["AI", "PRIMARY SOURCE"],
-                "attribution": primary_source_name(source_url)
-            })
+            created.append(item)
+        except Exception as exc:
+            print(f"WARN Gemini creator radar {lead.get('title', '')}: {exc}")
     print(f"Creator radar: {len(leads)} discovery videos; {len(created)} original-source pages fetched; video posts suppressed")
     return created
 
@@ -169,9 +239,7 @@ def collect_rss():
                 if not url.startswith("https://"):
                     continue
                 raw_summary = entry.get("summary", entry.get("description", "")) or ""
-                summary_text = clean_text(raw_summary)
-                candidate_links = list(dict.fromkeys(re.findall(r'https?://\S+', html.unescape(raw_summary))))
-                candidate_links = [u.rstrip(".,);]") for u in candidate_links if urlsplit(u).netloc.lower() not in {"youtube.com", "www.youtube.com", "youtu.be"}]
+                summary_text = clean_text(raw_summary, 12000 if source.get("kind") == "creator_radar" else 1800)
                 item = {
                     "id": item_id(url), "type": "news",
                     "title": clean_text(entry.get("title", "Senza titolo"), 400),
@@ -180,7 +248,6 @@ def collect_rss():
                     "publishedAt": published(entry), "collectedAt": iso_now(),
                     "sourceKind": source.get("kind", "newsroom"),
                     "sourceWeight": source.get("weight", 5),
-                    "primarySourceCandidates": candidate_links[:12] if source.get("kind") == "creator_radar" else [],
                     "tags": ["AI", "CREATOR RADAR"] if source.get("kind") == "creator_radar" else ["AI"],
                     "attribution": source["name"]
                 }
@@ -191,7 +258,8 @@ def collect_rss():
         except Exception as exc:
             print(f"WARN {source['name']}: {exc}")
     existing_urls = {canonical(item.get("sourceUrl", "")) for item in out if item.get("sourceUrl")}
-    out.extend(resolve_creator_radar(creator_leads, existing_urls))
+    api_key = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
+    out.extend(resolve_creator_radar(creator_leads, api_key, existing_urls))
     return out
 
 def collect_podcasts():
@@ -230,32 +298,59 @@ def collect_podcasts():
 
 def collect_github():
     out, seen = [], set()
-    since = (datetime.now(timezone.utc) - timedelta(days=30)).date().isoformat()
+    today = datetime.now(timezone.utc)
+    since_7d = (today - timedelta(days=7)).date().isoformat()
+    since_30d = (today - timedelta(days=30)).date().isoformat()
+    searches = (
+        ("weekly", f"created:>{since_7d} sort:stars"),
+        ("weekly", f"pushed:>{since_7d} sort:stars"),
+        ("monthly", f"created:>{since_30d} stars:>200 sort:stars"),
+        ("monthly", f"pushed:>{since_30d} stars:>200 sort:stars"),
+    )
     for term in CONFIG.get("github_queries", []):
-        try:
-            response = requests.get(
-                "https://api.github.com/search/repositories",
-                params={"q": f"{term} pushed:>{since}", "sort": "updated", "order": "desc", "per_page": 20},
-                headers=HEADERS, timeout=20
-            )
-            response.raise_for_status()
-            for repo in response.json().get("items", []):
-                url = repo.get("html_url")
-                if not url or url in seen:
-                    continue
-                seen.add(url)
-                out.append({
-                    "id": item_id(url), "type": "github",
-                    "title": repo.get("full_name", repo.get("name", "Repository")),
-                    "summary": clean_text(repo.get("description") or "Repository open source"),
-                    "sourceName": "GitHub", "sourceUrl": url,
-                    "publishedAt": repo.get("created_at"), "collectedAt": iso_now(),
-                    "stars": repo.get("stargazers_count", 0), "forks": repo.get("forks_count", 0),
-                    "pushedAt": repo.get("pushed_at"), "language": repo.get("language"),
-                    "tags": ["AI", "OPEN SOURCE"], "attribution": repo.get("full_name")
-                })
-        except Exception as exc:
-            print(f"WARN GitHub query {term}: {exc}")
+        for period, qualifier in searches:
+            try:
+                response = requests.get(
+                    "https://api.github.com/search/repositories",
+                    params={"q": f"{term} {qualifier}", "per_page": 20},
+                    headers=HEADERS, timeout=20
+                )
+                response.raise_for_status()
+                for repo in response.json().get("items", []):
+                    url = repo.get("html_url")
+                    if not url or url in seen:
+                        continue
+                    seen.add(url)
+                    try:
+                        created_at = datetime.fromisoformat(repo["created_at"].replace("Z", "+00:00"))
+                        days_since_creation = max(1, (today - created_at).total_seconds() / 86400)
+                    except (KeyError, TypeError, ValueError):
+                        days_since_creation = 1
+                    stars = int(repo.get("stargazers_count") or 0)
+                    velocity = stars / days_since_creation
+                    # A logarithmic scale keeps exceptional projects at 100 while
+                    # preserving useful separation among ordinary repositories.
+                    hype_score = min(100, round(20 * (velocity ** 0.5)))
+                    hype_label = (
+                        "EXPLOSIVE HYPE" if hype_score >= 85 else
+                        "TRENDING" if hype_score >= 55 else
+                        f"+{round(velocity)} stars/day"
+                    )
+                    out.append({
+                        "id": item_id(url), "type": "github",
+                        "title": repo.get("full_name", repo.get("name", "Repository")),
+                        "summary": clean_text(repo.get("description") or "Repository open source"),
+                        "sourceName": "GitHub", "sourceUrl": url,
+                        "publishedAt": repo.get("created_at"), "collectedAt": iso_now(),
+                        "stars": stars, "forks": repo.get("forks_count", 0),
+                        "hype_velocity": round(velocity, 2), "hype_score": hype_score,
+                        "hype_label": hype_label, "period": period,
+                        "pushedAt": repo.get("pushed_at"), "language": repo.get("language"),
+                        "tags": ["AI", "OPEN SOURCE", f"POP_GIT_{period.upper()}"],
+                        "attribution": repo.get("full_name")
+                    })
+            except Exception as exc:
+                print(f"WARN GitHub {period} query {term}: {exc}")
     return out
 
 # Editorial schema v3: five localized magazine-style versions plus long-form detail fields.
@@ -375,6 +470,9 @@ def enrich_records(records):
     daily = cache.setdefault("daily", {})
     if daily.get("date") != today:
         daily.update({"date": today, "count": 0, "picks": 0})
+    for item in records:
+        item["impact_score"] = compute_impact_score(item)
+
     if not api_key:
         for item in records:
             item.setdefault("editorial_level", "raw_feed")
@@ -416,11 +514,15 @@ def enrich_records(records):
         if item_type in by_type:
             by_type[item_type].append(candidate)
 
+    for candidates_for_type in by_type.values():
+        candidates_for_type.sort(key=lambda pair: pair[0].get("impact_score", 0), reverse=True)
+
     # Give priority to original-source stories discovered through the creator radar.
     # Their creator videos themselves never enter the publication queue.
-    by_type["news"].sort(
-        key=lambda pair: 0 if pair[0].get("sourceKind") == "primary_source" else 1
-    )
+    by_type["news"].sort(key=lambda pair: (
+        pair[0].get("sourceKind") != "primary_source",
+        -pair[0].get("impact_score", 0),
+    ))
 
     remaining_daily = max(0, EDITORIAL_DAILY_LIMIT - int(daily.get("count", 0)))
     remaining_run = min(EDITORIAL_MAX_PER_RUN, remaining_daily)
