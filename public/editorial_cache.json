@@ -3817,7 +3817,7 @@
     },
     "c0ea33f4bb9725ae73cda1dcdc0942d1f2132757f61ba37d54f982564759842d": {
       "fingerprint": "f7228d0544ea6d462304097ba8e6d8c654759ba0e3aaf675e41fbeb19c8f3084",
-      "retry_after": "2026-11-13T02:54:33.101940+00:00"
+      "retry_after": "2026-11-16T13:18:40.618863+00:00"
     },
     "49e27b8370c0db1aae1a84cdc423f7f869a742cda44ac43d500cbdc5639e8487": {
       "fingerprint": "b4a868c55552f561240cf57a611bcd28cfcc8025dd1fa6bac0c469b73ff76e53",
@@ -15223,11 +15223,290 @@
         "relevance_score": 45,
         "editor_pick_reason": ""
       }
+    },
+    "55ff14dc4213127df72a8039620109cd467ed21c91f1958dfd8ce815a783074c": {
+      "fingerprint": "97a0ef5f698293776e3a71234ca7dff37ac860d72c5f583a454a3edb4fab632c",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "L'architettura AI di JioStar a quota 500 milioni di utenti",
+            "summary": "Vijay Seshadri, capo architetto di JioStar, condivora le sfide della scoperta basata sull'intelligenza artificiale per una platea di 500 milioni di utenti. L'analisi si concentra su valutazioni, barriere di sicurezza e sul percorso per portare l'AI in produzione.",
+            "why_it_matters": "Comprendere come gestire l'intelligenza artificiale a una scala così massiccia offre lezioni cruciali per l'intero settore tecnologico.",
+            "extended_analysis": "In questo approfondimento, Vijay Seshadri illustra le strategie adottate da JioStar per gestire sistemi di AI in ambienti di produzione complessi. Vengono esaminati aspetti chiave come l'efficacia dei sistemi di valutazione (evals) e l'implementazione di rigorosi meccanismi di controllo.\n\nLa crescita verso i 500 milioni di utenti richiede un'infrastruttura solida e una gestione attenta dei rischi legati all'affidabilità e alla sicurezza. Le lezioni apprese offrono uno spaccato prezioso sulle sfide ingegneristiche necessarie per scalare l'intelligenza artificiale.",
+            "context": "La pubblicazione fa luce sulle pratiche ingegneristiche applicate da grandi aziende per distribuire servizi basati su AI a centinaia di milioni di persone senza compromettere la stabilità.",
+            "key_takeaways": [
+              "Gestione dell'AI a una scala di 500 milioni di utenti.",
+              "Lezioni pratiche su valutazioni e barriere di sicurezza.",
+              "Strategie per portare l'intelligenza artificiale in produzione."
+            ],
+            "highlights": [
+              "Intervista a Vijay Seshadri, capo architetto di JioStar.",
+              "Pubblicato da OpenAI News nel novembre 2026."
+            ]
+          },
+          "en": {
+            "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+            "summary": "Vijay Seshadri explains AI discovery at a scale of 500 million users. The insights cover evaluations, guardrails, and the practicalities of bringing AI systems into production.",
+            "why_it_matters": "Scaling artificial intelligence to hundreds of millions of users presents unique engineering challenges that offer vital lessons for the industry.",
+            "extended_analysis": "Vijay Seshadri details the architectural and operational realities of implementing AI-driven discovery for a massive user base. The discussion highlights the importance of robust evaluation frameworks and safety guardrails.\n\nAs organizations push AI into large-scale production, understanding these deployment lessons helps navigate reliability, user experience, and safety constraints at unprecedented volumes.",
+            "context": "The publication provides an inside look at how large-scale platforms address the complexities of deploying production-grade AI systems.",
+            "key_takeaways": [
+              "AI discovery architecture for 500 million users.",
+              "Implementation lessons on evaluations and guardrails.",
+              "Real-world insights on production deployment."
+            ],
+            "highlights": [
+              "Insights shared by JioStar chief architect Vijay Seshadri.",
+              "Source published by OpenAI News."
+            ]
+          },
+          "es": {
+            "title": "El arquitecto jefe de JioStar sobre la IA a escala de 500M",
+            "summary": "Vijay Seshadri explica el descubrimiento impulsado por IA a una escala de 500 millones de usuarios. Sus lecciones abordan evaluaciones, barreras de seguridad y la producción.",
+            "why_it_matters": "Llevar la inteligencia artificial a cientos de millones de usuarios requiere superar desafíos de ingeniería cruciales para el ecosistema tecnológico.",
+            "extended_analysis": "Vijay Seshadri comparte la experiencia de JioStar en la gestión de sistemas de IA para una base masiva de usuarios. El análisis aborda los métodos de evaluación y las salvaguardas necesarias para mantener la estabilidad.\n\nA medida que más organizaciones adoptan arquitecturas a gran escala, estas lecciones prácticas ofrecen una guía fundamental sobre la transición de la IA hacia entornos de producción.",
+            "context": "El artículo examina los aspectos prácticos y los retos técnicos de operar sistemas de inteligencia artificial para audiencias masivas.",
+            "key_takeaways": [
+              "Descubrimiento mediante IA a escala de 500 millones de usuarios.",
+              "Enfoques sobre evaluaciones y mecanismos de seguridad.",
+              "Lecciones prácticas para llevar la IA a producción."
+            ],
+            "highlights": [
+              "Declaraciones de Vijay Seshadri, arquitecto jefe de JioStar.",
+              "Publicado en OpenAI News."
+            ]
+          },
+          "zh-CN": {
+            "title": "JioStar首席架构师谈5亿用户规模的AI搜索与发现",
+            "summary": "JioStar的维杰·塞谢adri（Vijay Seshadri）解析了在5亿用户规模下实现AI发现的经验。文章探讨了评估体系、安全护栏以及将AI投入生产环境的实践。",
+            "why_it_matters": "将人工智能扩展至数亿用户规模面临着独特的工程挑战，这些经验为整个行业提供了宝贵的参考。",
+            "extended_analysis": "维杰·塞谢adri详细阐述了JioStar在支撑庞大用户群体时所面临的架构与运营现实。讨论重点关注了评估框架的重要性以及确保系统安全运行的防护机制。\n\n随着企业不断推动AI走向大规模生产，理解这些部署经验有助于在空前的体量下解决可靠性与安全性问题。",
+            "context": "该发布内容揭示了大规模平台在部署生产级AI系统时如何应对技术复杂性。",
+            "key_takeaways": [
+              "面向5亿用户的AI发现架构设计。",
+              "关于评估与安全护栏的实践经验。",
+              "将人工智能推向生产环境的真实见解。"
+            ],
+            "highlights": [
+              "由JioStar首席架构师Vijay Seshadri分享。",
+              "由OpenAI News发布。"
+            ]
+          },
+          "de": {
+            "title": "JioStars Chefarchitekt über KI-Entdeckung bei 500M Nutzern",
+            "summary": "Vijay Seshadri erklärt KI-gestützte Entdeckung im Maßstab von 500 Millionen Nutzern. Er teilt Einblicke zu Evaluierungen, Leitplanken und dem produktiven Einsatz von KI.",
+            "why_it_matters": "Die Skalierung von künstlicher Intelligenz auf Hunderte Millionen Nutzer bringt enorme ingenieurtechnische Herausforderungen mit sich.",
+            "extended_analysis": "Vijay Seshadri erläutert die architektonischen und operativen Realitäten bei der Implementierung von KI-Systemen für eine massive Nutzerbasis. Im Mittelpunkt stehen robuste Evaluierungsrahmen und Sicherheitsvorkehrungen.\n\nSolche Einblicke helfen Organisationen dabei, die Komplexität und Zuverlässigkeitsanforderungen beim Übergang von KI in den Produktivbetrieb zu meistern.",
+            "context": "Der Beitrag beleuchtet, wie große Plattformen die technischen und operativen Hürden beim Betrieb von produktionsreifem KI-Systemen bewältigen.",
+            "key_takeaways": [
+              "KI-Entdeckung für 500 Millionen Nutzer.",
+              "Praktische Lehren zu Evaluierungen und Sicherheitsleitplanken.",
+              "Einblicke in den produktiven KI-Einsatz."
+            ],
+            "highlights": [
+              "Bereitgestellt von JioStar-Chefarchitekt Vijay Seshadri.",
+              "Veröffentlicht von OpenAI News."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 68,
+        "editor_pick_reason": ""
+      }
+    },
+    "df9c4f59d1422a1b4dce54ce88fd0bdcaa40073acabf7d98f395847361868609": {
+      "fingerprint": "2a85dcf45d4eaa271bb8086110f6fe3aaceaf0bedd65505ec112f3cf35d08ff4",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "SneppX-alg: Framework IA open-source in C/C++ e CUDA",
+            "summary": "Rilasciato SneppX-alg, un framework di algoritmi IA universale e open-source scritto in C/C++ e CUDA. Include un motore tensor, autograd, modelli MoE/SSM transformers e un model zoo per LLM.",
+            "why_it_matters": "Offre agli sviluppatori una soluzione in linguaggio nativo per gestire modelli avanzati, quantizzazione, addestramento distribuito e sicurezza dell'IA.",
+            "extended_analysis": "Il framework sviluppato da SneppX si propone come una soluzione versatile per l'implementazione di algoritmi di intelligenza artificiale ad alte prestazioni. Sfruttando C/C++ e CUDA, la libreria punta a ottimizzare l'efficienza computazionale attraverso un motore tensor dedicato e capacità di autograd.\n\nLa struttura include il supporto per architetture complesse come i transformer MoE e SSM, oltre a un model zoo che comprende famiglie di modelli di grandi dimensioni come LLaMA, Mistral, Qwen e DeepSeek. Sono inoltre presenti moduli per la quantizzazione, il training distribuito e livelli di sicurezza dedicati.",
+            "context": "Lo sviluppo di framework in linguaggi di basso livello come C e C++ risponde alla crescente esigenza di ottimizzare le prestazioni e ridurre i costi di calcolo nell'addestramento e nell'inferenza dei modelli linguistici.",
+            "key_takeaways": [
+              "Framework open-source sviluppato in C/C++ e CUDA.",
+              "Supporta modelli MoE/SSM e include un model zoo per LLM (LLaMA, Mistral, Qwen, DeepSeek).",
+              "Integra funzioni di quantizzazione, addestramento distribuito e sicurezza."
+            ],
+            "highlights": [
+              "Motore tensor e autograd nativi.",
+              "Include 10 livelli di sicurezza per l'IA."
+            ]
+          },
+          "en": {
+            "title": "SneppX-alg: Open-Source AI Algorithm Framework in C/C++ & CUDA",
+            "summary": "SneppX-alg is a universal open-source AI algorithm framework built in C/C++ and CUDA. It features a tensor engine, autograd, MoE/SSM transformers, and an extensive LLM model zoo.",
+            "why_it_matters": "It provides developers with native-level tooling for managing complex architectures, quantization, distributed training, and multi-layer AI security.",
+            "extended_analysis": "The SneppX repository introduces a comprehensive framework designed for high-performance artificial intelligence workflows. By leveraging C/C++ and CUDA, it aims to deliver efficient tensor operations and automatic differentiation.\n\nThe architecture supports Mixture of Experts (MoE) and State Space Model (SSM) transformers, alongside support for popular large language models including LLaMA, Mistral, Qwen, and DeepSeek. Additional capabilities cover model quantization, distributed training infrastructure, and integrated security layers.",
+            "context": "Building open-source AI frameworks in lower-level languages like C and C++ allows developers to bypass some Python-related overhead, focusing on high-speed execution and hardware-level optimization.",
+            "key_takeaways": [
+              "Universal open-source framework written in C/C++ and CUDA.",
+              "Features built-in tensor engine, autograd, and transformer support (MoE/SSM).",
+              "Includes a model zoo for major LLMs such as LLaMA, Mistral, Qwen, and DeepSeek."
+            ],
+            "highlights": [
+              "Supports quantization and distributed training.",
+              "Features 10 layers of AI security."
+            ]
+          },
+          "es": {
+            "title": "SneppX-alg: Framework de IA open-source en C/C++ y CUDA",
+            "summary": "Presentación de SneppX-alg, un framework universal de algoritmos de IA en C/C++ y CUDA que incluye motor de tensores, autograd, transformers MoE/SSM y un zoo de modelos LLM.",
+            "why_it_matters": "Ofrece herramientas de nivel nativo para abordar tareas complejas como cuantización, entrenamiento distribuido y seguridad avanzada en IA.",
+            "extended_analysis": "El proyecto SneppX-alg ofrece una infraestructura robusta para el desarrollo y ejecución de algoritmos de inteligencia artificial utilizando C/C++ y CUDA. Su diseño incorpora un motor de tensores y autograd para optimizar el rendimiento computacional.\n\nLa plataforma integra soporte para arquitecturas de transformers MoE y SSM, además de un zoo de modelos que abarca LLaMA, Mistral, Qwen y DeepSeek. También contempla características esenciales como cuantización, entrenamiento distribuido y seguridad de IA de diez capas.",
+            "context": "La creación de infraestructuras de IA en lenguajes compilados busca maximizar el rendimiento del hardware y ofrecer alternativas eficientes a los ecosistemas basados exclusivamente en Python.",
+            "key_takeaways": [
+              "Framework universal de código abierto en C/C++ y CUDA.",
+              "Soporte para transformers MoE y SSM con motor de tensores.",
+              "Zoo de modelos integrado para LLaMA, Mistral, Qwen y DeepSeek."
+            ],
+            "highlights": [
+              "Incluye cuantización y entrenamiento distribuido.",
+              "Incorpora 10 capas de seguridad para IA."
+            ]
+          },
+          "zh-CN": {
+            "title": "SneppX-alg：基于 C/C++ 与 CUDA 的开源 AI 算法框架",
+            "summary": "SneppX-alg 是一个通用的开源 AI 算法框架，使用 C/C++ 和 CUDA 编写。它包含张量引擎、自动求导、MoE/SSM Transformer 以及大语言模型动物园。",
+            "why_it_matters": "它为开发者提供底层原生工具，以支持复杂架构、量化、分布式训练和多层 AI 安全机制。",
+            "extended_analysis": "SneppX 开源项目旨在为高性能人工智能工作流提供全面的框架支持。通过采用 C/C++ 和 CUDA，该项目专注于实现高效的底层张量计算和自动微分功能。\n\n该架构支持混合专家模型（MoE）与状态空间模型（SSM）Transformer，并内置了针对 LLaMA、Mistral、Qwen 和 DeepSeek 等主流大语言模型（LLM）的模型库。此外，它还涵盖了模型量化、分布式训练及多层 AI 安全保障。",
+            "context": "使用 C 和 C++ 等底层语言构建 AI 框架，有助于提升执行效率、降低计算开销，并更好地适配硬件加速需求。",
+            "key_takeaways": [
+              "使用 C/C++ 与 CUDA 编写的开源通用 AI 框架。",
+              "内置张量引擎、自动求导机制及 MoE/SSM 支持。",
+              "包含针对 LLaMA、Mistral、Qwen 和 DeepSeek 的大模型动物园。"
+            ],
+            "highlights": [
+              "支持模型量化与分布式训练。",
+              "集成 10 层 AI 安全机制。"
+            ]
+          },
+          "de": {
+            "title": "SneppX-alg: Open-Source-KI-Algorithmen-Framework in C/C++ & CUDA",
+            "summary": "SneppX-alg ist ein universelles, Open-Source-KI-Framework in C/C++ und CUDA. Es bietet eine Tensor-Engine, Autograd, MoE/SSM-Transformer und ein LLM-Modell-Zoo.",
+            "why_it_matters": "Es bietet Entwicklern naturnahe Werkzeuge zur Handhabung komplexer Architekturen, Quantisierung, verteieltem Training und mehrschichtiger KI-Sicherheit.",
+            "extended_analysis": "Das SneppX-alg-Framework bietet eine umfassende Infrastruktur für leistungsfähige KI-Workflows. Durch die Implementierung in C/C++ und CUDA zielt das Projekt auf hohe Recheneffizienz durch eine dedizierte Tensor-Engine und Autograd-Funktionen ab.\n\nDie Architektur unterstützt moderne Transformer-Modelle wie Mixture of Experts (MoE) und State Space Models (SSM) sowie ein Modell-Zoo mit bekannten LLMs wie LLaMA, Mistral, Qwen und DeepSeek. Zusätzliche Funktionen umfassen Quantisierung, verteiltes Training und integrierte Sicherheitsmechanismen.",
+            "context": "Die Entwicklung von KI-Frameworks in nativen Sprachen wie C und C++ zielt darauf ab, die Hardware-Auslastung zu optimieren und effiziente Alternativen im Bereich des Hochleistungsrechnens bereitzustellen.",
+            "key_takeaways": [
+              "Universelles Open-Source-Framework in C/C++ und CUDA.",
+              "Integriert Tensor-Engine, Autograd und MoE/SSM-Transformer.",
+              "Beinhaltet ein Modell-Zoo für LLMs wie LLaMA, Mistral, Qwen und DeepSeek."
+            ],
+            "highlights": [
+              "Unterstützt Quantisierung und verteiltes Training.",
+              "Beinhaltet 10 Ebenen der KI-Sicherheit."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 45,
+        "editor_pick_reason": ""
+      }
+    },
+    "0f0020abcf733229d29f4d40e095eae692bb4a4c21852ac4cbeb6daf98f1617e": {
+      "fingerprint": "1a8b6d7070afb9a32d87029c35bf322a36ecb75d59786ca35806998b90f62d5e",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "OpenAI Academy porta i workshop su ChatGPT per i caregiver",
+            "summary": "OpenAI Academy ha annunciato l'avvio di workshop pratici e gratuiti su ChatGPT dedicati ai caregiver in cinque città degli Stati Uniti. L'iniziativa mira ad aiutarli a sviluppare competenze pratiche sull'intelligenza artificiale da utilizzare nella vita di tutti i giorni.",
+            "why_it_matters": "Questo programma offre ai caregiver l'opportunità di acquisire competenze digitali utili ad affrontare le sfide quotidiane, portando l'uso dell'intelligenza artificiale direttamente nel tessuto della vita di comunità.",
+            "extended_analysis": "L'iniziativa si inserisce nell'impegno di OpenAI Academy volto a promuovere l'alfabetizzazione tecnologica tramite incontri formativi dal vivo. Portare i workshop in cinque città statunitensi rappresenta un passo concreto per rendere gli strumenti di IA generativa più accessibili al di fuori dei contesti puramente tecnici o professionali.\n\nNei prossimi mesi sarà fondamentale osservare l'adozione di questi strumenti da parte dei partecipanti e valutare se il modello dei workshop gratuiti verrà esteso ad altre categorie o aree geografiche.",
+            "context": "Il panorama dell'istruzione tecnologica vede un crescente interesse nel fornire formazione mirata e pratica ai gruppi non specialistici. L'uso di ChatGPT in ambiti quotidiani riflette la tendenza a semplificare le attività di cura e gestione domestica attraverso l'assistenza virtuale.",
+            "key_takeaways": [
+              "OpenAI Academy organizza workshop gratuiti e pratici su ChatGPT.",
+              "L'iniziativa è rivolta ai caregiver in cinque città degli Stati Uniti.",
+              "L'obiettivo è insegnare competenze di IA utili nella vita quotidiana."
+            ],
+            "highlights": [
+              "Workshop gratuiti e pratici in cinque città statunitensi.",
+              "Iniziativa focalizzata sui bisogni quotidiani dei caregiver."
+            ]
+          },
+          "en": {
+            "title": "OpenAI Academy brings ChatGPT workshops to U.S. caregivers",
+            "summary": "OpenAI Academy is launching free, hands-on ChatGPT workshops for caregivers across five U.S. cities. The initiative is designed to help participants build practical artificial intelligence skills for everyday life.",
+            "why_it_matters": "Bringing hands-on AI education directly to caregivers provides them with practical tools to assist with daily responsibilities, broadening access to technology in everyday contexts.",
+            "extended_analysis": "This outreach effort highlights OpenAI Academy's focus on foundational education through direct, community-level engagement. By targeting caregivers in five American cities, the program aims to bridge the gap between advanced conversational AI and practical, everyday utility.\n\nMoving forward, observers will watch to see how participants apply these skills and whether the workshop format expands to reach other communities or demographics in the future.",
+            "context": "As generative AI tools become more widespread, organizations are increasingly exploring ways to deliver accessible, real-world training to everyday users rather than focusing solely on enterprise applications.",
+            "key_takeaways": [
+              "OpenAI Academy provides free, hands-on ChatGPT workshops.",
+              "The program specifically targets caregivers in five U.S. cities.",
+              "The curriculum focuses on building practical everyday AI skills."
+            ],
+            "highlights": [
+              "Free hands-on workshops in five U.S. cities.",
+              "Aimed at helping caregivers navigate daily tasks with AI."
+            ]
+          },
+          "es": {
+            "title": "OpenAI Academy lleva talleres de ChatGPT a cuidadores en EE. UU.",
+            "summary": "OpenAI Academy organiza talleres prácticos y gratuitos de ChatGPT dirigidos a cuidadores en cinco ciudades de EE. UU. La iniciativa busca ayudarles a desarrollar habilidades prácticas de inteligencia artificial para la vida diaria.",
+            "why_it_matters": "Esta iniciativa acerca la formación tecnológica directa a quienes realizan labores de cuidado, ofreciéndoles herramientas útiles para facilitar sus tareas cotidianas.",
+            "extended_analysis": "El programa de OpenAI Academy busca democratizar el acceso al conocimiento práctico de la inteligencia artificial mediante sesiones presenciales en cinco ciudades estadounidenses. Se centra en dotar a los participantes de competencias que puedan aplicar de inmediato en su rutina.\n\nEn el futuro, será relevante observar la acogida de estas sesiones formativas y si el formato de talleres gratuitos se amplía a otras regiones o perfiles profesionales y sociales.",
+            "context": "La formación en IA está evolucionando hacia formatos comunitarios más accesibles, alejándose de los entornos puramente corporativos para incidir en las necesidades de la vida real.",
+            "key_takeaways": [
+              "OpenAI Academy ofrece talleres gratuitos y prácticos sobre ChatGPT.",
+              "El programa se desarrolla en cinco ciudades de los Estados Unidos.",
+              "Está dirigido específicamente a cuidadores para su uso cotidiano."
+            ],
+            "highlights": [
+              "Talleres prácticos y gratuitos en cinco ciudades de EE. UU.",
+              "Enfoque en la adquisición de habilidades cotidianas de IA."
+            ]
+          },
+          "zh-CN": {
+            "title": "OpenAI学院为美国照顾者开设ChatGPT实践工作坊",
+            "summary": "OpenAI学院正在美国五个城市为照顾者举办免费的、动手的ChatGPT工作坊。该计划旨在帮助他们构建日常生活中实用的人工智能技能。",
+            "why_it_matters": "通过将实践性的人工智能培训直接带给照顾者，该项目为他们提供了应对日常生活挑战的实用工具，拓展了技术应用的场景。",
+            "extended_analysis": "这一举措展示了OpenAI学院通过社区层面的直接互动来普及基础技术教育的努力。通过覆盖美国五个城市的线下工作坊，项目致力于弥合先进对话式人工智能与实际日常需求之间的鸿沟。\n\n未来，观察人士将关注参与者如何运用这些技能，以及这种免费工作坊的形式是否会扩展到更多的地区或人群。",
+            "context": "随着生成式人工智能工具的普及，各类组织正日益关注如何为普通用户提供包容且实用的培训，而不仅仅局限于企业级应用。",
+            "key_takeaways": [
+              "OpenAI学院提供免费且动手的ChatGPT工作坊。",
+              "该项目面向美国五个城市的照顾者群体。",
+              "重点在于培养日常生活中实用的人工智能技能。"
+            ],
+            "highlights": [
+              "在美国五个城市开展免费动手工作坊。",
+              "旨在帮助照顾者掌握实用的AI日常技能。"
+            ]
+          },
+          "de": {
+            "title": "OpenAI Academy bringt ChatGPT-Workshops zu Pflegekräften",
+            "summary": "Die OpenAI Academy veranstaltet kostenlose, praxisnahe ChatGPT-Workshops für Pflegekräfte in fünf US-Städten. Die Initiative soll ihnen helfen, praktische KI-Fähigkeiten für den Alltag aufzubauen.",
+            "why_it_matters": "Dieses Programm bietet Pflegekräften direkten Zugang zu praxisorientierter Bildung und versorgt sie mit nützlichen Werkzeugen für die Bewältigung alltäglicher Aufgaben.",
+            "extended_analysis": "Mit dieser Initiative setzt die OpenAI Academy auf direkte, gemeindebasierte Bildungsformate, um grundlegendes Technologieverständnis zu fördern. Die Workshops in fünf US-Städten zielen darauf ab, generative KI für alltägliche Anwendungsbereiche nutzbar zu machen.\n\nIn Zukunft wird zu beobachten sein, wie die Teilnehmer das Erlernte anwenden und ob dieses Format auf weitere Regionen oder Zielgruppen ausgeweitet wird.",
+            "context": "Im Zuge der weiten Verbreitung generativer KI-Werkzeuge verlagert sich der Fokus zunehmend auf zugängliche, praxisnahe Schulungen für Anwender abseits reiner Unternehmensumgebungen.",
+            "key_takeaways": [
+              "OpenAI Academy bietet kostenlose und praxisnahe ChatGPT-Workshops an.",
+              "Das Programm richtet sich an Pflegekräfte in fünf US-Städten.",
+              "Ziel ist die Vermittlung praktischer KI-Kompetenzen für den Alltag."
+            ],
+            "highlights": [
+              "Kostenlose Praxisschulungen in fünf US-Städten.",
+              "Fokus auf die alltäglichen Anforderungen von Pflegekräften."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 45,
+        "editor_pick_reason": ""
+      }
     }
   },
   "daily": {
     "date": "2026-11-16",
-    "count": 4,
+    "count": 7,
     "picks": 0
   }
 }
