@@ -121,7 +121,7 @@ private object I18n {
             "refresh_content" to "Aggiorna", "topic_agents" to "Agenti Autonomi", "topic_llm" to "LLM & Modelli",
              "topic_open_source" to "Open Source", "topic_research" to "Ricerca & Sviluppo", "topic_chips" to "Chip & Robotica", "topic_business" to "Business AI",
              "morning_edition" to "EDIZIONE MATTINA", "top_story" to "STORIA IN EVIDENZA", "key_takeaways" to "PUNTI CHIAVE", "share" to "Condividi", "open_source_link" to "Apri fonte originale ↗", "read_time" to "MIN DI LETTURA"
-             ,"git_filter_all" to "Tutti", "git_filter_weekly" to "⚡ Trending Settimana", "git_filter_monthly" to "🌟 Top Mese"
+             ,"git_filter_all" to "Tutti", "git_filter_weekly" to "Trending", "git_filter_monthly" to "Top Mese"
         ),
         "en" to mapOf(
             "nav_briefing" to "Briefing", "nav_radar" to "Radar", "nav_speak_up" to "Speak Up", "nav_my_pulse" to "My Pulse",
@@ -149,7 +149,7 @@ private object I18n {
             "refresh_content" to "Refresh", "topic_agents" to "Autonomous Agents", "topic_llm" to "LLM & Models",
              "topic_open_source" to "Open Source", "topic_research" to "Research & Development", "topic_chips" to "Chips & Robotics", "topic_business" to "Business AI",
               "morning_edition" to "MORNING EDITION", "top_story" to "TOP STORY", "key_takeaways" to "KEY TAKEAWAYS", "share" to "Share", "open_source_link" to "Open original source ↗", "read_time" to "MIN READ"
-              ,"git_filter_all" to "All", "git_filter_weekly" to "⚡ Weekly Trending", "git_filter_monthly" to "🌟 Monthly Top"
+               ,"git_filter_all" to "All", "git_filter_weekly" to "Trending", "git_filter_monthly" to "Top Month"
         ),
         "es" to mapOf(
             "nav_briefing" to "Briefing", "nav_radar" to "Radar", "nav_speak_up" to "Speak Up", "nav_my_pulse" to "Mi Pulse", "tagline" to "INTELIGENCIA PARA LA ERA AUTÓNOMA",
@@ -173,7 +173,7 @@ private object I18n {
             "footer_brand" to "PULSE AI · REVISTA INDEPENDIENTE DE IA", "footer_sources" to "El contenido y los enlaces siempre remiten a las fuentes originales", "privacy" to "Política de privacidad", "contact" to "Contacto",
              "refresh_content" to "Actualizar", "topic_agents" to "Agentes Autónomos", "topic_llm" to "LLM y Modelos", "topic_open_source" to "Código Abierto", "topic_research" to "Investigación y Desarrollo", "topic_chips" to "Chips y Robótica", "topic_business" to "Negocios de IA",
               "morning_edition" to "EDICIÓN DE LA MAÑANA", "top_story" to "HISTORIA DESTACADA", "key_takeaways" to "PUNTOS CLAVE", "share" to "Compartir", "open_source_link" to "Abrir fuente original ↗", "read_time" to "MIN DE LECTURA"
-              ,"git_filter_all" to "Todos", "git_filter_weekly" to "⚡ Tendencias Semana", "git_filter_monthly" to "🌟 Top Mes"
+               ,"git_filter_all" to "Todos", "git_filter_weekly" to "Trending", "git_filter_monthly" to "Top Mes"
         ),
         "zh" to mapOf(
             "nav_briefing" to "简报", "nav_radar" to "雷达", "nav_speak_up" to "AI之声", "nav_my_pulse" to "我的 Pulse", "tagline" to "自主时代的智能",
@@ -192,7 +192,7 @@ private object I18n {
             "footer_brand" to "PULSE AI · 独立人工智能杂志", "footer_sources" to "内容和链接始终指向原始来源", "privacy" to "隐私政策", "contact" to "联系我们", "refresh_content" to "刷新",
              "topic_agents" to "自主智能体", "topic_llm" to "大语言模型", "topic_open_source" to "开源", "topic_research" to "研发", "topic_chips" to "芯片与机器人", "topic_business" to "AI 商业",
               "morning_edition" to "早间版", "top_story" to "重点故事", "key_takeaways" to "关键要点", "share" to "分享", "open_source_link" to "打开原始来源 ↗", "read_time" to "分钟阅读"
-              ,"git_filter_all" to "全部", "git_filter_weekly" to "⚡ 本周热门", "git_filter_monthly" to "🌟 本月精选"
+               ,"git_filter_all" to "全部", "git_filter_weekly" to "热门", "git_filter_monthly" to "榜单"
         ),
         "de" to mapOf(
             "nav_briefing" to "Briefing", "nav_radar" to "Radar", "nav_speak_up" to "Speak Up", "nav_my_pulse" to "Mein Pulse", "tagline" to "INTELLIGENZ FÜR DAS AUTONOME ZEITALTER",
@@ -211,7 +211,7 @@ private object I18n {
             "footer_brand" to "PULSE AI · UNABHÄNGIGES KI-JOURNAL", "footer_sources" to "Inhalte und Links verweisen immer auf die Originalquellen", "privacy" to "Datenschutzrichtlinie", "contact" to "Kontakt", "refresh_content" to "Aktualisieren",
              "topic_agents" to "Autonome Agenten", "topic_llm" to "LLMs & Modelle", "topic_open_source" to "Open Source", "topic_research" to "Forschung & Entwicklung", "topic_chips" to "Chips & Robotik", "topic_business" to "KI-Geschäft",
               "morning_edition" to "MORGENAUSGABE", "top_story" to "TOP-STORY", "key_takeaways" to "DIE WICHTIGSTEN PUNKTE", "share" to "Teilen", "open_source_link" to "Originalquelle öffnen ↗", "read_time" to "MIN LESEZEIT"
-              ,"git_filter_all" to "Alle", "git_filter_weekly" to "⚡ Trending Woche", "git_filter_monthly" to "🌟 Top Monat"
+               ,"git_filter_all" to "Alle", "git_filter_weekly" to "Trending", "git_filter_monthly" to "Top Monat"
         )
     )
 
@@ -264,6 +264,7 @@ private data class Story(
      val hypeScore: Int = 0,
      val hypeLabel: String = "",
      val period: String = "",
+     val tags: List<String> = emptyList(),
      val keyTakeaways: List<String> = emptyList(),
     val extendedAnalysis: String = ""
 )
@@ -334,8 +335,22 @@ private suspend fun loadFeed(): List<Story> = withContext(Dispatchers.IO) {
                     else -> if (item.optString("sourceKind") == "primary_source") "NEWS · FONTE ORIGINALE"
                     else item.optString("sourceKind", "NEWS").uppercase()
                 }
-                val editorial = item.optJSONObject("editorial")
-                val editorialLanguage = editorialLanguageObject(editorial, "it")
+                 val editorial = item.optJSONObject("editorial")
+                 val tags = item.optJSONArray("tags")?.let { values ->
+                     buildList { for (tagIndex in 0 until values.length()) values.optString(tagIndex).takeIf { it.isNotBlank() }?.let(::add) }
+                 } ?: emptyList()
+                 val stars = item.optInt("stars", 0)
+                 val rawVelocity = item.optDouble("hype_velocity", Double.NaN).takeIf { !it.isNaN() }
+                 val velocity = if (type == "github") rawVelocity ?: maxOf(5.0, stars / 45.0) else rawVelocity
+                 val fallbackScore = velocity?.let { minOf(100, (20.0 * Math.sqrt(it)).toInt()) } ?: 0
+                 val hypeScore = if (type == "github") item.optInt("hype_score", fallbackScore) else item.optInt("hype_score", 0)
+                 val hypeLabel = item.optString("hype_label").ifBlank {
+                     if (type != "github") "" else if (hypeScore >= 85) "EXPLOSIVE HYPE" else if (hypeScore >= 55) "TRENDING" else "+${velocity?.toInt() ?: 0} stars/day"
+                 }
+                 val period = item.optString("period").ifBlank {
+                     if (type == "github") if (hypeScore >= 60) "weekly" else "monthly" else ""
+                 }
+                 val editorialLanguage = editorialLanguageObject(editorial, "it")
                 val takeaways = editorialLanguage?.optJSONArray("key_takeaways")?.let { values ->
                     buildList { for (takeawayIndex in 0 until values.length()) values.optString(takeawayIndex).takeIf { it.isNotBlank() }?.let(::add) }
                 } ?: emptyList()
@@ -350,11 +365,12 @@ private suspend fun loadFeed(): List<Story> = withContext(Dispatchers.IO) {
                     duration = item.optString("duration"),
                     language = item.optString("language"),
                      audioUrl = item.optString("audioUrl"),
-                      stars = item.optInt("stars", 0),
-                     hypeVelocity = item.optDouble("hype_velocity", Double.NaN).takeIf { !it.isNaN() },
-                     hypeScore = item.optInt("hype_score", 0),
-                     hypeLabel = item.optString("hype_label"),
-                     period = item.optString("period"),
+                      stars = stars,
+                      hypeVelocity = velocity,
+                      hypeScore = hypeScore,
+                      hypeLabel = hypeLabel,
+                      period = period,
+                      tags = tags,
                      ttsAudioUrl = item.optString("ttsAudioUrl"),
                     ttsAudioByLanguage = item.optJSONObject("ttsAudioByLanguage"),
                      editorial = editorial,
@@ -763,8 +779,23 @@ private fun formatStars(stars: Int): String =
 private fun formatVelocity(velocity: Double): String =
     "+${String.format(Locale.US, "%.0f", velocity)} stars/day"
 
-private fun isPeriod(story: Story, period: String): Boolean =
-    story.period.equals(period, ignoreCase = true)
+private fun isPeriod(story: Story, period: String): Boolean {
+    if (story.period.equals(period, ignoreCase = true)) return true
+
+    val tagPeriod = when (period.lowercase(Locale.ROOT)) {
+        "weekly" -> "WEEKLY"
+        "monthly" -> "MONTHLY"
+        else -> return false
+    }
+    if (story.tags.any { it.contains(tagPeriod, ignoreCase = true) }) return true
+    if (story.period.isNotBlank()) return false
+
+    return when (period.lowercase(Locale.ROOT)) {
+        "weekly" -> story.hypeScore >= 60 || story.stars >= 5000 || story.hypeVelocity != null
+        "monthly" -> story.stars >= 300
+        else -> false
+    }
+}
 
 @Composable
 private fun HypeBadge(story: Story) {
@@ -894,11 +925,12 @@ private fun RadarScreen(stories: List<Story>, language: String, padding: Padding
                                     I18n.tr(key, language),
                                     modifier = Modifier.padding(horizontal = 4.dp, vertical = 8.dp),
                                     color = if (gitFilter == index) Ink else Muted,
-                                    fontSize = 10.sp,
-                                    fontWeight = if (gitFilter == index) FontWeight.Bold else FontWeight.Medium,
-                                    textAlign = TextAlign.Center,
-                                    maxLines = 2,
-                                    overflow = TextOverflow.Ellipsis
+                                     fontSize = 11.sp,
+                                     fontWeight = if (gitFilter == index) FontWeight.Bold else FontWeight.Medium,
+                                     textAlign = TextAlign.Center,
+                                     maxLines = 1,
+                                     softWrap = false,
+                                     overflow = TextOverflow.Ellipsis
                                 )
                             }
                         }

@@ -17,11 +17,16 @@
       "language": "TypeScript",
       "tags": [
         "AI",
-        "OPEN SOURCE"
+        "OPEN SOURCE",
+        "POP_GIT_MONTHLY"
       ],
       "attribution": "Endijuan33/free-model-aggregator-01",
       "editorial_level": "raw_feed",
-      "editorial_status": "raw"
+      "editorial_status": "raw",
+      "hype_velocity": 5.0,
+      "hype_score": 45,
+      "hype_label": "+5 stars/day",
+      "period": "monthly"
     },
     {
       "id": "167c81c5d6fc7db57e5d8050dad8aa2d9c145c2e728ec6de40d656937d161a0d",
@@ -133,11 +138,16 @@
       "language": "HTML",
       "tags": [
         "AI",
-        "OPEN SOURCE"
+        "OPEN SOURCE",
+        "POP_GIT_MONTHLY"
       ],
       "attribution": "agustindiazcano/nasa-mars-tango-horizon",
       "editorial_level": "raw_feed",
-      "editorial_status": "raw"
+      "editorial_status": "raw",
+      "hype_velocity": 5.0,
+      "hype_score": 45,
+      "hype_label": "+5 stars/day",
+      "period": "monthly"
     },
     {
       "id": "299cfd655b5df2e69b8ede045143ce3c41e2a7526bf75d29e28b082199bf46f6",
@@ -192,11 +202,16 @@
       "language": "Python",
       "tags": [
         "AI",
-        "OPEN SOURCE"
+        "OPEN SOURCE",
+        "POP_GIT_MONTHLY"
       ],
       "attribution": "osisdie/agent-switchboard",
       "editorial_level": "raw_feed",
-      "editorial_status": "raw"
+      "editorial_status": "raw",
+      "hype_velocity": 5.0,
+      "hype_score": 45,
+      "hype_label": "+5 stars/day",
+      "period": "monthly"
     },
     {
       "id": "f88fcfa12fe4eda6caa6d4d2e0da6c6508b7479bfc3fd64010e2ad124404cb4d",
@@ -790,11 +805,16 @@
       "language": null,
       "tags": [
         "AI",
-        "OPEN SOURCE"
+        "OPEN SOURCE",
+        "POP_GIT_MONTHLY"
       ],
       "attribution": "AvenueBudgieShop/ai--manus",
       "editorial_level": "raw_feed",
-      "editorial_status": "raw"
+      "editorial_status": "raw",
+      "hype_velocity": 6.6,
+      "hype_score": 51,
+      "hype_label": "+7 stars/day",
+      "period": "monthly"
     },
     {
       "id": "0249af9cc422c31d7a6f3cc856886ac471c98b86b5c50bfb1d901fb07cc21d46",
@@ -811,11 +831,16 @@
       "language": null,
       "tags": [
         "AI",
-        "OPEN SOURCE"
+        "OPEN SOURCE",
+        "POP_GIT_MONTHLY"
       ],
       "attribution": "avalanchegnatbeat95/ai--manus",
       "editorial_level": "raw_feed",
-      "editorial_status": "raw"
+      "editorial_status": "raw",
+      "hype_velocity": 6.6,
+      "hype_score": 51,
+      "hype_label": "+7 stars/day",
+      "period": "monthly"
     },
     {
       "id": "2400c7c214233f1420fce3c519dfdb238638f477c704877e35c9c89b779d4440",
@@ -832,11 +857,16 @@
       "language": null,
       "tags": [
         "AI",
-        "OPEN SOURCE"
+        "OPEN SOURCE",
+        "POP_GIT_MONTHLY"
       ],
       "attribution": "ApparitionBowyerPort/ai--manus",
       "editorial_level": "raw_feed",
-      "editorial_status": "raw"
+      "editorial_status": "raw",
+      "hype_velocity": 6.6,
+      "hype_score": 51,
+      "hype_label": "+7 stars/day",
+      "period": "monthly"
     },
     {
       "id": "cf8a94accf060eca2c8a84204aa4c8e206c38359f7e0b533332c850dc69ffc2d",
@@ -853,11 +883,16 @@
       "language": null,
       "tags": [
         "AI",
-        "OPEN SOURCE"
+        "OPEN SOURCE",
+        "POP_GIT_MONTHLY"
       ],
       "attribution": "ApothecaryDesign/ai--manus",
       "editorial_level": "raw_feed",
-      "editorial_status": "raw"
+      "editorial_status": "raw",
+      "hype_velocity": 6.6,
+      "hype_score": 51,
+      "hype_label": "+7 stars/day",
+      "period": "monthly"
     },
     {
       "id": "0a0e01dcd5ad42ff12302baabc39d54afa71596200306d0589883db37a0635fd",
@@ -874,11 +909,16 @@
       "language": null,
       "tags": [
         "AI",
-        "OPEN SOURCE"
+        "OPEN SOURCE",
+        "POP_GIT_MONTHLY"
       ],
       "attribution": "Cloudryospeed/ai--manus",
       "editorial_level": "raw_feed",
-      "editorial_status": "raw"
+      "editorial_status": "raw",
+      "hype_velocity": 6.6,
+      "hype_score": 51,
+      "hype_label": "+7 stars/day",
+      "period": "monthly"
     },
     {
       "id": "b6cfaf859f3d46265fd7a54ef7774779221eed3ec0d77e4f26f97f0f5e5a277b",
@@ -895,11 +935,16 @@
       "language": null,
       "tags": [
         "AI",
-        "OPEN SOURCE"
+        "OPEN SOURCE",
+        "POP_GIT_MONTHLY"
       ],
       "attribution": "Shardclamove/ai--manus",
       "editorial_level": "raw_feed",
-      "editorial_status": "raw"
+      "editorial_status": "raw",
+      "hype_velocity": 6.6,
+      "hype_score": 51,
+      "hype_label": "+7 stars/day",
+      "period": "monthly"
     },
     {
       "id": "30deed6aa6504dec27c450f01d8c45101b68f51ec8d3cd246fbf5781b3e4606b",
@@ -916,11 +961,16 @@
       "language": null,
       "tags": [
         "AI",
-        "OPEN SOURCE"
+        "OPEN SOURCE",
+        "POP_GIT_MONTHLY"
       ],
       "attribution": "WinnerBrokerBarrow/ai--manus",
       "editorial_level": "raw_feed",
-      "editorial_status": "raw"
+      "editorial_status": "raw",
+      "hype_velocity": 6.6,
+      "hype_score": 51,
+      "hype_label": "+7 stars/day",
+      "period": "monthly"
     },
     {
       "id": "05839ada31349c61026e0c9c7d4dae5837ac65c5bb15ecfbd07e6ab721e996a0",
@@ -937,11 +987,16 @@
       "language": null,
       "tags": [
         "AI",
-        "OPEN SOURCE"
+        "OPEN SOURCE",
+        "POP_GIT_MONTHLY"
       ],
       "attribution": "PolygonGlazier/ai--manus",
       "editorial_level": "raw_feed",
-      "editorial_status": "raw"
+      "editorial_status": "raw",
+      "hype_velocity": 6.6,
+      "hype_score": 51,
+      "hype_label": "+7 stars/day",
+      "period": "monthly"
     },
     {
       "id": "250c2a6cbe6bfc567cfcaf0e2871127649ee8a8d5154d35e5b3efd2493e87a0b",
@@ -958,11 +1013,16 @@
       "language": null,
       "tags": [
         "AI",
-        "OPEN SOURCE"
+        "OPEN SOURCE",
+        "POP_GIT_MONTHLY"
       ],
       "attribution": "StudentSeparate/ai--manus",
       "editorial_level": "raw_feed",
-      "editorial_status": "raw"
+      "editorial_status": "raw",
+      "hype_velocity": 6.6,
+      "hype_score": 51,
+      "hype_label": "+7 stars/day",
+      "period": "monthly"
     },
     {
       "id": "bbcb79fadd39dd32e9c797027b308d5c2c485c48e2443c45c36a1c1cd441ee24",
@@ -1017,11 +1077,16 @@
       "language": "TypeScript",
       "tags": [
         "AI",
-        "OPEN SOURCE"
+        "OPEN SOURCE",
+        "POP_GIT_MONTHLY"
       ],
       "attribution": "jsogn/deepseek-crawl",
       "editorial_level": "raw_feed",
-      "editorial_status": "raw"
+      "editorial_status": "raw",
+      "hype_velocity": 5.0,
+      "hype_score": 45,
+      "hype_label": "+5 stars/day",
+      "period": "monthly"
     },
     {
       "id": "7d4d71d056da02862d0b2ec1b87dadd7019731481c576401840bf8ff718ee663",
@@ -1143,11 +1208,16 @@
       "language": null,
       "tags": [
         "AI",
-        "OPEN SOURCE"
+        "OPEN SOURCE",
+        "POP_GIT_MONTHLY"
       ],
       "attribution": "ass039514-debug/manus--ai",
       "editorial_level": "raw_feed",
-      "editorial_status": "raw"
+      "editorial_status": "raw",
+      "hype_velocity": 5.8,
+      "hype_score": 48,
+      "hype_label": "+6 stars/day",
+      "period": "monthly"
     },
     {
       "id": "ef09bc95baf7ca9936236c1378f997449e6b5f32bb3ab663ea47538d30cbfa67",
@@ -1164,11 +1234,16 @@
       "language": null,
       "tags": [
         "AI",
-        "OPEN SOURCE"
+        "OPEN SOURCE",
+        "POP_GIT_MONTHLY"
       ],
       "attribution": "ass039514-debug/ai--manus",
       "editorial_level": "raw_feed",
-      "editorial_status": "raw"
+      "editorial_status": "raw",
+      "hype_velocity": 5.9,
+      "hype_score": 49,
+      "hype_label": "+6 stars/day",
+      "period": "monthly"
     },
     {
       "id": "0b7a71f468a8c42e142624d855e099324e40035ae49a1d17efd0da46d46da831",
@@ -1185,11 +1260,16 @@
       "language": null,
       "tags": [
         "AI",
-        "OPEN SOURCE"
+        "OPEN SOURCE",
+        "POP_GIT_MONTHLY"
       ],
       "attribution": "verrohe9-web/manus--ai",
       "editorial_level": "raw_feed",
-      "editorial_status": "raw"
+      "editorial_status": "raw",
+      "hype_velocity": 5.9,
+      "hype_score": 49,
+      "hype_label": "+6 stars/day",
+      "period": "monthly"
     },
     {
       "id": "4de3b46d79ccb7935cd6889e7549f411648bfa8e7b3e4a80e2a35672de7ab6e5",
@@ -1206,11 +1286,16 @@
       "language": null,
       "tags": [
         "AI",
-        "OPEN SOURCE"
+        "OPEN SOURCE",
+        "POP_GIT_MONTHLY"
       ],
       "attribution": "verrohe9-web/ai--manus",
       "editorial_level": "raw_feed",
-      "editorial_status": "raw"
+      "editorial_status": "raw",
+      "hype_velocity": 6.0,
+      "hype_score": 49,
+      "hype_label": "+6 stars/day",
+      "period": "monthly"
     },
     {
       "id": "f4ebeb752ffd569feef4060586cdd597a056bc0b970ce065e43efa35ebc5c0cf",
@@ -1227,11 +1312,16 @@
       "language": null,
       "tags": [
         "AI",
-        "OPEN SOURCE"
+        "OPEN SOURCE",
+        "POP_GIT_MONTHLY"
       ],
       "attribution": "floki12342/manus--ai",
       "editorial_level": "raw_feed",
-      "editorial_status": "raw"
+      "editorial_status": "raw",
+      "hype_velocity": 6.0,
+      "hype_score": 49,
+      "hype_label": "+6 stars/day",
+      "period": "monthly"
     },
     {
       "id": "c1e4cfbd9b9abefd6f97c2794aca3023279d779bc4035fbb0825d902d854b32d",
@@ -1248,11 +1338,16 @@
       "language": null,
       "tags": [
         "AI",
-        "OPEN SOURCE"
+        "OPEN SOURCE",
+        "POP_GIT_MONTHLY"
       ],
       "attribution": "lebronstx-collab/ai--manus",
       "editorial_level": "raw_feed",
-      "editorial_status": "raw"
+      "editorial_status": "raw",
+      "hype_velocity": 6.1,
+      "hype_score": 49,
+      "hype_label": "+6 stars/day",
+      "period": "monthly"
     },
     {
       "id": "4815b0b06c4331032395d356fc0c0842095b4d32c35fbb0281a9e6f248164888",
@@ -1288,11 +1383,16 @@
       "language": null,
       "tags": [
         "AI",
-        "OPEN SOURCE"
+        "OPEN SOURCE",
+        "POP_GIT_MONTHLY"
       ],
       "attribution": "python001-dev/ai--manus",
       "editorial_level": "raw_feed",
-      "editorial_status": "raw"
+      "editorial_status": "raw",
+      "hype_velocity": 6.1,
+      "hype_score": 49,
+      "hype_label": "+6 stars/day",
+      "period": "monthly"
     },
     {
       "id": "cb385a334810460f4486d2a46d6d8ec07d10b39724bed1be38a58a8f3656393a",
@@ -1309,11 +1409,16 @@
       "language": null,
       "tags": [
         "AI",
-        "OPEN SOURCE"
+        "OPEN SOURCE",
+        "POP_GIT_MONTHLY"
       ],
       "attribution": "alphafalcongamer-creator/ai--manus",
       "editorial_level": "raw_feed",
-      "editorial_status": "raw"
+      "editorial_status": "raw",
+      "hype_velocity": 6.1,
+      "hype_score": 49,
+      "hype_label": "+6 stars/day",
+      "period": "monthly"
     },
     {
       "id": "1e8a3d8c915ae22263e2cd0bb0100b99d1a50fb5f2904665778dfcb657c23042",
@@ -1330,11 +1435,16 @@
       "language": null,
       "tags": [
         "AI",
-        "OPEN SOURCE"
+        "OPEN SOURCE",
+        "POP_GIT_MONTHLY"
       ],
       "attribution": "lloweryfn-rgb/ai--manus",
       "editorial_level": "raw_feed",
-      "editorial_status": "raw"
+      "editorial_status": "raw",
+      "hype_velocity": 6.1,
+      "hype_score": 49,
+      "hype_label": "+6 stars/day",
+      "period": "monthly"
     },
     {
       "id": "12f183bc5ce91350b79d59177f3dc012ac4a76c6eba691062f809e2c7d9aadce",
@@ -1351,11 +1461,16 @@
       "language": null,
       "tags": [
         "AI",
-        "OPEN SOURCE"
+        "OPEN SOURCE",
+        "POP_GIT_MONTHLY"
       ],
       "attribution": "AcgBoss/manus--ai",
       "editorial_level": "raw_feed",
-      "editorial_status": "raw"
+      "editorial_status": "raw",
+      "hype_velocity": 6.1,
+      "hype_score": 49,
+      "hype_label": "+6 stars/day",
+      "period": "monthly"
     },
     {
       "id": "4d1482722545d06dd16949fb9f0d6a00279824eb0a4d10d62d4d06ff33dcea1a",
@@ -1391,11 +1506,16 @@
       "language": null,
       "tags": [
         "AI",
-        "OPEN SOURCE"
+        "OPEN SOURCE",
+        "POP_GIT_MONTHLY"
       ],
       "attribution": "kazim768/ai--manus",
       "editorial_level": "raw_feed",
-      "editorial_status": "raw"
+      "editorial_status": "raw",
+      "hype_velocity": 6.1,
+      "hype_score": 49,
+      "hype_label": "+6 stars/day",
+      "period": "monthly"
     },
     {
       "id": "4f84d00c5770b0e395ab91a3dac0d58bd564fb427ecb0ca1e046a93b7c53bc17",
@@ -1412,11 +1532,16 @@
       "language": null,
       "tags": [
         "AI",
-        "OPEN SOURCE"
+        "OPEN SOURCE",
+        "POP_GIT_MONTHLY"
       ],
       "attribution": "xombiensar/ai--manus",
       "editorial_level": "raw_feed",
-      "editorial_status": "raw"
+      "editorial_status": "raw",
+      "hype_velocity": 6.1,
+      "hype_score": 49,
+      "hype_label": "+6 stars/day",
+      "period": "monthly"
     },
     {
       "id": "6841e619fcd7e8d9370258a227590a244c9afe604f7f173c18d14806c323db86",
@@ -1633,11 +1758,16 @@
       "language": "Python",
       "tags": [
         "AI",
-        "OPEN SOURCE"
+        "OPEN SOURCE",
+        "POP_GIT_MONTHLY"
       ],
       "attribution": "RakanDhiya/Kecerdasan_Buatan",
       "editorial_level": "raw_feed",
-      "editorial_status": "raw"
+      "editorial_status": "raw",
+      "hype_velocity": 5.0,
+      "hype_score": 45,
+      "hype_label": "+5 stars/day",
+      "period": "monthly"
     },
     {
       "id": "7f5d1b15746091dd41c9dd33ead5390ebf25cb01a02bc1570a9c78e876dfe9e9",
@@ -1654,7 +1784,8 @@
       "language": "Go",
       "tags": [
         "AI",
-        "OPEN SOURCE"
+        "OPEN SOURCE",
+        "POP_GIT_MONTHLY"
       ],
       "attribution": "tamnd/ai-agent",
       "editorial": {
@@ -1744,7 +1875,11 @@
       "editorial_model": "gemini-3.5-flash-lite",
       "editorial_version": 4,
       "relevance_score": 35,
-      "editor_pick_reason": ""
+      "editor_pick_reason": "",
+      "hype_velocity": 5.0,
+      "hype_score": 45,
+      "hype_label": "+5 stars/day",
+      "period": "monthly"
     },
     {
       "id": "aeee01f562824dca326f8c8d7b2ef7c85b22d93e47995594295d2e054659284e",
@@ -2418,11 +2553,16 @@
       "language": "Python",
       "tags": [
         "AI",
-        "OPEN SOURCE"
+        "OPEN SOURCE",
+        "POP_GIT_MONTHLY"
       ],
       "attribution": "Pro-GenAI/awesome-checklists",
       "editorial_level": "raw_feed",
-      "editorial_status": "raw"
+      "editorial_status": "raw",
+      "hype_velocity": 5.0,
+      "hype_score": 45,
+      "hype_label": "+5 stars/day",
+      "period": "monthly"
     },
     {
       "id": "d7c1da8cb7dc41da688b7a9908111a63cf9fb297a134e952ad2db42224ad8dc2",
@@ -4117,11 +4257,16 @@
       "language": null,
       "tags": [
         "AI",
-        "OPEN SOURCE"
+        "OPEN SOURCE",
+        "POP_GIT_MONTHLY"
       ],
       "attribution": "avendrasolviera-boop/ADTRA-AURA-Set-AI-",
       "editorial_level": "raw_feed",
-      "editorial_status": "raw"
+      "editorial_status": "raw",
+      "hype_velocity": 5.0,
+      "hype_score": 45,
+      "hype_label": "+5 stars/day",
+      "period": "monthly"
     },
     {
       "id": "6b6709b612e5913e3ffca54a85bc91991cc77a4b3fa814c431fece64c1da4ed4",
@@ -8931,11 +9076,16 @@
       "language": "TypeScript",
       "tags": [
         "AI",
-        "OPEN SOURCE"
+        "OPEN SOURCE",
+        "POP_GIT_MONTHLY"
       ],
       "attribution": "A220man/vector-observatory-144-ryan-vo",
       "editorial_level": "raw_feed",
-      "editorial_status": "raw"
+      "editorial_status": "raw",
+      "hype_velocity": 5.0,
+      "hype_score": 45,
+      "hype_label": "+5 stars/day",
+      "period": "monthly"
     },
     {
       "id": "2b3f616d26d343fed7789052f7d45765c10f64079fafbd4a9ee06dcaf0e956ff",
@@ -9362,7 +9512,8 @@
       "language": "Python",
       "tags": [
         "AI",
-        "OPEN SOURCE"
+        "OPEN SOURCE",
+        "POP_GIT_MONTHLY"
       ],
       "attribution": "A220man/nexus-observatory-ryan-vo",
       "editorial": {
@@ -9452,7 +9603,11 @@
       "editorial_model": "gemini-3.5-flash-lite",
       "editorial_version": 4,
       "relevance_score": 10,
-      "editor_pick_reason": ""
+      "editor_pick_reason": "",
+      "hype_velocity": 5.0,
+      "hype_score": 45,
+      "hype_label": "+5 stars/day",
+      "period": "monthly"
     },
     {
       "id": "9394bb5d588b9fd8068190107a5872a6971b799b80d2b5cfee97b81285f81a71",
@@ -10122,7 +10277,8 @@
       "language": "Lean",
       "tags": [
         "AI",
-        "OPEN SOURCE"
+        "OPEN SOURCE",
+        "POP_GIT_MONTHLY"
       ],
       "attribution": "grwtsk/math",
       "editorial": {
@@ -10212,7 +10368,11 @@
       "editorial_model": "gemini-3.5-flash-lite",
       "editorial_version": 4,
       "relevance_score": 35,
-      "editor_pick_reason": ""
+      "editor_pick_reason": "",
+      "hype_velocity": 5.0,
+      "hype_score": 45,
+      "hype_label": "+5 stars/day",
+      "period": "monthly"
     },
     {
       "id": "432948549ed24ede36ae414c3893d166702395ad5cf96969cb0d05354bf69dbc",
@@ -10229,7 +10389,8 @@
       "language": null,
       "tags": [
         "AI",
-        "OPEN SOURCE"
+        "OPEN SOURCE",
+        "POP_GIT_MONTHLY"
       ],
       "attribution": "A220man/A220man",
       "editorial": {
@@ -10319,7 +10480,11 @@
       "editorial_model": "gemini-3.5-flash-lite",
       "editorial_version": 4,
       "relevance_score": 10,
-      "editor_pick_reason": ""
+      "editor_pick_reason": "",
+      "hype_velocity": 5.0,
+      "hype_score": 45,
+      "hype_label": "+5 stars/day",
+      "period": "monthly"
     },
     {
       "id": "833080721c699091a4c244566fb2c59273fb26097853737815bbbd939b6b82af",
@@ -10560,11 +10725,16 @@
       "language": "Python",
       "tags": [
         "AI",
-        "OPEN SOURCE"
+        "OPEN SOURCE",
+        "POP_GIT_MONTHLY"
       ],
       "attribution": "UncleK/pelicanmap",
       "editorial_level": "raw_feed",
-      "editorial_status": "raw"
+      "editorial_status": "raw",
+      "hype_velocity": 5.0,
+      "hype_score": 45,
+      "hype_label": "+5 stars/day",
+      "period": "monthly"
     },
     {
       "id": "6d89105e05d1356adc6c5e5bff5bc3b883dd83afd8e02df161fe138f7acd59c8",
@@ -11082,7 +11252,8 @@
       "language": "JavaScript",
       "tags": [
         "AI",
-        "OPEN SOURCE"
+        "OPEN SOURCE",
+        "POP_GIT_MONTHLY"
       ],
       "attribution": "messagegabrielhere-lgtm/doomcon",
       "editorial": {
@@ -11172,7 +11343,11 @@
       "editorial_model": "gemini-3.5-flash-lite",
       "editorial_version": 4,
       "relevance_score": 35,
-      "editor_pick_reason": ""
+      "editor_pick_reason": "",
+      "hype_velocity": 5.0,
+      "hype_score": 45,
+      "hype_label": "+5 stars/day",
+      "period": "monthly"
     },
     {
       "id": "8bc15d2d1c9f7dbc75de07c145610702464a194e98eb44984d1d132ff67fcf24",
@@ -12807,11 +12982,16 @@
       "language": null,
       "tags": [
         "AI",
-        "OPEN SOURCE"
+        "OPEN SOURCE",
+        "POP_GIT_MONTHLY"
       ],
       "attribution": "api-evangelist/enhanced-radar",
       "editorial_level": "raw_feed",
-      "editorial_status": "raw"
+      "editorial_status": "raw",
+      "hype_velocity": 5.0,
+      "hype_score": 45,
+      "hype_label": "+5 stars/day",
+      "period": "monthly"
     },
     {
       "id": "3cf71528e601f2c61764bd2f11e520fcabf4f3d657b7b5cc19289ba3368e4330",
@@ -12942,7 +13122,8 @@
       "language": null,
       "tags": [
         "AI",
-        "OPEN SOURCE"
+        "OPEN SOURCE",
+        "POP_GIT_MONTHLY"
       ],
       "attribution": "rxmna8502/vybe-intelligence-vault",
       "editorial": {
@@ -13032,7 +13213,11 @@
       "editorial_model": "gemini-3.5-flash-lite",
       "editorial_version": 4,
       "relevance_score": 45,
-      "editor_pick_reason": ""
+      "editor_pick_reason": "",
+      "hype_velocity": 5.0,
+      "hype_score": 45,
+      "hype_label": "+5 stars/day",
+      "period": "monthly"
     },
     {
       "id": "e46148b1a1c3f7194c6ef42a253e48ac8e324e5067750503e8af37cf6710c169",
@@ -13049,11 +13234,16 @@
       "language": "Python",
       "tags": [
         "AI",
-        "OPEN SOURCE"
+        "OPEN SOURCE",
+        "POP_GIT_MONTHLY"
       ],
       "attribution": "Airukua/Kilat",
       "editorial_level": "raw_feed",
-      "editorial_status": "raw"
+      "editorial_status": "raw",
+      "hype_velocity": 5.0,
+      "hype_score": 45,
+      "hype_label": "+5 stars/day",
+      "period": "monthly"
     },
     {
       "id": "5089f54c910c7e333eb4b40fd41c7857e35ecd82d090703294f84b9a8d802a93",
@@ -13070,11 +13260,16 @@
       "language": "Rust",
       "tags": [
         "AI",
-        "OPEN SOURCE"
+        "OPEN SOURCE",
+        "POP_GIT_MONTHLY"
       ],
       "attribution": "Rullst/Rullst",
       "editorial_level": "raw_feed",
-      "editorial_status": "raw"
+      "editorial_status": "raw",
+      "hype_velocity": 5.0,
+      "hype_score": 45,
+      "hype_label": "+5 stars/day",
+      "period": "monthly"
     },
     {
       "id": "4981f6fda01422bff91dfc2d7a00c1c65bc2d80d3337ecd1f15ab2887de7e0ac",
@@ -13091,7 +13286,8 @@
       "language": "TypeScript",
       "tags": [
         "AI",
-        "OPEN SOURCE"
+        "OPEN SOURCE",
+        "POP_GIT_MONTHLY"
       ],
       "attribution": "mwakidenis/smart-farmer",
       "editorial": {
@@ -13181,7 +13377,11 @@
       "editorial_model": "gemini-3.5-flash-lite",
       "editorial_version": 4,
       "relevance_score": 40,
-      "editor_pick_reason": ""
+      "editor_pick_reason": "",
+      "hype_velocity": 5.0,
+      "hype_score": 45,
+      "hype_label": "+5 stars/day",
+      "period": "monthly"
     },
     {
       "id": "4dca2fb89df76d89ee224f9ae1c1699cc00498bfa0113ed58a4f778cdffb29e5",
@@ -13198,11 +13398,16 @@
       "language": "PHP",
       "tags": [
         "AI",
-        "OPEN SOURCE"
+        "OPEN SOURCE",
+        "POP_GIT_MONTHLY"
       ],
       "attribution": "Raaakete/Birkly",
       "editorial_level": "raw_feed",
-      "editorial_status": "raw"
+      "editorial_status": "raw",
+      "hype_velocity": 5.0,
+      "hype_score": 45,
+      "hype_label": "+5 stars/day",
+      "period": "monthly"
     },
     {
       "id": "1e09ecc78087134b51fb6dad24055d5ff2726f43c60b7671862fb744092dd8c9",
@@ -13219,11 +13424,16 @@
       "language": "Python",
       "tags": [
         "AI",
-        "OPEN SOURCE"
+        "OPEN SOURCE",
+        "POP_GIT_WEEKLY"
       ],
       "attribution": "semantica-agi/semantica",
       "editorial_level": "raw_feed",
-      "editorial_status": "raw"
+      "editorial_status": "raw",
+      "hype_velocity": 324.7,
+      "hype_score": 100,
+      "hype_label": "EXPLOSIVE HYPE",
+      "period": "weekly"
     },
     {
       "id": "fdc98e4e70aebb2dde61b18e2b5f0c5c32a9624e4c09895d46a6b4963246176d",
@@ -13240,11 +13450,16 @@
       "language": "TypeScript",
       "tags": [
         "AI",
-        "OPEN SOURCE"
+        "OPEN SOURCE",
+        "POP_GIT_WEEKLY"
       ],
       "attribution": "vercel/ai",
       "editorial_level": "raw_feed",
-      "editorial_status": "raw"
+      "editorial_status": "raw",
+      "hype_velocity": 621.5,
+      "hype_score": 100,
+      "hype_label": "EXPLOSIVE HYPE",
+      "period": "weekly"
     },
     {
       "id": "7fc08de27bce1b0c7e7a8143093b769d261f651c2bca76fe7b35df9f3db087f4",
@@ -13261,11 +13476,16 @@
       "language": "Python",
       "tags": [
         "AI",
-        "OPEN SOURCE"
+        "OPEN SOURCE",
+        "POP_GIT_WEEKLY"
       ],
       "attribution": "Significant-Gravitas/AutoGPT",
       "editorial_level": "raw_feed",
-      "editorial_status": "raw"
+      "editorial_status": "raw",
+      "hype_velocity": 4178.5,
+      "hype_score": 100,
+      "hype_label": "EXPLOSIVE HYPE",
+      "period": "weekly"
     },
     {
       "id": "6d4b9dcada57f40b246405b1fa5022dc85acbedb21d6c65c7368ed40ccdc05fe",
@@ -13282,11 +13502,16 @@
       "language": "C++",
       "tags": [
         "AI",
-        "OPEN SOURCE"
+        "OPEN SOURCE",
+        "POP_GIT_WEEKLY"
       ],
       "attribution": "fegennari/3DWorld",
       "editorial_level": "raw_feed",
-      "editorial_status": "raw"
+      "editorial_status": "raw",
+      "hype_velocity": 32.0,
+      "hype_score": 100,
+      "hype_label": "EXPLOSIVE HYPE",
+      "period": "weekly"
     }
   ]
 }
