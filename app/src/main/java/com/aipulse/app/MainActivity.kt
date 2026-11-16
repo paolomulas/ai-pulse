@@ -9,6 +9,8 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.Canvas
+import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -27,12 +29,11 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.AutoAwesome
 import androidx.compose.material.icons.filled.Check
-import androidx.compose.material.icons.filled.Explore
 import androidx.compose.material.icons.filled.GraphicEq
-import androidx.compose.material.icons.filled.Person
 import androidx.compose.material.icons.filled.Refresh
+import androidx.compose.material.icons.filled.Sensors
+import androidx.compose.material.icons.filled.Share
 import androidx.compose.material.icons.filled.Tune
-import androidx.compose.material.icons.filled.VolumeUp
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Card
@@ -45,6 +46,9 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.NavigationBar
 import androidx.compose.material3.NavigationBarItem
 import androidx.compose.material3.NavigationBarItemDefaults
+import androidx.compose.material3.ModalBottomSheet
+import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.material3.RadioButton
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Surface
@@ -60,10 +64,14 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.Brush
+import androidx.compose.ui.graphics.Path
+import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import kotlinx.coroutines.Dispatchers
@@ -73,6 +81,8 @@ import org.json.JSONObject
 import java.net.HttpURLConnection
 import java.net.URL
 import java.util.Locale
+import java.time.LocalDate
+import java.time.format.TextStyle
 
 private val Paper = Color(0xFFFAF9F5)
 private val Warm = Color(0xFFF0EEE6)
@@ -109,7 +119,8 @@ private object I18n {
             "saved" to "Preferenze salvate", "footer_brand" to "PULSE AI · INDEPENDENT AI JOURNAL",
             "footer_sources" to "Contenuti e collegamenti rimandano sempre alle fonti originali", "privacy" to "Privacy Policy", "contact" to "Contatti",
             "refresh_content" to "Aggiorna", "topic_agents" to "Agenti Autonomi", "topic_llm" to "LLM & Modelli",
-            "topic_open_source" to "Open Source", "topic_research" to "Ricerca & Sviluppo", "topic_chips" to "Chip & Robotica", "topic_business" to "Business AI"
+             "topic_open_source" to "Open Source", "topic_research" to "Ricerca & Sviluppo", "topic_chips" to "Chip & Robotica", "topic_business" to "Business AI",
+             "morning_edition" to "EDIZIONE MATTINA", "top_story" to "STORIA IN EVIDENZA", "key_takeaways" to "PUNTI CHIAVE", "share" to "Condividi", "open_source_link" to "Apri fonte originale ↗", "read_time" to "MIN DI LETTURA"
         ),
         "en" to mapOf(
             "nav_briefing" to "Briefing", "nav_radar" to "Radar", "nav_speak_up" to "Speak Up", "nav_my_pulse" to "My Pulse",
@@ -135,7 +146,8 @@ private object I18n {
             "saved" to "Preferences saved", "footer_brand" to "PULSE AI · INDEPENDENT AI JOURNAL",
             "footer_sources" to "Content and links always point to the original sources", "privacy" to "Privacy Policy", "contact" to "Contact",
             "refresh_content" to "Refresh", "topic_agents" to "Autonomous Agents", "topic_llm" to "LLM & Models",
-            "topic_open_source" to "Open Source", "topic_research" to "Research & Development", "topic_chips" to "Chips & Robotics", "topic_business" to "Business AI"
+             "topic_open_source" to "Open Source", "topic_research" to "Research & Development", "topic_chips" to "Chips & Robotics", "topic_business" to "Business AI",
+             "morning_edition" to "MORNING EDITION", "top_story" to "TOP STORY", "key_takeaways" to "KEY TAKEAWAYS", "share" to "Share", "open_source_link" to "Open original source ↗", "read_time" to "MIN READ"
         ),
         "es" to mapOf(
             "nav_briefing" to "Briefing", "nav_radar" to "Radar", "nav_speak_up" to "Speak Up", "nav_my_pulse" to "Mi Pulse", "tagline" to "INTELIGENCIA PARA LA ERA AUTÓNOMA",
@@ -157,7 +169,8 @@ private object I18n {
             "all_news" to "Todas las noticias", "sync_title" to "Sincroniza tu Pulse", "sync_body" to "Accede con Google para sincronizar tus preferencias y recibir el Briefing matutino",
             "sign_in_google" to "Acceder con Google", "synced_account" to "Cuenta sincronizada", "save" to "Guardar Preferencias", "saved" to "Preferencias guardadas",
             "footer_brand" to "PULSE AI · REVISTA INDEPENDIENTE DE IA", "footer_sources" to "El contenido y los enlaces siempre remiten a las fuentes originales", "privacy" to "Política de privacidad", "contact" to "Contacto",
-            "refresh_content" to "Actualizar", "topic_agents" to "Agentes Autónomos", "topic_llm" to "LLM y Modelos", "topic_open_source" to "Código Abierto", "topic_research" to "Investigación y Desarrollo", "topic_chips" to "Chips y Robótica", "topic_business" to "Negocios de IA"
+             "refresh_content" to "Actualizar", "topic_agents" to "Agentes Autónomos", "topic_llm" to "LLM y Modelos", "topic_open_source" to "Código Abierto", "topic_research" to "Investigación y Desarrollo", "topic_chips" to "Chips y Robótica", "topic_business" to "Negocios de IA",
+             "morning_edition" to "EDICIÓN DE LA MAÑANA", "top_story" to "HISTORIA DESTACADA", "key_takeaways" to "PUNTOS CLAVE", "share" to "Compartir", "open_source_link" to "Abrir fuente original ↗", "read_time" to "MIN DE LECTURA"
         ),
         "zh" to mapOf(
             "nav_briefing" to "简报", "nav_radar" to "雷达", "nav_speak_up" to "AI之声", "nav_my_pulse" to "我的 Pulse", "tagline" to "自主时代的智能",
@@ -174,7 +187,8 @@ private object I18n {
             "topics" to "您的主题", "briefing_language" to "简报语言", "editorial_level" to "编辑级别", "curated_only" to "仅精选摘要", "all_news" to "所有新闻",
             "sync_title" to "同步您的 Pulse", "sync_body" to "使用 Google 登录，同步您的偏好并接收每日早报", "sign_in_google" to "使用 Google 登录", "synced_account" to "账号已同步", "save" to "保存偏好设置", "saved" to "偏好设置已保存",
             "footer_brand" to "PULSE AI · 独立人工智能杂志", "footer_sources" to "内容和链接始终指向原始来源", "privacy" to "隐私政策", "contact" to "联系我们", "refresh_content" to "刷新",
-            "topic_agents" to "自主智能体", "topic_llm" to "大语言模型", "topic_open_source" to "开源", "topic_research" to "研发", "topic_chips" to "芯片与机器人", "topic_business" to "AI 商业"
+             "topic_agents" to "自主智能体", "topic_llm" to "大语言模型", "topic_open_source" to "开源", "topic_research" to "研发", "topic_chips" to "芯片与机器人", "topic_business" to "AI 商业",
+             "morning_edition" to "早间版", "top_story" to "重点故事", "key_takeaways" to "关键要点", "share" to "分享", "open_source_link" to "打开原始来源 ↗", "read_time" to "分钟阅读"
         ),
         "de" to mapOf(
             "nav_briefing" to "Briefing", "nav_radar" to "Radar", "nav_speak_up" to "Speak Up", "nav_my_pulse" to "Mein Pulse", "tagline" to "INTELLIGENZ FÜR DAS AUTONOME ZEITALTER",
@@ -191,7 +205,8 @@ private object I18n {
             "topics" to "IHRE THEMEN", "briefing_language" to "BRIEFING-SPRACHE", "editorial_level" to "REDAKTIONELLES NIVEAU", "curated_only" to "Nur kuratierte Zusammenfassungen", "all_news" to "Alle Nachrichten",
             "sync_title" to "Synchronisieren Sie Ihren Pulse", "sync_body" to "Melden Sie sich mit Google an, um Ihre Präferenzen zu synchronisieren und das morgendliche Briefing zu erhalten", "sign_in_google" to "Mit Google anmelden", "synced_account" to "Konto synchronisiert", "save" to "Einstellungen speichern", "saved" to "Einstellungen gespeichert",
             "footer_brand" to "PULSE AI · UNABHÄNGIGES KI-JOURNAL", "footer_sources" to "Inhalte und Links verweisen immer auf die Originalquellen", "privacy" to "Datenschutzrichtlinie", "contact" to "Kontakt", "refresh_content" to "Aktualisieren",
-            "topic_agents" to "Autonome Agenten", "topic_llm" to "LLMs & Modelle", "topic_open_source" to "Open Source", "topic_research" to "Forschung & Entwicklung", "topic_chips" to "Chips & Robotik", "topic_business" to "KI-Geschäft"
+             "topic_agents" to "Autonome Agenten", "topic_llm" to "LLMs & Modelle", "topic_open_source" to "Open Source", "topic_research" to "Forschung & Entwicklung", "topic_chips" to "Chips & Robotik", "topic_business" to "KI-Geschäft",
+             "morning_edition" to "MORGENAUSGABE", "top_story" to "TOP-STORY", "key_takeaways" to "DIE WICHTIGSTEN PUNKTE", "share" to "Teilen", "open_source_link" to "Originalquelle öffnen ↗", "read_time" to "MIN LESEZEIT"
         )
     )
 
@@ -238,7 +253,10 @@ private data class Story(
     val ttsAudioByLanguage: JSONObject? = null,
     val editorial: JSONObject? = null,
     val editorialLevel: String = "raw_feed",
-    val editorPickReason: String = ""
+    val editorPickReason: String = "",
+    val relevanceScore: Int = 0,
+    val keyTakeaways: List<String> = emptyList(),
+    val extendedAnalysis: String = ""
 )
 
 private data class PulsePreferences(
@@ -272,6 +290,16 @@ private fun savePreferences(context: Context, preferences: PulsePreferences) {
         .apply()
 }
 
+private fun editorialLanguageObject(editorial: JSONObject?, language: String): JSONObject? = editorial?.optJSONObject(language)
+    ?: editorial?.optJSONObject(if (language == "zh") "zh-CN" else language)
+    ?: editorial?.optJSONObject("en")
+    ?: editorial?.optJSONObject("it")
+
+private fun takeawaysFrom(editorial: JSONObject?, language: String): List<String> {
+    val values = editorialLanguageObject(editorial, language)?.optJSONArray("key_takeaways") ?: return emptyList()
+    return buildList { for (index in 0 until values.length()) values.optString(index).takeIf { it.isNotBlank() }?.let(::add) }
+}
+
 private suspend fun loadFeed(): List<Story> = withContext(Dispatchers.IO) {
     val connection = (URL(AppConfig.FEED_URL).openConnection() as HttpURLConnection).apply {
         connectTimeout = 10000
@@ -297,6 +325,11 @@ private suspend fun loadFeed(): List<Story> = withContext(Dispatchers.IO) {
                     else -> if (item.optString("sourceKind") == "primary_source") "NEWS · FONTE ORIGINALE"
                     else item.optString("sourceKind", "NEWS").uppercase()
                 }
+                val editorial = item.optJSONObject("editorial")
+                val editorialLanguage = editorialLanguageObject(editorial, "it")
+                val takeaways = editorialLanguage?.optJSONArray("key_takeaways")?.let { values ->
+                    buildList { for (takeawayIndex in 0 until values.length()) values.optString(takeawayIndex).takeIf { it.isNotBlank() }?.let(::add) }
+                } ?: emptyList()
                 add(Story(
                     id = item.optString("id", "$index-$title"),
                     section = section,
@@ -311,10 +344,13 @@ private suspend fun loadFeed(): List<Story> = withContext(Dispatchers.IO) {
                      stars = item.optInt("stars", 0),
                     ttsAudioUrl = item.optString("ttsAudioUrl"),
                     ttsAudioByLanguage = item.optJSONObject("ttsAudioByLanguage"),
-                    editorial = item.optJSONObject("editorial"),
-                    editorialLevel = item.optString("editorial_level", "raw_feed"),
-                    editorPickReason = item.optString("editor_pick_reason")
-                ))
+                     editorial = editorial,
+                     editorialLevel = item.optString("editorial_level", "raw_feed"),
+                     editorPickReason = item.optString("editor_pick_reason"),
+                     relevanceScore = item.optInt("relevance_score", item.optInt("impact_score", 0)),
+                     keyTakeaways = takeaways,
+                     extendedAnalysis = editorialLanguage?.optString("extended_analysis", "") ?: ""
+                 ))
             }
         }
     } finally {
@@ -336,6 +372,13 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+private fun editionKicker(language: String): String {
+    val locale = Locale.forLanguageTag(if (language == "zh") "zh-CN" else language)
+    val day = LocalDate.now().dayOfWeek.getDisplayName(TextStyle.FULL, locale).uppercase(locale)
+    return "$day ${LocalDate.now().dayOfMonth} · ${I18n.tr("morning_edition", language)}"
+}
+
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 private fun PulseScreen() {
     val context = LocalContext.current
@@ -344,6 +387,7 @@ private fun PulseScreen() {
     var preferences by remember { mutableStateOf(loadPreferences(context)) }
     var stories by remember { mutableStateOf<List<Story>>(emptyList()) }
     var loading by remember { mutableStateOf(true) }
+    var readerStory by remember { mutableStateOf<Story?>(null) }
 
     fun refresh() {
         scope.launch {
@@ -364,15 +408,15 @@ private fun PulseScreen() {
                 Column {
                     HorizontalDivider(color = Warm, thickness = 1.dp)
                     NavigationBar(
-                        containerColor = Paper,
+                        containerColor = Paper.copy(alpha = 0.94f),
                         tonalElevation = 0.dp,
                         windowInsets = androidx.compose.material3.NavigationBarDefaults.windowInsets
                     ) {
                         listOf(
                             I18n.tr("nav_briefing", preferences.language) to Icons.Default.AutoAwesome,
-                            I18n.tr("nav_radar", preferences.language) to Icons.Default.Explore,
-                            I18n.tr("nav_speak_up", preferences.language) to Icons.Default.VolumeUp,
-                            I18n.tr("nav_my_pulse", preferences.language) to Icons.Default.Person
+                            I18n.tr("nav_radar", preferences.language) to Icons.Default.Sensors,
+                            I18n.tr("nav_speak_up", preferences.language) to Icons.Default.GraphicEq,
+                            I18n.tr("nav_my_pulse", preferences.language) to Icons.Default.Tune
                         ).forEachIndexed { index, item ->
                             NavigationBarItem(
                                 selected = selectedTab == index,
@@ -393,7 +437,7 @@ private fun PulseScreen() {
             }
         ) { padding ->
             when (selectedTab) {
-                0 -> BriefingScreen(stories, preferences, loading, ::refresh, padding)
+                0 -> BriefingScreen(stories, preferences, loading, ::refresh, padding) { readerStory = it }
                 1 -> RadarScreen(stories, preferences.language, padding)
                 2 -> SpeakUpScreen(stories, preferences.language, padding)
                 else -> MyPulseScreen(preferences, { newPreferences ->
@@ -401,6 +445,11 @@ private fun PulseScreen() {
                     savePreferences(context, newPreferences)
                     Toast.makeText(context, I18n.tr("saved", newPreferences.language), Toast.LENGTH_SHORT).show()
                 }, padding)
+            }
+        }
+        readerStory?.let { story ->
+            ModalBottomSheet(onDismissRequest = { readerStory = null }, sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true), containerColor = Paper) {
+                ReaderView(story, preferences.language, onClose = { readerStory = null })
             }
         }
     }
@@ -419,6 +468,8 @@ private fun Masthead(language: String, onRefresh: () -> Unit) {
         verticalAlignment = Alignment.CenterVertically
     ) {
         Column {
+            Text(editionKicker(language), color = Terra, fontSize = 9.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.1.sp)
+            Spacer(Modifier.height(4.dp))
             Text("PULSE AI", fontFamily = FontFamily.Serif, fontSize = 28.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.5.sp)
             Text(I18n.tr("tagline", language), color = Muted, fontSize = 9.sp, letterSpacing = 1.2.sp)
         }
@@ -447,7 +498,8 @@ private fun BriefingScreen(
     preferences: PulsePreferences,
     loading: Boolean,
     refresh: () -> Unit,
-    padding: PaddingValues
+    padding: PaddingValues,
+    onOpenReader: (Story) -> Unit
 ) {
     val context = LocalContext.current
     val visible = stories.filter { matchesTopic(it, preferences.topics) && (!preferences.curatedOnly || it.editorialLevel != "raw_feed") }
@@ -463,8 +515,8 @@ private fun BriefingScreen(
                 Text(I18n.tr("briefing_subtitle", preferences.language), color = Muted, fontSize = 14.sp, lineHeight = 20.sp)
             }
             if (hero != null) {
-                item { StoryCard(hero, preferences.language, true) }
-                items(visible.drop(1), key = { it.id }) { story -> StoryCard(story, preferences.language, false) }
+                item { StoryCard(hero, preferences.language, true, onOpenReader) }
+                items(visible.drop(1), key = { it.id }) { story -> StoryCard(story, preferences.language, false, onOpenReader) }
             } else {
                 item {
                     Text(
@@ -479,30 +531,63 @@ private fun BriefingScreen(
 }
 
 @Composable
-private fun StoryCard(story: Story, language: String, hero: Boolean) {
+private fun AbstractCoverBanner(seed: String, topic: String, isHero: Boolean, modifier: Modifier = Modifier) {
+    val hash = seed.fold(0) { result, character -> result * 31 + character.code }
+    val palette = when {
+        topic.contains("agent", true) -> listOf(Color(0xFFC6613F), Color(0xFFE28743), Color(0xFFFAF9F5))
+        topic.contains("model", true) || topic.contains("llm", true) -> listOf(Color(0xFF161514), Color(0xFF7B61FF), Color(0xFFD4AF37))
+        topic.contains("source", true) || topic.contains("git", true) -> listOf(Color(0xFF788C5D), Color(0xFF2E6F40), Color(0xFFE7EBD8))
+        else -> listOf(Color(0xFF2B3A4A), Color(0xFFC6613F), Color(0xFFE7D4C7))
+    }
+    Canvas(modifier.fillMaxWidth().height(if (isHero) 140.dp else 90.dp)) {
+        val offset = ((hash ushr 8) % 1000) / 1000f
+        drawRect(Brush.linearGradient(palette, start = androidx.compose.ui.geometry.Offset.Zero, end = androidx.compose.ui.geometry.Offset(size.width, size.height)))
+        drawCircle(Brush.radialGradient(listOf(palette[1].copy(alpha = .85f), Color.Transparent)), size.minDimension * .72f, androidx.compose.ui.geometry.Offset(size.width * (.25f + offset * .25f), size.height * .2f))
+        drawCircle(Brush.radialGradient(listOf(palette[2].copy(alpha = .55f), Color.Transparent)), size.minDimension * .55f, androidx.compose.ui.geometry.Offset(size.width * (.82f - offset * .2f), size.height * .82f))
+        val wave = Path().apply {
+            moveTo(0f, size.height * (.72f + offset * .12f))
+            cubicTo(size.width * .25f, size.height * .25f, size.width * .55f, size.height * 1.1f, size.width, size.height * .42f)
+        }
+        drawPath(wave, color = Color.White.copy(alpha = .2f), style = Stroke(width = 2.dp.toPx()))
+    }
+}
+
+@Composable
+private fun StoryCard(story: Story, language: String, hero: Boolean, onOpenReader: (Story) -> Unit) {
     val context = LocalContext.current
     val localized = I18n.editorial(story, language)
     val curated = localized != null && story.editorialLevel != "raw_feed"
     val title = if (curated) localized?.optString("title")?.takeIf { it.isNotBlank() } ?: story.title else story.title
     val summary = if (curated) localized?.optString("summary")?.takeIf { it.isNotBlank() } ?: story.summary else story.summary
     val why = if (curated) localized?.optString("why_it_matters")?.takeIf { it.isNotBlank() } else null
+    val takeaways = localized?.let { takeawaysFrom(story.editorial, language) }?.ifEmpty { story.keyTakeaways } ?: story.keyTakeaways
+    val extended = localized?.optString("extended_analysis")?.takeIf { it.isNotBlank() } ?: story.extendedAnalysis
     Card(
-        Modifier.fillMaxWidth().clickable { runCatching { context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(story.url))) } },
+        Modifier.fillMaxWidth().clickable { onOpenReader(story) },
         colors = CardDefaults.cardColors(containerColor = if (hero) Warm else Color.White),
-        shape = RoundedCornerShape(if (hero) 4.dp else 16.dp)
+        shape = RoundedCornerShape(if (hero) 20.dp else 18.dp),
+        border = androidx.compose.foundation.BorderStroke(1.dp, if (hero) Color(0xFFE0DACD) else Color(0xFFE8E4DA))
     ) {
-        Column(Modifier.padding(if (hero) 22.dp else 17.dp)) {
+        Column {
+            AbstractCoverBanner(story.id + story.title, story.section, hero, Modifier)
+            Column(Modifier.padding(if (hero) 22.dp else 20.dp)) {
             Text(
-                if (hero) I18n.tr("exclusive", language) else if (story.editorialLevel == "editors_pick") I18n.tr("editors_pick", language) else I18n.tr("featured_analysis", language),
+                if (hero) I18n.tr("top_story", language) else if (story.editorialLevel == "editors_pick") I18n.tr("editors_pick", language) else I18n.tr("featured_analysis", language),
                 color = Terra, fontSize = 10.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.4.sp
             )
             Spacer(Modifier.height(9.dp))
             Text(title, fontFamily = FontFamily.Serif, fontSize = if (hero) 27.sp else 19.sp, lineHeight = if (hero) 31.sp else 24.sp, fontWeight = FontWeight.Bold)
             Spacer(Modifier.height(8.dp))
-            Text(summary, color = Muted, fontSize = 13.sp, lineHeight = 19.sp, maxLines = if (hero) 6 else 4, overflow = TextOverflow.Ellipsis)
+            Text(summary, color = Color(0xFF5A544B), fontSize = 20.sp, lineHeight = if (hero) 32.sp else 25.sp, maxLines = if (hero) 6 else 4, overflow = TextOverflow.Ellipsis)
+            Text("⏱️ ${readTime(summary, language)}", color = Muted, fontSize = 11.sp, modifier = Modifier.padding(top = 8.dp))
+            if (takeaways.isNotEmpty()) {
+                Spacer(Modifier.height(12.dp))
+                Text(I18n.tr("key_takeaways", language), color = Terra, fontSize = 10.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.sp)
+                takeaways.take(3).forEach { takeaway -> Text("• $takeaway", color = Color(0xFF5A544B), fontSize = 12.sp, lineHeight = 17.sp) }
+            }
             if (!why.isNullOrBlank()) {
                 Spacer(Modifier.height(14.dp))
-                Surface(color = Color.White.copy(alpha = .72f), shape = RoundedCornerShape(4.dp)) {
+                Surface(color = Color(0xFFF0EBE2), shape = RoundedCornerShape(4.dp), modifier = Modifier.border(1.dp, Color(0xFFE0DACD), RoundedCornerShape(4.dp))) {
                     Column(Modifier.padding(12.dp)) {
                         Text(I18n.tr("why_it_matters", language), color = Terra, fontSize = 9.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.sp)
                         Spacer(Modifier.height(4.dp))
@@ -510,6 +595,7 @@ private fun StoryCard(story: Story, language: String, hero: Boolean) {
                     }
                 }
             }
+            if (extended.isNotBlank()) TextButton(onClick = { onOpenReader(story) }, contentPadding = PaddingValues(0.dp)) { Text(I18n.tr("read_more", language), color = Terra, fontWeight = FontWeight.Bold) }
             Spacer(Modifier.height(13.dp))
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Text("${I18n.tr("source", language)} ${story.source}", color = Terra, fontSize = 11.sp, fontWeight = FontWeight.Medium, modifier = Modifier.weight(1f))
@@ -522,6 +608,61 @@ private fun StoryCard(story: Story, language: String, hero: Boolean) {
                         Text(I18n.tr("listen", language), color = Terra, fontWeight = FontWeight.Bold)
                     }
                 }
+            }
+            }
+        }
+    }
+}
+
+private fun readTime(text: String, language: String): String {
+    val minutes = (text.trim().split(Regex("\\s+")).size / 180).coerceAtLeast(1)
+    return "$minutes ${I18n.tr("read_time", language)}"
+}
+
+@Composable
+private fun ReaderView(story: Story, language: String, onClose: () -> Unit) {
+    val context = LocalContext.current
+    val localized = I18n.editorial(story, language)
+    val title = localized?.optString("title")?.takeIf { it.isNotBlank() } ?: story.title
+    val summary = localized?.optString("summary")?.takeIf { it.isNotBlank() } ?: story.summary
+    val why = localized?.optString("why_it_matters")?.takeIf { it.isNotBlank() }
+    val extended = localized?.optString("extended_analysis")?.takeIf { it.isNotBlank() } ?: story.extendedAnalysis
+    val takeaways = takeawaysFrom(story.editorial, language).ifEmpty { story.keyTakeaways }
+    LazyColumn(contentPadding = PaddingValues(bottom = 28.dp)) {
+        item { AbstractCoverBanner(story.id + story.title, story.section, true, Modifier) }
+        item {
+            Column(Modifier.padding(horizontal = 22.dp, vertical = 18.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
+                Text(title, fontFamily = FontFamily.Serif, fontSize = 30.sp, lineHeight = 32.sp, fontWeight = FontWeight.Bold)
+                Text("⏱️ ${readTime(summary, language)}  ·  ${story.source}", color = Muted, fontSize = 12.sp)
+                Text(summary, color = Color(0xFF5A544B), fontSize = 18.sp, lineHeight = 27.sp)
+                if (takeaways.isNotEmpty()) {
+                    Text(I18n.tr("key_takeaways", language), color = Terra, fontSize = 10.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.sp)
+                    takeaways.take(3).forEach { Text("• $it", color = Color(0xFF5A544B), fontSize = 13.sp, lineHeight = 19.sp) }
+                }
+                if (!why.isNullOrBlank()) {
+                    Surface(color = Color(0xFFF0EBE2), modifier = Modifier.fillMaxWidth().border(1.dp, Color(0xFFE0DACD), RoundedCornerShape(6.dp))) {
+                        Column(Modifier.padding(14.dp)) {
+                            Text(I18n.tr("why_it_matters", language), color = Terra, fontSize = 10.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.sp)
+                            Spacer(Modifier.height(5.dp))
+                            Text(why, fontSize = 15.sp, lineHeight = 22.sp)
+                        }
+                    }
+                }
+                if (extended.isNotBlank()) Text(extended, color = Color(0xFF5A544B), fontSize = 16.sp, lineHeight = 24.sp)
+                Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+                    Button(onClick = { runCatching { context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(story.url))) } }, colors = ButtonDefaults.buttonColors(containerColor = Terra), modifier = Modifier.weight(1f)) {
+                        Text(I18n.tr("open_source_link", language), maxLines = 1, overflow = TextOverflow.Ellipsis)
+                    }
+                    TextButton(onClick = {
+                        val share = Intent(Intent.ACTION_SEND).apply {
+                            type = "text/plain"
+                            putExtra(Intent.EXTRA_SUBJECT, title)
+                            putExtra(Intent.EXTRA_TEXT, "$title\n${story.url}\nLetto su Discover Pulse")
+                        }
+                        context.startActivity(Intent.createChooser(share, I18n.tr("share", language)))
+                    }) { Text(I18n.tr("share", language), color = Terra, fontWeight = FontWeight.Bold) }
+                }
+                TextButton(onClick = onClose, modifier = Modifier.fillMaxWidth()) { Text("×", fontSize = 24.sp, color = Muted) }
             }
         }
     }
@@ -638,7 +779,7 @@ private fun SpeakUpScreen(stories: List<Story>, language: String, padding: Paddi
     ScreenColumn(padding) { modifier ->
         LazyColumn(modifier, contentPadding = PaddingValues(20.dp), verticalArrangement = Arrangement.spacedBy(14.dp)) {
             item {
-                Icon(Icons.Default.VolumeUp, null, tint = Terra, modifier = Modifier.size(28.dp))
+                Icon(Icons.Default.GraphicEq, null, tint = Terra, modifier = Modifier.size(28.dp))
                 Text(I18n.tr("speak_kicker", language), color = Terra, fontSize = 10.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.6.sp)
                 Text(I18n.tr("speak_title", language), fontFamily = FontFamily.Serif, fontSize = 31.sp, fontWeight = FontWeight.Bold)
                 Text(I18n.tr("speak_subtitle", language), color = Muted, fontSize = 14.sp)
@@ -670,7 +811,7 @@ private fun SpeakUpScreen(stories: List<Story>, language: String, padding: Paddi
                                 }
                             }
                         }, contentPadding = PaddingValues(0.dp)) {
-                            Icon(if (audioUrl != null) Icons.Default.GraphicEq else Icons.Default.Explore, null, tint = Terra)
+                            Icon(if (audioUrl != null) Icons.Default.GraphicEq else Icons.Default.Sensors, null, tint = Terra)
                             Spacer(Modifier.width(5.dp))
                             Text(I18n.tr(if (audioUrl != null) "play_episode" else "open_episode", language), color = Terra, fontWeight = FontWeight.Bold)
                         }

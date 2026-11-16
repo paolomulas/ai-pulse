@@ -58,6 +58,36 @@ PROMOTIONAL_OR_SOCIAL_DOMAINS = {
 }
 MAX_CREATOR_SOURCE_ITEMS = 8
 
+IMPACT_KEYWORDS = (
+    "breakthrough", "reasoning", "open weights", "benchmark", "sota",
+    "autonomous agent", "agentic", "architecture", "frontier", "scaling",
+    "multimodal", "gpt-5", "claude", "gemini", "deepseek",
+)
+
+def compute_impact_score(item):
+    """Return a deterministic editorial priority score for a collected item."""
+    score = 0
+    source_kind = str(item.get("sourceKind", "")).lower()
+    source_text = " ".join((str(item.get(field, "")) for field in ("sourceUrl", "sourceName"))).lower()
+    if source_kind == "primary_source":
+        score += 40
+    if any(name in source_text for name in ("openai", "deepmind", "anthropic", "meta", "arxiv")):
+        score += 35
+    elif any(name in source_text for name in ("techcrunch", "venturebeat", "technologyreview")):
+        score += 25
+    else:
+        score += 15
+
+    try:
+        stars = int(item.get("stars") or 0)
+    except (TypeError, ValueError):
+        stars = 0
+    score += 35 if stars > 5000 else 25 if stars > 1000 else 15 if stars > 200 else 5 if stars > 0 else 0
+
+    text = " ".join((str(item.get(field, "")) for field in ("title", "summary"))).lower()
+    keyword_points = sum(7 for keyword in IMPACT_KEYWORDS if keyword in text)
+    return score + min(keyword_points, 25)
+
 def approved_primary_url(url):
     try:
         parsed = urlsplit(url)
@@ -375,6 +405,9 @@ def enrich_records(records):
     daily = cache.setdefault("daily", {})
     if daily.get("date") != today:
         daily.update({"date": today, "count": 0, "picks": 0})
+    for item in records:
+        item["impact_score"] = compute_impact_score(item)
+
     if not api_key:
         for item in records:
             item.setdefault("editorial_level", "raw_feed")
@@ -416,11 +449,15 @@ def enrich_records(records):
         if item_type in by_type:
             by_type[item_type].append(candidate)
 
+    for candidates_for_type in by_type.values():
+        candidates_for_type.sort(key=lambda pair: pair[0].get("impact_score", 0), reverse=True)
+
     # Give priority to original-source stories discovered through the creator radar.
     # Their creator videos themselves never enter the publication queue.
-    by_type["news"].sort(
-        key=lambda pair: 0 if pair[0].get("sourceKind") == "primary_source" else 1
-    )
+    by_type["news"].sort(key=lambda pair: (
+        pair[0].get("sourceKind") != "primary_source",
+        -pair[0].get("impact_score", 0),
+    ))
 
     remaining_daily = max(0, EDITORIAL_DAILY_LIMIT - int(daily.get("count", 0)))
     remaining_run = min(EDITORIAL_MAX_PER_RUN, remaining_daily)
