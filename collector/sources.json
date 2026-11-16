@@ -8,6 +8,13 @@
       "weight": 10
     },
     {
+      "name": "Datapizza · Editorial Radar",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCKssZEARhK7TT_5DEZmtMpw",
+      "channel_url": "https://www.youtube.com/@datapizza",
+      "kind": "creator_radar",
+      "weight": 10
+    },
+    {
       "name": "Matthew Berman · Creator Radar",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCawZsQWqfGSbCI5yjkdVkTA",
       "channel_url": "https://www.youtube.com/@matthew_berman",
