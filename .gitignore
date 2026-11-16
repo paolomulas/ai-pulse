@@ -9,3 +9,8 @@ google-services.json
 secrets.properties
 __pycache__/
 *.pyc
+
+keystore/
+build-artifacts*/
+GOOGLE_PLAY_UPLOAD_PACK*
+*.log
