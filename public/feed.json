@@ -6,7 +6,7 @@
       "id": "datapizza-limite-violetto",
       "type": "news",
       "title": "Limite: il modello AI italiano da 1B che supera i giganti nei benchmark matematici",
-      "summary": "Scovato via Datapizza: addestrato a Roma, il modello Limite da 1 miliardo di parametri supera sistemi trenta volte più grandi nella matematica da competizione. Pesi e codice aperti su GitHub e Hugging Face.",
+      "summary": "Addestrato a Roma da Paradigma Inc, il modello open weights Limite (1 miliardo di parametri) supera sistemi trenta volte più grandi nella matematica da competizione. Pesi e codice aperti su GitHub e Hugging Face.",
       "sourceName": "GitHub · Paradigma Inc",
       "sourceUrl": "https://github.com/paradigma-inc/limite-violetto",
       "publishedAt": "2026-11-16T10:00:00Z",
@@ -16,10 +16,9 @@
       "tags": [
         "AI",
         "OPEN SOURCE",
-        "SCOUTED VIA RADAR",
-        "DATAPIZZA"
+        "PRIMARY SOURCE"
       ],
-      "attribution": "Scouted via Datapizza · Fonte primaria GitHub",
+      "attribution": "GitHub · Paradigma Inc",
       "editorial_level": "curated",
       "editor_pick": true,
       "editor_pick_reason": "Prima grande release open source italiana di frontier reasoning da 1B con benchmark superiori a modelli 30x.",
@@ -27,7 +26,7 @@
       "editorial": {
         "it": {
           "title": "Limite: il modello AI italiano da 1B che supera i giganti nei benchmark matematici",
-          "summary": "Scovato via Datapizza: addestrato a Roma da Paradigma Inc, Limite (1 miliardo di parametri) supera sistemi trenta volte più grandi nella matematica da competizione. Pesi e codice aperti su GitHub e Hugging Face.",
+          "summary": "Addestrato a Roma da Paradigma Inc, Limite (1 miliardo di parametri) supera sistemi trenta volte più grandi nella matematica da competizione. Pesi e codice aperti su GitHub e Hugging Face.",
           "why_it_matters": "Dimostra che la qualità dei dati di pre-training e il reasoning mirato possono battere la pura forza bruta computazionale anche su modelli leggeri.",
           "extended_analysis": "Nel panorama dell'intelligenza artificiale dominato dai colossi della Silicon Valley, il rilascio di Limite rappresenta un cambio di paradigma per l'ecosistema open source europeo. Con appena 1 miliardo di parametri, il modello raggiunge un'efficienza straordinaria nella risoluzione di problemi matematici complessi, offrendo un'alternativa locale, trasparente e riproducibile a costi di inferenza minimi.",
           "context": "L'ottimizzazione dell'architettura e l'uso di dataset sintetici di altissima qualità permettono a modelli 'small' di competere con LLM da decine di miliardi di parametri.",
@@ -37,13 +36,13 @@
             "Efficienza di inferenza ideale per esecuzione locale su edge device e server leggeri."
           ],
           "highlights": [
-            "Scoutato via Datapizza da radar editoriale indipendente.",
-            "Fonte primaria accessibile su GitHub: paradigma-inc/limite-violetto."
+            "Pesi e codice aperti su GitHub: paradigma-inc/limite-violetto.",
+            "Benchmark matematici competitivi da record per la classe 1B."
           ]
         },
         "en": {
           "title": "Limite: The 1B Italian Open Model Outperforming Giants in Math Benchmarks",
-          "summary": "Scouted via Datapizza: trained in Rome by Paradigma Inc, the 1-billion parameter model Limite outperforms models thirty times larger on competition math. Open weights and code available on GitHub and Hugging Face.",
+          "summary": "Trained in Rome by Paradigma Inc, the 1-billion parameter open model Limite outperforms models thirty times larger on competition math. Open weights and code on GitHub and Hugging Face.",
           "why_it_matters": "Proves that tailored reasoning data and curriculum curation can beat sheer parameter scaling on lightweight architectures.",
           "extended_analysis": "In a frontier landscape dominated by mega-labs, Limite showcases European open-weights engineering at its finest. Running at 1B parameters, it delivers elite mathematical reasoning at minimal inference cost.",
           "context": "Small language models (SLMs) with specialized reasoning capabilities are reshaping local deployment strategies across modern enterprises.",
@@ -53,8 +52,8 @@
             "Lightweight footprint designed for local consumer hardware."
           ],
           "highlights": [
-            "Scouted via Datapizza editorial radar.",
-            "Direct primary link to GitHub: paradigma-inc/limite-violetto."
+            "Open weights and code on GitHub: paradigma-inc/limite-violetto.",
+            "Record-setting competition math scores for a 1B architecture."
           ]
         },
         "es": {
