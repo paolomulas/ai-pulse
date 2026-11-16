@@ -3,6 +3,111 @@
   "count": 333,
   "items": [
     {
+      "id": "datapizza-limite-violetto",
+      "type": "news",
+      "title": "Limite: il modello AI italiano da 1B che supera i giganti nei benchmark matematici",
+      "summary": "Scovato via Datapizza: addestrato a Roma, il modello Limite da 1 miliardo di parametri supera sistemi trenta volte più grandi nella matematica da competizione. Pesi e codice aperti su GitHub e Hugging Face.",
+      "sourceName": "GitHub · Paradigma Inc",
+      "sourceUrl": "https://github.com/paradigma-inc/limite-violetto",
+      "publishedAt": "2026-11-16T10:00:00Z",
+      "collectedAt": "2026-11-16T14:00:00Z",
+      "sourceKind": "primary_source",
+      "sourceWeight": 10,
+      "tags": [
+        "AI",
+        "OPEN SOURCE",
+        "SCOUTED VIA RADAR",
+        "DATAPIZZA"
+      ],
+      "attribution": "Scouted via Datapizza · Fonte primaria GitHub",
+      "editorial_level": "curated",
+      "editor_pick": true,
+      "editor_pick_reason": "Prima grande release open source italiana di frontier reasoning da 1B con benchmark superiori a modelli 30x.",
+      "relevance_score": 98,
+      "editorial": {
+        "it": {
+          "title": "Limite: il modello AI italiano da 1B che supera i giganti nei benchmark matematici",
+          "summary": "Scovato via Datapizza: addestrato a Roma da Paradigma Inc, Limite (1 miliardo di parametri) supera sistemi trenta volte più grandi nella matematica da competizione. Pesi e codice aperti su GitHub e Hugging Face.",
+          "why_it_matters": "Dimostra che la qualità dei dati di pre-training e il reasoning mirato possono battere la pura forza bruta computazionale anche su modelli leggeri.",
+          "extended_analysis": "Nel panorama dell'intelligenza artificiale dominato dai colossi della Silicon Valley, il rilascio di Limite rappresenta un cambio di paradigma per l'ecosistema open source europeo. Con appena 1 miliardo di parametri, il modello raggiunge un'efficienza straordinaria nella risoluzione di problemi matematici complessi, offrendo un'alternativa locale, trasparente e riproducibile a costi di inferenza minimi.",
+          "context": "L'ottimizzazione dell'architettura e l'uso di dataset sintetici di altissima qualità permettono a modelli 'small' di competere con LLM da decine di miliardi di parametri.",
+          "key_takeaways": [
+            "1 miliardo di parametri con pesi aperti su Hugging Face e codice su GitHub.",
+            "Addestrato in sei settimane con benchmark matematici competitivi da record.",
+            "Efficienza di inferenza ideale per esecuzione locale su edge device e server leggeri."
+          ],
+          "highlights": [
+            "Scoutato via Datapizza da radar editoriale indipendente.",
+            "Fonte primaria accessibile su GitHub: paradigma-inc/limite-violetto."
+          ]
+        },
+        "en": {
+          "title": "Limite: The 1B Italian Open Model Outperforming Giants in Math Benchmarks",
+          "summary": "Scouted via Datapizza: trained in Rome by Paradigma Inc, the 1-billion parameter model Limite outperforms models thirty times larger on competition math. Open weights and code available on GitHub and Hugging Face.",
+          "why_it_matters": "Proves that tailored reasoning data and curriculum curation can beat sheer parameter scaling on lightweight architectures.",
+          "extended_analysis": "In a frontier landscape dominated by mega-labs, Limite showcases European open-weights engineering at its finest. Running at 1B parameters, it delivers elite mathematical reasoning at minimal inference cost.",
+          "context": "Small language models (SLMs) with specialized reasoning capabilities are reshaping local deployment strategies across modern enterprises.",
+          "key_takeaways": [
+            "1B parameter open-weights model available on Hugging Face and GitHub.",
+            "Record-setting competition math scores outperforming 30B+ architectures.",
+            "Lightweight footprint designed for local consumer hardware."
+          ],
+          "highlights": [
+            "Scouted via Datapizza editorial radar.",
+            "Direct primary link to GitHub: paradigma-inc/limite-violetto."
+          ]
+        },
+        "es": {
+          "title": "Limite: el modelo abierto italiano de 1B que supera a los gigantes en matemáticas",
+          "summary": "Detectado vía Datapizza: entrenado en Roma, el modelo Limite de 1B de parámetros supera a modelos treinta veces mayores en matemáticas de competición. Código y pesos abiertos en GitHub.",
+          "why_it_matters": "Demuestra que la curación de datos y el razonamiento sintético pueden superar el escalado bruto de parámetros.",
+          "extended_analysis": "Limite demuestra la potencia de los modelos compactos especializados, ofreciendo un rendimiento asombroso con una fracción del coste computacional.",
+          "context": "Los modelos pequeños y abiertos son la clave para la inferencia privada y local en Europa.",
+          "key_takeaways": [
+            "1B de parámetros con pesos en Hugging Face y repositorio en GitHub.",
+            "Rendimiento líder en matemáticas competitivas.",
+            "Ideal para ejecución local en hardware estándar."
+          ],
+          "highlights": [
+            "Descubierto mediante el radar editorial Datapizza.",
+            "Fuente primaria en GitHub: paradigma-inc/limite-violetto."
+          ]
+        },
+        "zh-CN": {
+          "title": "Limite：在数学基准中击败大型巨头的 1B 意大利开源模型",
+          "summary": "通过 Datapizza 雷达发现：在罗马完成训练，拥有 10 亿参数的 Limite 模型在竞赛数学基准上击败了规模大 30 倍的系统。开源权重与代码已上线 GitHub 和 Hugging Face。",
+          "why_it_matters": "证明了高质量精选推理数据在轻量化架构上能够超越庞大算力的堆叠。",
+          "extended_analysis": "在硅谷巨头主导的大模型竞争中，欧洲团队证明了 1B 参数模型通过极致数据工程所能达到的巅峰性能，具有极佳的本地部署价值。",
+          "context": "轻量级高推理能力模型正成为端侧与私有化部署的首选方案。",
+          "key_takeaways": [
+            "10 亿参数轻量开源架构，代码与权重公开。",
+            "在数学推理基准测试中创下小模型最高纪录。",
+            "极低推理算力开销，适合边缘端与单卡运行。"
+          ],
+          "highlights": [
+            "由 Datapizza 独立雷达天线发掘。",
+            "原始代码直通 GitHub 官方仓库。"
+          ]
+        },
+        "de": {
+          "title": "Limite: Das italienische 1B-KI-Modell, das Giganten in Mathe-Benchmarks schlägt",
+          "summary": "Über Datapizza entdeckt: Das in Rom trainierte 1-Milliarden-Parameter-Modell Limite übertrifft 30-mal größere Modelle in Wettbewerbsmathematik. Offene Gewichte auf GitHub und Hugging Face.",
+          "why_it_matters": "Beweist, dass gezielte Datenqualität und Reasoning-Architektur reine Skalierung schlagen können.",
+          "extended_analysis": "Limite zeigt das Potenzial kompakter europäischer Open-Source-Modelle, die bei minimalen Rechenkosten Spitzenleistungen im logischen Schließen erzielen.",
+          "context": "Kompakte SLMs bieten eine datenschutzfreundliche und kostengünstige Alternative für lokale Infrastrukturen.",
+          "key_takeaways": [
+            "1 Milliarde Parameter mit offenen Gewichten auf GitHub und Hugging Face.",
+            "Rekordwerte in mathematischen Reasoning-Benchmarks.",
+            "Perfekt für lokale Ausführung auf Standard-Hardware."
+          ],
+          "highlights": [
+            "Gefiltert über das Datapizza-Radar.",
+            "Direkte Primärquelle auf GitHub: paradigma-inc/limite-violetto."
+          ]
+        }
+      }
+    },
+    {
       "id": "0583f222567456c2bba5528e6a347399ab18a1cecfab0c5233938d74b48c1084",
       "type": "github",
       "title": "Endijuan33/free-model-aggregator-01",
