@@ -106,7 +106,7 @@ private object I18n {
              "radar_models" to "MODELLI DI FRONTIERA", "radar_models_body" to "La corsa ai modelli più capaci, efficienti e aperti.",
              "radar_creator" to "SIMONE RIZZO · RADAR DEI CREATOR", "radar_creator_body" to "Voci indipendenti che spiegano cosa sta succedendo dietro il prossimo rilascio.",
              "top_repos" to "TOP REPOSITORIES · GIT RADAR", "open_github" to "Apri su GitHub ↗", "open_episode" to "Ascolta sul web ↗",
-             "radar_tab_signals" to "Segnali & Creator", "radar_tab_repos" to "Hit Parade Git",
+             "radar_tab_signals" to "Segnali & Creator", "radar_tab_repos" to "Pop Git",
              "scouted_badge" to "SCOUTED VIA RADAR · SEGNALE DI FRONTIERA", "primary_source_label" to "Fonte primaria:",
              "read_more" to "Leggi approfondimento ↗", "radar_frontier" to "CREATOR RADAR & ANALISI DI FRONTIERA",
             "speak_kicker" to "SPEAK UP", "speak_title" to "Le voci dell'AI", "speak_subtitle" to "Briefing audio e conversazioni per ascoltare la frontiera.",
@@ -134,7 +134,7 @@ private object I18n {
              "radar_models" to "FRONTIER MODELS", "radar_models_body" to "The race for more capable, efficient and open models.",
              "radar_creator" to "SIMONE RIZZO · CREATOR RADAR", "radar_creator_body" to "Independent voices explaining what is happening behind the next release.",
               "top_repos" to "TOP REPOSITORIES · GIT RADAR", "open_github" to "Open on GitHub ↗", "open_episode" to "Listen on web ↗",
-              "radar_tab_signals" to "Signals & Creators", "radar_tab_repos" to "Git Hit Parade",
+              "radar_tab_signals" to "Signals & Creators", "radar_tab_repos" to "Pop Git",
               "scouted_badge" to "SCOUTED VIA RADAR · FRONTIER SIGNAL", "primary_source_label" to "Primary source:",
              "read_more" to "Read more ↗", "radar_frontier" to "CREATOR RADAR & FRONTIER ANALYSIS",
             "speak_kicker" to "SPEAK UP", "speak_title" to "The voices of AI", "speak_subtitle" to "Audio briefings and conversations from the frontier.",
@@ -160,7 +160,7 @@ private object I18n {
              "radar_models" to "MODELOS DE VANGUARDIA", "radar_models_body" to "La carrera por modelos más capaces, eficientes y abiertos.",
              "radar_creator" to "SIMONE RIZZO · RADAR DE CREADORES", "radar_creator_body" to "Voces independientes que explican qué ocurre detrás del próximo lanzamiento.",
               "top_repos" to "TOP REPOSITORIOS · RADAR GIT", "open_github" to "Abrir en GitHub ↗", "open_episode" to "Escuchar en web ↗",
-              "radar_tab_signals" to "Señales y Creadores", "radar_tab_repos" to "Hit Parade Git",
+              "radar_tab_signals" to "Señales y Creadores", "radar_tab_repos" to "Pop Git",
               "scouted_badge" to "SCOUTED VIA RADAR · SEÑAL DE VANGUARDIA", "primary_source_label" to "Fuente primaria:",
              "read_more" to "Leer análisis ↗", "radar_frontier" to "RADAR DE CREADORES Y ANÁLISIS DE VANGUARDIA",
             "speak_kicker" to "SPEAK UP", "speak_title" to "Las voces de la IA", "speak_subtitle" to "Briefings de audio y conversaciones para escuchar la frontera.",
@@ -180,7 +180,7 @@ private object I18n {
              "radar_agents" to "自主智能体", "radar_agents_body" to "学习规划、使用工具并在现实世界中行动的系统。", "radar_models" to "前沿模型", "radar_models_body" to "更强大、高效且开放的模型竞赛。",
              "radar_creator" to "SIMONE RIZZO · 创作者雷达", "radar_creator_body" to "独立声音，解读下一次发布背后的动态。", "speak_kicker" to "AI之声", "speak_title" to "AI 的声音", "speak_subtitle" to "聆听前沿的音频简报与对话。",
               "top_repos" to "热门开源仓库 · GIT雷达", "open_github" to "在GitHub打开 ↗", "open_episode" to "网页收听 ↗",
-              "radar_tab_signals" to "信号与创作者", "radar_tab_repos" to "Git 热门榜",
+              "radar_tab_signals" to "信号与创作者", "radar_tab_repos" to "Pop Git (热门榜)",
               "scouted_badge" to "SCOUTED VIA RADAR · 前沿信号", "primary_source_label" to "原始来源:",
              "read_more" to "阅读详情 ↗", "radar_frontier" to "创作者雷达与前沿分析",
             "play_episode" to "播放剧集", "my_pulse_kicker" to "我的 PULSE", "my_pulse_title" to "定制您的简报", "my_pulse_subtitle" to "选择您每天早上想了解的内容。",
@@ -198,7 +198,7 @@ private object I18n {
              "radar_agents" to "AUTONOME AGENTEN", "radar_agents_body" to "Systeme, die lernen zu planen, Werkzeuge zu nutzen und in der Welt zu handeln.", "radar_models" to "GRENZMODELLE", "radar_models_body" to "Der Wettlauf um leistungsfähigere, effizientere und offene Modelle.",
              "radar_creator" to "SIMONE RIZZO · CREATOR-RADAR", "radar_creator_body" to "Unabhängige Stimmen erklären, was hinter der nächsten Veröffentlichung passiert.", "speak_kicker" to "SPEAK UP", "speak_title" to "Die Stimmen der KI", "speak_subtitle" to "Audio-Briefings und Gespräche von der Grenze des Machbaren.",
               "top_repos" to "TOP REPOSITORIES · GIT RADAR", "open_github" to "Auf GitHub öffnen ↗", "open_episode" to "Im Web anhören ↗",
-              "radar_tab_signals" to "Signale & Creator", "radar_tab_repos" to "Git-Hitparade",
+              "radar_tab_signals" to "Signale & Creator", "radar_tab_repos" to "Pop Git",
               "scouted_badge" to "SCOUTED VIA RADAR · GRENZSIGNAL", "primary_source_label" to "Primärquelle:",
              "read_more" to "Mehr lesen ↗", "radar_frontier" to "CREATOR-RADAR & GRENZANALYSE",
             "play_episode" to "Episode abspielen", "my_pulse_kicker" to "MEIN PULSE", "my_pulse_title" to "Passen Sie Ihr Briefing an", "my_pulse_subtitle" to "Wählen Sie, was Sie jeden Morgen verstehen möchten.",
@@ -530,25 +530,101 @@ private fun BriefingScreen(
     }
 }
 
-@Composable
-private fun AbstractCoverBanner(seed: String, topic: String, isHero: Boolean, modifier: Modifier = Modifier) {
-    val hash = seed.fold(0) { result, character -> result * 31 + character.code }
-    val palette = when {
-        topic.contains("agent", true) -> listOf(Color(0xFFC6613F), Color(0xFFE28743), Color(0xFFFAF9F5))
-        topic.contains("model", true) || topic.contains("llm", true) -> listOf(Color(0xFF161514), Color(0xFF7B61FF), Color(0xFFD4AF37))
-        topic.contains("source", true) || topic.contains("git", true) -> listOf(Color(0xFF788C5D), Color(0xFF2E6F40), Color(0xFFE7EBD8))
-        else -> listOf(Color(0xFF2B3A4A), Color(0xFFC6613F), Color(0xFFE7D4C7))
+private enum class VisualTopic {
+    FRONTIER_MODELS,
+    OPEN_SOURCE,
+    HARDWARE_COMPUTE,
+    AUTONOMOUS_AGENTS,
+    AUDIO_VOICE
+}
+
+private fun detectVisualTopic(story: Story): VisualTopic {
+    val text = "${story.title} ${story.summary} ${story.section} ${story.type}".lowercase()
+    return when {
+        story.type == "speak_up" || listOf("podcast", "audio", "voice", "speech", "ascolta", "intervista").any(text::contains) ->
+            VisualTopic.AUDIO_VOICE
+        story.type == "github" || listOf("github", "open source", "opensource", "repo", "repository", "framework", "library").any(text::contains) ->
+            VisualTopic.OPEN_SOURCE
+        listOf("chip", "robot", "nvidia", "hardware", "semiconductor", "compute", "gpu", "tpu", "quantum", "silicon").any(text::contains) ->
+            VisualTopic.HARDWARE_COMPUTE
+        listOf("agent", "autonom", "agentic", "tool use", "planning", "workflow", "multi-agent").any(text::contains) ->
+            VisualTopic.AUTONOMOUS_AGENTS
+        else ->
+            VisualTopic.FRONTIER_MODELS
     }
-    Canvas(modifier.fillMaxWidth().height(if (isHero) 140.dp else 90.dp)) {
-        val offset = ((hash ushr 8) % 1000) / 1000f
-        drawRect(Brush.linearGradient(palette, start = androidx.compose.ui.geometry.Offset.Zero, end = androidx.compose.ui.geometry.Offset(size.width, size.height)))
-        drawCircle(Brush.radialGradient(listOf(palette[1].copy(alpha = .85f), Color.Transparent)), size.minDimension * .72f, androidx.compose.ui.geometry.Offset(size.width * (.25f + offset * .25f), size.height * .2f))
-        drawCircle(Brush.radialGradient(listOf(palette[2].copy(alpha = .55f), Color.Transparent)), size.minDimension * .55f, androidx.compose.ui.geometry.Offset(size.width * (.82f - offset * .2f), size.height * .82f))
-        val wave = Path().apply {
-            moveTo(0f, size.height * (.72f + offset * .12f))
-            cubicTo(size.width * .25f, size.height * .25f, size.width * .55f, size.height * 1.1f, size.width, size.height * .42f)
+}
+
+@Composable
+private fun AbstractCoverBanner(story: Story, isHero: Boolean, modifier: Modifier = Modifier) {
+    val topic = detectVisualTopic(story)
+    val hash = story.id.fold(0) { result, character -> result * 31 + character.code }
+    val norm = ((hash ushr 4) and 0xFFFF) / 65535f
+
+    Canvas(modifier.fillMaxWidth().height(if (isHero) 148.dp else 92.dp)) {
+        val w = size.width
+        val h = size.height
+
+        when (topic) {
+            VisualTopic.FRONTIER_MODELS -> {
+                val base = listOf(Color(0xFF141312), Color(0xFF2E1A14), Color(0xFF141312))
+                drawRect(Brush.linearGradient(base, start = androidx.compose.ui.geometry.Offset.Zero, end = androidx.compose.ui.geometry.Offset(w, h)))
+                val cx1 = w * (0.35f + norm * 0.3f)
+                val cy1 = h * 0.25f
+                drawCircle(Brush.radialGradient(listOf(Color(0xFFC6613F).copy(alpha = 0.85f), Color(0xFFE28743).copy(alpha = 0.35f), Color.Transparent)), radius = h * 0.95f, center = androidx.compose.ui.geometry.Offset(cx1, cy1))
+                val cx2 = w * (0.75f - norm * 0.25f)
+                val cy2 = h * 0.8f
+                drawCircle(Brush.radialGradient(listOf(Color(0xFFD4AF37).copy(alpha = 0.45f), Color.Transparent)), radius = h * 0.7f, center = androidx.compose.ui.geometry.Offset(cx2, cy2))
+                val path = Path().apply {
+                    moveTo(0f, h * (0.75f - norm * 0.2f))
+                    cubicTo(w * 0.35f, h * 0.1f, w * 0.65f, h * 1.1f, w, h * (0.4f + norm * 0.2f))
+                }
+                drawPath(path, color = Color(0xFFFAF9F5).copy(alpha = 0.22f), style = Stroke(width = 2.dp.toPx()))
+            }
+            VisualTopic.OPEN_SOURCE -> {
+                val base = listOf(Color(0xFF0F172A), Color(0xFF1E1B4B), Color(0xFF0B132B))
+                drawRect(Brush.linearGradient(base, start = androidx.compose.ui.geometry.Offset.Zero, end = androidx.compose.ui.geometry.Offset(w, h)))
+                val cx = w * (0.5f + norm * 0.2f)
+                drawCircle(Brush.radialGradient(listOf(Color(0xFF06B6D4).copy(alpha = 0.75f), Color(0xFF3B82F6).copy(alpha = 0.25f), Color.Transparent)), radius = h * 1.1f, center = androidx.compose.ui.geometry.Offset(cx, h * 0.5f))
+                for (i in 0..4) {
+                    val step = (i + norm) * (w / 4f)
+                    drawLine(Color(0xFF38BDF8).copy(alpha = 0.18f), androidx.compose.ui.geometry.Offset(step % w, 0f), androidx.compose.ui.geometry.Offset((step % w) + w * 0.35f, h), strokeWidth = 1.5.dp.toPx())
+                }
+            }
+            VisualTopic.HARDWARE_COMPUTE -> {
+                val base = listOf(Color(0xFF1C1917), Color(0xFF292524), Color(0xFF18181B))
+                drawRect(Brush.linearGradient(base, start = androidx.compose.ui.geometry.Offset.Zero, end = androidx.compose.ui.geometry.Offset(w, h)))
+                val cx = w * (0.6f - norm * 0.3f)
+                drawCircle(Brush.radialGradient(listOf(Color(0xFFEA580C).copy(alpha = 0.8f), Color(0xFFF97316).copy(alpha = 0.3f), Color.Transparent)), radius = h * 0.9f, center = androidx.compose.ui.geometry.Offset(cx, h * 0.45f))
+                val path = Path().apply {
+                    moveTo(0f, h * 0.3f)
+                    lineTo(w * 0.35f, h * 0.3f)
+                    lineTo(w * 0.55f, h * 0.75f)
+                    lineTo(w, h * 0.75f)
+                }
+                drawPath(path, color = Color(0xFFFDBA74).copy(alpha = 0.35f), style = Stroke(width = 2.dp.toPx()))
+            }
+            VisualTopic.AUTONOMOUS_AGENTS -> {
+                val base = listOf(Color(0xFF27130B), Color(0xFF451A03), Color(0xFF1C0D07))
+                drawRect(Brush.linearGradient(base, start = androidx.compose.ui.geometry.Offset.Zero, end = androidx.compose.ui.geometry.Offset(w, h)))
+                val cx = w * (0.4f + norm * 0.25f)
+                drawCircle(Brush.radialGradient(listOf(Color(0xFFD97706).copy(alpha = 0.85f), Color(0xFFF59E0B).copy(alpha = 0.3f), Color.Transparent)), radius = h * 0.95f, center = androidx.compose.ui.geometry.Offset(cx, h * 0.4f))
+                drawCircle(Color(0xFFFEF3C7).copy(alpha = 0.2f), radius = h * 0.55f, center = androidx.compose.ui.geometry.Offset(cx, h * 0.4f), style = Stroke(width = 1.5.dp.toPx()))
+                drawCircle(Color(0xFFFEF3C7).copy(alpha = 0.12f), radius = h * 0.85f, center = androidx.compose.ui.geometry.Offset(cx, h * 0.4f), style = Stroke(width = 1.dp.toPx()))
+            }
+            VisualTopic.AUDIO_VOICE -> {
+                val base = listOf(Color(0xFF2E1065), Color(0xFF4A044E), Color(0xFF1E0836))
+                drawRect(Brush.linearGradient(base, start = androidx.compose.ui.geometry.Offset.Zero, end = androidx.compose.ui.geometry.Offset(w, h)))
+                drawCircle(Brush.radialGradient(listOf(Color(0xFFEC4899).copy(alpha = 0.8f), Color(0xFFA855F7).copy(alpha = 0.3f), Color.Transparent)), radius = h * 1.0f, center = androidx.compose.ui.geometry.Offset(w * 0.5f, h * 0.3f))
+                val barCount = 18
+                val barWidth = w / (barCount * 1.8f)
+                for (i in 0 until barCount) {
+                    val barNorm = kotlin.math.sin((i.toDouble() + norm * 5.0) * 0.6).toFloat().let { kotlin.math.abs(it) }
+                    val barHeight = h * (0.15f + barNorm * 0.55f)
+                    val bx = (i * 1.8f) * barWidth + barWidth * 0.5f
+                    drawLine(Color(0xFFF472B6).copy(alpha = 0.35f + barNorm * 0.35f), androidx.compose.ui.geometry.Offset(bx, h * 0.9f - barHeight), androidx.compose.ui.geometry.Offset(bx, h * 0.9f), strokeWidth = barWidth * 0.7f)
+                }
+            }
         }
-        drawPath(wave, color = Color.White.copy(alpha = .2f), style = Stroke(width = 2.dp.toPx()))
     }
 }
 
@@ -569,7 +645,7 @@ private fun StoryCard(story: Story, language: String, hero: Boolean, onOpenReade
         border = androidx.compose.foundation.BorderStroke(1.dp, if (hero) Color(0xFFE0DACD) else Color(0xFFE8E4DA))
     ) {
         Column {
-            AbstractCoverBanner(story.id + story.title, story.section, hero, Modifier)
+            AbstractCoverBanner(story, hero, Modifier)
             Column(Modifier.padding(if (hero) 22.dp else 20.dp)) {
             Text(
                 if (hero) I18n.tr("top_story", language) else if (story.editorialLevel == "editors_pick") I18n.tr("editors_pick", language) else I18n.tr("featured_analysis", language),
@@ -629,7 +705,7 @@ private fun ReaderView(story: Story, language: String, onClose: () -> Unit) {
     val extended = localized?.optString("extended_analysis")?.takeIf { it.isNotBlank() } ?: story.extendedAnalysis
     val takeaways = takeawaysFrom(story.editorial, language).ifEmpty { story.keyTakeaways }
     LazyColumn(contentPadding = PaddingValues(bottom = 28.dp)) {
-        item { AbstractCoverBanner(story.id + story.title, story.section, true, Modifier) }
+        item { AbstractCoverBanner(story, true, Modifier) }
         item {
             Column(Modifier.padding(horizontal = 22.dp, vertical = 18.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
                 Text(title, fontFamily = FontFamily.Serif, fontSize = 30.sp, lineHeight = 32.sp, fontWeight = FontWeight.Bold)
