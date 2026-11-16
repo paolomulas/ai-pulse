@@ -18,7 +18,7 @@ android {
     compileSdk = 36
     buildToolsVersion = "36.0.0"
     defaultConfig {
-        applicationId = "com.aipulse.app"
+        applicationId = "com.paolomulas.aipulse"
         minSdk = 26
         targetSdk = 36
         versionCode = 4
