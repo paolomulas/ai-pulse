@@ -15508,8 +15508,97 @@
       "retry_after": "2026-11-16T21:07:55.182250+00:00"
     },
     "4a925ee01de978814da3eb548ecb1d9aca777d08682d96e9e61646de4c23c33e": {
-      "fingerprint": "988b552eeb27e91d17dd163a984bf6abd6701e3a9829b1a3a675700ced9e42f5",
-      "retry_after": "2026-11-16T23:28:51.909791+00:00"
+      "fingerprint": "05707d7c1d042bd2c7ee37c641a8a0ad0d05fe293374524d3bc4692624ad0ec5",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Repomix: pacchettizza l'intero codice per i modelli IA",
+            "summary": "Repomix è uno strumento open source in TypeScript che raccoglie un intero repository di codice in un unico file ottimizzato per i modelli linguistici di grandi dimensioni (LLM).",
+            "why_it_matters": "Semplifica l'interazione con assistenti IA come Claude, ChatGPT o Gemini, consentendo di condividere intere basi di codice in modo rapido e strutturato.",
+            "extended_analysis": "Lo sviluppo software moderno fa sempre più affidamento su strumenti di intelligenza artificiale per l'analisi e la generazione di codice. Tuttavia, fornire contesti complessi costituiti da molteplici file può risultare macchinoso.\n\nRepomix risolve questo problema comprimendo l'intera struttura del repository in un formato leggibile e pronto per l'IA, supportando una vasta gamma di modelli sul mercato.\n\nNel panorama dei flussi di lavoro basati su LLM, la gestione efficiente del contesto rappresenta un fattore chiave per ottenere risposte precise e pertinenti.",
+            "context": "Creato come progetto su GitHub, Repomix risponde all'esigenza crescente degli sviluppatori di integrare grandi codebase nei moderni assistenti di programmazione basati su intelligenza artificiale.",
+            "key_takeaways": [
+              "Unisce un intero repository in un unico file ottimizzato per l'IA.",
+              "Compatibile con i principali modelli linguistici, tra cui Claude, ChatGPT e Gemini.",
+              "Sviluppato in TypeScript e disponibile su GitHub."
+            ],
+            "highlights": [
+              "Oltre 29.000 stelle su GitHub.",
+              "Linguaggio di programmazione principale: TypeScript."
+            ]
+          },
+          "en": {
+            "title": "Repomix: Pack your entire codebase into a single AI-ready file",
+            "summary": "Repomix is a powerful tool that packs an entire code repository into a single, AI-friendly file, designed to easily feed codebases to Large Language Models.",
+            "why_it_matters": "It streamlines the process of sharing complex multi-file projects with AI tools and coding assistants like Claude, ChatGPT, and Gemini.",
+            "extended_analysis": "As developers increasingly integrate large language models into their software engineering workflows, feeding complete repository context remains a technical friction point.\n\nRepomix addresses this by consolidating codebases into structured, unified files tailored for consumption by modern AI models, enhancing overall usability.\n\nManaging repository context efficiently is essential for unlocking the full reasoning capabilities of contemporary AI assistants during software development.",
+            "context": "Hosted on GitHub, Repomix targets the growing developer demand for seamless integration between large source code repositories and conversational AI platforms.",
+            "key_takeaways": [
+              "Packs full repositories into a single file for Large Language Models.",
+              "Broad compatibility with popular AI tools including Claude, ChatGPT, and Gemini.",
+              "Open-source TypeScript project hosted on GitHub."
+            ],
+            "highlights": [
+              "Over 29,000 GitHub stars.",
+              "Built using TypeScript."
+            ]
+          },
+          "es": {
+            "title": "Repomix: Empaqueta tu repositorio para modelos de inteligencia artificial",
+            "summary": "Repomix es una herramienta que reúne todo un repositorio de código en un solo archivo optimizado para modelos de lenguaje grande y asistentes de inteligencia artificial.",
+            "why_it_matters": "Facilita la alimentación de bases de código completas a herramientas de IA como Claude, ChatGPT y Gemini, simplificando los flujos de trabajo de desarrollo.",
+            "extended_analysis": "La integración de la inteligencia artificial en el desarrollo de software requiere a menudo el intercambio de contextos complejos compuestos por múltiples archivos.\n\nRepomix soluciona este inconveniente consolidando repositorios enteros en un formato estructurado y apto para sistemas de IA, mejorando la eficiencia operativa.\n\nA medida que los desarrolladores adoptan asistentes de IA, optimizar la transferencia de contexto técnico se convierte en una prioridad fundamental.",
+            "context": "Este proyecto de código abierto en GitHub atiende la necesidad de conectar bases de código extensas con la nueva generación de herramientas de IA conversacional.",
+            "key_takeaways": [
+              "Convierte repositorios completos en archivos individuales aptos para IA.",
+              "Soporta múltiples modelos como Claude, ChatGPT, DeepSeek y Gemini.",
+              "Desarrollado en TypeScript y disponible en GitHub."
+            ],
+            "highlights": [
+              "Más de 29.000 estrellas en GitHub.",
+              "Escrito en TypeScript."
+            ]
+          },
+          "zh-CN": {
+            "title": "Repomix：将整个代码库打包为适合AI处理的文件",
+            "summary": "Repomix是一个强大的工具，可将整个代码仓库打包成单个AI友好的文件，非常适合将复杂代码库输入给大语言模型及各类AI助手。",
+            "why_it_matters": "它简化了向Claude、ChatGPT和Gemini等主流AI工具共享完整项目代码的流程，提升开发效率。",
+            "extended_analysis": "在现代软件工程中，开发人员越来越依赖人工智能来辅助编码和分析。然而，向大语言模型传递多文件构成的复杂上下文往往较为繁琐。\n\nRepomix通过将整个代码仓库统一整理为结构化文件，有效解决了上下文传递难题，兼容多种主流AI模型。\n\n高效管理代码库上下文对于充分发挥AI编程助手的性能具有重要意义。",
+            "context": "作为GitHub上的开源项目，Repomix精准契合了开发者将大型代码库与对话式人工智能平台无缝对接的需求。",
+            "key_takeaways": [
+              "将完整代码仓库打包为单个适合AI读取的文件。",
+              "兼容Claude、ChatGPT、Gemini等多种大语言模型。",
+              "基于TypeScript开发并在GitHub上开源。"
+            ],
+            "highlights": [
+              "在GitHub上拥有超过29,000颗星标。",
+              "主要编程语言为TypeScript。"
+            ]
+          },
+          "de": {
+            "title": "Repomix: Gesamtes Repository in eine einzelne KI-Datei verpacken",
+            "summary": "Repomix ist ein leistungsstarkes Tool, das ein gesamtes Code-Repository in eine einzige, KI-freundliche Datei verpackt, ideal zur Fütterung von LLMs.",
+            "why_it_matters": "Es vereinfacht die Bereitstellung komplexer Codebasen für KI-Assistenten wie Claude, ChatGPT oder Gemini und optimiert den Entwicklungsfluss.",
+            "extended_analysis": "Die Nutzung von Sprachmodellen in der Softwareentwicklung scheitert oft an der umständlichen Übergabe umfangreicher, verteilter Projektkontexte.\n\nRepomix fasst ganze Repositories in strukturierte, einheitliche Dateien zusammen, die direkt von modernen KI-Modellen verarbeitet werden können.\n\nEine effiziente Verwaltung des Code-Kontexts ist entscheidend, um das Potenzial von KI-gestützten Programmierwerkzeugen voll auszuschöpfen.",
+            "context": "Das auf GitHub gehostete Open-Source-Projekt adressiert den Bedarf von Entwicklern, große Codebasen nahtlos an moderne KI-Plattformen zu übergeben.",
+            "key_takeaways": [
+              "Verpackt komplette Repositories in eine einzige Datei für LLMs.",
+              "Unterstützt gängige KI-Modelle wie Claude, ChatGPT und Gemini.",
+              "Als TypeScript-Projekt auf GitHub verfügbar."
+            ],
+            "highlights": [
+              "Über 29.000 GitHub-Sterne.",
+              "Programmiersprache: TypeScript."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 75,
+        "editor_pick_reason": ""
+      }
     },
     "5da9a95de14e592d935b175e57b6db6233feb2ef6963da3fadf3bec2d780003b": {
       "fingerprint": "e1cdd9173cf1bdf278b262b38b7b274e46b6d95d8755c81b8b82e2f1526af91d",
@@ -15526,11 +15615,112 @@
     "d68f2d3cf9bdfb4a0b273e4ee25da9229096d37e0b570e12ec2ef020bcb2e573": {
       "fingerprint": "7cc0ee29f1a2737b75144a292bf6c61444ffa1ad28068178bc316192547dcf66",
       "retry_after": "2026-11-16T23:28:51.977150+00:00"
+    },
+    "1b4a1b4f18d176aa7a0a95f5d6ae8c523838e7f37386fe23ea603db398c3463b": {
+      "fingerprint": "623397e765d6270dbd00c4632d5e952473f20f1f6b79bfde4fca9d30748acf8c",
+      "retry_after": "2026-11-17T07:12:02.335931+00:00"
+    },
+    "0dd3bed5c7dd1c272c8dd6d9d053b51af44b0d51adc15317494c3f0ee0081a56": {
+      "fingerprint": "46b3f2e7d5e92458bd66e918e08cced533aed982338ab81a824266012ac46831",
+      "retry_after": "2026-11-17T07:12:03.589621+00:00"
+    },
+    "e11fcea9cd94bb207930afa4c02f669e72aafc98e134fd9a5562c910df7d5799": {
+      "fingerprint": "fa42cc8ee164bf70ef6792bca4bd9b16097cf0a0c10628e422d8f623564301f2",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Anthropic lancia Claude Fable 5 e Claude Mythos 5",
+            "summary": "Anthropic ha annunciato il lancio di Claude Fable 5, un modello di classe Mythos reso sicuro per l'uso generale, e di Claude Mythos 5, destinato a un programma di accesso fidato.",
+            "why_it_matters": "Fable 5 offre prestazioni all'avanguardia in ingegneria software e ricerca scientifica, introducendo al contempo nuove misure di sicurezza per mitigare i rischi legati alla cybersecurity.",
+            "extended_analysis": "Il rilascio congiunto di Fable 5 e Mythos 5 rappresenta un passaggio importante per rendere accessibili capacità di intelligenza artificiale avanzate mantenendo il controllo sui rischi potenziali. Fable 5 adotta salvaguardie conservative che reindirizzano alcune richieste verso modelli meno recenti quando necessario.\n\nContemporaneamente, Mythos 5 viene reso disponibile a un gruppo ristretto di difensori informatici e fornitori di infrastrutture attraverso iniziative come Project Glasswing, offrendo capacità avanzate di cybersecurity in collaborazione con le autorità.",
+            "context": "Nel panorama dei modelli linguistici di frontiera, la gestione dei rischi legati alle capacità di cybersicurezza e ricerca scientifica rappresenta una delle sfide principali per i laboratori di intelligenza artificiale.",
+            "key_takeaways": [
+              "Claude Fable 5 è un modello di classe Mythos per uso generale.",
+              "Claude Mythos 5 si rivolge a professionisti della sicurezza informatica.",
+              "Il modello adotta salvaguardie conservative per limitare usi impropri."
+            ],
+            "highlights": [
+              "Fable 5 mostra prestazioni elevate in software engineering e life sciences.",
+              "Mythos 5 è inizialmente distribuito tramite Project Glasswing."
+            ]
+          },
+          "en": {
+            "title": "Anthropic Launches Claude Fable 5 and Claude Mythos 5",
+            "summary": "Anthropic has released Claude Fable 5, a Mythos-class model made safe for general use, alongside Claude Mythos 5, designed for specialized security and infrastructure providers.",
+            "why_it_matters": "Fable 5 delivers state-of-the-art performance across software engineering and knowledge work while introducing conservative safeguards to prevent cybersecurity misuse.",
+            "extended_analysis": "The release of Claude Fable 5 and Claude Mythos 5 highlights Anthropic's approach to balancing advanced AI capabilities with safety measures. Fable 5 surpasses previous models in long, complex tasks and efficiency.\n\nMeanwhile, Mythos 5 removes certain restrictions for vetted cyberdefenders and infrastructure providers via programs like Project Glasswing, enabling secure deployment for high-stakes defensive applications.",
+            "context": "As frontier AI models advance in capability, balancing widespread availability with robust safeguards against dual-use risks remains a central focus for developers.",
+            "key_takeaways": [
+              "Claude Fable 5 provides state-of-the-art general-purpose capabilities.",
+              "Claude Mythos 5 offers lifted safeguards for trusted security professionals.",
+              "Both models are priced at $10 per million input tokens and $50 per million output tokens."
+            ],
+            "highlights": [
+              "Fable 5 features enhanced performance in vision and life sciences research.",
+              "Mythos 5 is initially deployed through Project Glasswing."
+            ]
+          },
+          "es": {
+            "title": "Anthropic presenta Claude Fable 5 y Claude Mythos 5",
+            "summary": "Anthropic ha lanzado Claude Fable 5, un modelo de clase Mythos adaptado para uso general, y Claude Mythos 5, enfocado en profesionales de la ciberseguridad.",
+            "why_it_matters": "Fable 5 ofrece un rendimiento avanzado en ingeniería de software y ciencias biológicas, incorporando salvaguardas para gestionar riesgos de ciberseguridad.",
+            "extended_analysis": "El lanzamiento simultáneo de Fable 5 y Mythos 5 busca equilibrar el acceso generalizado a capacidades de inteligencia artificial de vanguardia con la seguridad necesaria.\n\nMientras Fable 5 está disponible para el público general con filtros conservadores, Mythos 5 se distribuye inicialmente a través de programas de acceso de confianza para defensores cibernéticos.",
+            "context": "La gestión de modelos de IA altamente capaces requiere soluciones diferenciadas para mitigar riesgos y al mismo tiempo fomentar la innovación defensiva.",
+            "key_takeaways": [
+              "Claude Fable 5 establece nuevos estándares en tareas complejas.",
+              "Claude Mythos 5 está destinado a especialistas en seguridad.",
+              "Se han implementado salvaguardas conservadoras para reducir riesgos."
+            ],
+            "highlights": [
+              "Fable 5 supera a modelos anteriores en eficiencia de tokens.",
+              "Mythos 5 participa en el proyecto colaborativo Project Glasswing."
+            ]
+          },
+          "zh-CN": {
+            "title": "Anthropic 发布 Claude Fable 5 与 Claude Mythos 5",
+            "summary": "Anthropic 推出了经安全调整适合通用部署的 Mythos 级模型 Claude Fable 5，以及面向专业安全人员的 Claude Mythos 5。",
+            "why_it_matters": "Fable 5 在软件工程和科学研究领域展现出领先性能，同时通过保守的安全防护措施降低潜在的网络安全风险。",
+            "extended_analysis": "此次发布的两个模型旨在平衡前沿人工智能能力的广泛普及与安全管控。Fable 5 具备处理更长、更复杂任务的能力。\n\n与此同时，Mythos 5 针对特定网络防御者和基础设施提供商移除了部分限制，通过可信访问计划进行部署。",
+            "context": "随着大语言模型能力不断提升，如何在广泛可用性与双重用途风险防范之间取得平衡是当前技术发展的重要方向。",
+            "key_takeaways": [
+              "Claude Fable 5 适用于通用场景并具备领先性能。",
+              "Claude Mythos 5 针对可信网络防御者开放部分限制。",
+              "新模型定价为每百万输入代币 10 美元、每百万输出代币 50 美元。"
+            ],
+            "highlights": [
+              "Fable 5 在软件工程和生命科学研究中表现优异。",
+              "Mythos 5 最初通过 Project Glasswing 项目部署。"
+            ]
+          },
+          "de": {
+            "title": "Anthropic veröffentlicht Claude Fable 5 und Claude Mythos 5",
+            "summary": "Anthropic hat Claude Fable 5, ein für die allgemeine Nutzung sicheres Mythos-Klassenmodell, sowie Claude Mythos 5 für vertrauenswürdige Sicherheitsanwendungen vorgestellt.",
+            "why_it_matters": "Fable 5 bietet herausragende Leistungen in der Softwareentwicklung und wissenschaftlichen Forschung und führt konservative Schutzmaßnahmen ein.",
+            "extended_analysis": "Die gleichzeitige Einführung von Fable 5 und Mythos 5 verdeutlicht den Ansatz, fortschrittliche KI-Funktionen bereitzustellen und gleichzeitig Risiken im Bereich der Cybersicherheit zu kontrollieren.\n\nWährend Fable 5 mit integrierten Sicherheitsfiltern für die breite Nutzung bestimmt ist, richt sich Mythos 5 an eine ausgewählte Gruppe von Sicherheitsexperten und Infrastrukturanbietern.",
+            "context": "Die Weiterentwicklung leistungsstarker KI-Modelle erfordert sorgfältige Abwägungen zwischen breiter Zugänglichkeit und wirksamen Sicherheitsvorkehrungen.",
+            "key_takeaways": [
+              "Claude Fable 5 bietet hochentwickelte Allgemeinelektronik- und Forschungsfunktionen.",
+              "Claude Mythos 5 verzichtet in bestimmten Bereichen auf Filter für verifizierte Verteidiger.",
+              "Beide Modelle arbeiten mit optimierter Token-Effizienz."
+            ],
+            "highlights": [
+              "Fable 5 übertrifft frühere Modelle bei komplexen Aufgaben.",
+              "Mythos 5 wird über das Projekt Glasswing bereitgestellt."
+            ]
+          }
+        },
+        "editorial_level": "editors_pick",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 90,
+        "editor_pick_reason": "Annuncio di rilievo nel settore dei modelli linguistici di frontiera, con un approccio innovativo alla gestione della sicurezza e dell'accesso."
+      }
     }
   },
   "daily": {
-    "date": "2026-11-16",
-    "count": 7,
-    "picks": 0
+    "date": "2026-11-17",
+    "count": 2,
+    "picks": 1
   }
 }
