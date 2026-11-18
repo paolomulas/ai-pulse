@@ -13822,97 +13822,8 @@
       }
     },
     "d7c21c501eb23f12ba47c2340d026d981857380497913d0eb9b51d95ebac21c6": {
-      "fingerprint": "05a5b36e57dd490cd7227a985c28ae63a5cb8938a924e9d0a6a466582545f85d",
-      "editorial": {
-        "editorial": {
-          "it": {
-            "title": "Google presenta Gemini 4 Hydrogen per i flussi di lavoro",
-            "summary": "Google ha annunciato il lancio di Gemini 4 Hydrogen, un modello progettato per gestire flussi di lavoro basati su agenti e compiti quotidiani. L'annuncio evidenzia l'obiettivo di offrire un'intelligenza avanzata e accessibile per sviluppatori e aziende.",
-            "why_it_matters": "Questo rilascio amplia l'ecosistema di modelli di Google, puntando a migliorare l'efficienza e la velocità nei flussi di lavoro operativi e nello sviluppo software quotidiano.",
-            "extended_analysis": "L'introduzione di Gemini 4 Hydrogen rappresenta un nuovo passo nella strategia di Google per l'integrazione di modelli specializzati nell'ecosistema di intelligenza artificiale. La descrizione ufficiale menziona l'attenzione verso l'efficienza nei carichi di lavoro multi-modello e l'esecuzione affidabile su scala.\n\nSebbene i dettagli tecnici completi debbano essere ancora approfonditi dalla documentazione ufficiale, la disponibilità immediata del modello segnala l'intenzione di offrire strumenti avanzati direttamente agli utenti e agli sviluppatori.",
-            "context": "Il panorama dei modelli linguistici si sta evolvendo verso soluzioni sempre più orientate all'automazione dei flussi di lavoro tramite agenti software, con una crescente attenzione all'efficienza operativa.",
-            "key_takeaways": [
-              "Presentazione ufficiale di Gemini 4 Hydrogen da parte di Google.",
-              "Progettato specificamente come strumento quotidiano per flussi di lavoro agentici.",
-              "Disponibile per sviluppatori, aziende e utenti generali."
-            ],
-            "highlights": [
-              "Annunciato ufficialmente da Google nel novembre 2026.",
-              "Ottimizzato per velocità ed efficienza nei compiti quotidiani."
-            ]
-          },
-          "en": {
-            "title": "Google Introduces Gemini 4 Hydrogen for Agentic Workflows",
-            "summary": "Google has announced Gemini 4 Hydrogen, positioned as a daily driver for agentic workflows and everyday tasks. The release aims to bring efficient, advanced intelligence to developers, enterprises, and general users alike.",
-            "why_it_matters": "The model expands Google's lineup, focusing on practical speed and efficiency for automated agent tasks and software development workflows.",
-            "extended_analysis": "The launch of Gemini 4 Hydrogen adds a new option to Google's model ecosystem, targeting multi-model workloads and scalable execution. Official descriptions emphasize its role in everyday assistance and developer operations.\n\nAs the AI sector shifts toward specialized execution layers, offerings like Gemini 4 Hydrogen highlight the ongoing push to make agentic workflows faster and more accessible in production environments.",
-            "context": "The AI industry is increasingly focusing on agentic architectures capable of autonomous task execution, driving demand for optimized daily-driver models.",
-            "key_takeaways": [
-              "Google announced Gemini 4 Hydrogen for agentic workflows.",
-              "Aims to balance advanced intelligence with everyday operational speed.",
-              "Targeted at developers, enterprise tasks, and general app integration."
-            ],
-            "highlights": [
-              "Official launch announced in November 2026.",
-              "Positioned as a core model for everyday agent operations."
-            ]
-          },
-          "es": {
-            "title": "Google presenta Gemini 4 Hydrogen para flujos de trabajo",
-            "summary": "Google ha anunciado Gemini 4 Hydrogen, un modelo diseñado para servir como herramienta diaria en flujos de trabajo basados en agentes. El lanzamiento busca ofrecer inteligencia avanzada y eficiente para desarrolladores y usuarios.",
-            "why_it_matters": "Esta incorporación amplía las opciones de modelos de Google, enfocándose en la velocidad y la eficiencia práctica para la automatización y tareas cotidianas.",
-            "extended_analysis": "La llegada de Gemini 4 Hydrogen refuerza la apuesta de Google por modelos versátiles orientados a la productividad y la ejecución de agentes. La información inicial destaca su enfoque en cargas de trabajo eficientes y accesibilidad general.\n\nA medida que el ecosistema evoluciona, disponer de opciones optimizadas para tareas continuas resulta clave para la adopción empresarial y el desarrollo de software.",
-            "context": "El mercado de la inteligencia artificial prioriza la creación de modelos eficientes capaces de sostener flujos de trabajo automatizados y complejos.",
-            "key_takeaways": [
-              "Lanzamiento oficial de Gemini 4 Hydrogen por parte de Google.",
-              "Enfocado en flujos de trabajo de agentes y tareas cotidianas.",
-              "Diseñado para ofrecer velocidad y eficiencia a escala."
-            ],
-            "highlights": [
-              "Anuncio realizado en noviembre de 2026.",
-              "Orientado a desarrolladores, empresas y usuarios generales."
-            ]
-          },
-          "zh-CN": {
-            "title": "谷歌发布面向智能体工作流的 Gemini 4 Hydrogen",
-            "summary": "谷歌正式推出 Gemini 4 Hydrogen，将其定位为处理智能体工作流和日常任务的核心模型。该模型旨在为开发者和企业提供高效且先进的AI能力。",
-            "why_it_matters": "该版本的推出扩展了谷歌的模型矩阵，重点提升自动化智能体任务和日常软件开发工作流的实际运行效率。",
-            "extended_analysis": "Gemini 4 Hydrogen 的发布丰富了谷歌在人工智能领域的模型布局，强调多模型工作负载的效率与可扩展性。官方信息表明其旨在提供快速且实用的日常辅助。\n\n随着行业向更复杂的智能体应用演进，针对日常操作优化的模型成为了提升实际生产力的关键环节。",
-            "context": "当前人工智能行业正加速向具备自主任务执行能力的智能体架构转型，市场对高效、实用的基础模型需求日益增长。",
-            "key_takeaways": [
-              "谷歌正式宣布推出 Gemini 4 Hydrogen 模型。",
-              "专为智能体工作流及日常高效任务而设计。",
-              "面向广大开发者、企业及日常应用场景。"
-            ],
-            "highlights": [
-              "于2026年11月由谷歌官方发布。",
-              "专注于提供高效且实用的智能体操作支持。"
-            ]
-          },
-          "de": {
-            "title": "Google stellt Gemini 4 Hydrogen für Agenten-Workflows vor",
-            "summary": "Google hat Gemini 4 Hydrogen angekündigt, ein Modell für agentenbasierte Workflows und alltägliche Aufgaben. Die Veröffentlichung zielt darauf ab, effiziente und fortschrittliche Intelligenz für Entwickler und Unternehmen bereitzustellen.",
-            "why_it_matters": "Das neue Modell erweitert das Google-Ökosystem und konzentriert sich auf praktische Geschwindigkeit und Effizienz bei automatisierten Agentenaufgaben und der Softwareentwicklung.",
-            "extended_analysis": "Die Einführung von Gemini 4 Hydrogen ergänzt Googles Modellfamilie um eine spezialisierte Option für agentenbasierte Arbeitsabläufe. Die offiziellen Beschreibungen betonen die Effizienz bei Multi-Modell-Workloads und die skalierbare Ausführung.\n\nIn einer Zeit, in der autonome Agenten immer wichtiger werden, sind optimierte Modelle für den täglichen Einsatz entscheidend für die praktische Anwendbarkeit.",
-            "context": "Die KI-Branche entwickelt sich zunehmend in Richtung autonomer Agentensysteme, was den Bedarf an optimierten Modellen für den täglichen Betrieb erhöht.",
-            "key_takeaways": [
-              "Offizielle Ankündigung von Gemini 4 Hydrogen durch Google.",
-              "Fokus auf agentenbasierte Workflows und alltägliche Aufgaben.",
-              "Entwickelt für Effizienz und Skalierbarkeit bei Entwicklern und Anwendern."
-            ],
-            "highlights": [
-              "Offiziell vorgestellt im November 2026.",
-              "Konzipiert als tägliches Werkzeug für automatisierte Agentenprozesse."
-            ]
-          }
-        },
-        "editorial_level": "ai_curated",
-        "editorial_status": "verified",
-        "editorial_model": "gemini-3.5-flash-lite",
-        "editorial_version": 4,
-        "relevance_score": 75,
-        "editor_pick_reason": ""
-      }
+      "fingerprint": "379ee92b95c14b92e605dd8fe93329688532afd7f34486d887ce66e8c1a64fc8",
+      "retry_after": "2026-11-18T07:20:32.294664+00:00"
     },
     "e16892ed1d1e48a15e6e4fe67b7dd1a8b285541e5e08b3a6af4972d3f169decd": {
       "fingerprint": "435b5959edac9e8d0bda01d15d12e1e3282c5d6044d451b7df7749fe051ceafe",
@@ -15508,8 +15419,8 @@
       "retry_after": "2026-11-16T21:07:55.182250+00:00"
     },
     "4a925ee01de978814da3eb548ecb1d9aca777d08682d96e9e61646de4c23c33e": {
-      "fingerprint": "251c6866a5b8fd9f12dc42c4be1b0aa831d069d0448eceed87ce99461a104f23",
-      "retry_after": "2026-11-18T00:36:21.540490+00:00"
+      "fingerprint": "430b92cb365c8ccc96942ebf9ac93ee10a2c9975b6b93ae3fb119c7badaed3c5",
+      "retry_after": "2026-11-18T07:20:32.365603+00:00"
     },
     "5da9a95de14e592d935b175e57b6db6233feb2ef6963da3fadf3bec2d780003b": {
       "fingerprint": "e1cdd9173cf1bdf278b262b38b7b274e46b6d95d8755c81b8b82e2f1526af91d",
@@ -15809,11 +15720,19 @@
     "5348a7d239028e9b1bf7be7a3cd0b00cd33d7dd6ffac52cd0cf03c2dfa63c81d": {
       "fingerprint": "b09c211947792555fea4b3bacf346033eb73505aa6430052bba3232f2d317c60",
       "retry_after": "2026-11-18T00:36:21.415506+00:00"
+    },
+    "762d038a321989d335975660f1265a884f0be96b17c4174c8fc33c8e5be9983c": {
+      "fingerprint": "97e3045839c58a843bad20bebdabfc8d95cdcbc765567d5616a6a472bc138696",
+      "retry_after": "2026-11-18T07:20:32.223282+00:00"
+    },
+    "2185e9428314802fccbf46407d9983ee141fcb3870629113c6e4989cf23630af": {
+      "fingerprint": "68e11609f02ea36772f66a0170d098a69da26cd33ea889e9e0aceebb70637ab9",
+      "retry_after": "2026-11-18T07:20:32.444150+00:00"
     }
   },
   "daily": {
-    "date": "2026-11-17",
-    "count": 4,
-    "picks": 2
+    "date": "2026-11-18",
+    "count": 0,
+    "picks": 0
   }
 }
