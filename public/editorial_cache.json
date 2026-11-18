@@ -15419,8 +15419,8 @@
       "retry_after": "2026-11-16T21:07:55.182250+00:00"
     },
     "4a925ee01de978814da3eb548ecb1d9aca777d08682d96e9e61646de4c23c33e": {
-      "fingerprint": "e389ab59febecc665f22738c8b203b6152aa4fc2cfbf315d21ce441d58c47416",
-      "retry_after": "2026-11-18T15:10:59.979078+00:00"
+      "fingerprint": "1aba7f6213bcf8ead77f1e7a8b429409c1d781cb12ebc9d627302ee101d9b626",
+      "retry_after": "2026-11-19T00:09:48.267864+00:00"
     },
     "5da9a95de14e592d935b175e57b6db6233feb2ef6963da3fadf3bec2d780003b": {
       "fingerprint": "e1cdd9173cf1bdf278b262b38b7b274e46b6d95d8755c81b8b82e2f1526af91d",
@@ -15719,11 +15719,100 @@
     },
     "5348a7d239028e9b1bf7be7a3cd0b00cd33d7dd6ffac52cd0cf03c2dfa63c81d": {
       "fingerprint": "b09c211947792555fea4b3bacf346033eb73505aa6430052bba3232f2d317c60",
-      "retry_after": "2026-11-18T00:36:21.415506+00:00"
+      "retry_after": "2026-11-19T00:09:40.308434+00:00"
     },
     "762d038a321989d335975660f1265a884f0be96b17c4174c8fc33c8e5be9983c": {
       "fingerprint": "97e3045839c58a843bad20bebdabfc8d95cdcbc765567d5616a6a472bc138696",
-      "retry_after": "2026-11-18T15:10:59.810665+00:00"
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Comprare token o costruire una fabbrica di IA?",
+            "summary": "In questo episodio, Sadeepa Wijesekara di HPE Private Cloud AI discute con Sam Charrington le strategie aziendali per decidere se acquistare servizi di inferenza o gestire modelli in proprio. L'analisi esplora i costi delle chiamate ai modelli e il routing del lavoro tra sistemi locali e cloud.",
+            "why_it_matters": "Le aziende affrontano scelte complesse per bilanciare la privacy dei dati, le esigenze di ragionamento avanzato e la sostenibilità economica dei carichi di lavoro di intelligenza artificiale.",
+            "extended_analysis": "I moderni agenti di intelligenza artificiale richiedono una gestione articolata delle chiamate ai modelli, alternando modelli di frontiera e opzioni open-weight in base alla complessità del compito e alla riservatezza dei dati.\n\nSadeepa Wijesekara condivide l'esperienza di HPE nella gestione di endpoint interni per il routing delle richieste di codifica, offrendo spunti pratici su quando l'investimento in GPU locali diventi economicamente vantaggioso rispetto all'acquisto di token esterni.\n\nIl panorama descritto evidenzia la necessità per i team di ingegneria di monitorare con precisione i costi operativi e di implementare un'infrastruttura flessibile capace di adattarsi a esigenze computazionali eterogenee.",
+            "context": "Il dibattito riflette la crescente maturità dell'adozione aziendale dell'IA, in cui l'efficienza dei costi e la sovranità dei dati guidano le decisioni infrastrutturali dei reparti tecnologici.",
+            "key_takeaways": [
+              "Criteri per scegliere tra modelli ospitati e locali.",
+              "Analisi dei costi associati alle chiamate individuali dei modelli.",
+              "Strategie di routing per richieste di codifica tramite endpoint interni."
+            ],
+            "highlights": [
+              "Sadeepa Wijesekara guida l'ingegneria per HPE Private Cloud AI.",
+              "Discussione condotta da Sam Charrington all'interno del podcast TWIML AI."
+            ]
+          },
+          "en": {
+            "title": "Buying Tokens vs Building an AI Factory",
+            "summary": "Sadeepa Wijesekara of HPE Private Cloud AI joins Sam Charrington to explore how enterprises decide between purchasing inference tokens or operating their own AI infrastructure. The discussion covers cost tracking for model calls, workload routing, and the economics of running local GPUs.",
+            "why_it_matters": "Organizations must carefully balance data privacy, advanced reasoning requirements, and economic viability when scaling artificial intelligence operations.",
+            "extended_analysis": "Modern AI agents execute numerous model calls per task, forcing engineering teams to choose between frontier reasoning capabilities and open-weight models based on data sensitivity and performance needs.\n\nSadeepa Wijesekara details how HPE routes coding requests through internal endpoints capable of dispatching work to external providers or local servers, illustrating practical enterprise architecture choices.\n\nThe conversation sheds light on the granular cost tracking required to optimize AI operations and determine when owning dedicated hardware makes strategic sense.",
+            "context": "This episode addresses the architectural and financial challenges enterprises face as they move from experimental AI deployments to scaled production environments.",
+            "key_takeaways": [
+              "Frameworks for deciding between hosted inference and local execution.",
+              "Methods for tracking the cost of individual model calls.",
+              "Internal routing strategies for enterprise coding tasks."
+            ],
+            "highlights": [
+              "Featuring Sadeepa Wijesekara, engineering lead for HPE Private Cloud AI.",
+              "Hosted by Sam Charrington on The TWIML AI Podcast."
+            ]
+          },
+          "es": {
+            "title": "¿Comprar tokens o construir una fábrica de IA?",
+            "summary": "Sadeepa Wijesekara, de HPE Private Cloud AI, se une a Sam Charrington para analizar cómo las empresas deciden entre comprar inferencia o gestionar su propia infraestructura. La charla aborda el coste de las llamadas a los modelos y el enrutamiento de cargas de trabajo.",
+            "why_it_matters": "Las organizaciones se enfrentan a decisiones críticas para equilibrar la privacidad de los datos, las necesidades de razonamiento avanzado y la rentabilidad económica al escalar la inteligencia artificial.",
+            "extended_analysis": "Los agentes de IA actuales realizan múltiples llamadas a modelos para completar tareas, lo que exige a los equipos de ingeniería decidir cuándo utilizar modelos open-weight o de frontera según la confidencialidad de los datos.\n\nSadeepa Wijesekara comparte cómo HPE enruta las solicitudes de código a través de un punto de enlace interno que puede derivar el trabajo a proveedores externos o servidores locales, mostrando enfoques prácticos de arquitectura.\n\nLa conversación destaca la importancia de monitorizar los costes individuales y evaluar cuándo resulta económicamente viable la inversión en GPU propias.",
+            "context": "El episodio refleja los desafíos económicos y técnicos a los que se enfrentan las empresas en su transición hacia despliegues de IA más maduros y controlados.",
+            "key_takeaways": [
+              "Criterios para elegir entre modelos alojados y locales.",
+              "Seguimiento de costes en llamadas individuales de modelos.",
+              "Estrategias de enrutamiento para tareas de programación."
+            ],
+            "highlights": [
+              "Sadeepa Wijesekara lidera la ingeniería en HPE Private Cloud AI.",
+              "Conversación conducida por Sam Charrington en The TWIML AI Podcast."
+            ]
+          },
+          "zh-CN": {
+            "title": "购买Token还是自建AI工厂",
+            "summary": "HPE Private Cloud AI工程负责人Sadeepa Wijesekara与主持人Sam Charrington探讨企业如何在购买推理服务与自行运行模型之间做出决策。讨论涵盖了模型调用成本追踪以及本地与托管工作负载的路由策略。",
+            "why_it_matters": "企业在扩展人工智能应用时，必须在数据隐私、高级推理需求与经济可行性之间做出精细权衡。",
+            "extended_analysis": "现代AI智能体在完成任务时往往需要多次调用模型，工程团队必须根据任务复杂度和数据隐私要求，在开源模型和前沿推理服务之间进行选择。\n\nSadeepa Wijesekara分享了HPE如何通过统一的内部端点来路由代码编写请求，并根据需求分发至外部提供商或本地服务器，展示了企业架构的实际案例。\n\n对话深入探讨了监控单个模型调用成本的必要性，以及在何种情况下拥有自己的GPU在经济上更具合理性。",
+            "context": "该讨论反映了企业在将人工智能技术从实验阶段推进至规模化生产阶段时所面临的架构与财务挑战。",
+            "key_takeaways": [
+              "在托管推理与本地运行之间做出抉择的框架。",
+              "追踪单个模型调用成本的具体方法。",
+              "企业代码任务的内部路由策略。"
+            ],
+            "highlights": [
+              "Sadeepa Wijesekara担任HPE Private Cloud AI工程负责人。",
+              "由Sam Charrington主持的The TWIML AI Podcast节目。"
+            ]
+          },
+          "de": {
+            "title": "Token kaufen oder eine KI-Fabrik bauen?",
+            "summary": "Sadeepa Wijesekara von HPE Private Cloud AI diskutiert mit Sam Charrington, wie Unternehmen zwischen dem Kauf von Inferenzdiensten und dem Betrieb eigener Modelle abwägen. Im Fokus stehen Kostenanalysen für Modellaufrufe und Workload-Routing.",
+            "why_it_matters": "Unternehmen müssen bei der Skalierung von Künstlicher Intelligenz Datenschutz, Anforderungen an fortgeschrittenes Reasoning und wirtschaftliche Rentabilität sorgfältig ausbalancieren.",
+            "extended_analysis": "Moderne KI-Agenten führen oft zahlreiche Modellaufrufe aus, um eine Aufgabe zu bewältigen. Entwicklungsteams müssen daher entscheiden, wann sie auf Frontier-Modelle oder Open-Weight-Alternativen zurückgreifen.\n\nSadeepa Wijesekara erläutert, wie HPE Kodierungsanfragen über einen internen Endpunkt leitet, der Arbeiten an externe Anbieter übergeben oder lokal ausführen kann, was praktische Einblicke in die Unternehmensarchitektur bietet.\n\nDas Gespräch verdeutlicht, wie wichtig die genaue Überwachung einzelner Aufrufkosten ist, um fundierte Entscheidungen über eigene GPU-Investitionen zu treffen.",
+            "context": "Die Episode beleuchtet die architektonischen und finanziellen Abwägungen, mit denen Unternehmen beim Übergang zu produktionsreifen KI-Systemen konfrontiert sind.",
+            "key_takeaways": [
+              "Entscheidungskriterien zwischen gehosteter Inferenz und lokalem Betrieb.",
+              "Methoden zur Verfolgung der Kosten einzelner Modellaufrufe.",
+              "Interne Routing-Strategien für Programmieraufgaben."
+            ],
+            "highlights": [
+              "Sadeepa Wijesekara ist Engineering Lead für HPE Private Cloud AI.",
+              "Moderiert von Sam Charrington im The TWIML AI Podcast."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 40,
+        "editor_pick_reason": ""
+      }
     },
     "2185e9428314802fccbf46407d9983ee141fcb3870629113c6e4989cf23630af": {
       "fingerprint": "68e11609f02ea36772f66a0170d098a69da26cd33ea889e9e0aceebb70637ab9",
@@ -15732,11 +15821,15 @@
     "a92d7b7ef0e2da4d5922c4312bd7f7df8d2b093b922e0a6553e761255b0eac7a": {
       "fingerprint": "3cd66fca96f31682eb83a76bce304ba47077d123d522c78b17224df9a1bf2eed",
       "retry_after": "2026-11-18T15:11:00.048487+00:00"
+    },
+    "001317287cdd9d978025c8004521e4bd5f00e81bb7bf29366f18fcf891e9d1a0": {
+      "fingerprint": "a20514ae0a076ae02ff46c96cafd66c6547440e791f8b1e2067295a877320ca0",
+      "retry_after": "2026-11-19T00:09:57.445976+00:00"
     }
   },
   "daily": {
     "date": "2026-11-18",
-    "count": 0,
+    "count": 1,
     "picks": 0
   }
 }
