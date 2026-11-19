@@ -15419,8 +15419,8 @@
       "retry_after": "2026-11-16T21:07:55.182250+00:00"
     },
     "4a925ee01de978814da3eb548ecb1d9aca777d08682d96e9e61646de4c23c33e": {
-      "fingerprint": "7cc94123e1f71c46e275ffe9a5b9cf181907a2d2c90274f0aaa0bf58cb1b445a",
-      "retry_after": "2026-11-19T23:33:35.228762+00:00"
+      "fingerprint": "03b813d6471e019aaf378054b629b665184f02ac2fe82f64a4f86591c2ff8716",
+      "retry_after": "2026-11-20T05:52:59.038007+00:00"
     },
     "5da9a95de14e592d935b175e57b6db6233feb2ef6963da3fadf3bec2d780003b": {
       "fingerprint": "e1cdd9173cf1bdf278b262b38b7b274e46b6d95d8755c81b8b82e2f1526af91d",
@@ -15913,15 +15913,15 @@
     },
     "001317287cdd9d978025c8004521e4bd5f00e81bb7bf29366f18fcf891e9d1a0": {
       "fingerprint": "a20514ae0a076ae02ff46c96cafd66c6547440e791f8b1e2067295a877320ca0",
-      "retry_after": "2026-11-19T00:09:57.445976+00:00"
+      "retry_after": "2026-11-20T05:52:58.941702+00:00"
     },
     "03b179946dd0e551984b025c5c0109181a33c8ab2521005dd6c1243f1fb2bdf6": {
       "fingerprint": "164f3a2d43003802edbdbf17bff6462ec5955e3231670003c898a8def40add59",
       "retry_after": "2026-11-19T06:23:09.494657+00:00"
     },
     "385c19a396dc45aecd3c0d0d445d56254a65afa4574977c1d6e200599b99bcf3": {
-      "fingerprint": "dd8ca37d686b6d7c5c1778fe8494d101aaf5608c209cb9d8840c03e54583533a",
-      "retry_after": "2026-11-19T13:58:02.744444+00:00"
+      "fingerprint": "0b1c85a00a4c48cbd2c2e6f38538ec4c0658ade8e9b66b9241073297c96d6d06",
+      "retry_after": "2026-11-20T05:52:59.188952+00:00"
     },
     "e36f272acbd4b27f2348e1a0a3179001100d92f50f4886c500461bd0a2d4bf29": {
       "fingerprint": "d1b53669de9155686f3a913379115722f1ccbd76f88db8a3baba4fdbb37c86cc",
@@ -16019,6 +16019,10 @@
         "relevance_score": 45,
         "editor_pick_reason": ""
       }
+    },
+    "b789efbd2ffbdd4abd869eea98083cb94a1bf0cc5fbe574deed0c87c68f2f079": {
+      "fingerprint": "9aa07675e36f803ac3c96c89d47aae3ae3933e4e1cc25d9433b667b07c439206",
+      "retry_after": "2026-11-20T05:52:59.126298+00:00"
     }
   },
   "daily": {
