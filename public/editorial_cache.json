@@ -15419,8 +15419,8 @@
       "retry_after": "2026-11-16T21:07:55.182250+00:00"
     },
     "4a925ee01de978814da3eb548ecb1d9aca777d08682d96e9e61646de4c23c33e": {
-      "fingerprint": "6cfa9c30baa847cec3f6891aac8402cccac8dd23776303fd3bc5404550353740",
-      "retry_after": "2026-11-19T13:58:02.516509+00:00"
+      "fingerprint": "7cc94123e1f71c46e275ffe9a5b9cf181907a2d2c90274f0aaa0bf58cb1b445a",
+      "retry_after": "2026-11-19T23:33:35.228762+00:00"
     },
     "5da9a95de14e592d935b175e57b6db6233feb2ef6963da3fadf3bec2d780003b": {
       "fingerprint": "e1cdd9173cf1bdf278b262b38b7b274e46b6d95d8755c81b8b82e2f1526af91d",
@@ -15432,7 +15432,96 @@
     },
     "b9d3ce69ec15443a46bca21a22eab08b6d659697d63d8ea6a1d9f0b0fdc224d1": {
       "fingerprint": "b6e25f81bb0e4db02fe2ce525ec82014567a9305e284f87ba95585c0857755b5",
-      "retry_after": "2026-11-18T00:36:21.675334+00:00"
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "TiDAR: unire modelli a diffusione e autoregressivi per la generazione",
+            "summary": "TiDAR è una nuova architettura ibrida che combina la generazione parallela dei modelli a diffusione con la qualità dei modelli autoregressivi. Sfruttando maschere di attenzione strutturate in un singolo passaggio, il sistema punta a bilanciare efficienza e qualità testuale.",
+            "why_it_matters": "L'approccio mira a superare i limiti tradizionali tra velocità e qualità, offrendo una soluzione a basso overhead per l'inferenza basata su hardware moderno.",
+            "extended_analysis": "I modelli di linguaggio a diffusione promettono una generazione parallela rapida, mentre i modelli autoregressivi eccellono solitamente in termini di qualità grazie alla loro struttura causale. Tuttavia, i metodi precedenti spesso sacrificavano l'efficienza o perdevano la parallelizzabilità.\n\nTiDAR affronta questo problema introducendo un'architettura in cui i token vengono abbozzati in modalità di diffusione ('Thinking') e campionati in modo autoregressivo ('Talking') nello stesso passaggio. Questa configurazione sfrutta la densità di calcolo delle GPU senza richiedere modelli di supporto esterni complessi.\n\nLa valutazione presentata dai ricercatori include test su scale da 1.5B e 8B parametri, confrontando l'architettura con i modelli autoregressivi tradizionali e con varianti di diffusione, evidenziando potenziali miglioramenti nella velocità di generazione dei token.",
+            "context": "Il panorama della generazione di testo vede una divisione tra modelli autoregressivi sequenziali e approcci non autoregressivi o a diffusione. Trovare un punto d'incontro efficiente è una delle sfide aperte nell'ottimizzazione dell'inferenza.",
+            "key_takeaways": [
+              "Architettura ibrida sequenziale basata su maschere di attenzione strutturate.",
+              "Combina la generazione in diffusione (Thinking) con il campionamento autoregressivo (Talking).",
+              "Progettato come modello standalone a basse spese generali per l'inferenza."
+            ],
+            "highlights": [
+              "Presentato in un report tecnico da ricercatori tra cui autori affiliati a NVIDIA.",
+              "Valutato alle scale di 1.5B e 8B parametri su compiti generativi e di verosimiglianza."
+            ]
+          },
+          "en": {
+            "title": "TiDAR: Combining Diffusion and Autoregression for Language Models",
+            "summary": "TiDAR introduces a sequence-level hybrid architecture that drafts tokens using diffusion and samples final outputs autoregressively in a single forward pass. By utilizing structured attention masks, it aims to balance parallel generation speed with autoregressive quality.",
+            "why_it_matters": "This approach addresses the longstanding compromise between high throughput and language quality, serving as a standalone model with low inference overhead.",
+            "extended_analysis": "Diffusion language models offer fast parallel generation, whereas autoregressive models excel in quality due to natural causal structures. Existing methods often struggle to balance these traits, either through less efficient speculative decoding or by losing parallelizability via left-to-right diffusion decoding.\n\nTiDAR tackles this by splitting the process into 'Thinking' (diffusion drafting) and 'Talking' (autoregressive sampling) within a single forward pass. This design leverages available GPU compute density to balance drafting and verification capacity.\n\nEvaluated at 1.5B and 8B scales against traditional autoregressive models and diffusion variants, the architecture demonstrates significant metrics in token throughput and quality alignment, marking a step forward in serving efficiency.",
+            "context": "Balancing the fast parallel generation of non-autoregressive models with the high linguistic quality of autoregressive frameworks remains a primary focus in modern deep learning efficiency research.",
+            "key_takeaways": [
+              "Sequence-level hybrid design using specialized structured attention masks.",
+              "Executes diffusion drafting and autoregressive sampling in a single forward pass.",
+              "Built to operate as an efficient standalone model with exact KV cache support."
+            ],
+            "highlights": [
+              "Authored by researchers including teams from NVIDIA.",
+              "Tested across 1.5B and 8B parameter scales on generative and likelihood tasks."
+            ]
+          },
+          "es": {
+            "title": "TiDAR: Uniendo modelos de difusión y autorregresivos en lenguaje",
+            "summary": "TiDAR presenta una arquitectura híbrida que redacta tokens mediante difusión y muestrea las salidas de forma autorregresiva en un solo paso hacia adelante. Mediante máscaras de atención estructuradas, busca equilibrar la velocidad de generación paralela con la calidad lingüística.",
+            "why_it_matters": "Esta técnica aborda el compromiso clásico entre rendimiento de hardware y calidad de texto, ofreciendo un modelo independiente optimizado para la inferencia.",
+            "extended_analysis": "Los modelos de lenguaje de difusión prometen una rápida generación paralela, mientras que los modelos autorregresivos destacan en calidad gracias a su estructura causal. Los métodos anteriores a menudo comprometían la eficiencia del borrador o perdían la capacidad de paralelización.\n\nTiDAR resuelve esto combinando la redacción en difusión ('Thinking') y el muestreo autorregresivo ('Talking') en una única pasada. Este diseño aprovecha la densidad de cálculo de la GPU para equilibrar la capacidad de verificación.\n\nEvaluado en escalas de 1.5B y 8B parámetros frente a modelos autorregresivos y variantes de difusión, el sistema muestra mejoras medidas en la tasa de generación de tokens por segundo.",
+            "context": "La investigación en arquitectura de modelos busca constantemente superar las limitaciones de la inferencia secuencial pura sin sacrificar la coherencia y calidad del texto generado.",
+            "key_takeaways": [
+              "Arquitectura híbrida que utiliza máscaras de atención estructuradas.",
+              "Combina la generación por difusión y el muestreo autorregresivo en un solo paso.",
+              "Diseñado para ofrecer baja sobrecarga como modelo independiente."
+            ],
+            "highlights": [
+              "Desarrollado por un equipo de investigadores que incluye contribuciones vinculadas a NVIDIA.",
+              "Evaluado en tamaños de 1.5B y 8B parámetros."
+            ]
+          },
+          "zh-CN": {
+            "title": "TiDAR：结合扩散模型与自回归的高效语言生成架构",
+            "summary": "TiDAR 提出了一种序列级混合架构，通过专门设计的结构化注意力掩码，在单次前向传播中实现扩散草稿生成与自回归采样。该设计旨在平衡并行生成速度与自回归语言模型的输出质量。",
+            "why_it_matters": "该方法试图解决高吞吐量与文本质量之间的矛盾，提供了一个具备低推理开销的独立模型方案。",
+            "extended_analysis": "扩散语言模型具备快速并行生成的潜力，而自回归模型则因因果结构在语言建模质量上表现优异。以往的方法往往难以平衡这两方面，例如效率较低的投机解码，或在扩散过程中引入自回归逻辑导致并行性受损。\n\nTiDAR 通过在单次前向传播中结合扩散草稿（Thinking）与自回归采样（Talking）来应对这一挑战。该设计有效利用了 GPU 计算密度，平衡了草稿生成与验证能力。\n\n研究团队在 1.5B 和 8B 规模下对 TiDAR 进行了广泛评估，将其与传统自回归模型及其他扩散变体进行对比，展示了其在生成效率和吞吐量方面的表现。",
+            "context": "在深度学习和语言模型研究中，如何兼顾非自回归模型的并行速度与自回归模型的高质量输出一直是优化的核心方向之一。",
+            "key_takeaways": [
+              "基于结构化注意力掩码的序列级混合架构。",
+              "在单次前向传播中完成扩散草稿与自回归采样。",
+              "作为低开销的独立模型进行服务设计。"
+            ],
+            "highlights": [
+              "由包括来自 NVIDIA 等机构的研究人员共同撰写。",
+              "在 1.5B 和 8B 规模的生成与似然任务上进行了评估。"
+            ]
+          },
+          "de": {
+            "title": "TiDAR: Diffusion und Autoregressive Sprachmodellierung vereint",
+            "summary": "TiDAR stellt eine hybride Architektur vor, die Token per Diffusion entwirft und die finalen Ausgaben in einem einzigen Vorwärtsdurchlauf autoregressiv abtastet. Durch strukturierte Aufmerksamkeitsmasken zielt das System darauf ab, parallele Geschwindigkeit mit hoher Qualität zu verbinden.",
+            "why_it_matters": "Der Ansatz adressiert den klassischen Zielkonflikt zwischen hohem Durchsatz und sprachlicher Qualität und bietet ein eigenständiges Modell mit geringem Overhead.",
+            "extended_analysis": "Diffusionssprachmodelle versprechen schnelle parallele Generierung, während autoregressive Modelle traditionell durch ihre Kausalstruktur in der Qualität überlegen sind. Bisherige Methoden hatten Schwierigkeiten, diese Aspekte zu balancieren, oft auf Kosten der Effizienz oder der Parallelisierbarkeit.\n\nTiDAR löst dies, indem es die Erstellung von Entwürfen mittels Diffusion ('Thinking') und das autoregressive Sampling ('Talking') in einem einzigen Durchlauf vereint. Dieses Design nutzt die Rechenkapazität moderner GPUs optimal aus.\n\nIn Evaluierungen bei 1.5B- und 8B-Modellgrößen im Vergleich zu autoregressiven Basismodellen und Diffusionsvarianten zeigt die Architektur messbare Fortschritte beim Token-Durchsatz und bei der Erhaltungsqualität.",
+            "context": "Die Optimierung von Inferenzgeschwindigkeiten bei gleichbleibender Modellqualität ist ein zentrales Forschungsfeld im Bereich moderner KI-Architekturen.",
+            "key_takeaways": [
+              "Sequenzbasierte Hybridarchitektur mit strukturierten Aufmerksamkeitsmasken.",
+              "Verknüpft Diffusionsgenerierung und autoregressives Sampling in einem Schritt.",
+              "Konzipiert als eigenständiges Modell mit direkter Unterstüzung für KV-Caches."
+            ],
+            "highlights": [
+              "Entwickelt von einem Forschungsteam unter Beteiligung von NVIDIA-Autoren.",
+              "Getestet an Modellen mit 1.5B und 8B Parametern."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 85,
+        "editor_pick_reason": ""
+      }
     },
     "d68f2d3cf9bdfb4a0b273e4ee25da9229096d37e0b570e12ec2ef020bcb2e573": {
       "fingerprint": "7cc0ee29f1a2737b75144a292bf6c61444ffa1ad28068178bc316192547dcf66",
@@ -15719,7 +15808,7 @@
     },
     "5348a7d239028e9b1bf7be7a3cd0b00cd33d7dd6ffac52cd0cf03c2dfa63c81d": {
       "fingerprint": "b09c211947792555fea4b3bacf346033eb73505aa6430052bba3232f2d317c60",
-      "retry_after": "2026-11-19T00:09:40.308434+00:00"
+      "retry_after": "2026-11-19T23:33:27.920788+00:00"
     },
     "762d038a321989d335975660f1265a884f0be96b17c4174c8fc33c8e5be9983c": {
       "fingerprint": "97e3045839c58a843bad20bebdabfc8d95cdcbc765567d5616a6a472bc138696",
@@ -15837,11 +15926,104 @@
     "e36f272acbd4b27f2348e1a0a3179001100d92f50f4886c500461bd0a2d4bf29": {
       "fingerprint": "d1b53669de9155686f3a913379115722f1ccbd76f88db8a3baba4fdbb37c86cc",
       "retry_after": "2026-11-19T13:58:02.602221+00:00"
+    },
+    "b54c86618447c428be164049ce59d6a98037246c8d31d073524ee19044f2f677": {
+      "fingerprint": "fa5cf59cd3161fbfd3e2ccc6a86dd6c9ff79219b98f5aaf7625402cf14c72c14",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Costruire un'IA incentrata sull'essere umano nelle aziende",
+            "summary": "In questo episodio di Practical AI, Chris discute con il Dr. Gautham Pallapa di Scotiabank su come le aziende possono adottare sistemi di intelligenza artificiale e agenti mantenendo al centro le persone, il valore di business e la fiducia.",
+            "why_it_matters": "Comprendere l'adozione dell'IA nei settori altamente regolamentati come quello bancario è essenziale per bilanciare l'innovazione tecnologica con la conformità e la fiducia.",
+            "extended_analysis": "La conversazione esplora l'approccio alla trasformazione guidata dall'intelligenza artificiale, esaminando come identificare opportunità significative in contesti normativi complessi. Vengono inoltre analizzati il ripensamento della produttività degli sviluppatori e l'uso di sistemi multi-agente per coordinare ruoli e capacità differenti.\n\nVengono menzionate le iniziative editoriali degli ospiti e i progetti futuri, offrendo spunti su come le organizzazioni affrontano la transizione verso architetture basate su agenti autonomi.",
+            "context": "Nel contesto della trasformazione digitale aziendale, l'adozione di sistemi multi-agente e agenti autonomi richiede nuove strategie organizzative per preservare la supervisione umana e la creazione di valore economico.",
+            "key_takeaways": [
+              "Adozione di sistemi di intelligenza artificiale e agenti focalizzati sul valore aziendale.",
+              "Riflessioni sull'applicazione dell'IA in settori altamente regolamentati come il banking.",
+              "Analisi dell'impatto dei sistemi multi-agente e della produttività degli sviluppatori."
+            ],
+            "highlights": [
+              "Ospite: Dr. Gautham Pallapa, Principal Director of AI and Innovation presso Scotiabank e autore di Invaluable.",
+              "Discussione sui sistemi multi-agente per integrare ruoli e capacità diverse."
+            ]
+          },
+          "en": {
+            "title": "Building Human-Centered AI in Enterprise",
+            "summary": "Chris is joined by Dr. Gautham Pallapa of Scotiabank to explore how enterprises can adopt AI and agentic systems while keeping people, business value, and trust at the core.",
+            "why_it_matters": "Balancing technological innovation with human oversight and trust is critical when implementing AI-driven transformation in highly regulated industries.",
+            "extended_analysis": "The episode delves into identifying meaningful AI opportunities within regulated sectors like banking, rethinking developer productivity, and leveraging multi-agent systems to unify different organizational roles and capabilities.\n\nListeners can expect insights on navigating organizational challenges during digital transformation, alongside mentions of current industry resources and upcoming book releases by the participants.",
+            "context": "As enterprises increasingly integrate agentic workflows and multi-agent systems, organizations face the dual challenge of technological adoption and maintaining robust regulatory alignment.",
+            "key_takeaways": [
+              "Strategies for enterprise AI and agentic system adoption centred around human trust.",
+              "Identifying valuable AI use cases within regulated industries like banking.",
+              "Leveraging multi-agent systems to bridge different roles and execution capabilities."
+            ],
+            "highlights": [
+              "Featured guest: Dr. Gautham Pallapa, Principal Director of AI and Innovation at Scotiabank.",
+              "Discussion on reshaping developer productivity and multi-agent architectures."
+            ]
+          },
+          "es": {
+            "title": "Construcción de IA centrada en el ser humano en las empresas",
+            "summary": "Chris conversa con el Dr. Gautham Pallapa de Scotiabank para analizar cómo las empresas pueden adoptar la IA y sistemas de agentes manteniendo a las personas y la confianza en el centro.",
+            "why_it_matters": "Abordar la transformación de la IA en sectores altamente regulados requiere alinear la innovación técnica con el valor comercial y la supervisión humana.",
+            "extended_analysis": "El episodio explora la identificación de oportunidades significativas para la inteligencia artificial en la banca, la reevaluación de la productividad de los desarrolladores y el uso de sistemas multiagente.\n\nTambién se abordan recursos profesionales y perspectivas sobre cómo las organizaciones gestionan la transición hacia arquitecturas basadas en agentes autónomos.",
+            "context": "La adopción empresarial de sistemas basados en agentes exige equilibrar la eficiencia operativa y la automatización con la gestión de riesgos en entornos altamente regulados.",
+            "key_takeaways": [
+              "Adopción empresarial de IA y sistemas de agentes centrados en las personas.",
+              "Identificación de oportunidades de IA en sectores regulados como la banca.",
+              "Uso de sistemas multiagente para integrar diferentes capacidades organizativas."
+            ],
+            "highlights": [
+              "Invitado: Dr. Gautham Pallapa, director principal de IA e innovación en Scotiabank.",
+              "Enfoque en el rediseño de la productividad de los desarrolladores y la arquitectura multiagente."
+            ]
+          },
+          "zh-CN": {
+            "title": "在企业中构建以人为本的人工智能",
+            "summary": "Chris 与丰业银行的 Gautham Pallapa 博士探讨了企业如何在保持以人为本、商业价值和信任的前提下采用人工智能和智能体系统。",
+            "why_it_matters": "在高度监管的行业中推进人工智能转型时，平衡技术创新与人类信任至关重要。",
+            "extended_analysis": "节目探讨了如何在银行等受监管行业识别有意义的人工智能机会、重新思考开发人员的生产力，以及利用多智能体系统将不同角色和功能整合在一起。\n\n讨论还涉及企业在数字化转型中面临的组织挑战，以及相关的行业资源和出版物信息。",
+            "context": "随着企业加速部署智能体工作流，组织需要在自动化效率与合规监管之间找到平衡点。",
+            "key_takeaways": [
+              "企业采用以人为本的人工智能与智能体系统的策略。",
+              "在银行业等受监管领域识别有价值的人工智能应用场景。",
+              "利用多智能体系统协同不同角色的执行能力。"
+            ],
+            "highlights": [
+              "特邀嘉宾：丰业银行人工智能与创新首席总监 Gautham Pallapa 博士。",
+              "探讨了重塑开发人员生产力与多智能体架构的应用。"
+            ]
+          },
+          "de": {
+            "title": "Aufbau einer menschenzentrierten KI im Unternehmen",
+            "summary": "Chris spricht mit Dr. Gautham Pallapa von der Scotiabank darüber, wie Unternehmen KI und agentenbasierte Systeme einführen und dabei Menschen, Geschäftswert und Vertrauen im Mittelpunkt behalten können.",
+            "why_it_matters": "Die Bewältigung der KI-Transformation in stark regulierten Branchen erfordert eine sorgfältige Balance zwischen technologischer Innovation und menschlicher Aufsicht.",
+            "extended_analysis": "Die Episode beleuchtet die Identifizierung sinnvoller KI-Anwendungsfälle im Bankensektor, die Neugestaltung der Entwicklerproduktivität und den Einsatz von Multi-Agenten-Systemen zur Verknüpfung verschiedener Rollen.\n\nZudem erhalten Hörer Einblicke in organisatorische Herausforderungen bei der digitalen Transformation sowie Hinweise auf relevante Branchenressourcen und Veröffentlichungen.",
+            "context": "Im Zuge der zunehmenden Verbreitung autonomer Agentensysteme in Unternehmen stehen Organisationen vor der Herausforderung, Automatisierung und regulatorische Anforderungen harmonisch zu verbinden.",
+            "key_takeaways": [
+              "Strategien für die Einführung von Unternehmens-KI und agentenbasierten Systemen.",
+              "Identifizierung von KI-Potenzialen in regulierten Branchen wie dem Bankwesen.",
+              "Einsatz von Multi-Agenten-Systemen zur Einbindung verschiedener organisatorischer Rollen."
+            ],
+            "highlights": [
+              "Gast: Dr. Gautham Pallapa, Principal Director of AI and Innovation bei der Scotiabank.",
+              "Diskussion über Entwicklerproduktivität und Multi-Agenten-Architekturen."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 45,
+        "editor_pick_reason": ""
+      }
     }
   },
   "daily": {
     "date": "2026-11-19",
-    "count": 0,
+    "count": 2,
     "picks": 0
   }
 }
