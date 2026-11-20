@@ -13823,7 +13823,7 @@
     },
     "d7c21c501eb23f12ba47c2340d026d981857380497913d0eb9b51d95ebac21c6": {
       "fingerprint": "379ee92b95c14b92e605dd8fe93329688532afd7f34486d887ce66e8c1a64fc8",
-      "retry_after": "2026-11-19T13:58:02.428104+00:00"
+      "retry_after": "2026-11-20T13:15:20.335597+00:00"
     },
     "e16892ed1d1e48a15e6e4fe67b7dd1a8b285541e5e08b3a6af4972d3f169decd": {
       "fingerprint": "435b5959edac9e8d0bda01d15d12e1e3282c5d6044d451b7df7749fe051ceafe",
@@ -15419,8 +15419,8 @@
       "retry_after": "2026-11-16T21:07:55.182250+00:00"
     },
     "4a925ee01de978814da3eb548ecb1d9aca777d08682d96e9e61646de4c23c33e": {
-      "fingerprint": "03b813d6471e019aaf378054b629b665184f02ac2fe82f64a4f86591c2ff8716",
-      "retry_after": "2026-11-20T05:52:59.038007+00:00"
+      "fingerprint": "720eb9440eec17be93c31da600b5f7ec7e682caa5b3c334e1534fe7595af2ad2",
+      "retry_after": "2026-11-20T13:15:20.405436+00:00"
     },
     "5da9a95de14e592d935b175e57b6db6233feb2ef6963da3fadf3bec2d780003b": {
       "fingerprint": "e1cdd9173cf1bdf278b262b38b7b274e46b6d95d8755c81b8b82e2f1526af91d",
@@ -16023,11 +16023,19 @@
     "b789efbd2ffbdd4abd869eea98083cb94a1bf0cc5fbe574deed0c87c68f2f079": {
       "fingerprint": "9aa07675e36f803ac3c96c89d47aae3ae3933e4e1cc25d9433b667b07c439206",
       "retry_after": "2026-11-20T05:52:59.126298+00:00"
+    },
+    "f0695d713fdfb965415e6318bdab2766fb9aa372b8c558ee55de633e647cf165": {
+      "fingerprint": "45560117a306701cdaf3a9eb2e9abc113b896b23f56570bacdc28ffc3cfe79c2",
+      "retry_after": "2026-11-20T13:15:20.257100+00:00"
+    },
+    "6bda1c3b9beaf2359a86ceadfec0ac7a5fe27ed515136269a47c0416b6ffbfb4": {
+      "fingerprint": "488af89cb47ea4364cab027b6b673b22fc38d38a964db316353df2e253db04f3",
+      "retry_after": "2026-11-20T13:15:20.553443+00:00"
     }
   },
   "daily": {
-    "date": "2026-11-19",
-    "count": 2,
+    "date": "2026-11-20",
+    "count": 0,
     "picks": 0
   }
 }
