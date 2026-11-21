@@ -15508,8 +15508,8 @@
       "retry_after": "2026-11-16T21:07:55.182250+00:00"
     },
     "4a925ee01de978814da3eb548ecb1d9aca777d08682d96e9e61646de4c23c33e": {
-      "fingerprint": "d07c3d440010b453e8a1b1845e7640760c3d501e42e9426d9f19cc85e0fc333f",
-      "retry_after": "2026-11-21T04:41:03.247657+00:00"
+      "fingerprint": "5696165d7406eda5f6a66d35a63af1ac04d6ce1ad8c6f647802b03507c8416b1",
+      "retry_after": "2026-11-21T09:30:27.383295+00:00"
     },
     "5da9a95de14e592d935b175e57b6db6233feb2ef6963da3fadf3bec2d780003b": {
       "fingerprint": "e1cdd9173cf1bdf278b262b38b7b274e46b6d95d8755c81b8b82e2f1526af91d",
@@ -16009,8 +16009,8 @@
       "retry_after": "2026-11-19T06:23:09.494657+00:00"
     },
     "385c19a396dc45aecd3c0d0d445d56254a65afa4574977c1d6e200599b99bcf3": {
-      "fingerprint": "0b1c85a00a4c48cbd2c2e6f38538ec4c0658ade8e9b66b9241073297c96d6d06",
-      "retry_after": "2026-11-20T05:52:59.188952+00:00"
+      "fingerprint": "af521327facfd827e44dace474f4328f17c33dbd050c61016a5fb54cc9559587",
+      "retry_after": "2026-11-21T09:30:27.524217+00:00"
     },
     "e36f272acbd4b27f2348e1a0a3179001100d92f50f4886c500461bd0a2d4bf29": {
       "fingerprint": "d1b53669de9155686f3a913379115722f1ccbd76f88db8a3baba4fdbb37c86cc",
@@ -16217,11 +16217,19 @@
     "810bc0b83cd55e474dabef55d09b4c4c2e40189ce76614d6f6ddd92ccb030e6a": {
       "fingerprint": "b498eb41ccc807b5283c8ac46a84403efd5c97b731e0d3377c0cb88ba705021e",
       "retry_after": "2026-11-21T04:41:03.121350+00:00"
+    },
+    "5bd812d1ea646250dadd2d5d4b27c6df7dd036171e2198d5e01b3d237a9c2309": {
+      "fingerprint": "3a8a23b86fc30e5529d194ee624bf301954fec983d3adcfeb19589f61d3c854b",
+      "retry_after": "2026-11-21T09:30:27.288594+00:00"
+    },
+    "528f4d1c82bd22be46e5ae2b76175d8b8caab0c01a4c7d0a9c30f81dcc262f4e": {
+      "fingerprint": "06ea0fb1e33e61bbf3b7194b2e38fa090070893cc0ed74eaf89324ebe005d912",
+      "retry_after": "2026-11-21T09:30:27.455137+00:00"
     }
   },
   "daily": {
-    "date": "2026-11-20",
-    "count": 2,
+    "date": "2026-11-21",
+    "count": 0,
     "picks": 0
   }
 }
