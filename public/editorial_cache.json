@@ -15508,8 +15508,97 @@
       "retry_after": "2026-11-16T21:07:55.182250+00:00"
     },
     "4a925ee01de978814da3eb548ecb1d9aca777d08682d96e9e61646de4c23c33e": {
-      "fingerprint": "5696165d7406eda5f6a66d35a63af1ac04d6ce1ad8c6f647802b03507c8416b1",
-      "retry_after": "2026-11-21T09:30:27.383295+00:00"
+      "fingerprint": "458363bbec5244af27e001a2883c2dec14448a32aa871d4084d4b1fa49b1a669",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Repomix: impacchetta l'intero codice per i modelli IA",
+            "summary": "Repomix è uno strumento in TypeScript che comprime un intero repository di codice in un unico file ottimizzato per l'intelligenza artificiale, facilitando l'interazione con vari LLM.",
+            "why_it_matters": "Semplifica notevolmente il flusso di lavoro per gli sviluppatori che desiderano condividere codebase complesse con assistenti IA e modelli linguistici di grandi dimensioni.",
+            "extended_analysis": "Lo strumento sviluppato da yamadashy, scritto in TypeScript e con oltre 29.000 stelle su GitHub, risponde alla crescente esigenza di alimentare i modelli IA con il contesto completo dei progetti di programmazione. Invece di caricare singoli file, Repomix aggrega l'intera struttura in un formato leggibile dai modelli.\n\nNel panorama dello sviluppo software assistito da IA, la gestione del contesto rappresenta una sfida fondamentale. Strumenti come Repomix mirano a colmare il divario tra i repository di codice esistenti e le capacità di analisi dei moderni LLM.\n\nNei prossimi mesi sarà utile monitorare l'evoluzione di questi strumenti di formattazione e la loro compatibilità con le nuove versioni dei modelli di generazione di codice.",
+            "context": "La gestione efficiente del codice sorgente per l'analisi tramite modelli linguistici è un tema centrale nello sviluppo odierno. Soluzioni open-source come Repomix offrono un approccio pratico per superare i limiti di input dei singoli file nei contesti di programmazione.",
+            "key_takeaways": [
+              "Aggrega interi repository in un unico file per l'IA.",
+              "Scritto in TypeScript e disponibile su GitHub.",
+              "Compatibile con diversi LLM tra cui Claude, ChatGPT e DeepSeek."
+            ],
+            "highlights": [
+              "Oltre 29.000 stelle su GitHub.",
+              "Supporta una vasta gamma di modelli linguistici di grandi dimensioni."
+            ]
+          },
+          "en": {
+            "title": "Repomix: Pack your entire codebase for AI models",
+            "summary": "Repomix is a TypeScript tool that packs an entire code repository into a single, AI-friendly file, designed for feeding codebases into various Large Language Models.",
+            "why_it_matters": "It streamlines the workflow for developers sharing complex code structures with AI coding assistants and large language models.",
+            "extended_analysis": "Created by yamadashy and built with TypeScript, Repomix addresses the common hurdle of providing sufficient codebase context to LLMs. By consolidating repository contents into a unified file, it facilitates analysis across platforms like Claude, ChatGPT, DeepSeek, and others.\n\nAs AI-assisted software development matures, efficient context provisioning remains vital. Open-source utilities that format repositories for model ingestion help bridge local project files with remote AI capabilities.\n\nDevelopers should watch how community adoption evolves and whether integration features expand for emerging development environments.",
+            "context": "Providing complete and structured codebase context to AI models is essential for effective automated coding tasks. Open-source packaging tools help developers overcome standard interface limitations when dealing with multi-file projects.",
+            "key_takeaways": [
+              "Packs entire repositories into a single AI-ready file.",
+              "Open-source TypeScript project hosted on GitHub.",
+              "Designed for use with multiple LLMs including Claude, ChatGPT, and Gemini."
+            ],
+            "highlights": [
+              "Reaches over 29,000 stars on GitHub.",
+              "Streamlines feeding repositories to diverse AI assistants."
+            ]
+          },
+          "es": {
+            "title": "Repomix: Empaqueta tu repositorio para modelos de IA",
+            "summary": "Repomix es una herramienta en TypeScript que empaqueta repositorios de código completos en un solo archivo optimizado para modelos de inteligencia artificial.",
+            "why_it_matters": "Facilita la compartición de bases de código complejas con asistentes de programación y modelos de lenguaje de gran tamaño.",
+            "extended_analysis": "Desarrollado por yamadashy, Repomix resuelve la necesidad de suministrar contexto estructurado a las IA. Al unificar los archivos del proyecto, permite alimentar herramientas como Claude, ChatGPT, Gemini y Llama de forma más eficiente.\n\nEn el ecosistema de desarrollo actual, la gestión de contextos amplios es clave para obtener resultados precisos de los modelos. Este tipo de utilidades de código abierto agilizan la interacción entre los repositorios locales y los LLM.\n\nConviene observar el crecimiento de su adopción y la incorporación de nuevas opciones de formato en futuras actualizaciones del proyecto.",
+            "context": "La integración entre el código fuente y los modelos de lenguaje requiere métodos eficientes de empaquetado y lectura de datos. Herramientas abiertas como Repomix ofrecen soluciones prácticas para desarrolladores.",
+            "key_takeaways": [
+              "Agrupa repositorios enteros en un archivo apto para IA.",
+              "Proyecto en TypeScript alojado en GitHub.",
+              "Compatible con múltiples LLM del mercado."
+            ],
+            "highlights": [
+              "Supera las 29.000 estrellas en GitHub.",
+              "Diseñado para interactuar con asistentes como Claude y ChatGPT."
+            ]
+          },
+          "zh-CN": {
+            "title": "Repomix：将整个代码仓库打包供AI模型使用",
+            "summary": "Repomix 是一个采用 TypeScript 编写的工具，可将整个代码仓库打包为单个对AI友好的文件，方便喂给各类大语言模型。",
+            "why_it_matters": "它为开发者将复杂的代码结构与AI编程助手共享时简化了工作流程。",
+            "extended_analysis": "该项目由 yamadashy 开发并在 GitHub 上获得广泛关注，旨在解决向大语言模型提供完整代码库上下文时的痛点。通过将多个源文件整合进单一文件，它优化了向 Claude、ChatGPT、DeepSeek 等工具输入代码的过程。\n\n在AI辅助软件开发的背景下，如何高效传输项目上下文至关重要。开源打包工具为本地项目与远程模型之间提供了实用的桥梁。\n\n未来可关注该工具的功能扩展以及在开发者社区中的持续应用情况。",
+            "context": "向AI模型输入结构完整的代码上下文是实现高效辅助编程的关键。开源打包工具帮助开发者克服了多文件项目输入时的常见限制。",
+            "key_takeaways": [
+              "将整个代码库打包为单个AI就绪文件。",
+              "基于 TypeScript 开发的开源项目。",
+              "支持 Claude、ChatGPT、Gemini 等多种大模型。"
+            ],
+            "highlights": [
+              "在 GitHub 上拥有超过 29,000 颗星。",
+              "简化了向各类AI助手传输代码的流程。"
+            ]
+          },
+          "de": {
+            "title": "Repomix: Gesamtes Code-Repository für KI-Modelle bündeln",
+            "summary": "Repomix ist ein TypeScript-Tool, das ein komplettes Code-Repository in eine einzige, KI-freundliche Datei packt, um Codebasen an verschiedene LLMs zu übergeben.",
+            "why_it_matters": "Es vereinfacht den Workflow für Entwickler, die komplexe Code-Strukturen mit KI-Assistenten und großen Sprachmodellen teilen möchten.",
+            "extended_analysis": "Das von yamadashy entwickelte Open-Source-Projekt adressiert die Herausforderung, LLMs mit ausreichendem Projektkontext zu versorgen. Durch die Zusammenfassung des Repository-Inhalts in eine einheitliche Datei wird die Analyse für Tools wie Claude, ChatGPT und DeepSeek erleichtert.\n\nIm Bereich der KI-gestützten Softwareentwicklung bleibt die effiziente Kontextbereitstellung ein zentrales Thema. Solche Dienstprogramme helfen dabei, lokale Projektdateien optimal für die Verarbeitung durch Sprachmodelle aufzubereiten.\n\nEs lohnt sich zu beobachten, wie sich die Akzeptanz in der Entwicklergemeinschaft weiterentwickelt und welche Formatierungsoptionen hinzukommen.",
+            "context": "Die Bereitstellung eines vollständigen und strukturierten Kontexts ist entscheidend für die Arbeit mit KI-Modellen im Softwarebau. Open-Source-Paketierungswerkzeuge bieten praktische Lösungen zur Bewältigung von Dateigrenzen.",
+            "key_takeaways": [
+              "Fasst ganze Repositories in einer einzigen KI-Datei zusammen.",
+              "TypeScript-basiertes Open-Source-Projekt auf GitHub.",
+              "Unterstützt zahlreiche LLMs wie Claude, ChatGPT und Llama."
+            ],
+            "highlights": [
+              "Verzeichnet über 29.000 Sterne auf GitHub.",
+              "Optimiert die Übergabe von Repositories an diverse KI-Assistenten."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 72,
+        "editor_pick_reason": ""
+      }
     },
     "5da9a95de14e592d935b175e57b6db6233feb2ef6963da3fadf3bec2d780003b": {
       "fingerprint": "e1cdd9173cf1bdf278b262b38b7b274e46b6d95d8755c81b8b82e2f1526af91d",
@@ -16115,7 +16204,96 @@
     },
     "f0695d713fdfb965415e6318bdab2766fb9aa372b8c558ee55de633e647cf165": {
       "fingerprint": "45560117a306701cdaf3a9eb2e9abc113b896b23f56570bacdc28ffc3cfe79c2",
-      "retry_after": "2026-11-21T04:41:02.986673+00:00"
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Scalare la GTM di Linear verso i 100M di ARR con Cristina Cordova",
+            "summary": "In questo episodio di Latent Space, esploriamo come Linear stia puntando ai 100 milioni di ARR. L'ospite Cristina Cordova, COO, discute la crescita e la strategia dell'azienda fondata per creare un tracker di problemi migliore.",
+            "why_it_matters": "Comprendere le strategie di go-to-market per aziende software innovative come Linear offre una prospettiva preziosa sulla crescita nel settore tecnologico.",
+            "extended_analysis": "Linear è nata con l'obiettivo di reinventare il tracciamento dei problemi. Sette anni e 134 milioni di dollari di finanziamenti dopo, il CEO Karri Saarinen ha dichiarato che il tracciamento dei problemi è morto. In questa puntata, l'attenzione si concentra sulle strategie di go-to-market guidate da Cristina Cordova.\n\nL'analisi approfondisce come le aziende di strumenti per sviluppatori affrontino la sfida di scalare il fatturato mantenendo un prodotto focalizzato ed efficiente, esaminando il percorso da startup a organizzazione matura.",
+            "context": "Il panorama degli strumenti per sviluppatori e della gestione dei progetti è in forte evoluzione, spinto da nuove filosofie di prodotto e da aspettative elevate in termini di efficienza.",
+            "key_takeaways": [
+              "Ascolta Cristina Cordova discutere le strategie GTM di Linear.",
+              "Analisi del percorso di crescita di Linear verso i 100 milioni di ARR.",
+              "Il contesto dietro l'affermazione secondo cui il tracciamento dei problemi è morto."
+            ],
+            "highlights": [
+              "Ospite Cristina Cordova, COO di Linear.",
+              "Discussione basata sul percorso di Linear con 134 milioni di dollari in finanziamenti."
+            ]
+          },
+          "en": {
+            "title": "Scaling Linear's GTM to $100M ARR with COO Cristina Cordova",
+            "summary": "In this Latent Space episode, we explore how Linear scales its go-to-market strategy toward $100M ARR. COO Cristina Cordova joins to discuss growth, strategy, and the evolution of the issue-tracking platform.",
+            "why_it_matters": "Analyzing how specialized developer tools scale their business operations provides crucial insights into modern software startup growth and commercial execution.",
+            "extended_analysis": "Founded to build a better issue tracker, Linear has evolved significantly over seven years and $134 million in funding, culminating in CEO Karri Saarinen's provocative post declaring issue tracking dead. This episode features COO Cristina Cordova discussing the operational and commercial mechanics behind scaling the company.\n\nThe conversation illuminates the transition from product-led growth to expansive market capture in the competitive developer tooling ecosystem, offering lessons for scaling complex enterprise software.",
+            "context": "The developer tools market relies on high user satisfaction and efficient adoption models, making go-to-market scaling strategies a critical area of study for tech operators.",
+            "key_takeaways": [
+              "Insights into scaling Linear's go-to-market strategy toward $100M ARR.",
+              "Discussion with COO Cristina Cordova on operational growth.",
+              "Exploration of Linear's evolution after raising $134 million in funding."
+            ],
+            "highlights": [
+              "Featuring Cristina Cordova, COO of Linear.",
+              "Examining the trajectory following Karri Saarinen's 'Issue tracking is dead' post."
+            ]
+          },
+          "es": {
+            "title": "Escalando el GTM de Linear a 100M de ARR con Cristina Cordova",
+            "summary": "En este episodio de Latent Space, analizamos cómo Linear impulsa su estrategia de salida al mercado hacia los 100 millones de ARR. La COO Cristina Cordova discute el crecimiento y la evolución de la empresa.",
+            "why_it_matters": "Examinar cómo las herramientas para desarrolladores escalan sus operaciones comerciales ofrece valiosas lecciones sobre el crecimiento y la ejecución en el software moderno.",
+            "extended_analysis": "Linear se fundó para crear un mejor rastreador de incidencias. Siete años y 134 millones de dólares en financiación después, el CEO Karri Saarinen publicó que el seguimiento de incidencias ha muerto. En este episodio, la COO Cristina Cordova comparte su perspectiva sobre la expansión comercial.\n\nLa charla explora la transición operativa necesaria para construir un negocio multimillonario manteniendo la calidad del producto en un mercado altamente competitivo.",
+            "context": "El ecosistema de herramientas para software evoluciona rápidamente, obligando a las empresas emergentes a refinar continuamente sus estrategias de comercialización.",
+            "key_takeaways": [
+              "Estrategias para escalar el GTM de Linear hacia los 100 millones de ARR.",
+              "Conversación con la COO Cristina Cordova sobre operaciones y crecimiento.",
+              "Contexto sobre la evolución de Linear tras 134 millones en financiación."
+            ],
+            "highlights": [
+              "Participación de Cristina Cordova, COO de Linear.",
+              "Análisis del impacto tras la publicación del post de Karri Saarinen."
+            ]
+          },
+          "zh-CN": {
+            "title": "与COO Cristina Cordova一起探讨将Linear的GTM推向1亿美元ARR",
+            "summary": "在本期Latent Space播客中，我们探讨了Linear如何将其市场进入策略推向1亿美元年度经常性收入。COO Cristina Cordova作为嘉宾分享了公司的增长与发展历程。",
+            "why_it_matters": "研究垂直开发工具如何扩展其商业运营，为现代软件初创企业的增长和市场执行提供了关键见解。",
+            "extended_analysis": "Linear最初的创立是为了打造更好的问题追踪器。经过七年的发展和1.34亿美元的融资后，其CEO Karri Saarinen发表了一篇题为“问题追踪已死”的文章。本期节目邀请了COO Cristina Cordova，探讨支撑公司规模化的商业与运营机制。\n\n对话揭示了从产品驱动增长向全面市场拓展的过渡，为软件企业的规模化提供了宝贵参考。",
+            "context": "开发者工具市场竞争激烈，企业需要高水平的用户满意度和高效的商业拓展模式来实现可持续增长。",
+            "key_takeaways": [
+              "深入了解Linear迈向1亿美元ARR的市场策略。",
+              "与COO Cristina Cordova探讨运营增长。",
+              "回顾Linear在获得1.34亿美元融资后的演变历程。"
+            ],
+            "highlights": [
+              "特邀Linear COO Cristina Cordova。",
+              "结合Karri Saarinen关于问题追踪已死的观点进行探讨。"
+            ]
+          },
+          "de": {
+            "title": "Linear GTM auf 100 Mio. ARR skalieren mit COO Cristina Cordova",
+            "summary": "In dieser Episode von Latent Space untersuchen wir, wie Linear seine Go-to-Market-Strategie auf 100 Millionen Dollar ARR skaliert. COO Cristina Cordova spricht über Wachstum und Unternehmensentwicklung.",
+            "why_it_matters": "Die Analyse, wie spezialisierte Entwicklertools ihre Geschäftsprozesse skalieren, liefert wertvolle Einblicke in das Wachstum moderner Softwareunternehmen.",
+            "extended_analysis": "Linear wurde gegründet, um ein besseres Issue-Tracking-Tool zu entwickeln. Sieben Jahre und 134 Millionen Dollar an Finanzierung später veröffentlichte CEO Karri Saarinen einen Beitrag mit dem Titel „Issue Tracking is dead“. In dieser Episode beleuchtet COO Cordova die operativen Aspekte der Skalierung.\n\nDas Gespräch beleuchtet den Übergang von produktgetriebenem Wachstum zur breiten Marktdurchdringung im wettbewerbsintensiven Ökosystem der Entwicklertools.",
+            "context": "Der Markt für Entwicklertools erfordert exzellente Produktqualität und effiziente Vertriebsmodelle, was Go-to-Market-Strategien zu einem zentralen Thema macht.",
+            "key_takeaways": [
+              "Einblicke in Linears GTM-Strategie Richtung 100 Millionen ARR.",
+              "Gespräch mit COO Cristina Cordova über operatives Wachstum.",
+              "Hintergründe zur Entwicklung von Linear nach 134 Millionen US-Dollar Funding."
+            ],
+            "highlights": [
+              "Zu Gast ist Cristina Cordova, COO von Linear.",
+              "Diskussion basierend auf der Entwicklung nach Karri Saarinens Thesen."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 25,
+        "editor_pick_reason": ""
+      }
     },
     "6bda1c3b9beaf2359a86ceadfec0ac7a5fe27ed515136269a47c0416b6ffbfb4": {
       "fingerprint": "488af89cb47ea4364cab027b6b673b22fc38d38a964db316353df2e253db04f3",
@@ -16225,11 +16403,108 @@
     "528f4d1c82bd22be46e5ae2b76175d8b8caab0c01a4c7d0a9c30f81dcc262f4e": {
       "fingerprint": "06ea0fb1e33e61bbf3b7194b2e38fa090070893cc0ed74eaf89324ebe005d912",
       "retry_after": "2026-11-21T09:30:27.455137+00:00"
+    },
+    "9ef5f6eed0a5253f78d280ff167387e71f47551095263fcbb7bb6c0b9f7bdf49": {
+      "fingerprint": "aea03fea6fb9de8961b0c598b7343633053847fa514cbeadfd971288a4e089b2",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "I consiglieri di Biden Ben Buchanan e Tantum Collins sulla sicurezza dell'IA",
+            "summary": "In questo episodio del podcast The Cognitive Revolution, il conduttore spiega l'uso della propria copia vocale per motivi di salute e presenta una conversazione con Ben Buchanan e Tantum Collins, consiglieri di Biden per l'IA.",
+            "why_it_matters": "L'episodio offre spunti di riflessione sul futuro della sicurezza dell'intelligenza artificiale attraverso il punto di vista di figure che hanno operato come consiglieri nell'amministrazione Biden.",
+            "extended_analysis": "La descrizione fornita per questo episodio è piuttosto limitata. Il conduttore racconta di aver registrato una conversazione avvenuta in auto durante un viaggio di famiglia e di utilizzare una copia vocale della propria voce a causa di una malattia, evitando così di ritardare la pubblicazione.\n\nVengono menzionati esplicitamente gli ospiti Ben Buchanan e Tantum Collins, identificati come consiglieri di Biden per l'intelligenza artificiale. L'analisi si concentra sulle tematiche relative al destino del mondo e alla gestione della leadership nella sicurezza tecnologica.\n\nDato che la descrizione non fornisce ulteriori dettagli tecnici o metriche di performance, gli ascoltatori possono esplorare direttamente i temi della conversazione attraverso il canale ufficiale per comprendere la visione dei relatori.",
+            "context": "Il dibattito sulla regolamentazione e sulla sicurezza dell'intelligenza artificiale vede il coinvolgimento diretto di figure istituzionali e consiglieri governativi, chiamati a valutare i rischi globali legati allo sviluppo tecnologico rapido.",
+            "key_takeaways": [
+              "Ascolta l'intervista con Ben Buchanan e Tantum Collins sull'IA.",
+              "Il conduttore utilizza una copia vocale dell'IA a causa di problemi di salute.",
+              "La discussione affronta il tema della sicurezza e il futuro della tecnologia."
+            ],
+            "highlights": [
+              "Ospiti dell'episodio: Ben Buchanan e Tantum Collins, consiglieri di Biden per l'IA.",
+              "Il conduttore ha impiegato la propria clonazione vocale per non ritardare l'uscita."
+            ]
+          },
+          "en": {
+            "title": "Biden AI Advisors Ben Buchanan & Tantum Collins on AI Safety",
+            "summary": "In this episode of The Cognitive Revolution, the host features an AI voice clone due to illness and welcomes Biden AI advisors Ben Buchanan and Tantum Collins to discuss AI safety and global implications.",
+            "why_it_matters": "Hearing directly from former administration advisors provides valuable perspectives on how high-level policy and safety considerations intersect with rapid technological advancements in artificial intelligence.",
+            "extended_analysis": "The available source description for this episode is brief. The host notes the use of an AI voice clone, recorded initially from a car during a family road trip, to prevent release delays while recovering from illness.\n\nThe conversation features Ben Buchanan and Tantum Collins, identified as Biden AI advisors, focusing on critical safety questions and the broader trajectory of artificial intelligence governance.\n\nAs the metadata lacks granular benchmarking data or technical specifics, audiences interested in governance and policy will find the primary discussion directly addresses the challenges of maintaining safety leads.",
+            "context": "As advanced artificial intelligence systems scale globally, policymakers and governmental advisors increasingly grapple with institutional strategies to manage safety, security, and technological advantage.",
+            "key_takeaways": [
+              "Explore perspectives from Biden AI advisors Ben Buchanan and Tantum Collins.",
+              "Understand the context behind the host's use of an AI voice clone for this release.",
+              "Examine high-level discussions regarding global safety and artificial intelligence."
+            ],
+            "highlights": [
+              "Guests include Ben Buchanan and Tantum Collins.",
+              "The host utilized an AI voice clone to release the episode on schedule."
+            ]
+          },
+          "es": {
+            "title": "Los asesores de Biden Ben Buchanan y Tantum Collins sobre la seguridad de la IA",
+            "summary": "En este episodio de The Cognitive Revolution, el anfitrión utiliza un clon de voz por motivos de salud y entrevista a los asesores de IA de Biden, Ben Buchanan y Tantum Collins, sobre el futuro de la seguridad.",
+            "why_it_matters": "Este episodio ofrece una perspectiva directa sobre la gobernanza y los desafíos de seguridad en la inteligencia artificial a través de las opiniones de expertos con experiencia gubernamental de alto nivel.",
+            "extended_analysis": "La descripción disponible del episodio es limitada. El anfitrión explica que grabó una conversación previa desde el coche y que emplea una copia digital de su voz debido a una enfermedad, asegurando así la publicación puntual.\n\nLos invitados destacados son Ben Buchanan y Tantum Collins, ambos identificados como asesores de inteligencia artificial del gobierno de Biden. La charla se centra en la gestión de la seguridad tecnológica a escala global.\n\nAl carecer de datos técnicos detallados en los metadatos, se recomienda consultar la fuente original para profundizar en los argumentos específicos expuestos por los ponentes durante la entrevista.",
+            "context": "El debate en torno a la seguridad de la inteligencia artificial involucra cada vez más a consejeros políticos y expertos gubernamentales encargados de anticipar los riesgos globales de la tecnología.",
+            "key_takeaways": [
+              "Conoce las perspectivas de los asesores Ben Buchanan y Tantum Collins.",
+              "El anfitrión recurre a una clonación de voz por motivos de salud.",
+              "Se debate sobre el destino global y la seguridad en la inteligencia artificial."
+            ],
+            "highlights": [
+              "Participación de Ben Buchanan y Tantum Collins como invitados.",
+              "Uso de clonación de voz de IA por parte del presentador para evitar retrasos."
+            ]
+          },
+          "zh-CN": {
+            "title": "拜登AI顾问本·布坎南与坦图姆·柯林斯谈人工智能安全",
+            "summary": "在播客《The Cognitive Revolution》的本期节目中，主持人因病使用AI声音克隆技术，并邀请拜登AI顾问本·布坎南和坦图姆·柯林斯探讨人工智能安全问题。",
+            "why_it_matters": "通过与前政府顾问的对话，听众可以深入了解政策制定者如何看待人工智能快速发展所带来的全球安全挑战与治理方向。",
+            "extended_analysis": "本期节目的公开描述相对精简。主持人提到由于生病，为了不延误播出进度，采用了在家中及此前家庭公路旅行期间录制的素材，并使用了AI声音克隆来生成本期主持音频。\n\n节目明确邀请了本·布坎南（Ben Buchanan）与坦图姆·柯林斯（Tantum Collins），两人均为拜登政府时期的AI顾问。讨论核心围绕技术安全性及相关全球影响展开。\n\n由于元数据未提供具体的基准测试数据或技术细节，建议直接通过官方渠道收听完整访谈，以获取关于人工智能安全政策的全面观点。",
+            "context": "随着人工智能技术的迅猛发展，政策制定者和政府顾问面临着如何在全球范围内有效管控技术风险、确保安全领先的重要课题。",
+            "key_takeaways": [
+              "聆听拜登AI顾问本·布坎南和坦图姆·柯林斯的专业见解。",
+              "了解主持人因健康原因使用AI声音克隆播报的背景。",
+              "探讨人工智能安全及相关全球治理议题。"
+            ],
+            "highlights": [
+              "特邀嘉宾：拜登AI顾问本·布坎南与坦图姆·柯林斯。",
+              "主持人使用AI声音克隆技术按时发布了本期节目。"
+            ]
+          },
+          "de": {
+            "title": "Biden-KI-Berater Ben Buchanan & Tantum Collins über KI-Sicherheit",
+            "summary": "In dieser Episode von The Cognitive Revolution nutzt der Moderator krankheitsbedingt einen KI-Stimmklon und spricht mit den Biden-KI-Beratern Ben Buchanan und Tantum Collins über globale KI-Sicherheit.",
+            "why_it_matters": "Das Gespräch gewährt Einblicke von hochrangigen politischen Beratern in die aktuellen Herausforderungen und Sicherheitsfragen rund um die Entwicklung künstlicher Intelligenz.",
+            "extended_analysis": "Die vorliegende Beschreibung zu dieser Episode ist knapp gehalten. Der Moderator erklärt, dass er aufgrund einer Erkrankung einen KI-Stimmklon verwendet, um eine Verzögerung der Veröffentlichung zu vermeiden, nachdem er zuvor bereits unterwegs Audioaufnahmen gemacht hatte.\n\nAls Gäste sind Ben Buchanan und Tantum Collins als KI-Berater der US-Regierung unter Biden ausgewiesen. Im Mittelpunkt stehen Fragen zur Sicherheit und die globalen Auswirkungen der Technologie.\n\nDa die Metadaten keine detaillierten technischen Benchmarks enthalten, empfiehlt sich ein Blick in die Originalquelle, um die Ausführungen der Gäste im Detail nachzuvollziehen.",
+            "context": "Die Diskussion um die Sicherheit und Kontrolle von fortschrittlichen KI-Systemen beschäftigt politische Entscheidungsträger weltweit, die Strategien zur Bewältigung technologischer Risiken erarbeiten.",
+            "key_takeaways": [
+              "Erfahren Sie die Perspektiven der Biden-KI-Berater Ben Buchanan und Tantum Collins.",
+              "Hintergrund zum Einsatz des KI-Stimmklons des Moderators wegen Krankheit.",
+              "Diskussion über globale Sicherheit im Zeitalter künstlicher Intelligenz."
+            ],
+            "highlights": [
+              "Gäste der Episode sind Ben Buchanan und Tantum Collins.",
+              "Der Moderator setzte einen KI-Stimmklon ein, um den Veröffentlichungskalender einzuhalten."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 45,
+        "editor_pick_reason": ""
+      }
+    },
+    "396155fea76fc1b0f38b074d1c313a561d9b1b6b01bc84c0b73ad9ba92dd28bf": {
+      "fingerprint": "8b5f1bfcba5a93239adb11655d71f0876e5125a8f8b08ae80165ac18134849b8",
+      "retry_after": "2026-11-21T17:51:35.548675+00:00"
     }
   },
   "daily": {
     "date": "2026-11-21",
-    "count": 0,
+    "count": 3,
     "picks": 0
   }
 }
