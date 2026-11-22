@@ -15508,8 +15508,8 @@
       "retry_after": "2026-11-16T21:07:55.182250+00:00"
     },
     "4a925ee01de978814da3eb548ecb1d9aca777d08682d96e9e61646de4c23c33e": {
-      "fingerprint": "f66978af8d4a10e82efa429178fbb39003fcd06e07f39cf43133b7f5be416c5e",
-      "retry_after": "2026-11-22T05:50:48.006138+00:00"
+      "fingerprint": "573833b30c57111a4b356380fffe8e58a979422ce151031d93df64af16081da0",
+      "retry_after": "2026-11-22T12:47:14.084801+00:00"
     },
     "5da9a95de14e592d935b175e57b6db6233feb2ef6963da3fadf3bec2d780003b": {
       "fingerprint": "e1cdd9173cf1bdf278b262b38b7b274e46b6d95d8755c81b8b82e2f1526af91d",
@@ -16305,7 +16305,7 @@
     },
     "810bc0b83cd55e474dabef55d09b4c4c2e40189ce76614d6f6ddd92ccb030e6a": {
       "fingerprint": "b498eb41ccc807b5283c8ac46a84403efd5c97b731e0d3377c0cb88ba705021e",
-      "retry_after": "2026-11-22T01:15:55.214295+00:00"
+      "retry_after": "2026-11-22T12:47:14.250673+00:00"
     },
     "5bd812d1ea646250dadd2d5d4b27c6df7dd036171e2198d5e01b3d237a9c2309": {
       "fingerprint": "3a8a23b86fc30e5529d194ee624bf301954fec983d3adcfeb19589f61d3c854b",
@@ -16414,7 +16414,7 @@
     },
     "ef45aaf069d7c0f9f4460810abf3c660f0376613ae3a3e149832c66f825447de": {
       "fingerprint": "6914e5cc9fc07e2ca8bd4fa8c5059c25efede7f27a990ccb85ad0d067a0cb2c8",
-      "retry_after": "2026-11-22T01:15:54.942945+00:00"
+      "retry_after": "2026-11-22T12:47:13.831488+00:00"
     },
     "3e32bae570ff21ee59e510c657138291c10e18dd5aba048c9dfb1703176c3b65": {
       "fingerprint": "5a63a9b04e428f28064624da26a8bb8b50822400e08e5a83f5d48fdb2deb89b8",
@@ -16423,11 +16423,15 @@
     "b49099cde7e97e60f531fdab0739ace017515f672d5de4fd5e17e7dadf65f19d": {
       "fingerprint": "b91739a14a724a9576bcb9dcb7062a6a5b8b93a9132f60486f9f84fa8c6a5970",
       "retry_after": "2026-11-22T05:50:48.098190+00:00"
+    },
+    "30f48121decc708b123e76182ad5478a2e1413a7c39b75bd8f4a904078e89cfb": {
+      "fingerprint": "6fe0ff027eb624333aca2c2092183124c04c4a93e28ccd7abaa6fa7f5b54b1b0",
+      "retry_after": "2026-11-22T12:47:13.947643+00:00"
     }
   },
   "daily": {
-    "date": "2026-11-21",
-    "count": 3,
+    "date": "2026-11-22",
+    "count": 0,
     "picks": 0
   }
 }
