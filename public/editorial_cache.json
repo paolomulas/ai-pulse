@@ -15508,97 +15508,8 @@
       "retry_after": "2026-11-16T21:07:55.182250+00:00"
     },
     "4a925ee01de978814da3eb548ecb1d9aca777d08682d96e9e61646de4c23c33e": {
-      "fingerprint": "9fa8e4f44bab77f2cec28480719079c564568e60553f36a26e6d597f36d13feb",
-      "editorial": {
-        "editorial": {
-          "it": {
-            "title": "Repomix: Unifica il codice per i Large Language Model",
-            "summary": "Repomix è uno strumento open source in TypeScript che compatta un intero repository di codice in un unico file ottimizzato per l'intelligenza artificiale, facilitando l'interazione con assistenti come Claude, ChatGPT e DeepSeek.",
-            "why_it_matters": "Risolve la sfida pratica di trasferire intere basi di codice ai Large Language Model, semplificando i flussi di lavoro di sviluppo con l'intelligenza artificiale.",
-            "extended_analysis": "Lo strumento risponde alla crescente esigenza di alimentare modelli avanzati con il contesto completo dei progetti software. Sviluppato in TypeScript e ospitato su GitHub, ha raccolto una notevole attenzione da parte della community.\n\nNel contesto degli strumenti di sviluppo assistito, la gestione efficiente del codice sorgente rimane un fattore chiave per massimizzare l'efficacia dei modelli linguistici.",
-            "context": "Con la diffusione di assistenti basati su LLM in vari ambienti di sviluppo, la necessità di formati di input compatti e leggibili dalla macchina è diventata centrale per programmatori e ricercatori.",
-            "key_takeaways": [
-              "Compatta interi repository in un unico file ottimizzato per l'IA.",
-              "Compatibile con molteplici LLM tra cui Claude, ChatGPT e DeepSeek.",
-              "Sviluppato in TypeScript e disponibile su GitHub."
-            ],
-            "highlights": [
-              "Oltre 29.000 stelle su GitHub",
-              "Scritto in TypeScript"
-            ]
-          },
-          "en": {
-            "title": "Repomix: Pack Your Codebase for AI Analysis",
-            "summary": "Repomix is a powerful TypeScript tool designed to pack an entire repository into a single AI-friendly file, making it seamless to feed complex codebases to Large Language Models like Claude, ChatGPT, and DeepSeek.",
-            "why_it_matters": "It streamlines developer workflows by addressing the friction of passing multi-file project contexts to modern AI coding assistants.",
-            "extended_analysis": "As developers increasingly rely on AI tools, managing context windows efficiently is crucial. Repomix tackles this by structuring entire repositories into unified inputs suitable for various language models.\n\nMaintained actively on GitHub, the project highlights the ongoing demand for developer utilities that bridge traditional source code and modern machine learning interfaces.",
-            "context": "The ecosystem of AI coding tools requires robust utilities to bridge the gap between large project directories and model context limitations.",
-            "key_takeaways": [
-              "Combines multi-file repositories into a single AI-readable file.",
-              "Supports major LLMs including Claude, ChatGPT, and DeepSeek.",
-              "Open-source TypeScript project hosted on GitHub."
-            ],
-            "highlights": [
-              "Over 29,000 GitHub stars",
-              "Implemented in TypeScript"
-            ]
-          },
-          "es": {
-            "title": "Repomix: Empaqueta tu repositorio para modelos de lenguaje",
-            "summary": "Repomix es una herramienta en TypeScript que empaqueta repositorios enteros en un único archivo optimizado para IA, facilitando compartir bases de código con asistentes como Claude, ChatGPT y DeepSeek.",
-            "why_it_matters": "Simplifica el desarrollo asistido por IA al resolver el problema de suministrar contexto completo de múltiples archivos a los modelos de lenguaje.",
-            "extended_analysis": "A medida que los desarrolladores integran la inteligencia artificial en sus rutinas, el manejo eficiente del contexto del código es esencial. Repomix ofrece una solución directa para unificar proyectos complejos.\n\nEste proyecto de código abierto en GitHub demuestra la creciente popularidad de las utilidades diseñadas para conectar bases de código con los LLM actuales.",
-            "context": "La integración de herramientas de IA en la ingeniería de software exige soluciones eficientes para empaquetar y transferir código fuente a los modelos.",
-            "key_takeaways": [
-              "Convierte repositorios completos en un archivo apto para IA.",
-              "Compatible con múltiples LLM como Claude, ChatGPT y DeepSeek.",
-              "Desarrollado en TypeScript y alojado en GitHub."
-            ],
-            "highlights": [
-              "Más de 29.000 estrellas en GitHub",
-              "Escrito en TypeScript"
-            ]
-          },
-          "zh-CN": {
-            "title": "Repomix：将完整代码库打包为适合大语言模型的格式",
-            "summary": "Repomix 是一款强大的 TypeScript 工具，可将整个代码库打包为单个对人工智能友好的文件，方便用户将复杂的代码输入给 Claude、ChatGPT 和 DeepSeek 等大语言模型。",
-            "why_it_matters": "它有效解决了向大语言模型输入多文件项目上下文时的繁琐问题，简化了基于人工智能的开发工作流程。",
-            "extended_analysis": "随着开发者对人工智能辅助编程的依赖加深，高效管理上下文窗口显得尤为重要。Repomix 通过将整个代码库结构化为统一输入，满足了这一技术需求。\n\n该开源项目托管在 GitHub 上，体现了社区对连接传统代码与机器学习接口的实用工具的持续关注。",
-            "context": "现代人工智能编程工具生态需要高效的实用程序，以弥合庞大项目目录与大语言模型上下文限制之间的鸿沟。",
-            "key_takeaways": [
-              "将多文件仓库合并为单一的人工智能可读文件。",
-              "支持包括 Claude、ChatGPT 和 DeepSeek 在内的多种主流 LLM。",
-              "采用 TypeScript 编写并在 GitHub 上开源。"
-            ],
-            "highlights": [
-              "在 GitHub 上获得超过 29,000 颗星",
-              "使用 TypeScript 开发"
-            ]
-          },
-          "de": {
-            "title": "Repomix: Repositories für KI-Analyse bündeln",
-            "summary": "Repomix ist ein leistungsstarkes TypeScript-Tool, das ein gesamtes Repository in eine einzige KI-freundliche Datei packt und so die Übergabe von Codebasen an Sprachmodelle wie Claude, ChatGPT und DeepSeek erleichtert.",
-            "why_it_matters": "Es optimiert Entwickler-Workflows, indem es die Übertragung komplexer Projektkontexte an moderne KI-Assistenten vereinfacht.",
-            "extended_analysis": "Da Entwickler zunehmend auf KI-Werkzeuge setzen, ist die effiziente Handhabung von Kontextfenstern entscheidend. Repomix begegnet dieser Herausforderung durch die Strukturierung ganzer Repositories in ein einheitliches Format.\n\nDas auf GitHub gehostete Open-Source-Projekt verdeutlicht die Nachfrage nach praktischen Dienstprogrammen an der Schnittstelle von Quellcode und maschinellem Lernen.",
-            "context": "Das Ökosystem der KI-gestützten Softwareentwicklung erfordert robuste Werkzeuge, um umfangreiche Projektstrukturen mit den Kontexteinschränkungen von Sprachmodellen kompatibel zu machen.",
-            "key_takeaways": [
-              "Kombiniert Multi-Datei-Repositories in einer einzigen KI-lesbaren Datei.",
-              "Unterstützt gängige LLMs wie Claude, ChatGPT und DeepSeek.",
-              "Entwickelt in TypeScript und auf GitHub veröffentlicht."
-            ],
-            "highlights": [
-              "Über 29.000 GitHub-Stars",
-              "Programmiert in TypeScript"
-            ]
-          }
-        },
-        "editorial_level": "ai_curated",
-        "editorial_status": "verified",
-        "editorial_model": "gemini-3.5-flash-lite",
-        "editorial_version": 4,
-        "relevance_score": 75,
-        "editor_pick_reason": ""
-      }
+      "fingerprint": "7aab456f93518231b68d646186d083b25c92f718b14b40e88f71b75a9d13988b",
+      "retry_after": "2026-11-23T03:04:34.614339+00:00"
     },
     "5da9a95de14e592d935b175e57b6db6233feb2ef6963da3fadf3bec2d780003b": {
       "fingerprint": "e1cdd9173cf1bdf278b262b38b7b274e46b6d95d8755c81b8b82e2f1526af91d",
@@ -16592,7 +16503,7 @@
     },
     "ef45aaf069d7c0f9f4460810abf3c660f0376613ae3a3e149832c66f825447de": {
       "fingerprint": "6914e5cc9fc07e2ca8bd4fa8c5059c25efede7f27a990ccb85ad0d067a0cb2c8",
-      "retry_after": "2026-11-22T20:56:51.548554+00:00"
+      "retry_after": "2026-11-23T03:04:34.376957+00:00"
     },
     "3e32bae570ff21ee59e510c657138291c10e18dd5aba048c9dfb1703176c3b65": {
       "fingerprint": "5a63a9b04e428f28064624da26a8bb8b50822400e08e5a83f5d48fdb2deb89b8",
@@ -16604,7 +16515,96 @@
     },
     "30f48121decc708b123e76182ad5478a2e1413a7c39b75bd8f4a904078e89cfb": {
       "fingerprint": "6fe0ff027eb624333aca2c2092183124c04c4a93e28ccd7abaa6fa7f5b54b1b0",
-      "retry_after": "2026-11-22T12:47:13.947643+00:00"
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Anteprima di GPT-5.6 Sol: il modello di prossima generazione di OpenAI",
+            "summary": "OpenAI ha presentato un'anteprima di GPT-5.6 Sol, un modello di intelligenza artificiale di prossima generazione progettato con capacità avanzate nei settori della programmazione, della scienza e della sicurezza informatica.",
+            "why_it_matters": "Il rilascio anticipato mette in luce i progressi tecnici mirati ai settori critici dello sviluppo software e della sicurezza informatica, accompagnati dalle più recenti soluzioni di protezione dell'azienda.",
+            "extended_analysis": "La presentazione di GPT-5.6 Sol segna un ulteriore passo avanti nello sviluppo dei modelli linguistici di grandi dimensioni da parte di OpenAI. Concentrandosi su aree complesse come la scienza, la programmazione e la cybersecurity, il modello punta ad affrontare compiti ad alto valore tecnico.\n\nSebbene i dettagli completi debbano ancora essere esplorati, l'inclusione di una pila di sicurezza avanzata riflette la crescente attenzione posta sulla mitigazione dei rischi associati ai sistemi di intelligenza artificiale più potenti.",
+            "context": "Nel panorama in rapida evoluzione dell'intelligenza artificiale generativa, i principali laboratori continuano a rilasciare iterazioni successive focalizzate su domini tecnici specifici e standard di sicurezza più rigorosi.",
+            "key_takeaways": [
+              "Annunciata l'anteprima del nuovo modello GPT-5.6 Sol da parte di OpenAI.",
+              "Il modello offre capacità rafforzate in codifica, scienza e cybersecurity.",
+              "Viene introdotto in abbinamento alla pila di sicurezza più avanzata dell'azienda."
+            ],
+            "highlights": [
+              "Capacità migliorate in settori tecnici complessi.",
+              "Integrazione delle misure di sicurezza avanzate di OpenAI."
+            ]
+          },
+          "en": {
+            "title": "Previewing GPT-5.6 Sol: OpenAI's Next-Generation Model",
+            "summary": "OpenAI has previewed GPT-5.6 Sol, a next-generation AI model built with enhanced capabilities across coding, scientific tasks, and cybersecurity, paired with the company's most advanced safety stack.",
+            "why_it_matters": "This preview highlights ongoing advancements directed at technical fields like software development and cybersecurity, backed by elevated safety measures.",
+            "extended_analysis": "The announcement of GPT-5.6 Sol outlines OpenAI's next phase in frontier model development. By focusing on rigorous domains such as science, programming, and cybersecurity, the architecture targets complex analytical workloads.\n\nAdditionally, pairing the release with a sophisticated safety framework addresses crucial industry requirements around deployment governance and risk management as capabilities expand.",
+            "context": "As the frontier AI landscape advances, developers continuously refine model architectures to tackle specialized technical challenges while improving safeguards.",
+            "key_takeaways": [
+              "OpenAI previews the next-generation model named GPT-5.6 Sol.",
+              "Model features enhanced capabilities in coding, science, and cybersecurity.",
+              "Integrated with OpenAI's most advanced safety stack to date."
+            ],
+            "highlights": [
+              "Targeted improvements in technical and scientific workflows.",
+              "Accompanied by advanced safety infrastructure."
+            ]
+          },
+          "es": {
+            "title": "Vista previa de GPT-5.6 Sol: un modelo de próxima generación",
+            "summary": "OpenAI ha presentado un avance de GPT-5.6 Sol, un modelo de inteligencia artificial de próxima generación con capacidades mejoradas en programación, ciencia y ciberseguridad, junto con su pila de seguridad más avanzada.",
+            "why_it_matters": "Este avance subraya el enfoque en dominios técnicos complejos como el desarrollo de software y la ciberseguridad, respaldado por una infraestructura de seguridad reforzada.",
+            "extended_analysis": "La presentación de GPT-5.6 Sol representa un paso adelante en la evolución de los modelos de frontera de OpenAI. Al potenciar el rendimiento en ciencias, código y seguridad informática, el sistema busca resolver problemas técnicos exigentes.\n\nLa inclusión de un conjunto de medidas de seguridad avanzadas responde a la necesidad de gestionar de manera responsable los riesgos asociados a los sistemas de IA de alta capacidad.",
+            "context": "El ecosistema de la inteligencia artificial avanza con iteraciones frecuentes orientadas a mejorar el rendimiento en áreas técnicas especializadas y reforzar los controles de seguridad.",
+            "key_takeaways": [
+              "OpenAI presenta en vista previa el modelo GPT-5.6 Sol.",
+              "Ofrece capacidades superiores en programación, ciencia y ciberseguridad.",
+              "Se integra con el sistema de seguridad más avanzado de la organización."
+            ],
+            "highlights": [
+              "Capacidades optimizadas para tareas científicas y de programación.",
+              "Desplegado junto con herramientas de seguridad avanzadas."
+            ]
+          },
+          "zh-CN": {
+            "title": "OpenAI 预览新一代模型 GPT-5.6 Sol",
+            "summary": "OpenAI 推出了新一代人工智能模型 GPT-5.6 Sol 的预览版，该模型在编程、科学和网络安全方面具备更强的功能，并搭载了该公司最先进的安全堆栈。",
+            "why_it_matters": "此次预览展示了针对软件开发和网络安全等核心技术领域的模型能力提升，并配以更为严格的安全保障措施。",
+            "extended_analysis": "GPT-5.6 Sol 的发布标志着 OpenAI 在前沿模型研发上的又一次演进。通过聚焦科学研究、代码编写以及网络安全等复杂任务，该系统旨在满足高技术标准的应用需求。\n\n与此同时，配合先进的安全堆栈发布，进一步体现了在模型能力不断扩展的同时对风险治理与防范的重视。",
+            "context": "在生成式人工智能快速发展的背景下，各大技术机构持续推出专注于特定垂直领域并强化安全控制的新版本模型。",
+            "key_takeaways": [
+              "OpenAI 发布新一代模型 GPT-5.6 Sol 的预览。",
+              "模型在编程、科学与网络安全领域表现出更强的能力。",
+              "搭配 OpenAI 目前最先进的安全技术堆栈。"
+            ],
+            "highlights": [
+              "增强了在技术和科学工作流中的表现。",
+              "引入了更完善的安全堆栈支持。"
+            ]
+          },
+          "de": {
+            "title": "Vorschau auf GPT-5.6 Sol: Ein KI-Modell der nächsten Generation",
+            "summary": "OpenAI hat eine Vorschau auf GPT-5.6 Sol veröffentlicht, ein KI-Modell der nächsten Generation mit stärkeren Fähigkeiten in den Bereichen Programmierung, Wissenschaft und Cybersicherheit, kombiniert mit dem fortschrittlichsten Sicherheitssystem.",
+            "why_it_matters": "Diese Vorschau verdeutlicht die Weiterentwicklung von Modellen für anspruchsvolle technische Anwendungsbereiche wie Softwareentwicklung und IT-Sicherheit, flankiert von verbesserten Schutzmechanismen.",
+            "extended_analysis": "Die Ankündigung von GPT-5.6 Sol markiert den nächsten Entwicklungsschritt bei den Frontier-Modellen von OpenAI. Durch die Fokussierung auf wissenschaftliche Aufgaben, Programmierung und Cybersicherheit soll das Modell komplexe analytische Anforderungen bewältigen.\n\nDie gleichzeitige Einbindung eines fortschrittlichen Sicherheitsstacks unterstreicht die Bemühungen, mit der Erweiterung der Modellfähigkeiten auch die entsprechenden Risiken kontrollierbar zu halten.",
+            "context": "Im dynamischen Umfeld der künstlichen Intelligenz optimieren führende Labors kontinuierlich ihre Architekturen, um spezialisierte technische Probleme zu lösen und Sicherheitsvorgaben zu stärken.",
+            "key_takeaways": [
+              "OpenAI kündigt das Modell GPT-5.6 Sol als Vorschau an.",
+              "Das Modell bietet verbesserte Funktionen in Programmierung, Wissenschaft und Cybersicherheit.",
+              "Es ist mit dem bisher fortschrittlichsten Sicherheitsstack von OpenAI ausgestattet."
+            ],
+            "highlights": [
+              "Fokus auf technische und wissenschaftliche Kernkompetenzen.",
+              "Kombination mit fortschrittlicher Sicherheitsinfrastruktur."
+            ]
+          }
+        },
+        "editorial_level": "editors_pick",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 85,
+        "editor_pick_reason": "L'annuncio di un modello di frontiera di nuova generazione come GPT-5.6 Sol da parte di OpenAI è di rilevanza fondamentale per il settore."
+      }
     },
     "d925d8c91f460a44f07089c2f27b36a626fbcac0f80dde4b561ae3114c0febb2": {
       "fingerprint": "daec29b2f3cf394a557e108b510ab7b9440d59c60e84ba2af4f4a457a9308ee7",
@@ -16698,11 +16698,15 @@
         "relevance_score": 75,
         "editor_pick_reason": ""
       }
+    },
+    "e19fbb75eb44457e4dbe61ac0c57dd698fc70ccefdd1c171e2f4db8584de6c3d": {
+      "fingerprint": "c055a898ee0c9e38ce8017583a99bd936892520a046586f80d78fca830b2c359",
+      "retry_after": "2026-11-23T03:04:34.490362+00:00"
     }
   },
   "daily": {
     "date": "2026-11-22",
-    "count": 3,
-    "picks": 0
+    "count": 4,
+    "picks": 1
   }
 }
