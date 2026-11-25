@@ -15508,8 +15508,8 @@
       "retry_after": "2026-11-16T21:07:55.182250+00:00"
     },
     "4a925ee01de978814da3eb548ecb1d9aca777d08682d96e9e61646de4c23c33e": {
-      "fingerprint": "0f440c36f44f22392b72c7af4334f9b81ef5a6cd34403eae8610db88808a762b",
-      "retry_after": "2026-11-25T07:37:40.572473+00:00"
+      "fingerprint": "29faa5993b23ed7344db7771db65cea99314c85e5618e0f8a01c7b37966e81ea",
+      "retry_after": "2026-11-25T16:32:53.441792+00:00"
     },
     "5da9a95de14e592d935b175e57b6db6233feb2ef6963da3fadf3bec2d780003b": {
       "fingerprint": "e1cdd9173cf1bdf278b262b38b7b274e46b6d95d8755c81b8b82e2f1526af91d",
@@ -15998,7 +15998,7 @@
     },
     "a92d7b7ef0e2da4d5922c4312bd7f7df8d2b093b922e0a6553e761255b0eac7a": {
       "fingerprint": "3cd66fca96f31682eb83a76bce304ba47077d123d522c78b17224df9a1bf2eed",
-      "retry_after": "2026-11-18T15:11:00.048487+00:00"
+      "retry_after": "2026-11-25T16:32:48.654607+00:00"
     },
     "001317287cdd9d978025c8004521e4bd5f00e81bb7bf29366f18fcf891e9d1a0": {
       "fingerprint": "a20514ae0a076ae02ff46c96cafd66c6547440e791f8b1e2067295a877320ca0",
@@ -16503,7 +16503,96 @@
     },
     "ef45aaf069d7c0f9f4460810abf3c660f0376613ae3a3e149832c66f825447de": {
       "fingerprint": "6914e5cc9fc07e2ca8bd4fa8c5059c25efede7f27a990ccb85ad0d067a0cb2c8",
-      "retry_after": "2026-11-25T07:37:40.381719+00:00"
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "I consiglieri di Biden Ben Buchanan e Tantum Collins sulla sicurezza IA",
+            "summary": "Gli ex consiglieri per l'intelligenza artificiale dell'amministrazione Biden Ben Buchanan e Tantum Collins discutono di sicurezza nazionale, catene di approvvigionamento di calcolo e strategie per la sicurezza.",
+            "why_it_matters": "L'episodio offre prospettive cruciali da parte di ex funzionari governativi su come la leadership individuale e le ideologie aziendali plasmino il futuro dell'IA e la sicurezza globale.",
+            "extended_analysis": "In questo episodio di The Cognitive Revolution, gli ex consiglieri dell'amministrazione Biden Ben Buchanan e Tantum Collins affrontano i temi critici della sicurezza nazionale e delle catene di approvvigionamento di calcolo.\n\nLa conversazione esplora la strategia di investire il vantaggio tecnologico dell'IA nella sicurezza e analizza l'impatto della leadership e dell'ideologia aziendale sulla traiettoria futura della tecnologia.",
+            "context": "Il dibattito sulla governance e la sicurezza dell'intelligenza artificiale coinvolge sempre più strettamente le politiche statali e le strategie industriali globali.",
+            "key_takeaways": [
+              "Esame delle catene di approvvigionamento di calcolo per la sicurezza nazionale.",
+              "Strategie per spendere il vantaggio dell'IA focalizzandosi sulla sicurezza.",
+              "Riflessioni sull'influenza della leadership individuale e dell'ideologia aziendale."
+            ],
+            "highlights": [
+              "Ospiti gli ex consiglieri dell'amministrazione Biden Ben Buchanan e Tantum Collins.",
+              "Discussione approfondita su sicurezza nazionale e futuro dell'intelligenza artificiale."
+            ]
+          },
+          "en": {
+            "title": "Biden AI Advisors Ben Buchanan and Tantum Collins on Safety and Security",
+            "summary": "Former Biden administration AI advisors Ben Buchanan and Tantum Collins discuss national security, compute supply chains, and spending an AI lead on safety.",
+            "why_it_matters": "It provides policy insights from former government advisors on how leadership, corporate ideology, and compute supply chains intersect with the global future of artificial intelligence.",
+            "extended_analysis": "Featuring former Biden administration AI advisors Ben Buchanan and Tantum Collins on The Cognitive Revolution, this episode explores the intersection of national security and artificial intelligence.\n\nThe discussion covers compute supply chains, the strategic choice of spending an AI lead on safety, and the role of individual leadership and corporate ideology in shaping the technology's future.",
+            "context": "Discussions around national security and AI governance highlight the growing tension between rapid technological advancement and regulatory safeguards.",
+            "key_takeaways": [
+              "Insights on national security and compute supply chains.",
+              "Analysis of spending an AI technological lead on safety measures.",
+              "Evaluation of corporate ideology and leadership in AI's future."
+            ],
+            "highlights": [
+              "Guests include former Biden administration advisors Ben Buchanan and Tantum Collins.",
+              "Exploration of strategic decisions regarding AI safety and national security."
+            ]
+          },
+          "es": {
+            "title": "Asesores de IA de Biden Ben Buchanan y Tantum Collins sobre seguridad",
+            "summary": "Los exasesores de IA de la administración Biden, Ben Buchanan y Tantum Collins, analizan la seguridad nacional, las cadenas de suministro de computación y la seguridad.",
+            "why_it_matters": "Ofrece una perspectiva directa de exfuncionarios sobre los retos de seguridad nacional y cómo las decisiones corporativas y de liderazgo moldean el futuro de la tecnología.",
+            "extended_analysis": "En este episodio de The Cognitive Revolution, los exasesores de la administración Biden Ben Buchanan y Tantum Collins abordan temas clave como la seguridad nacional y las cadenas de suministro de computación.\n\nEl debate examina la estrategia de priorizar la seguridad con la ventaja en IA y analiza cómo la ideología corporativa y el liderazgo individual influyen en el rumbo de la inteligencia artificial.",
+            "context": "La intersección entre la política gubernamental, la seguridad nacional y el desarrollo corporativo de la IA define el panorama regulatorio actual.",
+            "key_takeaways": [
+              "Perspectivas sobre seguridad nacional y cadenas de suministro de computación.",
+              "Análisis sobre la estrategia de destinar la ventaja de IA hacia la seguridad.",
+              "Reflexión sobre el liderazgo y la ideología corporativa."
+            ],
+            "highlights": [
+              "Participan los exasesores de la administración Biden Ben Buchanan y Tantum Collins.",
+              "Conversación sobre el destino de la inteligencia artificial y la seguridad global."
+            ]
+          },
+          "zh-CN": {
+            "title": "拜登AI顾问Ben Buchanan与Tantum Collins谈AI安全",
+            "summary": "前拜登政府AI顾问Ben Buchanan和Tantum Collins探讨国家安全、计算供应链以及将AI领先优势投入安全的策略。",
+            "why_it_matters": "该节目提供了来自前政府官员的关键视角，探讨了领导力、企业意识形态以及计算供应链如何共同塑造人工智能的未来。",
+            "extended_analysis": "在本期《The Cognitive Revolution》节目中，前拜登政府AI顾问Ben Buchanan和Tantum Collins深入探讨了国家安全与人工智能的交集。\n\n讨论涵盖了计算供应链、将AI技术领先优势用于安全保障的战略选择，以及个人领导力和企业意识形态在塑造技术未来中的作用。",
+            "context": "围绕国家安全和人工智能治理的讨论凸显了快速技术进步与监管保障之间日益紧密的联系。",
+            "key_takeaways": [
+              "探讨国家安全与计算供应链的关键议题。",
+              "分析将AI技术领先优势投入安全保障的战略。",
+              "评估企业意识形态与个人领导力对AI未来的影响。"
+            ],
+            "highlights": [
+              "嘉宾为前拜登政府AI顾问Ben Buchanan和Tantum Collins。",
+              "深入讨论人工智能安全性与国家安全策略。"
+            ]
+          },
+          "de": {
+            "title": "Biden-KI-Berater Ben Buchanan und Tantum Collins über Sicherheit",
+            "summary": "Die ehemaligen KI-Berater der Biden-Regierung Ben Buchanan und Tantum Collins diskutieren über nationale Sicherheit, Compute-Lieferketten und KI-Sicherheit.",
+            "why_it_matters": "Es bietet Einblicke von ehemaligen Regierungsberatern darüber, wie Führung, Unternehmensideologie und Compute-Lieferketten die globale Zukunft der künstlichen Intelligenz prägen.",
+            "extended_analysis": "In dieser Episode von The Cognitive Revolution sprechen die ehemaligen KI-Berater der Biden-Regierung Ben Buchanan und Tantum Collins über die Verbindung von nationaler Sicherheit und künstlicher Intelligenz.\n\nDie Diskussion beleuchtet Compute-Lieferketten, die Strategie, einen KI-Vorsprung in Sicherheitsmaßnahmen zu investieren, sowie den Einfluss von Führung und Unternehmensideologie auf die Technologie.",
+            "context": "Die Debatte über KI-Governance und nationale Sicherheit verdeutlicht die wachsende Bedeutung strategischer Kontrollen im technologischen Wettbewerb.",
+            "key_takeaways": [
+              "Einblicke in nationale Sicherheit und Compute-Lieferketten.",
+              "Analyse der Strategie, einen technologischen Vorsprung für Sicherheit zu nutzen.",
+              "Bewertung von Unternehmensideologie und individueller Führung."
+            ],
+            "highlights": [
+              "Zu Gast sind die ehemaligen Regierungsberater Ben Buchanan und Tantum Collins.",
+              "Diskussion über strategische Entscheidungen zur KI-Sicherheit."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 50,
+        "editor_pick_reason": ""
+      }
     },
     "3e32bae570ff21ee59e510c657138291c10e18dd5aba048c9dfb1703176c3b65": {
       "fingerprint": "5a63a9b04e428f28064624da26a8bb8b50822400e08e5a83f5d48fdb2deb89b8",
@@ -16729,7 +16818,96 @@
     },
     "0a89990ccb55fedaba30948dad61086b3267f4c6ff6a2fa41261ab1b0417ee07": {
       "fingerprint": "3795e7138b711d16c8e3cdac98c38858bb8d7f2c7a16d73cea42b09c02c5ed4b",
-      "retry_after": "2026-11-25T07:37:40.312008+00:00"
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "Costruire un'IA che ragiona nell'incertezza con Thore Graepel",
+            "summary": "In questo episodio, Thore Graepel di Metis Reasoning e UCL esplora un approccio al ragionamento dell'IA ispirato ad AlphaGo. Discutiamo del motivo per cui un ragionamento affidabile richiede rappresentazioni esplicite della conoscenza e dell'incertezza.",
+            "why_it_matters": "Esaminare i limiti dei benchmark incentrati sulle risposte offre una prospettiva cruciale su come valutare se il ragionamento di un sistema supporti realmente le sue conclusioni.",
+            "extended_analysis": "Il podcast approfondisce come un sistema potrebbe suddividere domande complesse, raccogliere prove e scegliere la mossa successiva in base all'incertezza da risolvere. L'episodio mette a confronto questo approccio con i framework per agenti esistenti e analizza il ruolo dei modelli più piccoli.\n\nVengono inoltre affrontate le sfide legate alla gestione di fonti contrastanti, alla valutazione delle prove e alla prevenzione dell'eccesso di fiducia nei modelli linguistici.",
+            "context": "Il dibattito si inserisce nel contesto della ricerca avanzata sull'intelligenza artificiale, dove il superamento dei limiti dei modelli attuali richiede nuove architetture per la gestione dell'incertezza e del ragionamento strutturato.",
+            "key_takeaways": [
+              "Il ragionamento affidabile richiede rappresentazioni esplicite di conoscenza e incertezza.",
+              "I modelli linguistici possono essere impiegati per generare ipotesi e interpretare prove.",
+              "Conoscenza e strategie di ragionamento possono migliorare in modo indipendente."
+            ],
+            "highlights": [
+              "Ospite Thore Graepel, CEO e co-fondatore di Metis Reasoning e Chair of Machine Learning presso UCL.",
+              "Discussione ispirata al lavoro svolto su AlphaGo."
+            ]
+          },
+          "en": {
+            "title": "Building AI That Can Reason Under Uncertainty with Thore Graepel",
+            "summary": "In this episode, Thore Graepel of Metis Reasoning and UCL joins us to explore an AI reasoning approach inspired by AlphaGo. We discuss why reliable reasoning requires explicit representations of knowledge and uncertainty.",
+            "why_it_matters": "Looking beyond answer-focused benchmarks helps us understand how to properly evaluate whether a system’s reasoning genuinely supports its conclusions.",
+            "extended_analysis": "The episode examines how systems might break down complex questions, gather evidence, and choose next steps based on expected uncertainty resolution. We also look at how this compares to agent harnesses and where smaller models fit.\n\nFurther discussions cover the complexities of assessing evidence, handling conflicting sources, and avoiding overconfidence in automated systems.",
+            "context": "This discussion addresses ongoing challenges in machine learning regarding how artificial intelligence systems process uncertainty and execute structured, multi-step problem solving.",
+            "key_takeaways": [
+              "Reliable reasoning demands explicit knowledge and uncertainty representations.",
+              "Language models assist in generating hypotheses and interpreting evidence.",
+              "Knowledge representation and reasoning strategies can evolve independently."
+            ],
+            "highlights": [
+              "Features Thore Graepel, CEO and co-founder of Metis Reasoning and Chair of Machine Learning at UCL.",
+              "Explores connections to previous work on AlphaGo."
+            ]
+          },
+          "es": {
+            "title": "Construir IA que razonar bajo incertidumbre con Thore Graepel",
+            "summary": "Thore Graepel, de Metis Reasoning y UCL, explora un enfoque de razonamiento para la IA inspirado en AlphaGo. Analizamos por qué el razonamiento fiable exige representaciones explícitas de conocimiento e incertidumbre.",
+            "why_it_matters": "Examinar los límites de las pruebas centradas en respuestas es clave para entender cómo evaluar si el razonamiento de un sistema respalda de verdad sus conclusiones.",
+            "extended_analysis": "El episodio aborda cómo un sistema podría descomponer preguntas complejas, reunir pruebas y elegir su próximo paso según la incertidumbre que espera resolver. También se analiza la relación con los arneses de agentes y los modelos más pequeños.\n\nSe debaten los complejos juicios necesarios para valorar evidencias, gestionar fuentes contradictorias y evitar un exceso de confianza.",
+            "context": "El debate refleja la búsqueda continua en el aprendizaje automático de métodos sólidos para que los sistemas de inteligencia artificial gestionen escenarios inciertos y complejos.",
+            "key_takeaways": [
+              "El razonamiento fiable necesita representaciones explícitas de conocimiento e incertidumbre.",
+              "Los modelos de lenguaje ayudan a formular hipótesis e interpretar evidencias.",
+              "Las estrategias de conocimiento y razonamiento pueden mejorar de forma independiente."
+            ],
+            "highlights": [
+              "Participa Thore Graepel, CEO y cofundador de Metis Reasoning y profesor de Machine Learning en UCL.",
+              "Discusión inspirada en el trabajo sobre AlphaGo."
+            ]
+          },
+          "zh-CN": {
+            "title": "与 Thore Graepel 探讨构建能在不确定性下进行推理的AI",
+            "summary": "在本期节目中，Metis Reasoning 联合创始人兼 CEO、UCL 机器学习教授 Thore Graepel 探讨了一种受 AlphaGo 启发的人工智能推理方法。我们讨论了可靠推理为何需要对知识和不确定性进行显式表示。",
+            "why_it_matters": "超越以答案为中心的基准测试，对于评估系统的推理是否真正支持其结论具有重要意义。",
+            "extended_analysis": "节目探讨了系统如何分解复杂问题、收集证据，并根据预期解决的不确定性来选择下一步行动。同时对比了其与智能体框架的区别，并探讨了小型模型的定位。\n\n此外，讨论还涵盖了评估证据、处理冲突来源以及避免过度自信过程中的艰难判断。",
+            "context": "这一讨论契合了当前机器学习领域的核心探索，即如何让AI系统在复杂和不确定环境中执行更为稳健的逻辑推理。",
+            "key_takeaways": [
+              "可靠的推理需要显式的知识和不确定性表示。",
+              "语言模型有助于生成假设和解释证据。",
+              "知识与推理策略可以实现独立改进。"
+            ],
+            "highlights": [
+              "特邀嘉宾为 Metis Reasoning 联合创始人兼 CEO、UCL 机器学习教授 Thore Graepel。",
+              "探讨了受 AlphaGo 启发的相关方法。"
+            ]
+          },
+          "de": {
+            "title": "KI-Untertstütztes Schließen unter Unsicherheit mit Thore Graepel",
+            "summary": "In dieser Episode erkundet Thore Graepel von Metis Reasoning und dem UCL einen von AlphaGo inspirierten Ansatz für KI-Schlussfolgerungen. Wir diskutieren, warum verlässliches Schließen explizite Repräsentationen von Wissen und Unsicherheit erfordert.",
+            "why_it_matters": "Die Grenzen antwortzentrierter Benchmarks zu verstehen ist entscheidend, um zu bewerten, ob das Schlussfolgern eines Systems seine Schlussfolgerungen tatsächlich stützt.",
+            "extended_analysis": "Die Episode beleuchtet, wie ein System komplexe Fragen aufbrechen, Beweise sammeln und den nächsten Schritt basierend auf der erwarteten Unsicherheitsauflösung wählen könnte. Zudem wird der Vergleich zu Agenten-Frameworks gezogen.\n\nEs werden auch die schwierigen Urteile besprochen, die bei der Bewertung von Beweisen, dem Umgang mit widersprüchlichen Quellen und der Vermeidung von Selbstüberschätzung erforderlich sind.",
+            "context": "Die Diskussion greift aktuelle Herausforderungen der Maschinenlernen-Forschung auf, bei denen verbesserte Methoden zur Handhabung von Unsicherheit und strukturierten Problemlösungen gesucht werden.",
+            "key_takeaways": [
+              "Verlässliches Schließen verlangt explizite Wissens- und Unsicherheitsdarstellungen.",
+              "Sprachmodelle helfen beim Generieren von Hypothesen und Interpretieren von Beweisen.",
+              "Wissen und Schlussfolgerungsstrategien können unabhängig voneinander verbessert werden."
+            ],
+            "highlights": [
+              "Zu Gast ist Thore Graepel, CEO und Mitbegründer von Metis Reasoning sowie Machine-Learning-Professor am UCL.",
+              "Diskussion basierend auf Erkenntnissen aus der Arbeit an AlphaGo."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 0,
+        "editor_pick_reason": ""
+      }
     },
     "32a3caf4aec2c74434f3a3948d4c0042d4e050e408a5d58127e2ce57d35c13a9": {
       "fingerprint": "3a738efec0a0dc163341f284afc6f050ff725a67749f2fab9357ab8f48dd3a84",
@@ -16738,7 +16916,7 @@
   },
   "daily": {
     "date": "2026-11-25",
-    "count": 0,
+    "count": 2,
     "picks": 0
   }
 }
