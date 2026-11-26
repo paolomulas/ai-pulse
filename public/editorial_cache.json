@@ -15508,87 +15508,87 @@
       "retry_after": "2026-11-16T21:07:55.182250+00:00"
     },
     "4a925ee01de978814da3eb548ecb1d9aca777d08682d96e9e61646de4c23c33e": {
-      "fingerprint": "7126b31d84cbfa45f18326c2411dcf55b7f090a31146da3b3a02245d4a455d32",
+      "fingerprint": "a1887c234bd530f47092877f6f0192c1b090eb2a4a18230e72d861fbf4bf3b9f",
       "editorial": {
         "editorial": {
           "it": {
-            "title": "Repomix: emبacchettare interi repository in file AI-friendly",
-            "summary": "Repomix è uno strumento sviluppato in TypeScript che compatta un intero repository di codice in un unico file ottimizzato per i modelli linguistici di grandi dimensioni. Raggiunge 29.439 stelle su GitHub ed è progettato per facilitare l'interazione con assistenti IA come Claude, ChatGPT e DeepSeek.",
-            "why_it_matters": "Semplifica drasticamente il flusso di lavoro per gli sviluppatori che desiderano alimentare le proprie basi di codice verso strumenti e modelli di intelligenza artificiale.",
-            "extended_analysis": "Lo sviluppo di software moderno richiede sempre più l'integrazione di assistenti basati su LLM per la revisione del codice, il debug e la generazione. Tuttavia, gestire repository complessi con centinaia di file può risultare macchinoso per questi sistemi.\n\nRepomix affronta questa sfida unendo l'intera struttura del progetto in un unico file leggibile dai modelli. Con oltre 29.000 stelle su GitHub, il progetto dimostra una forte adozione nella community degli sviluppatori TypeScript e non solo.\n\nNei prossimi mesi sarà importante monitorare l'evoluzione del supporto per nuovi modelli e le eventuali ottimizzazioni per la gestione di codebase sempre più estese.",
-            "context": "Nel panorama attuale dello sviluppo software, l'uso di LLM come Claude, ChatGPT, Gemini e Llama è diventato pervasivo. Strumenti di utilità come Repomix colmano il divario strutturale tra i repository di codice tradizionali e le finestre di contesto dei modelli IA.",
+            "title": "Repomix: l'interfaccia TypeScript per compattare i repository per i modelli IA",
+            "summary": "Repomix è uno strumento basato su TypeScript che unisce un intero repository di codice in un unico file ottimizzato per l'intelligenza artificiale. Questa soluzione consente agli sviluppatori di alimentare facilmente grandi modelli linguistici con interi codebase.",
+            "why_it_matters": "Semplifica notevolmente il flusso di lavoro degli sviluppatori che utilizzano strumenti di IA per analizzare, comprendere o modificare progetti software complessi.",
+            "extended_analysis": "Lo sviluppo software moderno fa sempre più affidamento su assistenti basati su grandi modelli linguistici come Claude, ChatGPT e molti altri. Tuttavia, fornire all'IA l'intero contesto di un progetto può essere macchinoso.\n\nRepomix affronta questa sfida impacchettando interi repository in un formato strutturato e leggibile dall'intelligenza artificiale, riducendo le barriere tecniche nell'uso degli assistenti di codifica avanzati.",
+            "context": "Con la diffusione di assistenti linguistici avanzati, la gestione del contesto del codice sorgente è diventata un aspetto cruciale per gli sviluppatori di tutto il mondo.",
             "key_takeaways": [
-              "Compatta un intero repository in un unico file ottimizzato per l'IA.",
-              "Compatibile con svariati modelli tra cui Claude, ChatGPT, DeepSeek e Gemini.",
-              "Progetto open source in TypeScript con quasi 30.000 stelle su GitHub."
+              "Unisce interi repository in un file unico.",
+              "Ottimizzato per modelli linguistici come Claude, ChatGPT e altri.",
+              "Progetto open source sviluppato in TypeScript."
             ],
             "highlights": [
-              "Sviluppato in TypeScript ed ospitato su GitHub.",
-              "Supera le 29.000 stelle sulla piattaforma."
+              "Oltre 29.000 stelle su GitHub.",
+              "Compatibile con molteplici LLM tra cui Claude, ChatGPT e DeepSeek."
             ]
           },
           "en": {
-            "title": "Repomix: Pack Entire Codebases into AI-Ready Files",
-            "summary": "Repomix is a powerful TypeScript tool that packs an entire code repository into a single AI-friendly file. With 29,439 stars on GitHub, it is designed for developers feeding codebases to LLMs like Claude, ChatGPT, DeepSeek, and Gemini.",
-            "why_it_matters": "It directly streamlines the process of sharing large, complex code repositories with modern AI assistants and large language models.",
-            "extended_analysis": "As software engineering increasingly incorporates generative AI tools for refactoring, documentation, and debugging, feeding complete project contexts remains a logistical hurdle.\n\nRepomix solves this by consolidating multi-file repositories into a unified format tailored for LLM consumption. Reaching nearly 30,000 GitHub stars highlights significant demand for developer tooling that bridges traditional version control and AI interfaces.\n\nFuture updates will likely focus on handling larger scale projects more efficiently and expanding compatibility as new foundation models emerge.",
-            "context": "The integration of large language models into everyday development workflows has accelerated rapidly. Tools that format or simplify codebases for LLM ingestion play a critical role in developer productivity.",
+            "title": "Repomix: Packaging Code Repositories for AI Assistants in TypeScript",
+            "summary": "Repomix is a powerful TypeScript tool that packs an entire code repository into a single, AI-friendly file. It is designed to help developers seamlessly feed complex codebases into large language models and other AI assistants.",
+            "why_it_matters": "It removes friction when sharing comprehensive project contexts with advanced AI models, making code analysis and generation much more efficient.",
+            "extended_analysis": "Integrating large language models into software engineering workflows often stumbles on a simple problem: feeding multi-file projects into a context window cleanly.\n\nBy consolidating repositories into single files tailored for models like Claude, ChatGPT, and others, Repomix offers a streamlined utility for developers working with modern AI tooling.",
+            "context": "As AI coding assistants become standard, developers constantly seek efficient ways to provide full project context without manual copy-pasting.",
             "key_takeaways": [
-              "Converts entire repositories into a single file suited for AI tools.",
-              "Supports a wide array of LLMs including Claude, ChatGPT, and Llama.",
-              "Built in TypeScript and hosted openly on GitHub."
+              "Consolidates whole repositories into one AI-ready file.",
+              "Supports prominent LLMs including Claude, ChatGPT, and Gemini.",
+              "Written in TypeScript."
             ],
             "highlights": [
-              "Written in TypeScript.",
-              "Maintains 29,439 stars on GitHub as of late 2026."
+              "Reaches 29,442 stars on GitHub.",
+              "Designed for seamless integration with major AI tools."
             ]
           },
           "es": {
-            "title": "Repomix: Empaqueta repositorios enteros para herramientas de IA",
-            "summary": "Repomix es una potente herramienta en TypeScript que compacta un repositorio de código completo en un solo archivo optimizado para la IA. Cuenta con 29.439 estrellas en GitHub y facilita alimentar con código a modelos como Claude, ChatGPT y DeepSeek.",
-            "why_it_matters": "Optimiza de forma práctica la manera en que los desarrolladores transfieren bases de código complejas a los modelos de lenguaje modernos.",
-            "extended_analysis": "A medida que los ingenieros de software dependen más de asistentes inteligentes para la revisión de código y la depuración, compartir estructuras de proyectos completas sigue siendo un desafío operativo.\n\nRepomix aborda esta necesidad uniendo múltiples archivos en un formato unificado apto para LLM. Con casi 30.000 estrellas en GitHub, refleja el interés de la comunidad por soluciones que mejoren la interoperabilidad con la IA.\n\nEn el futuro, será clave observar cómo evoluciona su compatibilidad con nuevas arquitecturas de modelos y bases de código masivas.",
-            "context": "El ecosistema de desarrollo actual utiliza de forma habitual modelos como Claude, ChatGPT, Gemini y Llama. Las herramientas auxiliares que adaptan el código fuente para estos sistemas son esenciales para maximizar su utilidad.",
+            "title": "Repomix: empaquetado de repositorios de código para asistentes de IA",
+            "summary": "Repomix es una potente herramienta en TypeScript que empaqueta un repositorio completo en un solo archivo optimizado para la inteligencia artificial. Facilita el suministro de bases de código enteras a grandes modelos de lenguaje.",
+            "why_it_matters": "Resuelve el desafío de proporcionar un contexto completo del proyecto a los asistentes de IA, mejorando la eficiencia en el desarrollo de software.",
+            "extended_analysis": "El uso de la inteligencia artificial en la programación requiere a menudo compartir estructuras de código complejas y multiarchivo con modelos avanzados.\n\nRepomix simplifica este proceso al empaquetar repositorios enteros en un formato que las herramientas de IA pueden procesar de forma directa y ordenada.",
+            "context": "La creciente adopción de asistentes de lenguaje en el desarrollo de software impulsa la creación de utilidades para gestionar contextos de código complejos.",
             "key_takeaways": [
-              "Agrupa repositorios enteros en un archivo apto para modelos de lenguaje.",
-              "Compatible con múltiples LLMs como Claude, ChatGPT, DeepSeek y Gemini.",
-              "Desarrollado en TypeScript y disponible en GitHub."
+              "Combina repositorios enteros en un archivo único.",
+              "Compatible con modelos como Claude, ChatGPT y DeepSeek.",
+              "Desarrollado en TypeScript."
             ],
             "highlights": [
-              "Implementado en TypeScript.",
-              "Alcanza 29.439 estrellas en GitHub."
+              "Cuenta con 29.442 estrellas en GitHub.",
+              "Optimizado para herramientas de inteligencia artificial."
             ]
           },
           "zh-CN": {
-            "title": "Repomix：将完整代码库打包为AI友好的文件",
-            "summary": "Repomix 是一个强大的 TypeScript 工具，可将整个代码库打包为单个对大语言模型友好的文件。它在 GitHub 上获得了 29,439 颗星，专为将代码喂给 Claude、ChatGPT、DeepSeek 等 AI 工具而设计。",
-            "why_it_matters": "它极大地简化了开发者将复杂且庞大的代码仓库提供给现代 AI 助手时的文件处理流程。",
-            "extended_analysis": "随着软件工程越来越多地将生成式 AI 引入代码重构和调试，如何向模型完整传递项目上下文依然是一项挑战。Repomix 通过将多文件仓库聚合成适合大模型读取的统一格式来解决这一问题。在 GitHub 上获得近 3,0000 颗星，突显了开发者对打通代码版本控制与 AI 接口工具的强劲需求。未来，观察其对更多新模型及超大型代码库的适配将尤为关键。",
-            "context": "在当前的代码开发工作流中，使用 Claude、ChatGPT、Gemini 和 Llama 等大语言模型已成常态。优化代码输入格式的实用工具对提升开发效率起到了关键作用。",
+            "title": "Repomix：将整个代码仓库打包为适合AI助手的单一文件",
+            "summary": "Repomix 是一个用 TypeScript 编写的强大工具，可将整个代码仓库打包成一个适合 AI 的文件。它专为需要将代码库输入给大语言模型及其他 AI 工具的开发者而设计。",
+            "why_it_matters": "它使开发者能够轻松地向高级大语言模型提供完整的项目上下文，从而提高代码分析和开发的效率。",
+            "extended_analysis": "随着大语言模型在软件开发中的广泛应用，如何高效地向模型传递多文件项目的完整上下文成为了一个常见痛点。\n\nRepomix 通过将整个代码仓库整合为结构化的单一文件，为使用 Claude、ChatGPT 等 AI 工具的开发者提供了一种简便的解决方案。",
+            "context": "在 AI 辅助编程日益普及的背景下，高效管理和传输代码库上下文对于开发者至关重要。",
             "key_takeaways": [
-              "将整个仓库压缩为适合 AI 工具读取的单个文件。",
-              "支持 Claude、ChatGPT、DeepSeek、Gemini 等多种 LLM。",
-              "基于 TypeScript 构建并在 GitHub 上开源。"
+              "将整个代码库打包为单个 AI 友好文件。",
+              "兼容 Claude、ChatGPT、DeepSeek 等多种大模型。",
+              "采用 TypeScript 开发。"
             ],
             "highlights": [
-              "使用 TypeScript 编写。",
-              "在 GitHub 上拥有 29,439 颗星。"
+              "在 GitHub 上获得 29,442 颗星。",
+              "专注于优化大语言模型的代码输入流程。"
             ]
           },
           "de": {
-            "title": "Repomix: Komplette Repositories in KI-freundliche Dateien packen",
-            "summary": "Repomix ist ein in TypeScript entwickeltes Tool, das ein gesamtes Code-Repository in eine einzige, für große Sprachmodelle optimierte Datei packt. Mit 29.439 Sternen auf GitHub erleichtert es die Fütterung von LLMs wie Claude und ChatGPT.",
-            "why_it_matters": "Es vereinfacht den Arbeitsablauf für Entwickler, die komplexe Codebasen an moderne KI-Assistenten und Sprachmodelle übergeben möchten.",
-            "extended_analysis": "Da Softwareentwickler zunehmend generative KI für Code-Reviews und Analysen einsetzen, stellt die Übertragung kompletter Projektstrukturen oft eine Hürde dar. Repomix löst dieses Problem, indem es Repositorys in ein einheitliches, für LLMs lesbares Format zusammenfasst.\n\nMit fast 30.000 GitHub-Sternen zeigt das Projekt eine erhebliche Akzeptanz in der Entwickler-Community. Zukünftig wird es wichtig sein zu beobachten, wie sich die Kompatibilität mit neuen Modellen und wachsenden Codebasen weiterentwickelt.\n\nDie Integration von KI in die tägliche Entwicklung macht spezialisierte Hilfsprogramme wie dieses zu einem wichtigen Bestandteil moderner Toolchains.",
-            "context": "Im heutigen Software-Ökosystem gehören Modelle wie Claude, ChatGPT, Gemini und Llama zum Standard-Repertoire. Werkzeuge, die Quellcode für diese Systeme aufbereiten, schliessen eine wichtige Lücke im Workflow.",
+            "title": "Repomix: Repositories für KI-Modelle in TypeScript zusammenfassen",
+            "summary": "Repomix ist ein leistungsstarkes TypeScript-Tool, das ein vollständiges Code-Repository in eine einzige, KI-freundliche Datei verpackt. Es hilft Entwicklern dabei, ganze Codebasen nahtlos an große Sprachmodelle zu übergeben.",
+            "why_it_matters": "Es erleichtert die Bereitstellung des gesamten Projektkontexts für KI-Assistenten und optimiert so die Arbeit mit modernen Software-Werkzeugen.",
+            "extended_analysis": "Die Nutzung von Sprachmodellen in der Softwareentwicklung scheitert oft an der mühsamen Bereitstellung mehrteiliger Projektstrukturen im Kontextfenster.\n\nDurch die Konsolidierung von Repositories in strukturierte, für KI optimierte Dateien bietet Repomix eine praktische Lösung für Entwickler, die mit Systemen wie Claude oder ChatGPT arbeiten.",
+            "context": "Mit der Verbreitung von KI-Programmierhilfen wächst der Bedarf an effizienten Werkzeugen zur Verwaltung und Übergabe von Quelltext-Kontexten.",
             "key_takeaways": [
-              "Fasst gesamte Repositorys in einer einzigen KI-optimierten Datei zusammen.",
-              "Unterstützt zahlreiche LLMs wie Claude, ChatGPT, DeepSeek und Gemini.",
-              "Entwickelt in TypeScript und auf GitHub gehostet."
+              "Fasst komplette Repositories in einer Datei zusammen.",
+              "Unterstützt führende LLMs wie Claude, ChatGPT und Gemini.",
+              "Entwickelt in TypeScript."
             ],
             "highlights": [
-              "Implementiert in TypeScript.",
-              "Verfügt über 29.439 Sterne auf GitHub."
+              "Verzeichnet 29.442 Sterne auf GitHub.",
+              "Entwickelt für die einfache Übergabe von Code an KI-Tools."
             ]
           }
         },
@@ -17284,11 +17284,112 @@
         "relevance_score": 0,
         "editor_pick_reason": ""
       }
+    },
+    "2a56d724f12a0c3a8943be3607a14820d3d9587f0db8ef9353e6dc2a49877672": {
+      "fingerprint": "71d7e83fd4a3e609bdea9b54de88164586c85de60b061b1527764c32e477c7c6",
+      "retry_after": "2026-11-26T18:33:50.934157+00:00"
+    },
+    "8c99a37c1ea2cc3be8ef910fc048086443546f7aa784ff54e9e77729a0bc2c3b": {
+      "fingerprint": "d8f830e907ceabaa850c07e7b31203cd137634fc9e74d745bd32dda4d8e21bff",
+      "editorial": {
+        "editorial": {
+          "it": {
+            "title": "MindGuard2: sicurezza nella salute mentale con modelli di linguaggio",
+            "summary": "Ricercatori presentano una tassonomia clinica per la sicurezza nella salute mentale dei modelli linguistici, separando la caratterizzazione del danno dalle decisioni di intervento. Questo approccio ha permesso di sviluppare MindGuard2, un modello di guardia da 35B-A3B addestrato con ragionamento breve e apprendimento rinforzato.",
+            "why_it_matters": "Il modello raggiunge un'accuratezza paragonabile a sistemi molto più grandi come GLM-5.3 ma con una latenza inferiore di circa 10 volte, migliorando il rapporto tra precisione ed efficienza nei contesti di supporto psicologico.",
+            "extended_analysis": "L'uso crescente dei modelli linguistici nel supporto alla salute mentale solleva serie questioni di sicurezza, poiché i sistemi di controllo tradizionali spesso identificano le categorie di contenuto dannoso senza considerare il contesto cruciale per una risposta adeguata. La nuova tassonomia sviluppata si articola su tre dimensioni: cosa accade, chi è coinvolto e quando si verifica. Separare la caratterizzazione del danno dalle decisioni di intervento consente di specificare le politiche di sicurezza tramite istruzioni curate da clinici e aggiornabili separatamente dai pesi del modello.\n\nPer scalare l'annotazione, il team ha validato un pannello di giudici basati su LLM e addestrato MindGuard2 utilizzando un fine-tuning supervisionato su tracce di ragionamento brevi, seguito da un apprendimento rinforzato con penalità sulla lunghezza del ragionamento. Tale configurazione riduce al minimo l'overhead di calcolo preservando i vantaggi del ragionamento analitico.\n\nNei test su benchmark pubblici e conversazioni reali, MindGuard2 ottiene tassi di falsi positivi bassi a fronte di un elevato richiamo, bilanciando il rilevamento del pericolo con la riduzione di interventi superflui che potrebbero compromettere la fiducia dell'utente. Vengono rilasciati il modello di guardia con prestazioni di livello superiore, dati sintetici e relative annotazioni.",
+            "context": "I modelli di linguaggio di grandi dimensioni (LLM) sono sempre più impiegati in contesti di supporto alla salute mentale, rendendo essenziale lo sviluppo di barriere di sicurezza affidabili e trasparenti che non introducano eccessivi ritardi operativi.",
+            "key_takeaways": [
+              "Tassonomia clinica tridimensionale: cosa, chi e quando.",
+              "MindGuard2 (35B-A3B) riduce la latenza di circa 10 volte rispetto a GLM-5.3.",
+              "Bassi tassi di falsi positivi con elevato richiamo per preservare la fiducia dell'utente."
+            ],
+            "highlights": [
+              "Separazione tra caratterizzazione del danno e decisioni di intervento.",
+              "Addestramento tramite fine-tuning supervisionato e apprendimento rinforzato con penalità sulla lunghezza."
+            ]
+          },
+          "en": {
+            "title": "MindGuard2: Structured Harm Assessment for Mental Health Safety in LLMs",
+            "summary": "Researchers introduce a clinically grounded taxonomy for mental health safety in language models, separating harm characterization from intervention decisions. This approach enables the training of MindGuard2, a 35B-A3B reasoning-based guard model offering low inference latency.",
+            "why_it_matters": "MindGuard2 achieves balanced accuracy comparable to the much larger GLM-5.3 at roughly 10x lower median latency, advancing the accuracy-latency frontier for sensitive mental health applications.",
+            "extended_analysis": "The growing adoption of large language models for mental health support brings critical safety concerns, as existing guard models frequently overlook the context required to determine correct responses. The proposed taxonomy characterizes harm along three dimensions: what the harm is, who is involved, and when it occurs. By separating harm characterization from intervention decisions, safety policies can be explicitly defined through clinician-curated instructions outside the model weights.\n\nTo scale annotation, the authors validated a panel of LLM judges and trained MindGuard2 using supervised fine-tuning on short reasoning traces followed by reinforcement learning with a reasoning-length penalty. This minimizes inference overhead while retaining analytical benefits.\n\nEvaluated on public benchmarks and real-world conversations, MindGuard2 exhibits low false-positive rates at high recall, helping prevent unnecessary interventions that might disrupt user trust. The team has released the guardrail model along with synthetic conversations and annotations.",
+            "context": "As language models see broader adoption in mental health applications, robust guardrails are essential to detect risks accurately without introducing prohibitive computational overhead or disrupting user support.",
+            "key_takeaways": [
+              "Clinically grounded taxonomy characterizing harm by what, who, and when.",
+              "MindGuard2 achieves performance comparable to GLM-5.3 with ~10x lower latency.",
+              "Low false-positive rate combined with high recall to protect user trust."
+            ],
+            "highlights": [
+              "Decoupling harm characterization from intervention rules via clinician-curated instructions.",
+              "Training via supervised fine-tuning and reinforcement learning with a reasoning-length penalty."
+            ]
+          },
+          "es": {
+            "title": "MindGuard2: Evaluación estructurada de daños para la salud mental en LLM",
+            "summary": "Investigadores presentan una taxonomía clínica para la seguridad en salud mental de los modelos de lenguaje, separando la caracterización del daño de las decisiones de intervención. Esto permite entrenar a MindGuard2, un modelo de guardia basado en razonamiento de 35B-A3B.",
+            "why_it_matters": "MindGuard2 alcanza una precisión equilibrada comparable a la del mucho mayor GLM-5.3 con una latencia media aproximadamente 10 veces menor, mejorando la eficiencia en aplicaciones de salud mental.",
+            "extended_analysis": "El uso creciente de grandes modelos de lenguaje (LLM) para el apoyo en salud mental plantea importantes retos de seguridad, ya que los modelos de control existentes suelen omitir el contexto necesario para una respuesta adecuada. La taxonomía introducida caracteriza el daño en tres dimensiones: qué es, quién está implicado y cuándo ocurre. Al separar la caracterización del daño de las decisiones de intervención, las políticas de seguridad pueden especificarse mediante instrucciones curadas por clínicos fuera de los pesos del modelo.\n\nPara escalar la anotación, se validó un panel de jueces LLM y se entrenó MindGuard2 mediante ajustes finos supervisados con trazas de razonamiento corto, seguidos de aprendizaje reforzado con penalización por longitud de razonamiento. Esto reduce la sobrecarga de inferencia manteniendo los beneficios analíticos.\n\nEn evaluaciones con benchmarks públicos y conversaciones reales, MindGuard2 logra bajas tasas de falsos positivos con alta recuperación, ayudando a equilibrar la detección de riesgos y evitando interrupciones innecesarias en el soporte al usuario.",
+            "context": "La expansión de los modelos de lenguaje en el ámbito de la salud mental exige mecanismos de seguridad rigurosos que operen de forma eficiente y eviten falsas alarmas que erosionen la confianza del usuario.",
+            "key_takeaways": [
+              "Taxonomía clínica tridimensional: qué, quién y cuándo.",
+              "MindGuard2 ofrece precisión similar a GLM-5.3 con una latencia 10 veces inferior.",
+              "Baja tasa de falsos positivos y alta recuperación para proteger la confianza del usuario."
+            ],
+            "highlights": [
+              "Separación de la caracterización del daño y las reglas de intervención.",
+              "Entrenamiento con ajuste fino supervisado y aprendizaje reforzado."
+            ]
+          },
+          "zh-CN": {
+            "title": "MindGuard2：基于短推理的心理健康安全结构化危害评估",
+            "summary": "研究人员为大语言模型的心理健康安全引入了一套基于临床基础的分类法，将危害表征与干预决策相分离。该方法催生了MindGuard2，一个采用短推理轨迹训练的35B-A3B推理型护栏模型。",
+            "why_it_matters": "MindGuard2实现了与体积大得多的GLM-5.3相当的平衡准确率，而中位延迟降低了约10倍，树立了兼顾准确性与低延迟的新标准。",
+            "extended_analysis": "大语言模型在心理健康支持中的应用日益广泛，这引发了重要的安全隐患，因为现有的防护模型往往忽略了确定适当回应所需的上下文。研究中提出的分类法从三个维度表征危害：危害是什么、涉及谁以及何时发生。通过将危害表征与干预决策分开，安全策略可以通过外部的、经临床医生审定的指令进行指定，从而独立于模型权重进行更新。\n\n为了扩大注释规模，团队验证了一组LLM评判员，并使用短推理轨迹的监督微调以及带有推理长度惩罚的强化学习来训练MindGuard2，从而在保留推理优势的同时将推理开销降至最低。\n\n在公开基准测试和真实对话的评估中，MindGuard2在保持高召回率的同时实现了较低的误报率，有助于在检测不安全情况与避免可能破坏用户信任的不必要干预之间取得平衡。团队同时发布了该防护模型及合成数据。",
+            "context": "随着语言模型更广泛地应用于心理健康领域，开发能够准确检测风险且不会带来过高计算延迟的强大安全护栏变得至关重要。",
+            "key_takeaways": [
+              "基于临床的三维度分类法：危害是什么、涉及谁以及何时发生。",
+              "MindGuard2的性能与GLM-5.3相当，但延迟降低约10倍。",
+              "在维持高召回率的同时实现低误报率，保护用户信任。"
+            ],
+            "highlights": [
+              "将危害表征与干预决策解耦，采用临床医生审定的指令进行管理。",
+              "通过监督微调和带有长度惩罚的强化学习进行训练。"
+            ]
+          },
+          "de": {
+            "title": "MindGuard2: Strukturierte Schadensbewertung für psychische Sicherheit in LLMs",
+            "summary": "Forschende stellen eine klinisch fundierte Taxonomie für die psychische Sicherheit von Sprachmodellen vor, die Schadenscharakterisierung und Interventionsentscheidungen trennt. Dies ermöglicht die Entwicklung von MindGuard2, einem 35B-A3B-Schutzmodell auf Basis kurzer Argumentationsschritte.",
+            "why_it_matters": "MindGuard2 erreicht eine vergleichbare Genauigkeit wie das deutlich größere GLM-5.3 bei einer um das Zehnfache geringeren medianen Latenz, womit die Effizienzgrenze für sensible Anwendungen verschoben wird.",
+            "extended_analysis": "Der zunehmende Einsatz großer Sprachmodelle in der psychischen Unterstützung wirft wichtige Sicherheitsfragen auf, da bestehende Schutzmodelle oft den Kontext übersehen, der für eine angemessene Reaktion erforderlich ist. Die eingeführte Taxonomie charakterisiert Schaden anhand von drei Dimensionen: Was der Schaden ist, wer beteiligt ist und wann er auftritt. Durch die Trennung der Schadenscharakterisierung von Interventionsentscheidungen können Sicherheitsrichtlinien über explizite, von Klinikerinnen und Klinikern kuratierte Anweisungen außerhalb der Modellgewichte festgelegt werden.\n\nZur Skalierung der Annotation validierte das Team ein Gremium von LLM-Schiedsrichtern und trainierte MindGuard2 durch überwachtes Fine-Tuning auf kurzen Argumentationsspuren, gefolgt von Reinforcement Learning mit einer Strafe für die Argumentationslänge. Dies minimiert den Inferenzaufwand bei gleichzeitiger Beibehaltung der analytischen Vorteile.\n\nIn Tests mit öffentlichen Benchmarks und realen Gesprächen erzielt MindGuard2 niedrige Falsch-Positiv-Raten bei hohem Recall und hilft so, das Erkennen von Risiken mit dem Risiko unnötiger Interventionen auszubalancieren.",
+            "context": "Die Verbreitung von Sprachmodellen im Bereich der psychischen Gesundheit erfordert robuste Schutzmechanismen, die Risiken präzise erkennen, ohne unzulässige Rechenverzögerungen zu verursachen oder das Vertrauen der Nutzer zu gefährden.",
+            "key_takeaways": [
+              "Klinisch fundierte Taxonomie nach Was, Wer und Wann.",
+              "MindGuard2 bietet GLM-5.3-vergleichbare Leistung bei ca. 10-fach geringerer Latenz.",
+              "Niedrige Falsch-Positiv-Rate bei hohem Recall zum Schutz des Nutzervertrauens."
+            ],
+            "highlights": [
+              "Entkopplung von Schadenscharakterisierung und Interventionsregeln durch externe Anweisungen.",
+              "Training mittels überwachtem Fine-Tuning und Reinforcement Learning mit Längestrafen."
+            ]
+          }
+        },
+        "editorial_level": "ai_curated",
+        "editorial_status": "verified",
+        "editorial_model": "gemini-3.5-flash-lite",
+        "editorial_version": 4,
+        "relevance_score": 75,
+        "editor_pick_reason": ""
+      }
+    },
+    "20bb948425ecc8875c85e4251fb022e5c7a4fcd2156b278d8da723cfb73300d9": {
+      "fingerprint": "307de2592e80c0625aaebc33ae6028ac40590039c850b078f7c816565f2b68e2",
+      "retry_after": "2026-11-26T18:34:13.195930+00:00"
     }
   },
   "daily": {
     "date": "2026-11-26",
-    "count": 4,
+    "count": 6,
     "picks": 0
   }
 }
