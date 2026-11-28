@@ -15508,97 +15508,8 @@
       "retry_after": "2026-11-16T21:07:55.182250+00:00"
     },
     "4a925ee01de978814da3eb548ecb1d9aca777d08682d96e9e61646de4c23c33e": {
-      "fingerprint": "3e2c3ed0e555a8c0264b26ff82272a41cb97401286460236eb73673f0f88fb8e",
-      "editorial": {
-        "editorial": {
-          "it": {
-            "title": "Repomix: emبacchetta i repository per i modelli linguistici",
-            "summary": "Repomix è uno strumento basato su TypeScript che raccoglie un intero repository di codice in un unico file ottimizzato per i modelli linguistici. Aiuta gli sviluppatori a nutrire i LLM con l'intera base di codice in modo efficiente.",
-            "why_it_matters": "Facilita l'integrazione di repository complessi con i principali strumenti di intelligenza artificiale, semplificando il lavoro di analisi e sviluppo assistito.",
-            "extended_analysis": "Nel panorama dello sviluppo software assistito da IA, la gestione di codebase estese rappresenta spesso un collo di bottiglia. Repomix affronta questa sfida impacchettando l'intero progetto in un formato facilmente digeribile dai modelli linguistici.\n\nQuesto approccio consente di sfruttare strumenti avanzati come Claude, ChatGPT, DeepSeek e altri senza frammentare il contesto del codice sorgente.",
-            "context": "Gli sviluppatori utilizzano sempre più spesso assistenti IA basati su LLM, ma la condivisione di intere strutture di progetto richiede formati compatibili e puliti.",
-            "key_takeaways": [
-              "Converte un intero repository in un file ottimizzato per IA.",
-              "Compatibile con svariati LLM tra cui Claude, ChatGPT e DeepSeek.",
-              "Sviluppato in TypeScript con un elevato numero di stelle su GitHub."
-            ],
-            "highlights": [
-              "Strumento open source per la preparazione di codebase.",
-              "Oltre 29.000 stelle su GitHub."
-            ]
-          },
-          "en": {
-            "title": "Repomix: Packing Codebases for AI Models",
-            "summary": "Repomix is a TypeScript-based tool that packs an entire repository into a single, AI-friendly file. It is designed to help developers feed their codebases to large language models and other AI tools efficiently.",
-            "why_it_matters": "It streamlines the process of providing complete project contexts to modern AI assistants, improving how developers analyze and build software.",
-            "extended_analysis": "As AI-driven development becomes standard, feeding large repositories into language models remains a challenge due to context fragmentation. Repomix solves this by consolidating code repositories into a unified file structure.\n\nBy supporting numerous AI platforms like Claude, ChatGPT, and DeepSeek, it bridges the gap between traditional codebases and modern machine learning interfaces.",
-            "context": "Feeding complex code structures into LLMs usually requires manual splitting or custom scripts, highlighting the need for standardized packaging tools.",
-            "key_takeaways": [
-              "Packs entire repositories into a single file for AI ingestion.",
-              "Works with major LLMs including Claude, ChatGPT, and Gemini.",
-              "Written in TypeScript with strong community adoption on GitHub."
-            ],
-            "highlights": [
-              "Single-file codebase packaging for AI tools.",
-              "Over 29,000 GitHub stars."
-            ]
-          },
-          "es": {
-            "title": "Repomix: Empaqueta repositorios para modelos de IA",
-            "summary": "Repomix es una herramienta desarrollada en TypeScript que empaqueta un repositorio completo en un solo archivo optimizado para la inteligencia artificial. Facilita el suministro de bases de código a los modelos de lenguaje.",
-            "why_it_matters": "Simplifica la integración de proyectos complejos con asistentes de IA, mejorando la eficiencia al trabajar con bases de código extensas.",
-            "extended_analysis": "El desarrollo asistido por IA requiere a menudo alimentar a los modelos con el contexto completo de un proyecto. Repomix aborda esta necesidad convirtiendo un repositorio entero en un formato claro y unificado.\n\nLa herramienta es compatible con múltiples plataformas de IA como Claude, ChatGPT, DeepSeek y Llama, facilitando flujos de trabajo avanzados.",
-            "context": "La compartición de código fuente con modelos de lenguaje exige soluciones que eviten la pérdida de contexto en proyectos grandes.",
-            "key_takeaways": [
-              "Convierte repositorios enteros en archivos aptos para IA.",
-              "Compatible con una amplia gama de LLM y herramientas de IA.",
-              "Desarrollado en TypeScript y muy popular en GitHub."
-            ],
-            "highlights": [
-              "Agrupación de repositorios en un archivo único.",
-              "Más de 29.000 estrellas en GitHub."
-            ]
-          },
-          "zh-CN": {
-            "title": "Repomix：将代码库打包用于大语言模型",
-            "summary": "Repomix 是一款基于 TypeScript 的工具，可将整个代码仓库打包成单个对人工智能友好的文件。它旨在帮助开发者高效地将代码库输入给大语言模型和其他 AI 工具。",
-            "why_it_matters": "它简化了向现代 AI 助手提供完整项目上下文的过程，提升了代码分析与智能开发的效率。",
-            "extended_analysis": "在 AI 辅助开发的浪潮中，如何向大语言模型完整传递项目结构一直是一项挑战。Repomix 通过将整个代码库整合为单一文件来解决这一问题。\n\n该工具支持 Claude、ChatGPT、DeepSeek 等多种主流 AI 平台，为开发者提供了便利的代码输入方案。",
-            "context": "将复杂的代码结构输入给 LLM 通常需要标准化的打包方案，以保持上下文的完整性。",
-            "key_takeaways": [
-              "将整个代码仓库打包为适合 AI 读取的单个文件。",
-              "兼容 Claude、ChatGPT、DeepSeek 等主流大模型。",
-              "采用 TypeScript 编写，在 GitHub 上备受关注。"
-            ],
-            "highlights": [
-              "用于 AI 工具的代码库单文件打包方案。",
-              "在 GitHub 上获得超过 29,000 颗星。"
-            ]
-          },
-          "de": {
-            "title": "Repomix: Codebasen für KI-Modelle verpacken",
-            "summary": "Repomix ist ein TypeScript-basiertes Werkzeug, das ein vollständiges Repository in eine einzige, KI-freundliche Datei verpackt. Es hilft Entwicklern, ihre Codebasis effizient an Sprachmodelle zu übergeben.",
-            "why_it_matters": "Es erleichtert die Bereitstellung kompletter Projektkontexte für moderne KI-Assistenten und optimiert die analyse- und entwicklungsbezogenen Abläufe.",
-            "extended_analysis": "Bei der KI-gestützten Softwareentwicklung ist die Handhabung großer Codebasen oft komplex. Repomix begegnet dieser Herausforderung, indem es das gesamte Repository in eine einheitliche Dateistruktur überführt.\n\nDurch die Unterstützung verschiedener Sprachmodelle wie Claude, ChatGPT und DeepSeek schließt das Werkzeug die Lücke zwischen klassischen Projekten und KI-Schnittstellen.",
-            "context": "Die Einspeisung umfangreicher Projektstrukturen in LLMs erfordert gut strukturierte Datenformate, um den Kontext zu bewahren.",
-            "key_takeaways": [
-              "Verpackt komplette Repositories in eine einzelne KI-kompatible Datei.",
-              "Unterstützt gängige LLMs wie Claude, ChatGPT und Llama.",
-              "In TypeScript entwickelt mit starker GitHub-Community."
-            ],
-            "highlights": [
-              "Einzeltausch-Verpackung für Codebasen und KI-Tools.",
-              "Über 29.000 GitHub-Sternchen."
-            ]
-          }
-        },
-        "editorial_level": "ai_curated",
-        "editorial_status": "verified",
-        "editorial_model": "gemini-3.5-flash-lite",
-        "editorial_version": 4,
-        "relevance_score": 62,
-        "editor_pick_reason": ""
-      }
+      "fingerprint": "a6c254b0af77c0b73d820b2f3fb29b8cf22e53b90a63fb00a84cc071c508952f",
+      "retry_after": "2026-11-28T19:07:58.255230+00:00"
     },
     "5da9a95de14e592d935b175e57b6db6233feb2ef6963da3fadf3bec2d780003b": {
       "fingerprint": "e1cdd9173cf1bdf278b262b38b7b274e46b6d95d8755c81b8b82e2f1526af91d",
@@ -16774,7 +16685,7 @@
     },
     "3e32bae570ff21ee59e510c657138291c10e18dd5aba048c9dfb1703176c3b65": {
       "fingerprint": "5a63a9b04e428f28064624da26a8bb8b50822400e08e5a83f5d48fdb2deb89b8",
-      "retry_after": "2026-11-23T07:43:05.735702+00:00"
+      "retry_after": "2026-11-28T19:07:58.153757+00:00"
     },
     "b49099cde7e97e60f531fdab0739ace017515f672d5de4fd5e17e7dadf65f19d": {
       "fingerprint": "b91739a14a724a9576bcb9dcb7062a6a5b8b93a9132f60486f9f84fa8c6a5970",
@@ -17757,6 +17668,14 @@
         "relevance_score": 45,
         "editor_pick_reason": ""
       }
+    },
+    "7772f4ab61e0897780cb9d7585a1f2ae6c5efdb7ec27b6afab2273a3ccc90537": {
+      "fingerprint": "0b744a05e38bb8d6cf883b166532fc5ec366d619f7a6b5eae641890ebb7547d5",
+      "retry_after": "2026-11-28T19:07:58.002791+00:00"
+    },
+    "ab2ababc8d21ffff70ffdad19e073bcbf380530ec5030372c8791b23d4999b46": {
+      "fingerprint": "abe3a3ab138188e2ccaa23039cda3d283aa6ad4122ff26b90e5779b72ba9f4b7",
+      "retry_after": "2026-11-28T19:07:58.081268+00:00"
     }
   },
   "daily": {
